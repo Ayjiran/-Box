@@ -4,8 +4,7 @@
 微信：grnb69<br>
 微信公众号：幻隐网络群<br>
 论坛：bbs.ayjrw.cn <br>
-
-介绍<br>
+演示视频：https://mp.weixin.qq.com/s/xRkMv5MB0bz8tvaCJdh-QQ<br><br>
 一款超级多功能的App，内置自带300多款功能，例如：迷路指南、心情解压、记账助手、荣耀爆料等等实用的功能！ 特点是内存小，实用性高，可玩性强！ 用户能够通过隐Box这款APP非常轻松的查询到自己需要的小工具并使用哦，多样的查询功能提供给大家，并且这里的工具使用也很便利，有兴趣的朋友快来下载隐Box体验吧！
 <br><br>
 我们的官网：http://www.ayjrw.com <br>
@@ -63,3 +62,35 @@
 ![image](https://github.com/user-attachments/assets/f3aaad6d-f231-40d4-8932-29a2ac876e62)<br>
 21.会员充值界面，可以一键跳转到支付宝支付，并且返回判断订单是否支付成功，如果支付成功，会员实时到账，资金实时到你的手里，当然还有金币充值，单次卡券充值，都在这里。<br>
 ![image](https://github.com/user-attachments/assets/e50746e4-a905-4075-9b54-04abbe911f15)<br>
+![image](https://github.com/user-attachments/assets/525d0771-1ef5-4b4e-b32d-889bc7d642c4)<br>
+![image](https://github.com/user-attachments/assets/6dbb2037-5769-418f-886c-9546213a45c8)<br>
+![image](https://github.com/user-attachments/assets/fbfc6b9a-4894-446b-9027-971d2355c1ae)<br>
+收入美观，躺赚如此简单。<br>
+![image](https://github.com/user-attachments/assets/3e10d270-c85c-4b35-b794-ecbd7b05b346)<br>
+金币用于社区看帖子以及支付商城产品使用，会员用于使用功能，卡券就是只能使用一次软件功能，退出软件后台即失效。 22.街机游戏也是可以在后台随便添加或者修改的，可以随意增加游戏提供给用户使用，一样可以有效的增加客户留存时间。<br>
+![image](https://github.com/user-attachments/assets/e4c2b09d-316c-475e-85a6-fd3630e3c7d8)<br>
+23.创作者中心，在这里用户可以上传社区的帖子并且更直观的查看自己的金币并进行提现，也可以查看自己发布的帖子以及评论。<br>
+![image](https://github.com/user-attachments/assets/1e144e45-df43-4d6b-99a9-e85c9b08c35e)<br>
+![image](https://github.com/user-attachments/assets/95e8467d-497a-483e-aee1-926e1df87d3a)<br>
+24.会员功能界面和平民功能界面是一样的，也是功能，但是唯一不同的是这里只有会员才能进来。<br>
+![image](https://github.com/user-attachments/assets/c58ebb2c-cf32-4beb-bc22-ddf4db9eb649)<br>
+25.软件教程页面，哪里不懂就问我们的百科全书。<br>
+![image](https://github.com/user-attachments/assets/01b0e297-1436-4b0c-9654-e1b8e3944573)<br>
+26.填写网页地址一键创建属于自己的app。<br>
+![image](https://github.com/user-attachments/assets/930a54d2-7b45-41c5-8d7e-c52c5f0d8438)<br>
+<br><br>
+<h2>安装教程</h2><br>
+1.（首先请从平台下载内容后，把压缩包后缀改成iapp）
+<br><br>
+2.下载iapp源码导入到iapp软件中，搭建后端(联系作者获取)。<br>
+3.修改mian.iyu的载入事件的后台地址。<br>
+4.软件正式打包发布。<br>
+5.运营赚钱！<br><br>
+<h2>使用说明</h2><br>
+1.禁止用于违法操作。<br>
+2.请留版权，我谢谢你，已经申请软件著作权，侵权必究。
+3.幻隐网络科技独家开发。<br><br><br>
+<h2>软件成品下载体验</h2><br>
+1.复制到浏览器打开：ayjrw.cn
+2.找到隐Box下载！
+3.直接下载注册体验即可！
