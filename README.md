@@ -1,5 +1,6 @@
 # -隐Box聚合工具箱/幻隐网络科技
-<h2>前言</h2><br>
+<h2>前言</h2>
+![image](https://github.com/user-attachments/assets/ad4697fe-613c-41f0-bc6a-909be4e8667f)<br>
 我们专注软件开发设计，本软件由本人于2018年开始创作，一直更新至今，缝合了很多功能，也有很多原创功能，当然如果你喜欢钻牛角尖，可以叫我缝合怪，无所谓！<br>以前使用了很多人的开源系统，回馈社会嘛，我懂，感谢各位支持！<br><br>
 官网：www.ayjrw.cn <br>
 微信：grnb69<br>
@@ -7,13 +8,10 @@
 论坛：bbs.ayjrw.cn <br>
 演示视频：https://mp.weixin.qq.com/s/xRkMv5MB0bz8tvaCJdh-QQ<br><br>
 一款超级多功能的App，内置自带300多款功能，例如：迷路指南、心情解压、记账助手、荣耀爆料等等实用的功能！ 特点是内存小，实用性高，可玩性强！ 用户能够通过隐Box这款APP非常轻松的查询到自己需要的小工具并使用哦，多样的查询功能提供给大家，并且这里的工具使用也很便利，有兴趣的朋友快来下载隐Box体验吧！
-<br><br>
-我们的官网：http://www.ayjrw.com <br>
-联系我们：http://www.ayjrw.com/lx <br><br>
 
-<h2>软件架构</h2><br>
+<h2>软件架构</h2>
 软件架构说明，应用内的所有东西都可以在后台更新，iapp开发前端，后端对接php，版本推荐php5.6，数据库mysql5.7，对接的自己二开的hybbs论坛系统（独家）。<br>
-<h2>功能以及界面讲解</h2><br>
+<h2>功能以及界面讲解</h2>
 由于软件功能高达300种，不能全部讲解，具体请自己下载搭建查看。<br><br>
 
 1.启动界面，简洁美观，简约大气。<br>
@@ -78,20 +76,20 @@
 25.软件教程页面，哪里不懂就问我们的百科全书。<br>
 ![image](https://github.com/user-attachments/assets/01b0e297-1436-4b0c-9654-e1b8e3944573)<br>
 26.填写网页地址一键创建属于自己的app。<br>
-![image](https://github.com/user-attachments/assets/930a54d2-7b45-41c5-8d7e-c52c5f0d8438)<br>
-<br><br>
-<h2>安装教程</h2><br>
-1.（首先请从平台下载内容后，把压缩包后缀改成iapp）
-<br><br>
+![image](https://github.com/user-attachments/assets/930a54d2-7b45-41c5-8d7e-c52c5f0d8438)
+<h2>安装教程</h2>
+1.（首先请从平台下载内容后，把压缩包后缀改成iapp）<br>
 2.下载iapp源码导入到iapp软件中，搭建后端(联系作者获取)。<br>
 3.修改mian.iyu的载入事件的后台地址。<br>
 4.软件正式打包发布。<br>
 5.运营赚钱！<br><br>
 <h2>使用说明</h2><br>
 1.禁止用于违法操作。<br>
-2.请留版权，我谢谢你，已经申请软件著作权，侵权必究。
-3.幻隐网络科技独家开发。<br><br><br>
-<h2>软件成品下载体验</h2><br>
-1.复制到浏览器打开：ayjrw.cn
-2.找到隐Box下载！
-3.直接下载注册体验即可！
+2.请留版权，我谢谢你，已经申请软件著作权，侵权必究。<br>
+3.幻隐网络科技独家开发。
+<h2>软件成品下载体验</h2>
+1.复制到浏览器打开：ayjrw.cn<br>
+2.找到隐Box下载！<br>
+3.直接下载注册体验即可！<br>
+![image](https://github.com/user-attachments/assets/d438d898-ca40-4713-b1c1-4b5dfe411fc3)<br>
+![image](https://github.com/user-attachments/assets/caee2b26-b19c-4f39-b85a-d41227c44ec2)
