@@ -1,0 +1,117 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=white
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="2" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=代码运行
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=5dp
+background=@shadow_bottom.png</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="2" type="EditText">
+<ppt>width=-1
+height=300dp
+text=
+hint=请输入HTML代码
+background=through
+textcursordrawable=#ff4eabaa
+layout_marginleft=20dp
+layout_marginright=20dp
+layout_margintop=20dp
+gravity=top</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="2" type="Button">
+<ppt>width=-1
+height=-2
+text=开始运行
+backgroundcolor=#2196F3
+textcolor=#ffffff
+layout_marginleft=20dp
+layout_marginright=20dp
+layout_margintop=20dp</ppt>
+<event>
+<eventItme type="clicki">ug(6,"text",c)
+s d = "utf-8"
+s e = "text/html"
+us(9, "url", c, d, e, f)
+f(true==f)
+{
+tw("成功")
+}
+else
+{
+tw("失败")
+}</eventItme>
+</event>
+</View>
+<View id="9" did="2" type="WebView">
+<ppt>width=-2
+height=-2
+layout_marginleft=20dp
+layout_marginright=20dp
+layout_margintop=20dp</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=11
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(1,颜色)
+fn 着色.控件着色(8,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(6,"background",背景)
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

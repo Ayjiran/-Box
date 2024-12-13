@@ -1,0 +1,5 @@
+function get()
+  --版本号
+  import "android.content.pm.PackageManager"
+  return activity:getPackageManager():getPackageInfo(activity:getPackageName(), 0).versionName
+end

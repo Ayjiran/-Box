@@ -1,0 +1,79 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=72dp
+orientation=horizontal
+padding=8dp
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">t()
+{
+ufnsui()
+{
+  utw(null,"","load.iyu",false,v)
+}
+ula(sss.urllist,null)
+ulag(st_vW,5,imagelist)
+s i=","
+sl(imagelist,i,ilist)
+sgszl(ilist,len)
+s-(1,len)
+s j=0
+w(j&lt;len)
+{
+  sgsz(ilist,j,url)
+  ssg(url,1,url)
+  ss("https://i1.joucus-tj.com"+url,url)
+  ula(sss.urllist,1=null,2="",3=url)
+  s+(1,j)
+}
+endutw(v)
+uigo("pict.iyu")
+}
+
+  
+  
+  </eventItme></event>
+</View>
+<View id="2" did="1" type="ImageView">
+<ppt>width=60dp
+height=60dp
+src=17301567
+scaleType=fitxy</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=标题
+layout_marginLeft=5dp
+</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=头像链接
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片链接
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">ulag(st_vW,4,url)
+f(url==""||url==null)
+{
+  endcode
+}
+gvs(st_vW,chalist.2,img)
+fn 加载.图片(img,url) 
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

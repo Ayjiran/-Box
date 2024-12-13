@@ -1,0 +1,245 @@
+<View id="12" did="0" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="12" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="15" did="12" type="TextView">
+<ppt>width=-2
+height=-1
+text=有声小说
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="16" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="10" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="10" type="CoordinatorLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="ViewPager">
+<ppt>width=-1
+height=-1
+layout_marginTop=40dp
+app_layout_behavior=android.support.design.widget.AppBarLayout$ScrollingViewBehavior</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="11" did="3" type="CardView">
+<ppt>width=-1
+height=40dp
+app_CardElevation=5dp</ppt>
+<event></event>
+</View>
+<View id="9" did="11" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="9" type="AppBarLayout">
+<ppt>width=-1
+height=-2
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="Toolbar">
+<ppt>width=-1
+height=-3
+app_title=听书宝
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TabLayout">
+<ppt>width=-2
+height=-2
+app_tabMode=0
+app_tabgravity=0
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//设置工具栏
+
+s stop = 2000
+s text="请耐心等待~"
+fn color.ColorToast(text,stop)
+//加载可能会缓慢，耐心等待即可。
+utb(8)
+//绑定标签布局
+uht(4, "bd", 7, true)
+
+//增加 滑动页面 并设置标题 这个标题因为绑定的关系 会自动添加成 标签选择卡 子项
+
+uht(4, "add", -1, "玄幻奇幻", "qelb.iyu", 1=null, 2="https://api.imjad.cn/qqfm/v1/?type=album&page_size=150&id=38954&page=1") 
+uht(4, "add", -1, "恐怖灵异 ", "qelb.iyu", 1=null, 2="https://api.imjad.cn/qqfm/v1/?type=album&page_size=150&id=39096&page=1") 
+uht(4, "add", -1, "现代言情", "qelb.iyu", 1=null, 2="https://api.imjad.cn/qqfm/v1/?type=album&page_size=150&id=38949&page=1") 
+
+uht(4, "add", -1, "武侠传奇", "qelb.iyu", 1=null, 2="https://api.imjad.cn/qqfm/v1/?type=album&page_size=150&id=38958&page=1")
+
+uht(4, "add", -1, "悬疑推理", "qelb.iyu", 1=null, 2="https://api.imjad.cn/qqfm/v1/?type=album&page_size=150&id=41092&page=1")  
+
+
+uht(4, "add", -1, "武侠传奇", "qelb.iyu", 1=null, 2="https://api.imjad.cn/qqfm/v1/?type=album&page_size=150&id=38958&page=1")  
+
+
+uht(4, "add", -1, "鬼故事", "qelb.iyu", 1=null, 2="https://api.imjad.cn/qqfm/v1/?type=album&page_size=150&id=105&page=1")  
+
+uht(4, "add", -1, "评书大全", "qelb.iyu", 1=null, 2="https://api.imjad.cn/qqfm/v1/?type=album&page_size=150&id=38969&page=1")  
+
+uht(4, "add", -1, "歌手", "qelb.iyu", 1=null, 2="https://api.imjad.cn/qqfm/v1/?type=album&page_size=150&id=117&page=1")  
+
+/.
+page_size
+每页显示数量
+page
+页码
+
+id
+分类ID
+
+分类详情
+
+有声小说
+ID说明
+39092 全部专辑 
+41092 悬疑推理 
+39096 恐怖灵异 
+38954 玄幻奇幻 
+38949 现代言情 
+38951 古代言情 
+105 鬼故事 
+104 影视原著 
+40042 网游竞技 
+38953 都市生活 
+38958 武侠传奇 
+38957 官场商战 
+38960 历史军事 
+38959 青春校园 
+40041 耽美同人 
+39103 广播剧 
+40040 社科管理 
+38956 文学名著 
+41093 杂志专栏 
+
+
+
+相声曲艺
+ID说明
+4 全部专辑 
+38963 郭德纲 
+39109 相声新星 
+38971 相声名家 
+38969 评书大全 
+38970 小品大全 
+111 粤语评书 
+40048 刘兰芳 
+40049 王玥波 
+38965 单田芳 
+38966 袁阔成 
+38972 田连元 
+39133 戏曲名剧 
+
+妈咪宝贝
+ID说明
+39120 全部专辑 
+40005 睡前故事 
+40002 童话寓言 
+40001 儿歌音乐 
+40003 孕妈育儿 
+40009 经典名著 
+40070 诗词国学 
+40007 儿童英语 
+40008 儿童科普 
+40076 儿童教材 
+40004 卡通动画 
+
+
+
+音乐电台
+ID说明
+39110 全部专辑 
+102 心情 
+118 乐评 
+117 歌手 
+38936 流行 
+39116 经典 
+40083 催眠 
+38937 欧美 
+40078 日韩 
+101 榜单 
+40038 粤语 
+103 纯音 
+100 3D 
+40030 电子 
+40029 喊麦 
+40082 原创 
+38938 翻唱 
+38943 民谣 
+40079 摇滚 
+40028 动漫 
+40080 古风 
+40081 宗教 
+40077 跑步 
+38942 影视 
+40039 古典 
+40036 世界 
+40037 儿童 
+
+
+
+
+./
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="downkey">end()</eventItme><eventItme type="loadingComplete">fr("$幻隐网络/配置/yx.txt",yg)
+us(12,"background",yg)
+uycl("#ff00bfff",true)</eventItme></UIEventset>

@@ -1,0 +1,60 @@
+<View id="3" did="0" type="TextInputLayout">
+<ppt>width=-1
+height=-2
+app_CounterEnabled=true
+BackgroundColor=#ffffffff
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="1" did="3" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+textColorHint=#FF3B79FE
+textCursorDrawable=#FF3B79FE
+textColor=#000000
+textSize=18sp
+layout_marginleft=20dp
+layout_marginRight=20dp
+hint=要替换的文本</ppt>
+<event></event>
+</View>
+<View id="4" did="0" type="TextInputLayout">
+<ppt>width=-1
+height=-2
+app_CounterEnabled=true
+BackgroundColor=#ffffffff
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="4" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+textColorHint=#FF3B79FE
+textCursorDrawable=#FF3B79FE
+textColor=#000000
+textSize=18sp
+layout_marginleft=20dp
+layout_marginRight=20dp
+hint=替换后的文本</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//fn zs.编辑框着色(1, "#0D47A1")
+
+
+gvs(v,1,ss.v1)
+gvs(v,2,ss.v2)
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

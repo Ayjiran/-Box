@@ -1,0 +1,198 @@
+<View id="33" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=json转换
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=30dp
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="6" type="EditText">
+<ppt>width=-1
+height=-1
+background=#ffffff
+text=
+hint=请填写josn
+textcursordrawable=#ffee7785
+gravity=top
+textsize=15sp
+textCursorDrawable=#ff00a7ff
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="5" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="8" type="Button">
+<ppt>width=-2
+height=40dp
+text=　开始转换　
+textcolor=#ffffff
+layout_marginright=10dp
+</ppt>
+<event>
+<eventItme type="clicki">ug(7, "text", str)
+fn json1.unicode_utf8(str)
+us(32, "text", sss.utf8_str)</eventItme>
+</event>
+</View>
+<View id="10" did="8" type="LinearLayout">
+<ppt>width=60dp
+height=60dp
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+
+</event>
+</View>
+<View id="11" did="8" type="Button">
+<ppt>width=-2
+height=40dp
+text=　复制结果　
+textcolor=#ffffff
+layout_marginleft=10dp</ppt>
+<event>
+<eventItme type="clicki">ug(32,"text",w)
+f(w=="")
+{
+s text="没有东西可以复制哦~"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+sxb(w)
+s text="已复制~"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}</eventItme>
+</event>
+</View>
+<View id="31" did="5" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="32" did="31" type="EditText">
+<ppt>width=-1
+height=-1
+background=#ffffff
+text=
+hint=显示的utf8！
+textcursordrawable=#ffee7785
+gravity=top
+textsize=15sp
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+shb(a)
+f(a == false)
+  {
+  }
+else
+  {
+    gvs(1, v)
+tws(v, "是否直接显示剪切板内容?", 50000, "粘贴")
+{
+shb(a)
+us(7,"text",a)
+}
+  }
+syso(a)
+s id=33
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+
+fn 着色.控件着色(2,颜色)
+fn 着色.控件着色(8,颜色)
+fn 着色.控件着色(9,颜色)
+fn 着色.控件着色(11,颜色)
+fn 着色.控件着色(32,颜色)
+fn 着色.控件着色(7,颜色)
+ ngde("4","30","#00000000",颜色,背景)
+us(7,"background",背景)
+ngde("4","30","#00000000",颜色,背景)
+us(32,"background",背景)
+
+ 
+
+
+
+/.
+
+</eventItme>
+
+<eventItme type="restart">shb(a)
+f(a == false)
+  {
+  }
+else
+  {
+    gvs(1, v)
+tws(v, "是否直接显示剪切板内容?", 50000, "粘贴")
+{
+shb(a)
+us(7,"text",a)
+}
+  }</eventItme>
+<eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

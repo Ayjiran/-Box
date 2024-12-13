@@ -1,0 +1,93 @@
+<View id="43" did="0" type="CardView">
+<ppt>width=-2
+height=250dp
+app_CardElevation=2dp
+app_CardcornerRadius=4dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event>
+<eventItme type="clicki">ulag(st_vW,46,sss.mz)
+ulag(st_vW,53,sss.wz)
+ulag(st_vW,54,b)
+ss("https://m.u17.com"+b,sss.b)
+uigo("漫画1.iyu")</eventItme></event>
+</View>
+<View id="44" did="43" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+ut_alignParentBottom=true
+padding=10dp
+background=white
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=运行失败
+</ppt>
+<event>
+</event>
+</View>
+<View id="49" did="44" type="TextView">
+<ppt>
+width=-1
+height=0.2dp
+background=#ffdfdfdf
+text=
+ut_above=45
+</ppt>
+<event>
+</event>
+</View>
+<View id="50" did="44" type="WebView">
+<ppt>width=-1
+height=-1
+ut_above=49
+padding=50dp
+background=@Bibi/bsh.v</ppt>
+<event></event>
+</View>
+<View id="53" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=链接
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="54" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=链接
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,快脚.50,id2)
+gvs(st_vW,快脚.53,id5)
+ug(id5,"text",tp)
+fr("@tp.txt",tpp)
+sr(tpp,"β",tp,c)
+s d = "utf-8"
+s e = "text/html"
+us(id2, "url", c, d, e, f)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,165 @@
+<View id="6" did="0" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="8" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=使用情况
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="9" did="0" type="LinearLayout">
+<ppt>Width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="ListView">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+ut_centerinparent=true</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=正在查找使用记录……</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(6,"background",yg)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">t() {
+  java(管理器,activity,"android.app.Activity.getSystemService","String","usagestats")
+  time(4,now)
+  s-(now,3600000,start)
+  //开始时间：一小时前
+  java(list,管理器,"android.app.usage.UsageStatsManager.queryUsageStats","int",4,"long",start,"long",now)
+  //指定搜索一小时前到现在的所有与用户有交互的App
+  s empty = false
+  f(list == null) {
+    s empty = true
+    } else {
+    java(empty,list,"java.util.List.isEmpty")
+    }
+  f(empty) {
+    ufnsui() {
+      tw("获取失败-因为未开启权限")
+      s code = 2977
+  //这个code是用来分辨行为的，你们可以修改
+  sit(意图,"action","android.settings.USAGE_ACCESS_SETTINGS")
+  //sit(意图,"action","android.settings.action.MANAGE_OVERLAY_PERMISSION")
+  sit(意图,"flags",268435456)
+  uit(意图,"result",code)
+      end()
+      }
+    endcode
+    }
+  
+  javanew(sortedMap,"java.util.TreeMap")
+  //通过TreeMap来实现排序
+  for(stats ; list) {
+    java(time,stats,"android.app.usage.UsageStats.getLastTimeUsed")
+    //获取事件发生的时间
+    java(null,sortedMap,"java.util.Map.put","Object",time,"Object",stats)
+    }
+  
+  java(pm,activity,"android.content.Context.getPackageManager")
+  //获取应用信息相关
+  
+  javanew(date,"java.util.Date")
+  javanew(format,"java.text.SimpleDateFormat","String","最后使用时间：yyyy年MM月dd日 HH时mm分ss秒")
+  //时间格式化相关
+  
+  java(entrySet,sortedMap,"java.util.Map.entrySet")
+  java(entryArray,entrySet,"java.util.Set.toArray")
+  sgszl(entryArray,entryArraySize)
+  
+  javanew(addedSet,"java.util.HashSet","int",entryArraySize)
+  //保存已被添加过的应用包名
+  w(entryArraySize &gt; 0) {
+    s-(entryArraySize,1,entryArraySize)
+    sgsz(entryArray,entryArraySize,entry)
+    java(time,entry,"java.util.Map$Entry.getKey")
+    java(stats,entry,"java.util.Map$Entry.getValue")
+    
+    java(包名,stats,"android.app.usage.UsageStats.getPackageName")
+    
+    java(ok,addedSet,"java.util.Set.add","Object",包名)
+    f(ok) {
+      //没有被添加过
+      java(appInfo,pm,"android.content.pm.PackageManager.getApplicationInfo","String",包名,"int",0)
+    
+      java(icon,pm,"android.content.pm.PackageManager.getApplicationIcon","android.content.pm.ApplicationInfo",appInfo)
+      //图标
+      java(label,pm,"android.content.pm.PackageManager.getApplicationLabel","android.content.pm.ApplicationInfo",appInfo)
+      //应用名
+    
+      java(null,date,"java.util.Date.setTime","long",time)
+      java(formattedTime,format,"java.text.DateFormat.format","java.util.Date",date)
+      //格式化时间
+      
+      ula(a,8=icon,3=label,5=包名,6=formattedTime)
+      }
+    }
+  
+  ufnsui() {
+    us(5,"visibility","visible")
+    us(2,"visibility","gone")
+    uls(5,a,"应用.iyu",-1,-2)
+    }
+  }
+</eventItme></UIEventset>

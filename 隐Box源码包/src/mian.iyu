@@ -1,0 +1,622 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="38" did="1" type="LinearLayout">
+<ppt>width=-1
+height=180dp
+orientation=vertical
+background=@tb/664bcda0620.png
+visibility=invisibl</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+ut_above=3
+ut_below=38</ppt>
+<event></event>
+</View>
+<View id="13" did="2" type="CardView">
+<ppt>width=70dp
+height=70dp
+app_CardcornerRadius=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@icon.png
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="33" did="14" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@icon.png</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐-Box
+textColor=#000000
+layout_marginTop=10dp
+textSize=18sp
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="17" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginTop=30dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@dd/ic_circle_attention_right.png</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="CardView">
+<ppt>width=80dp
+height=-2
+app_CardcornerRadius=60dp
+layout_marginRight=20dp
+layout_marginLeft=20dp
+app_CardBackgroundColor=#ff00c0ff
+layout_marginTop=1dp
+layout_marginBottom=1dp</ppt>
+<event></event>
+</View>
+<View id="21" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">
+s stop = 2000
+s text="已复制官方客服微信号"
+fn color.ColorToast(text,stop)
+sxb("微信：grnb69(注明来意)")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="22" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=问题反馈
+textsize=10sp
+textscalex=1
+textcolor=#ffffffff
+layout_marginRight=20dp
+layout_marginLeft=20dp
+layout_marginTop=8dp
+layout_marginBottom=8dp</ppt>
+<event></event>
+</View>
+<View id="20" did="17" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@dd/ic_circle_attention_left.png</ppt>
+<event></event>
+</View>
+<View id="26" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="RelativeLayout">
+<ppt>width=-1
+height=150dp
+background=
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="RelativeLayout">
+<ppt>width=5dp
+height=5dp
+ut_centerhorizontal=true
+layout_margintop=28dp
+layout_marginleft=5dp
+ut_centervertical=true</ppt>
+<event></event>
+</View>
+<View id="29" did="27" type="RelativeLayout">
+<ppt>width=5dp
+height=5dp
+ut_centerhorizontal=true
+layout_margintop=28dp
+layout_marginleft=5dp
+ut_centervertical=true</ppt>
+<event></event>
+</View>
+<View id="30" did="27" type="RelativeLayout">
+<ppt>width=5dp
+height=5dp
+ut_centerhorizontal=true
+layout_margintop=28dp
+layout_marginleft=5dp
+ut_centervertical=true</ppt>
+<event></event>
+</View>
+<View id="31" did="27" type="RelativeLayout">
+<ppt>width=5dp
+height=5dp
+ut_centerhorizontal=true
+layout_margintop=28dp
+layout_marginleft=5dp
+ut_centervertical=true</ppt>
+<event></event>
+</View>
+<View id="32" did="27" type="RelativeLayout">
+<ppt>width=5dp
+height=5dp
+ut_centerhorizontal=true
+layout_margintop=28dp
+layout_marginleft=5dp
+ut_centervertical=true</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_alignparentbottom=true
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=Copyright © 2022 隐Box Powered by Ay悸然\n吉ICP备2023002422号-4A
+textcolor=#000000
+textsize=10sp
+layout_marginBottom=10dp
+layout_gravity=center_horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="23" did="1" type="ImageView">
+<ppt>width=60dp
+height=60dp
+src=@coolboxshiling16.png
+layout_margin=10dp
+layout_marginBottom=-10dp
+ut_above=3</ppt>
+<event></event>
+</View>
+<View id="40" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="34" did="1" type="LinearLayout">
+<ppt>width=-2
+height=30dp
+orientation=horizontal
+gravity=center_vertical
+background=#50212121
+ut_alignParentRight=true
+layout_margin=8dp
+layout_marginTop=50dp</ppt>
+<event><eventItme type="clicki">s stop = 2000
+s text="已复制官方客服微信号"
+fn color.ColorToast(text,stop)
+f(sss.客服微信==null)
+{
+  sxb("客服微信：grnb69(请备注来意)")
+}
+else
+{
+  ss("客服微信："+sss.客服微信+"(请备注来意)",微信)
+  sxb(微信)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="35" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+text=3
+textSize=13sp
+textColor=#ffffffff
+gravity=center
+layout_marginLeft=10dp
+layout_marginRight=10dp
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="36" did="34" type="TextView">
+<ppt>width=0.5dp
+height=-1
+text=
+background=#ffffff
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="37" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+text=长时间未进入,点我反馈
+textSize=12sp
+textColor=#ffffffff
+gravity=center
+layout_marginRight=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",false)
+fw("%颜色.txt","#ff00b2ff")
+fr("$暗色.txt",暗色)
+f(暗色=="是")
+{
+}
+else
+{
+}
+ngde(50,"#50212121",gound)
+us(34,"background",gound)
+swh("pxh",huj)
+dht(scf,0,0,huj,0)
+sss 循环="0"
+sss 外链="User-Agent=Mozilla/5.0 (Linux; U; Android 11; zh-cn; M2007J3SC Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/16.6.6 swan-mibrowser||Accept=application/json, text/javascript, */*; q=0.01||accept-language=zh-CN"
+//java(cs,activity,"android.app.Activity.getWindow")
+//java(cs2,cs,"android.view.Window.getDecorView")
+//java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+sss 汇总="http://Box.ayjrw.cn/Box/bs.php"
+sss appbm="com.yx.yxkj"
+  loadjar("sd.dex",b)
+  cls(b,"com.Mus.MainActivity",sss.跳动)
+  call(null,"mjava","set.setBackgroundTintList",activity,33,"#ffffffff","#ff115599")
+
+
+  /.
+
+本软件由By隐心原创出品,从0.1版本到如今的4.9版本,5年时间
+虽说5年,但是除去水分的时间,也就一个月的时间而已
+功能300➕
+可以后台添加功能,会员采用云端模式.
+
+官方频道:https://pd.qq.com/s/69rx2je7p
+
+我的微信:grnb69哪里不懂找我.
+备注来意 不备注不加 备注:购买后台 明码标价:3000以上,不买别来加我微信
+
+然后呢,完整的后端的源码,也是联系我的微信获取哦~
+
+只需要修改一下mian.iyu的网址就行,其他啥也不用动,非常简单,非常简单.
+
+
+
+制作过程:
+
+本软件是由各位大神制作的源码中,一点一点聚合起来的,也许有您的心血,也有我的心血
+相当于一起合力制作的软件,但是呢,虽然说是聚合,但是功能大多数是我一个人制作的
+不光功能,还有ui,代码,后台,都是我一个人一点一点做起来的
+辛苦的背后还是辛苦,制作不易,如果您制作了以后,可以在关于软件里面加一个:By隐心提供技术支持,就可以了,谢谢.
+
+/.
+  s 板块="幻隐网luo/.缓存/总数据.txt"
+  fe(板块,有没有)
+  f(有没有==true)
+  {
+    us(27,"visibility","gone")
+  }
+  else
+  {
+    ngde(100,"#CDDC39",a)
+    us(28,"background",a)
+    ngde(100,"#FF5722",a)
+    us(29,"background",a)
+    ngde(100,"#009688",a)
+    us(30,"background",a)
+    ngde(100,"#D84315",a)
+    us(31,"background",a)
+    ngde(100,"#FF9E80",a)
+    us(32,"background",a)
+    //开始循环播放动画time修改动画转动时间
+    s time="175"
+    t()
+    {
+      stop(time)
+      dhr(dhm, 0, 360, 0, 0, 0, 80)
+      dh(dhm, "duration", 1000)
+      ufnsui()
+      {
+        us(28, "dh", dhm)
+      }
+      stop(time)
+      dhr(dh0, 0, 360, 0, 0, 0, 80)
+      dh(dh0, "duration", 1000)
+      ufnsui()
+      {
+        us(29, "dh", dh0)
+      }
+      stop(time)
+      dhr(dh1, 0, 360, 0, 0, 0, 80)
+      dh(dh1, "duration", 1000)
+      ufnsui()
+      {
+        us(30, "dh", dh1)
+      }
+      stop(time)
+      dhr(dh2, 0, 360, 0, 0, 0, 80)
+      dh(dh2, "duration", 1000)
+      ufnsui()
+      {
+        us(31, "dh", dh2)
+      }
+      stop(time)
+      dhr(dh3, 0, 360, 0, 0, 0, 80)
+      dh(dh3, "duration", 1000)
+      ufnsui()
+      {
+        us(32, "dh", dh3)
+        dhon(dh3)
+        {
+          t()
+          {
+            ufnsui()
+            {
+              us(28, "dh", dhm)
+            }
+            stop(time)
+            ufnsui()
+            {
+              us(29, "dh", dh0)
+            }
+            stop(time)
+            ufnsui()
+            {
+              us(30, "dh", dh1)
+            }
+            stop(time)
+            ufnsui()
+            {
+              us(31, "dh", dh2)
+            }
+            stop(150)
+            ufnsui()
+            {
+              us(32, "dh", dh3)
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+</eventItme><eventItme type="loadingComplete">//广告代码
+  sss 开始初始化 = "1"
+  s 你的TopOnAppID = "a659506d136b47"
+  s 你的TopOnAppKey = "ad71e518afd4ff717ade91200c498bd2c"
+  zj(返回赋值变量, "top初始化", "String", 你的TopOnAppID, "String", 你的TopOnAppKey)
+  
+  sss 激励广告位="b66544107033c6"
+  sss 插屏广告位="b665441101bf3f"
+  sss 横幅广告位="b6654410784a91"
+  sss 开屏广告位="b6654410865bb2"
+  // 预加载
+  zj(sss.激励广告对象, "top加载激励广告并播放", "String", sss.激励广告位, "boolean", false)
+  zj(sss.激励广告对象, "top加载插屏广告并播放", "String", sss.插屏广告位, "boolean", false)
+  zj(sss.激励广告对象, "top加载插屏广告并播放", "String", sss.横幅广告位, "boolean", false)
+  zj(sss.激励广告对象, "top加载插屏广告并播放", "String", sss.开屏广告位, "boolean", false)
+//代码结束
+
+sss hmx=false
+s num=3
+t()
+{
+  w(num&gt;0&&sss.hmx==false){
+    s-(1,num)
+    ufnsui(){
+      us(35,"text",num)
+    }
+    f(num==0){
+    }
+    stop(1000)
+  }
+}
+javanew(ct,"android.content.Context")
+javags(cs,ct,"android.content.Context","CONNECTIVITY_SERVICE")
+java(cm,activity,"android.app.Activity.getSystemService","String",cs)
+java(nif,cm,"android.net.ConnectivityManager.getActiveNetworkInfo")
+java(ss.rnink,nif,"android.net.NetworkInfo.isAvailable")
+f(nif != null)
+{
+  fe("$幻隐网络/使用",sy)
+f(sy==false)
+{
+  us(34,"visibility","gone")
+  addv(1,"隐私政策.iyu")
+  loadjar("armeabi-v7a/classes2.dex",class)
+  cls(class,"com.Mus.ReboundScrollView",mB)
+  gvs(隐私政策.20,a)
+  gvs(隐私政策.46,b)
+  javanew(mBs,mB,"Context",activity)
+  urvw(隐私政策.46)
+  nvw(mBs,隐私政策.20)
+  nvw(b,mBs)
+}
+else
+{
+  t()
+  {
+    fr("$幻隐网络/记录/qq.txt",QQ)
+    fr("$幻隐网络/微端/密码.txt",密码)
+    fr("$幻隐网络/微端/账号.txt",sss.名称)
+    fw("$幻隐网络/加载.txt","1")
+    fw("$幻隐网络/临时数据/1030.txt","")
+    fw("$幻隐网络/.临时数据/1.txt","1")
+    fw("$幻隐网络/.临时数据/2.txt","0")
+    fw("$幻隐网络/.临时数据/3.txt","0")
+    fw("$幻隐网络/临时文件/广场.txt","0")
+    fw("$幻隐网络/.临时数据/4.txt","0")
+    fw("$幻隐网络/临时数据/11.txt","0")
+    fw("$幻隐网络/临时数据/1001.txt","0")
+    fw("$幻隐网络/.临时数据/67.txt","0")
+    fw("$幻隐网络/.临时数据/98.txt","0")
+    fw("$幻隐网络/临时数据/1010.txt","0")
+    fw("$幻隐网络/临时数据/1019.txt","0")
+    fw("$幻隐网络/临时数据/1012.txt","0")
+    fw("$幻隐网络/临时数据/1023.txt","0")
+    fw("$幻隐网络/.临时数据/97.txt","0")
+    fw("$幻隐网络/临时数据/1014.txt","0")
+    fw("$幻隐网络/.临时数据/20.txt","1")
+    fw("$幻隐网络/临时数据/1020.txt","")
+    fw("$幻隐网络/临时数据/1011.txt","0")
+    hs(sss.汇总,sss.bs)
+    f(sss.bs==null)
+    {
+      uigo("失败.iyu")
+      end()
+    }
+    else
+    {
+      sj(sss.bs,"api[","]",sss.api)
+      sj(sss.bs,"cz[","]",sss.cz)
+      sj(sss.bs,"jz[","]",jz)
+      sj(sss.bs,"AI机器人(",")",sss.aijqr)
+      sj(sss.bs,"topon广告联盟[","]",sss.topon广告)
+      sj(sss.bs,"QQ频道(",")",sss.QQ频道)
+      sj(sss.bs,"隐藏[","]",sss.yckj)
+      sj(sss.bs,"违[","]",sss.wf)
+      sj(sss.bs,"防红价格[","]",sss.防红价格)
+      sj(sss.bs,"会员优惠[","]",sss.会员优惠)
+      sj(sss.bs,"邮箱账户[","]",sss.yxapi)
+      sj(sss.bs,"主页视频[","]",sss.主页视频)
+      sj(sss.bs,"支付宝充值[","]",sss.支付宝充值了)
+      sj(sss.bs,"会员充值地址[","]",sss.会员充值地址)
+      sj(sss.bs,"卡券充值地址[","]",sss.卡券充值地址)
+      sj(sss.bs,"金币充值地址[","]",sss.金币充值地址)
+      sj(sss.bs,"广告充值地址[","]",sss.广告充值地址)
+      sj(sss.bs,"街机游戏[","]",sss.街机游戏)
+      sj(sss.bs,"邮箱授权码[","]",sss.yxsqm)
+      sj(sss.bs,"防红制作[","]",sss.fhapi)
+      sj(sss.bs,"主页视频是否[","]",sss.主页视频是否)
+      sj(sss.bs,"邮箱标题[","]",sss.yxbt)
+      sj(sss.bs,"广告会员[","]",sss.广告会员金额)
+      sj(sss.bs,"邮箱标题[","]",sss.yxbt)
+      sj(sss.bs,"商城网址(",")",sss.商城网址)
+      sj(sss.bs,"微信[","]",sss.微信)
+      sj(sss.bs,"客服微信[","]",sss.客服微信)
+      sj(sss.bs,"随机图[","]随机图",sss.随机图)
+      sj(sss.bs,"QQ登录id[","]",sss.qqdlid)
+      sj(sss.bs,"支付[","]",sss.payapi)
+      sj(sss.bs,"官网[","]",sss.官网)
+      sj(sss.bs,"好事[","]",sss.好事)
+      sj(sss.bs,"微信登录id[","]",sss.wxdlid)
+      sj(sss.bs,"微信客服[","]",sss.微信客服)
+      sj(sss.bs,"后台[","]",sss.后台密码)
+      sj(sss.bs,"微信付款[","]",sss.微信付款)
+      sj(sss.bs,"支付宝付款[","]",sss.支付宝付款)
+      sj(sss.bs,"在线支付开关[","]",sss.在线支付开关)
+      sj(sss.bs,"代理功能[","]",sss.代理功能)
+      sj(sss.bs,"支付宝[","]",sss.支付宝)
+      sj(sss.bs,"微信客服地址[","]",sss.微信客服地址)
+      sj(sss.bs,"版本更新[","]",寓言版本)
+      sj(sss.bs,"QQ[","]",sss.开发QQ)
+      sr(寓言版本,".","",sss.寓言版本)
+      sj(sss.bs,"版本下载[","]",sss.更新地址)
+      sj(sss.bs,"更新内容[","]",sss.更新内容)
+      sj(sss.bs,"随机视频[","]",sss.sxsp)
+      sj(sss.bs,"更多精彩[","]",sss.gd)
+      sj(sss.bs,"黄片搜索[","]",sss.sshp)
+      sj(sss.bs,"分享内容[","]",sss.fx)
+      sj(sss.bs,"随机图片[","]",sss.sjtp)
+      sj(sss.bs,"json随机图片[","]",sss.sjtp截取)
+      sj(sss.bs,"全部功能[","]全部功能",sss.全部功能)
+      sj(sss.bs,"♜","♜",sss.zhu)
+      fe("$幻隐网络/固定.png",固定)
+      f(sss.主页视频是否?"开")
+      {
+      }
+      else
+      {
+      f(固定=="false")
+      {
+        hs(sss.sjtp,qy)
+        json(qy,js)
+        json(js,"get",sss.sjtp截取,sss.主页图)
+      }
+      else
+      {
+      }
+      }
+    }
+    ufnsui()
+    {
+      f(jz=="禁止")
+      {
+        sss 禁止访问="是"
+        uigo("失败.iyu")
+        end()
+      }
+      else
+      {
+        fw("$幻隐网络/ghr.v",sss.bs)
+        fe("$幻隐网络/软件密码/开.txt",yy)
+        syso(yy)
+        f(yy==true)
+        {
+          uigo("密码.iyu")
+          end()
+        }
+        else
+        {
+          fn zh.zh(sss.名称,密码)
+        }
+      }
+    }
+  }
+  ss hh="1"
+}
+else
+{
+  ss rnink=false
+  tw("无网络，请退出重试")
+  sss 无网络="对"
+  uigo("平民.iyu")
+  end()
+  ss hh="0"
+}
+}
+</eventItme></UIEventset>

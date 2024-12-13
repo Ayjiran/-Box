@@ -1,0 +1,157 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+BackgroundColor=#52000000</ppt>
+<event><eventItme type="clicki">us(utw_apk.1,"visibility","gone")</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+layout_margin=40dp
+orientation=vertical
+background=white
+.paddingleft=15dp</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="Button">
+<ppt>width=-1
+height=65dp
+text=我要@TA
+padding=20dp
+textcolor=#ff1c1c1c
+textsize=16sp
+gravity=center_vertical
+background=through
+typeface=normal
+
+</ppt>
+<event><eventItme type="clicki">ug(10,"text",sss.wz)
+ss(sss.wz+sss.mc,m)
+us(10,"text",m)
+us(utw_apk.1,"visibility","gone")
+</eventItme></event>
+</View>
+<View id="7" did="2" type="Button">
+<ppt>width=-1
+height=65dp
+text=联系TAQQ
+padding=20dp
+textcolor=#ff1c1c1c
+textsize=16sp
+gravity=center_vertical
+background=through
+typeface=normal
+
+</ppt>
+<event><eventItme type="clicki">us(utw_apk.1,"visibility","gone")
+ss("mqqwpa://im/chat?chat_type=wpa&uin="+sss.q+"&version=1",urlqq)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",urlqq)
+uit(a, "chooser", "QQ聊天窗口")</eventItme></event>
+</View>
+<View id="8" did="2" type="Button">
+<ppt>width=-1
+height=65dp
+text=取消
+padding=20dp
+textcolor=#ff1c1c1c
+textsize=16sp
+gravity=center_vertical
+background=through
+typeface=normal
+
+</ppt>
+<event><eventItme type="clicki">us(utw_apk.1,"visibility","gone")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//界面的自适应布局代码为:
+s a="w"
+swh(a,w)
+s a="h"
+swh(a,h)
+sn(40/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(2,"layout_margin",dx)
+sn(15/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(2,"paddingleft",dx)
+sn(65/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(5,"height",dx)
+sn(20/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(5,"padding",dx)
+sn(16/707,dx)
+sn(h*dx,dx)
+ss(dx+"sp",dx)
+us(5,"textsize",dx)
+sn(65/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(6,"height",dx)
+sn(20/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(6,"padding",dx)
+sn(16/707,dx)
+sn(h*dx,dx)
+ss(dx+"sp",dx)
+us(6,"textsize",dx)
+sn(65/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(7,"height",dx)
+sn(20/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(7,"padding",dx)
+sn(16/707,dx)
+sn(h*dx,dx)
+ss(dx+"sp",dx)
+us(7,"textsize",dx)
+sn(65/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(8,"height",dx)
+sn(20/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(8,"padding",dx)
+sn(16/707,dx)
+sn(h*dx,dx)
+ss(dx+"sp",dx)
+us(8,"textsize",dx)
+
+us(1,"alpha",0)
+
+
+
+
+
+/////////////////////////////////////////////////
+//     隐心工作室©隐心开源                       //
+//                                           //
+//本软件是一款不用短信，邮箱钓鱼的软件只需要这款后台 //            
+//对方被钓鱼不会察觉，本软件接口随时关闭          //
+//购买永久接口加 6              //
+//隐心软件群222808421                       //
+//修改软件请留个版权，写个隐心原创             //   
+//不想留我也没有办法，购买永久钓鱼接口找隐心    //
+//永久接口价格20元【永久使用】               //
+//写了这么多，可怜可怜我吧，把本源码分享给盆友们//
+//////////////////////////////////////////
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

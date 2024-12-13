@@ -1,0 +1,102 @@
+<View id="51" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=我的评论
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="44" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="50" did="44" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=51
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+t()
+{
+  ss(sss.api+"/?u/"+sss.name+"/post.html",ljb)
+  hs(ljb,null,"utf-8",null,true,n)
+  sj(n,"&lt;/li&gt; --&gt;","    &lt;div class=\"pagination\"&gt;",v)
+  sl(v,"		&lt;li&gt;",t)
+  sgszl(t,zs)
+  s(zs-1,z)
+  s s=z
+  ss 数量="0"
+  for(1;z)
+  {
+    sgsz(t,s,nr)
+    sj(nr,"		&lt;div class=\"message-content\"&gt;","		&lt;/div&gt;",pltxt)
+    sj(nr,"		&lt;/div&gt;","&lt;/a&gt;&lt;/li&gt;",tzurl)
+    sj(tzurl,"?t/",".html",tid)
+    sr(pltxt,"\n","",pltxt)
+    strim(pltxt,plnr)
+    ula(list_评论,4=plnr,5=tid)
+    s(s-1,s)
+    s(ss.数量+1,ss.数量)
+  }
+  ufnsui()
+  {
+    uls(50,list_评论,"list_我的评论.iyu",-1,-2)
+  }
+}</eventItme><eventItme type="restart">loadjar("vpn.dex",jar)
+cls(jar,"com.1874.VPN",cls)
+javax(back,null,cls,"isVpnUsed")
+f(back=="true")
+{
+  end()
+   s text="禁止抓包vpn"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+  }
+else
+{
+}</eventItme><eventItme type="loadingComplete">f(ss.数量=="0")
+{
+s stop = 2000
+s text="您未发布过任何评论"
+fn color.ColorToast(text,stop)
+end()
+}
+else
+{
+}</eventItme></UIEventset>

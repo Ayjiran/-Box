@@ -1,0 +1,91 @@
+<View id="13" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=100dp
+app_CardElevation=2dp
+layout_margin=10dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,14,sss.tzurl)
+uigo("详情.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="1" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=13dp
+layout_marginRight=13dp
+layout_marginTop=12dp
+layout_marginBottom=12dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=40dp
+height=40dp
+app_CardcornerRadius=27dp
+app_CardBackgroundColor=#ff00b7ff
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=我
+textColor=#ffffffff
+textSize=18sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+layout_gravity=center_vertical
+layout_marginLeft=4dp
+</ppt>
+<event></event>
+</View>
+<View id="6" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=小明
+textSize=13sp
+textColor=#ff000000
+layout_marginLeft=9dp
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="14" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=小明
+textSize=15sp
+textColor=#ff000000
+layout_marginLeft=9dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=right
+layout_gravity=center_vertical
+layout_marginRight=7dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">sran(00000000,99999999,c)
+ss("#"+c,颜色)
+gvs(st_vW,"list_动态1.2",ID2)
+us(ID2,"app_CardBackgroundColor",颜色)</eventItme></UIEventset>

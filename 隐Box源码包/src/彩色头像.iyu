@@ -1,0 +1,406 @@
+<View id="32" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=彩色头像
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ffffff</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#00000000</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+ut_below=4</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=10dp
+background=#fa8eb1</ppt>
+<event></event>
+</View>
+<View id="27" did="8" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="11" did="8" type="CardView">
+<ppt>width=150dp
+height=150dp
+ut_centerHorizontal=true
+layout_marginTop=30dp
+app_CardcornerRadius=75dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="ImageView">
+<ppt>width=-1
+height=-1
+src=0</ppt>
+<event></event>
+</View>
+<View id="14" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#8000FF00</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="Button">
+<ppt>width=-1
+height=45dp
+text=从相册选择头像
+ut_below=11
+layout_marginTop=30dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+background=#ff00cbff
+textColor=#ffffff
+textSize=16sp</ppt>
+<event><eventItme type="clicki">call(null, "mlua", "lua.getSrc")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="16" did="8" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=20dp
+ut_below=15</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="Button">
+<ppt>width=-1
+height=45dp
+text=选取颜色
+layout_weight=1
+textColor=#ffffff
+textSize=16sp
+background=#ff00cbff
+layout_marginRight=5dp</ppt>
+<event><eventItme type="clicki">loadjar("a.dex",包)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog",类)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog$OnColorChangedListener",事件类)
+javacb(事件,事件类)
+{
+sgsz(st_aS,0,返回)
+us(24,"text",返回)
+us(14,"background",返回)
+  }
+gvs(24,文本对象)
+call(初始颜色,"mjava","弹窗.取字体颜色",文本对象)
+.上下文，，初始颜色，，标题，，颜色改变事件
+javanew(控件,类,"Context",activity,"int",初始颜色,"String",null,事件类,事件)
+call(null,"mjava","弹窗.显示",控件)
+us(20,"visibility","visible")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="19" did="16" type="Button">
+<ppt>width=-1
+height=45dp
+text=保存到本地
+layout_weight=1
+textColor=#ffffff
+textSize=16sp
+background=#ff00cbff
+layout_marginLeft=5dp</ppt>
+<event><eventItme type="clicki">gvs(12,控件)
+
+java(宽,控件,"android.view.View.getWidth")
+java(高,控件,"android.view.View.getHeight")
+//这里我动态获取控件高度，你们可以自己填进去
+/.
+这里有几个问题
+1.在载入事件不能获取，返回0
+2.如果是滚动控件，列表控件等等可以滚动的控件，
+获取的高度/不是真实高度宽度，最大只能获取到手机屏的宽高
+造成转出来的图片只是已经显示出来的部分
+可以用自己手动填入宽高来解决
+./
+
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+//可选值ARGB_8888，ARGB_4444，RGB_565，ALPHA_8
+//ARGB_8888画质最好，这里用ARGB_4444是为了节约内存
+
+java(sss.图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+f(sss.图片 == null){
+  tw("似乎出现问题了")
+  endcode
+  }
+javanew(画板,"android.graphics.Canvas","android.graphics.Bitmap",sss.图片)
+
+java(null,控件,"android.view.View.draw","android.graphics.Canvas",画板)
+
+
+sran(1,99999,g)
+ss("/storage/emulated/0/幻隐网络/彩色头像/"+g+".png",gg)
+bfs(sss.图片,1,gg)
+
+tw("头像已保存到【手机储存/幻隐网络/彩色头像】文件夹里！")
+fn DM.tw1()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+
+</eventItme></event>
+</View>
+<View id="20" did="8" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp
+ut_below=16
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffff</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=透明度调节
+textColor=#ff00bfff
+textSize=14sp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="23" did="21" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_margin=5dp
+max=255
+</ppt>
+<event><eventItme type="onprogresschanged2">t()
+{
+ufnsui()
+{
+  ug(24,"text",ys)
+  ssg(ys,0,2,ysa)
+  ssg(ys,2,ysb)
+ syso(ysa)
+ syso(ysb)
+ug(23,"progress",a)
+us(25,"text",a)
+slg(a,aa)
+us(23,"selection",aa,d)
+s(a/16,a1)
+syso(a1)
+s%(16,a)
+syso(a)
+f(a==10)
+{
+  s a="A"
+}
+else f(a==11)
+{
+  s a="B"
+}
+else f(a==12)
+{
+  s a="C"
+}
+else f(a==13)
+{
+  s a="D"
+}
+else f(a==14)
+{
+  s a="E"
+}
+else f(a==15)
+{
+  s a="F"
+}
+else
+{
+  s a=a
+}
+
+f(a1==10)
+{
+  s a1="A"
+}
+else f(a1==11)
+{
+  s a1="B"
+}
+else f(a1==12)
+{
+  s a1="C"
+}
+else f(a1==13)
+{
+  s a1="D"
+}
+else f(a1==14)
+{
+  s a1="E"
+}
+else f(a1==15)
+{
+  s a1="F"
+}
+else
+{
+  s a1=a1
+}
+
+ss("#"+a1+""+a+""+ysb+"",qlw)
+us(25,"text",qlw)
+us(14,"background",qlw)
+}
+}</eventItme></event>
+</View>
+<View id="24" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本24
+visibility=gone</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+java(16进制,null,"Integer.toHexString","int",st_sS)
+ss(16进制,十六进制)
+us(24,"text",十六进制)
+ufnsui()
+{
+ssg(十六进制,0,2,b)
+ssg(十六进制,2,bb)
+f(b=="ff")
+{
+  sr(b,"ff","#50",srh)
+  ss(srh+bb,uss)
+  us(14,"background",uss)
+}
+else
+{
+  ss("#50"+十六进制,us)
+  us(14,"background",us)
+}
+}
+}</eventItme></event>
+</View>
+<View id="25" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本25
+ut_below=24
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=32
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(4,颜色)
+fn 着色.控件着色(17,颜色)
+fn 着色.控件着色(19,颜色)
+fn 着色.控件着色(15,颜色)
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="onactivityresult">javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+    us(13,"src", path)
+    sss paths=path
+  }
+else f(st_sC==3)
+{
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+    us(13, "src", path)
+    sss paths=path
+}
+}</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

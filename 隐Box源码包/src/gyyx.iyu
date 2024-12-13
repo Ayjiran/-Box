@@ -1,0 +1,652 @@
+<View id="44" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="87" did="44" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=关于我们
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="30" did="44" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+background=#FFFFFF
+</ppt>
+<event>
+</event>
+</View>
+<View id="1" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#FFFFFF
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=150dp
+visibility=gone</ppt>
+<event>
+</event>
+</View>
+<View id="51" did="6" type="RoundImageView">
+<ppt>width=75dp
+height=75dp
+src=@icon.v
+ut_centerInParent=true
+</ppt>
+<event><eventItme type="press">us(6,"visibility","gone")
+dht(dh,0,0,-150,0)
+dh(dh,"duration",1500)
+us(53,"dh",dh)
+us(53,"visibility","visible")
+</eventItme></event>
+</View>
+<View id="52" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐Box--全能APP
+textColor=#000000
+textStyle=bold
+textSize=15sp
+ut_below=7
+ut_centerHorizontal=true
+layout_marginTop=130dp</ppt>
+<event></event>
+</View>
+<View id="53" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=150dp</ppt>
+<event><eventItme type="clicki">us(53,"visibility","gone")
+dht(dh,0,0,-150,0)
+dh(dh,"duration",1500)
+us(6,"dh",dh)
+us(6,"visibility","visible")
+</eventItme></event>
+</View>
+<View id="55" did="1" type="RelativeLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="9" did="55" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="24" did="9" type="LinearLayout">
+<ppt>
+width=-1
+height=1
+orientation=vertical
+background=#D0D0D0
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="13" did="9" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_marginTop=15dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="12" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=官方网站：
+layout_marginLeft=20dp
+textColor=#ff323232
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=https://www.ayjrw.com/
+ut_below=12
+textColor=#ff00aaff
+background=through
+layout_marginLeft=20dp
+layout_marginBottom=10dp
+layout_marginTop=5dp</ppt>
+<event>
+<eventItme type="clicki">ug(14,"text",sss.wz)
+sss 广告害怕="不怕"
+uigo("广告.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme>
+</event>
+</View>
+<View id="15" did="9" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=开发者QQ：
+layout_marginLeft=20dp
+textColor=#ff323232
+</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=1877690156
+ut_below=16
+textColor=#ff00aaff
+background=through
+layout_marginLeft=20dp
+layout_marginBottom=10dp
+layout_marginTop=5dp</ppt>
+<event>
+<eventItme type="clicki">
+s qq=sss.开发QQ
+s url = "mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin="
+ss(url+qq,url)
+sit(a, "action", "android.intent.action.VIEW")
+sit(a, "data", url)
+uit(a, "chooser", "跳转到加好友")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme>
+</event>
+</View>
+<View id="18" did="9" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=创始人微信：
+layout_marginLeft=20dp
+textColor=#ff323232
+</ppt>
+<event>
+</event>
+</View>
+<View id="20" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=grnb69
+ut_below=19
+textColor=#ff00aaff
+background=through
+layout_marginLeft=20dp
+layout_marginBottom=10dp
+layout_marginTop=5dp</ppt>
+<event>
+
+<eventItme type="clicki">ug(20,"text",a)
+sxb(a)
+ s stop = 2000
+s text="已复制"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="21" did="9" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="22" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=官方邮箱：
+layout_marginLeft=20dp
+textColor=#ff323232
+</ppt>
+<event>
+</event>
+</View>
+<View id="23" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=a1877690156@163.com
+ut_below=22
+textColor=#ff00aaff
+background=through
+layout_marginLeft=20dp
+layout_marginBottom=10dp
+layout_marginTop=5dp</ppt>
+<event>
+<eventItme type="clicki">
+ug(23,"text",a)
+sxb(a)
+ s stop = 2000
+s text="已复制"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme>
+</event>
+</View>
+<View id="82" did="9" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="83" did="82" type="TextView">
+<ppt>width=-2
+height=-2
+text=须知：
+layout_marginLeft=20dp
+textColor=#ff323232
+</ppt>
+<event>
+</event>
+</View>
+<View id="89" did="9" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="91" did="89" type="TextView">
+<ppt>width=-2
+height=-2
+text=《隐私政策》
+ut_toRightOf=83
+textColor=#ff00aaff
+background=through
+layout_marginLeft=20dp</ppt>
+<event>
+<eventItme type="clicki">sss wz="http://box.ayjrw.cn/zc.html"
+uigo("政策.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme>
+</event>
+</View>
+<View id="92" did="89" type="TextView">
+<ppt>width=-2
+height=-2
+text=《用户协议》
+ut_toRightOf=91
+textColor=#ff00aaff
+background=through</ppt>
+<event>
+<eventItme type="clicki">sss wz="http://box.ayjrw.cn/xy.html"
+uigo("政策.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme>
+</event>
+</View>
+<View id="93" did="89" type="TextView">
+<ppt>width=-2
+height=-2
+text=《使用教程》
+ut_toRightOf=92
+textColor=#ff00aaff
+background=through</ppt>
+<event>
+<eventItme type="clicki">utw(null,"","获取教程中……","",true,vf)
+{
+}
+t()
+{
+  ss(sss.api+"Box/jiaocheng.txt",教程)
+  hs(教程,内容)
+  ufnsui()
+  {
+    sss wz=内容
+    uigo("广告.iyu")
+    endutw(vf)
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme>
+</event>
+</View>
+<View id="25" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+layout_marginTop=50dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="26" did="25" type="RelativeLayout">
+<ppt>
+width=-1
+height=30dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=官方声明
+ut_centerVertical=true
+layout_marginLeft=20dp
+textColor=#000000
+textStyle=bold</ppt>
+<event>
+</event>
+</View>
+<View id="28" did="25" type="LinearLayout">
+<ppt>
+width=-1
+height=1
+orientation=vertical
+background=#D0D0D0
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="29" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=(html)隐Box_是一款&lt;font color="blue"&gt;多功能手机工具箱集合&lt;/font&gt;软件，集合所有网友所需要的各手机软件功能，以后功能会&lt;font color="blue"&gt;越来越多&lt;/font&gt;，甚至上千万项功能，可以满足所有用户的需求，让你可以在手机上&lt;font color="blue"&gt;一个应用就能拥有所有软件的体验&lt;/font&gt;。&lt;br&gt;&lt;br&gt;本App由隐心一年以来的废寝忘食的制作，终于与各位见面了！&lt;br&gt;&lt;br&gt;本App的会员功能是想得到大家的一些支持，增加创作动力，并不是纯坑钱的哦！感谢理解！活着才有希望！&lt;br&gt;&lt;br&gt;一.软件如果出现积分计算，或者错误等问题！&lt;br&gt;&lt;br&gt;  1.可能是&lt;font color="red"&gt;资源损坏&lt;/font&gt;，去(我的页面→软件设置→恢复出厂设置)恢复后即可以&lt;font color="blue"&gt;正常使用&lt;/font&gt;！&lt;br&gt;&lt;br&gt;  2.可能软件出了问题，可以&lt;font color="blue"&gt;联系客服&lt;/font&gt;解决！&lt;br&gt;&lt;br&gt;二.软件使用必知！&lt;br&gt;&lt;br&gt;1.使用本App，出现&lt;font color="red"&gt;法律纠纷一切由客户自行承担一切责任&lt;/font&gt;！本App只是一个工具！&lt;font color="red"&gt;并不支持您做违法行为&lt;/font&gt;！&lt;br&gt;&lt;br&gt;2.利用本App赚钱可以，但是&lt;font color="red"&gt;禁止用于非法交易&lt;/font&gt;！&lt;br&gt;&lt;br&gt;3.软件内的广告位，均是用户投稿所放上去的，请自行甄别，如果被骗，本软件官方不负任何责任！&lt;br&gt;&lt;br&gt;4.一个小App，也没有什么理由要求各位太多！就这样吧，祝各位玩的愉快！&lt;br&gt;&lt;br&gt;5.使用软件即代表同意这段『使用条款』&lt;br&gt;&lt;br&gt;软件最初版本由隐心在  -2018年7月8日-  制作！
+textSize=13sp
+textColor=#ff323232
+layout_marginTop=15dp
+layout_marginLeft=15dp
+layout_marginRight=15dp</ppt>
+<event>
+</event>
+</View>
+<View id="31" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=50dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="32" did="31" type="RelativeLayout">
+<ppt>
+width=-1
+height=30dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="33" did="32" type="TextView">
+<ppt>width=-2
+height=-2
+text=重要信息
+ut_centerVertical=true
+layout_marginLeft=20dp
+textColor=#000000
+textStyle=bold</ppt>
+<event>
+</event>
+</View>
+<View id="34" did="31" type="LinearLayout">
+<ppt>
+width=-1
+height=1
+orientation=vertical
+background=#D0D0D0
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="62" did="31" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=4dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="36" did="62" type="TextView">
+<ppt>width=-2
+height=-2
+text=开发者：
+layout_marginLeft=20dp
+textColor=#ff323232
+</ppt>
+<event>
+</event>
+</View>
+<View id="37" did="62" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐心
+ut_toRightOf=36
+textColor=#03A9F4
+</ppt>
+<event>
+</event>
+</View>
+<View id="79" did="31" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=4dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="80" did="79" type="TextView">
+<ppt>width=-2
+height=-2
+text=其他人员：
+layout_marginLeft=20dp
+textColor=#ff323232
+</ppt>
+<event>
+</event>
+</View>
+<View id="81" did="79" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无
+textColor=#03A9F4
+</ppt>
+<event>
+</event>
+</View>
+<View id="94" did="31" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=4dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="95" did="94" type="TextView">
+<ppt>width=-2
+height=-2
+text=备案：
+layout_marginLeft=20dp
+textColor=#ff323232
+</ppt>
+<event>
+</event>
+</View>
+<View id="96" did="94" type="TextView">
+<ppt>width=-2
+height=-2
+text=吉ICP备2023002422号-4A
+textColor=#03A9F4
+</ppt>
+<event>
+<eventItme type="clicki">tws(v, "是否前去查看备案信息？", 0, "好的")
+{
+hws("http://beian.miit.gov.cn/")
+}</eventItme></event>
+</View>
+<View id="74" did="31" type="RelativeLayout">
+<ppt>width=-1
+height=200dp
+</ppt>
+<event></event>
+</View>
+<View id="77" did="74" type="WebView">
+<ppt>width=-1
+height=200dp
+.url=@dqq.html
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="78" did="74" type="TextView">
+<ppt>width=-1
+height=-1
+text=
+</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="41" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=30dp
+ps=版权
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="42" did="41" type="TextView">
+<ppt>width=-2
+height=-2
+text=Phantasy  @ 2023 (幻隐).All Rights Reserved
+ut_centerInParent=true
+textSize=8sp
+textColor=#000000
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=87
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(44,a)
+gvs(30,b)
+javanew(mBs,mB,"Context",activity)
+urvw(30)
+nvw(mBs,44)
+nvw(b,mBs)
+loadjar("lz.dex",包)
+cls(包,"com.yasic.library.particletextview.View.ParticleTextView",类)
+cls(包,"com.yasic.library.particletextview.Object.ParticleTextViewConfig$Builder",构建类)
+cls(包,"com.yasic.library.particletextview.Object.ParticleTextViewConfig",配置类)
+//cls(包,"com.yasic.library.particletextview.MovingStrategy.MovingStrategy",动画类)
+javanew(控件,类,"Context",activity)
+nvw(控件,53,0)
+us(控件,"height","150dp")
+javanew(配置,构建类)
+s 文字="幻隠ネットワーク|隐Box-全能APP|隐心独家制作|感谢您的支持"
+sl(文字,"|",文字)
+s 颜色="#ff00b5ff"
+sl(颜色,"|",颜色)
+javax(配置,配置,构建类,"setParticleColorArray","String[]",颜色)
+javax(配置,配置,构建类,"setTargetText","String[]",文字)
+javax(配置,配置,构建类,"setReleasing","double",0.05)
+javax(配置,配置,构建类,"setParticleRadius","float",5)
+javax(配置,配置,构建类,"setMiniDistance","double",0.5)
+javax(配置,配置,构建类,"setTextSize","int",120)
+javax(配置,配置,构建类,"setRowStep","int",8)
+javax(配置,配置,构建类,"setColumnStep","int",8)
+javax(配置,配置,构建类,"instance")
+javax(null,控件,类,"setConfig",配置类,配置)
+
+ss 控件=控件
+ss 类=类
+
+javax(null,ss.控件,ss.类,"startAnimation")
+us(6,"visibility","gone")
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+<eventItme type="loadingComplete">us(14,"text",sss.官网)
+us(20,"text",sss.微信)
+us(23,"text",sss.yxapi)
+us(17,"text",sss.开发QQ)</eventItme></UIEventset>

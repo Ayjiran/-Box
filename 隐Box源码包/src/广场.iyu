@@ -1,0 +1,1279 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=#ffe3edff
+orientation=horizontal
+gravity=center|left</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.18/icon_popup_great.v
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：不要相信广告！
+textColor=#1E88E5
+textSize=14sp
+focusableintouchmode=true
+marqueerepeatlimit=marquee_forever
+ellipsize=marquee
+singleLine=true
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="66" did="8" type="HorizontalScrollView">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="88" did="66" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="89" did="88" type="TextView">
+<ppt>width=-2
+height=-2
+text=更多
+gravity=center
+layout_gravity=center
+textColor=#ff008fff
+layout_marginLeft=10dp
+layout_marginRight=1dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">f(sss.wf=="是")
+{
+  s stop = 2000
+s text="作者设置禁止进入~"
+fn color.ColorToast(text,stop)
+}
+else
+{
+  uigo("在线直播.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+/.fn tool.showbt("s1.iyu", true)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+bfvss(广场.98, "pe")
+bfvss(广场.98, "pe")
+sss 视频广场="不播放"
+  us(广场.101,"src","@lp/icon.v")</eventItme></event>
+</View>
+<View id="9" did="88" type="TabLayout">
+<ppt>width=-1
+height=-2
+app_tabList=公众社区|随心视频|全部功能|本地文件
+tabSelect=0
+app_tabIndicatorColor=#ff008cff
+app_tabIndicatorHeight=3.5dp
+app_tabTextColor=#80000000||#ff008cff
+app_tabMode=0
+layout_gravity=center
+</ppt>
+<event><eventItme type="ontabselected">f(st_tT=="公众社区")
+{
+  us(广场.14,"visibility","gone")
+  us(广场.76,"visibility","visible")
+  us(广场.34,"visibility","gone")
+  us(广场.108,"visibility","gone")
+  us(广场.67,"visibility","gone")
+  us(广场.94,"visibility","gone")
+  bfvss(广场.98, "pe")
+  sss 视频广场="不播放"
+  us(广场.101,"src","@lp/icon.v")
+}
+else f(st_tT=="随心视频")
+{
+  bfvss(主页.410, "pe")
+  sss 主页视频啊="不播放"
+  us(主页.411,"src","@lp/icon.v")
+  sss 视频广场="播放中"
+  us(广场.101,"src","@lp/player_pause.v")
+  us(广场.100,"visibility","gone")
+  bfvss(广场.98, "st")
+  f(sss.sxsp?"不显示")
+  {
+    us(广场.9,"app_tabList","公众社区|全部功能|本地文件")
+    s stop = 2000
+    s text="暂时无法观看，敬请期待…"
+    fn color.ColorToast(text,stop)
+  }
+  else
+  {
+    us(广场.14,"visibility","gone")
+    us(广场.76,"visibility","gone")
+    us(广场.34,"visibility","gone")
+    us(广场.108,"visibility","gone")
+    us(广场.67,"visibility","gone")
+    us(广场.94,"visibility","visible")
+    fr("$幻隐网络/临时文件/广场.txt",播放)
+    f(播放=="1")
+    {
+      
+    }
+    else
+    {
+      fw("$幻隐网络/临时文件/广场.txt","1")
+      t()
+      {
+        w(sss.视频广场=="播放中")
+        {
+          bfvss(广场.98, "ip", 状态)
+          f(状态==false)
+          {
+            bfvss(广场.98, "st")
+          }
+          else
+          {
+          }
+          stop(100)
+        }
+      }
+      bfvs(广场.98,sss.sxsp)
+      bfvss(广场.98,"st")
+      us(广场.95,"refreshing","false")
+      sss 视频广场="播放中"
+      us(广场.101,"src","@lp/player_pause.v")
+      
+    }
+  }
+}
+else f(st_tT=="全部功能")
+{
+  bfvss(广场.98, "pe")
+  sss 视频广场="不播放"
+  us(广场.101,"src","@lp/icon.v")
+  us(广场.76,"visibility","gone")
+  us(广场.14,"visibility","gone")
+  us(广场.34,"visibility","gone")
+  us(广场.108,"visibility","visible")
+  us(广场.67,"visibility","gone")
+  us(广场.94,"visibility","gone")
+  us(全部功能.20,"visibility","gone")
+  f(sss.全部功能加载=="是")
+  {
+  }
+  else
+  {
+    ss list=""
+    ss 提示=""
+    sss 不再加载=""
+    sss 全部功能加载="是"
+    ss wb=sss.全部功能
+    sj(ss.wb,null,"#分割符#",ss.wb1)
+    sj(ss.wb1,"《",null,api)
+    sl(api,"《",api)
+    t()
+    {
+      for(apis;api)
+      {
+        sj(apis,null,"》",apititle)
+        syso(apis)
+        sj(apis,"[","]",apilj)
+        sj(apis,"【","】",bt)
+        sj(apis,"〖","〗",jm)
+        sj(apis,"{","}",ycgn)
+        sj(apis,"灰产","灰产",灰有)
+        ss("(html)"+apititle,apititle)
+        strim(apilj,apilj)
+        strim(bt,bt)
+        syso(apilj)
+        sj(ss.wb,"灰产(",")灰产",灰产)
+        f(灰产?"开")
+        {
+          f(灰有?"是")
+          {
+          }
+          else
+          {
+            ula(ss.list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+          }
+        }
+        else
+        {
+          ula(ss.list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+        }
+      }
+      ufnsui()
+      {
+        t()
+        {
+          ufnsui()
+          {
+            uls(广场.4,ss.list,"功能list.iyu",-1,-2)
+          }
+        }
+      }
+    }
+  }
+}
+else f(st_tT=="本地文件")
+{
+  
+  bfvss(广场.98, "pe")
+  sss 视频广场="不播放"
+  us(广场.101,"src","@lp/icon.v")
+  t()
+  {
+    fl("幻隐网luo/",false, b)
+    ss 列表数量="0"
+    for(c; b)
+    {
+      ula(list,7=c)
+      s(ss.列表数量+1,ss.列表数量)
+    }
+    ufnsui()
+    {
+      uls(广场.35,list,"文件2.iyu",-1,-2)
+      f(ss.列表数量=="0")
+      {
+        us(广场.35,"visibility","gone")
+        us(广场.43,"visibility","visible")
+        us(广场.44,"visibility","visible")
+      }
+      else
+      {
+        us(广场.43,"visibility","gone")
+        us(广场.44,"visibility","gone")
+        us(广场.35,"visibility","visible")
+        uls(广场.35,list,"文件2.iyu",-1,-2)
+      }
+      us(广场.35,"divider","#ff00ff38")
+    }
+  }
+  us(广场.76,"visibility","gone")
+  us(广场.14,"visibility","gone")
+  us(广场.34,"visibility","visible")
+  us(广场.67,"visibility","gone")
+  us(广场.108,"visibility","gone")
+  us(广场.94,"visibility","gone")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme><eventItme type="ontabreselected">f(st_tT=="公众社区")
+{
+  f(ss.社区=="有了")
+{
+  us(广场.106,"visibility","visible")
+  ss 社区="没有"
+}
+else
+{
+us(广场.106,"visibility","gone")
+  ss 社区="有了"
+}
+}</eventItme></event>
+</View>
+<View id="94" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="95" did="94" type="SwipeRefreshLayout">
+<ppt>width=-1
+height=-1
+background=black</ppt>
+<event><eventItme type="onrefresh">t()
+  {
+    w(sss.视频广场=="播放中")
+    {
+      bfvss(广场.98, "ip", 状态)
+      f(状态==false)
+      {
+        bfvss(广场.98, "st")
+      }
+      else
+      {
+      }
+      stop(100)
+    }
+  }
+  f(sss.topon广告=="开启")
+{
+  f(sss.开始初始化 == null)
+  {
+    fn topon.初始化()
+  }
+  // 初始化值
+  sss top激励_onReward_atAdInfo = null
+  zj(sss.激励广告对象, "top加载激励广告并播放", "String",sss.激励广告位, "boolean", true)
+  f(sss.激励广告对象 ==  null)
+  {
+    bfvs(广场.98,sss.sxsp)
+bfvss(广场.98,"st")
+us(广场.95,"refreshing","false")
+sss 视频广场="播放中"
+us(广场.101,"src","@lp/player_pause.v")
+  }
+  else
+  {
+    t()
+    {
+      s i2 = 0
+      w(sss.top激励_onReward_atAdInfo == null)
+      {
+        s+(1, i2)
+        stop(500)
+        f(i2 &gt; 200)
+        {
+          endcode
+        }
+      }
+      ufnsui()
+      {
+        bfvs(广场.98,sss.sxsp)
+bfvss(广场.98,"st")
+us(广场.95,"refreshing","false")
+sss 视频广场="播放中"
+us(广场.101,"src","@lp/player_pause.v")
+      }
+    }
+  }
+}
+else
+{
+  bfvs(广场.98,sss.sxsp)
+bfvss(广场.98,"st")
+us(广场.95,"refreshing","false")
+sss 视频广场="播放中"
+us(广场.101,"src","@lp/player_pause.v")
+}
+us(广场.95,"refreshing","false")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("@sx.mp3")
+}</eventItme></event>
+</View>
+<View id="99" did="95" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=black</ppt>
+<event></event>
+</View>
+<View id="97" did="99" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=black</ppt>
+<event></event>
+</View>
+<View id="98" did="97" type="VideoView">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="102" did="99" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margin=10dp
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="103" did="102" type="TextView">
+<ppt>width=-2
+height=-2
+text=@隐Box
+textColor=#ffffffff
+textStyle=bold
+textSize=16sp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="104" did="102" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频来源于网络。
+textColor=#ffffffff
+textSize=13sp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="105" did="102" type="TextView">
+<ppt>width=-2
+height=-2
+text=下拉即可换一个视频
+textColor=#fff50707
+textSize=12sp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="123" did="99" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margin=10dp
+ut_alignParentBottom=true
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="136" did="123" type="ImageView">
+<ppt>width=38dp
+height=38dp
+src=@6.26/personal_icon_download.v
+layout_marginRight=20dp
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">ug(广场.98,"src",视频)
+tw(视频)</eventItme></event>
+</View>
+<View id="101" did="123" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@lp/player_pause.v
+layout_marginBottom=20dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">bfvss(广场.98, "ip", c)
+f(c==true)
+{
+  bfvss(广场.98, "pe")
+  sss 视频广场="不播放"
+  us(广场.101,"src","@lp/icon.v")
+}
+else
+{
+  bfvss(广场.98, "st")
+  sss 视频广场="播放中"
+  us(广场.101,"src","@lp/player_pause.v")
+  t()
+  {
+    w(sss.视频广场=="播放中")
+    {
+      bfvss(广场.98, "ip", 状态)
+      f(状态==false)
+      {
+        bfvss(广场.98, "st")
+      }
+      else
+      {
+      }
+      stop(100)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="76" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="84" did="76" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="156" did="84" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="141" did="156" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="142" did="141" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=white</ppt>
+<event></event>
+</View>
+<View id="144" did="142" type="RelativeLayout">
+<ppt>width=-1
+height=170dp
+background=@50bb4a602ff.png</ppt>
+<event></event>
+</View>
+<View id="145" did="144" type="CardView">
+<ppt>width=-1
+height=20dp
+app_CardcornerRadius=10dp
+app_CardElevation=-10dp
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="147" did="144" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=vertical
+background=white
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="158" did="142" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=3dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=170dp
+app_CardcornerRadius=50dp
+app_CardBackgroundColor=#2eebebeb</ppt>
+<event></event>
+</View>
+<View id="131" did="158" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="133" did="131" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@ui/ylsc.v
+padding=10dp
+</ppt>
+<event></event>
+</View>
+<View id="134" did="131" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@shortcut_search.png
+padding=5dp
+ut_alignparentright=true</ppt>
+<event><eventItme type="clicki">f(sss.游客=="是")
+{
+  s stop = 2000
+  s text="未登录不能搜索帖子~"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  ug(广场.135,"text",sss.搜索)
+  slg(sss.搜索,长度)
+  f(sss.搜索=="")
+  {
+    s stop = 2000
+    s text="请输入搜索内容."
+    fn color.ColorToast(text,stop)
+  }
+  else f(长度&lt;"2")
+  {
+    ss("最少输入两个字(当前"+长度+"字)",text)
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+  }
+  else
+  {
+    us(广场.135,"text","")
+    uigo("搜索.iyu")
+        }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="135" did="131" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=输入查询的帖子~
+textsize=12dp
+ut_toleftof=134
+ut_torightof=133
+ut_centerinparent=true
+background=#2eebebeb
+singleline=true
+textCursorDrawable=#ff009bff
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="148" did="141" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="149" did="148" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@tb/img_visit_love.png
+layout_marginRight=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="151" did="148" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@tb/img_holder_channel_3.png
+layout_marginRight=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="152" did="148" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@tb/img_visit_love.png
+layout_marginRight=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="153" did="148" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@tb/img_visit_love.png
+layout_marginRight=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="139" did="141" type="GifView">
+<ppt>width=120dp
+height=120dp
+src=@gif.gif
+layout_marginTop=20dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="90" did="141" type="GridView">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="108" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="120" did="108" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffc3c3c3
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="116" did="108" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=white
+layout_margin=3dp</ppt>
+<event></event>
+</View>
+<View id="117" did="116" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@xgt/img_winners_badge.v
+padding=5dp
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">f(sss.下滑=="下滑")
+{
+us(广场.4, "selection", 0)
+us(广场.117,"src","@xgt/img_winners_badge.v")
+}
+else
+{
+fn tool.showbt("gghh.iyu", true)
+}</eventItme></event>
+</View>
+<View id="118" did="116" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@Bibi/coa.v
+padding=10dp
+ut_alignparentright=true</ppt>
+<event><eventItme type="clicki">ug(广场.119,"text",so)
+f(sss.全部功能?so)
+{
+  f(so=="")
+  {
+    ss list=""
+    ss 提示=""
+    sss 不再加载=""
+    sss 全部功能加载="是"
+    ss wb=sss.全部功能
+    sj(ss.wb,null,"#分割符#",ss.wb1)
+    sj(ss.wb1,"《",null,api)
+    sl(api,"《",api)
+    t()
+    {
+      for(apis;api)
+      {
+        sj(apis,null,"》",apititle)
+        syso(apis)
+        sj(apis,"[","]",apilj)
+        sj(apis,"【","】",bt)
+        sj(apis,"〖","〗",jm)
+        sj(apis,"{","}",ycgn)
+        sj(apis,"灰产","灰产",灰有)
+        ss("(html)"+apititle,apititle)
+        strim(apilj,apilj)
+        strim(bt,bt)
+        syso(apilj)
+        sj(ss.wb,"灰产(",")灰产",灰产)
+        f(灰产?"开")
+        {
+          f(灰有?"是")
+          {
+          }
+          else
+          {
+            ula(ss.list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+          }
+        }
+        else
+        {
+          ula(ss.list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+        }
+      }
+      ufnsui()
+      {
+        t()
+        {
+          ufnsui()
+          {
+            uls(广场.4,ss.list,"功能list.iyu",-1,-2)
+          }
+        }
+      }
+    }
+    s text="请输入内容"
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+  }
+  else
+  {
+    fn 全部功能搜索.zh(so)
+  }
+}
+else
+{
+  s stop = 2000
+  s text="这个功能好像没有，您可以反馈一下~"
+  fn color.ColorToast(text,stop)
+}</eventItme></event>
+</View>
+<View id="119" did="116" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=请输入搜索内容/快捷查找
+textsize=12dp
+ut_toleftof=118
+ut_torightof=117
+ut_centerinparent=true
+background=
+singleline=true
+textCursorDrawable=#ff009bff</ppt>
+<event></event>
+</View>
+<View id="112" did="108" type="HorizontalScrollView">
+<ppt>width=-2
+height=-2
+scrollbars=none
+layout_gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="113" did="112" type="TabLayout">
+<ppt>width=-1
+height=-2
+app_tabList=全部功能|平民功能|会员功能|远程功能
+app_tabIndicatorColor=#ffff0000
+app_tabIndicatorWidth=10dp
+</ppt>
+<event><eventItme type="ontabselected">f(st_tT=="平民功能")
+{
+    s so="平民功能"
+fn 全部功能搜索.标签(so)
+}
+else f(st_tT=="会员功能")
+{
+    s so="会员功能"
+fn 全部功能搜索.标签(so)
+}
+else f(st_tT=="远程功能")
+{
+    s so="远程功能"
+fn 全部功能搜索.标签(so)
+}
+else f(st_tT=="全部功能")
+{
+    s so=""
+fn 全部功能搜索.标签(so)
+}</eventItme></event>
+</View>
+<View id="4" did="108" type="RecyclerView">
+<ppt>width=-1
+height=-2
+</ppt>
+<event><eventItme type="onscrolled">f(st_dY &gt; 0)
+{
+  us(广场.117,"src","@6.26/null_transfer_uploading.v")
+  sss 下滑="下滑"
+}
+else
+{
+  us(广场.117,"src","@xgt/img_winners_badge.v")
+  sss 下滑="上滑"
+}
+s(st_bT-st_vT,kj)
+f(st_fM==kj)
+{
+  f(sss.不再加载=="OK")
+  {
+    f(ss.提示=="提示过")
+    {
+    }
+    else
+    {
+      ss 提示="提示过"
+      gvs(广场.157,view)
+      cls("com.google.android.material.snackbar.Snackbar",类)
+      javax(snk,null,类,"make","android.view.View",view,"java.lang.CharSequence","我也是有底线哒！","int",2000)
+      cls("android.view.View$OnClickListener", 事件类)
+      javacb(事件, 事件类)
+      {
+        fr("$幻隐网络/点击特效/开.txt",anyx)
+        f(anyx &gt; "0")
+        {
+          bfm("$幻隐网络/配置/djyx.mp3")
+        }
+      }
+      javax(null,snk,类,"setAction","java.lang.CharSequence","确定",事件类,事件)
+      javax(get,snk,"com.google.android.material.snackbar.BaseTransientBottomBar","getView")
+      //设置背景
+      ngde(0,16,"#95272727","#95272727",bj)
+      us(get,"background",bj)
+      //设置高度
+      us(get,"height","-2")
+      //设置外边距
+      us(get,"layout_margin","12dp")
+      //显示
+      java(null, snk, "com.google.android.material.snackbar.BaseTransientBottomBar.show")
+      
+    }
+  }
+  else
+  {
+    
+    
+    ss(ss.wb1+"#分割符#",ss.wb1)
+    sr(ss.wb,ss.wb1,"",ss.wb)
+    f(ss.wb?"#分割符#")
+    {
+      t()
+      {
+        sj(ss.wb,null,"#分割符#",ss.wb1)
+        //截取变量ss.wb中第二个#分割符#之前的数据
+        sj(ss.wb1,"《",null,api)
+        sl(api,"《",api)
+        t()
+        {
+          for(apis;api)
+          {
+            sj(apis,null,"》",apititle)
+            syso(apis)
+            sj(apis,"[","]",apilj)
+            sj(apis,"【","】",bt)
+            sj(apis,"〖","〗",jm)
+            sj(apis,"{","}",ycgn)
+            sj(apis,"灰产","灰产",灰有)
+            ss("(html)"+apititle,apititle)
+            strim(apilj,apilj)
+            strim(bt,bt)
+            syso(apilj)
+            sj(ss.wb,"灰产(",")灰产",灰产)
+            f(灰产?"开")
+            {
+              f(灰有?"是")
+              {
+              }
+              else
+              {
+                ula(ss.list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+              }
+            }
+            else
+            {
+              ula(ss.list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+            }
+          }
+          ufnsui()
+          {
+            t()
+            {
+              ufnsui()
+              {
+                ula(ss.list)
+              }
+            }
+          }
+        }
+      }
+    }
+    else
+    {
+      sss 不再加载="OK"
+      // fn 聚合.全部功能底部()
+    }
+    
+    
+  }
+}</eventItme></event>
+</View>
+<View id="34" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="52" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="41" did="52" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+app_CardmaxElevation=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="Button">
+<ppt>width=-1
+height=-1
+text=下载列表
+background=white
+textStyle=bold
+textColor=#ff009eff
+</ppt>
+<event><eventItme type="clicki">s a = "幻隐网luo/"
+//下载至保存的目录
+s b = "幻隐网luo/"
+//允许同时下载任务数量
+s c = 5
+//每个任务开启线程数量
+s d = 3
+//连接失败重试次数
+s e = 2
+//连接超时时间，25秒的意思
+s f = 25000
+//是否显示下载进度通知
+s g = true
+hdd(a, b, c, d, e, f, g)
+s b = "#ff00beff"
+//底部横杠颜色
+s c = "#7abd9a"
+hdduigo(b, b)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="57" did="52" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+app_CardmaxElevation=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="58" did="57" type="Button">
+<ppt>width=-1
+height=-1
+text=添加文件
+background=white
+textStyle=bold
+textColor=#ff009eff</ppt>
+<event><eventItme type="clicki">sran(1,99999,hh)
+ss("%幻隐网luo/自创"+hh+".txt",hh)
+ss("创建成功，文件名为："+hh+"！",kk)
+fw(hh,"啥也没有，快自行编辑吧！")
+s stop = 2000
+s text=kk
+fn color.ColorToast(text,stop)
+t()
+{
+  fl("%幻隐网luo/",false, b)
+  ss 列表数量="0"
+  for(c; b)
+  {
+    ula(list,7=c)
+    s(ss.列表数量+1,ss.列表数量)
+  }
+  ufnsui()
+  {
+    f(ss.列表数量=="0")
+    {
+      us(广场.35,"visibility","gone")
+      us(广场.43,"visibility","visible")
+      us(广场.44,"visibility","visible")
+    }
+    else
+    {
+      us(广场.43,"visibility","gone")
+      us(广场.44,"visibility","gone")
+      us(广场.35,"visibility","visible")
+      uls(广场.35,list,"文件2.iyu",-1,-2)
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="154" did="34" type="SwipeRefreshLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="onrefresh">t()
+{
+  fl("幻隐网luo/",false, b)
+  ss 列表数量="0"
+  for(c; b)
+  {
+    ula(list,7=c)
+    s(ss.列表数量+1,ss.列表数量)
+  }
+  ufnsui()
+  {
+    f(ss.列表数量=="0")
+    {
+      us(广场.35,"visibility","gone")
+      us(广场.43,"visibility","visible")
+      us(广场.44,"visibility","visible")
+    }
+    else
+    {
+      us(广场.43,"visibility","gone")
+      us(广场.44,"visibility","gone")
+      us(广场.35,"visibility","visible")
+      uls(广场.35,list,"文件2.iyu",-1,-2)
+    }
+    us(广场.154,"refreshing","false")
+    fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("@sx.mp3")
+}
+  }
+}
+</eventItme></event>
+</View>
+<View id="155" did="154" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="35" did="155" type="ListView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="43" did="155" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@abv/icon_new_order_empty_img.png
+layout_gravity=center
+layout_marginTop=30dp</ppt>
+<event></event>
+</View>
+<View id="44" did="155" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无更多文件
+textColor=#ff121212
+textStyle=bold
+textSize=16sp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="67" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="72" did="67" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=white
+layout_margin=3dp
+</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@6.26/tradeplatform_icon_no_search_result.v
+ut_alignparentright=true
+padding=8dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">ug(广场.75,"text",kj)
+f(kj&lt;="0"||kj&gt;="200")
+{
+s text="暂无本页！"
+s stop = 2000
+fn color.ColorToast(text,stop)
+us(广场.75,"text","")
+}
+else
+{
+t()
+{
+ss("https://m.xeacg.net/shaonv/list_2_"+kj+".html",oo)
+hs(oo,api)
+sj(api,"pic pic1","showpage",api)
+ s wz="href=""
+ s ti="""
+ s t="title=""
+ s wh="src=""
+sj(api,wz,null,api)
+sl(api,wz,api)
+for(apis;api)
+{
+sj(apis,null,ti,apititle)
+sj(apis,t,ti,apilj)
+sj(apis,wh,ti,sqdz)
+ula(list,53=sqdz,54=apititle,46=apilj)
+}
+ufnsui()
+{
+  fw("$幻隐网络/临时数据/1033.txt","1")
+uls(广场.65,list,"快脚.iyu",-1,-2)
+us(广场.73,"visibility","visible")
+us(广场.75,"text","")
+}
+}
+}
+}</eventItme></event>
+</View>
+<View id="74" did="72" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@6.26/bottombar_btn_discovery_pre.v
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="75" did="72" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=请输入您要进入的页面
+textsize=12dp
+ut_toleftof=73
+ut_torightof=74
+ut_centerinparent=true
+background=
+singleline=true
+textCursorDrawable=#ff009bff
+digits=1234567890</ppt>
+<event><eventItme type="ontextchanged">ug(广场.75,"text",ii)
+f(ii=="")
+{
+us(广场.73,"visibility","gone")
+}
+else
+{
+us(广场.73,"visibility","visible")
+}</eventItme></event>
+</View>
+<View id="65" did="67" type="GridView">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@6.18/drawable_no_internet.v</ppt>
+<event></event>
+</View>
+<View id="12" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中，请稍等！
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

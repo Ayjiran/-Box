@@ -1,0 +1,228 @@
+<View id="41" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=手机信息
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="39" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="40" did="39" type="TextView">
+<ppt>width=-1
+height=-2
+text=介绍
+textColor=#ff070707
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+javags(a,null,"android.os.Build","BRAND")
+ss("\n系统定制商:"+a+"\n\n",b)
+javags(a,null,"android.os.Build","MODEL")
+ss(b+"型号:"+a+"\n\n",b)
+javags(a,null,"android.os.Build","BOARD")
+ss(b+"主板信息:"+a+"\n",b)
+javags(a,null,"android.os.Build","DEVICE")
+ss(b+"设备参数:"+a+"\n",b)
+javags(a,null,"android.os.Build","MANUFACTURER")
+ss(b+"硬件制造商:"+a+"\n",b)
+javags(a,null,"android.os.Build","PRODUCT")
+ss(b+"产品sss.名称:"+a+"\n",b)
+javags(a,null,"android.os.Build","DISPLAY")
+ss(b+"显示屏:"+a+"\n",b)
+javags(a,null,"android.os.Build","ID")
+ss(b+"修订版本列表:"+a+"\n",b)
+javags(a,null,"android.os.Build","BOOTLOADER")
+ss(b+"系统启动程序版本号:"+a+"\n",b)
+javags(a,null,"android.os.Build","SERIAL")
+ss(b+"硬件序列号:"+a+"\n",b)
+javags(a,null,"android.os.Build","TIME")
+ss(b+"构建时间:"+a+"\n",b)
+java(a,null,"android.os.Build.getRadioVersion")
+ss(b+"无线电固件版本:"+a+"\n",b)
+javags(a,null,"android.os.Build$VERSION","SDK_INT")
+ss(b+"SDK版本:"+a+"\n",b)
+javags(a,null,"android.os.Build$VERSION","RELEASE")
+ss(b+"系统版本:"+a+"\n",b)
+javags(a,null,"android.os.Build$VERSION","CODENAME")
+ss(b+"设备当前的系统开发代号:"+a+"\n",b)                                                                                                                                                                                                                                                                                                         
+java(管理器,activity,"android.app.Activity.getSystemService","String","phone")
+java(a,管理器,"android.telephony.TelephonyManager.getSimState")
+f(a==0)
+{
+  s a="未知状态"
+}
+f(a==1)
+{
+  s a="未插卡"
+}
+f(a==2)
+{
+  s a="锁定状态1，需要用户的PIN码解锁"
+}
+f(a==3)
+{
+  s a="锁定状态2，需要用户的PUK码解锁"
+}
+f(a==4)
+{
+  s a="锁定状态3，需要网络的PIN码解锁"
+}
+f(a==5)
+{
+  s a="正常状态"
+}
+ss(b+"SIM卡状态:"+a+"\n",b)
+java(a,管理器,"android.telephony.TelephonyManager.getLine1Number")
+ss(b+"手机号码:"+a+"\n",b)
+java(a,管理器,"android.telephony.TelephonyManager.getNetworkOperatorName")
+ss(b+"运营商sss.名称:"+a+"\n",b)
+java(a,管理器,"android.telephony.TelephonyManager.getSimOperatorName")
+ss(b+"服务商sss.名称:"+a+"\n",b)
+java(a,管理器,"android.telephony.TelephonyManager.getDataState")
+f(a==0)
+{
+  s a="已经断开"
+}
+f(a==1)
+{
+  s a="正在连接"
+}
+f(a==2)
+{
+  s a="已经连接"
+}
+f(a==3)
+{
+  s a="暂停"
+}
+ss(b+"数据链接状态:"+a+"\n",b)
+java(a,管理器,"android.telephony.TelephonyManager.getDataActivity")
+f(a==0)
+{
+  s a="活动，但无数据发送和接受"
+}
+f(a==1)
+{
+  s a="活动，正在接收数据"
+}
+f(a==2)
+{
+  s a="活动，正在发送数据"
+}
+f(a==3)
+{
+  s a="活动，正在发送及接收数据"
+}
+f(a==4)
+{
+  s a="休眠状态"
+}
+ss(b+"数据活动状态:"+a+"\n",b)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+java(a,null,"android.os.SystemClock.uptimeMillis")
+s(a/1000,a)
+ss(a+"秒",a)
+ss(b+"系统启动到现在的时间，不包含深度休眠的时间:"+a+"\n",b)
+java(a,null,"android.os.SystemClock.elapsedRealtime")
+s(a/1000,a)
+ss(a+"秒",a)
+ss(b+"系统启动到现在的时间，包含深度休眠的时间:"+a+"\n",b)    
+java(cr,activity,"android.content.Context.getContentResolver")
+java(a,null,"android.provider.Settings$System.getString","android.content.ContentResolver",cr,"String","android_id")
+ss(b+"Android_id:"+a+"\n",b)
+simsi(a)
+ss(b+"设备imsi:"+a+"\n",b)
+simei(a)
+ss(b+"设备imei:"+a+"\n",b)
+swh("w", w)
+ss(b+"屏幕宽度:"+w+"\n",b)
+swh("h", h)
+ss(b+"屏幕高度:"+h+"\n",b)
+swh("hh", hh)
+ss(b+"屏幕高度(不包含状态栏):"+hh+"\n",b)
+swh("pxw", w)
+ss(b+"屏幕宽度像素:"+w+"\n",b)
+swh("pxh", h)
+ss(b+"屏幕宽度像素:"+h+"\n",b)
+swh("pxhh", hh)
+ss(b+"屏幕高度像素(不包含状态栏):"+hh+"\n",b)
+swh("pxztl", h)
+ss(b+"状态栏高度像素:"+h+"\n",b)
+swh("pxbvk", h)
+ss(b+"屏幕底部虚拟键盘的高度的px像素:"+h+"\n",b)
+shb(a)
+ss(b+"剪贴板内容:"+a+"\n",b)
+sjxx(a)
+sgsz(a,0,a)
+ss(b+"cpu型号:"+a+"\n",b)
+sjxx(a)
+sgsz(a,1,a)
+ss(b+"cpu频率:\n"+a+"\n\n\n\n\n",b)
+us(40,"text",b)
+
+ s id=41
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="restart">loadjar("vpn.dex",jar)
+cls(jar,"com.1874.VPN",cls)
+javax(back,null,cls,"isVpnUsed")
+f(back=="true")
+{
+  end()
+   s text="禁止抓包vpn"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+  }
+else
+{
+  }</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

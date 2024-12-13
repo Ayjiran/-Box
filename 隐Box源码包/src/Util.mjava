@@ -1,0 +1,5 @@
+Object sssz(Object[] 数组,int 序号,Object 数据)
+{
+  数组[序号]=数据;
+  return 数组;
+  }

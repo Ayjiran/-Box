@@ -1,0 +1,1786 @@
+<View id="326" did="0" type="CoordinatorLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="41" did="326" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="265" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="336" did="265" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=软件设置
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="42" did="265" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=1</ppt>
+<event></event>
+</View>
+<View id="4" did="42" type="ScrollView">
+<ppt>width=-1
+height=-2
+background=white
+layout_weight=1
+overScrollMode=if</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="311" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="58" did="311" type="TextView">
+<ppt>width=-2
+height=-2
+text=绑定账号：
+background=white
+textSize=13sp
+textcolor=#ff010101
+gravity=center
+layout_marginBottom=10dp
+layout_marginLeft=10dp
+layout_gravity=left
+layout_marginTop=10dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="307" did="311" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=#ffffffff</ppt>
+<event><eventItme type="clicki">gvs(326,id)
+  loadjar("jb.dex",动画)
+   
+  javax(null,null,结束,"set","android.app.Activity",activiandroid.app.Activityty,"androidx.coordinatorlayout.widget.CoordinatorLayout",id)
+  f(ss.kz==null)
+  {
+    ss kz=1
+    us(325,"visibility","visible")
+  }
+else
+  {
+    us(325,"visibility","gone")
+        ss kz=null
+  }
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="308" did="307" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@icon_qq2.png
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="309" did="307" type="TextView">
+<ppt>width=-2
+height=-2
+text=QQ
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="310" did="307" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="322" did="307" type="TextView">
+<ppt>width=-2
+height=-2
+text=绑定
+textColor=#ff0090ff
+textSize=12sp
+layout_marginRight=20dp
+textStyle=bold</ppt>
+<event><eventItme type="clicki">f(sss.游客=="是")
+{
+  s stop = 2000
+  s text="未登录不能绑定~"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+fn qqtool.loginqq(sss.qqdlid,"隐Box","all","com.tencent.mobileqq")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="325" did="311" type="TextView">
+<ppt>width=-2
+height=-2
+text=哎呀~被你发现了~
+textColor=#ff010101
+textSize=10sp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+textIsSelectable=true
+gravity=center
+layout_gravity=center
+visibility=gone</ppt>
+<event><eventItme type="clicki">sit(a,"action", "android.intent.action.GET_CONTENT")
+sit(a,"type", "*/*")
+uit(a,"result",1)</eventItme></event>
+</View>
+<View id="313" did="311" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="314" did="313" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@icon_wechat2.png
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="315" did="313" type="TextView">
+<ppt>width=-2
+height=-2
+text=微信
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="316" did="313" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="323" did="313" type="TextView">
+<ppt>width=-2
+height=-2
+text=绑定
+textColor=#ff0090ff
+textSize=12sp
+layout_marginRight=20dp
+textStyle=bold</ppt>
+<event><eventItme type="clicki">s stop = 2000
+s text="未开启微信绑定！"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="317" did="311" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="318" did="317" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@lk.png
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="319" did="317" type="TextView">
+<ppt>width=-2
+height=-2
+text=支付宝
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="320" did="317" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="324" did="317" type="TextView">
+<ppt>width=-2
+height=-2
+text=绑定
+textColor=#ff0090ff
+textSize=12sp
+layout_marginRight=20dp
+textStyle=bold</ppt>
+<event><eventItme type="clicki">s stop = 2000
+s text="未开启支付宝绑定！"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="195" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="65" did="195" type="TextView">
+<ppt>width=-1
+height=2dp
+text=
+background=white</ppt>
+<event></event>
+</View>
+<View id="6" did="195" type="TextView">
+<ppt>width=-2
+height=-2
+text=基本设置：
+background=white
+textSize=13sp
+textcolor=#ff010101
+gravity=center
+layout_marginBottom=10dp
+layout_marginLeft=10dp
+layout_gravity=left
+layout_marginTop=5dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="7" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="51" did="7" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@user/2d7b2e45-9410-44e3-82a4-44a23809ca11.png
+layout_marginLeft=10dp
+</ppt>
+<event><eventItme type="clicki">s c = "长按本按钮下的文字，即可自己选择喜欢的mp3文件播放您自己专属的音乐！文字改变之后，关闭音乐重新开启就好了！\n如果您有好的音乐可以自己输入路径，您可以试试！\n本功能需要重启软件才能播放" 
+us(updata.10,"text","好的") 
+us(updata.1,"visibility","visible")                    
+us(updata.7,"text",c)                  
+us(updata.5,"text","使用需知")
+ us(updata.12,"text","谨慎操作-易如反掌")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=打开软件自动播放音乐
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp
+</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginright=20dp
+</ppt>
+<event><eventItme type="clicki">fe("$幻隐网络/背景音乐/开.txt",uu)
+f(uu=="false")
+{
+  ug(272,"text",yywj)
+  ss kz=1
+  s a="$幻隐网络/背景音乐/开.txt"
+  s b=yywj
+  fw(a,b)
+  us(9,"src","@setting_chk_blue.v")
+  bfm(yywj, sss.b)
+  bfms(sss.b, "sl", true)
+}
+else
+{
+  us(272,"text","(点我选择音乐)")
+  s g = "$幻隐网络/背景音乐/开.txt"
+  fd(g,j)
+  us(9,"src","@setting_chk_gray.v")
+  bfms(sss.b, "sp")
+  ss kz=null
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="272" did="195" type="TextView">
+<ppt>width=-2
+height=-2
+text=(点我选择音乐)
+textColor=#ff010101
+textSize=10sp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("本地音乐.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="258" did="195" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef</ppt>
+<event></event>
+</View>
+<View id="252" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="253" did="252" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@user/71ff7bee-1bc9-4eb4-b0d3-9dc233c92857.png
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">s c = "如何防止别人碰自己的隐Box，设置个密码就o98k了！"
+us(updata.10,"text","好的")
+us(updata.1,"visibility","visible")
+us(updata.7,"text",c)
+us(updata.5,"text","使用需知")
+us(updata.12,"text","谨慎操作-易如反掌")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="254" did="252" type="TextView">
+<ppt>width=-2
+height=-2
+text=设置软件密码
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="255" did="252" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginright=20dp
+</ppt>
+<event><eventItme type="clicki">fe("$幻隐网络/软件密码/开.txt",uu)
+f(uu=="false")
+{
+  utw(null,"","密码设置.iyu",false,sss.uw)
+  {
+  }
+}
+else
+{
+  s g = "$幻隐网络/软件密码/开.txt"
+  fd(g,j)
+  us(255,"src","@setting_chk_gray.v")
+  us(256,"visibility","gone")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="256" did="195" type="TextView">
+<ppt>width=-2
+height=-2
+text=密码
+textColor=#ff5f5f5f
+textSize=10sp
+visibility=gone</ppt>
+<event><eventItme type="press">uigo("seledfa.iyu")</eventItme></event>
+</View>
+<View id="180" did="195" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="181" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="182" did="181" type="ImageView">
+<ppt>width=50dp
+height=20dp
+src=@ui/wm.v</ppt>
+<event><eventItme type="clicki">s a = null 
+s b = "进入渐显" 
+s c = "进入软件的时候，逐渐显示界面！\n本功能需要重启软件才能播放" 
+s d = "知道了" 
+
+//三个按钮 
+//输入图标，输入标题，输入内容，输入按钮sss.名称，输入按钮sss.名称，输入按钮sss.名称，输入是否点击弹窗以外界面是否关闭弹窗，输入赋值变量 
+utw(a, b, c, d, false, v) 
+{ 
+ } 
+</eventItme></event>
+</View>
+<View id="183" did="181" type="TextView">
+<ppt>width=-2
+height=-2
+text=进入软件渐显
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="184" did="181" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginright=20dp
+</ppt>
+<event><eventItme type="clicki">f(ss.kz==null)
+  {
+    ss kz=1
+    s a="$幻隐网络/启动渐显/开.txt"
+    s b="隐心牛逼，666"
+    fw(a,b)
+ 
+us(184,"src","@setting_chk_blue.v")
+  }
+else
+  {
+    s g = "$幻隐网络/启动渐显/开.txt" 
+fd(g,j) 
+    us(184,"src","@setting_chk_gray.v")
+    ss kz=null
+  }</eventItme></event>
+</View>
+<View id="244" did="195" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef</ppt>
+<event></event>
+</View>
+<View id="111" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="112" did="111" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@user/8fb744bb-7b1c-47b4-b514-ee1f9909d41d.png
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">s c = "开启本功能后，点击任何一个按钮都会有声音的哦，比较Q弹的感觉！"
+us(updata.10,"text","好的")
+us(updata.1,"visibility","visible")
+us(updata.7,"text",c)
+us(updata.5,"text","使用需知")
+us(updata.12,"text","谨慎操作-易如反掌")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="113" did="111" type="TextView">
+<ppt>width=-2
+height=-2
+text=按钮点击音效
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="114" did="111" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginright=20dp
+</ppt>
+<event><eventItme type="clicki">fe("$幻隐网络/点击特效/开.txt",uu)
+f(uu=="false")
+{
+  ss kz=1
+  s a="$幻隐网络/点击特效/开.txt"
+  s b="1"
+  fw(a,b)
+  
+  us(114,"src","@setting_chk_blue.v")
+}
+else
+{
+  s g = "$幻隐网络/点击特效/开.txt"
+  fd(g,j)
+  us(114,"src","@setting_chk_gray.v")
+  ss kz=null
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="270" did="195" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef</ppt>
+<event></event>
+</View>
+<View id="300" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="301" did="300" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@user/36d34f0c-918d-44f7-96ad-d7568f783ae9.png
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">s c = "开启本功能后，进入远程功能后会加载更快，不再显示进度条！"
+us(updata.10,"text","好的")
+us(updata.1,"visibility","visible")
+us(updata.7,"text",c)
+us(updata.5,"text","使用需知")
+us(updata.12,"text","谨慎操作-易如反掌")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="302" did="300" type="TextView">
+<ppt>width=-2
+height=-2
+text=远程不再加载
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="303" did="300" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginright=20dp
+</ppt>
+<event><eventItme type="clicki">fe("$幻隐网络/横条/开.txt",uu)
+f(uu=="false")
+{
+  ss kz=1
+  s a="$幻隐网络/横条/开.txt"
+  s b="1"
+  fw(a,b)  
+  us(303,"src","@setting_chk_blue.v")
+}
+else
+{
+  s g = "$幻隐网络/横条/开.txt"
+  fd(g,j)
+  us(303,"src","@setting_chk_gray.v")
+  ss kz=null
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="304" did="195" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef</ppt>
+<event></event>
+</View>
+<View id="266" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="267" did="266" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@user/6c920dd9-d843-4b0d-9d5c-0cd52bb6760b.png
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">s c = "开启本功能后，点击部分按钮都会有跳动的哦，比较Q弹的感觉！"
+us(updata.10,"text","好的")
+us(updata.1,"visibility","visible")
+us(updata.7,"text",c)
+us(updata.5,"text","使用需知")
+us(updata.12,"text","谨慎操作-易如反掌")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="268" did="266" type="TextView">
+<ppt>width=-2
+height=-2
+text=按钮图标跳动
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="269" did="266" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginright=20dp
+</ppt>
+<event><eventItme type="clicki">fe("$幻隐网络/点击特效/跳动开.txt",uu)
+f(uu=="false")
+{
+  ss kz=1
+  s a="$幻隐网络/点击特效/跳动开.txt"
+  s b="1"
+  fw(a,b)
+  
+  us(269,"src","@setting_chk_blue.v")
+}
+else
+{
+  s g = "$幻隐网络/点击特效/跳动开.txt"
+  fd(g,j)
+  us(269,"src","@setting_chk_gray.v")
+  ss kz=null
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="178" did="195" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef</ppt>
+<event></event>
+</View>
+<View id="91" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="92" did="91" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@user/7a71c64b-02fb-4375-8b28-359d9df30f1d.png
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">s a = null
+s b = "恢复出厂"
+s c = "您将恢复软件到刚开始的样子，重新记录您的第一次使用！"
+us(updata.10,"text","好的")
+us(updata.1,"visibility","visible")
+us(updata.7,"text",c)
+us(updata.5,"text","使用需知")
+us(updata.12,"text","谨慎操作-易如反掌")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="93" did="91" type="TextView">
+<ppt>width=-2
+height=-2
+text=恢复出厂设置
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="94" did="91" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="120" did="91" type="ImageView">
+<ppt>width=22dp
+height=22dp
+src=@8cdcac2132e.v
+scaletype=fitxy
+layout_marginright=20dp</ppt>
+<event><eventItme type="clicki">s c = "您确定要恢复出厂设置的么？亲"
+us(updata.10,"text","恢复")
+us(updata.1,"visibility","visible")
+us(updata.7,"text",c)
+us(updata.5,"text","使用需知")
+us(updata.12,"text","谨慎操作-易如反掌")
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="168" did="91" type="TextView">
+<ppt>width=-1
+height=-2
+text=/storage/emulated/0/幻隐网络
+hint=/storage/emulated/0/xxx
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="136" did="195" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="97" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=#ffffffff
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="98" did="97" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@user/ded00c48-f648-4056-b84c-1276966af74e.png
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">s a = null
+s b = "手电筒"
+s c = "您的手电筒，照亮前方，照亮你的鬼！"
+us(updata.10,"text","好的")
+us(updata.1,"visibility","visible")
+us(updata.7,"text",c)
+us(updata.5,"text","使用需知")
+us(updata.12,"text","谨慎操作-易如反掌")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="99" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=清理缓存
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="109" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=关 |
+visibility=gone</ppt>
+<event><eventItme type="clicki">usg(sss.sgd, false)
+sss a=false
+us(109,"visibility","gone")</eventItme></event>
+</View>
+<View id="107" did="97" type="ImageView">
+<ppt>width=22dp
+height=22dp
+src=@8cdcac2132e.v
+scaletype=fitxy
+layout_marginright=20dp</ppt>
+<event><eventItme type="clicki">call(r,"mjava","删除.deleteFile","/storage/emulated/0/幻隐网luo/.缓存/")
+s stop = 2000
+s text="清理成功，退出重进看效果~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="235" did="195" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="230" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=white</ppt>
+<event><eventItme type="clicki">s stop = 2000
+s text="当前提醒效果"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="231" did="230" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@user/2b27bb74-0bc9-4771-a4da-dc15c7ea3330.png
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">s c = "本功能是让客户完全按自己的心情支配软件！\n单击按钮选择颜色，接下来再输入您想要的颜色的代码(不懂可以不设置，实在想要的话可以百度)，然后长按输入框即可设置！恢复原样(长按按钮)"
+us(updata.10,"text","好的")
+us(updata.1,"visibility","visible")
+us(updata.7,"text",c)
+us(updata.5,"text","使用需知")
+us(updata.12,"text","谨慎操作-易如反掌")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="232" did="230" type="TextView">
+<ppt>width=-2
+height=-2
+text=消息提醒
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="233" did="230" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="234" did="230" type="ImageView">
+<ppt>width=22dp
+height=22dp
+src=@8cdcac2132e.v
+scaletype=fitxy
+layout_marginright=20dp</ppt>
+<event><eventItme type="clicki">s a="@170837.png"
+s b=""
+s nr="您要选择哪种提醒您的方式呢？？"
+s button="横条"
+s fitxy="简美"
+s xm="鲜明"
+utw(a,b,nr,button,fitxy,xm,false,v)
+{
+  fw("$幻隐网络/提醒.txt","横条")
+}
+else
+{
+  fw("$幻隐网络/提醒.txt","简美")
+}
+else
+{
+  fw("$幻隐网络/提醒.txt","鲜明")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="203" did="195" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef</ppt>
+<event></event>
+</View>
+<View id="198" did="195" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="199" did="198" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@7892f95afbd.v
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">s a = null 
+s b = "敬请期待" 
+s c = "有好的想法可以联系隐心哦！"
+us(updata.10,"text","好的") 
+us(updata.1,"visibility","visible")                    
+us(updata.7,"text",c)                  
+us(updata.5,"text","使用需知")
+ us(updata.12,"text","谨慎操作-易如反掌")
+</eventItme></event>
+</View>
+<View id="200" did="198" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待……
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="201" did="198" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="312" did="195" type="TextView">
+<ppt>width=-2
+height=-2
+text=当前状态：
+background=white
+textSize=13sp
+textcolor=#ff010101
+gravity=center
+layout_marginBottom=10dp
+layout_marginLeft=10dp
+layout_gravity=left
+layout_marginTop=5dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="196" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white
+gravity=center
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="59" did="196" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="ImageView">
+<ppt>width=50dp
+height=22dp
+src=@ui/dl.v</ppt>
+<event><eventItme type="clicki">s a = null 
+s b = "电量用处" 
+s c = "没任何用，主要就是有的看不见电量，可以来软件里看￣ ￣)σ，哈哈哈，总之就是一个没啥用的功能，凑功能用的！！" 
+us(updata.10,"text","好的") 
+us(updata.1,"visibility","visible")                    
+us(updata.7,"text",c)                  
+us(updata.5,"text","使用需知")
+ us(updata.12,"text","谨慎操作-易如反掌")
+
+</eventItme></event>
+</View>
+<View id="61" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=手机电量查看
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="62" did="59" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="75" did="196" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#efefef</ppt>
+<event></event>
+</View>
+<View id="327" did="196" type="LinearLayout">
+<ppt>width=-1
+height=120dp
+orientation=horizontal
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="328" did="327" type="CardView">
+<ppt>width=-1
+height=-1
+app_cardBackgroundColor=#ffffffff
+app_cardCornerRadius=10dp
+app_cardElevation=3dp
+layout_weight=1
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="329" did="328" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="330" did="329" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="337" did="330" type="RelativeLayout">
+<ppt>width=50dp
+height=50dp
+layout_marginleft=15dp
+gravity=center
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="338" did="337" type="RelativeLayout">
+<ppt>width=50dp
+height=50dp
+layout_margin=1.5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="339" did="338" type="RoundImageView">
+<ppt>width=40dp
+height=40dp
+layout_margin=1.5dp
+src=@170837.png</ppt>
+<event></event>
+</View>
+<View id="340" did="337" type="LinearLayout">
+<ppt>width=50dp
+height=50dp
+background=$幻隐网络/txk/txa.png
+layout_margin=1.5dp</ppt>
+<event></event>
+</View>
+<View id="341" did="337" type="GifView">
+<ppt>width=20dp
+height=20dp
+src=@chenghao/noble_emperor_icon.gif
+layout_marginLeft=10dp
+visibility=gone
+ut_alignParentRight=true
+ut_alignParentBottom=true
+layout_marginBottom=5dp
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="332" did="329" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp
+layout_marginRight=5dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="333" did="332" type="TextView">
+<ppt>width=-2
+height=-2
+text=出生时间
+textColor=#414b5d
+textSize=15sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="334" did="332" type="TextView">
+<ppt>width=-2
+height=-2
+text=不知道喔~
+textColor=#ff9f9f9f
+textSize=13sp
+layout_marginTop=3dp</ppt>
+<event></event>
+</View>
+<View id="288" did="196" type="LinearLayout">
+<ppt>width=-1
+height=120dp
+orientation=horizontal
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="289" did="288" type="CardView">
+<ppt>width=-1
+height=-1
+app_cardBackgroundColor=#ffffffff
+app_cardCornerRadius=10dp
+layout_weight=1
+app_CardElevation=3dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="290" did="289" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="291" did="290" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="292" did="291" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@ui/wifi.v
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="293" did="290" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=5dp
+layout_marginRight=5dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="294" did="293" type="TextView">
+<ppt>width=-2
+height=-2
+text=当前联网状态
+textColor=#414b5d
+textSize=15sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="296" did="293" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="295" did="296" type="TextView">
+<ppt>width=-2
+height=-2
+text=网络
+textColor=#ff9f9f9f
+textSize=13sp
+layout_marginTop=3dp</ppt>
+<event></event>
+</View>
+<View id="297" did="296" type="TextView">
+<ppt>width=-2
+height=-2
+text=-|-
+textColor=#ff9f9f9f
+textSize=13sp
+layout_marginTop=3dp</ppt>
+<event></event>
+</View>
+<View id="298" did="296" type="TextView">
+<ppt>width=-2
+height=-2
+text=网络
+textColor=#ff9f9f9f
+textSize=13sp
+layout_marginTop=3dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+gvs(339,a)
+call(null,"mjava","图片跳转.set",a)
+us(339,"src",sss.头像)
+ 
+sj(sss.当前用户数据,"头像框：","头像框内容结束",相框)
+sj(sss.当前用户数据,"会员(",")会员",会员)
+us(340,"background",相框)
+f(sss.dqsj&gt;会员)
+{
+}
+else
+{
+  us(341,"visibility","visible")
+}
+s id=336
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+addv(41,"updata.iyu")
+f(sss.游客=="是")
+{
+us(334,"text","你还未出生")
+}
+else
+{
+us(334,"text",sss.注册时间)
+f(sss.绑定QQsss.名称=="")
+{
+}
+else
+{
+ us(309,"text",sss.绑定QQ名称)
+ us(322,"text","换绑") 
+ ss("ID:"+sss.绑定的key,key)
+ us(325,"text",key)
+ us(322,"textcolor","#fffe0000")
+}
+}
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(42,a)
+gvs(4,b)
+javanew(mBs,mB,"Context",activity)
+urvw(4)
+nvw(mBs,42)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+ngde(0,10,"#ff7bebff|#ff00c0ff","#ffffff","leftright",ab)
+us(151,"background",ab)
+fr("$幻隐网络/记录/名字.txt",mz)
+us(134,"text",mz)
+fr("$幻隐网络/记录/dkcs.txt",cs)
+us(159,"text",cs)
+call(a, "mlua", "bb.get")
+us(175,"text",a)
+time(5,a)
+t()
+{
+  w(true)
+  {
+    stop(100)
+    sss NetType2="无"
+    sss NetType="无服务"
+s context="android.content.Context"
+s  CM="android.net.ConnectivityManager"
+s netinfo="android.net.NetworkInfo"
+s netinfo&state="android.net.NetworkInfo$State"
+s TM="android.telephony.TelephonyManager"
+s WI="android.net.wifi.WifiInfo"
+s WM="android.net.wifi.WifiManager"
+s Context="android.content.Context"
+s typename=""
+s nettype=""
+
+javags(f_a,null,context,"CONNECTIVITY_SERVICE")
+javax(b,activity,context,"getSystemService","String",f_a)
+//获取类型
+javax(c,b,CM,"getActiveNetworkInfo")
+s typename=""
+f(c!=null)
+{
+  //判断是否有网络
+javax(d,c,netinfo,"isAvailable")
+f(!d||c==null)
+{
+  sss NetType2="无"
+  sss NetType="无服务"
+  s typename=""
+}
+javags(f_b,null,CM,"TYPE_WIFI")
+javax(e,b,CM,"getNetworkInfo","int",f_b)
+f(e!=null)
+{
+  javax(f,e,netinfo,"getState")
+  f(f!=null)
+  {
+    javags(f_c,null,netinfo&state,"CONNECTED")
+    javags(f_d,null,netinfo&state,"CONNECTING")    
+    f(f==f_c||f==f_d)
+    {
+      javags(a,null,Context,"WIFI_SERVICE")
+javax(b,activity,Context,"getSystemService","String",a)
+javax(c,b,WM,"getConnectionInfo")
+javax(ssid,c,WI,"getSSID")
+sr(ssid,"\"","",ssid2)
+ss("已连接WIFI："+ssid2,sss.NetType)
+sss NetType2="WIFI"
+      s typename=""
+    }
+  }
+}
+javags(f_e,null,CM,"TYPE_MOBILE")
+javax(g,b,CM,"getNetworkInfo","int",f_e)
+f(g!=null)
+{
+  javax(h,g,netinfo,"getState")
+  javax(i,g,netinfo,"getSubtypeName")
+  f(h!=null)
+  {
+    javags(f_f,null,netinfo&state,"CONNECTED")
+    javags(f_i,null,netinfo&state,"CONNECTING")
+    f(h==f_f||h==f_i)
+    {
+      javax(j,g,netinfo,"getSubtype")
+      //2G网络
+    javags(f_2_1,null,TM,"NETWORK_TYPE_GPRS")
+      javags(f_2_2,null,TM,"NETWORK_TYPE_GDMA")
+      javags(f_2_3,null,TM,"NETWORK_TYPE_EDGE")
+      javags(f_2_4,null,TM,"NETWORK_TYPE_1xRTT")
+      javags(f_2_5,null,TM,"NETWORK_TYPE_IDEN")
+      
+      //3G网络
+      javags(f_3_1,null,TM,"NETWORK_TYPE_EVDO_A")
+      javags(f_3_2,null,TM,"NETWORK_TYPE_UMTS")
+      javags(f_3_3,null,TM,"NETWORK_TYPE_EVDO_0")
+      javags(f_3_4,null,TM,"NETWORK_TYPE_HSDPA")
+      javags(f_3_5,null,TM,"NETWORK_TYPE_HSUPA")
+      javags(f_3_6,null,TM,"NETWORK_TYPE_HSPA")
+      javags(f_3_7,null,TM,"NETWORK_TYPE_EVDO_B")
+      javags(f_3_8,null,TM,"NETWORK_TYPE_EHRPD")
+      javags(f_3_9,null,TM,"NETWORK_TYPE_HSPAP")
+      
+      //4G网络
+     javags(f_4_1,null,TM,"NETWORK_TYPE_LTE")
+     
+     f(j==f_2_1||j==f_2_2||j==f_2_3||j==f_2_4||j==f_2_5)
+     {
+       sss NetType2="2G"
+       sss NetType="运营商：2G"
+       }
+     else f(j==f_3_1||j==f_3_2||j==f_3_3||j==f_3_4||j==f_3_9||j==f_3_5||j==f_3_6||j==f_3_7||j==f_3_8)
+     {
+       sss NetType2="3G"
+       sss NetType="运营商：3G"
+     }
+   else f(j==f_4_1)
+   {
+     sss NetType2="4G"
+     sss NetType="运营商：4G"
+   }
+ ss("-"+i,typename)
+     
+    }
+  }
+}
+}
+
+ufnsui(){
+s gg=sss.NetType2
+ss(gg+"网络",g2g)
+ss("(html)"+sss.NetType+typename,g3g)
+us(295,"text",g2g)
+us(298,"text",g3g)
+}
+
+
+/.Java
+ConnectivityManager connManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+./
+  }
+}
+sss bbb=0
+addv(62,"xf.iyu")
+t()
+{
+  w(true)
+  {
+    stop(500)
+s Intent="android.content.Intent"
+s IntentFilter="android.content.IntentFilter"
+s Context="android.content.Context"
+s BroadcastReceiver="android.content.BroadcastReceiver"
+
+javags(b,null,Intent,"ACTION_BATTERY_CHANGED")
+javanew(flr,IntentFilter,"String",b)
+javax(btt,activity,Context,"getApplicationContext") 
+javax(dt,btt,Context,"registerReceiver",BroadcastReceiver,null,IntentFilter,flr)
+javax(dl,dt,Intent,"getIntExtra","String","level","int",0)
+javax(dlm,dt,Intent,"getIntExtra","String","scale","int",0)
+javax(dcza,dt,Intent,"getIntExtra","String","status","int",0)
+javags(未知,null,"android.os.BatteryManager","BATTERY_STATUS_UNKNOWN")
+javags(充电,null,"android.os.BatteryManager","BATTERY_STATUS_CHARGING")
+javags(放电,null,"android.os.BatteryManager","BATTERY_STATUS_DISCHARGING")
+javags(未放电,null,"android.os.BatteryManager","BATTERY_STATUS_NO_CHARGING")
+javags(已充满,null,"android.os.BatteryManager","BATTERY_STATUS_FULL")
+s(dl/dlm*100,edl)
+ss(edl+"%",dls)
+zdp(50,pxa)
+s(pxa/100*edl,pp)
+
+ufnsui(){
+us(xf.7,"text",edl)
+us(xf.5,"width",pp)
+us(5,"text",dls)
+f(dcza!=充电)
+{
+us(xf.9,"src",null)  
+us(3,"text","剩余电量：")
+f(edl&lt;10)
+{
+us(xf.3,"background","@dl_1.v")
+}
+f(edl&lt;20)
+{
+us(xf.5,"background","@dl_2.v")  
+}
+else f(edl&lt;30)
+{
+  us(xf.5,"background","@dl_1.v")
+}
+else f(edl&gt;=30)
+{
+  us(xf.5,"background","@dl.v")
+}
+}
+else
+{
+  us(xf.3,"background","@dl_b.v")
+  us(xf.5,"background","#99ff99")
+  us(xf.9,"src","@ic_flashlight_on_b.v")
+  us(3,"text","正在充电：")
+}
+}
+
+f(sss.xff==true)
+{
+ufnsui(){
+gvs(sss.xf,xf.3,3id)
+gvs(sss.xf,xf.5,5id)
+gvs(sss.xf,xf.7,7id)
+gvs(sss.xf,xf.9,9id)
+us(5id,"width",pp)
+us(7id,"text",edl)
+f(dcza!=充电)
+{
+us(9id,"src",null)
+f(edl&lt;10)
+{
+us(3id,"background","@dl_1.v")
+}
+f(edl&lt;20)
+{
+us(5id,"background","@dl_2.v")
+}
+else f(edl&lt;30)
+{
+  us(5id,"background","@dl_1.v")
+}
+else f(edl&gt;=30)
+{
+  us(5id,"background","@dl.v")
+}
+  }
+else
+{
+  us(3id,"background","@dl_b.v")
+  us(5id,"background","#99ff99")
+  us(9id,"src","@ic_flashlight_on_b.v")
+}
+}
+}
+}
+}
+</eventItme><eventItme type="restart">f(sss.选择的音乐==null)
+{
+}
+else
+{
+  bfm(sss.选择的音乐, sss.b)
+  bfms(sss.b, "sl", true)
+  us(272,"text",sss.选择的音乐)
+  fw("$幻隐网络/背景音乐/开.txt",sss.选择的音乐)
+}
+f(sss.selefilename != null)
+{
+  //把路径保存在局部变量，因为一会我要清空这个全局变量
+  s filename = sss.selefilename
+  //把这个全局变量设为空，方便下次好判断
+  sss selefilename = null
+  f(filename?"mp3")
+  {
+    us(176, "text", filename)
+  }
+  else
+  {
+    s stop = 2000
+s text="请选择mp3类文件"
+fn color.ColorToast(text,stop)
+
+  }
+}
+fe("$幻隐网络/背景音乐/开.txt",yy)
+f(yy=="true")
+{
+  us(9,"src","@setting_chk_blue.v")
+  
+  }
+else
+  {
+    us(9,"src","@setting_chk_gray.v")
+  
+  }
+fe("$幻隐网络/点击特效/跳动开.txt",yk)
+f(yk=="true")
+{
+  us(269,"src","@setting_chk_blue.v")
+  
+  }
+else
+  {
+    us(269,src","@setting_chk_gray.v")
+  
+  }
+fe("$幻隐网络/软件密码/开.txt",yy)
+f(yy=="true")
+{
+  us(255,"src","@setting_chk_blue.v")
+  fe("$幻隐网络/软件密码/开.txt",g)
+  fr("$幻隐网络/软件密码/开.txt",k)
+  f(g=="true")
+  {
+   us(256,"visibility","visible")
+   ss("密码："+k,l)
+us(256,"text",l)
+  }
+  }
+else
+  {
+    us(255,"src","@setting_chk_gray.v")
+  
+  }
+fe("$幻隐网络/点击特效/开.txt",yy)
+f(yy=="true")
+{
+  us(114,"src","@setting_chk_blue.v")
+  
+  }
+else
+  {
+    us(114,"src","@setting_chk_gray.v")
+  
+  }
+fe("$幻隐网络/.v/xjf.yx",jx)
+f(jx=="true")
+{
+  us(220,"text","会员")
+  }
+else
+  {
+    us(220,"text","无会员")
+    
+    ss kz=null
+  }
+}</eventItme><eventItme type="onactivityresult">utw(null,"","绑定结果……","",false,vf)
+{
+}
+f(st_iT==null)
+{
+  s stop = 2000
+  s text="绑定失败！"
+  fn color.ColorToast(text,stop)
+  endutw(vf)
+}
+else
+{
+  java(bundle,st_iT,"android.content.Intent.getExtras")
+  java(info,bundle,"android.os.BaseBundle.get","String","key_response")
+  //syso(info)
+  json(info,info)
+  json(info,"get","openid",openid)
+  json(info,"get","access_token",access_token)
+  t()
+  {
+    s url = "https://graph.qq.com/user/get_simple_userinfo"
+    s ua = "Mozilla/5.0 (Linux; Android 7.0; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.134 Mobile Safari/537.36 LeBrowser/7.4.0"
+    ss("appid="+sss.qqdlid+"&access_token="+access_token+"&openid="+openid+"&Format=json",data)
+    hs(url,data,"utf-8",null,"true",ua,back)
+    //syso(back)
+    json(back,back)
+    json(back,"get","nickname",nickname)
+    json(back,"get","gender",gender)
+    json(back,"get","province",province)
+    json(back,"get","city",city)
+    ss(province+"-"+city,location)
+    ss(sss.api+"Box/qqll.php?name="+openid,获取)
+    hs(获取,内容)
+    ufnsui()
+    {
+      endutw(vf)
+      f(内容?openid)
+      {
+        s stop = 2000
+        s text="该账号已经被绑定过了！"
+        fn color.ColorToast(text,stop)
+      }
+      else
+      {
+        t()
+        {
+          ss("绑定QQ("+openid+")绑定QQ绑定QQ名称("+nickname+")绑定QQ名称",修改)
+          ss(sss.api+"Box/yhxg.php?id="+sss.我的uid+"&nl=绑定QQ名称&dl="+nickname,成了功)
+          ss(sss.api+"Box/yhxg.php?id="+sss.我的uid+"&nl=绑定的QQ标识&dl="+openid,成功呀)
+          hs(成了功,123)
+          hs(成功呀,456)
+          ufnsui()
+          {
+            sss 绑定的key=openid
+        sss 绑定QQ名称=nickname
+        us(309,"text",nickname)
+        us(322,"text","换绑")
+        ss("ID:"+sss.绑定的key,key)
+        us(325,"text",key)
+        us(322,"textcolor","#fffe0000")
+        s stop = 2000
+        s text="绑定成功！"
+        fn color.ColorToast(text,stop)
+          }
+        }
+        //us(6,"text",openid)
+        
+      }
+    }
+  }
+}</eventItme><eventItme type="loadingComplete">fr("$幻隐网络/背景音乐/开.txt",kk)
+fe("$幻隐网络/背景音乐/开.txt",yy)
+f(yy==true)
+{
+  us(9,"src","@setting_chk_blue.v")
+  us(272,"text",kk)
+  }
+else
+  {
+    us(9,"src","@setting_chk_gray.v")
+  
+  }
+fe("$幻隐网络/点击特效/跳动开.txt",yk)
+f(yk=="true")
+{
+  us(269,"src","@setting_chk_blue.v")
+  
+  }
+else
+  {
+    us(269,src","@setting_chk_gray.v")
+  
+  }
+fe("$幻隐网络/软件密码/开.txt",yy)
+f(yy=="true")
+{
+  us(255,"src","@setting_chk_blue.v")
+  fe("$幻隐网络/软件密码/开.txt",g)
+  fr("$幻隐网络/软件密码/开.txt",k)
+  f(g=="true")
+  {
+   us(256,"visibility","visible")
+   ss("密码："+k,l)
+us(256,"text",l)
+  }
+  }
+else
+  {
+    us(255,"src","@setting_chk_gray.v")
+  
+  }
+fe("$幻隐网络/点击特效/开.txt",yy)
+f(yy=="true")
+{
+  us(114,"src","@setting_chk_blue.v")
+  
+  }
+else
+  {
+    us(114,"src","@setting_chk_gray.v")
+  
+  }
+fe("$幻隐网络/横条/开.txt",uu)
+f(uu=="false")
+{
+
+}
+else
+{
+us(303,"src","@setting_chk_blue.v")
+}</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+call(null,"mjava","图片跳转.end")
+}</eventItme></UIEventset>

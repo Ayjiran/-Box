@@ -1,0 +1,2278 @@
+<View id="44" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="1" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=2
+ut_above=10</ppt>
+<event>
+</event>
+</View>
+<View id="31" did="8" type="CardView">
+<ppt>width=-1
+height=48dp
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="125" did="31" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="32" did="125" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event><eventItme type="touchmonitor">/.[true]
+f(st_eA==0)
+{
+sss Y=st_rY
+}
+f(st_eA==2)
+{
+s-(st_rY,sss.Y,sss.h)
+us(8,"paddingtop",sss.h)
+}
+f(st_eA==1)
+{
+us(8,"paddingtop",0)
+}</eventItme></event>
+</View>
+<View id="96" did="32" type="RelativeLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="43" did="96" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐Box
+textColor=#ff000000
+textSize=18sp
+textStyle=bold
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="34" did="32" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff0b0b0b
+textSize=17sp
+gravity=center
+layout_weight=1
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="89" did="32" type="CardView">
+<ppt>width=100dp
+height=30dp
+app_CardElevation=0dp
+app_CardcornerRadius=999dp
+layout_gravity=center_vertical
+layout_marginRight=10dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">ug(92,"text",i)
+f(i=="搜索中…")
+{
+  us(全部功能.11,"visibility","gone")
+us(92,"text","搜索")
+}
+else
+{
+  us(全部功能.11,"visibility","visible")
+
+us(92,"text","搜索中…")
+}</eventItme></event>
+</View>
+<View id="90" did="89" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#f6f6f6
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="91" did="90" type="ImageView">
+<ppt>width=14dp
+height=14dp
+src=@e21ce006124.png
+layout_marginLeft=0dp</ppt>
+<event></event>
+</View>
+<View id="92" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=搜索
+textSize=12sp
+layout_marginLeft=4dp</ppt>
+<event></event>
+</View>
+<View id="158" did="32" type="CardView">
+<ppt>width=30dp
+height=30dp
+app_CardcornerRadius=8dp
+layout_marginRight=10dp
+app_CardElevation=-100dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">s stop = 2000
+s text="纯净会员您好~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="159" did="158" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="160" did="159" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="161" did="160" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@mmexport1716912265490.png</ppt>
+<event></event>
+</View>
+<View id="127" did="32" type="CardView">
+<ppt>width=30dp
+height=30dp
+app_CardcornerRadius=8dp
+layout_marginRight=10dp
+app_CardElevation=-100dp</ppt>
+<event><eventItme type="clicki">uqr()</eventItme></event>
+</View>
+<View id="128" did="127" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="129" did="128" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="130" did="129" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@user/cd7e1671-5c54-498a-8760-c2b4e2cab5c0.png</ppt>
+<event><eventItme type="clicki">call(null, "mlua", "lua.getSrc")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="123" did="32" type="GifView">
+<ppt>width=25dp
+height=25dp
+layout_marginRight=10dp
+src=@noble_emperor_icon.gif
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="86" did="32" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=8dp
+layout_marginRight=10dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">fe("$幻隐网络/背景音乐/开.txt",ym)
+f(ym==true)
+{
+  bfms(sss.b, "ip", c)
+  f(c==true)
+  {
+    bfms(sss.b, "pe")
+    us(93,"src","@lp/icon.v")
+    us(86,"app_CardcornerRadius","100dp")
+    us(126,"visibility","gone")
+  }
+  else
+  {
+    us(86,"app_CardcornerRadius","100dp")
+    us(93,"src","@lp/player_pause.v")
+    bfms(sss.b, "st")
+    us(126,"visibility","visible")
+  }
+}
+else
+{
+  us(86,"app_CardcornerRadius","8dp")
+  f(sss.游客=="是")
+  {
+    us(93,"src","@170837.png")
+  }
+  else
+  {
+    us(93,"src",sss.头像)
+  }
+  f(sss.anm==null)
+  {
+    sss ta=sss.名称
+    gvs(93,a)
+    call(null,"mjava","图片跳转.uigo",a,"image","个人资料.iyu",sss.appbm)
+    sss anm="1"
+  }
+  else f(sss.anm=="5")
+  {
+    uigo("飘落解压.iyu")
+    bfvss(广场.98, "pe")
+    bfvss(广场.98, "pe")
+    sss 视频广场="不播放"
+    us(广场.101,"src","@lp/icon.v")
+  }
+  else
+  {
+    sss ta=sss.名称
+    gvs(93,a)
+    call(null,"mjava","图片跳转.uigo",a,"image","个人资料.iyu",sss.appbm)
+    s+(sss.anm,1,sss.anm)
+  }
+}
+
+uzd(震动器, 30)
+
+dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(86, "dh", dh)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="85" did="86" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="88" did="85" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="93" did="88" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_brightness_2.png
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="126" did="125" type="GifView">
+<ppt>width=50dp
+height=50dp
+src=@gif/live_group_gif_ktv_singing.gif
+ut_alignParentRight=true
+layout_marginRight=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="41" did="8" type="ViewPager">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="ViewPager">
+<ppt>width=-1
+height=-1
+background=#ffffffff
+overScrollMode=never</ppt>
+<event>
+<eventItme type="onpageselected">f(st_pN==0)
+{
+  us(消息.35,"focusable","false")
+  us(消息.35,"focusableInTouchMode","false")
+  gvs(主页.377,滚动)
+  java(null,滚动,"android.widget.ScrollView.scrollTo","int",0,"int",0)
+  us(89,"visibility","gone")
+  us(geren.2,"visibility","visible")
+  us(geren.95,"visibility","visible")
+  ss 个人头像="没有"
+  us(86,"visibility","visible")
+  us(18,"visibility","visible")
+  us(13,"src","@a/1/ic_bottom_call_home_c.v")
+  us(17,"src","@a/1/ic_bottom_msg_n.v")
+  us(38,"src","@e0o2.v")
+  us(107,"src","@a/1/ic_bottom_live_n.v")
+  us(22,"src","@a/1/ic_bottom_mine_n.v")
+  fw("$幻隐网络/.临时数据/1.txt","1")
+  us(43,"text","隐Box")
+  fe("$幻隐网络/背景音乐/开.txt",ym)
+  f(ym==true)
+  {
+    bfms(sss.b, "ip", c)
+    f(c==true)
+    {
+      us(126,"visibility","visible")
+    }
+    else
+    {
+      us(126,"visibility","gone")
+    }
+  }
+}
+f(st_pN==1)
+{
+  fe("$幻隐网络/背景音乐/开.txt",ym)
+  f(ym==true)
+  {
+    bfms(sss.b, "ip", c)
+    f(c==true)
+    {
+      us(126,"visibility","visible")
+    }
+    else
+    {
+      us(126,"visibility","gone")
+    }
+  }
+  us(消息.35,"focusable","false")
+  us(消息.35,"focusableInTouchMode","false")
+  f(sss.街机游戏=="关闭")
+    {
+      us(会员.45,"text","敬请期待")
+      us(会员.188,"text","敬请期待")
+    }
+    else
+    {
+      us(会员.45,"text","街机游戏")
+      us(会员.188,"text","街机游戏")
+    }
+    f(sss.代理功能=="开")
+    {
+      us(会员.239,"visibility","visible")
+    }
+    else
+    {
+    }
+    f(sss.代理功能=="开")
+    {
+      us(会员.239,"visibility","visible")
+    }
+    else
+    {
+    }
+  us(89,"visibility","gone")
+  us(geren.2,"visibility","visible")
+  us(geren.95,"visibility","visible")
+  ss 个人头像="没有"
+  us(86,"visibility","visible")
+  us(18,"visibility","visible")
+  us(13,"src","@a/1/ic_bottom_call_home_n.v")
+  us(17,"src","@a/1/ic_bottom_msg_n.v")
+  us(38,"src","@e0o2.v")
+  us(107,"src","@a/1/ic_bottom_live_c.v")
+  us(22,"src","@a/1/ic_bottom_mine_n.v")
+  fw("$幻隐网络/.临时数据/1.txt","130")
+  us(43,"text","聚合大厅")
+}
+f(st_pN==2)
+{
+  gvs(消息.57,滚动)
+  java(null,滚动,"android.widget.ScrollView.scrollTo","int",0,"int",0)
+  fe("$幻隐网络/背景音乐/开.txt",ym)
+  f(ym==true)
+  {
+    bfms(sss.b, "ip", c)
+    f(c==true)
+    {
+      us(126,"visibility","visible")
+    }
+    else
+    {
+      us(126,"visibility","gone")
+    }
+  }
+  fr("幻隐网络/消息/隐藏.txt",成功)
+  f(成功=="成功")
+  {
+    us(消息.47,"visibility","gone")
+  }
+  else
+  {
+    us(消息.47,"visibility","visible")
+    s 颜色="#ffff0000"
+    fn 着色.控件着色(消息.46,颜色)
+  }
+  f(sss.游客=="是")
+  {
+    us(消息.42,"visibility","visible")
+    us(消息.28,"visibility","gone")
+    us(消息.36,"visibility","gone")
+  }
+  else
+  {
+    us(消息.42,"visibility","gone")
+  }
+  fr("$幻隐网络/加载.txt",加载)
+  f(加载?"加载")
+  {
+    
+  }
+  else
+  {
+    ss("$幻隐网luo/.缓存/"+sss.名称+"消息数据.txt",消息缓存)
+    fr(消息缓存,缓存)
+    f(缓存?"\"")
+    {
+      fn wdxx.xxhc()
+    }
+    else
+    {
+      fn wdxx.wdxx()
+    }
+    
+    fw("$幻隐网络/加载.txt","加载完成")
+  }
+  f(sss.微信客服?"开")
+  {
+    us(消息.38,"visibility","visible")
+  }
+  else
+  {
+  }
+  us(110,"visibility","gone")
+  fw("$幻隐网络/.临时数据/1.txt","2")
+  us(89,"visibility","gone")
+  ss 个人头像="没有"
+  us(geren.2,"visibility","visible")
+  us(geren.95,"visibility","visible")
+  us(86,"visibility","visible")
+  us(18,"visibility","visible")
+  us(13,"src","@a/1/ic_bottom_call_home_n.v")
+  us(17,"src","@a/1/ic_bottom_msg_c.v")
+  us(38,"src","@e0o2.v")
+  us(107,"src","@a/1/ic_bottom_live_n.v")
+  us(22,"src","@a/1/ic_bottom_mine_n.v")
+  us(43,"text","我的消息")
+  us(41,"visibility","gone")
+}
+f(st_pN==3)
+{
+  ug(geren.64,"src",头像)
+  f(头像=="@170837.png")
+  {
+    us(geren.64,"src",sss.头像)
+  }
+  else
+  {
+  }
+  f(ss.更新显示=="显示")
+  {
+    us(geren.258,"visibility","visible")
+  }
+  else
+  {
+    us(geren.258,"visibility","gone")
+  }
+  us(126,"visibility","gone")
+  us(消息.35,"focusable","false")
+  us(消息.35,"focusableInTouchMode","false")
+  f(sss.游客=="是")
+  {
+    us(geren.266,"visibility","visible")
+    us(geren.145,"visibility","gone")
+    us(geren.65,"background","")
+  }
+  else
+  {
+    sj(sss.当前用户数据,"头像框：","头像框内容结束",txk)
+    us(geren.65,"background",txk)
+  }
+  us(115,"visibility","gone")
+  us(geren.254,"text",sss.当前版本)
+  us(geren.8,"text",sss.名称)
+  us(89,"visibility","gone")
+  us(86,"visibility","gone")
+  us(geren.282,"visibility","visible")
+  us(geren.281,"visibility","visible")
+  us(18,"visibility","visible")
+  us(13,"src","@a/1/ic_bottom_call_home_n.v")
+  us(17,"src","@a/1/ic_bottom_msg_n.v")
+  us(38,"src","@e0o2.v")
+  us(107,"src","@a/1/ic_bottom_live_n.v")
+  us(22,"src","@a/1/ic_bottom_mine_c.v")
+  us(43,"text","个人信息")
+  fr("$幻隐网络/.yxkj/qm.txt",qm)
+  us(geren.9,"text",qm)
+  fe("$幻隐网络/.v/xjf.yx",是否)
+  f(是否=="true")
+  {
+    time("Y",a)
+    time("m",m)
+    time("d",D)
+    time("H",e)
+    time("M",l)
+    time("S",v)
+    ss(a+m+D+e+l+v,dqsj)
+    fr("$幻隐网络/.v/xjf.yx",wjj)
+    f(dqsj&gt;wjj)
+    {
+      us(geren.281,"visibility","gone")
+      us(geren.7,"visibility","visible")
+      us(geren.66,"visibility","gone")
+      us(geren.279,"visibility","visible")
+    }
+    else
+    {
+      us(geren.7,"visibility","gone")
+      us(geren.66,"visibility","visible")
+      us(geren.281,"visibility","visible")
+    }
+  }
+  else
+  {
+    us(geren.7,"visibility","visible")
+    us(geren.66,"visibility","gone")
+    us(geren.281,"visibility","gone")
+  }
+  fr("$幻隐网络/签到.v",i)
+  time("2",o)
+  f(i==o)
+  {
+    us(geren.137,"background","#ffd5d5d5")
+    us(geren.138,"textcolor","#ffffffff")
+    us(geren.138,"text","已签")
+  }
+  else
+  {
+    us(geren.137,"background","#ffd1eaff")
+    us(geren.138,"textcolor","#1E88E5")
+  }
+  fw("$幻隐网络/.临时数据/1.txt","5")
+  us(41,"visibility","gone")
+}</eventItme>
+</event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_alignparentbottom=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="47" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="46" did="47" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#ffe2e2e2</ppt>
+<event></event>
+</View>
+<View id="11" did="47" type="LinearLayout">
+<ppt>width=-1
+height=58dp
+orientation=horizontal
+ut_alignParentBottom=true</ppt>
+<event>
+</event>
+</View>
+<View id="12" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event>
+<eventItme type="clicki">gvs(主页.377,滚动)
+java(null,滚动,"android.widget.ScrollView.scrollTo","int",0,"int",0)
+uzd(震动器, 30)
+gvs(1,id)
+ug(105,"text",显示)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+f(显示=="显示")
+{
+}
+else
+{
+  gvs(118,id)
+   
+   
+   
+}
+us(105,"text","不显示")
+sss 判断主页按钮=Null
+  us(142,"src","@user/fd65dcad609745daa12e34c0a3f09918.png")
+us(9,"visibility","visible")
+us(18,"visibility","visible")
+fr("$幻隐网络/.临时数据/1.txt",sz)
+f(sz=="1")
+{
+}
+else
+{
+  us(89,"visibility","gone")
+  us(86,"visibility","visible")
+  us(18,"visibility","visible")
+  us(13,"src","@a/1/ic_bottom_call_home_c.v")
+  us(17,"src","@a/1/ic_bottom_msg_n.v")
+  us(38,"src","@e0o2.v")
+  us(107,"src","@a/1/ic_bottom_live_n.v")
+  us(22,"src","@a/1/ic_bottom_mine_n.v")
+  fw("$幻隐网络/.临时数据/1.txt","1")
+  us(43,"text","隐Box")
+  us(9,"currentitem",0)
+  us(41,"visibility","gone")
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(12, "dh", dh)
+  }
+bfvss(广场.98, "pe")
+bfvss(广场.98, "pe")
+sss 视频广场="不播放"
+  us(广场.101,"src","@lp/icon.v")
+
+/.f(ss.主页隐藏=="有了")
+  {
+   // us(主页.235,"visibility","visible")
+    //us(主页.3,"visibility","visible")
+   // us(主页.387,"visibility","visible")
+    us(主页.3,"visibility","visible")
+    ss 主页隐藏="没有"
+  }
+  else
+  {
+  //  us(主页.235,"visibility","gone")
+    //us(主页.3,"visibility","gone")
+   // us(主页.387,"visibility","gone")
+    us(主页.3,"visibility","gone")
+    ss 主页隐藏="有了"
+  }</eventItme>
+</event>
+</View>
+<View id="13" did="12" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@a/1/ic_bottom_call_home_c.v
+padding=5dp</ppt>
+<event>
+</event>
+</View>
+<View id="106" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event>
+<eventItme type="clicki">uzd(震动器, 30)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+ug(105,"text",显示)
+f(显示=="显示")
+{
+}
+else
+{
+  gvs(118,id)
+   
+   
+   
+}
+us(105,"text","不显示")
+sss 判断主页按钮=Null
+  us(142,"src","@user/fd65dcad609745daa12e34c0a3f09918.png")
+us(18,"visibility","visible")
+us(9,"visibility","visible")
+fr("$幻隐网络/.临时数据/1.txt",sz)
+f(sz=="130")
+{
+  f(ss.会员隐藏=="有了")
+  {
+    sss 会员头条="不是"
+    us(会员.224,"visibility","gone")
+    us(会员.229,"src","@ic_compost_send_normal.v")
+    us(会员.142,"visibility","visible")
+    us(会员.166,"visibility","gone")
+    us(会员.176,"visibility","gone")
+    //us(会员.210,"visibility","visible")
+    us(会员.186,"visibility","gone")
+    us(会员.16,"visibility","visible")
+    us(会员.9,"visibility","visible")
+    us(会员.157,"visibility","visible")
+    us(会员.156,"text","会员功能")
+    ss 会员隐藏="没有"
+  }
+  else
+  {
+    sss 会员头条="不是"
+    us(会员.224,"visibility","gone")
+    us(会员.229,"src","@ic_compost_send_normal.v")
+    us(会员.142,"visibility","gone")
+    us(会员.166,"visibility","visible")
+    us(会员.176,"visibility","visible")
+    us(会员.186,"visibility","visible")
+    us(会员.16,"visibility","gone")
+    us(会员.9,"visibility","gone")
+    //us(会员.210,"visibility","gone")
+    us(会员.157,"visibility","gone")
+    us(会员.156,"text","聚合板块")
+    ss 会员隐藏="有了"
+  }
+}
+else
+{
+  fw("$幻隐网络/.临时数据/1.txt","130")
+  us(89,"visibility","gone")
+  us(86,"visibility","visible")
+  us(18,"visibility","visible")
+  us(13,"src","@a/1/ic_bottom_call_home_n.v")
+  us(17,"src","@a/1/ic_bottom_msg_n.v")
+  us(38,"src","@e0o2.v")
+  us(107,"src","@a/1/ic_bottom_live_c.v")
+  us(22,"src","@a/1/ic_bottom_mine_n.v")
+  us(43,"text","聚合大厅")
+  us(9,"currentitem",1)
+  us(41,"visibility","gone")
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(107, "dh", dh)
+}
+bfvss(广场.98, "pe")
+bfvss(广场.98, "pe")
+sss 视频广场="不播放"
+us(广场.101,"src","@lp/icon.v")</eventItme>
+</event>
+</View>
+<View id="107" did="106" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@a/1/ic_bottom_live_n.v
+padding=5dp</ppt>
+<event>
+</event>
+</View>
+<View id="134" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event>
+
+</event>
+</View>
+<View id="135" did="134" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@a/1/ic_bottom_call_home_c.v
+padding=5dp
+visibility=gone</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event>
+<eventItme type="clicki">uzd(震动器, 30)
+gvs(消息.57,滚动)
+java(null,滚动,"android.widget.ScrollView.scrollTo","int",0,"int",0)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+ug(105,"text",显示)
+f(显示=="显示")
+{
+}
+else
+{
+}
+us(105,"text","不显示")
+sss 判断主页按钮=Null
+  us(142,"src","@user/fd65dcad609745daa12e34c0a3f09918.png")
+us(18,"visibility","visible")
+us(110,"visibility","gone")
+us(9,"visibility","visible")
+fr("$幻隐网络/.临时数据/1.txt",sz)
+f(sz=="2")
+{
+}
+else
+{
+  fw("$幻隐网络/.临时数据/1.txt","2")
+  us(89,"visibility","gone")
+  us(86,"visibility","visible")
+  us(18,"visibility","visible")
+  us(13,"src","@a/1/ic_bottom_call_home_n.v")
+  us(17,"src","@a/1/ic_bottom_msg_c.v")
+  us(38,"src","@e0o2.v")
+  us(107,"src","@a/1/ic_bottom_live_n.v")
+  us(22,"src","@a/1/ic_bottom_mine_n.v")
+  us(43,"text","全部功能")
+  us(9,"currentitem",2)
+  us(41,"visibility","gone")
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(15, "dh", dh)
+}
+bfvss(广场.98, "pe")
+bfvss(广场.98, "pe")
+sss 视频广场="不播放"
+us(广场.101,"src","@lp/icon.v")</eventItme>
+</event>
+</View>
+<View id="108" did="15" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="17" did="108" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@a/1/ic_bottom_msg_n.v
+padding=5dp</ppt>
+<event>
+</event>
+</View>
+<View id="110" did="108" type="CardView">
+<ppt>width=10dp
+height=10dp
+app_CardcornerRadius=100dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="112" did="110" type="TextView">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ffff0000
+background=#ffff0000</ppt>
+<event></event>
+</View>
+<View id="21" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event><eventItme type="clicki"> 
+uzd(震动器, 30)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+ug(105,"text",显示)
+f(显示=="显示")
+{
+}
+else
+{
+  gvs(118,id)
+   
+   
+   
+}
+us(105,"text","不显示")
+us(18,"visibility","visible")
+sss 判断主页按钮=Null
+  us(142,"src","@user/fd65dcad609745daa12e34c0a3f09918.png")
+us(9,"visibility","visible")
+fr("$幻隐网络/.临时数据/1.txt",b)
+f(b=="5")
+{
+  f(ss.个人头像=="有了")
+  {
+    us(geren.282,"visibility","visible")
+    us(geren.281,"visibility","visible")
+    us(86,"visibility","gone")
+    ss 个人头像="没有"
+  }
+  else
+  {
+    us(geren.282,"visibility","gone")
+    us(geren.281,"visibility","gone")
+    us(86,"visibility","visible")
+    ss 个人头像="有了"
+  }
+}
+else
+{
+  us(89,"visibility","gone")
+  us(86,"visibility","gone")
+  us(18,"visibility","visible")
+  us(13,"src","@a/1/ic_bottom_call_home_n.v")
+  us(17,"src","@a/1/ic_bottom_msg_n.v")
+  us(38,"src","@e0o2.v")
+  us(107,"src","@a/1/ic_bottom_live_n.v")
+  us(22,"src","@a/1/ic_bottom_mine_c.v")
+  us(43,"text","个人信息")
+  fw("$幻隐网络/.临时数据/1.txt","5")
+  us(9,"currentitem",3)
+  us(41,"visibility","gone")
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(21, "dh", dh)
+}
+bfvss(广场.98, "pe")
+bfvss(广场.98, "pe")
+sss 视频广场="不播放"
+  us(广场.101,"src","@lp/icon.v")
+ngde(30,"#ffffff",bg)
+us(15,"background",bg)
+fn tool.DIYshadow(15,22,"#bb36a2fa",25)
+us(geren.123,"background","#00ffffff")</eventItme></event>
+</View>
+<View id="117" did="21" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="22" did="117" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@a/1/ic_bottom_mine_n.v
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="115" did="117" type="CardView">
+<ppt>width=10dp
+height=10dp
+app_CardcornerRadius=100dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="116" did="115" type="TextView">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ffff0000
+background=#ffff0000</ppt>
+<event></event>
+</View>
+<View id="75" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=through
+gravity=center
+BackgroundColor=#52000000
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="74" did="75" type="ImageView">
+<ppt>width=80dp
+height=80dp
+src=@a/tq/yx1/rob_box.v
+</ppt>
+<event><eventItme type="clicki">us(74,"visibility","gone")
+us(76,"visibility","gone")
+t()
+{
+  
+  s kj=2
+  
+  s h="@cyun/"
+  for(1;74)
+  {
+    f(kj&lt;10)
+    {
+      ss("0"+kj,kj)
+    }
+    ss(h+"arrow720_0"+kj+".png",oop)
+    ufnsui()
+    {
+      
+      us(75,"background",oop)
+    }
+    s+(1,kj)
+    stop(66)
+  }
+}
+time("Y",n)
+s h=2018
+s(n-h,sss.zn)
+sr(sss.zn,"1","一",sss.zn)
+sr(sss.zn,"2","二",sss.zn)
+sr(sss.zn,"3","三",sss.zn)
+sr(sss.zn,"4","四",sss.zn)
+sr(sss.zn,"5","五",sss.zn)
+sr(sss.zn,"6","六",sss.zn)
+sr(sss.zn,"7","七",sss.zn)
+sr(sss.zn,"8","八",sss.zn)
+sr(sss.zn,"9","九",sss.zn)
+ss("您好，隐Box已经制作了整整"+sss.zn+"年了，在"+sss.zn+"年前，隐心一人制作，直到现在，还兢兢业业的想尽办法讨您欢心！\n也许您没在本App充值一分钱，但是您使用本App就是对我们最大的支持了！\n感谢您的关注！作为一周年回馈！送您"+sss.zn+"万平民积分！虽然不多，但是也是小隐心的一片心意！\n\n--隐Box，感谢有你！",c)
+us(updata.10,"text","明白")
+us(updata.9,"text","不要")
+us(updata.1,"visibility","visible")
+dhas(dh, updata.2, "translationX", -60, 30, -35, 25, -30,20,-20,15,-10,10,-8,8,-5,5,-3,3,-2,2,-1,1,0,0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+us(updata.7,"text",c)
+us(updata.5,"text","隐Box")
+us(updata.12,"text",sss.zn+"周年庆典-感谢")
+</eventItme></event>
+</View>
+<View id="76" did="75" type="ImageView">
+<ppt>width=80dp
+height=80dp
+src=@a/3/ic_monster_float_shadow.v</ppt>
+<event></event>
+</View>
+<View id="153" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+background=#15575757
+visibility=gone
+ut_alignParentBottom=true
+layout_marginBottom=50dp</ppt>
+<event></event>
+</View>
+<View id="154" did="153" type="ImageView">
+<ppt>width=35dp
+height=-1
+src=@2d0bbfabfff9459092de74a0e0c3d724.png
+layout_marginLeft=10dp
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="155" did="153" type="TextView">
+<ppt>width=-2
+height=-2
+text=点我充vip_享功能_免广告！
+layout_margin=10dp
+textColor=#ff0087ff
+textSize=15sp
+singleLine=true</ppt>
+<event><eventItme type="clicki">f(sss.游客=="是")
+{
+  s stop = 2000
+  s text="登陆后可解锁"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  uigo("充值.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="156" did="153" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="157" did="153" type="ImageView">
+<ppt>width=-2
+height=-1
+src=@searchpage_input_history_delete_one.png
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">us(153,"visibility","gone")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="99" did="1" type="CardView">
+<ppt>width=50dp
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=5dp
+app_CardBackgroundColor=#ffffff
+ut_alignParentRight=true
+layout_marginRight=15dp
+ut_above=102
+layout_marginBottom=78dp
+ut_alignParentBottom=true
+visibility=gone</ppt>
+<event><eventItme type="clicki">f(sss.wf=="是")
+{
+}
+else
+{
+  us(广场.89,"visibility","visible")
+}
+uzd(震动器, 30)
+us(86,"visibility","visible")
+us(99,"visibility","gone")
+us(105,"text","显示")
+us(89,"visibility","gone")
+us(43,"text","娱乐大厅")
+fw("$幻隐网络/临时数据/1033.txt","0")
+fr("$幻隐网络/.临时数据/1.txt",sz)
+f(sz=="3")
+{
+  
+}
+else
+{
+  fw("$幻隐网络/.临时数据/1.txt","3")
+  us(41,"visibility","visible")
+  us(13,"src","@a/1/ic_bottom_call_home_n.v")
+  us(17,"src","@a/1/ic_bottom_msg_n.v")
+  us(38,"src","@e0o.v")
+  us(107,"src","@a/1/ic_bottom_live_n.v")
+  us(22,"src","@a/1/ic_bottom_mine_n.v")
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(37, "dh", dh)
+  fr("$幻隐网络/临时数据/1001.txt",ls)
+  f(ls=="1")
+  {
+  }
+  else
+  {
+    fw("$幻隐网络/临时数据/1001.txt","1")
+    t()
+    {
+      s 板块="幻隐网luo/.缓存/板块.txt"
+      ss(sss.api+"?f.html",api)
+      hs(api,网页)
+      fr(板块,板块)
+      f(网页==板块)
+      {
+        s a=板块
+      }
+      else
+      {
+        s a=网页
+      }
+      //取分类列表源码
+      //截取所需要的数据
+      sj(a,"none-forum","&lt;/ul&gt;",b)
+      //分割数据
+      sl(b,"&lt;/a&gt;",c)
+      for(d;c)
+      {
+        //截取列表名
+        sj(d,"&lt;strong&gt;","&lt;/strong&gt;",bktitle)
+        //截取列表连接
+        sj(d,"&lt;strong&gt;","&lt;/strong&gt;",bktitle)
+        sj(d,"href=\"","\"",bkurl)
+        sj(d,"src=\"","\"",bkimg)
+        //这里我说一下，为什么要加个f，过滤空数
+        f(bkimg==null)
+        {
+        }
+        else
+        {
+          ula(list_bk,4=bktitle,7=bkimg,8=bkurl)
+          
+        }
+        ufnsui()
+        {
+          uls(广场.90,list_bk,"list_bk.iyu",-1,-2)
+          ug(广场.90,"count",总共)
+    s*(总共,50,总共)
+    ss(总共+"dp",总共)
+    us(广场.90,"height",总共)
+          fw("幻隐网络/大厅/点击.txt","是")
+          us(124,"visibility","gone")
+          us(广场.139,"visibility","gone")
+          us(广场.131,"visibility","visible")
+          fw("幻隐网luo/.缓存/板块.txt",a)
+        }
+      }
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="100" did="99" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="101" did="100" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@6.18/icon_popup_great.v</ppt>
+<event></event>
+</View>
+<View id="132" did="100" type="CardView">
+<ppt>width=-2
+height=-2
+layout_marginBottom=10dp
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="133" did="132" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ff0077ff</ppt>
+<event></event>
+</View>
+<View id="131" did="133" type="TextView">
+<ppt>width=-2
+height=-2
+text=大厅
+layout_margin=5dp
+textColor=#ffffffff
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="121" did="1" type="GifView">
+<ppt>width=-2
+height=-2
+src=@chat_intimate_redbag.gif
+layout_marginTop=48dp
+ut_alignParentRight=true
+layout_marginRight=10dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">fn tool.showbt("好事.iyu", true)
+call(id,"mjava","tool.findgvs",ss.dialog,10000)
+s(id+3,id2)
+gvs(ss.dialog,id2,v2)
+us(v2,"text",sss.好事)</eventItme></event>
+</View>
+<View id="136" did="1" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=vertical
+ut_alignParentBottom=true
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="146" did="136" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="138" did="146" type="LinearLayout">
+<ppt>width=60dp
+height=60dp
+orientation=vertical
+gravity=center
+layout_marginTop=2dp
+layout_gravity=center
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="137" did="138" type="CardView">
+<ppt>width=58dp
+height=58dp
+app_CardcornerRadius=100dp
+app_CardElevation=-10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="139" did="137" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="140" did="139" type="CardView">
+<ppt>width=55dp
+height=55dp
+app_CardcornerRadius=100dp
+app_CardElevation=1dp
+</ppt>
+<event><eventItme type="clicki">dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(142, "dh", dh)
+
+f(sss.判断主页按钮==null)
+{
+  sss 判断主页按钮="有"
+  us(142,"src","@user/f48ab09588e7431faa8c8ff92cd33416.png")
+  uzd(震动器, 30)
+  us(86,"visibility","visible")
+  us(105,"text","显示")
+  us(89,"visibility","gone")
+  us(43,"text","娱乐大厅")
+  fw("$幻隐网络/临时数据/1033.txt","0")
+  fr("$幻隐网络/.临时数据/1.txt",sz)
+  f(sz=="3")
+  {
+    
+  }
+  else
+  {
+    fw("$幻隐网络/.临时数据/1.txt","3")
+    dht(scf,0,0,50,0)
+    dh(scf,"duration",800)
+    us(41,"dh",scf)
+    us(41,"visibility","visible")
+    us(13,"src","@a/1/ic_bottom_call_home_n.v")
+    us(17,"src","@a/1/ic_bottom_msg_n.v")
+    us(38,"src","@e0o.v")
+    us(107,"src","@a/1/ic_bottom_live_n.v")
+    us(22,"src","@a/1/ic_bottom_mine_n.v")
+    dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+    dh(dh, "duration", 100)
+    us(37, "dh", dh)
+    fr("$幻隐网络/临时数据/1001.txt",ls)
+    f(ls=="1")
+    {
+    }
+    else
+    {
+      fw("$幻隐网络/临时数据/1001.txt","1")
+      t()
+      {
+        s 板块="幻隐网luo/.缓存/板块.txt"
+        ss(sss.api+"?f.html",api)
+        hs(api,网页)
+        fr(板块,板块)
+        f(网页==板块)
+        {
+          s a=板块
+        }
+        else
+        {
+          s a=网页
+        }
+        //取分类列表源码
+        //截取所需要的数据
+        sj(a,"none-forum","&lt;/ul&gt;",b)
+        //分割数据
+        sl(b,"&lt;/a&gt;",c)
+        for(d;c)
+        {
+          //截取列表名
+          sj(d,"&lt;strong&gt;","&lt;/strong&gt;",bktitle)
+          //截取列表连接
+          sj(d,"&lt;strong&gt;","&lt;/strong&gt;",bktitle)
+          sj(d,"href=\"","\"",bkurl)
+          sj(d,"src=\"","\"",bkimg)
+          //这里我说一下，为什么要加个f，过滤空数
+          f(bkimg==null)
+          {
+          }
+          else
+          {
+            ula(list_bk,4=bktitle,7=bkimg,8=bkurl)
+            
+          }
+          ufnsui()
+          {
+            
+            us(广场.139,"visibility","gone")
+            us(广场.131,"visibility","visible")
+            uls(广场.90,list_bk,"list_bk.iyu",-1,-2)
+            ug(广场.90,"count",总共)
+            s*(总共,50,总共)
+            ss(总共+"dp",总共)
+            us(广场.90,"height",总共)
+            fw("幻隐网络/大厅/点击.txt","是")
+            us(147,"visibility","gone")
+            
+            fw("幻隐网luo/.缓存/板块.txt",a)
+          }
+        }
+      }
+    }
+  }
+}
+else
+{
+  sss 判断主页按钮=Null
+  us(142,"src","@user/fd65dcad609745daa12e34c0a3f09918.png")
+  gvs(主页.377,滚动)
+  java(null,滚动,"android.widget.ScrollView.scrollTo","int",0,"int",0)
+  uzd(震动器, 30)
+  gvs(1,id)
+  ug(105,"text",显示)
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+  f(显示=="显示")
+  {
+  }
+  else
+  {
+    gvs(118,id)
+     
+     
+     
+  }
+  us(105,"text","不显示")
+  us(9,"visibility","visible")
+  us(18,"visibility","visible")
+  fr("$幻隐网络/.临时数据/1.txt",sz)
+  f(sz=="1")
+  {
+  }
+  else
+  {
+    us(89,"visibility","gone")
+    us(86,"visibility","visible")
+    us(18,"visibility","visible")
+    us(13,"src","@a/1/ic_bottom_call_home_c.v")
+    us(17,"src","@a/1/ic_bottom_msg_n.v")
+    us(38,"src","@e0o2.v")
+    us(107,"src","@a/1/ic_bottom_live_n.v")
+    us(22,"src","@a/1/ic_bottom_mine_n.v")
+    fw("$幻隐网络/.临时数据/1.txt","1")
+    us(43,"text","隐Box")
+    us(41,"visibility","gone")
+    us(9,"currentitem",0)
+    dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+    dh(dh, "duration", 100)
+    us(12, "dh", dh)
+  }
+  bfvss(广场.98, "pe")
+  bfvss(广场.98, "pe")
+  sss 视频广场="不播放"
+  us(广场.101,"src","@lp/icon.v")
+  
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="141" did="140" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="142" did="141" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@user/fd65dcad609745daa12e34c0a3f09918.png</ppt>
+<event></event>
+</View>
+<View id="147" did="146" type="GifView">
+<ppt>width=30dp
+height=30dp
+src=@gif/ic_nkadz_jump_ergo_hander.gif
+ut_toRightOf=138
+visibility=gon
+ut_alignParentBottom=true
+layout_marginLeft=-15dp
+layout_marginBottom=15dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="149" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=right|bottom
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="150" did="149" type="CardView">
+<ppt>width=130dp
+height=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#13000cb6
+app_CardcornerRadius=30dp
+layout_marginRight=-20dp
+layout_marginBottom=70dp</ppt>
+<event></event>
+</View>
+<View id="151" did="150" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">us(149,"visibility","gone")
+us(153,"visibility","gone")
+utw(null,"","loading.iyu",false,v)
+{
+}
+t()
+{
+  ug(152,"text",su)
+  sj(su,"(",")",熟悉)
+  s-(熟悉,1,数字)
+  sss 卡券yc=数字
+  ss(sss.api+"Box/yhxg.php?id="+sss.我的uid+"&nl=卡券&dl="+数字,成功)
+  hs(成功,uu)
+  ufnsui()
+  {
+    sss topon广告="关闭"
+    sss 会员卡券="开"
+    s stop = 2000
+s text="已开放会员功能，开始展示吧！"
+fn color.ColorToast(text,stop)
+endutw()
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="152" did="151" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用卡券
+textSize=13sp
+textColor=#ff0e00a4
+textStyle=bold
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="79" did="44" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="80" did="44" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="81" did="44" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="94" did="44" type="WebView">
+<ppt>width=30dp
+height=30dp
+visibility=gone
+url=</ppt>
+<event></event>
+</View>
+<View id="105" did="44" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本105
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+fw("$幻隐网络/.临时数据/1.txt","1")
+addv(9,"主页.iyu|会员.iyu|消息.iyu|geren.iyu",hd)
+addv(1,"updata.iyu")
+addv(41,"广场.iyu",gc)
+rps()
+fw("%颜色.txt","#FF2196F3")
+fn 着色.控件着色(130,"#ff0080ff")
+s 颜色="#ffff0000"
+sss 循环="0"
+t()
+{
+  s 树脂="0"
+  w(true)
+  {
+    stop(5000)
+    f(树脂=="0")
+    {
+      ufnsui()
+      {
+        us(会员.215,"currentitem",树脂)
+        s 树脂="1"
+      }
+    }
+    else f(树脂=="1")
+    {
+      ufnsui()
+      {
+        us(会员.215,"currentitem",树脂)
+        s 树脂="2"
+      }
+    }
+    else
+    {
+      us(会员.215,"currentitem",树脂)
+      s 树脂="0"
+    }
+  }
+}
+f(sss.判断卡券=="判断")
+{
+  t()
+  {
+    sj(sss.当前用户数据,"卡券(",")卡券",sss.卡券yc)
+    ufnsui()
+    {
+      f(sss.卡券yc==null)
+      {
+        us(149,"visibility","gone")
+      }
+      else f(sss.卡券yc=="null")
+      {
+        us(149,"visibility","gone")
+      }
+      else f(sss.卡券yc&lt;"0")
+      {
+        us(149,"visibility","gone")
+      }
+      else f(sss.卡券yc&gt;"0")
+      {
+        us(149,"visibility","visible")
+        ss("使用卡券("+sss.卡券yc+")",明)
+        us(152,"text",明)
+      }
+      else
+      {
+        
+      }
+    }
+  }
+}
+else
+{
+}
+fn 着色.控件着色(消息.46,颜色)
+fr("幻隐网luo/.缓存/时间.txt",原来)
+time("2", 时间)
+f(时间==原来)
+{
+}
+else
+{
+  call(r,"mjava","删除.deleteFile","/storage/emulated/0/幻隐网luo/.缓存/")
+}
+sss 最新消息="无"
+f(sss.好事?"无")
+{
+}
+else
+{
+  us(121,"visibility","visible")
+}
+fe("幻隐网络/大厅/点击.txt",大厅点击)
+f(大厅点击==true)
+{
+}
+else
+{
+  us(147,"visibility","visible")
+}
+time("2", 时间)
+fw("幻隐网luo/.缓存/时间.txt",时间)
+fr("$幻隐网络/背景音乐/开.txt",yy)
+fe("$幻隐网络/背景音乐/开.txt",ym)
+f(ym==true)
+{
+  us(126,"visibility","visible")
+  bfm(yy, sss.b)
+  bfms(sss.b, "sl", true)
+}
+else
+{
+}
+f(sss.yckj?"关闭")
+{
+  us(主页.320,"visibility","gone")
+}
+else
+{
+}
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(主页.378,a)
+gvs(主页.377,b)
+javanew(mBs,mB,"Context",activity)
+urvw(主页.377)
+nvw(mBs,主页.378)
+nvw(b,mBs)</eventItme><eventItme type="loadingComplete">fn 聚合.须知()
+f(sss.主页视频是否?"开")
+{
+  us(主页.355,"visibility","gone")
+us(主页.409,"visibility","visible")
+us(主页.405,"visibility","gone")
+us(主页.411,"visibility","visible")
+t()
+{
+  w(sss.主页视频啊=="播放中")
+  {
+    bfvss(主页.410, "ip", 状态)
+    f(状态==false)
+    {
+      us(主页.410,"background","")
+      bfvss(主页.410, "st")
+    }
+    else
+    {
+    }
+    stop(100)
+  }
+}
+bfvs(主页.410,sss.主页视频)
+bfvss(主页.410,"st")
+sss 主页视频啊="播放中"
+}
+else
+{
+  us(主页.355,"visibility","visible")
+us(主页.409,"visibility","gone")
+}
+
+
+//随机一言
+s 一言a="天生我才必有用，千金散尽还复来|待到秋来九月八，我花开后百花杀|天若有情天亦老，人间正道是沧桑|莫愁前路无知己，天下谁人不识君|仰天大笑出门去，我辈岂是蓬蒿人|莫等闲，白了少年头，空悲切|静以修身，俭以养德|胜而不骄，败而不怨|青山尚且直如弦，人生孤立何伤焉"
+//↑↑↑↑↑上面是一言,用|分割的
+sl(一言a,"|",一言b)
+sgszl(一言b,一言c)
+s(一言c-1,一言c)
+sran(0,一言c,一言d)
+sgsz(一言b,一言d,一言e)
+us(主页.381,"text",一言e)
+//↑↑↑↑ 一言结束
+
+f(sss.topon广告=="开启")
+{
+  us(153,"visibility","visible")
+}
+else
+{
+  us(153,"visibility","gone")
+}
+f(sss.广告会员=="是")
+{
+  us(153,"visibility","gone")
+  us(158,"visibility","visible")
+}
+else
+{
+  us(158,"visibility","gone")
+}
+
+
+fe("$幻隐网络/固定.png",固定)
+f(固定=="false")
+{
+  us(主页.355,"background",sss.主页图)
+  us(主页.405,"src","@setting_chk_gray.v")
+}
+else
+{
+  us(主页.405,"src","@setting_chk_blue.v")
+  us(主页.355,"background","$幻隐网络/固定.png")
+}
+call(当前版本, "mlua", "bb.get")
+sr(当前版本,".","",sss.当前版本)
+f(sss.寓言版本&gt;sss.当前版本)
+{
+  us(updata.10,"text","更新")
+  us(updata.1,"visibility","visible")
+  us(updata.7,"text",sss.更新内容)
+  us(updata.5,"text","发现新版本")
+  ss("版本标识："+sss.寓言版本,版本)
+  us(updata.12,"text",版本)
+  us(115,"visibility","visible")
+  ss 更新显示="显示"
+}
+else
+{
+  us(updata.1,"visibility","gone")
+}
+addv(会员.215,"1.iyu|2.iyu|3.iyu",mian)
+addv(主页.387,"主页的1.iyu",主页的1)
+us(会员.215,"currentitem",1)
+sj(sss.bs,"广告一图[","]",广告一图片)
+sj(sss.bs,"广告二图[","]",广告二图片)
+sj(sss.bs,"广告三图[","]",广告三图片)
+us(1.3,"src",广告一图片)
+us(2.3,"src",广告二图片)
+us(3.4,"src",广告三图片)
+gvs(会员.215,mvp)
+sj(sss.bs,"广告一地址[","]",sss.广告一地址)
+sj(sss.bs,"广告二地址[","]",sss.广告二地址)
+sj(sss.bs,"广告三地址[","]",sss.广告三地址)
+call(null,"mjava","轮播.setdh",mvp)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(主页.378,a)
+gvs(主页.377,b)
+javanew(mBs,mB,"Context",activity)
+urvw(主页.377)
+nvw(mBs,主页.378)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(geren.150,a)
+gvs(geren.96,b)
+javanew(mBs,mB,"Context",activity)
+urvw(geren.96)
+nvw(mBs,geren.150)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(会员.1,a)
+gvs(会员.84,b)
+javanew(mBs,mB,"Context",activity)
+urvw(会员.84)
+nvw(mBs,会员.1)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(消息.41,a)
+gvs(消息.61,b)
+javanew(mBs,mB,"Context",activity)
+urvw(消息.61)
+nvw(mBs,消息.41)
+nvw(b,mBs)
+sj(sss.bs,"首页须知(",")首页须知",首页须知)
+f(首页须知=="无")
+{
+  us(会员.236,"visibility","gone")
+}
+else
+{
+  us(会员.236,"visibility","visible")
+  f(首页须知?"{红色}")
+  {
+    sr(首页须知,"{红色}","",首页须知)
+    us(会员.236,"BackgroundColor","#5aff6e6e")
+    us(会员.237,"textcolor","#b3ff0000")
+  }
+  else
+  {
+    us(会员.236,"BackgroundColor","#1d0090ff")
+    us(会员.237,"textcolor","#eb0090ff")
+  }
+  ss("(html)温馨提示："+首页须知,首页须知)
+  us(会员.237,"text",首页须知)
+}
+f(sss.游客=="是")
+{
+  sss sss.名称="游客"
+  us(93,"src","@170837.png")
+  us(geren.64,"src","@170837.png")
+  dha(dh, true, false)
+  dh(dh, "duration", 500)
+  us(主页.392, "dh", dh)
+  us(主页.392,"visibility","gone")
+}
+else
+{
+  fr("$幻隐网络/微端/账号.txt",sss.名称)
+  t()
+  {
+    stop(1000)
+    ss(sss.api+"?u/"+sss.名称+".html",in)
+    hs(in,null,"utf-8",z)
+    //ss(sss.api+"Box/rs.php",yu)
+    //hs(yu,rs)
+    //sj(rs,"〖","〗",sss.rs)
+    sj(z,"&lt;span class=\"num\"&gt;","&lt;/span&gt;&lt;span class=\"text\"&gt;关注&lt;/span&gt;",sss.关注)
+    fr("@jqa.txt",jqa)
+    fr("@jqb.txt",jqb)
+    fr("@jqc.txt",jqc)
+    fr("@jqd.txt",jqd)
+    fr("@jqe.txt",jqe)
+    sj(z,jqa,"&lt;/span&gt;&lt;span class=\"text\"&gt;粉丝&lt;/span&gt;",sss.粉丝)
+    sj(z,jqc,"&lt;span&gt;我的收藏&lt;/span&gt;",收藏)
+    strim(收藏,sss.收藏)
+    sj(z,jqd,"&lt;span&gt;我的金币&lt;/span&gt;",金币)
+    strim(金币,sss.个人金币)
+    sj(z,"&lt;img src=\"","\"",sss.头像)
+    ufnsui()
+    {
+      us(110,"visibility","gone")
+      sran(0,9,随机)
+      ss("@gif/"+随机+".gif",动态图)
+      us(主页的1.115,"src",动态图)
+      us(93,"src",sss.头像)
+      us(geren.64,"src",sss.头像)
+      us(geren.236,"text",sss.关注)
+      us(geren.239,"text",sss.粉丝)
+      us(geren.233,"text",sss.个人金币)
+      dha(dh, true, false)
+      dh(dh, "duration", 500)
+      us(主页.392, "dh", dh)
+      us(主页.392,"visibility","gone")
+      us(86,"visibility","visible")
+      time("2", 时间)
+      fw("幻隐网luo/.缓存/时间.txt",时间)
+    }
+  }
+}
+t()
+{
+  stop(500)
+  loadjar("listimg.dex",dex)
+  cls(dex,"com.squareup.picasso.Picasso",ss.l)
+  cls(dex,"com.squareup.picasso.RequestCreator",ss.l1)
+  sj(sss.bs,"热门【","】热门",axa)
+  sl(axa,"是功能",cc)
+  for(介绍;cc)
+  {
+    sj(介绍,"功能(",")功能",功能)
+    f(功能==""||功能==null)
+    {
+    }
+    else
+    {
+      sj(介绍,"网页(",")网页",网页)
+      sj(介绍,"图片(",")图片",img)
+      sj(介绍,"会员(",")会员",会员)
+      ss("(html)"+功能,功能)
+      ula(mian,6=功能,3=img,8=网页,10=会员)
+      //3可改7记得载入事件
+    }
+  }
+  ufnsui()
+  {
+    uls(主页.396,mian,"主页的2.iyu",-2,-1)
+    gvs(主页.396,对象)
+    cls("androidx.recyclerview.widget.RecyclerView",列表类)
+    cls("androidx.recyclerview.widget.LinearLayoutManager",布局管理类)
+    javanew(布局,布局管理类,"Context",activity,"int",0,"boolean",false)
+    javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+    
+  }
+}
+us(sss.yckj,"visibility","gone")
+fr("$幻隐网络/.v/xjf.yx",cs)
+time("Y",a)
+time("m",m)
+time("d",D)
+time("H",e)
+time("M",l)
+time("S",v)
+ss(a+m+D+e+l+v,dqsj)
+f(dqsj&gt;cs)
+{
+  s wj="$幻隐网络/.v/xjf.yx"
+  fd(wj,b)
+  fw("$幻隐网络/.v/sf.yx","平民百姓")
+}
+else
+{
+  fw("$幻隐网络/.v/sf.yx","凌云贵族")
+  //us(123,"visibility","visible")
+}
+time("2",a)
+fr("$.幻隐网络/.v/s.yx",b)
+sj(b,"【","】",sij)
+f(a==sij)
+{
+}
+else
+{
+  time("m",m)
+  time("d",D)
+  ss(m+D,sj)
+  f(sj=="0708")
+  {
+    us(75,"visibility","visible")
+    dhas(dh, 74, "translationY", -150, 30, -35, 25, -30,20,-20,15,-10,10,-8,8,-5,5,-3,3,-2,2,-1,1,0,0)
+    dh(dh, "duration", 3000)
+    dh(dh, "start")
+  }
+  else
+  {
+  }
+}
+
+ /. t()
+  {
+    w(sss.循环=="0")
+    {
+      stop(5000)
+      ss("$幻隐网luo/.缓存/"+sss.名称+"消息数据.txt",名称消息数据)
+      fr(名称消息数据,内容)
+      ss(sss.api+"?u/"+sss.名称+"/message/index.html",ur)
+      hs(ur,null,"utf-8",null,true,v)
+      f(v==内容)
+      {
+      }
+      else
+      {
+        fw(名称消息数据,v)
+        sj(v,"       &lt;div class=\"friend-list-body\"&gt;","        &lt;div class=\"chat-container\" &gt;",jqxx)
+        sl(jqxx,"                &lt;li&gt;",xx)
+        ufnsui()
+        {
+          sgszl(xx,xxzs)
+          s(xxzs-1,zs)
+          s s=1
+          for(1;zs)
+          {
+            sgsz(xx,s,nr)
+            //聊天链接
+            sj(nr,"href=\"","\" class",fdurl)
+            sj(nr,"uid/",".html",uid)
+            //好友图片
+            sj(nr,"&lt;img src=\"","\" class",img)
+            //信息name
+            sj(nr,"                                &lt;/div&gt;","&lt;/div&gt;",n)
+            strim(n,name)
+            //信息name提示
+            sj(nr,"                            &lt;div class=\"chat-message\"&gt;","&lt;/div&gt;",tsxx)
+            //信息数量
+            sj(nr,"friend-hide\"&gt;","&lt;/span&gt;",sl)
+            ula(list_fd,8=name,9=tsxx,20=会员,11=sl,19=相框,23=img,12=img,13=uid)
+            s(s+1,s)
+          }
+          f(sl&gt;"0")
+          {
+            bfm("@newblogtoast.mp3")
+            us(110,"visibility","visible")
+            sss xxsl=0
+            fn wdxx.wdxx()
+            f(sss.最新消息=="无")
+            {
+              sss 最新消息="有"
+              uzd(震动器, 30)
+              s text="您有一条新消息！"
+              s stop = 2000
+              fn color.ColorToast(text,stop)
+              ftz("隐Box", "您未读消息喔，不要错过~", "[点我查看]", "@news_icon_comment.png")
+              {
+              }
+            }
+            else
+            {
+            }
+          }
+          else
+          {
+            sss xxsl=0
+            sss 最新消息="无"
+          }
+        }
+      }
+    }
+  }
+  ./</eventItme><eventItme type="downkey">ug(105,"text",i)
+f(st_kC == 4)
+{
+  f(i=="显示")
+  {
+    us(105,"text","不显示")
+    sss 判断主页按钮=Null
+    us(142,"src","@user/fd65dcad609745daa12e34c0a3f09918.png")
+    dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(142, "dh", dh)
+    us(9,"visibility","visible")
+    us(18,"visibility","visible")
+    fr("$幻隐网络/.临时数据/1.txt",sz)
+    f(sz=="1")
+    {
+      
+    }
+    else
+    {
+      bfvss(广场.98, "pe")
+      bfvss(广场.98, "pe")
+      sss 视频广场="不播放"
+      us(广场.101,"src","@lp/icon.v")
+      us(89,"visibility","gone")
+      us(86,"visibility","visible")
+      us(18,"visibility","visible")
+      us(13,"src","@a/1/ic_bottom_call_home_c.v")
+      us(17,"src","@a/1/ic_bottom_msg_n.v")
+      us(38,"src","@e0o2.v")
+      us(19,"src","@a/1/ic_bottom_live_n.v")
+      us(22,"src","@a/1/ic_bottom_mine_n.v")
+      fw("$幻隐网络/.临时数据/1.txt","1")
+      us(43,"text","隐Box")
+      
+      us(9,"currentitem",0)
+      us(41,"visibility","gone")
+      dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+      dh(dh, "duration", 100)
+      us(12, "dh", dh)
+    }
+    
+  }
+  else
+  {
+    fn tool.showbt("end.iyu", true)
+  }
+}</eventItme><eventItme type="restart">fe("$幻隐网络/固定.png",固定)
+f(固定=="false")
+{
+  us(主页.355,"background",sss.主页图)
+  us(主页.405,"src","@setting_chk_gray.v")
+}
+else
+{
+  us(主页.405,"src","@setting_chk_blue.v")
+  us(主页.355,"background","$幻隐网络/固定.png")
+}
+
+us(31,"visibility","visible")
+sj(sss.当前用户数据,"头像框：","头像框内容结束",txk)
+syso(txk)
+us(geren.65,"background",txk)
+gvs(消息.57,滚动)
+java(null,滚动,"android.widget.ScrollView.scrollTo","int",0,"int",0)
+gvs(主页.377,滚动咋)
+java(null,滚动咋,"android.widget.ScrollView.scrollTo","int",0,"int",0)
+fe("$幻隐网络/.v/xjf.yx",是否)
+f(是否=="true")
+{
+  time("Y",a)
+  time("m",m)
+  time("d",D)
+  time("H",e)
+  time("M",l)
+  time("S",v)
+  ss(a+m+D+e+l+v,dqsj)
+  fr("$幻隐网络/.v/xjf.yx",wjj)
+  f(dqsj&gt;wjj)
+  {
+    us(geren.281,"visibility","gone")
+    us(geren.7,"visibility","visible")
+    us(geren.66,"visibility","gone")
+    us(geren.279,"visibility","visible")
+  }
+  else
+  {
+    us(geren.7,"visibility","gone")
+    us(geren.66,"visibility","visible")
+    us(geren.281,"visibility","visible")
+  }
+}
+else
+{
+  us(geren.7,"visibility","visible")
+  us(geren.66,"visibility","gone")
+  us(geren.281,"visibility","gone")
+}
+fe("$幻隐网络/背景音乐/开.txt",ym)
+f(ym==true)
+{
+  bfms(sss.b, "ip", c)
+  f(c==true)
+  {
+    us(126,"visibility","visible")
+  }
+  else
+  {
+    us(126,"visibility","gone")
+  }
+}
+else
+{
+  us(86,"app_CardcornerRadius","8dp")
+  f(sss.游客=="是")
+  {
+    us(93,"src","@170837.png")
+  }
+  else
+  {
+    us(93,"src",sss.头像)
+  }
+}
+ 
+fr("$幻隐网络/签到.v",i)
+time("2",o)
+f(i==o)
+{
+  us(geren.137,"background","#ffd5d5d5")
+  us(geren.138,"textcolor","#ffffffff")
+  us(geren.138,"text","已签")
+}
+else
+{
+  us(geren.137,"background","#ffd1eaff")
+  us(geren.138,"textcolor","#1E88E5")
+  us(geren.138,"text","签到")
+}</eventItme><eventItme type="destroy">bfms(sss.b, "pe")</eventItme><eventItme type="onactivityresult">javags(io, activity, "android.app.Activity", "RESULT_OK")
+f(st_lC == io)
+{
+  f(st_sC == 2)
+  {
+    java(uri, st_iT, "android.content.Intent.getData")
+    call(path, "mlua", "lua.getPath", uri)
+    ufnsui()
+    {
+      fdir(sd)
+      ss(sd + "/", sd)
+      sr(path, sd, "%", ss.path)
+      sr(ss.path,"%","/storage/emulated/0/",ss.path)
+      fn Function.QrCodeScan(ss.path)
+      f(ss._QrCodeScan != null)
+      {
+        f(ss._QrCodeScan?sss.api)
+        {
+          sss tzurl=ss._QrCodeScan
+          uigo("详情.iyu")
+        }
+        else
+        {
+          sss tzurl=ss._QrCodeScan
+          uigo("二维码显示.iyu")
+        }
+      }
+      else
+      {
+        s text="未检测到二维码"
+        s stop = 2000
+        fn color.ColorToast(text,stop)
+      }
+    }
+  }
+}</eventItme></UIEventset>

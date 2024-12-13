@@ -1,0 +1,232 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+gravity=center_vertical
+padding=5dp
+background=white
+</ppt>
+<event><eventItme type="clicki">gvs(st_vW,list_fd.11,kj)
+gvs(st_vW,list_fd.8,名字)
+ug(名字,"text",sss.user)
+us(kj,"visibility","gone")
+ulag(st_vW,13,sss.xxid)
+ulag(st_vW,12,sss.txurl)
+//gvs(st_vW,list_fd.17,a)
+ //   call(null,"mjava","图片跳转.uigo",a,"image","交流.iyu",sss.appbm)
+uigo("交流.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="15" did="1" type="RelativeLayout">
+<ppt>width=45dp
+height=45dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="RelativeLayout">
+<ppt>width=45dp
+height=45dp
+layout_margin=1.5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="RoundImageView">
+<ppt>src=@tb/b34.v
+width=35dp
+height=35dp
+layout_margin=1.5dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="18" did="15" type="LinearLayout">
+<ppt>width=45dp
+height=45dp
+background=
+layout_margin=1.5dp</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="ImageView">
+<ppt>width=-1
+height=-1
+src=</ppt>
+<event></event>
+</View>
+<View id="22" did="15" type="GifView">
+<ppt>width=20dp
+height=20dp
+src=@chenghao/noble_emperor_icon.gif
+layout_marginLeft=10dp
+visibility=gone
+ut_alignParentRight=true
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="20" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本20
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="CardView">
+<ppt>width=40dp
+height=40dp
+app_CardcornerRadius=30dp
+layout_margin=5dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="14" did="4" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@20180916170000@4c836b3a84cda5ad0d4924610357eecb.v</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+padding=5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=系统信息
+textStyle=bold
+textColor=#ff373737</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=系统提示信息。
+textColor=#BDBDBD
+textSize=12sp
+typeface=serif
+layout_marginTop=6dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="12" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本12
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="24" did="7" type="ImageView">
+<ppt>width=30dp
+height=-1
+src=@eb50b178bb7.png
+layout_marginLeft=2dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=25dp
+height=17dp
+text=0
+layout_gravity=right
+layout_marginRight=8dp
+padding=1dp
+textSize=11sp
+gravity=center
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="13" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本13
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="23" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本13
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="25" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+layout_marginLeft=10dp
+layout_marginRight=10dp
+background=#4aadadad</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,list_fd.17,image)
+ulag(st_vW,23,url)
+javax(fh,null,ss.l,"with","Context",activity)
+javax(fh1,fh,ss.l,"load","String",url)
+//设置图片链接
+javax(null,fh1,ss.l1,"into","android.widget.ImageView",image)
+gvs(st_vW,list_fd.11,ee)
+ngde(50,"#FF5252",a)
+us(ee,"background",a)
+ug(ee,"text",kj)
+gvs(st_vW,list_fd.6,llq)
+gvs(st_vW,list_fd.20,会员)
+ug(会员,"text",会员)
+gvs(st_vW,list_fd.22,显示)
+gvs(st_vW,list_fd.8,系统)
+ug(系统,"text",系统)
+strim(系统,系统)
+f(系统=="系统")
+{
+  us(显示,"visibility","gone")
+}
+else
+{
+}
+gvs(st_vW,list_fd.11,消息条数)
+ug(消息条数,"text",消息多少)
+strim(消息多少,消息多少)
+f(消息多少=="0"||消息多少=="1")
+{
+  us(消息条数,"visibility","gone")
+}
+else
+{
+}
+gvs(st_vW,list_fd.8,名称呀)
+gvs(st_vW,list_fd.17,改头像)
+gvs(st_vW,list_fd.24,官方)
+ug(名称呀,"text",名字是啥)
+strim(名字是啥,名字是啥)
+f(名字是啥=="系统")
+{
+  us(改头像,"src","@cf33ae3b11d8bf0d18368a02fb998413.png")
+}
+else f(名字是啥=="独爱隐心")
+{
+  us(改头像,"src","@a/tq/yx1/ayq.v")
+  us(官方,"visibility","visible")
+}
+else
+{
+  us(改头像,"src","@e1794773b602e5ba313f4455b04f3c6e.jpg")
+}</eventItme></UIEventset>

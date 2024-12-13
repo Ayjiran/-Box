@@ -1,0 +1,255 @@
+<View id="26" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffededed
+layout_weight=1
+background=white</ppt>
+<event></event>
+</View>
+<View id="22" did="1" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=智能客服
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+padding=5dp
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="31" did="4" type="ListView">
+<ppt>width=-1
+height=-1
+dividerHeight=0dp
+overScrollMode=never
+layout_weight=1
+scrollbars=none</ppt>
+<event></event>
+</View>
+<View id="6" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=center
+orientation=horizontal
+background=#ffffffff
+</ppt>
+<event></event>
+</View>
+<View id="21" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=#FFFFFF
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="8" did="21" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardBackgroundColor=#FFFFFF
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_weight=1
+layout_marginLeft=30dp
+layout_marginRight=30dp
+layout_gravity=bottom
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="23" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=输入想说的话~
+.layout_margin=2dp
+background=white
+.layout_marginLeft=5dp
+maxLines=10
+BackgroundColor=#f0f0f0
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="25" did="21" type="Button">
+<ppt>width=60dp
+height=-2
+text=发送
+layout_gravity=center
+layout_marginRight=15dp
+textColor=#ffffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">ug(24,"text",内容)
+strim(内容,内容)
+f(内容=="")
+{
+  s stop = 2000
+  s text="请输入内容~"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  ss(内容+"【",前段)
+  ss("】"+内容,后段)
+  sj(sss.人工机器人数据,前段,后段,对方)
+  f(对方==null)
+  {
+    sj(sss.人工机器人数据,"听不懂【","】听不懂",听不懂)
+    ula(lt,38="有",37="有",8=听不懂,15=内容)
+    uls(31,lt,"BaetCitrBrc.iyu",-1,-2)
+    us(31,"selection","bottom")
+    us(24,"text","")
+  }
+  else
+  {
+    ss("(html)"+对方,对方)
+    ula(lt,38="有",37="有",8=对方,15=内容)
+    uls(31,lt,"BaetCitrBrc.iyu",-1,-2)
+   us(31,"selection","bottom")
+     us(24,"text","")
+  }
+}
+uzd(震动器, 30)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="28" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginTop=48dp
+background=white
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="GifView">
+<ppt>width=100dp
+height=100dp
+src=@gif.gif
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+fn 着色.控件着色(25,"#ff18a2ff")
+gvs(32,a)
+call(null,"mjava","图片跳转.set",a)
+s id=22
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(22,颜色)
+t()
+{
+  ss(sss.api+"Box/rj.txt",数据)
+  s 板块="幻隐网luo/.缓存/人工客服.txt"
+      fe(板块,有没有)
+      fr(板块,板块)
+      f(有没有==true)
+      {
+        sss 人工机器人数据=板块
+      }
+      else
+      {
+        hs(数据,sss.人工机器人数据)
+        fw("幻隐网luo/.缓存/人工客服.txt",sss.人工机器人数据)
+      }
+    sj(sss.人工机器人数据,"第一句【","】第一句",第一句)
+  ufnsui()
+  {
+    ula(lt,30="我来啦，好兄弟~",31="我来啦，好兄弟~",37="空",8=第一句)
+   uls(31,lt,"BaetCitrBrc.iyu",-1,-2)
+    us(28,"visibility","gone")
+  }
+}</eventItme><eventItme type="loadingComplete">//气泡颜色
+s flag = 18
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",flag)</eventItme><eventItme type="menu">case 刷新:
+t()
+{
+  ss(sss.api+"Box/rj.txt",数据)
+  s 板块="幻隐网luo/.缓存/人工客服.txt"
+      fe(板块,有没有)
+      fr(板块,板块)
+      f(有没有==true)
+      {
+        sss 人工机器人数据=板块
+      }
+      else
+      {
+        hs(数据,sss.人工机器人数据)
+        fw("幻隐网luo/.缓存/人工客服.txt",sss.人工机器人数据)
+      }
+    sj(sss.人工机器人数据,"第一句【","】第一句",第一句)
+  ufnsui()
+  {
+    ula(lt,30="我来啦，好兄弟~",31="我来啦，好兄弟~",37="空",8=第一句)
+   uls(31,lt,"BaetCitrBrc.iyu",-1,-2)
+    us(28,"visibility","gone")
+  }
+}
+us(31,"selection","bottom")
+uzd(震动器, 30)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break
+
+case 人工客服:
+hws(sss.微信客服地址)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break
+
+case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

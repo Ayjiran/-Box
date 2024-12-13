@@ -1,0 +1,65 @@
+import android.widget.LinearLayout;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.view.animation.LayoutAnimationController;
+import android.view.animation.AnimationSet;
+import android.view.animation.AlphaAnimation;
+import android.view.View;
+import androidx.core.app.ActivityOptionsCompat;
+import androidx.cardview.widget.CardView;
+import android.content.Intent;
+import android.os.Bundle;
+import androidx.viewpager.widget.ViewPager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import android.view.MotionEvent;
+import android.view.View.OnTouchListener;
+
+public void setdh(ViewPager mVp)
+{
+   mVp.setOffscreenPageLimit(3);
+   mVp.setPageMargin(-10);
+  mVp.setPageTransformer(true,new ViewPager.PageTransformer()
+  {
+    
+    private static final float MIN_SCALE=0.85f;
+    //private static final float MIN_ALPHA=0.4f;
+   // @Override
+    public void transformPage(View view,float position)
+    {
+        
+        if(position<=-1)
+        {
+            view.setScaleX(MIN_SCALE);
+            view.setScaleY(MIN_SCALE);
+            //view.setAlpha(MIN_ALPHA);
+        }
+        else if(position<=1)
+        {
+            if(position<0)
+            { 
+                float scaleA=MIN_SCALE+(1-MIN_SCALE)*(1+position);
+                view.setScaleX(scaleA);
+                view.setScaleY(scaleA);
+                //float alphaA=MIN_ALPHA+(1-MIN_ALPHA)*(1+position);
+                //view.setAlpha(alphaA);
+            }
+            else
+            {
+                float scaleB=MIN_SCALE+(1-MIN_SCALE)*(1-position);
+                view.setScaleX(scaleB);
+                view.setScaleY(scaleB);
+                //float alphaB=MIN_ALPHA+(1-MIN_ALPHA)*(1+position);
+                //view.setAlpha(alphaB);
+            }
+        }
+        else
+        {
+            view.setScaleX(MIN_SCALE);
+            view.setScaleY(MIN_SCALE);
+            //view.setAlpha(MIN_ALPHA);
+        }
+    }
+    
+  });
+}

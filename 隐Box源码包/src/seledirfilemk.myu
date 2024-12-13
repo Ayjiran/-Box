@@ -1,0 +1,30 @@
+
+//获取列表方法
+fn get()
+
+//加载图像
+sbp("@wj.v", dirimg)
+sbp("@ui/Wjj.v", fileimg)
+
+//清空列表
+ula(list, "clear")
+//设置返回上级
+ula(list, 1=null, 3=dirimg, 5="../上层文件夹", -1=true)
+
+//获取文件夹列表
+fl(sss.seledir, true, szdir)
+for(a; szdir)
+{
+ula(list, 1=null, 3=dirimg, 5=a, -1=true)
+}
+
+//获取文件列表
+fl(sss.seledir, false, szfile)
+for(a; szfile)
+{
+ula(list, 1=null, 3=fileimg, 5=a, -1=false)
+}
+
+//设置列表控件
+uls(2, list, "wjlb.iyu", -1, -2)
+end fn

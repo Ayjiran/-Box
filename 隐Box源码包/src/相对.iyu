@@ -1,0 +1,50 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="SurfaceView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="GridView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">usxh(sss.ps, 2, 90)
+uycl(true)
+uycl("#ff00bfff",true)
+java(管理器,activity,"Context.getPackageManager")
+java(应用列表,管理器,"android.content.pm.PackageManager.getInstalledPackages","int",0)
+for(应用;应用列表)
+{
+  javags(版本,应用,"android.content.pm.PackageInfo","versionName")
+  javags(应用,应用,"android.content.pm.PackageInfo","applicationInfo")
+  javags(标识,应用,"android.content.pm.ApplicationInfo","flags")
+    java(名字,应用,"android.content.pm.PackageItemInfo.loadLabel","android.content.pm.PackageManager",管理器)
+  java(图标,应用,"android.content.pm.PackageItemInfo.loadIcon","android.content.pm.PackageManager",管理器)
+  javags(包名,应用,"android.content.pm.PackageItemInfo","packageName")
+  javags(目录,应用,"android.content.pm.ApplicationInfo","sourceDir")
+    ula(列表,8=图标,3=名字,4=包名)
+}
+uls(4,列表,"透明应用.iyu",-1,-2)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

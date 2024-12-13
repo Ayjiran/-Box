@@ -1,0 +1,662 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=房屋面积:</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=
+ut_torightof=3
+ut_toleftof=6
+background=white
+singleline=true
+gravity=right
+digits=0123456789.
+maxlength=10
+textsize=14dp</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+ut_alignparentright=true
+layout_marginright=20dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=㎡</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#e0e0e0e0
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=房屋单价:</ppt>
+<event></event>
+</View>
+<View id="13" did="10" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=
+ut_torightof=11
+ut_toleftof=14
+background=white
+singleline=true
+gravity=right
+digits=0123456789.
+maxlength=10
+textsize=14dp</ppt>
+<event></event>
+</View>
+<View id="14" did="10" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+ut_alignparentright=true
+layout_marginright=20dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=元/㎡</ppt>
+<event></event>
+</View>
+<View id="16" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#e0e0e0e0
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="18" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+background=white</ppt>
+<event><eventItme type="clicki">utw(null,"","fwlx.iyu",false,a)
+{
+}</eventItme></event>
+</View>
+<View id="19" did="18" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=房屋类型:</ppt>
+<event></event>
+</View>
+<View id="21" did="18" type="ImageView">
+<ppt>width=30dp
+height=-1
+src=@arrow_enter.png
+ut_alignparentright=true
+padding=13dp
+layout_marginright=10dp</ppt>
+<event></event>
+</View>
+<View id="22" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=普通住宅
+ut_centervertical=true
+ut_toleftof=21</ppt>
+<event></event>
+</View>
+<View id="23" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#e0e0e0e0
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="25" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+background=white</ppt>
+<event><eventItme type="clicki">utw(null,"","fcnx.iyu",false,a)
+{
+}</eventItme></event>
+</View>
+<View id="26" did="25" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=房产年限:</ppt>
+<event></event>
+</View>
+<View id="28" did="25" type="ImageView">
+<ppt>width=30dp
+height=-1
+src=@arrow_enter.png
+ut_alignparentright=true
+padding=13dp
+layout_marginright=10dp</ppt>
+<event></event>
+</View>
+<View id="29" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=不满2年
+ut_centervertical=true
+ut_toleftof=28</ppt>
+<event></event>
+</View>
+<View id="30" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#e0e0e0e0
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="32" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+text=房屋原值:</ppt>
+<event></event>
+</View>
+<View id="35" did="32" type="EditText">
+<ppt>width=-1
+height=35dp
+text=
+hint=
+ut_torightof=33
+ut_toleftof=36
+background=white
+singleline=true
+gravity=right
+layout_margintop=3dp
+digits=0123456789.
+maxlength=10</ppt>
+<event></event>
+</View>
+<View id="36" did="32" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+ut_alignparentright=true
+layout_marginright=20dp</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=万元</ppt>
+<event></event>
+</View>
+<View id="38" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+background=white
+layout_margintop=10dp</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="40" did="39" type="TextView">
+<ppt>width=-2
+height=-2
+text=买方首次购房</ppt>
+<event></event>
+</View>
+<View id="41" did="38" type="LinearLayout">
+<ppt>width=40dp
+height=20dp
+orientation=horizontal
+ut_alignparentright=true
+layout_marginright=20dp
+layout_margintop=10dp</ppt>
+<event><eventItme type="clicki">
+
+ug(esf.58,"text",a)
+f(a=="1")
+{
+  us(esf.58,"text","0")
+  us(esf.42,"backgroundcolor","#f6f6f6f6")
+  us(esf.43,"backgroundcolor","#ff0099ec")
+  us(esf.44,"textcolor","#ff0099ec")
+  us(esf.45,"textcolor","#f6f6f6f6")
+}
+else f(a=="0")
+{
+  us(esf.58,"text","1")
+  us(esf.43,"backgroundcolor","#f6f6f6f6")
+  us(esf.42,"backgroundcolor","#ff0099ec")
+  us(esf.45,"textcolor","#ff0099ec")
+  us(esf.44,"textcolor","#f6f6f6f6")
+}</eventItme></event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+backgroundcolor=#ff0099ec
+layout_marginleft=1dp
+layout_margintop=1dp
+layout_marginbottom=1dp</ppt>
+<event></event>
+</View>
+<View id="44" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=是
+textcolor=#f6f6f6f6</ppt>
+<event></event>
+</View>
+<View id="43" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+layout_marginright=1dp
+layout_margintop=1dp
+layout_marginbottom=1dp</ppt>
+<event></event>
+</View>
+<View id="45" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=否
+textcolor=#ff0099ec</ppt>
+<event></event>
+</View>
+<View id="58" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="46" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="47" did="46" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#e0e0e0e0
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="48" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=卖方唯一住房</ppt>
+<event></event>
+</View>
+<View id="51" did="48" type="LinearLayout">
+<ppt>width=40dp
+height=20dp
+orientation=horizontal
+ut_alignparentright=true
+layout_marginright=20dp
+layout_margintop=10dp</ppt>
+<event><eventItme type="clicki">
+
+ug(esf.59,"text",a)
+f(a=="1")
+{
+  us(esf.59,"text","0")
+  us(esf.52,"backgroundcolor","#f6f6f6f6")
+  us(esf.53,"backgroundcolor","#ff0099ec")
+  us(esf.54,"textcolor","#ff0099ec")
+  us(esf.55,"textcolor","#f6f6f6f6")
+}
+else f(a=="0")
+{
+  us(esf.59,"text","1")
+  us(esf.53,"backgroundcolor","#f6f6f6f6")
+  us(esf.52,"backgroundcolor","#ff0099ec")
+  us(esf.55,"textcolor","#ff0099ec")
+  us(esf.54,"textcolor","#f6f6f6f6")
+}</eventItme></event>
+</View>
+<View id="52" did="51" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+backgroundcolor=#ff0099ec
+layout_marginleft=1dp
+layout_margintop=1dp
+layout_marginbottom=1dp</ppt>
+<event></event>
+</View>
+<View id="54" did="52" type="TextView">
+<ppt>width=-2
+height=-2
+text=是
+textcolor=#f6f6f6f6</ppt>
+<event></event>
+</View>
+<View id="53" did="51" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+layout_marginright=1dp
+layout_margintop=1dp
+layout_marginbottom=1dp</ppt>
+<event></event>
+</View>
+<View id="55" did="53" type="TextView">
+<ppt>width=-2
+height=-2
+text=否
+textcolor=#ff0099ec</ppt>
+<event></event>
+</View>
+<View id="59" did="48" type="TextView">
+<ppt>width=-2
+height=-2
+text=1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="60" did="1" type="CardView">
+<ppt>width=-1
+height=40dp
+layout_margintop=20dp
+layout_marginleft=15dp
+layout_marginright=15dp
+background=through
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="56" did="60" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_margintop=20dp
+layout_marginleft=15dp
+layout_marginright=15dp
+background=through</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="TextView">
+<ppt>width=-1
+height=-1
+text=计 算
+gravity=center
+textcolor=#f6f6f6f6
+textsize=16dp
+backgroundcolor=#ff0099ec</ppt>
+<event><eventItme type="clicki">ug(esf.5,"text",fwmj)
+//房屋面积
+ug(esf.13,"text",fwdj)
+//房屋单价
+ug(esf.22,"text",fwlx)
+//房屋类型
+ug(esf.29,"text",fcnx)
+//房产年限
+ug(esf.35,"text",fwyz)
+//房屋原值
+ug(esf.58,"text",mf)
+//买方是否首次购房
+ug(esf.59,"text",mf1)
+//卖方是否唯一
+
+s2(fwmj*fwdj,fwzj)
+//房屋总价
+
+f(fwmj=="")
+{
+  
+  s text="请输入房屋面积"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else f(fwdj=="")
+{
+ s text="请输入房屋单价"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+
+
+//契税开始
+f(mf=="1")
+//判断是否首次购房
+{
+  //首次
+  f(fwmj&gt;"90")
+  //判断是否大于90平
+  {
+    //大于90
+    s2(fwzj*0.015,qs)
+  ss(qs+"元",qs)
+  }
+else 
+  {
+    //小于90
+  s2(fwzj*0.01,qs)
+  ss(qs+"元",qs)
+  }
+}
+else
+{ 
+  //不是首次
+  f(fwmj&gt;"90")
+  //判断是否大于90平
+  {
+    //大于90
+    s2(fwzj*0.02,qs)
+  ss(qs+"元",qs)
+  }
+else 
+  {
+    //小于90
+  s2(fwzj*0.01,qs)
+  ss(qs+"元",qs)
+  }
+}
+//契税结束
+
+
+
+//个税开始
+f(fcnx=="满5年")
+//判断年限
+{
+  //满五年
+  f(mf1=="1")
+  //判断是否唯一
+  {
+    //唯一
+    s gs="免征"
+  }
+else
+  {
+    //不唯一
+    s2(fwzj*0.02,gs)
+  ss(gs+"元",gs)
+  }
+}
+else
+{
+  //不满五年
+  s2(fwzj*0.02,gs)
+  ss(gs+"元",gs)
+}
+//个税结束
+
+
+//增值税开始
+f(fcnx=="不满2年")
+//判断年限
+{
+  //不满两年
+  s2(fwzj*0.056,zzs)
+  ss(zzs+"元",zzs)
+}
+else
+{
+  //两年及以上
+  s zzs="免征"
+}
+//增值税结束
+
+
+
+ss("房屋总价："+fwzj+"元"+"\n"+"契税："+qs+"\n"+"个税："+gs+"\n"+"增值税："+zzs,tw)
+utw(null,"计算结果",tw,"复制","取消",false,v)
+{
+  sxb(tw)
+}
+else
+{
+}
+
+
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

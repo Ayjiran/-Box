@@ -1,0 +1,86 @@
+<View id="1" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginTop=5dp
+layout_marginBottom=8dp
+app_CardBackgroundColor=#ffffffff
+BackgroundRipple=#ffbfbfbf
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,1,sss.url)
+ulag(st_vW,2,sss.title)
+ulag(st_vW,5,cl)
+sj(cl,"磁力：",null,sss.cl)
+ulag(st_vW,7,sss.size)
+ulag(st_vW,10,sss.update)
+//syso(url)
+uigo("show.iyu")</eventItme></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="3" type="TextView">
+<ppt>width=-1
+height=-2
+text=文本2
+textColor=#ff3a3a3a
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-1
+height=1
+text=
+BackgroundColor=#ffc0c0c0
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-1
+height=-2
+text=磁力：magnet:?xt=urn:btih:4b39c8b1e24512cf08deb2461b833ac94826de3b
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=horizontal
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=100MB</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=right|right</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=2018-15-25</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

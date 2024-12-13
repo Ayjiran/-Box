@@ -1,0 +1,150 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+gravity=center_vertical
+background=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=视频库
+textsize=18sp
+textstyle=bold
+textcolor=#f9f9f9f9
+shadowcolor=#55555555
+shadowradius=10
+shadowdx=1.1
+shadowdy=-1.1
+layout_weight=1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="ImageView">
+<ppt>width=30dp
+height=30dp
+padding=2dp
+backgroundripple=#c5c5c5c5
+clickable=true
+layout_marginleft=10dp
+layout_marginright=10dp
+src=@lp/base_more.v
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="6" did="7" type="ListView">
+<ppt>width=-1
+height=-1
+dividerheight=0</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+background=#ffffff
+orientation=vertical</ppt>
+<event><eventItme type="clicki">tw()</eventItme></event>
+</View>
+<View id="9" did="8" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@91c66b4b9cf.v</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=正在加载中...
+layout_margintop=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+dhr(dh, 0, 720, 1, 0.5, 1, 0.5)
+dhr(dh, 0, 360, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 1000)
+dh(dh, "repeat", 100)
+us(9, "dh", dh)
+}
+
+
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="restart">s lj="%南派微享/录屏/"
+fl(lj,lb)
+ss lj4=lj
+for(wjlb;lb)
+{
+ss(lj+wjlb,wjlj)
+fr(wjlj,wz)
+ss("南派微享/录屏/"+wjlb+"",ook)
+ula(a,6=null,8=ook,7=wjlb,-1=wjlj)
+uls(6,a,"录屏-列表.iyu",-1,-2)
+}</eventItme><eventItme type="loadingComplete">
+
+s lj="$幻隐网络/录屏/"
+fl(lj,lb)
+ss lj4=lj
+for(wjlb;lb)
+{
+ss(lj+wjlb,wjlj)
+fr(wjlj,wz)
+ss("幻隐网络/录屏/"+wjlb+"",ook)
+ula(a,6=null,8=ook,7=wjlb,-1=wjlj)
+uls(6,a,"录屏-列表.iyu",-1,-2)
+}
+
+t()
+{
+stop(1000)
+ufnsui()
+{
+us(8,"visibility","gone")
+
+}
+}</eventItme></UIEventset>

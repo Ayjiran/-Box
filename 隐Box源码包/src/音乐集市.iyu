@@ -1,0 +1,428 @@
+<View id="358" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="49" did="358" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="680" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="680" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=white
+gravity=center_vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_weight=1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="685" did="3" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ic_arrow_back_black_24dp.png
+BackgroundRipple=#ff888888
+layout_marginLeft=10dp
+padding=3dp</ppt>
+<event><eventItme type="clicki">us(2,"visibility","gone")
+us(687,"visibility","visible")
+t()
+{
+  dht(dh,0,0,-600,0)
+  dh(dh,"duration",300)
+  us(717,"dh",dh)
+  stop(300)
+  ufnsui()
+  {
+  us(717,"visibility","visible")
+  }
+}</eventItme></event>
+</View>
+<View id="686" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="5" did="686" type="CardView">
+<ppt>width=-1
+height=50dp
+layout_margin=10dp
+app_CardcornerRadius=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#ffededed
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="46" did="7" type="LinearLayout">
+<ppt>width=50dp
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">us(20,"visibility","visible")
+dhas(dh, 20, "translationY", -60, 0, -30, -10, 0)
+dh(dh, "duration", 500)
+dh(dh, "start")</eventItme></event>
+</View>
+<View id="47" did="46" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@a71ddd9d3c9.png</ppt>
+<event></event>
+</View>
+<View id="48" did="46" type="ImageView">
+<ppt>width=12dp
+height=12dp
+src=@web_search_next_keyword.png
+layout_marginTop=1dp</ppt>
+<event></event>
+</View>
+<View id="383" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="10" did="383" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入歌曲sss.名称
+textSize=16sp
+background=#ffededed</ppt>
+<event></event>
+</View>
+<View id="382" did="7" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@shortcut_search.png</ppt>
+<event><eventItme type="clicki">ug(10,"text",gg)
+//ug(a2.10,"text",gg)
+us(27,"refreshing","true")
+f(gg=="")
+{
+  t()
+{
+  s wz="https://music.liuzhijin.cn"
+  ss("input="热门"&filter=name&type="+sss.hhj+"&page=1",vv)
+  s c="x-requested-with=XMLHttpRequest"
+  s s="Hm_lpvt_50027a9c88cdde04a70f5272a88a10fa=1587636659"
+  hs(wz,vv,"utf-8",null,true,c,hh)
+  json(hh,jo)
+  json(jo, "list", "data", list)
+json(list, "size", size)
+s sl=-1
+for(sl;size)
+{
+s+(1,sl)
+json(list, "data", sl, item)
+json(item,"get","title",歌名)
+json(item,"get","author",歌手)
+json(item,"get","url",地址)
+json(item,"get","pic",图片)
+f(歌名==null)
+  {
+  }
+else
+{
+  ula(aa,7=歌名,8=歌手,6=地址,11=图片,10=图片)
+}
+
+}
+ufnsui()
+{
+uls(28,aa,"音乐lb.iyu")
+us(27,"refreshing","false")
+}
+  }
+}
+else
+{
+t()
+{
+  s wz="https://music.liuzhijin.cn"
+  ss("input="+gg+"&filter=name&type="+sss.hhj+"&page=1",vv)
+  s c="x-requested-with=XMLHttpRequest"
+  s s="Hm_lpvt_50027a9c88cdde04a70f5272a88a10fa=1587636659"
+  hs(wz,vv,"utf-8",null,true,c,hh)
+  json(hh,jo)
+  json(jo, "list", "data", list)
+json(list, "size", size)
+s sl=-1
+for(sl;size)
+{
+s+(1,sl)
+json(list, "data", sl, item)
+json(item,"get","title",歌名)
+json(item,"get","author",歌手)
+json(item,"get","url",地址)
+json(item,"get","pic",图片)
+f(歌名==null)
+  {
+  }
+else
+{
+  ula(aa,7=歌名,8=歌手,6=地址,11=图片,10=图片)
+}
+}
+ufnsui()
+{
+uls(28,aa,"音乐lb.iyu")
+us(27,"refreshing","false")
+}
+  }
+}</eventItme></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="687" did="680" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+gravity=center_vertical
+background=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="688" did="687" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="693" did="687" type="TextView">
+<ppt>width=-2
+height=-1
+text=音乐集市
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="689" did="687" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="691" did="687" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@shortcut_search.png
+layout_marginLeft=10dp
+padding=3dp
+layout_marginRight=10dp
+BackgroundRipple=#ff888888</ppt>
+<event><eventItme type="clicki">us(687,"visibility","gone")
+us(2,"visibility","visible")
+dha(dh,false,true)
+dh(dh,"duration",500)
+us(2,"dh",dh)
+us(717,"visibility","gone")</eventItme></event>
+</View>
+<View id="694" did="680" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#8fe0e0e0</ppt>
+<event></event>
+</View>
+<View id="1" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="13" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="19" did="13" type="HorizontalScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=网易
+layout_margin=10dp
+padding=10dp
+background=#ff0fa0f4</ppt>
+<event><eventItme type="clicki">us(21,"background","#ff0fa0f4")
+us(22,"background","#ffededed")
+us(23,"background","#ffededed")
+sss hhj="netease"
+us(47,"src","@a71ddd9d3c9.png")
+us(20,"visibility","gone")</eventItme></event>
+</View>
+<View id="22" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=腾讯音乐
+layout_margin=10dp
+padding=10dp
+background=#ffededed</ppt>
+<event><eventItme type="clicki">us(21,"background","#ffededed")
+us(22,"background","#ff0fa0f4")
+us(23,"background","#ffededed")
+sss hhj="qq"
+us(47,"src","@af05bbf8a19.png")
+us(20,"visibility","gone")</eventItme></event>
+</View>
+<View id="24" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="27" did="25" type="SwipeRefreshLayout">
+<ppt>width=-1
+height=-1
+Refreshing=true</ppt>
+<event><eventItme type="onrefresh">fn zyy.zymusic()</eventItme></event>
+</View>
+<View id="28" did="27" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="onscrolled">f(st_vT==0)
+{
+endcode
+}
+//列表可见项目为0时停止执行
+f(ss.gdyy=="true")
+{
+endcode
+}
+//判断是否以提醒过
+s(st_bT-st_vT,kjyy)
+f(st_fM==kjyy)
+{
+//以滚动到底部需要执行的事件
+//酷盒作者QQ582963796
+  ss gdyy="true"
+  us(a2.1,"layout_marginbottom","60dp")
+}
+
+/.
+//判断是否已获取过滑动之前的值
+f(ss.zt==null)
+{
+//未获取过
+ss a1=st_fM
+ss zt="true"
+}
+else
+{
+//设置状态为未获取过
+ss zt
+//获取再次滑动的值
+ss a2=st_fM
+//判断第一和第二次是否相等
+f(ss.a1==ss.a2)
+{
+//相等不执行下面事件
+endcode
+}
+f(ss.a2&gt;ss.a1)
+{
+//列表向下滚动执行的事件
+//us(a2.1,"layout_marginbottom","60dp")
+}
+else
+{
+//列表向上滚动执行的事件
+us(a2.1,"layout_marginbottom","0dp")
+}
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+
+fr("$幻隐网络/配置/yx.txt",yg)
+us(687,"background",yg)
+
+fn 着色.控件着色(700,"#FFF91944")
+fn 着色.控件着色(704,"#FFFAAF13")
+fn 着色.控件着色(709,"#FF3D5AFE")
+fn 着色.控件着色(713,"#FF04C754")
+fn 着色.控件着色(40,"#000000")
+sss hhj="netease"
+fn zyy.zymusic()
+</eventItme><eventItme type="restart">bfms(sss.mp,"cn",ll)
+fn a.time(ll)
+sss kj=sss.time
+ufnsui()
+{
+  ss(sss.kj+"/"+sss.kkl,sss.llo)
+  us(-1,"text",sss.llo)
+  us(-1,"max",l)
+  us(40,"progress",ll)
+}
+us(36,"text",sss.cc3)
+us(37,"text",sss.name)</eventItme><eventItme type="sensor">bfms(sss.mp,"cn",ll)
+fn a.time(ll)
+sss kj=sss.time
+ufnsui()
+{
+  ss(sss.kj+"/"+sss.kkl,sss.llo)
+  us(-1,"text",sss.llo)
+  us(-1,"max",l)
+  us(40,"progress",ll)
+}
+us(36,"text",sss.cc3)
+us(37,"text",sss.name)</eventItme></UIEventset>

@@ -1,0 +1,73 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="20" did="18" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="21" did="18" type="TextView">
+<ppt>width=-2
+height=-1
+text=限时活动
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="ViewPager">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+addv(9,"cj.iyu",c)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(18,"background",yg)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">
+fr("$幻隐网络/配置/yx.txt",yg)
+us(cj.14,"background",yg)
+us(cj.18,"background",yg)
+us(cj.10,"background",yg)</eventItme></UIEventset>

@@ -1,0 +1,169 @@
+<View id="36" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=交易记录
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="29" did="1" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=vertical
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="33" did="1" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@6.26/business_icon_loading_fail.v
+layout_gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="34" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=您未在本App消费
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-1
+height=20dp
+text=
+background=@yybf.v</ppt>
+<event>
+</event>
+</View>
+<View id="23" did="3" type="ListView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="31" did="0" type="TextView">
+<ppt>width=-1
+height=-2
+//text=$幻隐网络/记录/xf.txt
+text=$幻隐网络/记录/xf.txt
+//text=$幻隐网络/记录/xf.txt
+//text=$幻隐网络/记录/xf.txt
+hint=读取
+textsize=12dp
+singleline=true
+gravity=center_horizontal
+textcolor=#ff000000
+typeface=serif
+background=#ffffffff
+textisselectable=true
+textcolorhighlight=#b5b5b5b5
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=36
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+gvs(33,a)
+call(null,"mjava","图片跳转.set",a)
+fe("$幻隐网络/记录/xf.txt",wj)
+f(wj=="false")
+{
+us(23,"visibility","gone")
+}
+else
+{
+us(33,"visibility","gone")
+us(34,"visibility","gone")
+ug(31,"text",dizhi)
+fr(dizhi,wj)
+sj(wj,"【",null,wj)
+sl(wj,"【",sz)
+for(a;sz)
+{
+sj(a,null,"】",bt)
+sj(a,"】",null,nr)
+ula(sj,1=null,4="",4=bt,5=nr)
+}
+uls(23,sj,"ymlb.iyu",-2,-2)
+}
+
+us(6,"background",颜色)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">java(窗口,activity,"android.app.Activity.getWindow")
+java(null,窗口,"android.view.Window.addFlags","int",8192)
+</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+call(null,"mjava","图片跳转.end")
+}</eventItme><eventItme type="menu">case 删除内容|@ui/Ljt.v|1|1:
+fd("$幻隐网络/记录/xf.txt",wj)
+f(wj==true)
+{
+s stop = 2000
+s text="删除成功！"
+fn color.ColorToast(text,stop)
+us(9,"visibility","visible")
+us(10,"visibility","visible")
+us(13,"visibility","gone")
+call(null,"mjava","图片跳转.end")
+end()
+}
+else
+{
+s stop = 2000
+s text="删除失败！"
+fn color.ColorToast(text,stop)
+}
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

@@ -1,0 +1,305 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="150" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=center</ppt>
+<event></event>
+</View>
+<View id="151" did="150" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="152" did="150" type="TextView">
+<ppt>width=-2
+height=-1
+text=更多功能
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="153" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-1
+height=5dp
+text=
+background=@7b81c178445.png</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="RelativeLayout">
+<ppt>width=60dp
+height=-1
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="15" did="6" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=工具
+textSize=14sp
+textColor=#2196F3
+textStyle=bold
+layout_marginLeft=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical
+orientation=horizontal
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="21" did="19" type="CardView">
+<ppt>width=140dp
+height=40dp
+layout_marginLeft=15dp
+app_CardElevation=0dp
+app_CardcornerRadius=20dp
+app_CardBackgroundColor=#EEEEEE
+layout_marginRight=8dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+BackgroundRipple=#BDBDBD</ppt>
+<event><eventItme type="clicki">
+uigo("骚色影院.iyu")</eventItme></event>
+</View>
+<View id="23" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无</ppt>
+<event></event>
+</View>
+<View id="24" did="19" type="CardView">
+<ppt>width=100dp
+height=40dp
+layout_marginLeft=15dp
+app_CardElevation=0dp
+app_CardcornerRadius=20dp
+app_CardBackgroundColor=#EEEEEE
+layout_marginRight=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+BackgroundRipple=#BDBDBD</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无</ppt>
+<event></event>
+</View>
+<View id="98" did="19" type="CardView">
+<ppt>width=100dp
+height=40dp
+layout_marginLeft=15dp
+app_CardElevation=0dp
+app_CardcornerRadius=20dp
+app_CardBackgroundColor=#EEEEEE
+layout_marginRight=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+BackgroundRipple=#BDBDBD</ppt>
+<event></event>
+</View>
+<View id="100" did="99" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无</ppt>
+<event></event>
+</View>
+<View id="27" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical
+orientation=horizontal
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="CardView">
+<ppt>width=180dp
+height=40dp
+layout_marginLeft=15dp
+app_CardElevation=0dp
+app_CardcornerRadius=20dp
+app_CardBackgroundColor=#EEEEEE
+layout_marginRight=8dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+BackgroundRipple=#BDBDBD</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无
+//textColor=#2196F3
+</ppt>
+<event></event>
+</View>
+<View id="31" did="27" type="CardView">
+<ppt>width=100dp
+height=40dp
+layout_marginLeft=15dp
+app_CardElevation=0dp
+app_CardcornerRadius=20dp
+app_CardBackgroundColor=#EEEEEE
+layout_marginRight=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+BackgroundRipple=#BDBDBD</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无
+//textColor=#2196F3
+</ppt>
+<event></event>
+</View>
+<View id="133" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical
+orientation=horizontal
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="134" did="133" type="CardView">
+<ppt>width=140dp
+height=40dp
+layout_marginLeft=15dp
+app_CardElevation=0dp
+app_CardcornerRadius=20dp
+app_CardBackgroundColor=#EEEEEE
+layout_marginRight=8dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="135" did="134" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+BackgroundRipple=#BDBDBD</ppt>
+<event></event>
+</View>
+<View id="136" did="135" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无</ppt>
+<event></event>
+</View>
+<View id="137" did="133" type="CardView">
+<ppt>width=100dp
+height=40dp
+layout_marginLeft=15dp
+app_CardElevation=0dp
+app_CardcornerRadius=20dp
+app_CardBackgroundColor=#EEEEEE
+layout_marginRight=15dp
+</ppt>
+<event></event>
+</View>
+<View id="138" did="137" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+BackgroundRipple=#BDBDBD</ppt>
+<event></event>
+</View>
+<View id="139" did="138" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(150,"background",yg)
+
+/.
+
+</eventItme></UIEventset>

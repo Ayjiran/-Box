@@ -1,0 +1,109 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="28" did="2" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">s a = null
+s b = "提示"
+s c = "是否保存修改内容?"
+s d = "保存并退出"
+s e = "退出"
+
+//三个按钮
+//输入图标，输入标题，输入内容，输入按钮sss.名称，输入按钮sss.名称，输入按钮sss.名称，输入是否点击弹窗以外界面是否关闭弹窗，输入赋值变量
+utw(a, b, c, d, e, false, v)
+{
+  ug(26, "text", config)
+  fw("$data/app/appConfig.xlt", config)
+  end()
+}
+else
+{
+  end()
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="30" did="28" type="TextView">
+<ppt>width=-2
+height=-1
+text=高级配置
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+ellipsize=marquee
+//文本超长显示方式 跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数 无限∞重复
+focusableintouchmode=true
+//获取焦点
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="27" did="2" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="26" did="2" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=配置文件
+gravity=top
+layout_margin=10dp
+textSize=16dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">// 状态栏白底黑字
+uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)</eventItme><eventItme type="loadingComplete">fr("$data/app/appConfig.xlt", config)
+us(26, "text", config)</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+  s a = null
+s b = "提示"
+s c = "是否保存修改内容?"
+s d = "保存并退出"
+s e = "退出"
+
+//三个按钮
+//输入图标，输入标题，输入内容，输入按钮sss.名称，输入按钮sss.名称，输入按钮sss.名称，输入是否点击弹窗以外界面是否关闭弹窗，输入赋值变量
+utw(a, b, c, d, e, false, v)
+{
+  ug(26, "text", config)
+  fw("$data/app/appConfig.xlt", config)
+  end()
+}
+else
+{
+  end()
+}
+}</eventItme></UIEventset>

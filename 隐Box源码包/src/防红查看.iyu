@@ -1,0 +1,547 @@
+<View id="30" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=查看详情
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="33" did="0" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=#ffe3edff
+orientation=horizontal
+gravity=center|left</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.18/icon_popup_great.v
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="35" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：不可续费，长期使用直接按需求充值制作.
+textColor=#1E88E5
+textSize=14sp
+focusableintouchmode=true
+marqueerepeatlimit=marquee_forever
+ellipsize=marquee
+singleLine=true
+layout_marginLeft=10dp
+</ppt>
+<event></event>
+</View>
+<View id="76" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="32" did="77" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="64" did="32" type="TextView">
+<ppt>width=-2
+height=-2
+text=二维码活码：
+layout_marginLeft=10dp
+layout_marginTop=10dp
+textSize=15sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="40" did="32" type="ImageView">
+<ppt>width=200dp
+height=200dp
+src=
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="48" did="32" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=2dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="38" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=成品链接(联系客服可修改)
+layout_margin=10dp
+textSize=15sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="41" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=http://www.ayjrw.cn/
+textSize=12sp
+textColor=#7e000000
+layout_marginLeft=10dp
+layout_marginBottom=10dp
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="54" did="32" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=2dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="55" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="42" did="55" type="TextView">
+<ppt>width=-2
+height=-2
+text=指向网址
+layout_margin=10dp
+textSize=15sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="44" did="55" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_marginleft=10dp
+layout_marginright=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=
+singleLine=true
+hint=请输入您的链接
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+textCursorDrawable=#ff00b5ff
+background=#12000000
+</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="46" did="44" type="TextView">
+<ppt>width=-1
+height=1
+text=
+ut_alignparentbottom=true
+background=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="78" did="32" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=2dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="79" did="78" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="80" did="79" type="TextView">
+<ppt>width=-2
+height=-2
+text=统计编码
+layout_margin=10dp
+textSize=15sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="81" did="79" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_marginleft=10dp
+layout_marginright=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="82" did="81" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=
+singleLine=true
+hint=百度统计唯一参数
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+textCursorDrawable=#ff00b5ff
+background=#12000000
+</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="83" did="81" type="TextView">
+<ppt>width=-1
+height=1
+text=
+ut_alignparentbottom=true
+background=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="50" did="32" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=2dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="51" did="50" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="47" did="51" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用方式
+layout_margin=10dp
+textSize=15sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="59" did="51" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+layout_marginBottom=10dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginLeft=10dp
+</ppt>
+<event><eventItme type="clicki">sss 防红类型="zk"
+us(60,"src","@setting_chk_blue.v")
+us(62,"src","@setting_chk_gray.v")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="61" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=嵌套直开
+textSize=13sp
+textColor=#ff000000
+textIsSelectable=true
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="62" did="59" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginLeft=20dp
+</ppt>
+<event><eventItme type="clicki">sss 防红类型="tz"
+us(62,"src","@setting_chk_blue.v")
+us(60,"src","@setting_chk_gray.v")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="63" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=提示跳转
+textSize=13sp
+textColor=#ff000000
+textIsSelectable=true
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="65" did="32" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=2dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="66" did="65" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="69" did="66" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="67" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=生成时间
+layout_margin=10dp
+textSize=15sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="68" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=2015年5月10日
+textSize=13sp
+textColor=#7e000000
+layout_marginLeft=10dp
+layout_marginBottom=10dp
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="70" did="66" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="71" did="70" type="TextView">
+<ppt>width=-2
+height=-2
+text=到期时间
+layout_margin=10dp
+textSize=15sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="72" did="70" type="TextView">
+<ppt>width=-2
+height=-2
+text=****年**月**日
+textSize=13sp
+textColor=#7e000000
+layout_marginLeft=10dp
+layout_marginBottom=10dp
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="73" did="32" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="74" did="73" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="Button">
+<ppt>width=-1
+height=38dp
+text=修改内容
+background=#ff00b2ff
+typeface=serif
+textsize=13dp
+textcolor=#ffffff
+</ppt>
+<event><eventItme type="clicki">utw(null,"","修改中……","",true,vf)
+{
+}
+ug(75,"text",dql)
+ug(45,"text",链接)
+ug(82,"text",百度统计)
+f(dql?"到期")
+{
+  s stop = 2000
+  s text="产品已经到期了"
+  fn color.ColorToast(text,stop)
+  endutw(vf)
+}
+else
+{
+  t()
+  {
+    ss(sss.api+"Box/fhxg.php?id="+sss.防红id+"&lx="+sss.防红类型+"&time="+sss.防红制作时间+"&timejs="+sss.防红到期时间+"&url="+链接+"&baidu="+百度统计,修改)
+    hs(修改,结果)
+    ufnsui()
+    {
+      f(结果?"成功")
+      {
+        s stop = 2000
+        s text="修改成功"
+        fn color.ColorToast(text,stop)
+        sss 防红修改="成功"
+        endutw(vf)
+      }
+      else
+      {
+        s stop = 2000
+        s text="修改失败，建议客服"
+        fn color.ColorToast(text,stop)
+        endutw(vf)
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=30
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(76,a)
+gvs(77,b)
+javanew(mBs,mB,"Context",activity)
+urvw(77)
+nvw(mBs,76)
+nvw(b,mBs)
+fn 着色.控件着色(17,颜色)
+fn 着色.控件着色(24,颜色)
+fn 着色.控件着色(6,颜色)
+fn 着色.控件着色(5,颜色)
+ 
+ngde("4","30","#00000000",颜色,背景)
+us(5,"background",背景)
+
+
+/.
+
+</eventItme>
+
+<eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">f(sss.防红类型?"直")
+{
+  sss 防红类型="zk"
+  us(60,"src","@setting_chk_blue.v")
+}
+else
+{
+  sss 防红类型="tz"
+  us(62,"src","@setting_chk_blue.v")
+}
+us(82,"text",sss.百度统计)
+ss(sss.fhapi+"fh.php?id="+sss.防红id,最终)
+sran(1000,9999,变换)
+ss("fh"+变换,变换)
+sr(最终,"随机",变换,最终)
+us(41,"text",最终)
+us(45,"text",sss.防红链接)
+t()
+{
+  uqr(最终,1000,b)
+  ufnsui()
+  {
+    us(40,"src",b)
+  }
+}
+ssg(sss.防红制作时间,0,4,jxd)
+ssg(sss.防红制作时间,4,6,jxe)
+ssg(sss.防红制作时间,6,8,jxf)
+ss(jxd+"年"+jxe+"月"+jxf+"日",kk)
+us(68,"text",kk)
+ssg(sss.防红到期时间,0,4,xd)
+ssg(sss.防红到期时间,4,6,xe)
+ssg(sss.防红到期时间,6,8,xf)
+ss(xd+"年"+xe+"月"+xf+"日",ok)
+us(72,"text",ok)
+time("Y",a)
+time("m",m)
+time("d",D)
+ss(a+m+D,time)
+f(time&gt;sss.防红到期时间)
+{
+  us(75,"background","#42ff0000")
+  us(71,"textcolor","#ffff0000")
+  us(75,"textcolor","#ffff0000")
+  us(72,"textcolor","#ffff0000")
+  us(75,"textstyle","bold")
+  us(75,"text","产品已到期")
+}
+else
+{
+}</eventItme></UIEventset>

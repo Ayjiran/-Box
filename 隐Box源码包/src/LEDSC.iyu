@@ -1,0 +1,425 @@
+<View id="147" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=LED文字
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="148" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="41" did="148" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event>
+</event>
+</View>
+<View id="1" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginleft=15dp
+layout_marginright=15dp
+background=white
+ut_alignbottom=3
+layout_margintop=10dp</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="5" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="119" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=请输入显示的文字(最少5个字)
+textsize=14sp
+textcolor=#ff263039
+layout_marginleft=5dp</ppt>
+<event>
+</event>
+</View>
+<View id="102" did="5" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="120" did="102" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=Wait for link...
+ellipsize=start
+textsize=13sp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+background=#67c6c6c6
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="103" did="5" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="121" did="103" type="TextView">
+<ppt>width=-2
+height=-2
+text=请输入字体的大小(默认130sp)
+textsize=14sp
+layout_marginleft=5dp
+textcolor=#ff263039</ppt>
+<event>
+</event>
+</View>
+<View id="104" did="5" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="122" did="104" type="EditText">
+<ppt>width=-1
+height=-2
+text=130sp
+ellipsize=start
+textsize=13sp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+background=#67c6c6c6
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="108" did="5" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="126" did="108" type="TextView">
+<ppt>width=-2
+height=-2
+text=请输入字体的颜色
+textsize=14sp
+layout_marginleft=5dp
+textcolor=#ff263039</ppt>
+<event>
+</event>
+</View>
+<View id="130" did="5" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="134" did="130" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=长按本编辑框会弹出窗口选择颜色
+ellipsize=start
+textsize=13sp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+background=#67c6c6c6
+gravity=center</ppt>
+<event>
+<eventItme type="clicki">loadjar("a.dex",包)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog",类)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog$OnColorChangedListener",事件类)
+javacb(事件,事件类)
+  {
+    sgsz(st_aS,0,颜色值)
+    us(134,"textcolor",颜色值)
+    us(134,"text",颜色值)
+  }
+gvs(134,文本对象)
+java(颜色列表,文本对象,"android.widget.TextView.getTextColors")
+java(初始颜色,颜色列表,"android.content.res.ColorStateList.getDefaultColor")
+javanew(控件,类,"Context",activity,"int",初始颜色,"String","标题",事件类,事件)
+javax(null,控件,"android.app.Dialog","show")</eventItme>
+<eventItme type="press">loadjar("a.dex",包)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog",类)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog$OnColorChangedListener",事件类)
+javacb(事件,事件类)
+  {
+    sgsz(st_aS,0,颜色值)
+    us(134,"textcolor",颜色值)
+    us(134,"text",颜色值)
+  }
+gvs(134,文本对象)
+java(颜色列表,文本对象,"android.widget.TextView.getTextColors")
+java(初始颜色,颜色列表,"android.content.res.ColorStateList.getDefaultColor")
+javanew(控件,类,"Context",activity,"int",初始颜色,"String","标题",事件类,事件)
+javax(null,控件,"android.app.Dialog","show")</eventItme>
+</event>
+</View>
+<View id="123" did="5" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="127" did="123" type="TextView">
+<ppt>width=-2
+height=-2
+text=请输入背景颜色(默认黑色)
+textsize=14sp
+layout_marginleft=5dp
+textcolor=#ff263039</ppt>
+<event>
+</event>
+</View>
+<View id="131" did="5" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="135" did="131" type="EditText">
+<ppt>width=-1
+height=-2
+text=#000000
+ellipsize=start
+textsize=13sp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+background=#67c6c6c6
+gravity=center</ppt>
+<event>
+<eventItme type="press">t()
+  {
+    hs("http://www.tencentr.com/gx/yl.php",code)
+    sj(code,"@","@",hao)
+    ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+hao+"&card_type=group&source=qrcode",joinqq)
+    ufnsui()
+      {
+        sit(a,"action", "android.intent.action.VIEW")
+        sit(a,"data",joinqq)
+        uit(a, "chooser", "打开QQ")
+      }
+  }</eventItme>
+</event>
+</View>
+<View id="124" did="5" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="128" did="124" type="TextView">
+<ppt>width=-2
+height=-2
+text=请输入文字间距（填写小数,默认1.0)
+textsize=14sp
+layout_marginleft=5dp
+textcolor=#ff263039</ppt>
+<event>
+</event>
+</View>
+<View id="132" did="5" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="136" did="132" type="EditText">
+<ppt>width=-1
+height=-2
+text=1.0
+ellipsize=start
+textsize=13sp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+background=#67c6c6c6
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="125" did="5" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="129" did="125" type="TextView">
+<ppt>width=-2
+height=-2
+text=请输入文字跑马灯速度（默认:5)
+textsize=14sp
+layout_marginleft=5dp
+textcolor=#ff263039</ppt>
+<event>
+</event>
+</View>
+<View id="133" did="5" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="137" did="133" type="EditText">
+<ppt>width=-1
+height=-2
+text=5
+ellipsize=start
+textsize=13sp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+background=#67c6c6c6
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="138" did="5" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+gravity=center
+layout_marginTop=15dp
+layout_marginBottom=180dp</ppt>
+<event>
+</event>
+</View>
+<View id="139" did="138" type="Button">
+<ppt>width=200dp
+height=40dp
+text=开始制作
+textsize=12sp
+textcolor=#f8f8f8f8
+background=#ff00bfff
+</ppt>
+<event>
+<eventItme type="clicki">ug(120,"text",sss.文字)
+ug(134,"text",sss.文字颜色)
+ug(122,"text",sss.文字大小)
+ug(135,"text",sss.背景颜色)
+ug(136,"text",sss.文字间距)
+ug(137,"text",sss.文字速度)
+f(sss.文字==""||sss.文字颜色==""||sss.文字大小==""||sss.背景颜色==""||sss.文字间距==""||sss.文字速度=="")
+  {
+    tw("请先填写完整")
+  }
+else
+  {
+    uigo("LED.iyu")
+  }
+   fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme>
+
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+ 
+
+s id=147
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(143,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(120,"background",背景)
+ngde("4","30","#00000000",颜色,背景)
+us(122,"background",背景)
+ngde("4","30","#00000000",颜色,背景)
+us(134,"background",背景)
+ngde("4","30","#00000000",颜色,背景)
+us(135,"background",背景)
+ngde("4","30","#00000000",颜色,背景)
+us(136,"background",背景)
+ngde("4","30","#00000000",颜色,背景)
+us(137,"background",背景)
+fn 着色.控件着色(139,颜色)
+/.
+
+</eventItme>
+<eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(148,a)
+gvs(41,b)
+javanew(mBs,mB,"Context",activity)
+urvw(41)
+nvw(mBs,148)
+nvw(b,mBs)</eventItme></UIEventset>

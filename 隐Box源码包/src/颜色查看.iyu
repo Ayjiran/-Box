@@ -1,0 +1,478 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+backgroundcolor=#ffffff</ppt>
+<event><eventItme type="touchmonitor">[true]
+
+
+
+
+f(st_eA==0)
+{
+swh("pxw",wf)
+s/(wf,5,hvop)
+syso(st_eX)
+sss x=st_eX
+s+(sss.x,hvop,po)
+sss po=po
+}
+f(st_eA==1)
+{
+
+f(st_eX&gt;sss.po)
+{
+end()
+}
+
+}</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="5" did="2" type="TextView">
+<ppt>width=-2
+height=-1
+text=颜色查看
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="24" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="ImageView">
+<ppt>width=-1
+height=3dp
+src=@shadow_bottom.v
+scaletype=fitxy</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=200dp
+height=200dp
+orientation=horizontal
+layout_margintop=10dp
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+ug(16,"text",a1)
+ug(17,"text",a2)
+ug(18,"text",a3)
+ug(19,"text",a4)
+
+
+
+ss("#"+a1+a2+a3+a4,uo)
+sxb(uo)
+ss("已复制:"+uo,pk)
+tw(pk)</eventItme><eventItme type="touchmonitor">[true]
+
+
+
+
+f(st_eA==0)
+{
+swh("pxw",wf)
+s/(wf,5,hvop)
+syso(st_eX)
+sss x=st_eX
+s+(sss.x,hvop,po)
+sss po=po
+}
+f(st_eA==1)
+{
+
+f(st_eX&gt;sss.po)
+{
+end()
+}
+
+}</eventItme></event>
+</View>
+<View id="21" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=#
+textcolor=#ffffff</ppt>
+<event></event>
+</View>
+<View id="16" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=ff
+textcolor=#ffffff</ppt>
+<event><eventItme type="aftertextchanged">
+ug(16,"text",a1)
+ug(17,"text",a2)
+ug(18,"text",a3)
+ug(19,"text",a4)
+ss("#"+a1+a2+a3+a4,uo)
+ngde(0,360,uo,uo,gc)
+us(6,"background",gc)
+us(22,"background",gc)
+ngde(0,360,"#ffffff",uo,gg)
+us(23,"background",gg)
+us(2,"backgroundcolor",uo)
+uycl(uo,true)
+syso(uo)</eventItme></event>
+</View>
+<View id="17" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=00
+textcolor=#ffffff</ppt>
+<event><eventItme type="aftertextchanged">
+ug(16,"text",a1)
+ug(17,"text",a2)
+ug(18,"text",a3)
+ug(19,"text",a4)
+ss("#"+a1+a2+a3+a4,uo)
+ngde(0,360,uo,uo,gc)
+us(6,"background",gc)
+us(22,"background",gc)
+ngde(3,360,"#ffffff",uo,gg)
+us(23,"background",gg)
+us(2,"backgroundcolor",uo)
+uycl(uo,true)
+syso(uo)</eventItme><eventItme type="onstoptrackingtouch">
+ug(16,"text",a1)
+ug(17,"text",a2)
+ug(18,"text",a3)
+ug(19,"text",a4)
+ss("#"+a1+a2+a3+a4,uo)
+
+fw("$ztys.txt",uo)</eventItme></event>
+</View>
+<View id="18" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=00
+textcolor=#ffffff</ppt>
+<event><eventItme type="aftertextchanged">
+ug(16,"text",a1)
+ug(17,"text",a2)
+ug(18,"text",a3)
+ug(19,"text",a4)
+ss("#"+a1+a2+a3+a4,uo)
+ngde(0,360,uo,uo,gc)
+us(6,"background",gc)
+us(22,"background",gc)
+ngde(3,360,"#ffffff",uo,gg)
+us(23,"background",gg)
+us(2,"backgroundcolor",uo)
+uycl(uo,true)
+syso(uo)</eventItme><eventItme type="onstoptrackingtouch">
+ug(16,"text",a1)
+ug(17,"text",a2)
+ug(18,"text",a3)
+ug(19,"text",a4)
+ss("#"+a1+a2+a3+a4,uo)
+
+fw("$ztys.txt",uo)</eventItme></event>
+</View>
+<View id="19" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=00
+textcolor=#ffffff</ppt>
+<event><eventItme type="aftertextchanged">
+ug(16,"text",a1)
+ug(17,"text",a2)
+ug(18,"text",a3)
+ug(19,"text",a4)
+ss("#"+a1+a2+a3+a4,uo)
+ngde(0,360,uo,uo,gc)
+us(6,"background",gc)
+us(22,"background",gc)
+ngde(3,360,"#ffffff",uo,gg)
+us(23,"background",gg)
+us(2,"backgroundcolor",uo)
+uycl(uo,true)
+syso(uo)</eventItme><eventItme type="onstoptrackingtouch">
+ug(16,"text",a1)
+ug(17,"text",a2)
+ug(18,"text",a3)
+ug(19,"text",a4)
+ss("#"+a1+a2+a3+a4,uo)
+
+fw("$ztys.txt",uo)</eventItme></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_margintop=15dp
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=Alpha/透明度</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_margintop=10dp
+progress=100</ppt>
+<event><eventItme type="onprogresschanged2">
+f(st_nS&lt;10)
+{
+ssg(qp,1,3,x)
+ss("0"+st_nS,ch)
+us(16,"text",ch)
+
+}
+else
+{
+f(st_nS==100)
+{
+us(16,"text","ff")
+
+
+
+}
+else
+{
+us(16,"text",st_nS)
+
+
+
+
+}
+
+}</eventItme></event>
+</View>
+<View id="10" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=Red/红色:</ppt>
+<event></event>
+</View>
+<View id="11" did="7" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_margintop=10dp</ppt>
+<event><eventItme type="onprogresschanged2">
+f(st_nS&lt;10)
+{
+ssg(qp,1,3,x)
+ss("0"+st_nS,ch)
+us(17,"text",ch)
+
+}
+else
+{
+f(st_nS==100)
+{
+us(17,"text","ff")
+}
+else
+{
+us(17,"text",st_nS)
+}
+
+}</eventItme></event>
+</View>
+<View id="12" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=Green/绿色:</ppt>
+<event></event>
+</View>
+<View id="13" did="7" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_margintop=10dp</ppt>
+<event><eventItme type="onprogresschanged2">
+f(st_nS&lt;10)
+{
+ssg(qp,1,3,x)
+ss("0"+st_nS,ch)
+us(18,"text",ch)
+
+}
+else
+{
+f(st_nS==100)
+{
+us(18,"text","ff")
+}
+else
+{
+us(18,"text",st_nS)
+}
+
+}</eventItme></event>
+</View>
+<View id="14" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=Blue/蓝色:</ppt>
+<event></event>
+</View>
+<View id="15" did="7" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_margintop=10dp</ppt>
+<event><eventItme type="onprogresschanged2">
+f(st_nS&lt;10)
+{
+ssg(qp,1,3,x)
+ss("0"+st_nS,ch)
+us(19,"text",ch)
+
+}
+else
+{
+f(st_nS==100)
+{
+us(19,"text","ff")
+}
+else
+{
+us(19,"text",st_nS)
+}
+
+}</eventItme></event>
+</View>
+<View id="23" did="7" type="Button">
+<ppt>width=-1
+height=-2
+text=复制颜色代码
+layout_margintop=10dp
+background=#ff00bfff
+textColor=#ff0a0a0a</ppt>
+<event><eventItme type="clicki">
+
+ug(16,"text",a1)
+ug(17,"text",a2)
+ug(18,"text",a3)
+ug(19,"text",a4)
+
+
+
+ss("#"+a1+a2+a3+a4,uo)
+sxb(uo)
+ss("已复制:"+uo,pk)
+tw(pk)</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+
+s a="w"
+swh(a,w)
+s a="h"
+swh(a,h)
+sn(50/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(2,"height",dx)
+sn(30/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+.us(4,"width",dx)
+sn(30/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+.us(4,"height",dx)
+sn(5/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+.us(4,"layout_marginleft",dx)
+sn(5/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(5,"layout_marginleft",dx)
+sn(3/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(3,"height",dx)
+sn(200/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(6,"width",dx)
+sn(200/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(6,"height",dx)
+sn(10/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(6,"layout_margintop",dx)
+sn(15/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(7,"layout_margintop",dx)
+sn(10/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(7,"padding",dx)
+sn(10/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(9,"layout_margintop",dx)
+sn(10/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(11,"layout_margintop",dx)
+sn(10/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(13,"layout_margintop",dx)
+sn(10/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(15,"layout_margintop",dx)
+sn(10/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(22,"layout_margintop",dx)
+sn(10/707,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(23,"layout_margintop",dx)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

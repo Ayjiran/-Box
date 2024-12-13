@@ -1,0 +1,51 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center_vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="ImageView">
+<ppt>width=30dp
+height=15dp
+src=@toutiao.png
+paddingRight=-30dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=最新新闻
+textSize=16sp
+textColor=#ff000000
+maxLines=2
+ellipsize=end
+layout_weight=1
+textStyle=bold</ppt>
+<event><eventItme type="clicki">ulag(st_vW,4,sss.url)
+uigo("llq.iyu")</eventItme></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本4
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="ImageView">
+<ppt>width=15dp
+height=15dp
+src=@icon_second_arrow_right_night.png</ppt>
+<event></event>
+</View>
+<View id="3" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.5dp
+orientation=vertical
+background=#66e0e0e0
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

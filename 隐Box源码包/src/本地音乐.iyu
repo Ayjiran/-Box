@@ -1,0 +1,142 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-1
+text=本地音乐
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+</ppt>
+<event></event>
+</View>
+<View id="11" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="8" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@6.26/business_icon_loading_fail.v
+layout_gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=检测不到音乐
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="16" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+BackgroundColor=#fff7f7f7
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：音乐读取本地，如删除本地音乐，打开软件则无法播放音乐。
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#ff585858
+textIsSelectable=true
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="15" did="2" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(3,"background",yg)
+loadjar("bdyy.dex",dex)
+cls(dex,"com.Mx.MusicList",a)
+javax(fh,null,a,"getMusicString","Context",activity)
+sl(fh,"&",b)
+for(fh;b)
+{
+  sj(fh,null,"@",d)
+  sj(fh,"@",null,c)
+  f(d==null)
+  {
+  }
+  else
+  {
+    ula(mx,7=c,8=d)
+  }
+}
+uls(15,mx,"本地音乐列表.iyu",-1,-2)
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">ug(15,"count",总共)
+f(总共&gt;"0")
+{
+  us(8,"visibility","gone")
+}
+else
+{
+}</eventItme></UIEventset>

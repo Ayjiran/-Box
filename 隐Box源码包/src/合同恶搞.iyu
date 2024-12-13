@@ -1,0 +1,214 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="46" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=center</ppt>
+<event></event>
+</View>
+<View id="47" did="46" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="48" did="46" type="TextView">
+<ppt>width=-2
+height=-1
+text=合同恶搞
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="49" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="Toolbar">
+<ppt>width=-1
+height=-3
+app_title=恶搞合同
+app_TitleColor=#64B5F6</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="41" did="7" type="CardView">
+<ppt>width=-1
+height=58dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=6dp</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=
+singleline=true
+hint=请输入昵称
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+inputtype=textvisiblepassword
+layout_marginright=55dp
+textCursorDrawable=#ff00aeff
+maxLength=6
+</ppt>
+<event></event>
+</View>
+<View id="43" did="7" type="CardView">
+<ppt>width=-1
+height=58dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=6dp</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=
+singleline=true
+hint=请输入签约金额
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+inputtype=textvisiblepassword
+layout_marginright=55dp
+textCursorDrawable=#ff00aeff
+maxLength=6
+</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="CardView">
+<ppt>width=-1
+height=50dp
+layout_margin=5dp
+app_CardcornerRadius=15dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#64B5F6
+gravity=center</ppt>
+<event><eventItme type="clicki">ug(42,"text",name)
+ug(44,"text",namea)
+utw("", "", "一分钟内未加载成功，请联系作者反馈问题！", true, ss.v)
+{
+}
+t()
+{
+  ss("http://zb.bjtlqx.com/ccc/b57/toutu.php?name="+name+"&namea="+namea,hs)
+  sran(1,9999,yy)
+  ss("幻隐网luo/合同恶搞"+yy+".png",jj)
+  hd(hs,jj,c)
+  ufnsui()
+  {
+    us(45,"src",jj)
+    us(45,"visibility","visible")
+    s text="图片已保存到本地~~"
+    s stop="2000"
+fn color.ColorToast(text,stop)
+    endutw(ss.v)
+  }
+}
+</eventItme></event>
+</View>
+<View id="10" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=立即制作
+textColor=#ffffffff
+textSize=20sp</ppt>
+<event></event>
+</View>
+<View id="39" did="7" type="TextView">
+<ppt>width=-1
+gravity=center
+height=-2
+text=幻隐网络科技-软件隐心制作
+textColor=#ff0000</ppt>
+<event></event>
+</View>
+<View id="40" did="7" type="TextView">
+<ppt>width=-1
+height=-2
+gravity=center
+text=本功能对接网络接口-所以可能随时失效
+textColor=#ff0000
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="34" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="45" did="34" type="ImageView">
+<ppt>width=-1
+height=-1
+src=17301567
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(46,"background",yg)
+us(9,"background",yg)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

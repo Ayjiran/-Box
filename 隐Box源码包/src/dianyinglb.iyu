@@ -1,0 +1,144 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=white
+BackgroundRipple=#E8EAF6
+BackgroundRipple=#ff676767
+</ppt>
+<event><eventItme type="clicki">
+
+ulag(st_vW,5,a)
+ulag(st_vW,2,sss.sqb)
+ss("http://www.okzy.co/"+a,sss.url)
+uigo("dianyingxq.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本2
+ut_toLeftOf=3
+gravity=center_vertical
+paddingLeft=10dp
+textSize=14sp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+ut_alignParentLeft=true
+textColor=#000000</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+ut_below=2
+layout_marginLeft=10dp
+</ppt>
+<event></event>
+</View>
+<View id="3" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本3
+.ut_toLeftOf=4
+gravity=center
+layout_marginLeft=10dp
+textSize=12sp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+visibility=gone
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="4" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=今日推荐
+gravity=center
+layout_marginRight=15dp
+layout_marginLeft=10dp
+textSize=12sp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+textColor=#BDBDBD
+</ppt>
+<event></event>
+</View>
+<View id="5" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本5
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//获取控件对象id1
+/.
+gvs(st_vW,dianyinglb.1,gvs_1)
+//获取控件对象1
+swh("pxw",w)
+dht(dh, w,0,150, 0)
+dh(dh, "duration",450)
+us(gvs_1, "dh", dh)
+./
+
+gvs(st_vW,dianyinglb.3,a)
+ug(a,"text",b)
+ss("(html)"+b,c)
+gvs(st_vW,dianyinglb.4,d)
+us(d,"text",c)
+
+
+
+
+
+/.右往左滑动特效
+swh("pxw",w)
+dht(dh, w,0,150, 0)
+dh(dh, "duration",450)
+us(gvs_1, "dh", dh)
+
+
+/.左往右动画
+swh("pxw",w)
+dht(dh,0,w,10, 0)
+dh(dh, "duration",450)
+us(gvs_1, "dh", dh)
+
+/.列表翻转动画
+dhas(dh,gvs_1, "rotationY", 0,30,60,90,120,150,180,210,240,270,300,330,360)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+
+
+/.列表渐显动画
+dha(dh,true, false)
+dh(dh, "duration", 1000)
+us(gvs_1, "dh", dh)
+
+
+/.由小到大显示
+dhs(dh, 0.4, 2.0, 0.4, 2.0, 1, 0.4, 1, 0.4)
+dh(dh, "duration", 1500)
+us(gvs_1, "dh", dh)
+
+
+./
+
+
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

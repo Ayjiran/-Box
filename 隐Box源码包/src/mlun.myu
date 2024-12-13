@@ -1,0 +1,140 @@
+fn aqe(mid,mzn,jjn,tp)
+sss mid=mid
+syso(mid)
+syso(mzn)
+syso(jjn)
+syso(tp)
+ufnsui()
+{
+
+javanew(ss.tc2,"android.support.design.widget.BottomSheetDialog","Context",activity)
+
+nvw(-1,null,"线性布局","width=-1\nheight=-1\norientation=vertical\nbackgroundcolor=0",载体)
+
+
+addv(载体,"jjj.iyu")
+
+swh("pxh",h)
+
+gvs(载体,jjj.1,id1)
+
+//列表
+gvs(载体,jjj.10,对象)
+//浏览器
+gvs(载体,jjj.4,id4)
+//名字
+gvs(载体,jjj.6,id6)
+//简介
+gvs(载体,jjj.7,id7)
+
+//加载中
+gvs(载体,jjj.13,id13)
+
+
+gvs(载体,jjj.17,id17)
+
+us(id1,"height",h)
+
+us(id6,"text",mzn)
+
+us(id7,"text",jjn)
+
+fr("@tp.txt",tpp)
+sr(tpp,"β",tp,c)
+s d = "utf-8"
+s e = "text/html"
+us(id4, "url", c, d, e, f)
+//圆角
+ngde(1,25,"#ffffff","#00000000",m)
+
+
+
+us(id1,"background",m)
+
+t()
+{
+ ss("https://api.imjad.cn/qqfm/v1/?type=show&id="+mid,hss)
+ 
+  hs(hss,a)
+  
+  
+  f(a?"-10")
+  {
+   ufnsui()
+   {
+    
+s stop = 2000
+s text="暂无版权,无法播放"
+fn color.ColorToast(text,stop)
+   }
+  }
+ else
+ {
+ 
+ sl(a,"\,",a)
+s jss=0
+for(cc;a)
+{
+sj(cc,"\"","\"",idd)
+syso(idd)
+s+(1,jss)
+ss("第"+jss+"集",jjd)
+
+  ula(ll,1=null,2=jjd,-1=idd)
+}
+ufnsui()
+{
+
+ uls(对象,ll,"jjll.iyu",-1,-2)
+
+cls("androidx.recyclerview.widget.RecyclerView",列表类)
+
+cls("android.support.v7.widget.GridLayoutManager",布局管理类)
+
+javanew(布局,布局管理类,"Context",activity,"int",4)
+
+javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+
+}
+
+}
+ufnsui()
+{
+  us(id13,"visibility","gone")
+}
+}
+
+
+
+
+
+
+
+//修改弹窗关闭事件
+ssj(id17,"clicki")
+{
+java(null,ss.tc2,"android.app.Dialog.dismiss")
+}
+java(null,ss.tc2,"android.app.Dialog.setContentView","android.view.View",载体)
+java(null,ss.tc2,"android.app.Dialog.setCancelable","boolean",true)
+java(null,ss.tc2,"android.app.Dialog.setCanceledOnTouchOutside","boolean",true)
+java(delegate,ss.tc2,"com.google.android.material.bottomsheet.BottomSheetDialog")
+javags(id,null,"android.support.design.R$id","design_bottom_sheet")
+java(弹窗根控件,delegate,"android.support.v7.app.AppCompatDelegate.findViewById","int",id)
+us(弹窗根控件,"backgroundcolor",0)
+java(null,ss.tc2,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+{
+java(null,ss.tc2,"android.app.Dialog.dismiss")
+}
+java(null,ss.tc2,"android.app.Dialog.show")
+javags(behavior,ss.tc2,"android.support.design.widget.BottomSheetDialog","mBehavior")
+java(null,behavior,"android.support.design.widget.BottomSheetBehavior.setState","int",3)
+
+
+}
+
+
+
+
+end fn
+

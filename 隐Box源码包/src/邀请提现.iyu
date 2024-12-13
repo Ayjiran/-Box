@@ -1,0 +1,392 @@
+<View id="26" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffededed
+layout_weight=1
+background=white</ppt>
+<event></event>
+</View>
+<View id="22" did="1" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=现金查询
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+padding=5dp
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="33" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="38" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+text=rmb
+layout_marginTop=5dp
+textSize=15sp
+textStyle=bold
+textColor=#ff0088ff
+gravity=bottom
+layout_gravity=bottom
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="37" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+text=0.50
+layout_marginTop=5dp
+textSize=50sp
+textStyle=bold
+textColor=#ff0088ff</ppt>
+<event></event>
+</View>
+<View id="36" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+text=¥
+layout_marginTop=5dp
+textSize=15sp
+textStyle=bold
+textColor=#ff0088ff
+layout_marginLeft=5dp
+gravity=bottom
+layout_gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="48" did="4" type="TabLayout">
+<ppt>width=-1
+height=-2
+app_tabList=收益记录|提现记录
+app_tabIndicatorWidth=10dp
+tabSelect=0
+app_tabIndicatorColor=#ff008cff
+app_tabIndicatorWidth=14dp
+app_tabIndicatorHeight=3.5dp
+app_tabTextColor=#80000000||#ff008cff
+app_tabMode=0
+layout_gravity=center
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event><eventItme type="ontabselected">/.f(st_tT=="收益记录")
+{
+  us(49,"visibility","gone")
+  us(42,"visibility","visible")
+  ss(sss.api+"Box/dl/"+sss.名称+".php",数据)
+  t()
+  {
+    hs(数据,尝试)
+    sj(尝试,"总收益\"","\"",总收益)
+    sl(尝试,"隐Box",s)
+    for(b;s)
+    {
+      sj(b,"(",")",收支)
+      sj(b,"[","]",内容)
+      sj(b,"{","}",时间)
+      f(收支=="收")
+      {
+        ula(list_zjfb,5=收支,6=内容,15=时间)
+      }
+      else
+      {
+      }
+      
+    }
+    ufnsui()
+    {
+      uls(42,list_zjfb,"提现列表.iyu",-1,-2)
+      us(28,"visibility","gone")
+      f(总收益?".")
+      {
+        us(37,"text",总收益)
+        us(42,"visibility","visible")
+      }
+      else
+      {
+        
+        us(37,"text","0.50")
+      }
+      ug(42,"count",项目)
+      f(项目=="0")
+      {
+        us(44,"visibility","visible")
+        us(45,"visibility","visible")
+      }
+      else
+      {
+        us(44,"visibility","gone")
+        us(45,"visibility","gone")
+      }
+    }
+  }
+}
+else f(st_tT=="提现记录")
+{
+  us(42,"visibility","gone")
+  us(49,"visibility","visible")
+  ss(sss.api+"Box/dl/"+sss.名称+".php",数据)
+  t()
+  {
+    hs(数据,尝试)
+    sj(尝试,"总收益\"","\"",总收益)
+    sl(尝试,"隐Box",s)
+    for(b;s)
+    {
+      sj(b,"(",")",收支)
+      sj(b,"[","]",内容)
+      sj(b,"{","}",时间)
+      f(收支=="支")
+      {
+        ula(list_zjfb,5=收支,6=内容,15=时间)
+      }
+      else
+      {
+      }
+      
+    }
+    ufnsui()
+    {
+      uls(49,list_zjfb,"提现列表.iyu",-1,-2)
+      us(28,"visibility","gone")
+      f(总收益?".")
+      {
+        us(37,"text",总收益)
+        us(42,"visibility","visible")
+      }
+      else
+      {
+        
+        us(37,"text","0.50")
+      }
+      ug(49,"count",项目)
+      f(项目=="0")
+      {
+        us(44,"visibility","visible")
+        us(45,"visibility","visible")
+      }
+      else
+      {
+        us(44,"visibility","gone")
+        us(45,"visibility","gone")
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="39" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="46" did="39" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=5dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="47" did="46" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="42" did="47" type="RecyclerView">
+<ppt>width=-1
+height=-2
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="49" did="47" type="RecyclerView">
+<ppt>width=-1
+height=-2
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="44" did="47" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@6.26/business_icon_loading_fail.v
+layout_gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="45" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=您暂无任何记录\n\n额外赠送您0.5元，满一元可提现
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ff0f0f0f
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="6" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=center
+orientation=horizontal
+background=#ffffffff
+</ppt>
+<event></event>
+</View>
+<View id="21" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=#FFFFFF
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="25" did="21" type="Button">
+<ppt>width=-1
+height=-2
+text=全部提现
+layout_gravity=center
+textColor=#ffffffff
+textSize=13sp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">ug(37,"text",前)
+f(前&gt;"1")
+{
+  s stop = 2000
+    s text="请联系客服一键操作提现！"
+    fn color.ColorToast(text,stop)
+}
+else
+{
+  s stop = 2000
+    s text="金额未满一元，不可提现！"
+    fn color.ColorToast(text,stop)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="41" did="21" type="Button">
+<ppt>width=-1
+height=-2
+text=我的客服
+layout_gravity=center
+textColor=#ffffffff
+textSize=13sp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">hws(sss.微信客服地址)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="28" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginTop=48dp
+background=white
+gravity=center_horizontal
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="GifView">
+<ppt>width=100dp
+height=100dp
+src=@gif.gif
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+fn 着色.控件着色(25,"#ff18a2ff")
+fn 着色.控件着色(41,"#ff18a2ff")
+fn 着色.控件着色(36,"#ff18a2ff")
+fn 着色.控件着色(37,"#ff18a2ff")
+fn 着色.控件着色(38,"#ff18a2ff")
+s id=22
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(22,颜色)
+</eventItme><eventItme type="loadingComplete">ss(sss.api+"Box/dl/"+sss.名称+".php",数据)
+t()
+{
+  hs(数据,尝试)
+  sj(尝试,"总收益\"","\"",总收益)
+  sl(尝试,"隐Box",s)
+  for(b;s)
+  {
+    sj(b,"(",")",收支)
+    sj(b,"[","]",内容)
+    sj(b,"{","}",时间)
+    f(收支=="收")
+    {
+      ula(list_zjfb,5=收支,6=内容,15=时间)
+    }
+    else
+    {
+    }
+    
+  }
+  ufnsui()
+  {
+    uls(42,list_zjfb,"提现列表.iyu",-1,-2)
+    us(28,"visibility","gone")
+    f(总收益?".")
+    {
+      us(37,"text",总收益)
+      us(42,"visibility","visible")
+      us(44,"visibility","gone")
+        us(45,"visibility","gone")
+    }
+    else
+    {
+      us(44,"visibility","visible")
+        us(45,"visibility","visible")
+      us(37,"text","0.50")
+    }
+  }
+}</eventItme></UIEventset>

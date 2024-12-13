@@ -1,0 +1,274 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=through
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="2" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="4" did="5" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardmaxElevation=0</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="16" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ss(sss.jxsp+sss.wjlb,sss.wj)
+uigo("视频.iyu")
+ sss mz=sss.wjlb
+ sss wwz=sss.wj
+fn tool.endubt()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="17" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=打开本文件
+textColor=#ff00b5ff
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="18" did="7" type="TextView">
+<ppt>width=-1
+height=0.3dp
+text=
+background=#332b2b2b</ppt>
+<event></event>
+</View>
+<View id="19" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ss(sss.jxsp+sss.wjlb,sp)
+sran(1,9999,sj)
+ss("幻隐网luo/短视频解析"+sj+".mp4",jx)
+fc(sp,jx,b)
+f(b=="true")
+{
+s text="成功放入"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+s text="失败喽，问题未知"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+fn tool.endubt()</eventItme></event>
+</View>
+<View id="20" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=放到本地文件
+textColor=#ff00b5ff
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="21" did="7" type="TextView">
+<ppt>width=-1
+height=0.3dp
+text=
+background=#332b2b2b</ppt>
+<event></event>
+</View>
+<View id="22" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center
+visibility=gone</ppt>
+<event><eventItme type="clicki">sj(sss.wu,"文件备份/",null,kk)
+ss("%"+kk,路径)
+fc(sss.wu,路径,状态)
+f(状态=="true")
+{
+s text="复制成功"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+  else
+  {
+    s text="复制失败"
+s stop = 2000
+fn color.ColorToast(text,stop)
+  }
+fn tool.endubt()</eventItme></event>
+</View>
+<View id="23" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=复制到根目录
+textColor=#ff111111
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="24" did="7" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#332b2b2b
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="26" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="press">ss(sss.jxsp+sss.wjlb,wjlb)
+fd(wjlb,t)
+f(t=="true")
+{
+s text="删除成功"
+s stop = 2000
+fn color.ColorToast(text,stop)
+t()
+{ 
+fl(sss.jxsp,false, b) 
+for(c; b) 
+{
+ss(sss.jxsp+c,nc)
+fs(nc, l)
+fr("$幻隐网络/临时数据/1037.txt",ii)
+ss(ii+c,lp)
+fw("$幻隐网络/临时数据/1037.txt",lp)
+f(l&lt;"1000")
+{
+ss("["+l+"kb]",u)
+ula(list,4=c,8=u,9="[该文件可能无法播放]")
+}
+else
+{
+s2(l/1024/1024, l)
+ss("["+l+"MB]",u)
+ula(list,4=c,8=u,9="")
+}
+}
+ufnsui()
+{
+uls(33,list,"文件5.iyu",-1,-2)
+}
+}
+ug(33,"count",hh)
+f(hh&gt;"0")
+{
+us(37,"visibility","gone")
+}
+else
+{
+}
+}
+else
+{
+s text="删除失败"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+fn tool.endubt()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=删除文件(需长按)
+textColor=#ff00b5ff
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="9" did="2" type="CardView">
+<ppt>width=-1
+height=50dp
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardmaxElevation=0
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="6" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#ffffffff
+layout_marginTop=10dp</ppt>
+<event><eventItme type="clicki">fn tool.endubt()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="10" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=取消
+textColor=#ff00b5ff
+textSize=18dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,1612 @@
+<View id="10" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="7" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ff002eff</ppt>
+<event></event>
+</View>
+<View id="3" did="7" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-1
+text=介绍
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+ellipsize=marquee
+//文本超长显示方式 跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数 无限∞重复
+focusableintouchmode=true
+//获取焦点
+singleLine=true</ppt>
+<event><eventItme type="press">fr("$幻隐网络/临时数据/1003.txt",ii)
+
+sxb(ii)</eventItme></event>
+</View>
+<View id="32" did="7" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+background=#ffe3edff
+orientation=horizontal
+gravity=center</ppt>
+<event><eventItme type="clicki">fn tool.showbt("广告介绍.iyu", true)
+</eventItme></event>
+</View>
+<View id="9" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=为保护您的个人权益，看前先点我查看需知！
+textColor=#1E88E5
+textSize=16sp
+focusableintouchmode=true
+marqueerepeatlimit=marquee_forever
+ellipsize=marquee
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="25" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="27" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="24" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=1%
+textStyle=bold
+textColor=#ff030303
+layout_marginLeft=30dp
+visibility=gone
+layout_marginTop=5dp
+</ppt>
+<event></event>
+</View>
+<View id="26" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=|
+textStyle=bold
+textColor=#ff030303
+layout_marginLeft=30dp
+visibility=gone
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=大小
+textStyle=bold
+textColor=#ff030303
+layout_marginLeft=30dp
+visibility=gone
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="1" did="25" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="34" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="37" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="36" did="37" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="36" type="VideoView">
+<ppt>width=-1
+height=1000dp
+visibility=visible</ppt>
+<event><eventItme type="touchmonitor">
+f(st_eA == 0)
+{
+  ss x = st_rX
+  ss y = st_rY
+  //点下
+}
+else f(st_eA == 1)
+{
+  ss upx = st_eX
+  ss upy = st_eY
+  s(ss.upx - ss.x,tmp)
+  f(tmp &gt; 300)
+  {
+    end()
+  }
+}
+</eventItme></event>
+</View>
+<View id="81" did="37" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="83" did="81" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+layout_marginLeft=18dp
+layout_marginRight=18dp
+layout_marginTop=18dp</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="TextView">
+<ppt>width=-2
+height=-2
+text=时间
+textColor=#ff070707
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="85" did="83" type="TextView">
+<ppt>width=-2
+height=-2
+text=浏览
+textColor=#ff00bdff
+textSize=16sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="86" did="81" type="LinearLayout">
+<ppt>width=-1
+height=68dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginLeft=18dp
+layout_marginRight=18dp
+layout_marginTop=18dp
+BackgroundColor=#fff3f3f3</ppt>
+<event></event>
+</View>
+<View id="87" did="86" type="RelativeLayout">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=18dp</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="WebView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="89" did="87" type="TextView">
+<ppt>width=-1
+height=-1
+text=</ppt>
+<event></event>
+</View>
+<View id="90" did="86" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginLeft=3dp</ppt>
+<event></event>
+</View>
+<View id="91" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=名字
+textColor=#ff090909
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="92" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=介绍
+textSize=12sp
+layout_marginTop=2dp
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="93" did="81" type="TextView">
+<ppt>width=-2
+height=-2
+text=文字
+layout_marginTop=18dp
+layout_marginLeft=18dp
+layout_marginRight=18dp</ppt>
+<event></event>
+</View>
+<View id="94" did="81" type="TextView">
+<ppt>width=-1
+height=1
+text=
+BackgroundColor=#ffcfcfcf
+layout_marginTop=18dp</ppt>
+<event></event>
+</View>
+<View id="95" did="81" type="WebView">
+<ppt>width=-2
+height=-2
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="44" did="37" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="41" did="44" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+background=#ffffff
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">bfvss(2, "cn", sss.c)
+uigo("快手视频.iyu")
+end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="42" did="41" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/null_photo_catalogue.v
+layout_marginleft=15dp</ppt>
+<event></event>
+</View>
+<View id="43" did="41" type="TextView">
+<ppt>width=-2
+height=-2
+text=横屏播放
+textsize=14.5sp
+textcolor=#000000
+layout_weight=1
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#dfdfdfdf
+layout_marginleft=15dp
+layout_marginright=15dp</ppt>
+<event></event>
+</View>
+<View id="46" did="44" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+background=#ffffff
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">bfvss(2, "sp")
+sss bfsp = "null"
+
+s url= sss.dz
+
+ug(4,"text",xfspbt)
+sss xfspbt = xfspbt
+ends()
+fn xfspbfq1.video(url)</eventItme></event>
+</View>
+<View id="47" did="46" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/personal_more_fiction.v
+layout_marginleft=15dp</ppt>
+<event></event>
+</View>
+<View id="48" did="46" type="TextView">
+<ppt>width=-2
+height=-2
+text=悬浮播放
+textsize=14.5sp
+textcolor=#000000
+layout_weight=1
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="49" did="44" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#dfdfdfdf
+layout_marginleft=15dp
+layout_marginright=15dp</ppt>
+<event></event>
+</View>
+<View id="50" did="44" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+background=#ffffff
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">s stop = 2000
+s text="下载功能维护中."
+fn color.ColorToast(text,stop)
+/.ug(4,"text",iio)
+ss("幻隐网luo/"+iio,wj)
+fe(wj,gg)
+f(gg=="true")
+{
+s stop = 2000
+s text="该视频已下载，正在免流播放"
+fn color.ColorToast(text,stop)
+}
+else
+{
+fr("$幻隐网络/5.txt",wz)
+us(50,"visibility","gone")
+us(53,"visibility","gone")
+s stop = 2000
+s text="已开始下载~~"
+fn color.ColorToast(text,stop)
+t()
+{
+s dir = "幻隐网luo"
+//保存的文件名（仅输入文件名,请勿不包含目录） 
+s name =sss.mz
+//下载任务的标题 
+s title = sss.mz
+//下载任务的图标 
+s icon = "@6.26/empty_bt.v" 
+//是否显示下载进度通知 
+s notsohw = true
+//输入自定义参数任意数据 
+s data = "哈哈哈" 
+//变量v为赋值变量，为下载对象 
+hdda(wz, dir, name, title, icon, notsohw, data, v)
+   hddg(v, "contentlength", zdx)
+  w(zdx!=ydx)
+  {
+   hddg(v, "contentlength", zdx)
+   hddg(v, "equivalent",ydx)
+   s2(zdx/1024/1024,总大小)
+ s2(zdx/100,zdbb)
+ s2(ydx/zdbb,bfb)
+   ss("视频占据："+总大小+"Mb",总大小M)
+
+   ufnsui()
+   {
+     us(28,"text",总大小M)
+     ss(bfb+"%",bh)
+     us(24,"text",bh)
+     
+     s(3.2*bfb,uui)
+  
+     ss(uui+"dp",bv)
+    
+     us(29,"width",bv)
+   
+
+
+}
+}
+ 
+}
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="51" did="50" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/personal_icon_download.v
+layout_marginleft=15dp</ppt>
+<event></event>
+</View>
+<View id="52" did="50" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频下载
+textsize=14.5sp
+textcolor=#000000
+layout_weight=1
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="53" did="44" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#dfdfdfdf
+layout_marginleft=15dp
+layout_marginright=15dp</ppt>
+<event></event>
+</View>
+<View id="54" did="44" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+background=#ffffff
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/收藏记录/xf.txt",收藏)
+ss("【"+sss.js+"】"+sss.dz+收藏,新的)
+fw("$幻隐网络/收藏记录/xf.txt",新的)
+s stop = 2000
+s text="收藏成功."
+fn color.ColorToast(text,stop)
+/.ug(4,"text",内容)
+fr("$收藏.txt",收藏)
+f(收藏?内容)
+{
+s stop = 2000
+s text="本视频已收藏过了"
+fn color.ColorToast(text,stop)
+}
+else
+{
+ss(sss.cz+收藏,收)
+fw("$收藏.txt",收)
+s stop = 2000
+s text="收藏成功"
+fn color.ColorToast(text,stop)
+us(54,"visibility","gone")
+us(57,"visibility","gone")
+}</eventItme></event>
+</View>
+<View id="55" did="54" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/p2p_share_recommend_empty.v
+layout_marginleft=15dp</ppt>
+<event></event>
+</View>
+<View id="56" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频收藏
+textsize=14.5sp
+textcolor=#000000
+layout_weight=1
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="57" did="44" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#dfdfdfdf
+layout_marginleft=15dp
+layout_marginright=15dp</ppt>
+<event></event>
+</View>
+<View id="58" did="44" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+background=#ffffff
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">fn AudioManager.set(0)</eventItme></event>
+</View>
+<View id="59" did="58" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ui/xx.v
+layout_marginleft=15dp
+padding=3dp</ppt>
+<event></event>
+</View>
+<View id="60" did="58" type="TextView">
+<ppt>width=-2
+height=-2
+text=关闭声音
+textsize=14.5sp
+textcolor=#000000
+layout_weight=1
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="61" did="44" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#dfdfdfdf
+layout_marginleft=15dp
+layout_marginright=15dp</ppt>
+<event></event>
+</View>
+<View id="76" did="44" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+background=#ffffff
+gravity=center_vertical
+visibility=gone</ppt>
+<event><eventItme type="clicki">tws(v,"是否删除本内容？",0,"是")
+{
+fr("$幻隐网络/.v/sf.yx",p)
+f(p?"官方")
+{
+  utw(null,"","探索中……","",false,vf)
+{
+}
+ t()
+ {
+  ss(sss.api+"Box/sq/th.php?name="+sss.u+"&gd=拉黑不可见",o) 
+  hs(o,i)
+  ufnsui()
+  {
+    s text="该视频已拉黑！"
+s stop = 2000
+fn color.ColorToast(text,stop)
+endutw(vf)
+  }
+ }
+}
+else
+{
+s text="只有官方客服才可以删除作品哦~如果侵权可以联系邮箱：1877690156@qq.com删除！"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+}</eventItme></event>
+</View>
+<View id="77" did="76" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@Bibi/b4b.v
+layout_marginleft=15dp
+padding=3dp</ppt>
+<event></event>
+</View>
+<View id="78" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=删除视频
+textsize=14.5sp
+textcolor=#000000
+layout_weight=1
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="96" did="44" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+background=#ffffff
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/临时数据/1003.txt",ii)
+call(null, "mlua", "aa.spbf",ii)</eventItme></event>
+</View>
+<View id="97" did="96" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ui/Tst.v
+layout_marginleft=15dp
+padding=3dp</ppt>
+<event></event>
+</View>
+<View id="98" did="96" type="TextView">
+<ppt>width=-2
+height=-2
+text=换种方式播放
+textsize=14.5sp
+textcolor=#000000
+layout_weight=1
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="99" did="44" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#dfdfdfdf
+layout_marginleft=15dp
+layout_marginright=15dp</ppt>
+<event></event>
+</View>
+<View id="80" did="37" type="ListView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="ImageView">
+<ppt>width=100dp
+height=100dp
+src=@Bibi/bux.v
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="40" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待更多！
+textColor=#ff1e1e1e
+textSize=16sp
+textStyle=bold
+layout_gravity=center
+layout_marginBottom=150dp</ppt>
+<event></event>
+</View>
+<View id="62" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=bottom
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="64" did="62" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="74" did="64" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="69" did="74" type="TextView">
+<ppt>width=-2
+height=-2
+text=00:00
+textColor=#ff00beff
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1
+textColor=#ff00beff
+</ppt>
+<event></event>
+</View>
+<View id="72" did="74" type="TextView">
+<ppt>width=-2
+height=-2
+text=00:00
+textColor=#ff00beff
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="73" did="64" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="68" did="73" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_weight=1</ppt>
+<event><eventItme type="onstoptrackingtouch">f(sss.fhrt=="1")
+  {
+  }
+else
+  {
+    bfvss(2, "seekto",sss.q4)
+    sss rb="0"
+    sss rd1="1"
+  }</eventItme><eventItme type="onprogresschanged2">f(sss.rb=="1")
+  {
+    ug(68,"progress",fjp)
+    bfvss(2,"dn",uk)
+    sn(uk/100,xx)
+    s(fjp*xx,xn)
+    sss q4=xn
+  }</eventItme><eventItme type="onstarttrackingtouch">sss rb="1"
+sss rb1="0"</eventItme></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="15" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="101" did="0" type="WebView">
+<ppt>width=30dp
+height=30dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="restart"> 
+ushsp(false)
+s stop = 2000
+s text="重新连接中~~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/临时数据/1003.txt",splj)
+bfvs(2,splj)
+bfvss(2,"st")
+fr("$幻隐网络/临时数据/1025.txt",nr)
+bfvss(2, "seekto",nr)</eventItme><eventItme type="loadingComplete">sbp("@abv/icon_next_enabled.png",w)
+tsf(w,250,250,w)
+javanew(drawable1,"android.graphics.drawable.BitmapDrawable","android.graphics.Bitmap",w)
+sbp("$幻隐网络/游戏/btn_send_normal.v",b)
+tsf(b,250,250,b)
+javanew(drawable2,"android.graphics.drawable.BitmapDrawable","android.graphics.Bitmap",b)
+gvs(68,拖动条)
+java(null,拖动条,"android.widget.AbsSeekBar.setThumb","android.graphics.drawable.Drawable",drawable1)
+ss drawable1=drawable1
+ss drawable2=drawable2
+ss("&lt;html style="padding:0; margin:0; width:100%; height:100%; display:block; border:0; overflow:hidden;" &gt;   &lt;head&gt;       &lt;title&gt;M3U8视频&lt;/title&gt;    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;	&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt; &lt;/head&gt;	&lt;body style="padding:0; margin:0; width:100%; height:100%; display:block; border:0; overflow:hidden; background-color:#000;"&gt;	&lt;div id="playerbox" style="padding:0; margin:0; width:100%; height:100%; display:block; border:0; overflow:hidden;"&gt;&lt;video id="vod" controls="" autoplay="autoplay" preload="auto" x-webkit-airplay="allow" style="width:100%; height:100%;" src="+sss.txbf+"   poster="+sss.tp+" &gt;手机不支持！&lt;/video&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"}",a)
+hsas(2,true)
+syso(a)
+ss(sss.api+"Box/sq/cs/"+sss.u,o)
+t()
+{
+  hs(o,p)
+  ufnsui()
+  {
+    s+(p,1,d)
+    ss(sss.api+"Box/sq/cs.php?name=cs/"+sss.u+"&nr="+d,pp)
+    us(101,"url",pp)
+    ss("浏览量："+d,d)
+    us(85,"text",d)
+  }
+}
+fr("$幻隐网络/.v/sf.yx",p)
+f(p?"官方")
+{
+  us(76,"visibility","visible")
+}
+else
+{
+}
+s d = "utf-8"
+s e = "text/html"
+us(2, "url", a, d, e, f)
+t()
+{
+w(true)
+{
+bfvss(2, "ip", c)
+f(c=="false")
+{
+  ufnsui()
+  {
+bfvss(2, "st")
+  }
+}
+else
+{
+  ufnsui()
+  {
+    bfvss(2, "cn",sss.nr)
+    fw("$幻隐网络/临时数据/1025.txt",sss.nr)
+  }
+}
+stop(100)
+}
+}
+bfvss(2, "seekto", sss.wwz)</eventItme><eventItme type="loading">usjxm(false)
+uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(3,"background",yg)
+us(84,"text",sss.sj)
+us(91,"text",sss.mz)
+us(92,"text",sss.id)
+us(93,"text",sss.js)
+us(88,"url",sss.tx)
+fw("$幻隐网络/临时数据/1002.txt","0")
+addv(10,"updata.iyu")
+fn AudioManager.init()
+ushsp(false)
+us(4,"text",sss.mz)
+ss("幻隐网luo/"+sss.mz,wj)
+fe(wj,gg)
+f(gg=="true")
+{
+s stop = 2000
+s text="该视频已下载，正在免流播放"
+fn color.ColorToast(text,stop)
+us(76,"visibility","gone")
+us(79,"visibility","gone")
+us(53,"visibility","gone")
+us(54,"visibility","gone")
+us(57,"visibility","gone")
+bfvs(2,wj)
+fw("$幻隐网络/临时数据/1003.txt",wj)
+syso(sss.splj)
+sss linkhh=wj
+f(sss.fhrt=="1")
+  {
+    bfvs(2,sss.linkhh)
+    s linkhh=sss.linkhh
+    bfvss(2, "st")
+    s q4=0
+    sss o=1
+    sss te="1"
+    sss tr="1"
+    t()
+      {
+        w(sss.te==1)
+          {
+            f(sss.tr=="1")
+              {
+                bfvss(2,"ip",q1)
+                f(q1==true)
+                  {
+                    bfvss(2, "cn", q2)
+                    f(q2&gt;500)
+                      {
+                        sss r=1
+                        bfvss(2, "cn", q3)
+                        f(q3==q4)
+                          {
+                            f(sss.o==2)
+                              {
+                                syso("卡住了")
+                                
+                                ufnsui()
+                                  {
+                                    sss o=1
+                                  }
+                              }
+                          }
+                        else
+                          {
+                            f(sss.o==1)
+                              {
+                                syso("正常")
+                                
+                                ufnsui()
+                                  {
+                                    
+                                  }
+                                sss o=2
+                              }
+                            bfvss(2, "cn", q4)
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+else
+  {
+    syso(sss.ig)
+    f(sss.ig=="1")
+      {
+      }
+    else f(sss.ig=="2")
+      {
+      }
+    else f(sss.ig=="3")
+      {
+      }
+    s dmjf="0"
+    fe("%Gijepyhi/rto/sf",fe)
+    f(fe==false)
+      {
+        fw("%Gijepyhi/rto/sf","")
+      }
+    fr("%Gijepyhi/rto/sf",sg)
+    syso(sss.url)
+    f(sss.url?"mgtv")
+      {
+        syso("vb")
+        ss(sss.url+sss.mq+sss.sf,sft)
+        f(sg?sft)
+          {
+            syso("ok")
+            ss(sft+"®",sd1)
+            sj(sg,sd1,"©",sa1)
+            ss(sft+"®"+sa1+"©",sa2)
+            syso(sa2)
+            sj(sg,sa2,";",dmjf)
+            syso(dmjf)
+            f(dmjf==null)
+              {
+                s dmjf="0"
+              }
+            f(dmjf=="-1")
+              {
+                s dmjf="0"
+              }
+          }
+        else
+          {
+            syso("by")
+            s dmjf="0"
+          }
+      }
+    else
+      {
+        ss(sss.mq+sss.sf,sft)
+        f(sg?sft)
+          {
+            syso("ok")
+            ss(sft+"®",sd1)
+            sj(sg,sd1,"©",sa1)
+            ss(sft+"®"+sa1+"©",sa2)
+            syso(sa2)
+            sj(sg,sa2,";",dmjf)
+            syso(dmjf)
+          }
+        f(dmjf==null)
+          {
+            s dmjf="0"
+          }
+        f(dmjf=="-1")
+          {
+            s dmjf="0"
+          }
+      }
+    syso(sss.linkh)
+    bfvs(2,sss.linkhh)
+    s linkhh=sss.linkhh
+    syso(dmjf)
+    sss dmjf=dmjf
+    bfvss(2,"seekto",dmjf)
+    s q4=0
+    s sg=""
+    s dmjf=""
+        s o=1
+    sss tr="1"
+    sss te="1"
+    t()
+      {
+        w(sss.te==1)
+          {
+            f(sss.tr==1)
+              {
+               
+                    bfvss(2, "cn", q2)
+                    f(q2&gt;500)
+                      {
+                        sss r=1
+                        bfvss(2, "cn", q3)
+                        f(q3==q4)
+                          {
+                            f(o==2)
+                              {
+                                syso("卡住了")
+                                
+                                ufnsui()
+                                  {
+                                   s o=1
+                                  }
+                              }
+                          
+                        else
+                          {
+                            f(o==1)
+                              {
+                                syso("正常")
+                                
+                                ufnsui()
+                                  {
+                                    }
+                                s o=2
+                              }
+                            bfvss(2, "cn", q4)
+                            f(q4&lt;tq)
+                              {
+                                sss q4=q4
+                                s q8=q4
+                                fr("%Gijepyhi/rto/sf",sg)
+                                f(sss.url?"mgtv")
+                                  {
+                                    ss(sss.url+sss.mq+sss.sf,sft)
+                                    f(sg?sft)
+                                      {
+                                        ss(sss.url+sss.mq+sss.sf,sft)
+                                        sj(sg,sft,";",sa1)
+                                        ss(sft+sa1+";",sa2)
+                                        ss(sft+"®"+sss.pyhi+"©"+q4+";",sgs)
+                                        sr(sg,sa2,sgs,dmjf3)
+                                        fw("%Gijepyhi/rto/sf",dmjf3)
+                                      }
+                                    else
+                                      {
+                                        ss(sss.url+sss.mq+sss.sf+"®"+sss.linkhh+"©"+q4+";"+sg,dmjf3)
+                                        fw("%Gijepyhi/rto/sf",dmjf3)
+                                      }
+                                  }
+                                else
+                                  {
+                                    ss(sss.mq+sss.sf,sft)
+                                    f(sg?sft)
+                                      {
+                                        ss(sss.mq+sss.sf,sft)
+                                        sj(sg,sft,";",sa1)
+                                        ss(sft+sa1+";",sa2)
+                                        ss(sft+"®"+sss.linkhh+"©"+q4+";",sgs)
+                                        sr(sg,sa2,sgs,dmjf3)
+                                        fw("%Gijepyhi/rto/sf",dmjf3)
+                                      }
+                                    else
+                                      {
+                                        ss(sss.mq+sss.sf+"®"+sss.linkhh+"©"+q4+";"+sg,dmjf3)
+                                        fw("%Gijepyhi/rto/sf",dmjf3)
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  }
+                else f(q1==false)
+                  {
+                    
+                    bfvss(2, "cn", q7)
+                    bfvss(2, "dn", tw)
+                    f(tw&gt;"5000")
+                      {
+                        s(tw-1000,tw)
+                        syso(q7)
+                        syso(tw)
+                        f(q7&gt;tw)
+                          {
+                            fr("%Gijepyhi/rto/sf",sg)
+                            ss(sss.mq+sss.sf,sft)
+                            f(sg?sft)
+                              {
+                                ss(sss.mq+sss.sf,sft)
+                                sj(sg,sft,";",sa1)
+                                ss(sft+sa1+";",sa2)
+                                ss(sft+"®"+sss.linkhh+"©"+q4+";",sgs)
+                                sr(sg,sa2,"",dmjf3)
+                                fw("Gijepyhi/rto/sf",dmjf3)
+                              }
+                            end()
+                          }
+                      }
+                  }
+                stop(100)
+              }
+          }
+      }
+    t()
+      {
+        w(sss.te==1)
+          {
+            bfvss(2,"ip",qt1)
+            f(qt1==true)
+              {
+                bfvss(2,"dn",ta)
+                slg(ta, b)
+                f(b&lt;4)
+                  {
+                    s d=0
+                  }
+                else
+                  {
+                    s(b-3,c)
+                    ssg(ta, c, d)
+                  }
+                sr(ta,d,"",d)
+                s(d/60,e)
+                s(e*60,f)
+                s(d-f,g)
+                f(e&lt;"10")
+                  {
+                    ss("0"+e,e)
+                  }
+                f(g&lt;"10")
+                  {
+                    ss("0"+g,g)
+                  }
+                ss(e+":"+g,jfta)
+                bfvss(2, "dn",ts1)
+                sn(ts1/100,ts2)
+                bfvss(2, "cn",ta1)
+                sn(ta1/ts2,tj)
+                slg(ta1, b1)
+                f(b1&lt;4)
+                  {
+                    s d1=0
+                    ss("00"+":"+"00",jfta1)
+                  }
+                else
+                  {
+                    s(b1-3,c1)
+                    ssg(ta1, c1, d1)
+                    sr(ta1,d1,"",d1)
+                    s(d1/60,e1)
+                    f(e1&lt;1)
+                      {
+                        s e1="0"
+                      }
+                    s(e1*60,f1)
+                    s(d1-f1,g1)
+                    f(g1&lt;1)
+                      {
+                        s g1="0"
+                      }
+                    f(e1&lt;"10")
+                      {
+                        ss("0"+e1,e1)
+                      }
+                    f(g1&lt;"10")
+                      {
+                        ss("0"+g1,g1)
+                      }
+                    ss(e1+":"+g1,jfta1)
+                  }
+                ufnsui()
+                  {
+                    us(69,"text",jfta1)
+                    us(72,"text",jfta)
+                    us(68,"progress",tj)
+                  }
+              }
+          }
+      }
+  }
+}
+else
+{
+s stop = 2000
+s text="正在加载中~~"
+fn color.ColorToast(text,stop)
+bfvs(2,sss.dz)
+fw("$幻隐网络/临时数据/1003.txt",sss.dz)
+syso(sss.splj)
+sss linkhh=sss.dz
+f(sss.fhrt=="1")
+  {
+    bfvs(2,sss.linkhh)
+    s linkhh=sss.linkhh
+    bfvss(2, "st")
+    s q4=0
+    sss o=1
+    sss te="1"
+    sss tr="1"
+    t()
+      {
+        w(sss.te==1)
+          {
+            f(sss.tr=="1")
+              {
+                bfvss(2,"ip",q1)
+                f(q1==true)
+                  {
+                    bfvss(2, "cn", q2)
+                    f(q2&gt;500)
+                      {
+                        sss r=1
+                        bfvss(2, "cn", q3)
+                        f(q3==q4)
+                          {
+                            f(sss.o==2)
+                              {
+                                syso("卡住了")
+                                
+                                ufnsui()
+                                  {
+                                    sss o=1
+                                  }
+                              }
+                          }
+                        else
+                          {
+                            f(sss.o==1)
+                              {
+                                syso("正常")
+                                
+                                ufnsui()
+                                  {
+                                    
+                                  }
+                                sss o=2
+                              }
+                            bfvss(2, "cn", q4)
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+else
+  {
+    syso(sss.ig)
+    f(sss.ig=="1")
+      {
+      }
+    else f(sss.ig=="2")
+      {
+      }
+    else f(sss.ig=="3")
+      {
+      }
+    s dmjf="0"
+    fe("%Gijepyhi/rto/sf",fe)
+    f(fe==false)
+      {
+        fw("%Gijepyhi/rto/sf","")
+      }
+    fr("%Gijepyhi/rto/sf",sg)
+    syso(sss.url)
+    f(sss.url?"mgtv")
+      {
+        syso("vb")
+        ss(sss.url+sss.mq+sss.sf,sft)
+        f(sg?sft)
+          {
+            syso("ok")
+            ss(sft+"®",sd1)
+            sj(sg,sd1,"©",sa1)
+            ss(sft+"®"+sa1+"©",sa2)
+            syso(sa2)
+            sj(sg,sa2,";",dmjf)
+            syso(dmjf)
+            f(dmjf==null)
+              {
+                s dmjf="0"
+              }
+            f(dmjf=="-1")
+              {
+                s dmjf="0"
+              }
+          }
+        else
+          {
+            syso("by")
+            s dmjf="0"
+          }
+      }
+    else
+      {
+        ss(sss.mq+sss.sf,sft)
+        f(sg?sft)
+          {
+            syso("ok")
+            ss(sft+"®",sd1)
+            sj(sg,sd1,"©",sa1)
+            ss(sft+"®"+sa1+"©",sa2)
+            syso(sa2)
+            sj(sg,sa2,";",dmjf)
+            syso(dmjf)
+          }
+        f(dmjf==null)
+          {
+            s dmjf="0"
+          }
+        f(dmjf=="-1")
+          {
+            s dmjf="0"
+          }
+      }
+    bfvs(2,sss.linkhh)
+    s linkhh=sss.linkhh
+    syso(dmjf)
+    sss dmjf=dmjf
+    bfvss(2,"seekto",dmjf)
+    s q4=0
+    s sg=""
+    s dmjf=""
+        s o=1
+    sss tr="1"
+    sss te="1"
+    t()
+      {
+        w(sss.te==1)
+          {
+            f(sss.tr==1)
+              {
+               
+                    bfvss(2, "cn", q2)
+                    f(q2&gt;500)
+                      {
+                        sss r=1
+                        bfvss(2, "cn", q3)
+                        f(q3==q4)
+                          {
+                            f(o==2)
+                              {
+                                syso("卡住了")
+                                
+                                ufnsui()
+                                  {
+                                   s o=1
+                                  }
+                              }
+                          
+                        else
+                          {
+                            f(o==1)
+                              {
+                                syso("正常")
+                                
+                                ufnsui()
+                                  {
+                                    }
+                                s o=2
+                              }
+                            bfvss(2, "cn", q4)
+                            f(q4&lt;tq)
+                              {
+                                sss q4=q4
+                                s q8=q4
+                                fr("%Gijepyhi/rto/sf",sg)
+                                f(sss.url?"mgtv")
+                                  {
+                                    ss(sss.url+sss.mq+sss.sf,sft)
+                                    f(sg?sft)
+                                      {
+                                        ss(sss.url+sss.mq+sss.sf,sft)
+                                        sj(sg,sft,";",sa1)
+                                        ss(sft+sa1+";",sa2)
+                                        ss(sft+"®"+sss.pyhi+"©"+q4+";",sgs)
+                                        sr(sg,sa2,sgs,dmjf3)
+                                        fw("%Gijepyhi/rto/sf",dmjf3)
+                                      }
+                                    else
+                                      {
+                                        ss(sss.url+sss.mq+sss.sf+"®"+sss.linkhh+"©"+q4+";"+sg,dmjf3)
+                                        fw("%Gijepyhi/rto/sf",dmjf3)
+                                      }
+                                  }
+                                else
+                                  {
+                                    ss(sss.mq+sss.sf,sft)
+                                    f(sg?sft)
+                                      {
+                                        ss(sss.mq+sss.sf,sft)
+                                        sj(sg,sft,";",sa1)
+                                        ss(sft+sa1+";",sa2)
+                                        ss(sft+"®"+sss.linkhh+"©"+q4+";",sgs)
+                                        sr(sg,sa2,sgs,dmjf3)
+                                        fw("%Gijepyhi/rto/sf",dmjf3)
+                                      }
+                                    else
+                                      {
+                                        ss(sss.mq+sss.sf+"®"+sss.linkhh+"©"+q4+";"+sg,dmjf3)
+                                        fw("%Gijepyhi/rto/sf",dmjf3)
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  }
+                else f(q1==false)
+                  {
+                    
+                    bfvss(2, "cn", q7)
+                    bfvss(2, "dn", tw)
+                    f(tw&gt;"5000")
+                      {
+                        s(tw-1000,tw)
+                        syso(q7)
+                        syso(tw)
+                        f(q7&gt;tw)
+                          {
+                            fr("%Gijepyhi/rto/sf",sg)
+                            ss(sss.mq+sss.sf,sft)
+                            f(sg?sft)
+                              {
+                                ss(sss.mq+sss.sf,sft)
+                                sj(sg,sft,";",sa1)
+                                ss(sft+sa1+";",sa2)
+                                ss(sft+"®"+sss.linkhh+"©"+q4+";",sgs)
+                                sr(sg,sa2,"",dmjf3)
+                                fw("Gijepyhi/rto/sf",dmjf3)
+                              }
+                            end()
+                          }
+                      }
+                  }
+                stop(100)
+              }
+          }
+      }
+    t()
+      {
+        w(sss.te==1)
+          {
+            bfvss(2,"ip",qt1)
+            f(qt1==true)
+              {
+                bfvss(2,"dn",ta)
+                slg(ta, b)
+                f(b&lt;4)
+                  {
+                    s d=0
+                  }
+                else
+                  {
+                    s(b-3,c)
+                    ssg(ta, c, d)
+                  }
+                sr(ta,d,"",d)
+                s(d/60,e)
+                s(e*60,f)
+                s(d-f,g)
+                f(e&lt;"10")
+                  {
+                    ss("0"+e,e)
+                  }
+                f(g&lt;"10")
+                  {
+                    ss("0"+g,g)
+                  }
+                ss(e+":"+g,jfta)
+                bfvss(2, "dn",ts1)
+                sn(ts1/100,ts2)
+                bfvss(2, "cn",ta1)
+                sn(ta1/ts2,tj)
+                slg(ta1, b1)
+                f(b1&lt;4)
+                  {
+                    s d1=0
+                    ss("00"+":"+"00",jfta1)
+                  }
+                else
+                  {
+                    s(b1-3,c1)
+                    ssg(ta1, c1, d1)
+                    sr(ta1,d1,"",d1)
+                    s(d1/60,e1)
+                    f(e1&lt;1)
+                      {
+                        s e1="0"
+                      }
+                    s(e1*60,f1)
+                    s(d1-f1,g1)
+                    f(g1&lt;1)
+                      {
+                        s g1="0"
+                      }
+                    f(e1&lt;"10")
+                      {
+                        ss("0"+e1,e1)
+                      }
+                    f(g1&lt;"10")
+                      {
+                        ss("0"+g1,g1)
+                      }
+                    ss(e1+":"+g1,jfta1)
+                  }
+                ufnsui()
+                  {
+                    us(69,"text",jfta1)
+                    us(68,"progress",tj)
+                    us(72,"text",jfta)
+                  }
+              }
+          }
+      }
+  }
+us(46,"visibility","gone")
+us(49,"visibility","gone")
+}
+f(sss.wwz?"mp4")
+{
+
+}
+else
+{
+us(53,"visibility","gone")
+}
+fr("$收藏.txt",收藏)
+f(收藏?sss.mz)
+{
+us(54,"visibility","gone")
+us(57,"visibility","gone")
+}
+else
+{
+}
+
+
+ 
+
+
+
+
+/.
+
+</eventItme><eventItme type="destroy">bfms(sss.b, "ip", c)
+f(c=="true")
+{
+s w =-2
+s h =-2
+s g ="top|left"
+uxf("音乐播放1.iyu",w,h,g,sss.v)
+sran(1,1000,x)
+sran(1,1000,y)
+s w = -2
+s h = -2
+s type = 0
+s flags = 0
+s format = 0
+uxf(sss.v, "set", x, y, w, h, type, g, flags, format)
+}
+else
+{
+}</eventItme></UIEventset>

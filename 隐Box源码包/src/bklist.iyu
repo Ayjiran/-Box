@@ -1,0 +1,605 @@
+<View id="237" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=123
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="171" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="172" did="171" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=2dp
+app_CardcornerRadius=10dp
+layout_marginTop=10dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="173" did="172" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="174" did="173" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="245" did="174" type="RelativeLayout">
+<ppt>width=45dp
+height=45dp
+layout_margin=0dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="247" did="245" type="RelativeLayout">
+<ppt>width=50dp
+height=50dp
+layout_margin=1.5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="248" did="247" type="RoundImageView">
+<ppt>src=@170837.png
+width=40dp
+height=40dp
+layout_margin=2dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="246" did="245" type="LinearLayout">
+<ppt>width=50dp
+height=50dp
+background=
+</ppt>
+<event></event>
+</View>
+<View id="249" did="246" type="ImageView">
+<ppt>width=-1
+height=-1
+src=</ppt>
+<event></event>
+</View>
+<View id="251" did="245" type="GifView">
+<ppt>width=20dp
+height=20dp
+src=@chenghao/noble_emperor_icon.gif
+layout_marginLeft=10dp
+visibility=gone
+ut_alignParentRight=true
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="175" did="174" type="RoundImageView">
+<ppt>width=40dp
+height=40dp
+src=@icon.v
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="176" did="174" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginLeft=8dp</ppt>
+<event></event>
+</View>
+<View id="243" did="176" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="177" did="243" type="TextView">
+<ppt>width=-2
+height=-2
+text=用户名
+textSize=13.5sp
+textColor=#000000
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="252" did="243" type="CardView">
+<ppt>width=-2
+height=-2
+layout_marginLeft=10dp
+app_CardcornerRadius=3dp
+app_CardElevation=-2dp</ppt>
+<event></event>
+</View>
+<View id="239" did="252" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+background=#ff00b3ff
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="240" did="239" type="TextView">
+<ppt>width=-2
+height=-2
+text=Lv:1
+textColor=#ffffffff
+layout_margin=3dp
+textSize=10sp</ppt>
+<event></event>
+</View>
+<View id="230" did="176" type="TextView">
+<ppt>width=-2
+height=-2
+text=2020年5月20日
+textSize=11sp
+textColor=#947c7c7c
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="215" did="174" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="214" did="174" type="ImageView">
+<ppt>width=40dp
+height=-2
+src=@ui7/icon.png
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="217" did="174" type="ImageView">
+<ppt>width=50dp
+height=-2
+src=@e30056379bc.png
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="218" did="174" type="ImageView">
+<ppt>width=20dp
+height=-2
+src=@2d55fab0096.png
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="227" did="173" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="244" did="227" type="CardView">
+<ppt>width=-2
+height=-2
+layout_marginLeft=10dp
+app_CardcornerRadius=5dp
+app_CardElevation=-10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="241" did="244" type="LinearLayout">
+<ppt>width=-2
+height=25dp
+orientation=vertical
+background=#ff00bbff</ppt>
+<event></event>
+</View>
+<View id="242" did="241" type="TextView">
+<ppt>width=-2
+height=-2
+text=身份
+textColor=#ffffffff
+layout_margin=3dp
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="181" did="173" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=10dp
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="182" did="181" type="TextView">
+<ppt>width=-2
+height=-2
+text=快来看看吧~
+textColor=#222222
+textSize=16sp
+layout_marginTop=5dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="232" did="181" type="TextView">
+<ppt>width=-2
+height=-2
+text=大家好，给各位分享一个美女，嘎嘎好看，你看了一定会喜欢的，哈哈哈！
+textColor=#aa000000
+textSize=11sp
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="225" did="181" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0dp
+app_CardcornerRadius=10dp
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="233" did="225" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="234" did="233" type="ImageView">
+<ppt>width=100dp
+height=100dp
+src=@IMG_20210122_223154.png
+layout_weight=1
+layout_marginRight=2dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="235" did="233" type="ImageView">
+<ppt>width=100dp
+height=100dp
+src=
+layout_weight=1
+layout_marginRight=2dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="236" did="233" type="ImageView">
+<ppt>width=100dp
+height=100dp
+src=
+layout_weight=1
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="238" did="181" type="TextView">
+<ppt>width=-2
+height=10dp
+text=</ppt>
+<event></event>
+</View>
+<View id="187" did="173" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<View id="188" did="187" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="189" did="188" type="ImageView">
+<ppt>width=15dp
+height=15dp
+src=@56e7df46bbc.png
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="190" did="188" type="TextView">
+<ppt>width=-2
+height=-2
+text=#幻隐网络
+textSize=11sp
+textColor=#222222
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="191" did="187" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="192" did="191" type="CardView">
+<ppt>width=-2
+height=25dp
+app_CardElevation=0dp
+app_CardcornerRadius=999dp
+layout_gravity=center_vertical
+layout_marginRight=10dp
+
+</ppt>
+<event></event>
+</View>
+<View id="193" did="192" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#f6f6f6
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="194" did="193" type="ImageView">
+<ppt>width=15dp
+height=15dp
+src=@news_icon_comment.png
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="195" did="193" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textSize=11sp
+textColor=#FFB1B1B1
+layout_marginLeft=5dp
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="196" did="191" type="CardView">
+<ppt>width=-2
+height=25dp
+app_CardElevation=0dp
+app_CardcornerRadius=999dp
+layout_gravity=center_vertical
+layout_marginRight=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="197" did="196" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#f6f6f6
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="198" did="197" type="ImageView">
+<ppt>width=15dp
+height=15dp
+src=@news_icon_like.png
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="199" did="197" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textSize=11sp
+textColor=#FFB1B1B1
+layout_marginLeft=5dp
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="204" did="173" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="205" did="204" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=horizontal
+gravity=center_vertical
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="254" did="172" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">f(sss.游客=="是")
+{
+  s stop = 2000
+  s text="未登录不能看~"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  ulag(st_vW,208,sss.tx)
+  ulag(st_vW,177,sss.user)
+  ulag(st_vW,213,sss.fbtime)
+  ulag(st_vW,182,sss.bkbt)
+  ulag(st_vW,195,sss.sl)
+  ulag(st_vW,219,sss.zd)
+  ulag(st_vW,212,sss.xxid)
+  ulag(st_vW,220,sss.jing)
+  ulag(st_vW,221,sss.suo)
+    ulag(st_vW,206,sss.tzurl)
+  ulag(st_vW,195,sss.plurl)
+  sj(sss.tzurl,"t/",".html",sss.tzid)
+  sj(sss.tzurl,"t/",".html",sss.sdid)
+  uigo("详情.iyu")
+    }
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="206" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="207" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="208" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="209" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="210" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="211" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="212" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="213" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="216" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="219" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="220" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="221" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="250" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//gvs(st_vW,bklist.223,图片)
+//us(图片,"url",sss.随机图)
+gvs(st_vW,bklist.237,显示)
+gvs(st_vW,bklist.225,不)
+ug(显示,"text",显示)
+f(显示=="是")
+{
+  us(不,"visibility","visible")
+}
+else
+{
+  us(不,"visibility","gone")
+}
+gvs(st_vW,bklist.217,j)
+gvs(st_vW,bklist.220,n)
+ug(n,"text",b)
+f(b=="精")
+{
+  us(j,"visibility","visible")
+}
+else
+{
+  us(j,"visibility","gone")
+}
+//锁
+gvs(st_vW,bklist.218,s)
+gvs(st_vW,bklist.221,n)
+ug(n,"text",b)
+f(b=="锁")
+{
+  us(s,"visibility","visible")
+}
+else
+{
+  us(s,"visibility","gone")
+}
+//置顶
+gvs(st_vW,bklist.214,zd)
+gvs(st_vW,bklist.219,n)
+ug(n,"text",b)
+f(b=="置顶")
+{
+ us(zd,"visibility","visible")
+}
+else
+{
+  us(zd,"visibility","gone")
+}
+/.
+gvs(st_vW,bklist.250,会员)
+ug(会员,"text",会员)
+gvs(st_vW,bklist.251,显示)
+f(会员=="有")
+{
+ us(显示,"visibility","visible") 
+}
+else
+{
+}</eventItme></UIEventset>

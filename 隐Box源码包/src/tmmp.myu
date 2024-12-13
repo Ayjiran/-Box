@@ -1,0 +1,73 @@
+
+fn del(path)
+t()
+{
+f(ss.path0==null)
+{
+fi(path,f)
+f(f==false)
+{
+ufnsui()
+{
+
+}
+ss path0=null
+endcode
+//判断是否为文件夹，否就停止运行
+}
+ss path0=path
+//把实时要删的文件夹存到变量path0中
+}
+
+f(path?ss.path0)
+{
+//判断原要删的文件夹路径中是否包含有实时要删的文件夹路径，如果包含则执行下面的代码，否就表示原要删的文件夹已删除
+fd(path,f)
+//尝试删除该文件夹，返值到f
+f(f==true)
+{
+//如果删除path文件夹成功则
+ss("删除："+path+"  成功1！",k)
+syso(k)
+//打印删除的文件（夹）路径详情
+slg(path,l)
+slof(path,"/",l,l1)
+//取路径path的倒数第一个字符"/"的位置
+ssg(path,0,l1,path1)
+//截取路径path的父目录
+fn a.del(path1)
+//开始新一轮的删除，以path1为叁数
+endcode
+}
+//如果删除文件夹path失败，则表示path是一个非空文件夹，执行下面的循环删除里面的文件（夹）
+fl(path,a)
+for(b;a)
+{
+ss(path+"/"+b,path2)
+fd(path2,f)
+f(f==false)
+{
+fn a.del(path2)
+//如果删除文件夹path2失败则重新以path2为叁数重新删除
+endcode
+}
+ss("删除："+path2+"  成功！",k)
+.syso(k)
+//打印删除成功的文件（夹）路径
+}
+fn a.del(path)
+endcode
+//文件夹path里面的所有文件（夹）全删完后重新开始删除，传入叁数path
+}
+ss path0=null
+ufnsui()
+{
+sss path0=path0
+}
+}
+end fn
+
+//以上代码请放到模块a.myu里，如果你要改模块sss.名称，请将上面代码里的3个a.del改一下
+
+//以下代码放到按钮点击事件中,传入要删的文件夹调用上面的模块一键删除
+

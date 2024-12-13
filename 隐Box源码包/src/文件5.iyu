@@ -1,0 +1,132 @@
+<View id="1" did="0" type="CardView">
+<ppt>width=-1
+height=70dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=10dp
+layout_marginBottom=3dp
+app_CardElevation=1dp
+app_CardcornerRadius=10dp
+</ppt>
+<event>
+<eventItme type="clicki">fn tool.showbt("菜单5.iyu", true)
+ulag(st_vW,4,sss.wjlb)
+f(sss.wjlb?"mp4"||sss.wjlb?"v")
+{
+ss traname="本地播放视频"
+call(id,"mjava","tool.findgvs",ss.dialog,10000)
+s(id+17,id2)
+gvs(ss.dialog,id2,v2)
+us(v2,"text",ss.traname)
+}
+else f(sss.wjlb?"mp3"||sss.wjlb?"m4a")
+{
+ss traname="立即播放音频"
+call(id,"mjava","tool.findgvs",ss.dialog,10000)
+s(id+17,id2)
+gvs(ss.dialog,id2,v2)
+us(v2,"text",ss.traname)
+}
+else f(sss.wjlb?"png"||sss.wjlb?"jpg")
+{
+ss traname="本地图片查看"
+call(id,"mjava","tool.findgvs",ss.dialog,10000)
+s(id+17,id2)
+gvs(ss.dialog,id2,v2)
+us(v2,"text",ss.traname)
+}
+else
+{
+}</eventItme>
+
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+BackgroundRipple=#ff909090
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=50dp
+height=-1
+src=@a/.zy/yqn.v
+padding=4dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="5" type="TextView">
+<ppt>
+width=-1
+height=-1
+text=标题
+layout_weight=2
+gravity=center_vertical
+textColor=#424242
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=3</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=[内存]
+textSize=10sp
+textColor=#ff00b6ff
+</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textSize=10sp
+textColor=#ffff0010
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="10" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=[时间]
+textSize=10sp
+textColor=#ff838383
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

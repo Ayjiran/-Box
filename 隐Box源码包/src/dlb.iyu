@@ -1,0 +1,167 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-1
+height=40dp
+text=/...
+textcolor=#ff3f51b5
+gravity=center
+textsize=14dp
+background=white
+backgroundripple=#ff3f51b5</ppt>
+<event>
+<eventItme type="clicki">ug(21,"text",f)
+fdir(ff)
+f(f==ff)
+  {
+  }
+else
+  {
+    ug(21,"text",i)
+    slg(i,ii)
+    slof(i,"/",ii,o)
+    ssg(i,"0",o,wb)
+    us(21,"text",wb)
+    fl(wb,ees)
+    gvs(sss.dr,3,ee3)
+    t()
+      {
+        for(eesss;ees)
+          {
+            ula(els,1=eesss)
+          }
+        ufnsui()
+          {
+            uls(ee3,els,"ddlb.iyu",-1,-2)
+            tw(wb,0)
+          }
+      }
+  }</eventItme>
+</event>
+</View>
+<View id="3" did="1" type="ListView">
+<ppt>width=-1
+height=-2
+dividerheight=0</ppt>
+<event>
+<eventItme type="clickitem">ulag(st_vW,st_pN,1,w)
+ug(21,"text",r)
+ss(r+"/"+w,ww)
+us(21,"text",ww)
+fi(ww,we)
+tw(ww,0)
+fdir(bv)
+ss(bv+"/"+"tencent/QQ_Collection/audio",fvb)
+ug(21,"text",vb)
+f(vb==fvb)
+  {
+    tw("不支持打开盗音文件夹！")
+    ug(21,"text",i)
+    slg(i,ii)
+    slof(i,"/",ii,o)
+    ssg(i,"0",o,wb)
+    us(21,"text",wb)
+    endcode
+  }
+f(we==true)
+  {
+    fl(ww,ee)
+    gvs(sss.dr,3,ee3)
+    t()
+      {
+        for(eess;ee)
+          {
+            ula(el,1=eess)
+          }
+        ufnsui()
+          {
+            uls(ee3,el,"ddlb.iyu",-1,-2)
+          }
+      }
+  }
+else
+  {
+    f(w?".mp3"||w?".wma"||w?".wav"||w?".asf"||w?".aac"||w?".vqf"||w?".flac"||w?".ape"||w?".mid"||w?".ogg"||w?".slk")
+      {
+        ug(21,"text",i)
+        slg(i,ii)
+        slof(i,"/",ii,o)
+        ssg(i,"0",o,wb)
+        us(21,"text",wb)
+        fdir(di)
+        ss(di+"/",di)
+        ss(wb+"/"+w,qw)
+        sr(qw,di,"%",qw)
+        ss t=qw
+        fs(qw,qw)
+        s2(qw/1024,wq)
+        ss("文件大小："+wq+"kb"+"\n\n"+"建议不超过1024kb",wt)
+        utw("","导入？",wt,"导入","取消",false,sss.ddrr)
+          {
+            ss("%tencent/QQ_Collection/audio/"+w,fclj)
+            fc(ss.t,fclj,fcls)
+            tw("导入成功",0)
+            t()
+              {
+                fl("%tencent/QQ_Collection/audio",false,yywj)
+                sgszl(yywj,yywjs)
+                f(yywjs=="0")
+                  {
+                    ufnsui()
+                      {
+                        us(15,"visibility","gone")
+                        us(16,"visibility","gone")
+                        us(17,"visibility","visible")
+                      }
+                  }
+                else
+                  {
+                    for(yylb;yywj)
+                      {
+                        ula(lb,1=null,2=null,3=yylb)
+                      }
+                    ufnsui()
+                      {
+                        uls(16,lb,"lb.iyu",-1,-2)
+                        us(15,"visibility","visible")
+                        us(16,"visibility","visible")
+                        us(17,"visibility","gone")
+                      }
+                  }
+              }
+          }
+        else
+          {
+            endutw(sss.ddrr)
+          }
+      }
+    else
+      {
+        tw("暂不支持此文件",0)
+        ug(21,"text",i)
+        slg(i,ii)
+        slof(i,"/",ii,o)
+        ssg(i,"0",o,wb)
+        us(21,"text",wb)
+      }
+  }</eventItme>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+</UIEventset>

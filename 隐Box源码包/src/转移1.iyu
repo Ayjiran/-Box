@@ -1,0 +1,141 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=#FFFF8EC4</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-1
+height=-1
+text=文件修改
+textcolor=#FFFFFF
+gravity=center
+textsize=15sp
+background=#ff00c1ff</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+background=
+textsize=13sp
+hint=请输入要修改的文件名
+layout_marginright=10dp
+layout_marginleft=10dp
+layout_margintop=5dp
+textCursorDrawable=#ff00a3ff
+</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="TextView">
+<ppt>width=-1
+height=1
+text=
+background=#e0e0e0
+layout_marginright=10dp
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="CardView">
+<ppt>width=-1
+height=40dp
+layout_marginbottom=10dp
+layout_margintop=10dp
+layout_marginleft=10dp
+layout_marginright=10dp
+app_CardcornerRadius=100dp</ppt>
+<event></event>
+</View>
+<View id="5" did="9" type="Button">
+<ppt>width=-1
+height=40dp
+text=确定
+layout_marginbottom=10dp
+layout_margintop=10dp
+textcolor=#FFFFFF
+layout_marginleft=10dp
+layout_marginright=10dp
+background=#ff00c1ff</ppt>
+<event><eventItme type="clicki">gvs(sss.ut,4,b)
+ug(b,"text",b)
+sj(sss.wu,"备份/",null,wjlb)
+ss("$幻隐网络/文件备份/"+wjlb,a)
+ss("$幻隐网络/文件备份/"+b,b)
+fe(b,uu)
+f(uu=="true")
+{
+   s text="无法修改，已有同名文件"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+ft(a, b, c)
+f(c=="true")
+{
+ s text="修改成功"
+s stop = 2000
+fn color.ColorToast(text,stop)
+t()
+{ 
+fl("$幻隐网络/文件备份", b) 
+for(c; b) 
+{
+  syso(c)
+ula(list,7=c)
+}
+ufnsui()
+{
+uls(15,list,"文件3.iyu",-1,-2)
+}
+}
+}
+else
+{
+   s text="修改失败"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+}
+endutw()</eventItme></event>
+</View>
+<View id="7" did="1" type="TextView">
+<ppt>width=-1
+height=40dp
+text=注意：一旦修改，不可恢复
+layout_marginbottom=10dp
+layout_margintop=10dp
+textcolor=#4c000000
+layout_marginleft=10dp
+layout_marginright=10dp
+background=
+textsize=10sp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=签名：
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

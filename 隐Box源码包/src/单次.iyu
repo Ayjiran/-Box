@@ -1,0 +1,1048 @@
+<View id="133" did="0" type="CoordinatorLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="9" did="133" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="9" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+orientation=vertical
+background=#FFFFFFFF</ppt>
+<event></event>
+</View>
+<View id="95" did="2" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=单次功能
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="102" did="9" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+background=@abv/h8.png</ppt>
+<event></event>
+</View>
+<View id="103" did="102" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="109" did="103" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginRight=10dp
+ut_alignParentTop=104
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="105" did="109" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=horizontal
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="106" did="105" type="TextView">
+<ppt>width=-2
+height=-2
+text=剩余
+layout_marginBottom=5dp
+textStyle=bold
+textColor=#ffffffff
+textSize=15sp
+</ppt>
+<event></event>
+</View>
+<View id="107" did="105" type="TextView">
+<ppt>width=-2
+height=-2
+text=...
+layout_marginBottom=5dp
+textStyle=bold
+textColor=#ffffffff
+textSize=50sp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="108" did="105" type="TextView">
+<ppt>width=-2
+height=-2
+text=张
+layout_marginBottom=5dp
+textStyle=bold
+textColor=#ffffffff
+textSize=15sp
+</ppt>
+<event></event>
+</View>
+<View id="104" did="103" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=vertical
+background=white
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="112" did="103" type="CardView">
+<ppt>width=70dp
+height=70dp
+app_CardcornerRadius=10dp
+app_CardElevation=-10dp
+ut_alignParentBottom=true
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="113" did="112" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="111" did="113" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@28f1255d439.png</ppt>
+<event></event>
+</View>
+<View id="1" did="9" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#FFFFFFFF
+</ppt>
+<event></event>
+</View>
+<View id="19" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="22" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=#FFFFFFFF
+</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="CardView">
+<ppt>width=-1
+height=180dp
+layout_marginRight=10dp
+app_CardcornerRadius=5dp
+app_CardElevation=0
+app_CardBackgroundColor=#ffffffff
+layout_gravity=center
+layout_margin=20dp
+elevation=10dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+</ppt>
+<event></event>
+</View>
+<View id="33" did="25" type="ImageView">
+<ppt>width=-1
+height=120dp
+src=@atp1.jpg
+layout_marginTop=1dp</ppt>
+<event></event>
+</View>
+<View id="37" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="35" did="37" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=left
+orientation=vertical
+layout_marginLeft=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="45" did="36" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="46" did="45" type="TextView">
+<ppt>width=-1
+height=-2
+text=一张(20元)
+textColor=#000000
+textSize=18sp
+layout_marginLeft=3dp
+layout_weight=1
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="51" did="36" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="52" did="51" type="TextView">
+<ppt>width=-1
+height=-2
+text=试用首选 不推荐购买..
+textSize=13sp
+layout_marginLeft=3dp
+layout_weight=1
+</ppt>
+<event></event>
+</View>
+<View id="64" did="35" type="CardView">
+<ppt>width=100dp
+height=33dp
+layout_marginRight=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#ffffffff
+layout_gravity=center
+layout_marginLeft=1dp
+</ppt>
+<event><eventItme type="clicki">javanew(ss.tc,"android.support.design.widget.BottomSheetDialog","Context",activity)
+//实例化底部弹窗类
+
+nvw(-1,null,"线性布局","width=-1\nheight=-1\norientation=vertical\nbackgroundcolor=0",载体)
+addv(载体,"zfbjz.iyu")
+syso(sss.nr)
+//加载载体界面
+
+java(null,ss.tc,"android.app.Dialog.setContentView","android.view.View",载体)
+//设置显示的内容
+
+java(null,ss.tc,"android.app.Dialog.setCancelable","boolean",true)
+//是否可以自动关闭，比如按返回键会不会关闭
+
+java(null,ss.tc,"android.app.Dialog.setCanceledOnTouchOutside","boolean",true)
+//点击弹窗外面是否可以关闭
+
+java(delegate,ss.tc,"com.google.android.material.bottomsheet.BottomSheetDialog")
+javags(id,null,"android.support.design.R$id","design_bottom_sheet")
+java(弹窗根控件,delegate,"android.support.v7.app.AppCompatDelegate.findViewById","int",id)
+us(弹窗根控件,"backgroundcolor",0)
+//去掉默认的白色背景
+
+java(null,ss.tc,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null) {
+  java(null,ss.tc,"android.app.Dialog.dismiss")
+  } 
+//弹窗被关闭时回调
+
+java(null,ss.tc,"android.app.Dialog.show")
+//显示弹窗
+
+javags(behavior,ss.tc,"android.support.design.widget.BottomSheetDialog","mBehavior")
+//反射取得behavior对象
+
+java(null,behavior,"android.support.design.widget.BottomSheetBehavior.setState","int",1)
+//设置状态</eventItme></event>
+</View>
+<View id="65" did="64" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#FF2C7BF2</ppt>
+<event><eventItme type="clicki">gvs(133,id)
+sss 选择多少卡券="1"  
+sss rmb=ss.一张卡
+us(65,"BackgroundColor","#ff00ad37")
+us(66,"text","已选择")
+us(79,"BackgroundColor","#FF2C7BF2")
+us(80,"text","选择")
+us(93,"BackgroundColor","#FF2C7BF2")
+us(94,"text","选择")
+ss 选择="1"
+us(115,"visibility","visible")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="66" did="65" type="TextView">
+<ppt>width=-2
+height=-2
+text=选择
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="67" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=#FFFFFFFF
+</ppt>
+<event></event>
+</View>
+<View id="68" did="67" type="CardView">
+<ppt>width=-1
+height=180dp
+layout_marginRight=10dp
+app_CardcornerRadius=5dp
+app_CardElevation=0
+app_CardBackgroundColor=#ffffffff
+layout_gravity=center
+layout_margin=20dp
+elevation=10dp</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="ImageView">
+<ppt>width=-1
+height=120dp
+src=@atp2.jpg
+layout_marginTop=1dp</ppt>
+<event></event>
+</View>
+<View id="71" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="72" did="71" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=left
+orientation=vertical
+layout_marginLeft=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="74" did="73" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="TextView">
+<ppt>width=-1
+height=-2
+text=十张(120元)
+textColor=#000000
+textSize=18sp
+layout_marginLeft=3dp
+layout_weight=1
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="76" did="73" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="TextView">
+<ppt>width=-1
+height=-2
+text=优惠必选 官方推荐.
+textSize=13sp
+layout_marginLeft=3dp
+layout_weight=1
+</ppt>
+<event></event>
+</View>
+<View id="78" did="72" type="CardView">
+<ppt>width=100dp
+height=33dp
+layout_marginRight=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#ffffffff
+layout_gravity=center
+layout_marginLeft=1dp
+</ppt>
+<event></event>
+</View>
+<View id="79" did="78" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#FF2C7BF2</ppt>
+<event><eventItme type="clicki">gvs(133,id)
+   
+   
+sss 选择多少卡券="10" 
+sss rmb=ss.十张卡
+us(79,"BackgroundColor","#ff00ad37")
+us(80,"text","已选择")
+us(65,"BackgroundColor","#FF2C7BF2")
+us(66,"text","选择")
+us(93,"BackgroundColor","#FF2C7BF2")
+us(94,"text","选择")
+ss 选择="1"
+us(115,"visibility","visible")
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="80" did="79" type="TextView">
+<ppt>width=-2
+height=-2
+text=选择
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="97" did="68" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="98" did="97" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@sq_list_biaoqian_tj.png
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="81" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=#FFFFFFFF
+</ppt>
+<event></event>
+</View>
+<View id="82" did="81" type="CardView">
+<ppt>width=-1
+height=180dp
+layout_marginRight=10dp
+app_CardcornerRadius=5dp
+app_CardElevation=0
+app_CardBackgroundColor=#ffffffff
+layout_gravity=center
+layout_margin=20dp
+elevation=10dp</ppt>
+<event></event>
+</View>
+<View id="83" did="82" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="ImageView">
+<ppt>width=-1
+height=120dp
+src=@atp3.jpg
+layout_marginTop=1dp</ppt>
+<event></event>
+</View>
+<View id="85" did="83" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="86" did="85" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="87" did="86" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=left
+orientation=vertical
+layout_marginLeft=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="89" did="88" type="TextView">
+<ppt>width=-1
+height=-2
+text=五十张(300元)
+textColor=#000000
+textSize=18sp
+layout_marginLeft=3dp
+layout_weight=1
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="90" did="87" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="91" did="90" type="TextView">
+<ppt>width=-1
+height=-2
+text=超级优惠 超级特惠.
+textSize=13sp
+layout_marginLeft=3dp
+layout_weight=1
+</ppt>
+<event></event>
+</View>
+<View id="92" did="86" type="CardView">
+<ppt>width=100dp
+height=33dp
+layout_marginRight=10dp
+app_CardcornerRadius=25dp
+app_CardElevation=0
+app_CardBackgroundColor=#ffffffff
+layout_gravity=center
+layout_marginLeft=1dp
+</ppt>
+<event><eventItme type="clicki">javanew(ss.tc,"android.support.design.widget.BottomSheetDialog","Context",activity)
+//实例化底部弹窗类
+
+nvw(-1,null,"线性布局","width=-1\nheight=-1\norientation=vertical\nbackgroundcolor=0",载体)
+addv(载体,"qqjz.iyu")
+syso(sss.nr)
+//加载载体界面
+
+java(null,ss.tc,"android.app.Dialog.setContentView","android.view.View",载体)
+//设置显示的内容
+
+java(null,ss.tc,"android.app.Dialog.setCancelable","boolean",true)
+//是否可以自动关闭，比如按返回键会不会关闭
+
+java(null,ss.tc,"android.app.Dialog.setCanceledOnTouchOutside","boolean",true)
+//点击弹窗外面是否可以关闭
+
+java(delegate,ss.tc,"com.google.android.material.bottomsheet.BottomSheetDialog")
+javags(id,null,"android.support.design.R$id","design_bottom_sheet")
+java(弹窗根控件,delegate,"android.support.v7.app.AppCompatDelegate.findViewById","int",id)
+us(弹窗根控件,"backgroundcolor",0)
+//去掉默认的白色背景
+
+java(null,ss.tc,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null) {
+  java(null,ss.tc,"android.app.Dialog.dismiss")
+  } 
+//弹窗被关闭时回调
+
+java(null,ss.tc,"android.app.Dialog.show")
+//显示弹窗
+
+javags(behavior,ss.tc,"android.support.design.widget.BottomSheetDialog","mBehavior")
+//反射取得behavior对象
+
+java(null,behavior,"android.support.design.widget.BottomSheetBehavior.setState","int",1)
+//设置状态</eventItme></event>
+</View>
+<View id="93" did="92" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#FF2C7BF2</ppt>
+<event><eventItme type="clicki">gvs(133,id)
+   
+   
+sss 选择多少卡券="50" 
+sss rmb=ss.五十张卡
+us(93,"BackgroundColor","#ff00ad37")
+us(94,"text","已选择")
+us(79,"BackgroundColor","#FF2C7BF2")
+us(80,"text","选择")
+us(65,"BackgroundColor","#FF2C7BF2")
+us(66,"text","选择")
+ss 选择="3"
+us(115,"visibility","visible")
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="94" did="93" type="TextView">
+<ppt>width=-2
+height=-2
+text=选择
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="115" did="22" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="116" did="115" type="TextView">
+<ppt>width=-2
+height=-2
+text=如何支付？
+textStyle=bold
+textColor=#ff000000
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="120" did="115" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="118" did="120" type="LinearLayout">
+<ppt>width=-2
+height=60dp
+orientation=vertical
+layout_weight=1
+layout_margin=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="121" did="118" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+app_CardcornerRadius=5dp
+</ppt>
+<event><eventItme type="clicki">f(sss.在线支付开关=="开")
+{
+  sss 支付内容="有"
+  utw(null,"","loading.iyu",false,v)
+  sss 会员充值="在充值"
+  ss(sss.payapi+"query.php?action=pay",充值一)
+ss("&money="+sss.rmb+"&des=账号："+sss.名称,充值二)
+t()
+{
+  hs(充值一, 充值二, "utf-8", null, true, sss.外链, b)
+  sj(b,"商户订单号：","&lt;/p&gt;",ss.订单号)
+  sj(b,"wapds\"&gt;&lt;a href=\"","\"",ss.wz)
+  ufnsui()
+  {
+    endutw()
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",ss.wz)
+uit(a, "chooser", "支付宝捐款")
+  }
+}
+}
+else
+{
+ s stop = 2000
+  s text="暂未开启在线充值，有问题请联系客服！"
+  fn color.ColorToast(text,stop) 
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="122" did="121" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ff0099ff
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="123" did="122" type="TextView">
+<ppt>width=-2
+height=-2
+text=支付宝
+textStyle=bold
+textSize=17sp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="129" did="120" type="LinearLayout">
+<ppt>width=-2
+height=60dp
+orientation=vertical
+layout_weight=1
+layout_marginTop=5dp
+layout_marginLeft=10dp
+layout_marginRight=5dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="130" did="129" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+app_CardcornerRadius=5dp
+</ppt>
+<event><eventItme type="clicki">f(sss.在线支付开关=="开")
+{
+  f(sss.支付宝充值了=="开")
+  {
+    sss 选择多少卡券=ss.选择
+  ug(206,"text",sss.充值金币数量)
+  sss 支付内容="有"
+  utw(null,"","loading.iyu",false,v)
+  sss 会员充值="在充值"
+  ss(sss.payapi+"query.php?action=pay",充值一)
+ss("&money="+sss.rmb+"&des=账号："+sss.名称,充值二)
+t()
+{
+  hs(充值一, 充值二, "utf-8", null, true, sss.外链, b)
+  sj(b,"商户订单号：","&lt;/p&gt;",ss.订单号)
+  sj(b,"wapds\"&gt;&lt;a href=\"","\"",ss.wz)
+  ufnsui()
+  {
+    endutw()
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",ss.wz)
+uit(a, "chooser", "支付宝捐款")
+  }
+}
+  }
+  else
+  {
+    s stop = 2000
+  s text="已经复制您的账户ID，直接填写充值即可！"
+  fn color.ColorToast(text,stop) 
+  sxb(sss.我的uid)
+  hws(sss.卡券充值地址)
+  sss 微信支付="是"
+  }
+}
+else
+{
+ s stop = 2000
+  s text="暂未开启在线充值，有问题请联系客服！"
+  fn color.ColorToast(text,stop) 
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+/.f(sss.在线支付开关=="开")
+{
+  uigo("支付.iyu")
+  sss 微信支付="no"
+}
+else
+{
+ s stop = 2000
+  s text="暂未开启在线充值，有问题请联系客服！"
+  fn color.ColorToast(text,stop) 
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="131" did="130" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#d0005ed9
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="132" did="131" type="TextView">
+<ppt>width=-2
+height=-2
+text=支付宝
+textStyle=bold
+textSize=17sp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="134" did="120" type="LinearLayout">
+<ppt>width=-2
+height=60dp
+orientation=vertical
+layout_weight=1
+layout_marginTop=5dp
+layout_marginLeft=5dp
+layout_marginRight=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="135" did="134" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+app_CardcornerRadius=5dp
+</ppt>
+<event><eventItme type="clicki">f(sss.在线支付开关=="开")
+{
+  s stop = 2000
+  s text="已经复制您的账户ID，直接填写充值即可！"
+  fn color.ColorToast(text,stop) 
+  sxb(sss.我的uid)
+  hws(sss.卡券充值地址)
+  sss 微信支付="是"
+}
+else
+{
+ s stop = 2000
+  s text="暂未开启在线充值，有问题请联系客服！"
+  fn color.ColorToast(text,stop) 
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="136" did="135" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ff00c103
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="137" did="136" type="TextView">
+<ppt>width=-2
+height=-2
+text=微信
+textStyle=bold
+textSize=17sp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="20" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#FFFFFFFF
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="10" did="20" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardBackgroundColor=#ffffffff
+layout_gravity=center
+layout_margin=10dp
+app_CardcornerRadius=5dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+BackgroundColor=#FFF4F9FF
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=为什么会有本功能？\n\n----------\n\n收到很多用户来反馈，只用一次功能，能不能便宜点，不充值一个月会员行不行？或者充了一个月会员我用不了那么久，一个月也就用一次，浪费了，一个月一充值，很麻烦，很浪费钱。\n\n所以我们添加了单次功能，比如用一次会员功能用一张会员卡也是可以的，并且次数没有时间限制，永久都是可以用的，有卡就可以用功能！\n那么好，现在功能上线了，有任何问题后续记得继续反馈.
+textSize=15sp
+textColor=#ff0066ff
+gravity=left
+textStyle=bold
+layout_margin=20dp</ppt>
+<event></event>
+</View>
+<View id="114" did="1" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+sss 选择多少卡券=""
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+us(28,"background",yg)
+s id=95
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(95,颜色)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(1,a)
+gvs(19,b)
+javanew(mBs,mB,"Context",activity)
+urvw(19)
+nvw(mBs,1)
+nvw(b,mBs)
+
+</eventItme><eventItme type="menu">/.case 支付宝充值:
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+break
+case 微信充值:
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">sj(sss.bs,"一张卡[","]",ss.一张卡)
+sj(sss.bs,"十张卡[","]",ss.十张卡)
+sj(sss.bs,"五十张卡[","]",ss.五十张卡)
+ss("一张卡("+ss.一张卡+"元)",一张卡)
+us(46,"text",一张卡)
+ss("十张卡("+ss.十张卡+"元)",十张卡)
+us(75,"text",十张卡)
+ss("五十张卡("+ss.五十张卡+"元)",五十张卡)
+us(89,"text",五十张卡)
+t()
+{
+  ss(sss.api+"Box/yhcx.php?name="+sss.名称,获取数据第二次)
+  hs(获取数据第二次,成功啦呀)
+  sj(成功啦呀,"APP读取【","】",sss.当前用户数据)
+  sj(sss.当前用户数据,"卡券(",")卡券",yc)
+  ufnsui()
+  {
+    f(yc==null||yc=="null"||yc&lt;"0"||yc=="")
+    {
+      us(107,"text","0")
+    }
+    else
+    {
+      us(107,"text",yc)
+    }
+  }
+}</eventItme><eventItme type="restart">utw(null,"","loading.iyu",false,v)
+{
+}
+t()
+{
+  f(sss.支付内容=="有")
+  {
+    s wz="lib/data.php?action=serve"
+    ss(sss.payapi+wz,wz)
+    ss("&gid="+ss.订单号,pa)
+    hs(wz,pa,"utf-8",支付状态)
+    f(支付状态?"支付成功")
+    {
+      uigo("卡券支付成功.iyu")
+      end()
+    }
+    else
+    {
+      ufnsui()
+      {
+        endutw()
+        utw(null,"温馨提示","检测到你未完成支付，是否继续进行支付？","支付","下次一定","支付未到账",true,vv)
+        {
+          sit(a,"action", "android.intent.action.VIEW")
+          sit(a,"data",ss.wz)
+          uit(a, "chooser", "支付宝充值")
+          endutw()
+        }
+        else
+        {
+          sss 支付内容="无"
+        }
+        else
+        {
+          f(sss.客服微信==null)
+          {
+            sxb("隐Box客服微信：grnb69")
+          }
+          else
+          {
+            ss("隐Box客服微信"+sss.客服微信,微信)
+            sxb(微信)
+          }
+          s stop = 2000
+          s text="已经复制客服微信~"
+          fn color.ColorToast(text,stop)
+          sss 支付内容="无"
+        }
+      }
+    }
+  }
+  else
+  {
+    endutw()
+  }
+}</eventItme></UIEventset>

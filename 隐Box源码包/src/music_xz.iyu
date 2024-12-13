@@ -1,0 +1,105 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+ut_below=2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=无下载内容……
+textstyle=bold</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="ListView">
+<ppt>width=-1
+height=-1
+ut_below=2</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="10" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="4" did="10" type="TextView">
+<ppt>width=-2
+height=-1
+text=长按即可删除
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(10,"background",yg)
+
+fl("$幻隐网络/music", false, music)
+ula(sss.music_list, null)
+  us(7, "visibility", "gone")
+  for(download;music)
+  {
+    f(download!=null&&download!="")
+    {
+      sj(download, null, "[", name)
+      sj(download, "[", "]", author)
+      f(name!=""&&name!=null)
+      {
+        ula(sss.music_list, 1=null, 2=null, 3=name, 4=null, 5=author)
+      }
+    }
+    else
+    {
+      us(7, "visibility", "visible")
+      break
+    }
+  }
+  uls(5, sss.music_list, "music_xzlb.iyu", -1, -1)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

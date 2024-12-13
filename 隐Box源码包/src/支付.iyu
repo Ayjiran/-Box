@@ -1,0 +1,241 @@
+<View id="399" did="0" type="CoordinatorLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="399" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="398" did="2" type="Toolbar">
+<ppt>width=-1
+height=-3
+background=white
+app_title=在线支付
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="407" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="400" did="407" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="408" did="400" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="401" did="408" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=10dp
+</ppt>
+<event></event>
+</View>
+<View id="402" did="401" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="412" did="402" type="ImageView">
+<ppt>width=150dp
+height=150dp
+src=
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="404" did="402" type="GifView">
+<ppt>width=150dp
+height=150dp
+src=@gif.gif
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="405" did="402" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐Box有你更美
+textColor=#ff000000
+textSize=16sp
+textStyle=bold
+layout_marginTop=20dp
+</ppt>
+<event></event>
+</View>
+<View id="406" did="402" type="TextView">
+<ppt>width=-2
+height=-2
+text=(html)在您支付前必须要知道的事情。&lt;br&gt;&lt;br&gt;1.支付时请&lt;font color="red"&gt;备注&lt;/font&gt;您的账户名称和要充值的物品(这样充值才不会充错账号)，但是不用担心，放心充值，充值错了的情况下客服也会给你补的。&lt;br&gt;&lt;br&gt;2.支付金额的时候请您输入要充值的金额，&lt;font color="blue"&gt;不可多不可少&lt;/font&gt;，否则可能充值不到账。&lt;br&gt;&lt;br&gt;3.如果支付5分钟后还未到账，请&lt;font color="blue"&gt;联系客服&lt;/font&gt;，让在线客服为您解决。&lt;br&gt;&lt;br&gt;4.有任何问题都可以联系客服解决哦~
+textSize=10sp
+textColor=#ff424242
+layout_marginRight=10dp
+layout_marginTop=20dp
+layout_marginLeft=10dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="409" did="408" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+layout_margin=15dp</ppt>
+<event></event>
+</View>
+<View id="411" did="409" type="Button">
+<ppt>width=-2
+height=-1
+text=支付宝
+layout_weight=1
+background=#d0005ed9
+textSize=16dp
+textColor=#ffffffff
+</ppt>
+<event><eventItme type="clicki">gvs(399,id)
+ 
+ 
+ 
+
+us(404,"visibility","visible")
+us(412,"visibility","gone")
+
+t()
+{
+  call(img,"mjava","Http.getInternetPicture",sss.支付宝付款)
+  ufnsui()
+  {
+    us(412,"src",img)
+    us(412,"visibility","visible")
+    us(411,"visibility","gone")
+    us(410,"layout_weight","1")
+    us(404,"visibility","gone")
+    us(410,"visibility","visible")
+    us(410,"layout_marginLeft","0dp")
+    us(405,"text","支付宝付款")
+    us(405,"textcolor","#d0005ed9")
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="410" did="409" type="Button">
+<ppt>width=100dp
+height=-1
+text=微信
+background=#c0009912
+textSize=16dp
+textColor=#ffffff
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">gvs(399,id)
+ 
+ 
+ 
+
+us(404,"visibility","visible")
+us(412,"visibility","gone")
+t()
+{
+  call(img,"mjava","Http.getInternetPicture",sss.微信付款)
+  ufnsui()
+  {
+    us(412,"src",img)
+    us(404,"visibility","gone")
+    us(412,"visibility","visible")
+    us(410,"visibility","gone")
+    us(411,"visibility","visible")
+    us(405,"text","微信付款")
+    us(405,"textcolor","#c0009912")
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(388,a)
+gvs(19,b)
+javanew(mBs,mB,"Context",activity)
+urvw(19)
+nvw(mBs,388)
+nvw(b,mBs)</eventItme><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+f(sss.微信支付=="no")
+{
+}
+else
+{
+  gvs(399,id)
+   
+   
+   
+  us(409,"visibility","gone")
+  us(404,"visibility","visible")
+  us(412,"visibility","gone")
+  t()
+  {
+    call(img,"mjava","Http.getInternetPicture",sss.微信付款)
+    ufnsui()
+    {
+      us(412,"src",img)
+      us(404,"visibility","gone")
+      us(412,"visibility","visible")
+      us(410,"visibility","gone")
+      us(411,"visibility","visible")
+      us(405,"text","微信付款")
+      us(405,"textcolor","#c0009912")
+    }
+  }
+}
+s id=398
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(398,颜色)</eventItme><eventItme type="restart">fr("%Android/xianzhi/yxfx.txt",a)
+ss("当前积分："+a,b)
+us(175,"text",b)</eventItme></UIEventset>

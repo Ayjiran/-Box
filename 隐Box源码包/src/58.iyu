@@ -1,0 +1,25 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="Button">
+<ppt>width=-1
+height=-1
+text=按钮2</ppt>
+<event><eventItme type="clicki">
+fn mlul.a()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

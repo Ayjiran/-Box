@@ -1,0 +1,42 @@
+<View id="5" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=black
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="5" type="VideoView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">bfvs(3,sss.dz)
+bfvss(3,"st")
+bfvss(3,"media", c)
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">t()
+{
+w(true)
+{
+bfvss(3, "ip", c)
+f(c=="false")
+{
+  ufnsui()
+  {
+bfvss(3, "st")
+  }
+}
+else
+{
+  ufnsui()
+  {
+   bfvss(3, "cn",sss.nr)
+     }
+}
+stop(100)
+}
+}</eventItme></UIEventset>

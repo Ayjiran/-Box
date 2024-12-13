@@ -1,0 +1,464 @@
+<View id="54" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=加载中…
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="55" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="53" did="55" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="52" did="53" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="1" did="52" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=white
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="91" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=230dp</ppt>
+<event></event>
+</View>
+<View id="49" did="91" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=10dp
+layout_marginRight=10dp
+BackgroundColor=#fff7f7f7
+layout_marginTop=10dp
+layout_marginBottom=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：\n作者提倡大家理性购物，合理消费，虚拟产品拒绝无理由退款退货，考虑好了再下单，东西肯定是没有问题，但是还是要说！
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#ff585858
+textIsSelectable=true
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="56" did="91" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=right
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="TabLayout">
+<ppt>width=-2
+height=-2
+app_tabList=基本介绍
+tabSelect=0
+app_tabIndicatorColor=#ff008cff
+app_tabIndicatorHeight=3.5dp
+app_tabTextColor=#80000000||#ff008cff
+app_tabMode=0
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="51" did="91" type="ImageView">
+<ppt>width=-1
+height=180dp
+src=@IMG_20210122_223154.png
+visibility=gon
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="92" did="91" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=left</ppt>
+<event></event>
+</View>
+<View id="79" did="92" type="CardView">
+<ppt>width=-2
+height=50dp
+app_CardcornerRadius=150dp
+app_CardElevation=-10dp
+layout_marginTop=160dp
+layout_marginRight=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="83" did="79" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="TextView">
+<ppt>width=-2
+height=-2
+text=¥
+textColor=#c1c20000
+textSize=15sp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="85" did="83" type="TextView">
+<ppt>width=-2
+height=-2
+text=16.8
+textStyle=bold
+textColor=#c1c20000
+textSize=30sp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="93" did="91" type="TextView">
+<ppt>width=-2
+height=-2
+text=销量
+ut_alignParentBottom=true
+textColor=#b5000000
+textSize=12sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="94" did="91" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+ut_alignParentBottom=true
+textColor=#b5000000
+textSize=12sp
+ut_toRightOf=93</ppt>
+<event></event>
+</View>
+<View id="95" did="91" type="TextView">
+<ppt>width=-2
+height=-2
+text=+
+ut_alignParentBottom=true
+textColor=#b5000000
+textSize=12sp
+ut_toRightOf=94</ppt>
+<event></event>
+</View>
+<View id="65" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="68" did="65" type="TextView">
+<ppt>width=-2
+height=-2
+text=商品标题加载中…
+layout_marginLeft=10dp
+layout_marginTop=5dp
+textStyle=bold
+textColor=#ff000000
+textSize=22sp
+typeface=@d4.ttf</ppt>
+<event></event>
+</View>
+<View id="72" did="65" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#ff797979
+layout_marginLeft=10dp
+layout_marginTop=5dp
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="69" did="65" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=10dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@abv/ysf_ic_leave_msg_success.png
+</ppt>
+<event></event>
+</View>
+<View id="71" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=购买承诺：秒发货-不欺诈-保证金已缴纳
+layout_marginLeft=5dp
+textColor=#8e000000
+textSize=12sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="74" did="65" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#ff797979
+layout_marginLeft=10dp
+layout_marginTop=5dp
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="96" did="65" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=10dp
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">ss(sss.api+"tk.html",tk)
+sss wz=tk
+uigo("广告.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="97" did="96" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@v/ruv.v</ppt>
+<event></event>
+</View>
+<View id="98" did="96" type="TextView">
+<ppt>width=-2
+height=-2
+text=虚拟产品不支持七天无理由？
+layout_marginLeft=5dp
+textColor=#8e000000
+textSize=12sp
+ellipsize=end
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="100" did="96" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@chevron right998.png
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="99" did="65" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#ff797979
+layout_marginLeft=10dp
+layout_marginTop=5dp
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="101" did="65" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=2dp
+</ppt>
+<event></event>
+</View>
+<View id="102" did="101" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="89" did="102" type="TextView">
+<ppt>width=-2
+height=-2
+text=介绍加载中…
+layout_margin=10dp
+textColor=#ff000000
+textSize=15sp
+</ppt>
+<event></event>
+</View>
+<View id="90" did="65" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center
+layout_marginBottom=50dp
+</ppt>
+<event></event>
+</View>
+<View id="87" did="90" type="CardView">
+<ppt>width=-2
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=8dp
+app_CardElevation=1dp
+</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="ImageView">
+<ppt>width=-1
+height=-2
+src=</ppt>
+<event></event>
+</View>
+<View id="58" did="55" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="59" did="58" type="CardView">
+<ppt>width=-2
+height=40dp
+app_CardcornerRadius=10dp
+layout_marginLeft=5dp
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical
+background=#93ff0101</ppt>
+<event><eventItme type="clicki">s a = null
+s b = "分享商品"
+ss("【"+sss.商品名字+"】"+sss.商城网址+"?mod=buy&tid=1\n\n或者下载隐Box，更多功能等你来体验~\n隐Box新版下载地址：www.ayjrw.cn(复制到浏览器打开)",c)
+s d = "分享"
+s e = "取消"
+
+utw(a, b, c, d, e, false, v)
+{
+sit(a, "action", "android.intent.action.SEND")
+sit(a, "type", "text/plain")
+//sit(a,"classname","com.tencent.mobileqq", "com.tencent.mobileqq.activity.JumpActivity")
+sit(a, "extra", "android.intent.extra.TEXT",c)
+uit(a, "chooser", "请分享到200人以上的群")
+}
+else
+{
+syso("点击了取消")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="61" did="60" type="TextView">
+<ppt>width=-2
+height=-2
+text=分享一下
+textStyle=bold
+textSize=16sp
+textColor=#ffffffff
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="62" did="58" type="CardView">
+<ppt>width=-2
+height=40dp
+app_CardcornerRadius=10dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="63" did="62" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical
+background=#9f00aeff</ppt>
+<event><eventItme type="clicki">uigo("购买界面.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="64" did="63" type="TextView">
+<ppt>width=-2
+height=-2
+text=现在购买
+textStyle=bold
+textSize=16sp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=54
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+ngde(0,0,"#a5009300|#a505c505|#a500c4ff","17301524","leftright",a)
+us(60,"background",a)
+ngde(0,0,"#a500c8ff|#a50f5ebd|#a51e0fbd","17301524","leftright",a)
+us(63,"background",a)
+us(54,"app_title",sss.商品名字)
+us(68,"text",sss.商品名字)
+us(85,"text",sss.商品金额)
+us(51,"src",sss.商品图片)
+us(88,"src",sss.商品图片)
+us(89,"text",sss.商品介绍)
+us(94,"text",sss.商品销量)
+
+gvs(81, 浏览器对象)
+java(浏览器属性, 浏览器对象, "android.webkit.WebView.getSettings")
+java(null, 浏览器属性, "android.webkit.WebSettings.setBuiltInZoomControls","boolean", false)
+gvs(51,a)
+call(null,"mjava","图片跳转.set",a)</eventItme><eventItme type="destroy">sss 游戏="不"</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(53,a)
+gvs(52,b)
+javanew(mBs,mB,"Context",activity)
+urvw(52)
+nvw(mBs,53)
+nvw(b,mBs)</eventItme><eventItme type="menu">case 投诉举报:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

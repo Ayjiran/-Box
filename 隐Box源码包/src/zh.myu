@@ -1,0 +1,175 @@
+fn zh(sss.名称,密码)
+f(sss.名称=="游客")
+{
+  sss 游客="是"
+  fw("$幻隐网络/.v/xjf.yx","00000000000000")
+  sss 简介="简介：我是一只小金鱼~"
+  uigo("zhu.iyu")
+  end()
+}
+else
+{
+  t()
+  {
+    time("Y",a)
+    time("m",m)
+    time("d",D)
+    time("H",e)
+    time("M",l)
+    time("S",v)
+    ss(a+m+D+e+l+v,sss.dqsj)
+    sss name=sss.名称
+    ss("user="+sss.名称+"&pass="+密码,post)
+    ss(sss.api+"?user/login.html",tj)
+    ss(sss.api+"Box/yhcx.php?name="+sss.名称,wz)
+    hs(wz,nr)
+    sj(nr,"APP读取【","】",sss.当前用户数据)
+    sj(sss.当前用户数据,"uid(",")uid",sss.我的uid)
+    sj(sss.当前用户数据,"保证金(",")保证金",sss.用户保证金)
+    s nr=sss.当前用户数据
+    sj(nr,"绑定QQ(",")绑定QQ",sss.绑定的QQ)
+    sj(nr,"名(",")名",sss.名称)
+    sr(sss.名称,"A","a",sss.名称)
+    sr(sss.名称,"B","b",sss.名称)
+    sr(sss.名称,"C","c",sss.名称)
+    sr(sss.名称,"D","d",sss.名称)
+    sr(sss.名称,"E","e",sss.名称)
+    sr(sss.名称,"F","f",sss.名称)
+    sr(sss.名称,"G","g",sss.名称)
+    sr(sss.名称,"H","h",sss.名称)
+    sr(sss.名称,"I","i",sss.名称)
+    sr(sss.名称,"J","j",sss.名称)
+    sr(sss.名称,"K","k",sss.名称)
+    sr(sss.名称,"L","l",sss.名称)
+    sr(sss.名称,"M","m",sss.名称)
+    sr(sss.名称,"N","n",sss.名称)
+    sr(sss.名称,"O","o",sss.名称)
+    sr(sss.名称,"P","p",sss.名称)
+    sr(sss.名称,"Q","q",sss.名称)
+    sr(sss.名称,"R","r",sss.名称)
+    sr(sss.名称,"S","s",sss.名称)
+    sr(sss.名称,"T","t",sss.名称)
+    sr(sss.名称,"U","u",sss.名称)
+    sr(sss.名称,"N","n",sss.名称)
+    sr(sss.名称,"W","w",sss.名称)
+    sr(sss.名称,"X","x",sss.名称)
+    sr(sss.名称,"Y","y",sss.名称)
+    sr(sss.名称,"Z","z",sss.名称)
+    sj(nr,"性别(",")性别",sss.性别)
+    sj(nr,"绑定QQ(",")绑定QQ",sss.绑定的key)
+    sj(nr,"绑定QQ名称(",")绑定QQ名称",sss.绑定QQ名称)
+    sj(nr,"QQ号(",")QQ号",sss.QQ)
+    sj(nr,"会员(",")会员",会员)
+    sj(nr,"封号(",")封号",封号了吗)
+    sss 我的会员=会员
+    sj(nr,"简介(",")简介",简介)
+    f(简介==""||简介==null)
+    {
+      sss 简介="简介：还没有自定义过签名的哦~"
+    }
+    else
+    {
+      sss 简介=简介
+    }
+    sj(nr,"性别(",")性别",sss.性别)
+    sj(nr,"注册时间(",")注册时间",注册时间)
+    ss(sss.api+"Box/ip.php",地址)
+    hs(地址,sss.ip)
+    hs(tj, post, "utf-8", null, true, sss.外链, b)
+    sj(b,"&lt;title&gt;","&lt;/title&gt;",text)
+    strim(text,text)
+    sr(text,"\"","",登录)
+    sj(sss.当前用户数据,"会员(",")会员",判断卡券)
+    ufnsui()
+    {
+      f(sss.dqsj&gt;判断卡券)
+      {
+        sss 判断卡券="判断"
+      }
+      else
+      {
+        sss 判断卡券="滚"
+      }
+      f(注册时间?"-")
+      {
+        sss 注册时间=注册时间
+      }
+      else
+      {
+        sss 注册时间="出生日期未知"
+      }
+      f(sss.当前用户数据?sss.名称)
+      {
+        t()
+        {
+          
+          f(登录?"成功"||登录?"您已登录")
+          {
+            fw("$幻隐网络/记录/名字.txt",sss.名称)
+            f(sss.简介=="无简介")
+            {
+              fw("$幻隐网络/.yxkj/qm.txt","简介：这个人很懒，并未留下签名.")
+              sss 简介="简介：这个人很懒，并未留下签名."
+            }
+            else
+            {
+              fw("$幻隐网络/.yxkj/qm.txt",sss.简介)
+            }
+            fw("$幻隐网络/.v/xjf.yx",会员)
+            fr("$幻隐网络/记录/时间.txt",会员)
+            f(sss.dqsj&gt;sss.我的会员)
+              {
+                s wj="$幻隐网络/.v/xjf.yx"
+                fd(wj,b)
+              }
+              else
+              {
+                sss topon广告="关闭"
+              }
+              f(封号了吗=="广告")
+              {
+                sss 广告会员="是"
+                sss topon广告="关闭"
+              }
+              else
+              {
+              }
+            uigo("zhu.iyu")
+            end()
+          }
+          else
+          {
+            f(登录?"不符合规则")
+            {
+              s text = "请重新登录"
+              stop(2000)
+              fn color.ColorToast(text,stop)
+              fd("$幻隐网络/使用",sc)
+              uigo("第一次.iyu")
+              end()
+            }
+            else
+            {
+              s text = "请重新登录"
+              stop(2000)
+              fn color.ColorToast(text,stop)
+              fd("$幻隐网络/使用",sc)
+              uigo("第一次.iyu")
+              end()
+            }
+          }
+        }
+      }
+      else
+      {
+        stop(2000)
+        s text="出现未知问题，请重新登陆。"
+        fn color.ColorToast(text,stop)
+        fd("$幻隐网络/使用",sc)
+        uigo("第一次.iyu")
+        end()
+      }
+    }
+  }
+}
+end fn

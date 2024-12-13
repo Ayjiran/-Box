@@ -1,0 +1,5 @@
+fn QrCodeScan(Image)
+ss _QrCodeScan
+uqr(Image , Result)
+ss _QrCodeScan = Result
+end fn

@@ -1,0 +1,122 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+gravity=center_vertical
+background=white
+BackgroundRipple=#ffffff</ppt>
+<event>
+
+<eventItme type="clicki">ulag(st_vW,4,mz)
+ulag(st_vW,5,dz)
+ss("隐Box消费记录：《"+mz+"》"+dz,ii)
+sxb(ii)
+s text="已复制消费详情"
+s stop = 2000
+fn color.ColorToast(text,stop)</eventItme></event>
+</View>
+<View id="7" did="1" type="RelativeLayout">
+<ppt>width=20dp
+height=-1
+layout_marginleft=3dp</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=0.8dp
+height=-1
+text=
+background=#ff84deff
+ut_centerinparent=true</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="7" type="TextView">
+<ppt>width=8dp
+height=8dp
+text=
+ut_centerinparent=true
+backgroundcolor=#ff00a9ff</ppt>
+<event>
+</event>
+</View>
+<View id="13" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=131dp
+background=#ff00a9ff
+layout_margin=5dp</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+backgroundripple=#FF009999
+ut_centerinparent=true
+background=white
+layout_marginleft=0.5dp
+layout_marginright=1dp
+layout_margintop=0.5dp
+layout_marginbottom=1dp</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-1
+height=-2
+text=消费记录
+textsize=15dp
+textcolor=#ad000000
+layout_margintop=8dp
+layout_marginleft=10dp
+singleline=true
+ellipsize=middle
+typeface=sans</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="3" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+background=#ff00a9ff
+layout_margintop=5dp
+layout_marginleft=5dp
+layout_marginright=5dp</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-1
+height=-2
+text=您未在本App内消费一分钱( ‘-ωก̀ )
+textsize=10dp
+textcolor=#ff6e6e6e
+gravity=bottom
+singleline=true
+ellipsize=end
+layout_marginleft=3dp
+layout_margintop=20dp
+typeface=monospace
+singleLine=false</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+
+<eventItme type="loading">gvs(st_vW,ymlb.11,gvs)
+dhr(dh, 0, 360, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 1000)
+dh(dh, "repeat", 3)
+us(gvs,"dh",dh)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

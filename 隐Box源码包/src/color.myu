@@ -1,0 +1,19 @@
+fn ColorToast(text,stop)
+fr("$幻隐网络/提醒.txt",i)
+f(i=="横条")
+{
+tw(text)
+}
+else f(i=="简美")
+{
+fn janz.tw(text,2)
+}
+else f(i=="鲜明")
+{
+fn MD提示.tw(text)
+}
+else
+{
+tw(text)
+}
+end fn

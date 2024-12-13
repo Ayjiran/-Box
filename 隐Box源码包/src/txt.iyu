@@ -1,0 +1,141 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#ff0095a3</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="11" did="4" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="12" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=text查看
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+</ppt>
+<event></event>
+</View>
+<View id="15" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="14" did="4" type="ImageView">
+<ppt>width=50dp
+height=-1
+src=@clearing_image.v
+padding=10dp</ppt>
+<event><eventItme type="clicki">s a =
+s c = "是否保存编辑的文件？"
+s d = "保存"
+s e = "取消"
+
+//三个按钮
+//输入图标，输入标题，输入内容，输入按钮sss.名称，输入按钮sss.名称，输入按钮sss.名称，输入是否点击弹窗以外界面是否关闭弹窗，输入赋值变量
+utw(a,sss.jj, c, d, e, false, v)
+{
+  ug(9,"text",kk)
+fw(sss.wj,kk)
+ s text="保存成功"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+}</eventItme></event>
+</View>
+<View id="13" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="17" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="17" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+focusable=true
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+gravity=top
+background=#ffffff
+textcursordrawable=#ff0095a3
+textsize=13sp
+hint=一无所有
+textcolorhint=#ff0093ff
+padding=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">fr("$幻隐网络/配置/yx.txt",yg)
+us(4,"background",yg)
+uycl("#ff00bfff",true)
+f(sss.kk?"吐槽")
+{
+us(9,"text",sss.we)
+us(12,"text",sss.wj)
+us(14,"visibility","gone")
+}
+else
+{
+sj(sss.wj,"幻隐网luo/",null,sss.jj)
+us(12,"text",sss.jj)
+fr(sss.wj,uu)
+us(9,"text",uu)
+}
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

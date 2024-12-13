@@ -1,0 +1,265 @@
+<View id="78" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=透明头像
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=100dp
+height=100dp
+orientation=vertical
+layout_gravity=center_horizontal
+BackgroundColor=#ffffffff
+layout_marginTop=30dp
+elevation=5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="10" did="4" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@ui/lr.v
+layout_margin=0</ppt>
+<event></event>
+</View>
+<View id="28" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=5dp
+layout_margin=15dp
+BackgroundColor=#ffffffff
+elevation=2dp</ppt>
+<event></event>
+</View>
+<View id="57" did="28" type="TextView">
+<ppt>width=-2
+height=-2
+text=图像大小：
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="58" did="28" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_marginTop=10dp
+progress=60</ppt>
+<event><eventItme type="onprogresschanged2">//计算
+s(st_nS/1.2,s)
+zdp(s,s)
+us(10,"width",s)
+us(10,"height",s)</eventItme></event>
+</View>
+<View id="29" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="25" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=透明程度：
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="26" did="29" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_marginTop=10dp
+progress=100</ppt>
+<event><eventItme type="onprogresschanged2">f(sss.paths==null)
+{
+  sss paths="@ic_yq.v" 
+}
+sbp(sss.paths,图片)
+//载入图片
+tcc(图片,"w",宽)
+tcc(图片,"h",高)
+//获取宽高
+javags(ARGB_8888,null,"android.graphics.Bitmap$Config","ARGB_8888")
+java(空白图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",ARGB_8888)
+//创建新图片
+javanew(画布,"android.graphics.Canvas","android.graphics.Bitmap",空白图片)
+javanew(画笔,"android.graphics.Paint")
+javags(STROKE,null,"android.graphics.Paint$Style","STROKE")
+//空心
+java(null,画笔,"android.graphics.Paint.setStyle","android.graphics.Paint$Style",STROKE)
+//透明度0-100
+java(null,画笔,"android.graphics.Paint.setAlpha","int",st_nS)
+java(null,画布,"android.graphics.Canvas.drawBitmap","android.graphics.Bitmap",图片,"float",0,"float",0,"android.graphics.Paint",画笔)
+us(10,"src",空白图片)
+
+  }</eventItme></event>
+</View>
+<View id="54" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=10dp
+layout_margin=15dp
+elevation=2dp
+BackgroundColor=#ffffffff</ppt>
+<event><eventItme type="clicki">javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+java(c,it,"android.content.Intent.setType","String","image/*")
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+
+</eventItme></event>
+</View>
+<View id="55" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=选择图片
+layout_marginLeft=5dp
+textColor=#ff171717</ppt>
+<event></event>
+</View>
+<View id="56" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=点击选择
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="79" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="59" did="79" type="Button">
+<ppt>width=-1
+height=-2
+text=保存
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=10dp
+textColor=#ffffffff
+background=#ff00bfff
+layout_weight=1</ppt>
+<event><eventItme type="clicki">time(4,time)
+ss("/幻隐网luo/透明头像"+time+".png",png)
+t()
+{
+tot(10,a)
+bfs(a,100,png)
+ufnsui()
+{
+s text="保存成功"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+}</eventItme></event>
+</View>
+<View id="63" did="79" type="Button">
+<ppt>width=-1
+height=-2
+text=查看已生成头像
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=10dp
+textColor=#ffffffff
+background=#ff00bfff
+layout_weight=1</ppt>
+<event><eventItme type="clicki">utw(null,"","Emojilist.iyu",false,sss.utw)
+gvs(sss.utw,4,k1)
+gvs(sss.utw,6,k2)
+t()
+{
+fl("幻隐网luo/",il)
+s x = 0
+for(li;il)
+{
+  syso(li)
+f(li?"png")
+{
+ss("幻隐网luo/"+li,n)
+fs(n,m)
+ss(m+"KB",fs)
+ula(list,3=li,4=fs)
+s+(1,x)
+}
+}
+f(x&gt;0)
+{
+ufnsui()
+{
+us(k2,"visibility","gone")
+uls(k1,list,"list1.iyu",-1,-2)
+}
+}
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="onactivityresult">javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+    us(10, "src", path)
+    sss paths=path
+  }
+else f(st_sC==3)
+{
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+    us(10, "src", path)
+    sss paths=path
+}
+}</eventItme><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+ 
+s id=78
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(59,颜色)
+fn 着色.控件着色(63,颜色)
+fn 着色.控件着色(5,颜色)
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

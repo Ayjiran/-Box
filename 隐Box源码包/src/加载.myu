@@ -1,0 +1,124 @@
+fn 图片(img,url)
+javax(fh,null,sss.c,"with","Context",activity) 
+javax(fh1,fh,sss.c,"load","String",url)
+javax(null,fh1,sss.c1,"into","android.widget.ImageView",img)
+end fn
+
+fn 打开(id)
+ufnsui()
+{
+  utw(null,"","load.iyu",false,v)
+}
+ula(sss.chaplist,null)
+s url1="https://i1.joucus-tj.com"
+s host="https://m.zuozuoa.com"
+s ho="/home/api/chapter_list/tp/"
+s i=1
+s j=1
+ss(host+ho+id,urlh)
+t()
+{
+  w(true)
+  {
+     ss("-"+i+"-"+j+"-10",la)
+     ss(urlh+la,url)
+     s+(1,j)
+     hs(url,"","utf-8",bate)
+     json(bate,jo)
+     json(jo,"get","code",code)
+     f(code==0||code=="0")
+     {
+       break
+     }
+     json(jo,"get","result",result)
+     json(result,jo)
+     json(jo, "list", "list", list)
+     json(list, "size", size)
+     f(j==2)
+     {
+       w(size&gt;0)
+      {
+         s-(1,size)
+         ula(sss.chaplist,1=null,2="",3=null,4=null,5=null)
+      }
+       ula(sss.chaplist,"list",chpl)
+       dslist(chpl,-1)
+     }
+     json(list,"size",size)
+     s(j-2,temp)
+     s(temp*10,temp)   
+     w(size&gt;0)
+     {
+        s-(1,size) 
+        json(list,"data",size,item)
+       json(item,"get","title",title)
+        json(item,"get","image",image)
+        json(item,"get","imagelist",imagelist)
+        ss(url1+image,image)
+        s ls=null
+        ula(ls,1=null,2="",3=title,4=image,5=imagelist)
+        ula(ls,"list",lsit)
+        gslist(lsit,0,lsitem)
+        aslist(chpl,lsitem,temp)   
+     }   
+  }
+endutw()
+uigo("cha.iyu")
+}
+end fn
+
+fn 推荐()
+ula(sss.adlist,null)
+s host="https://m.zuozuoa.com"
+s ur="https://i1.joucus-tj.com"
+s url1="/home/api/getjphc.html"
+s str1="limit=10&fz=1&type=1"
+s url2="/home/api/getcnxh.html"
+s str2="limit=10&type=1"
+ss(host+url1,url)
+t()
+{
+  hs(url,str1,"utf-8",bak)
+  call(baj,"mjava","re.unicodeDecode",bak)
+  json(baj,jo)
+  json(jo, "list", "data", list)
+  json(list, "size", size)
+  w(size &gt; 0)
+  {
+     s-(1, size)
+     json(list, "data", size, item)    
+     json(item,"get","id",id)
+     json(item,"get","title",title)
+     json(item,"get","desc",desc)
+     json(item,"get","image",image)
+     json(item,"get","auther",auther)
+     json(item,"get","last_chapter_title",last_ch)
+     ss(ur+image,image)
+     ula(sss.adlist,1=null,9=id,3=title,5=desc,7=auther,6=last_ch,8=image)
+  }
+
+  ss(host+url2,url)
+  hs(url,str2,"utf-8",bak)
+  call(baj,"mjava","re.unicodeDecode",bak)
+  json(baj,jo)
+  json(jo, "list", "data", list)
+  json(list, "size", size)
+  w(size &gt; 0)
+  {
+     s-(1, size)
+     json(list, "data", size, item)    
+     json(item,"get","id",id)
+     json(item,"get","title",title)
+     json(item,"get","desc",desc)
+     json(item,"get","image",image)
+     json(item,"get","auther",auther)
+     json(item,"get","last_chapter_title",last_ch)
+     ss(ur+image,image)
+     ula(sss.adlist,1=null,9=id,3=title,5=desc,7=auther,6=last_ch,8=image)
+  }
+  ufnsui()
+  {
+    uls(10,sss.adlist,"piclist.iyu",-1,-2)
+  }
+}
+end fn

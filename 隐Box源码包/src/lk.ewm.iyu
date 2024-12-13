@@ -1,0 +1,238 @@
+<View id="41" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=二维码生成
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff
+ps=君常笑QQ:670168898
+ps=本源码禁止泛滥</ppt>
+<event></event>
+</View>
+<View id="40" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="6" did="40" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="22" did="6" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=50dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="24" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#EEEEEE
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="33" did="24" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#EEEEEE</ppt>
+<event></event>
+</View>
+<View id="29" did="34" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@junhe.png
+adjustViewBounds=true
+scrollbars=horizontal</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+layout_marginBottom=-20dp
+layout_marginTop=-10dp</ppt>
+<event></event>
+</View>
+<View id="7" did="8" type="EditText">
+<ppt>width=-1
+height=45dp
+text=
+hint=请输入内容
+gravity=center_vertical
+textColor=#757575
+textSize=16sp
+layout_margin=20dp
+textCursorDrawable=#000000
+singleLine=true
+padding=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="12" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=10dp
+layout_marginBottom=200dp</ppt>
+<event></event>
+</View>
+<View id="14" did="12" type="CardView">
+<ppt>width=-2
+height=45dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_margin=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#4A89FD
+BackgroundRipple=#FFFFFF</ppt>
+<event><eventItme type="clicki">us(7,"cursorVisible","false")
+ug(7,"text",a)
+f(a=="")
+{
+  tw("请输入内容!")
+  ngde(3,10,"#50FFFFFF","#F44336",a)
+  us(7,"background",a)
+  us(7,"textcolor","#F44336")
+  us(7,"textcolorhint","#F44336")
+}
+else
+{
+uqr(a,1000,b)
+ufnsui()
+
+{
+  us(29,"src",b)
+}
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=生成
+textColor=#ffffffff
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="30" did="12" type="CardView">
+<ppt>width=-2
+height=45dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_margin=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#4A89FD
+BackgroundRipple=#FFFFFF</ppt>
+<event><eventItme type="clicki">ug(7,"text",二维码)
+tot(29, 壁纸)
+ss("幻隐网luo/"+二维码+"二维码.png",地址)
+bfs(壁纸, 100, 地址)
+s stop = 2000
+s text="保存成功~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="32" did="31" type="TextView">
+<ppt>width=-2
+height=-2
+text=保存
+textColor=#ffffffff
+textSize=16sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+t()
+{
+uqr("隐Box 感谢使用！",1000,b)
+ufnsui()
+{
+  us(29,"src",b)
+}
+}
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(1,a)
+gvs(40,b)
+javanew(mBs,mB,"Context",activity)
+urvw(40)
+nvw(mBs,1)
+nvw(b,mBs)
+s id=41
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(3,颜色)
+fn 着色.控件着色(6,颜色)
+fn 着色.控件着色(15,颜色)
+fn 着色.控件着色(31,颜色)
+ngde("4","10","#00000000",颜色,背景)
+us(7,"background",背景)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

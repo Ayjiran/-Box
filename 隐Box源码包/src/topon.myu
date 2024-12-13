@@ -1,0 +1,82 @@
+fn 初始化()
+f(sss.开始初始化 == null)
+{
+  sss 开始初始化 = "1"
+  s 你的TopOnAppID = "a659506d136b47"
+  s 你的TopOnAppKey = "ad71e518afd4ff717ade91200c498bd2c"
+  zj(返回赋值变量, "top初始化", "String", 你的TopOnAppID, "String", 你的TopOnAppKey)
+  
+  sss 激励广告位="b66544107033c6"
+  sss 插屏广告位="b665441101bf3f"
+  sss 横幅广告位="b6654410784a91"
+  sss 开屏广告位="b6654410865bb2"
+  // 预加载
+  zj(sss.激励广告对象, "top加载激励广告并播放", "String", sss.激励广告位, "boolean", false)
+  zj(sss.激励广告对象, "top加载插屏广告并播放", "String", sss.插屏广告位, "boolean", false)
+  zj(sss.激励广告对象, "top加载插屏广告并播放", "String", sss.横幅广告位, "boolean", false)
+  zj(sss.激励广告对象, "top加载插屏广告并播放", "String", sss.开屏广告位, "boolean", false)
+  
+}
+end fn
+
+fn 展示激励广告()
+f(sss.开始初始化 == null)
+{
+  fn topon.初始化()
+}
+// 初始化值
+sss top激励_onReward_atAdInfo = null
+zj(sss.激励广告对象, "top加载激励广告并播放", "String",sss.激励广告位, "boolean", true)
+f(sss.激励广告对象 ==  null)
+{
+  tw("未加载完成..请稍后重试！")
+}else
+{
+  t()
+  {
+    s i2 = 0
+    w(sss.top激励_onReward_atAdInfo == null)
+    {
+      s+(1, i2)
+      stop(500)
+      f(i2 &gt; 200)
+      {
+        endcode
+      }
+    }
+    ufnsui()
+    {
+      tw("这里可以发放奖励了")
+    }
+  }
+}
+end fn
+
+
+fn 展示插屏广告()
+f(sss.开始初始化 == null)
+{
+  fn topon.初始化()
+}
+
+zj(sss.插屏广告对象, "top加载插屏广告并播放", "String", sss.插屏广告位, "boolean", true)
+f(sss.插屏广告对象 ==  null)
+{
+  tw("未加载完成..请稍后重试！")
+}
+end fn
+
+
+fn 展示横幅广告()
+f(sss.开始初始化 == null)
+{
+  fn topon.初始化()
+}
+gvs(8, vv)
+
+zj(sss.横幅广告对象, "top加载横幅广告并播放", "android.view.ViewGroup", vv, "String", sss.横幅广告位)
+f(sss.横幅广告对象 ==  null)
+{
+  tw("未加载完成..请稍后重试！")
+}
+end fn

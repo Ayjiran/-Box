@@ -1,0 +1,16 @@
+
+public: jobject context;
+public: JNIEnv *env;
+public: UserClass1(JNIEnv *env, jobject context, int param1, int param2, double param3, jobject param4, jobject param5, jobjectArray param6)
+{
+  this->env = env;
+  this->context = context;
+}
+
+// 不可删除，默认将调用这个方法，并返回Object值
+public: jobject result()
+{
+
+return (env)->NewStringUTF("iApp");
+}
+

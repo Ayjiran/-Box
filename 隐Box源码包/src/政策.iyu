@@ -1,0 +1,241 @@
+<View id="81" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="41" did="81" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="43" did="42" type="ImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@6345d3fc7a8.png
+layout_marginLeft=10dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="44" did="42" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=Q绑查询
+layout_marginLeft=15dp
+textColor=#ffffff
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="42" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="47" did="46" type="TextView">
+<ppt>width=-2
+height=-2
+text=在线工具大全
+textColor=#000000
+textStyle=bold</ppt>
+<event>
+</event>
+</View>
+<View id="48" did="45" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="49" did="48" type="ImageView">
+<ppt>width=34dp
+height=34dp
+src=@ic_arrow_back_black_24dp.png
+layout_marginLeft=10dp
+BackgroundRipple=#f5f5f5
+padding=5dp</ppt>
+<event>
+<eventItme type="clicki">
+end()
+</eventItme>
+</event>
+</View>
+<View id="79" did="48" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="80" did="79" type="ImageView">
+<ppt>width=18dp
+height=18dp
+src=0
+layout_gravity=right
+layout_marginRight=15dp
+clickable=true
+BackgroundRipple=#f5f5f5
+</ppt>
+<event>
+
+</event>
+</View>
+<View id="89" did="42" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=加载中…
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="2" did="41" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_margin=0dp
+ut_below=42</ppt>
+<event>
+</event>
+</View>
+<View id="83" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="85" did="83" type="WebView">
+<ppt>width=-1
+height=-1
+url=</ppt>
+<event><eventItme type="onpagefinished">us(86,"visibility","gone")
+ug(89,"app_title",u)
+f(u?"about")
+{
+  end()
+}
+else
+{
+}</eventItme><eventItme type="onpagestarted">us(86,"visibility","visible")</eventItme><eventItme type="onprogresschanged">f(st_nS==100)
+{  
+ug(85,"title",a) 
+us(89,"app_title",a)
+}
+else
+{
+ss("正在加载..("+ st_nS +")",a) 
+us(89,"app_title",a)
+}</eventItme><eventItme type="onreceivederror">end()</eventItme></event>
+</View>
+<View id="76" did="41" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="78" did="76" type="WebView">
+<ppt>
+width=-1
+height=-1
+url=
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+us(85,"url",sss.wz)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+//状态栏白底黑字
+s id=89
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+s id=85
+gvs(id,wv)
+java(ws,wv,"android.webkit.WebView.getSettings")
+java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",true)
+java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)</eventItme>
+<eventItme type="downkey">
+f(st_kC==4)
+{
+ug(85,"cangoback",是否)
+f(是否==true)
+{
+us(85,"gobackorforward",-1)
+}
+else
+{
+f(st_kC==4)
+{
+end()
+}
+}
+}
+</eventItme><eventItme type="menu">/.
+case 帮助|@help.png|1:
+ug(85,"url",url)
+us(85,"url",url)
+break
+./
+case 刷新:
+ug(85,"url",url)
+us(85,"url",url)
+break
+</eventItme></UIEventset>

@@ -1,0 +1,257 @@
+<View id="30" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=歌词解析
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+background=through
+height=-1
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="1" type="RelativeLayout">
+<ppt>width=-1
+ut_below=3
+height=-2
+layout_marginright=10dp
+layout_marginleft=10dp
+background=-1
+focusable=true
+focusableintouchmode=true</ppt>
+<event>
+<eventItme type="clicki">us(20,"visibility","gone")</eventItme>
+</event>
+</View>
+<View id="5" did="4" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=输入歌词或歌名
+layout_marginleft=10dp
+background=through
+textcursordrawable=#607D8B
+layout_margintop=10dp
+layout_marginright=10dp
+backgroundcolor=-1
+cursorvisible=false
+gravity=center
+typeface=serif</ppt>
+<event>
+<eventItme type="aftertextchanged">ug(5,"text",a)
+f(a=="")
+  {
+    us(12,"text","加载中....")
+    us(12,"visibility","gone")
+  }</eventItme>
+<eventItme type="editormonitor">us(5,"autolink","web")</eventItme></event>
+</View>
+<View id="31" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+ut_below=5</ppt>
+<event></event>
+</View>
+<View id="28" did="31" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=1dp
+layout_marginleft=10dp
+layout_margintop=20dp
+layout_marginright=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="17" did="28" type="Button">
+<ppt>width=-1
+height=-2
+text=解析下载
+textcolor=#fefefefe
+layout_marginleft=10dp
+layout_margintop=20dp
+layout_marginright=10dp
+background=#ff00bfff</ppt>
+<event>
+<eventItme type="clicki">ug(5,"text",a)
+t()
+  {
+    ss("http://api.guaqb.cn/api.php?yy="+a,b)
+    hs(b,c)
+    syso(c)
+    ufnsui()
+      {
+        f(c?"请联系QQ群")
+        {
+          us(12,"text","出错啦！请点击右上角反馈…")
+        }
+        else
+        {
+          us(12,"text",c)
+        }
+        
+        us(12,"visibility","visible")
+      }
+  }</eventItme>
+</event>
+</View>
+<View id="29" did="31" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginleft=10dp
+layout_margintop=20dp
+layout_marginright=10dp
+app_CardcornerRadius=1dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="6" did="29" type="Button">
+<ppt>width=-1
+height=-2
+text=查看歌词
+ut_below=5
+textcolor=#ffffff
+layout_marginleft=10dp
+layout_margintop=20dp
+layout_marginright=10dp
+background=#ff00bfff</ppt>
+<event>
+<eventItme type="clicki">ug(5,"text",a)
+us(12,"visibility","visible")
+us(12,"text","加载中……")
+t()
+  {
+    ss("http://api.guaqb.cn/gc.php?yy="+a,b)
+    hs(b,c)
+    ufnsui()
+      {
+    f(c?"请联系QQ群")
+      {
+        ufnsui()
+          {
+            us(12,"text","没有该歌曲的歌词，换一个吧QAQ\n\n也可以点击右上角反馈给我们呦！")
+            us(12,"visibility","visible")
+          }
+      }
+    else
+      {
+        ufnsui()
+          {
+            us(12,"text",c)
+          }
+      }
+  }
+}</eventItme>
+</event>
+</View>
+<View id="8" did="1" type="RelativeLayout">
+<ppt>width=-1
+ut_below=4
+height=-1
+layout_marginleft=10dp
+layout_marginright=10dp
+background=white
+layout_marginbottom=10dp
+layout_margintop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="8" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event>
+<eventItme type="clicki">us(20,"visibility","gone")</eventItme>
+</event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中……
+textisselectable=true
+gravity=center
+textsize=16sp
+ut_centerinparent=true
+ut_centervertical=true
+textColor=#ff0a0a0a
+textStyle=bold
+visibility=gone</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=30
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+ 
+
+fn 着色.控件着色(17,颜色)
+fn 着色.控件着色(24,颜色)
+fn 着色.控件着色(6,颜色)
+fn 着色.控件着色(5,颜色)
+ 
+ngde("4","30","#00000000",颜色,背景)
+us(5,"background",背景)
+
+
+/.
+
+</eventItme>
+<eventItme type="loadingComplete">t()
+  {
+    fe("智能助手(๑&gt;؂&lt;๑）/color.txt",a)
+    f(a==false)
+      {
+        fw("智能助手(๑&gt;؂&lt;๑）/color.txt","#ff00ccff")
+        ufnsui()
+          {
+          }
+      }
+    else
+      {
+        fr("智能助手(๑&gt;؂&lt;๑）/color.txt",b)
+        ufnsui()
+          {
+            us(2,"backgroundcolor",b)
+          }
+      }
+  }</eventItme>
+<eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

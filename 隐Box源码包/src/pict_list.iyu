@@ -1,0 +1,83 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ImageView">
+<ppt>width=-1
+height=-2
+src=@icon_iapp.png
+adjustViewBounds=true</ppt>
+<event><eventItme type="press">t()
+{
+  ufnsui()
+  {
+    utw(null,"","要进行的操作","取消","保存图片",false,vd)  
+    {
+    }
+    else
+    {
+       ulag(st_vW,3,url)
+       gvs(st_vW,pict_list.2,img)
+       sj(url,"bookimages",null,url)  
+       ss("%漫画/图片"+url,path)
+       syso(path)
+       tot(img,imgs)
+   //    tcc(imgs,"w",imgw)
+   //    tcc(imgs,"h",imgh)
+   //    syso(imgw)
+   //    swh("pxw",pw)
+   //    syso(pw)
+    //   s(pw/imgw*imgh,imgh)
+   //   tsf(imgs,2160,imgh,imgc)
+       bfs(imgs,path)
+       ss("图片已保存在/storage/emulated/0/漫画/图片"+url,path)
+       tw(path)
+       s imgs=null
+       s img=null
+   //    s imgc=null
+   }
+ }
+}   </eventItme></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=链接
+visibility=gone
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">ulag(st_vW,3,url)
+gvs(st_vW,pict_list.2,img)
+fn 加载.图片(img,url) 
+/.
+s(st_pN+1,i)
+syso(st_pN)
+gslistl(st_lS,num)
+s-(1,num)
+f(i&lt;=num)
+{
+gslist(st_lS,i,data)
+sj(data,"3=","}",data)
+fn 加载.图片(sss.im,url) 
+}
+s+(1,i)
+f(i&lt;=num)
+{
+gslist(st_lS,i,data)
+sj(data,"3=","}",data)
+fn 加载.图片(sss.im,url)
+} ./
+
+
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

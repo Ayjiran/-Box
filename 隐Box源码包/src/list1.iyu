@@ -1,0 +1,55 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=56dp
+orientation=horizontal
+background=through
+background=white</ppt>
+<event><eventItme type="clicki">ulag(st_vW,3,ib)
+ss("$幻隐网络/文件下载/"+ib,sss.kk)
+uigo("png.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_margin=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-1
+height=-1
+text=图片sss.名称
+textsize=14
+textcolor=#fe000000
+layout_weight=1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=图片大小
+textsize=12
+textcolor=#40000000
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

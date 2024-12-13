@@ -1,0 +1,43 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>
+width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="ProgressBar">
+<ppt>
+width=40dp
+height=-1
+style=16842874
+layout_marginleft=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=加载中...
+layout_marginleft=15dp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

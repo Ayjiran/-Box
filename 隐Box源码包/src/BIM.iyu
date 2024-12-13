@@ -1,0 +1,266 @@
+<View id="27" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=身材检测
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margintop=6dp
+background=@IMG_20170628_063755.png
+layout_marginleft=2dp
+layout_marginright=2dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+layout_marginleft=10dp
+layout_marginright=10dp
+background=#F5F5F5
+hint=输入体重(千克 kg)
+textsize=13sp
+layout_margintop=6dp
+digits=1234567890</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+layout_marginleft=10dp
+layout_marginright=10dp
+background=#F5F5F5
+hint=输入身高(厘米 cm)
+textsize=13sp
+digits=1234567890
+layout_margintop=5dp</ppt>
+<event></event>
+</View>
+<View id="8" did="5" type="Button">
+<ppt>width=-1
+height=40dp
+text=计算
+background=#1E88E5
+textcolor=#ffffff
+layout_margintop=10dp
+layout_marginleft=10dp
+layout_marginright=10dp
+layout_marginbottom=10dp
+backgroundripple=#fdfdfdfd
+layout_gravity=center
+</ppt>
+<event><eventItme type="clicki">ug(6,"text",a)
+ug(7,"text",b)
+f(a=="")
+{
+tw("请输入体重")
+}
+else f(b=="")
+{
+tw("请输入身高")
+}
+else
+{
+sn(b/100,a1)
+sn(a1*a1,a2)
+s2(a/a2,a3)
+sj(a3,".",null,a4)
+s(a4/10,a5)
+sj(a3,null,".",a6)
+ss(a6+"."+a5,a7)
+.计算BIM
+f(a7&lt;=18.4)
+{
+us(22,"text","偏瘦")
+}
+f(a7&gt;=18.5 && a7&lt;=23.9)
+{
+us(22,"text","正常")
+}
+f(a7&gt;=24.0 && a7&lt;=27.9)
+{
+us(22,"text","过重")
+}
+f(a7&gt;=28.0)
+{
+us(22,"text","肥胖")
+}
+us(17,"visibility","visible")
+dhas(dh,17,"rotationX",360,0)
+dh(dh,"duration",500)
+dh(dh,"start")
+ss("体重："+a,a1)
+us(18,"text",a1)
+ss("身高："+b,a2)
+us(19,"text",a2)
+ss("BIM："+a7,a3)
+us(20,"text",a3)
+}</eventItme></event>
+</View>
+<View id="17" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margintop=6dp
+background=@IMG_20170628_063755.png
+layout_marginleft=2dp
+layout_marginright=2dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=体重：
+layout_margin=10dp
+textsize=14sp</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=身高：
+layout_marginleft=10dp
+textsize=14sp</ppt>
+<event></event>
+</View>
+<View id="20" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=BIM：
+layout_marginleft=10dp
+textsize=14sp
+layout_margintop=10dp</ppt>
+<event></event>
+</View>
+<View id="21" did="17" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=综合评价
+textsize=18sp
+textstyle=bold</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=140dp
+orientation=vertical
+gravity=bottom
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="Button">
+<ppt>width=-1
+height=35dp
+text=  偏瘦          &lt;=18.4
+background=#757575
+gravity=left
+textcolor=#ffffff
+textsize=12sp</ppt>
+<event></event>
+</View>
+<View id="14" did="11" type="Button">
+<ppt>width=-1
+height=35dp
+text=  正常          18.5-23.9
+background=#ffffff
+gravity=left
+textcolor=#000000
+textsize=12sp</ppt>
+<event></event>
+</View>
+<View id="15" did="11" type="Button">
+<ppt>width=-1
+height=35dp
+text=  过重          24.0-27.9
+background=#ffd7ac00
+gravity=left
+textcolor=#ffffff
+textsize=12sp</ppt>
+<event></event>
+</View>
+<View id="16" did="11" type="Button">
+<ppt>width=-1
+height=35dp
+text=  肥胖          &lt;=28.0
+background=#ffbf5500
+gravity=left
+textcolor=#ffffff
+textsize=12sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=27
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(8,颜色)
+fn 着色.控件着色(23,颜色)
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

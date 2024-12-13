@@ -1,0 +1,153 @@
+<View id="6" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="11" did="8" type="TextView">
+<ppt>width=-2
+height=-1
+text=官方公告
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="12" did="6" type="LinearLayout">
+<ppt>Width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="1" did="6" type="CoordinatorLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="AppBarLayout">
+<ppt>
+width=-1
+height=-2
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="1" type="SwipeRefreshLayout">
+<ppt>
+width=-1
+height=-1
+app_layout_Behavior=android.support.design.widget.AppBarLayout$ScrollingViewBehavior
+ColorSchemecolors=#FF2196F3
+</ppt>
+<event>
+<eventItme type="onrefresh">
+t()
+{
+hs("https://shimo.im/docs/2R581exgHyUALLJK/",api)
+sj(api,"【",null,api)
+sl(api,"【",api)
+for(apis;api)
+{
+sj(apis,null,"】",apititle)
+syso(apis)
+sj(apis,"@","@",apilj)
+sr(apilj,"&lt;p&gt;","\n",apilj)
+sr(apilj,"&lt;/p&gt;","",apilj)
+strim(apilj,apilj)
+syso(apilj)
+ula(list,1=null,5=apititle,7=apilj)
+}
+ufnsui()
+{
+uls(5,list,"gg_list.iyu",-1,-2)
+}
+ufnsui()
+{
+us(4, "refreshing", false)
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="5" did="4" type="RecyclerView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(8,"background",yg)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+<eventItme type="loadingComplete">
+t()
+{
+sj(sss.bs,"不常更新公告{","}不常更新公告",api)
+sj(api,"【",null,api)
+sl(api,"【",api)
+for(apis;api)
+{
+sj(apis,null,"】",apititle)
+syso(apis)
+sj(apis,"@","@",apilj)
+sr(apilj,"&lt;p&gt;","\n",apilj)
+sr(apilj,"&lt;/p&gt;","",apilj)
+strim(apilj,apilj)
+syso(apilj)
+ula(list,1=null,5=apititle,7=apilj)
+}
+ufnsui()
+{
+uls(5,list,"gg_list.iyu",-1,-2)
+}
+ufnsui()
+{
+us(4, "refreshing", false)
+}
+}
+</eventItme>
+</UIEventset>

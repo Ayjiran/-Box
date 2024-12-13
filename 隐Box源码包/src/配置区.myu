@@ -1,0 +1,6 @@
+fn 配置()
+fr("@fxnr.txt",sss.fxnr)
+syso(fxnr)
+sss bm="yx.yxkj"
+sss fxcs=3
+end fn

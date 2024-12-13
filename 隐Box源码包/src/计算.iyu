@@ -1,0 +1,535 @@
+<View id="31" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=数学计算
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="30" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="25" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="25" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+background=through
+textcursordrawable=#FF0078D6
+singleline=true
+maxlength=20
+gravity=center
+scrollHorizontally=true
+maxLength=5
+hint=Input
+layout_margin=10dp
+</ppt>
+<event></event>
+</View>
+<View id="5" did="25" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+background=through
+textcursordrawable=#FF0078D6
+singleline=true
+maxlength=20
+gravity=center
+scrollHorizontally=true
+maxLength=5
+hint=Output...
+layout_margin=10dp
+</ppt>
+<event></event>
+</View>
+<View id="19" did="25" type="ScrollView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="18" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="32" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="6" did="32" type="Button">
+<ppt>width=-1
+height=-2
+text=2次方根
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_margin=10dp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">ug(4,"text",input)
+java(re,null,"java.lang.Math.sqrt","double",input)
+us(5,"text",re)
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="7" did="32" type="Button">
+<ppt>width=-1
+height=-2
+text=3次方根
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_margin=10dp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">ug(4,"text",input)
+sn(1/3,v0)
+java(re,null,"java.lang.Math.pow","double",input,"double",v0)
+us(5,"text",re)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="33" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="8" did="33" type="Button">
+<ppt>width=310dp
+height=-2
+text=正弦函数sin
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center
+layout_weight=1
+layout_margin=10dp</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+sn(in,v0)
+java(r,null,"java.lang.Math.sin","double",v0)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="9" did="33" type="Button">
+<ppt>width=310dp
+height=-2
+text=双曲正弦函数sinh
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+sn(in,v0)
+java(r,null,"java.lang.Math.sinh","double",v0)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="34" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="10" did="34" type="Button">
+<ppt>width=310dp
+height=-2
+text=余弦函数cos
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+sn(in,v0)
+java(r,null,"java.lang.Math.cos","double",v0)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="11" did="34" type="Button">
+<ppt>width=310dp
+height=-2
+text=双曲余弦函数cosh
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+sn(in,v0)
+java(r,null,"java.lang.Math.cosh","double",v0)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="35" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="13" did="35" type="Button">
+<ppt>width=310dp
+height=-2
+text=正切函数tan
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+sn(in,v0)
+java(r,null,"java.lang.Math.tan","double",v0)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="14" did="35" type="Button">
+<ppt>width=310dp
+height=-2
+text=双曲正切函数tanh
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+sn(in,v0)
+java(r,null,"java.lang.Math.tanh","double",v0)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="36" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="15" did="36" type="Button">
+<ppt>width=310dp
+height=-2
+text=返回一个数值的反正弦（单位为弧度）a asin
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+java(r,null,"java.lang.Math.asin","double",in)
+us(5,"text",r)
+f(r=="NaN")
+{
+  us(5,"text","输入-1至1的实数")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="16" did="36" type="Button">
+<ppt>width=310dp
+height=-2
+text=返回一个数的反余弦值（单位为弧度）acos
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+java(r,null,"java.lang.Math.acos","double",in)
+us(5,"text",r)
+f(r=="NaN")
+{
+  us(5,"text","输入-1至1的实数")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="37" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="17" did="37" type="Button">
+<ppt>width=310dp
+height=-2
+text=返回一个数值的反正切（以弧度为单位）atan
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+java(r,null,"java.lang.Math.atan","double",in)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="20" did="37" type="Button">
+<ppt>width=310dp
+height=-2
+text=对数㏒(log)
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+java(r,null,"java.lang.Math.log","double",in)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="38" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="21" did="38" type="Button">
+<ppt>width=310dp
+height=-2
+text=绝对值
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+sn(in,in)
+java(r,null,"java.lang.Math.abs","double",in)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="22" did="38" type="Button">
+<ppt>width=310dp
+height=-2
+text=四舍五入
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+sn(in,in)
+java(r,null,"java.lang.Math.round","double",in)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="39" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="23" did="39" type="Button">
+<ppt>width=310dp
+height=-2
+text=向下取整
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+java(r,null,"java.lang.Math.floor","double",in)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="24" did="39" type="Button">
+<ppt>width=310dp
+height=-2
+text=向上取整
+layout_weight=1
+layout_margin=10dp
+background=#ff00bbff
+textColor=#ffffffff
+textSize=16sp
+textStyle=bold
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">ug(4,"text",in)
+java(r,null,"java.lang.Math.ceil","double",in)
+us(5,"text",r)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=31
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(1,颜色)
+fn 着色.控件着色(6,颜色)
+fn 着色.控件着色(7,颜色)
+fn 着色.控件着色(8,颜色)
+fn 着色.控件着色(9,颜色)
+fn 着色.控件着色(10,颜色)
+fn 着色.控件着色(11,颜色)
+fn 着色.控件着色(12,颜色)
+fn 着色.控件着色(13,颜色)
+fn 着色.控件着色(14,颜色)
+fn 着色.控件着色(15,颜色)
+fn 着色.控件着色(16,颜色)
+fn 着色.控件着色(17,颜色)
+fn 着色.控件着色(20,颜色)
+fn 着色.控件着色(21,颜色)
+fn 着色.控件着色(22,颜色)
+fn 着色.控件着色(23,颜色)
+fn 着色.控件着色(24,颜色)
+ngde("4","10","#00000000",颜色,背景)
+us(5,"background",背景)
+ngde("4","10","#00000000",颜色,背景)
+us(4,"background",背景)
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(25,a)
+gvs(19,b)
+javanew(mBs,mB,"Context",activity)
+urvw(19)
+nvw(mBs,25)
+nvw(b,mBs)</eventItme></UIEventset>

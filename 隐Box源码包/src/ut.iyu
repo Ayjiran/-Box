@@ -1,0 +1,31 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+gravity=center
+orientation=vertical
+background=white</ppt>
+<event><eventItme type="clicki">uigo("歌词.iyu")</eventItme></event>
+</View>
+<View id="8" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中……</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

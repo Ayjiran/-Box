@@ -1,0 +1,88 @@
+<View id="5" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=black
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="5" type="VideoView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="5" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/null_photo_catalogue.v</ppt>
+<event><eventItme type="clicki">bfvss(3, "cn", sss.ww)
+uigo("视频播.iyu")
+end()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">usjxm(false)
+uycl(true)
+ushsp(true)
+s stop = 2000
+s text="横屏连接中~~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/临时数据/1003.txt",splj)
+bfvs(3,splj)
+bfvss(3,"media", c)
+bfvss(3,"st")
+bfvss(3, "seekto", sss.c)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">t()
+{
+w(true)
+{
+bfvss(3, "ip", c)
+f(c=="false")
+{
+  ufnsui()
+  {
+bfvss(3, "st")
+  }
+}
+else
+{
+  ufnsui()
+  {
+   bfvss(3, "cn",sss.nr)
+    fw("$幻隐网络/临时数据/1025.txt",sss.nr)
+  }
+}
+stop(100)
+}
+}
+</eventItme><eventItme type="restart">loadjar("vpn.dex",jar)
+cls(jar,"com.1874.VPN",cls)
+javax(back,null,cls,"isVpnUsed")
+f(back=="true")
+{
+  end()
+   s text="禁止抓包vpn"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+  }
+else
+{
+  }
+ushsp(true)
+s stop = 2000
+s text="重新连接中~~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/临时数据/1003.txt",splj)
+bfvs(3,splj)
+bfvss(3,"media", c)
+bfvss(3,"st")
+fr("$幻隐网络/临时数据/1025.txt",nr)
+bfvss(3, "seekto",nr)</eventItme></UIEventset>

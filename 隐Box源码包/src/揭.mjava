@@ -1,0 +1,42 @@
+import android.animation.Animator;
+import android.view.View;
+import android.animation.RevealAnimator;
+
+    private View view;
+    
+public void 显示(View 控件)
+{
+  view=控件;
+  创建(控件,控件.getWidth(),控件.getHeight(),0,算对角线(控件.getWidth(),控件.getHeight())).setDuration(2000).start();
+  }
+
+public void 影藏(View 控件)
+{
+  view=控件;
+  Animator 动画 = 创建(控件,控件.getWidth(),控件.getHeight(),算对角线(控件.getWidth(),控件.getHeight()),0);
+  动画.addListener(new Animator.AnimatorListener() {
+            public void onAnimationStart(Animator animation) {}
+            public void onAnimationEnd(Animator animation) {
+                view.setVisibility(8);
+            }
+            public void onAnimationCancel(Animator animation) {}
+            public void onAnimationRepeat(Animator animation) {}
+        });
+      动画.setDuration(2000).start();
+  }
+
+
+public int 算对角线(int w,int h)
+{
+  return (int) Math.hypot(w,h);
+  }
+/*
+第一个参数是执行揭露动画的 View 视图
+第二个参数是相对于视图 View 的坐标系，动画圆的中心的x坐标
+第三个参数是相对于视图 View 的坐标系，动画圆的中心的y坐标
+第四个参数是动画圆的起始半径，第五个参数动画圆的结束半径。
+*/
+public RevealAnimator 创建(View clipView,int x,int y,float startRadius,float endRadius)
+{
+  return new RevealAnimator(clipView,x,y,startRadius,endRadius);
+  }

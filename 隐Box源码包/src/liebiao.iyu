@@ -1,0 +1,78 @@
+<View id="4" did="0" type="CardView">
+<ppt>width=-1
+height=40dp</ppt>
+<event></event>
+</View>
+<View id="3" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=white
+padding=5dp
+layout_gravity=center_vertical</ppt>
+<event><eventItme type="clicki">ulag(st_vW,1,tc)
+sr(tc,"&lt;p&gt;","\n",tc)
+sr(tc,"\n","\n",tc)
+sr(tc,"&lt;/p&gt;","\n",tc)
+sr(tc,"&lt;br/&gt;","\n",tc)
+sr(tc,"∑","\n",tc)
+f(tc?"http")
+{
+  sj(tc,"：",null,s)
+  us(updata.10,"text","去看看")
+  us(updata.1,"visibility","visible")
+  us(updata.2,"visibility","visible")
+  us(updata.7,"text",tc)
+  us(updata.5,"text","合作伙伴")
+  us(updata.12,"text","广告位合作-招商")
+  fw("$幻隐网络/临时数据/6.txt",s)
+}
+else
+{
+  us(updata.10,"text","好的")
+  us(updata.1,"visibility","visible")
+  us(updata.2,"visibility","visible")
+  us(updata.7,"text",tc)
+  us(updata.5,"text","合作伙伴")
+  us(updata.12,"text","广告位合作-招商")
+}
+dhas(dh, updata.2, "translationY", -50, 30, -35, 0)
+dh(dh, "duration", 1000)
+dh(dh, "start")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="2" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=个数
+padding=5dp
+textColor=#ff040404
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="1" did="3" type="TextView">
+<ppt>width=-1
+height=-2
+text=内容
+padding=5dp
+textColor=#ff131313
+singleLine=true
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

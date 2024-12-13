@@ -1,0 +1,36 @@
+function getSrc()
+  import "android.content.Intent"
+  local intent= Intent(Intent.ACTION_PICK)
+  intent:setType("image/*")
+  activity:startActivityForResult(intent, 2)
+end
+
+--以下摘自xiue
+function getPath(uri)
+  import "android.provider.MediaStore$Images$Media"
+  local proj = i:sl(Media.DATA,":")
+  local cursor = activity:managedQuery(uri,proj,nil,nil,nil)
+  local column_index = cursor:getColumnIndexOrThrow(Media.DATA)
+  cursor:moveToFirst()
+  return cursor:getString(column_index)
+end
+
+
+
+function getSrc()
+  import "android.content.Intent"
+  local intent= Intent(Intent.ACTION_PICK)
+ intent:setType("image/*")
+   activity:startActivityForResult(intent, 2)
+end
+function getPath(uri)
+  import "android.provider.MediaStore$Images$Media"
+  local proj = i:sl(Media.DATA,":")
+   local cursor = activity:managedQuery(uri,proj,nil,nil,nil)
+  local column_index = cursor:getColumnIndexOrThrow(Media.DATA)
+  cursor:moveToFirst()
+  return cursor:getString(column_index)
+end
+
+
+ 

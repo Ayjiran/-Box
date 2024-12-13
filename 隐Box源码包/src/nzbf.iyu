@@ -1,0 +1,73 @@
+<View id="10" did="0" type="LinearLayout">
+<ppt>width=-1
+height=32dp
+background=black
+layout_gravity=center
+.visibility=gone
+</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@190cyf.png
+layout_margintop=5dp
+layout_marginleft=10dp</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="12" did="10" type="TextView">
+<ppt>width=100dp
+height=-2
+text=正在加载...
+textsize=12dp
+textcolor=#ffffffff
+layout_weight=1
+singleline=true
+ellipsize=marquee
+focusable=true
+focusableintouchmode=true
+layout_marginleft=5dp
+typeface=serif
+layout_gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="13" did="10" type="TextView">
+<ppt>width=60dp
+height=-1
+padding=2dp
+text=竖屏
+background=through
+textsize=11sp
+textcolor=#ffffffff
+gravity=center
+layout_marginRight=5dp</ppt>
+<event><eventItme type="clicki">ug(13,"text",a)
+f(a=="竖屏")
+{
+ushsp(false)
+us(13,"text","横屏")
+}
+f(a=="横屏")
+{
+ushsp(true)
+us(13,"text","竖屏")
+}
+</eventItme></event>
+</View>
+<View id="4" did="0" type="WebView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loadingComplete">tw("解析中请稍候……")
+ushsp(true)
+ss("&lt;html style="padding:0; margin:0; width:100%; height:100%; display:block; border:0; overflow:hidden;" &gt;   &lt;head&gt;       &lt;title&gt;M3U8视频&lt;/title&gt;    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;	&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt; &lt;/head&gt;	&lt;body style="padding:0; margin:0; width:100%; height:100%; display:block; border:0; overflow:hidden; background-color:#000;"&gt;	&lt;div id="playerbox" style="padding:0; margin:0; width:100%; height:100%; display:block; border:0; overflow:hidden;"&gt;&lt;video id="vod" controls="" autoplay="autoplay" preload="auto" x-webkit-airplay="allow" style="width:100%; height:100%;" src="+sss.txbf+"   poster="+sss.tp+" &gt;手机不支持！&lt;/video&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"}",a)
+hsas(4,true)
+.syso(a)
+s d = "utf-8"
+s e = "text/html"
+us(4, "url", a, d, e, f)</eventItme><eventItme type="loading">us(12,"text",sss.spbt)
+
+/.
+
+</eventItme></UIEventset>

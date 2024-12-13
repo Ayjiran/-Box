@@ -1,0 +1,131 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>
+width=-1
+height=-2
+app_CardBackgroundColor=#fff6f6f6
+app_CardcornerRadius=15dp
+app_CardElevation=0
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+padding=10dp
+</ppt>
+<event>
+<eventItme type="clicki">
+ulag(st_vW,7,标题)
+ulag(st_vW,12,内容)
+strim(内容,内容)
+fn 历史代码.单按钮弹窗(标题,内容)
+</eventItme>
+</event>
+</View>
+<View id="9" did="3" type="CardView">
+<ppt>
+width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="10" type="ImageView">
+<ppt>
+width=-1
+height=-2
+src=@mmexport1619426725475.png
+scaleType=centercrop
+visibility=gone
+scaleType=centercrop
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="WebView">
+<ppt>
+width=-1
+height=-2
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="3" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本7
+layout_marginTop=5dp
+layout_marginBottom=5dp
+textStyle=bold
+textSize=16sp
+textColor=#ff070707
+</ppt>
+<event>
+</event>
+</View>
+<View id="12" did="3" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本12
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="0" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本8
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">
+ulag(st_vW,8,图片)
+gvs(st_vW,历史上的今天列表.9,卡片)
+f(图片!=null)
+{
+us(卡片,"visibility","visible")
+ss("http:"+图片,网站)
+gvs(st_vW,历史上的今天列表.11,网站1)
+us(网站1,"url",网站)
+java(ws,网站1,"android.webkit.WebView.getSettings")
+java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",false)
+java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)
+}
+else
+{
+us(卡片,"visibility","gone")
+}
+</eventItme>
+</UIEventset>

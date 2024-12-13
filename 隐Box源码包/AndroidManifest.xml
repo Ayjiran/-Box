@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<title>隐Box</title>
+<icon>icon.png</icon>
+<packageName>com.yx.yxkj</packageName>
+<versionName>5.2.5.0</versionName>
+<versionint>1</versionint>
+<sdk>207</sdk>
+<remark></remark>
+<Permissions>android.permission.FLASHLIGHT
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.ACCESS_NETWORK_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.VIBRATE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.INTERNET</Permissions>
+<createTime>2017-09-11 21:09:53</createTime>
+<upTime>2017-09-11 21:09:53</upTime><manifest>&lt;uses-permission android:name="android.permission.USE_FINGERPRINT" /&gt;</manifest><application></application><zdiAppDir>未开启</zdiAppDir><yuv>3</yuv>
+<manifest> &lt;uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /&gt;
+   &lt;!-- 访问确切位置信息（以 GPS 和网络为依据） --&gt;
+   &lt;uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /&gt;</manifest><application></application>

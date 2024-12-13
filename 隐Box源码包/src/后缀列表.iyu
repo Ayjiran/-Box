@@ -1,0 +1,76 @@
+<View id="8" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="Button">
+<ppt>width=-1
+height=-2
+text=请选择后缀
+textcolor=#ffffffff
+background=#ff00a9ff</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=5dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="Button">
+<ppt>width=-1
+height=-2
+text=百度
+background=white
+textcolor=#000000</ppt>
+<event><eventItme type="clicki">sxb("100784518")
+tw("复制成功，请填入sid吧")
+endutw()</eventItme></event>
+</View>
+<View id="4" did="1" type="Button">
+<ppt>width=-1
+height=-2
+text=QQ
+background=white
+textcolor=#000000</ppt>
+<event><eventItme type="clicki">sxb("100686848")
+tw("复制成功，请填入sid吧")
+endutw()</eventItme></event>
+</View>
+<View id="5" did="1" type="Button">
+<ppt>width=-1
+height=-2
+text=应用宝
+background=white
+textcolor=#000000
+</ppt>
+<event><eventItme type="clicki">sxb("1101070898")
+tw("复制成功，请填入sid吧")
+endutw()</eventItme></event>
+</View>
+<View id="6" did="1" type="Button">
+<ppt>width=-1
+height=-2
+text=王者荣耀
+background=white
+textcolor=#000000</ppt>
+<event><eventItme type="clicki">sxb("1104466820")
+tw("复制成功，请填入sid吧")
+endutw()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

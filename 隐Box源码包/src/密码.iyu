@@ -1,0 +1,371 @@
+<View id="43" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="40" did="43" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=55dp
+height=-1
+src=@xgt/img_winners_badge.v
+backgroundripple=#ff9bd7ff
+padding=5dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=密码验证
+textsize=25dp
+textcolor=#fe000000
+textstyle=bold
+layout_marginleft=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="39" did="1" type="LinearLayout">
+<ppt>width=78dp
+height=78dp
+layout_gravity=center
+layout_marginTop=30dp</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="25" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+layout_marginleft=21dp
+layout_marginright=21dp
+layout_margintop=12dp</ppt>
+<event></event>
+</View>
+<View id="31" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=输入密码:
+textsize=14sp
+textcolor=#3385ff
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="28" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_marginleft=21dp
+layout_marginright=21dp
+layout_margintop=6dp</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=
+singleline=true
+hint=请输入密码(忘记只有卸载软件)
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+inputtype=textemailaddress
+layout_marginright=0dp
+maxLength=11
+textCursorDrawable=#ff00aeff
+</ppt>
+<event><eventItme type="ontextchanged">ug(29,"text",b)
+ss("http://qlogo2.store.qq.com/qzone/"+b+"/"+b+"/100",a)
+us(38,"text",a)</eventItme></event>
+</View>
+<View id="30" did="28" type="TextView">
+<ppt>width=-1
+height=1
+text=
+ut_alignparentbottom=true
+background=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="17" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="36" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=地址
+visibility=gone</ppt>
+<event><eventItme type="ontextchanged">utw(null,"","拼命上传中……(需要网络)","",false,vf)
+{
+}
+t()
+{
+s a = "http://pic.sogou.com/pic/upload_pic.jsp"
+s b = "name=pic_path;filename=icon.png"
+ss("%"+st_sS,c)
+s d = "utf-8"
+huf(a, b, c, d, e)
+ufnsui()
+{
+us(37,"text",e)
+endutw(vf)
+}
+}
+</eventItme></event>
+</View>
+<View id="37" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=链接
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="19" did="1" type="Button">
+<ppt>width=-1
+height=38dp
+text=确定
+background=#ff00b2ff
+typeface=serif
+textsize=13dp
+layout_marginleft=21dp
+layout_marginright=21dp
+textcolor=#ffffff
+layout_margintop=15dp
+layout_marginBottom=150dp</ppt>
+<event><eventItme type="clicki">ug(29,"text",mm)
+fr("$幻隐网络/微端/密码.txt",密码)
+fr("$幻隐网络/微端/账号.txt",sss.名称)
+fr("$幻隐网络/软件密码/开.txt",yy)
+f(mm==yy)
+{
+  fn zh.zh(sss.名称,密码)
+}
+else
+{
+  s text="您好，密码错误"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+}</eventItme></event>
+</View>
+<View id="44" did="43" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_alignParentBottom=true
+layout_gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="42" did="44" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@ui/zw.v
+layout_gravity=center
+layout_marginBottom=20dp</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/微端/密码.txt",密码)
+fr("$幻隐网络/微端/账号.txt",sss.名称)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+loadjar("classes.dex",包)
+cls(包, "com.指纹解锁/fingerprint", 类对象a)
+javanew(初始化类, 类对象a)
+cls(包, "com.指纹解锁/fingerprint$cc", 类对象b)
+javacb(回调变量, 类对象b){
+    sgsz(st_aS,0,结果)
+    f(结果=="验证成功"){
+        fn zh.zh(sss.名称,密码)
+        end()
+    }
+    tw(结果)
+}
+javax(null, 初始化类, 类对象a, "setccc", 类对象b, 回调变量)
+javax(null, 初始化类, 类对象a, "zw", "Context",activity)</eventItme></event>
+</View>
+<UIEventset>
+
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+
+  dhb(dh, true)
+  s d=70
+  
+  dhb(dh, "@a/3/mm1.v", d)
+  dhb(dh, "@a/3/mm2.v", d)
+  dhb(dh, "@a/3/mm3.v", d)
+  dhb(dh, "@a/3/mm4.v", d)
+  dhb(dh, "@a/3/mm5.v", d)
+  dhb(dh, "@a/3/mm6.v", d)
+  dhb(dh, "@a/3/mm7.v", d)
+  dhb(dh, "@a/3/mm8.v", d)
+  dhb(dh, "@a/3/mm9.v", d)
+  dhb(dh, "@a/3/mm10.v", d)
+  dhb(dh, "@a/3/mm11.v", d)
+  dhb(dh, "@a/3/mm12.v", d)
+  dhb(dh, "@a/3/mm13.v", d)
+  dhb(dh, "@a/3/mm14.v", d)
+  dhb(dh, "@a/3/mm15.v", d)
+  dhb(dh, "@a/3/mm16.v", d)
+  dhb(dh, "@a/3/mm17.v", d)
+  dhb(dh, "@a/3/mm18.v", d)
+  dhb(dh, "@a/3/mm19.v", d)
+  dhb(dh, "@a/3/mm20.v", d)
+  dhb(dh, "@a/3/mm21.v", d)
+  dhb(dh, "@a/3/mm22.v", d)
+  dhb(dh, "@a/3/mm23.v", d)
+  dhb(dh, "@a/3/mm24.v", d)
+  dhb(dh, "@a/3/mm25.v", d)
+  dhb(dh, "@a/3/mm26.v", d)
+  dhb(dh, "@a/3/mm27.v", d)
+  dhb(dh, "@a/3/mm28.v", d)
+  dhb(dh, "@a/3/mm29.v", d)
+  dhb(dh, "@a/3/mm30.v", d)
+  dhb(dh, "@a/3/mm31.v", d)
+  dhb(dh, "@a/3/mm30.v", d)
+  dhb(dh, "@a/3/mm29.v", d)
+  dhb(dh, "@a/3/mm28.v", d)
+  dhb(dh, "@a/3/mm27.v", d)
+  dhb(dh, "@a/3/mm26.v", d)
+  dhb(dh, "@a/3/mm25.v", d)
+  dhb(dh, "@a/3/mm24.v", d)
+  dhb(dh, "@a/3/mm23.v", d)
+  dhb(dh, "@a/3/mm22.v", d)
+  dhb(dh, "@a/3/mm21.v", d)
+  dhb(dh, "@a/3/mm20.v", d)
+  dhb(dh, "@a/3/mm19.v", d)
+  dhb(dh, "@a/3/mm18.v", d)
+  dhb(dh, "@a/3/mm17.v", d)
+  dhb(dh, "@a/3/mm16.v", d)
+  dhb(dh, "@a/3/mm15.v", d)
+  dhb(dh, "@a/3/mm14.v", d)
+  dhb(dh, "@a/3/mm13.v", d)
+  dhb(dh, "@a/3/mm12.v", d)
+  dhb(dh, "@a/3/mm11.v", d)
+  dhb(dh, "@a/3/mm10.v", d)
+  dhb(dh, "@a/3/mm9.v", d)
+  dhb(dh, "@a/3/mm8.v", d)
+  dhb(dh, "@a/3/mm7.v", d)
+  dhb(dh, "@a/3/mm6.v", d)
+  dhb(dh, "@a/3/mm5.v", d)
+  dhb(dh, "@a/3/mm4.v", d)
+  dhb(dh, "@a/3/mm3.v", d)
+  dhb(dh, "@a/3/mm2.v", d)
+  dhb(dh, "@a/3/mm1.v", d)
+  
+  
+  //设为指定控件背景
+  
+  us(39, "background", dh)
+  
+  //启动动画
+  dhb(dh, "start")</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(40,a)
+gvs(41,b)
+javanew(mBs,mB,"Context",activity)
+urvw(41)
+nvw(mBs,40)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+
+</eventItme><eventItme type="onactivityresult">javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+    us(33, "src", path)
+    us(33,"visibility","visible")
+    us(35,"visibility","gone")
+    us(36, "text", path)
+    sss paths=path
+  }
+else f(st_sC==3)
+{
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+    us(33, "src", path)
+    us(33,"visibility","visible")
+    us(35,"visibility","gone")
+    us(36, "text", path)
+    sss paths=path
+}
+}
+
+call(x, "mlua", "az.get","yx.yxkj")
+f(x==true)
+{
+
+}
+else f(x==false)
+{
+s bbmm="%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%82%A8%E4%BD%BF%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E9%9D%9E%E9%9A%90%E5%BF%83%E5%AE%98%E6%96%B9%E6%AD%A3%E7%89%88App%E3%80%8E%E9%9A%90box%E3%80%8F\n%E6%89%80%E4%BB%A5%E5%91%A2%EF%BC%8C%E8%BD%AF%E4%BB%B6%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E6%89%93%E5%BC%80%EF%BC%8C%E7%82%B9%E5%87%BB%E7%A1%AE%E8%AE%A4%E5%8D%B3%E5%8F%AF%E5%8A%A0%E5%85%A5%E9%9A%90%E5%BF%83%E5%AE%98%E6%96%B9%E7%BE%A4%EF%BC%8C%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%E7%89%88%E7%9A%84%E3%80%8E%E9%9A%90box%E3%80%8F"
+sutf8to(bbmm,zww)
+s ggg="%E9%80%9A%E7%9F%A5"
+sutf8to(ggg,ooo)
+s lll="%E7%A1%AE%E8%AE%A4"
+sutf8to(lll,aaa)
+utw(null,ooo,zww,aaa,true,c)
+{
+  s jf="%E8%AF%B7%E8%81%94%E7%B3%BB%E9%9A%90%E5%BF%83QQ1877690156%E8%AF%A2%E9%97%AE%E5%85%B7%E4%BD%93%E9%97%AE%E9%A2%98"
+sutf8to(jf,kj)
+  sxb(kj)
+ t()
+{
+hs("https://shimo.im/docs/8t8Unp2lV5AqOhQA/",code)
+sj(code,"群号码@","@群号码",hao)
+ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+hao+"&card_type=group&source=qrcode",joinqq)
+ufnsui()
+{
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",joinqq)
+uit(a, "chooser", "打开QQ")
+}
+}
+ends()
+}
+}
+
+</eventItme></UIEventset>

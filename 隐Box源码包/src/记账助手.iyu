@@ -1,0 +1,149 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="20" did="1" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=记账助手
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="16" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+visibility=</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="ImageView">
+<ppt>width=100dp
+height=100dp
+src=@ui/zj.v
+layout_marginTop=70dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=您未创建任何账单
+gravity=center
+textColor=#ff000000
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="ListView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading"> fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=20
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+  t()
+  {
+    fl("$幻隐网络/记账助手/",gf)
+    for(gfd;gf)
+    {
+      sj(gfd,"内容(",")",nrr)
+      sj(gfd,"金额(",")",jee)
+      sj(gfd,"时间(",")",sjj)
+      ula(hgv,5=nrr,6=sjj,9=jee,13=gfd)
+    }
+  ufnsui()
+  {
+    uls(10,hgv,"记账助手列表.iyu",-1,-2)
+    us(10,"divider","#ffffffff")
+  }
+}
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">
+ug(10,"count",总数)
+f(总数&gt;"0")
+{
+  us(16,"visibility","gone")
+}
+else
+{
+ 
+}</eventItme><eventItme type="restart">ug(10,"count",总数)
+f(总数&gt;"0")
+{
+  us(16,"visibility","gone")
+}
+else
+{
+ 
+}</eventItme><eventItme type="menu">case 添加账单:
+utw(null,"","记账助手创建.iyu","",false,jkw)
+{
+}
+sss jkw=jkw
+
+gvs(sss.jkw,14,sjj)
+time(0,now)
+us(sjj,"text",now)
+us(sjj,"editable",false)
+
+gvs(sss.jkw,17,xz)
+s a="-;+"
+sl(a,";",b)
+uls(xz,b)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break
+case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

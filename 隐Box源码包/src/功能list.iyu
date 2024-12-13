@@ -1,0 +1,225 @@
+<View id="5" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=5dp
+app_CardcornerRadius=5dp
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,4,kk)
+ulag(st_vW,3,ki)
+ulag(st_vW,2,ik)
+ulag(st_vW,11,sss.wz)
+fe("$幻隐网络/.v/xjf.yx",会员)
+fr("$幻隐网络/浏览记录/xf.txt",原有)
+time("0",时间)
+ss("【"+ik+"  "+时间+"】"+ki+原有,浏览)
+f(sss.游客=="是")
+{
+  s stop = 2000
+  s text="未登录不可使用"
+  fn color.ColorToast(text,stop)
+  fn 聚合.主页提示登录()
+}
+else
+{
+  f(kk=="会员功能")
+  {
+    f(sss.会员卡券=="开")
+    {
+      ulag(st_vW,6,t7e)
+      sss ztys="#ff0081ff"
+      uigo(t7e)
+      fw("$幻隐网络/浏览记录/xf.txt",浏览)
+    }
+    else
+    {
+      f(sss.dqsj&lt;sss.我的会员)
+      {
+        ulag(st_vW,6,t7e)
+        sss ztys="#ff0081ff"
+        uigo(t7e)
+        fw("$幻隐网络/浏览记录/xf.txt",浏览)
+      }
+      else
+      {
+        s stop = 2000
+        s text="本功能仅限会员使用！"
+        fn color.ColorToast(text,stop)
+        fn 聚合.主页提示会员()
+      }
+    }
+  }
+  else f(kk?"用户须知")
+  {
+    s stop = 2000
+    s text="本内容无法打开！"
+    fn color.ColorToast(text,stop)
+  }
+  else f(kk=="远程会员功能")
+  {
+    f(sss.会员卡券=="开")
+    {
+      sss 广告害怕="很害怕"
+      uigo("广告.iyu")
+      fw("$幻隐网络/浏览记录/xf.txt",浏览)
+    }
+    else
+    {
+      f(sss.dqsj&lt;sss.我的会员)
+      {
+        sss 广告害怕="很害怕"
+        uigo("广告.iyu")
+        fw("$幻隐网络/浏览记录/xf.txt",浏览)
+      }
+      else
+      {
+        s stop = 2000
+        s text="远程功能仅限会员使用！"
+        fn color.ColorToast(text,stop)
+        fn 聚合.主页提示会员()
+      }
+    }
+  }
+  else f(kk=="远程功能")
+  {
+    sss 广告害怕="很害怕"
+    uigo("广告.iyu")
+    fw("$幻隐网络/浏览记录/xf.txt",浏览)
+  }
+  else f(kk=="平民功能")
+  {
+    ulag(st_vW,6,t7e)
+    sss ztys="#ff0081ff"
+    uigo(t7e)
+    fw("$幻隐网络/浏览记录/xf.txt",浏览)
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="1" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="13" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="13" type="LinearLayout">
+<ppt>width=50dp
+height=25dp
+background=@a/tq/yx1/label_8_evaluate.v
+</ppt>
+<event></event>
+</View>
+<View id="2" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=标题
+textSize=15sp
+textColor=#000000
+layout_marginLeft=10dp
+layout_marginTop=5dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=介绍
+layout_margin=13dp
+textSize=14sp</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=加载中...
+layout_marginRight=10dp
+layout_marginBottom=5dp
+gravity=right
+textSize=13sp
+textColor=#ff00bcff</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=界面
+layout_marginRight=10dp
+layout_marginBottom=5dp
+gravity=right
+textSize=13sp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=是否热门
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=是否热门
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="15" did="5" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="14" did="15" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@a/tq/yx1/ic_league_list_today_right.v
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+gvs(st_vW,功能list.2,tplj)
+ug(tplj,"text",a)
+fr("$幻隐网络/临时数据/1030.txt",ii)
+f(ii?a)
+{
+}
+else
+{
+ss(a+ii,i)
+fw("$幻隐网络/临时数据/1030.txt",i)
+gvs(st_vW,功能list.5,id)
+fn dtlist.dh("dh4",id)
+}
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

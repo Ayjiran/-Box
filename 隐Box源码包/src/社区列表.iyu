@@ -1,0 +1,184 @@
+<View id="15" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+BackgroundColor=-1
+visibility=8</ppt>
+<event></event>
+</View>
+<View id="14" did="15" type="TextView">
+<ppt>width=-1
+height=50dp
+text=加载失败
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-1
+height=1
+text=
+BackgroundColor=#ffcfcfcf</ppt>
+<event></event>
+</View>
+<View id="18" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="1" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+BackgroundColor=-1</ppt>
+<event><eventItme type="clicki">ulag(st_vW,5,sss.mz)
+ulag(st_vW,6,sss.sj)
+ulag(st_vW,9,sss.js)
+ulag(st_vW,10,sss.tx)
+ulag(st_vW,11,sss.lj)
+ulag(st_vW,17,sss.id)
+ulag(st_vW,21,sss.u)
+sss dz=sss.lj
+uigo("视频播.iyu")</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="13" did="2" type="CardView">
+<ppt>width=42dp
+height=42dp
+layout_marginLeft=18dp
+app_CardElevation=0dp
+app_CardcornerRadius=21dp</ppt>
+<event></event>
+</View>
+<View id="3" did="13" type="WebView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="19" did="13" type="TextView">
+<ppt>width=-1
+height=-1
+text=
+</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginLeft=8dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本5
+textColor=#ff0b0b0b
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本6
+textSize=11sp</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+layout_marginLeft=18dp
+layout_marginRight=18dp</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=----------
+textColor=#ff020202
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=介绍
+textSize=13sp
+layout_marginBottom=18dp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="12" did="1" type="TextView">
+<ppt>width=-1
+height=1
+text=
+BackgroundColor=#ffcfcfcf</ppt>
+<event></event>
+</View>
+<View id="17" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=8</ppt>
+<event></event>
+</View>
+<View id="20" did="1" type="VideoView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="21" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=8</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,社区列表.3,id2)
+gvs(st_vW,社区列表.10,id5)
+ug(id5,"text",tp)
+fr("@tp.txt",tpp)
+sr(tpp,"β",tp,c)
+s d = "utf-8"
+s e = "text/html"
+us(id2, "url", c, d, e, f)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

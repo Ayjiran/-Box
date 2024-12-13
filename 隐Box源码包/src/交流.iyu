@@ -1,0 +1,564 @@
+<View id="14" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@12c40f7b02087bf4e79c77ddfcd3572c11dfcf67.jpg</ppt>
+<event></event>
+</View>
+<View id="15" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="51" did="15" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="40" did="51" type="CardView">
+<ppt>width=35dp
+app_CardcornerRadius=100dp
+app_CardElevation=3dp
+height=35dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+ut_alignParentRight=true
+layout_marginTop=6dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="49" did="40" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@abv/user_head.png</ppt>
+<event></event>
+</View>
+<View id="42" did="40" type="TextView">
+<ppt>width=-1
+height=-1
+text=</ppt>
+<event><eventItme type="clicki">ug(52,"app_title",sss.ta)
+f(sss.ta=="系统"||sss.ta=="查找的好友")
+{
+  s stop = 2000
+s text="主页暂不能打开~"
+fn color.ColorToast(text,stop)
+}
+else
+{
+  sss 聊天来的="是"
+  gvs(49,a)
+call(null,"mjava","图片跳转.uigo",a,"image","个人资料.iyu",sss.appbm)
+ //uigo("个人资料.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+uzd(震动器, 30)</eventItme></event>
+</View>
+<View id="52" did="51" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=在线交流
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="25" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=0
+layout_weight=1
+background=white</ppt>
+<event></event>
+</View>
+<View id="50" did="25" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="43" did="50" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+BackgroundColor=#6dd8d8d8
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：不友好交流(打广告)会被封号哦~
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#ff585858
+textIsSelectable=true
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="45" did="50" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+ut_below=43</ppt>
+<event></event>
+</View>
+<View id="48" did="45" type="GifView">
+<ppt>width=100dp
+height=100dp
+src=@gif.gif
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="46" did="45" type="ImageView">
+<ppt>width=100dp
+height=100dp
+src=@ui/re.v
+layout_marginTop=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="47" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=快来发言打破寂静
+gravity=center
+textColor=#ff000000
+textStyle=bold
+layout_marginTop=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="38" did="50" type="SwipeRefreshLayout">
+<ppt>width=-1
+height=-1
+ut_below=45</ppt>
+<event><eventItme type="onrefresh">t()
+{
+  time("Y",a)
+  time("m",m)
+  time("d",D)
+  time("H",e)
+  time("M",l)
+  time("S",v)
+  ss(a+m+D+e+l+v,dqsj)
+  strim(sss.user,sss.user)
+  ss(sss.user+"的个人信息[",jq名字)
+  sj(sss.全部用户资料,jq名字,"]",sss.当前用户数据)
+  sj(sss.当前用户数据,"头像框：","头像框内容结束",相框)
+  sj(sss.当前用户数据,"会员(",")会员",会员)
+  ss(a+m+D+e+l+v,dqsj)
+  f(dqsj&gt;会员)
+  {
+    s 会员="无"
+  }
+  else
+  {
+    s 会员="有"
+  }
+  ss("uid="+sss.xxid+"&start_limit=0",post)
+  ss(sss.api+"?Friend/get_old_chat.html",ai)
+  hs(ai,post,"utf-8",null,true,v)
+  sr(v,"[","",o)
+  sl(o,"{\"id\"",j)
+  sgszl(j,zs)
+  s(zs-1,z)
+  s s=z
+  for(1;z)
+  {
+    sgsz(j,s,jsnr)
+    ss("{"id""+jsnr,jx)
+    json(jx,jo)
+    json(jo,"get","uid1",ida)
+    json(jo,"get","uid2",idb)
+    json(jo,"get","content",htxt)
+    ss("(html)"+htxt,htxt)
+    f(idb==sss.xxid)
+    {
+      ula(list_lt,35="空",69=会员,67=相框,12=sss.user,15=htxt,64=sss.txurl,21="",22="",23="")
+    }
+    else
+    {
+      ula(list_lt,41="空",59=sss.头像,55=user,46=htxt)
+    }
+    s(s-1,s)
+  }
+  ufnsui()
+  {
+    t()
+    {
+      ufnsui()
+      {
+        uls(5,list_lt,"交流lt.iyu",-1,-2)
+        ug(5,"count",zs)
+        us(5,"selection",zs)
+        us(38,"refreshing","false")
+      }
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("@sx.mp3")
+}</eventItme></event>
+</View>
+<View id="5" did="38" type="ListView">
+<ppt>width=-1
+height=-1
+dividerHeight=-1
+visibility=0
+focusable=flase
+focusableInTouchMode=flase
+divider=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=#FFFFFF
+visibility=0</ppt>
+<event></event>
+</View>
+<View id="32" did="6" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@tupian.png
+layout_gravity=center
+layout_marginLeft=10dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">
+javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+
+java(c,it,"android.content.Intent.setType","String","image/*")
+
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+
+</eventItme></event>
+</View>
+<View id="7" did="6" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardBackgroundColor=#FFFFFF
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_weight=1
+layout_marginLeft=30dp
+layout_marginRight=10dp
+layout_gravity=bottom
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="TextInputLayout">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=输入想说的话~
+.layout_margin=2dp
+background=white
+.layout_marginLeft=5dp
+maxLines=10
+BackgroundColor=#f0f0f0
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="28" did="6" type="ImageView">
+<ppt>width=60dp
+height=35dp
+src=@fl/work_comment_send_selected.png
+layout_gravity=center
+layout_marginRight=15dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="31" did="6" type="ImageView">
+<ppt>width=60dp
+height=35dp
+layout_marginRight=15dp
+src=@fl/work_comment_send_default.png
+layout_gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="33" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=null
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="34" did="6" type="Button">
+<ppt>width=60dp
+height=-2
+text=发送
+layout_gravity=center
+layout_marginRight=10dp
+textColor=#ffffffff
+textSize=13sp</ppt>
+<event><eventItme type="clicki">sj(sss.当前用户数据,"邮箱(",")邮箱",邮箱)
+ssg(邮箱, 1, null, 邮箱)
+ug(10,"text",content)
+fr("$幻隐网络/微端/账号.txt",sss.名称)
+ss(sss.api+"yxapi/?fo=幻隐网络科技&name="+sss.yxapi+"&pass="+sss.yxsqm+"&mail="+邮箱+"&title=隐Box消息提醒&content=用户【"+sss.名称+"】对【你】说：&lt;br&gt;&lt;hr&gt;"+content+"&lt;br&gt;&lt;br&gt;&lt;hr&gt;请您进入(隐Box)的第三页消息界面，点击他的聊天框，下拉刷新查看他给您发的最新消息。)",给他)
+//ss(sss.api+"yxapi/?fo=幻隐网络科技&name="+sss.yxapi+"&pass="+sss.yxsqm+"&mail="+sss.yxapi+"&title=隐Box用户交流&content=用户【"+sss.名称+"】对【"+sss.user+"】说：&lt;br&gt;&lt;hr&gt;"+content+"&lt;hr&gt;Ta的IP："+sss.ip,给作者)
+//后台监听
+ss("$幻隐网络/缓存/"+sss.user+".png",路径)
+f(content=="")
+{
+  s text="请输入想说的内容"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  sj(sss.当前用户数据,"封号(",")封号",内容封号)
+  f(内容封号==""||内容封号==null||内容封号=="广告")
+  {
+    utw(null,"","发送中……","",true,vf)
+    {
+    }
+    ss("uid="+sss.xxid+"&content="+content,post)
+    t()
+    {
+      ss(sss.api+"?Friend/send_chat.html",ui)
+      hs(ui,post,"utf-8",null,true,v)
+      //hs(给作者,卧槽)
+      //后台监听
+      json(v,jx)
+      json(jx,"get","info",ts)
+      f(ts?"成功")
+      {
+        time("Y",a)
+        time("m",m)
+        time("d",D)
+        time("H",e)
+        time("M",l)
+        time("S",v)
+        ss(a+m+D+e+l+v,dqsj)
+        strim(sss.user,sss.user)
+        
+        ss(a+m+D+e+l+v,dqsj)
+        f(dqsj&gt;会员)
+        {
+          s 会员="无"
+        }
+        else
+        {
+          s 会员="有"
+        }
+        ss("uid="+sss.xxid+"&start_limit=0",post)
+        ss(sss.api+"?Friend/get_old_chat.html",ai)
+        hs(ai,post,"utf-8",null,true,v)
+        sr(v,"[","",o)
+        sl(o,"{\"id\"",j)
+        sgszl(j,zs)
+        s(zs-1,z)
+        s s=z
+        for(1;z)
+        {
+          sgsz(j,s,jsnr)
+          ss("{"id""+jsnr,jx)
+          json(jx,jo)
+          json(jo,"get","uid1",ida)
+          json(jo,"get","uid2",idb)
+          json(jo,"get","content",htxt)
+          ss("(html)"+htxt,htxt)
+          f(idb==sss.xxid)
+          {
+            ula(list_lt,35="空",69=会员,67=相框,12=sss.user,15=htxt,64=sss.txurl,21="",22="",23="")
+          }
+          else
+          {
+            ula(list_lt,41="空",59=sss.头像,55=user,46=htxt)
+          }
+          s(s-1,s)
+        }
+        ufnsui()
+        {
+          t()
+          {
+            ufnsui()
+            {
+              uls(5,list_lt,"交流lt.iyu",-1,-2)
+              ug(5,"count",zs)
+              us(5,"selection",zs)
+              us(45,"visibility","gone")
+              endutw(vf)
+              us(10,"text","")
+            }
+          }
+        }
+      }
+    }
+    else
+    {
+      ufnsui()
+      {
+        tw(ts,0)
+        endutw(vf)
+      }
+    }
+  }
+  else
+  {
+    sj(sss.当前用户数据,"封号(",")封号",原因)
+    ss("您已被封号！原因："+原因,text)
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+uzd(震动器, 30)</eventItme></event>
+</View>
+<UIEventset><eventItme type="destroy">sss a="1"</eventItme><eventItme type="loading">us(52,"app_title",sss.user)
+uycl("#ffffffff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+fn 着色.控件着色(34,yg)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=52
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fr("$幻隐网络/微端/账号.txt",自己)
+t()
+{
+  time("Y",a)
+  time("m",m)
+  time("d",D)
+  time("H",e)
+  time("M",l)
+  time("S",v)
+  ss(a+m+D+e+l+v,dqsj)
+  strim(sss.user,sss.user)
+  
+  ss(a+m+D+e+l+v,dqsj)
+  f(dqsj&gt;会员)
+  {
+    s 会员="无"
+  }
+  else
+  {
+    s 会员="有"
+  }
+  ss("uid="+sss.xxid+"&start_limit=0",post)
+  ss(sss.api+"?Friend/get_old_chat.html",ai)
+  hs(ai,post,"utf-8",null,true,v)
+  sr(v,"[","",o)
+  sl(o,"{\"id\"",j)
+  sgszl(j,zs)
+  s(zs-1,z)
+  s s=z
+  for(1;z)
+  {
+    sgsz(j,s,jsnr)
+    ss("{"id""+jsnr,jx)
+    json(jx,jo)
+    json(jo,"get","uid1",ida)
+    json(jo,"get","uid2",idb)
+    json(jo,"get","content",htxt)
+    ss("(html)"+htxt,htxt)
+    f(idb==sss.xxid)
+    {
+      ula(list_lt,35="空",69=会员,67=相框,12=sss.user,15=htxt,64=sss.txurl,21="",22="",23="")
+    }
+    else
+    {
+      ula(list_lt,41="空",55=user,46=htxt)
+      //59=sss.头像,
+    }
+    s(s-1,s)
+  }
+  ufnsui()
+  {
+    t()
+    {
+      ufnsui()
+      {
+        uls(5,list_lt,"交流lt.iyu",-1,-2)
+        ug(5,"count",zs)
+        us(5,"selection",zs)
+        ug(5,"count",总数)
+        f(总数&gt;"0")
+        {
+          us(45,"visibility","gone")
+        }
+        else
+        {
+          us(46,"visibility","visible")
+          us(47,"visibility","visible")
+          us(48,"visibility","gone")
+        }
+      }
+    }
+  }
+}
+f(sss.user=="系统")
+{
+  us(35,"visibility","gone")
+  us(40,"visibility","gone")
+  us(6,"visibility","gone")
+  us(43,"visibility","gone")
+  us(47,"text","暂时没有通知呢")
+  us(46,"width","70dp")
+  us(46,"height","70dp")
+  us(46,"src","@ic_alert_novel.png")
+  us(48,"visibility","gone")
+}
+else
+{
+  
+  us(35,"visibility","visible")
+  us(6,"visibility","visible")
+}</eventItme></UIEventset>

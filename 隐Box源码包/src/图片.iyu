@@ -1,0 +1,169 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="CardView">
+<ppt>width=50dp
+height=5dp
+app_CardcornerRadius=2.5dp
+app_CardElevation=0
+app_CardBackgroundColor=#7ECCCCCC
+layout_gravity=center
+layout_marginTop=20dp
+layout_marginBottom=10dp
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=-2
+height=180dp
+src=null
+layout_margin=20dp</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片保存路径
+layout_marginLeft=20dp
+textSize=11sp
+textStyle=bold
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=/storage/emulated/0/
+textSize=15sp
+layout_marginLeft=20dp
+textStyle=bold
+textColor=#424242</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=幻隐网luo/
+textSize=15sp
+layout_marginRight=20dp
+textStyle=bold
+textColor=#424242</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片名
+layout_marginLeft=20dp
+textSize=11sp
+textStyle=bold
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="EditText">
+<ppt>width=-1
+height=-2
+text=0628.jpg
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textStyle=bold
+textColor=#424242
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="Button">
+<ppt>width=-2
+height=-2
+text=保存
+layout_gravity=right
+layout_marginRight=20dp
+layout_marginBottom=10dp
+textColor=#ffffff
+textStyle=bold</ppt>
+<event><eventItme type="clicki">t()
+{
+  ufnsui()
+  {
+    ug(sss.lu,"text",sss.lujing)
+    ug(sss.ming,"text",sss.mingzi)
+    tot(sss.tu,sss.png)
+    f(sss.lujing=="")
+    {
+      ss("/storage/emulated/0/幻隐网luo/"+sss.mingzi,sss.baochun)
+      bfs(sss.png,sss.baochun)
+      fe(sss.baochun,sss.kk)
+      f(sss.kk==true)
+      {
+        ufnsui()
+        {
+         s stop = 2000
+s text="保存成功"
+fn color.ColorToast(text,stop)
+          java(null,ss.弹窗,"android.app.Dialog.dismiss")
+          call(null,"mjava","图库更新.更新",sss.baochun)
+          cls("android.support.v7.app.AlertDialog$Builder", 弹窗类)
+        }
+      }
+      else
+      {
+        ufnsui()
+        {
+          s stop = 2000
+s text="保存失败"
+fn color.ColorToast(text,stop)
+        }
+      }
+    }
+    else
+    {
+      ss("/storage/emulated/0/幻隐网luo/"+sss.lujing+sss.mingzi,sss.xinlujing)
+      bfs(sss.png,sss.xinlujing)
+      fe(sss.xinlujing,sss.kk)
+      f(sss.kk==true)
+      {
+        ufnsui()
+        {
+          s stop = 2000
+s text="保存成功"
+fn color.ColorToast(text,stop)
+          java(null,ss.弹窗,"android.app.Dialog.dismiss")
+          call(null,"mjava","图库更新.更新",sss.xinlujing)
+          cls("android.support.v7.app.AlertDialog$Builder", 弹窗类)
+        }
+      }
+      else
+      {
+        ufnsui()
+        {
+         s stop = 2000
+s text="保存失败"
+fn color.ColorToast(text,stop)
+        }
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+/.
+
+</eventItme></UIEventset>

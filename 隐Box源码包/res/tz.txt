@@ -1,0 +1,2 @@
+<div class="dashboard-wrapper select-posts">
+	<article class="panel panel-default archive" role="main">

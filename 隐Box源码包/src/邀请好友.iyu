@@ -1,0 +1,434 @@
+<View id="107" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=邀请好友
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="86" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="61" did="86" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="68" did="61" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="79" did="68" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=10dp
+ut_below=90</ppt>
+<event></event>
+</View>
+<View id="63" did="79" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=@c26ff91c6cb.png
+</ppt>
+<event></event>
+</View>
+<View id="64" did="63" type="RelativeLayout">
+<ppt>width=80dp
+height=80dp
+layout_marginleft=15dp
+layout_marginright=15dp
+gravity=center
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="65" did="64" type="RelativeLayout">
+<ppt>width=80dp
+height=80dp
+layout_margin=1.5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="66" did="65" type="RoundImageView">
+<ppt>width=60dp
+height=60dp
+layout_margin=1.5dp
+src=@170837.png</ppt>
+<event></event>
+</View>
+<View id="67" did="64" type="LinearLayout">
+<ppt>width=80dp
+height=80dp
+background=$幻隐网络/txk/txa.png
+layout_margin=1.5dp</ppt>
+<event></event>
+</View>
+<View id="82" did="64" type="GifView">
+<ppt>width=20dp
+height=20dp
+src=@chenghao/noble_emperor_icon.gif
+layout_marginLeft=10dp
+visibility=gone
+ut_alignParentRight=true
+ut_alignParentBottom=true
+layout_marginRight=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="87" did="63" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+layout_gravity=center
+layout_weight=1
+</ppt>
+<event></event>
+</View>
+<View id="69" did="87" type="TextView">
+<ppt>width=-2
+height=-2
+text=姓名
+layout_gravity=center
+textColor=#ffffff
+textStyle=bold
+textSize=16sp
+layout_gravity=left</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="TextView">
+<ppt>width=-2
+height=-2
+text=邀请0人
+layout_gravity=center
+textColor=#ffffff
+textStyle=bold
+textSize=12sp
+layout_gravity=left
+layout_marginTop=5dp
+visibility=gone</ppt>
+<event><eventItme type="aftertextchanged">ug(88,"text",判断)
+sj(判断,"邀请","人",邀请)
+f(邀请&gt;="10")
+{
+  us(76,"text","兑换")
+}
+else
+{
+}</eventItme></event>
+</View>
+<View id="74" did="63" type="CardView">
+<ppt>width=50dp
+height=30dp
+app_CardElevation=0
+layout_gravity=center
+layout_margin=1
+layout_marginRight=15dp
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#ffd1eaff
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ug(76,"text",兑换)
+f(兑换=="兑换")
+{
+  f(sss.当前用户数据?"兑换(成功)兑换")
+  {
+    s stop = 2000
+    s text="您已经兑换过了！"
+    fn color.ColorToast(text,stop)
+  }
+  else
+  {
+    uigo("兑换成功.iyu")
+  }
+}
+else
+{
+  ss("哈喽，你好，推荐给你一款超级厉害的App〖隐Box〗\n\n里面有300多种功能,超级的好用,我已经欲罢不能啦!\n\n你也快来试试吧?\n\n\n下载地址:www.ayjrw.cn(点击-旗下产品-下载里面的隐Box就可以了)\n\n我的邀请码&gt;"+sss.名称+"&lt;\n\n我的隐Box用户名是("+sss.名称+")快来和我一起玩吧!\n\n进入软件注册并复制本条消息，还有几率直接获取一天的会员喔~",fx)
+  sit(a, "action", "android.intent.action.SEND")
+  sit(a, "type", "text/plain")
+  //sit(a,"classname","com.tencent.mobileqq", "com.tencent.mobileqq.activity.JumpActivity")
+  sit(a, "extra", "android.intent.extra.TEXT",fx)
+  uit(a, "chooser", "请分享到200人以上的群")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="76" did="75" type="TextView">
+<ppt>width=-2
+height=-2
+text=邀请
+textColor=#1E88E5
+textSize=12sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="70" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=79</ppt>
+<event></event>
+</View>
+<View id="71" did="70" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="73" did="71" type="TabLayout">
+<ppt>width=-2
+height=-2
+app_tabList=邀请规则|我的邀请
+app_tabIndicatorWidth=10dp
+tabSelect=0
+app_tabIndicatorColor=#ff008cff
+app_tabIndicatorWidth=14dp
+app_tabIndicatorHeight=3.5dp
+app_tabTextColor=#80000000||#ff008cff
+app_tabMode=0
+</ppt>
+<event><eventItme type="ontabselected">f(st_tT=="邀请规则")
+{
+  us(83,"visibility","gone")
+  us(81,"visibility","gone")
+  us(77,"visibility","visible")
+  us(85,"visibility","gone")
+  us(84,"visibility","gone")
+}
+else f(st_tT=="我的邀请")
+{
+  us(81,"visibility","visible")
+  us(77,"visibility","gone")
+  //ss(sss.api+"Box/yh/yh.txt",wz)
+  t()
+  {
+    ss(sss.api+"Box/yqrs.php?name="+sss.名称,查询)
+    hs(查询,内容)
+    sj(内容,"【","】",人)
+    sl(内容,"用户",api)
+    for(apis;api)
+    {
+      sj(apis,"名: (",")",名)
+      sj(apis,"注册时间：(",")",注册时间)
+      ss("注册时间："+注册时间,注册时间)
+      strim(名,名)
+      f(名=="null")
+      {
+      }
+      else
+      {
+      ula(lo1,5=名,6=注册时间)
+      }
+    }
+    ufnsui()
+    {
+      uls(81,lo1,"邀请list.iyu",-1,-2)
+      f(人=="0")
+      {
+        us(85,"visibility","visible")
+        us(84,"visibility","visible")
+        us(81,"visibility","gone")
+      }
+      else
+      {
+        ss("邀请 "+人+"人",人)
+        us(88,"text",人)
+        us(88,"visibility","visible")
+      }
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="77" did="70" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+BackgroundColor=#6dd8d8d8
+layout_marginTop=10dp
+layout_marginBottom=10dp
+</ppt>
+<event></event>
+</View>
+<View id="106" did="77" type="ImageView">
+<ppt>width=50dp
+height=-2
+src=@battle_activity_name_light.webp
+layout_marginTop=10dp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="80" did="77" type="TextView">
+<ppt>width=-2
+height=-2
+text=每邀请一名好友注册隐Box，即可获取三天的隐Box会员，邀请十名可以兑换，每个人只有一次机会喔~\n\n并且您邀请的好友，充值会员，您都会获取百分之七十提成。\n比如ta充值38.88元，百分之七十就是38.88*0.7=27.216元，都一样，都是您的，赚取收益后，会有客服通过隐Box聊天联系你，给您结账~\n\n本活动不限时，永远不会结束喔~\n\n欢迎各位踊跃积极参与~
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#ff585858
+textIsSelectable=true
+textStyle=bold
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="81" did="70" type="RecyclerView">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="84" did="70" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@dyj.png
+layout_gravity=center
+layout_marginTop=30dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="85" did="70" type="TextView">
+<ppt>width=-2
+height=-2
+text=未邀请过好友
+layout_gravity=center
+textColor=#ff000000
+textStyle=bold
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="104" did="68" type="LinearLayout">
+<ppt>width=-1
+height=130dp
+orientation=vertical
+ut_above=101
+background=@ic_super_info_bg_startwishbox.png
+layout_marginBottom=-100dp</ppt>
+<event></event>
+</View>
+<View id="101" did="68" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+ut_alignParentBottom=true
+</ppt>
+<event></event>
+</View>
+<View id="102" did="101" type="TextView">
+<ppt>width=-2
+height=-2
+text=我的上级：
+layout_gravity=center
+layout_marginLeft=10dp
+textColor=#ff000000
+textStyle=bold
+textSize=16sp
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="105" did="101" type="TextView">
+<ppt>width=-2
+height=-2
+text=独爱隐心
+layout_gravity=center
+layout_marginLeft=10dp
+textColor=#ff00aaff
+textStyle=bold
+textSize=16sp
+layout_weight=1
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="103" did="101" type="ImageView">
+<ppt>width=60dp
+height=-2
+src=@btn_message_card_chat.png
+layout_gravity=center
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">ug(105,"text",sss.ta)
+uigo("个人资料.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=107
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+gvs(66,a)
+call(null,"mjava","图片跳转.set",a)
+us(66,"src",sss.头像)
+us(69,"text",sss.名称)
+us(66,"src",sss.头像)
+sj(sss.当前用户数据,"头像框：","头像框内容结束",相框)
+sj(sss.当前用户数据,"会员(",")会员",会员)
+sj(sss.当前用户数据,"邀请码(",")邀请码",邀请码)
+f(邀请码=="")
+{
+  us(104,"visibility","gone")
+  us(101,"visibility","gone")
+}
+else
+{
+  us(105,"text",邀请码)
+  us(104,"visibility","visible")
+  us(101,"visibility","visible")
+}
+us(67,"background",相框)
+f(sss.dqsj&gt;会员)
+{
+}
+else
+{
+  us(82,"visibility","visible")
+}</eventItme><eventItme type="loadingComplete"> 
+</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+call(null,"mjava","图片跳转.end")
+}</eventItme></UIEventset>

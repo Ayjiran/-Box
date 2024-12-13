@@ -1,0 +1,27 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ps=底层</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)
+ushsp(true)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">//加载dex
+loadjar("cz.dex",dex)
+//加载类
+cls(dex,"com.wawi.ruler.view.RulerView",ss.l)
+javanew(ss.rule,ss.l,"Context",activity)
+//动态添加View
+nvw(ss.rule,1)</eventItme></UIEventset>

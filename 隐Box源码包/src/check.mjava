@@ -1,0 +1,6 @@
+import android.webkit.WebView;
+public String getUrl(WebView mWebView)
+{
+   WebView.HitTestResult mHit=((WebView)mWebView).getHitTestResult();
+   return mHit.getExtra();
+}

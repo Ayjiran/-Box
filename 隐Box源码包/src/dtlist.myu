@@ -1,0 +1,81 @@
+//列表动画模块
+
+fn dh(lx,id)
+
+//从右往左移动动画
+f(lx=="dh1")
+{
+  swh("pxw",w)
+  //x轴y轴移动距离
+  dht(dh, w, 0, 0, 0)
+  //动画结束时间
+  dh(dh, "duration",450)
+  //设置动画
+  us(id, "dh",dh)
+}
+
+//从左往右移动动画
+f(lx=="dh2")
+{
+  swh("pxw",w)
+  ss("-"+w,w)
+  //x轴y轴移动距离
+  dht(dh, w, 0, 0, 0)
+  //动画结束时间
+  dh(dh, "duration",450)
+  //设置动画
+  us(id, "dh",dh)
+}
+
+//从上往下切动画
+f(lx=="dh3")
+{
+  swh("pxw",w)
+  //x轴y轴移动距离
+  dht(dh, 0, 0, -100, 0)
+  //动画结束时间
+  dh(dh, "duration",400)
+  //设置动画
+  us(id, "dh",dh)
+}
+
+//从下往上切动画
+f(lx=="dh4")
+{
+  swh("pxw",w)
+  //x轴y轴移动距离
+  dht(dh, 0, 0,100, 0)
+  //动画结束时间
+  dh(dh, "duration",400)
+  //设置动画
+  us(id, "dh",dh)
+}
+
+//控件渐渐显示动画
+f(lx=="dh5")
+{
+  dha(dh, false, true)
+  dh(dh, "duration", 500)
+  us(id, "dh", dh)
+}
+
+//模拟列表刷新效果
+f(lx=="dh6")
+{
+  dha(dh, true, false)
+  dh(dh, "duration", 500)
+  us(id, "dh", dh)
+}
+
+f(lx=="dh7")
+{
+  fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+dhs(dh, 0.5, 2.5,1.0, 0)
+  dh(dh, "duration", 400)
+  us(id, "dh", dh)
+}
+}
+
+end fn

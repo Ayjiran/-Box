@@ -1,0 +1,118 @@
+<View id="20" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginBottom=5dp
+</ppt>
+<event></event>
+</View>
+<View id="7" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="23" did="14" type="ImageView">
+<ppt>width=38dp
+height=38dp
+src=@xgt/img_winners_badge.v
+layout_marginleft=16dp</ppt>
+<event></event>
+</View>
+<View id="16" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=全部功能
+layout_margin=10dp
+textSize=18sp
+textColor=#ff005dab
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="18" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="24" did="18" type="ScrollView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="28" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="30" did="28" type="CardView">
+<ppt>width=-1
+height=180dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginBottom=20dp
+app_CardcornerRadius=10dp
+app_CardElevation=10dp</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@a/.zy/d22.v</ppt>
+<event></event>
+</View>
+<View id="25" did="28" type="TextView">
+<ppt>width=-2
+height=-2
+text=本功能，在2018年5月14日，凌晨0:54制作，在于隐Box1.1.7版本添加的一款最新功能\n本功能是让隐Box的会员能够快捷使用自己想用的功能，并且简约！\n\n使用方法：\n去功能大全的页面，选择自己喜欢的功能使用即可！\n\n搜索完想要的功能后，返回到全部功能界面，把编辑框删空，点击搜索就可以啦！
+textStyle=bold
+textColor=#ff414141</ppt>
+<event></event>
+</View>
+<View id="12" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=right
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="12" type="Button">
+<ppt>width=80dp
+height=40dp
+text=我知道啦
+textColor=#ffffff
+textSize=14dp
+background=#FF2196F3
+textStyle=bold
+layout_marginRight=10dp
+BackgroundRipple=#ffffff
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="clicki">fn tool.endubt()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

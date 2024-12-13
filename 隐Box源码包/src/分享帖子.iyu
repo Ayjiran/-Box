@@ -1,0 +1,333 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+gravity=center_vertical
+background=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=分享帖子
+textColor=#ffffffff
+textSize=17sp
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="41" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="46" did="0" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="46" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="51" did="8" type="RelativeLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="49" did="51" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=15dp</ppt>
+<event></event>
+</View>
+<View id="48" did="49" type="RelativeLayout">
+<ppt>width=-1
+height=450dp
+background=@PicsArt_08-07-10.42.29.jpg
+</ppt>
+<event></event>
+</View>
+<View id="53" did="48" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=vertical
+background=@item_mefragment_head_btn.v
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="54" did="48" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@sq_list_biaoqian_tj.png
+ut_alignParentRight=true
+</ppt>
+<event></event>
+</View>
+<View id="56" did="48" type="ImageView">
+<ppt>width=70dp
+height=70dp
+src=@icon.png
+ut_alignParentBottom=true
+layout_marginBottom=20dp
+layout_marginRight=10dp
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="60" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="57" did="60" type="CardView">
+<ppt>width=-2
+height=-2
+layout_marginTop=30dp
+app_CardcornerRadius=10dp
+layout_marginLeft=20dp
+app_CardElevation=-10dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="58" did="57" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="59" did="58" type="TextView">
+<ppt>width=-2
+height=-2
+text=帖子标题
+textColor=#9c7400f9
+layout_margin=10dp
+textStyle=bold
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="37" did="51" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginTop=20dp
+ut_below=49
+layout_marginLeft=19dp
+layout_marginRight=19dp</ppt>
+<event></event>
+</View>
+<View id="33" did="37" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=4dp
+layout_weight=1
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#ffdfdfdf
+</ppt>
+<event><eventItme type="clicki">ug(35,"text",保存)
+f(保存?"保存")
+{
+  gvs(49,控件)
+  java(宽,控件,"android.view.View.getWidth")
+  java(高,控件,"android.view.View.getHeight")
+  javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+  java(sss.图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+  f(sss.图片 == null){
+    tw("似乎出现问题了")
+    endcode
+  }
+  javanew(画板,"android.graphics.Canvas","android.graphics.Bitmap",sss.图片)
+  java(null,控件,"android.view.View.draw","android.graphics.Canvas",画板)
+  ss("帖子海报("+sss.bkbt+")",g)
+  ss("幻隐网luo/"+g+".png",gg)
+  bfs(sss.图片,1,gg)
+  s text="已保存本地，再次点击分享~"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+  us(35,"text","分享海报")
+}
+else
+{
+  ss("帖子海报("+sss.bkbt+")",g)
+  ss("幻隐网luo/"+g+".png",gg)
+  fe(gg,存在)
+  f(存在==true)
+  {
+    fdir(gg,path)
+    java(uri,null,"android.net.Uri.parse","String",path)
+    javanew(arrayuri,"java.util.ArrayList")
+    //add image to arraylist
+    java(null,arrayuri,"java.util.ArrayList.add","java.lang.Object",uri)
+    //create intent object
+    javanew(intent,"android.content.Intent")
+    javags(ACTION_SEND_MULTIPLE,null,"android.content.Intent","ACTION_SEND_MULTIPLE")
+    java(null,intent,"android.content.Intent.setAction","String",ACTION_SEND_MULTIPLE)
+    javags(EXTRA_STREAM,null,"android.content.Intent","EXTRA_STREAM")
+    java(null,intent,"android.content.Intent.putParcelableArrayListExtra","String",EXTRA_STREAM,"java.util.ArrayList",arrayuri)
+    java(null,intent,"android.content.Intent.setType","String","image/*")
+    //startload intent
+    java(intent,null,"android.content.Intent.createChooser","android.content.Intent",intent,"java.lang.CharSequence","分享图片")
+    java(null,activity,"android.content.Context.startActivity","android.content.Intent",intent)
+  }
+  else
+  {
+    s text="出了点问题！"
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="35" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+text=保存海报
+textColor=#ffffffff
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=4dp
+layout_weight=1
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#ffdfdfdf
+</ppt>
+<event><eventItme type="clicki">sit(a, "action", "android.intent.action.SEND")
+sit(a, "type", "text/plain")
+//sit(a,"classname","com.tencent.mobileqq", "com.tencent.mobileqq.activity.JumpActivity")
+sit(a, "extra", "android.intent.extra.TEXT",sss.fx)
+uit(a, "chooser", "请分享到200人以上的群")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="40" did="39" type="TextView">
+<ppt>width=-2
+height=-2
+text=分享软件
+textColor=#ffffffff
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="15" did="51" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F5F5F5</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=center_vertical
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=提示
+textColor=#000000
+textStyle=bold
+textSize=13sp
+layout_marginLeft=15dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.本功能是替您发邮箱给别人。\n\n2.如果发送邮箱，对方的邮箱里面没有，那么原因可能是因为邮件被判定为垃圾文件，被放进垃圾箱中了，可以去垃圾箱中查看喔~\n\n3.如果利用本功能恶意骚扰其他人，我们官方并不提倡。\n\n4.如果您利用本功能违法，一切与我们官方无关，而且如果事态严重，那么好，我们会移交司法机关处理的。
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp
+layout_marginTop=10dp
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="55" did="51" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@dd/ic_publish_right_top.png
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(34,"background",yg)
+us(39,"background",yg)
+us(2,"background",yg)
+gvs(56,a)
+call(null,"mjava","图片跳转.set",a)
+t()
+{
+  uqr(sss.tzurl,1000,帖子二维码)
+  ufnsui()
+  {
+    us(56,"src",帖子二维码)
+    us(59,"text",sss.bkbt)
+  }
+}</eventItme></UIEventset>

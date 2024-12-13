@@ -1,0 +1,899 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=black
+layout_weight=1
+gravity=bottom|right</ppt>
+<event></event>
+</View>
+<View id="67" did="2" type="HorizontalScrollView">
+<ppt>width=-2
+height=-2
+layout_gravity=right
+</ppt>
+<event></event>
+</View>
+<View id="61" did="67" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ffffff
+.textSize=108sp
+singleLine=true
+layout_marginRight=15dp
+textIsSelectable=true</ppt>
+<event><eventItme type="beforetextchanged">us(28,"text","C")</eventItme><eventItme type="aftertextchanged">.us(28,"text","AC")</eventItme></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="9" did="4" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">us(48,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(48, "dh", dh)
+dh(dh, "after", true)
+
+dha(dh1, true, false)
+dh(dh1, "duration", 100)
+us(61, "dh", dh1)
+dhon(dh1)
+{
+//当结束动画时
+
+us(61,"text","")
+us(28,"text","AC")
+}
+</eventItme></event>
+</View>
+<View id="48" did="9" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#ffffff
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="28" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=AC
+textColor=#000000
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="10" did="4" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">us(49,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(49, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",h1)
+  slg(h1,k1)
+  s(k1-1,c1)
+  ssg(h1,c1,d1)
+  f(d1!="-"&&d1!="+")
+  {
+    ug(61,"text",h)
+  s j="-"
+  ss(h+j,d)
+  us(61,"text",d)
+  }
+
+ug(61,"text",h)
+  slg(h,k)
+  s(k-1,c)
+  ssg(h,c,d)
+
+f(d=="-")
+{
+  
+  ug(61,"text",h)
+  slg(h,k)
+  s(k-1,c)
+  ssg(h,0,c,d)
+  s j="+"
+  ss(d+j,d)
+  us(61,"text",d)
+  }
+else
+{
+f(d=="+")
+{
+  ug(61,"text",h)
+  slg(h,k)
+  s(k-1,c)
+  ssg(h,0,c,d)
+  s j="-"
+  ss(d+j,d)
+  us(61,"text",d)
+}
+}</eventItme></event>
+</View>
+<View id="49" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="29" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=+/_
+textColor=#000000
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="11" did="4" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#ffffff
+gravity=center</ppt>
+<event><eventItme type="clicki">us(50,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(50, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"%",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="50" did="11" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="30" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=％
+textColor=#000000
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="12" did="4" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">us(62,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(62, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"÷",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="62" did="12" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#ffffff
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="31" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=÷
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="13" did="5" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(51,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(51, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"7",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="51" did="13" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="32" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=7
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="14" did="5" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(52,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(52, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"8",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="52" did="14" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="33" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=8
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="15" did="5" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(53,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(53, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"9",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="53" did="15" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="34" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=9
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="16" did="5" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">us(63,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(63, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"×",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="63" did="16" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#ffffff
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="35" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=×
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="17" did="6" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(54,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(54, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"4",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="54" did="17" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="36" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=4
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="18" did="6" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(55,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(55, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"5",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="55" did="18" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="37" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=5
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="19" did="6" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(56,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(56, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"6",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="56" did="19" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="38" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=6
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="20" did="6" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+background=white
+gravity=center
+</ppt>
+<event><eventItme type="clicki">us(64,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(64, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"-",a)
+us(61,"text",a)
+</eventItme></event>
+</View>
+<View id="64" did="20" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#ffffff
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="39" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=－
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="7" did="3" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="21" did="7" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(47,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(47, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"1",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="47" did="21" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="41" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=1
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="22" did="7" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(57,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(57, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"2",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="57" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="42" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=2
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="23" did="7" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(58,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(58, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"3",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="58" did="23" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="43" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=3
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="24" did="7" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">us(65,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(65, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+s b="+"
+ss(a+b,a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="65" did="24" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#ffffff
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="40" did="24" type="TextView">
+<ppt>width=-2
+height=-2
+text=＋
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="8" did="3" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="25" did="8" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(59,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(59, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+"0",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="59" did="25" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="44" did="25" type="TextView">
+<ppt>width=-2
+height=-1
+text=0
+textColor=#ffffff
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="26" did="8" type="RelativeLayout">
+<ppt>//相对布局
+width=-2
+height=-2
+gravity=center
+</ppt>
+<event><eventItme type="clicki">//相对布局点击
+us(60,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(60, "dh", dh)
+dh(dh, "after", true)
+ug(61,"text",a)
+ss(a+".",a)
+us(61,"text",a)</eventItme></event>
+</View>
+<View id="60" did="26" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#737373
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="45" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=.
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="27" did="8" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">us(66,"visibility",0)
+dha(dh, true, false)
+dh(dh, "duration", sss.yc)
+us(66, "dh", dh)
+dh(dh, "after", true)
+
+dha(dh, true, false)
+dh(dh, "duration", 100)
+us(61, "dh", dh)
+dhon(dh)
+{
+//当结束动画时
+dha(dh1,false ,true)
+dh(dh1, "duration", 100)
+us(61, "dh", dh1)
+ug(61,"text",a)
+sr(a,"÷","/",a)
+sr(a,"×","*",a)
+sn(a,a)
+f(a=="-1.0")
+{
+us(61,"text","出错")
+}
+else
+{
+  us(61,"text",a)
+}
+
+
+}
+
+</eventItme></event>
+</View>
+<View id="66" did="27" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#ffffff
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="46" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=＝
+textColor=#ffffff
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#000000",false)
+//按钮延迟
+sss yc=600
+//
+ngde(100,100,"#737373","#737373",a)
+us(47,"background",a)
+us(51,"background",a)
+us(52,"background",a)
+us(53,"background",a)
+us(54,"background",a)
+us(55,"background",a)
+us(56,"background",a)
+us(57,"background",a)
+us(58,"background",a)
+us(60,"background",a)
+ngde(100,100,"#ffffff","#ffffff",b)
+us(48,"background",b)
+us(49,"background",b)
+us(50,"background",b)
+us(62,"background",b)
+us(63,"background",b)
+us(64,"background",b)
+us(65,"background",b)
+us(66,"background",b)
+ngde(100,100,"#737373","#737373",h)
+us(59,"background",h)
+
+
+
+swh("h",a)
+s(a*0.3265306122,a)
+ss(a+"dp",a)
+us(2,"height",a)
+swh("w",b)
+s(b*0.2073170732,b)
+
+
+ss(b+"dp",b)
+
+swh("w",c)
+s(c*0.0341463415,sss.a)
+ss(sss.a+"dp",sss.c)
+us(9,"width",b)
+us(9,"height",b)
+us(10,"width",b)
+us(10,"height",b)
+us(11,"width",b)
+us(11,"height",b)
+us(12,"width",b)
+us(12,"height",b)
+us(13,"width",b)
+us(13,"height",b)
+us(14,"width",b)
+us(14,"height",b)
+us(15,"width",b)
+us(15,"height",b)
+us(16,"width",b)
+us(16,"height",b)
+us(17,"width",b)
+us(17,"height",b)
+us(18,"width",b)
+us(18,"height",b)
+us(19,"width",b)
+us(19,"height",b)
+us(20,"width",b)
+us(20,"height",b)
+us(21,"width",b)
+us(21,"height",b)
+us(22,"width",b)
+us(22,"height",b)
+us(23,"width",b)
+us(23,"height",b)
+us(24,"width",b)
+us(24,"height",b)
+
+swh("w",e)
+s(e*0.2073170732,e)
+s(e*2+14,e)
+ss(e+"dp",e)
+us(25,"width",e)
+us(25,"height",b)
+us(26,"width",b)
+us(26,"height",b)
+us(27,"width",b)
+us(27,"height",b)
+
+ngde(100,100,"#333333","#333333",d)
+ngde(100,100,"#b0b0b0","#b0b0b0",f)
+ngde(100,100,"#f09a37","#f09a37",g)
+us(9,"background",f)
+us(10,"background",f)
+us(11,"background",f)
+us(12,"background",g)
+us(13,"background",d)
+us(14,"background",d)
+us(15,"background",d)
+us(16,"background",g)
+us(17,"background",d)
+us(18,"background",d)
+us(19,"background",d)
+us(20,"background",g)
+us(21,"background",d)
+us(22,"background",d)
+us(23,"background",d)
+us(24,"background",g)
+ngde(100,100,"#333333","#333333",h)
+us(25,"background",h)
+us(26,"background",d)
+us(27,"background",g)
+ug(9,"height",h)
+zdp(h,h)
+zps(h,h)
+s(h*0.5,h)
+s(h/3,h)
+us(28,"textsize",h)
+us(29,"textsize",h)
+us(30,"textsize",h)
+us(31,"textsize",h)
+us(32,"textsize",h)
+us(33,"textsize",h)
+us(34,"textsize",h)
+us(35,"textsize",h)
+us(36,"textsize",h)
+us(37,"textsize",h)
+us(38,"textsize",h)
+us(39,"textsize",h)
+us(40,"textsize",h)
+us(41,"textsize",h)
+us(42,"textsize",h)
+us(43,"textsize",h)
+us(44,"textsize",h)
+
+us(45,"textsize",h)
+us(46,"textsize",h)
+
+
+swh("w",i)
+s(i*0.2073170732/2/1.25,i)
+ss(i+"dp",i)
+us(44,"layout_marginleft",i)
+
+
+
+
+swh("pxw",j)
+s(j/6,j)
+zps(j,j)
+us(61,"textsize",j)
+
+
+</eventItme><eventItme type="loadingComplete">
+
+us(9,"layout_margin",sss.c)
+us(10,"layout_margintop",sss.c)
+us(10,"layout_marginbottom",sss.c)
+us(11,"layout_marginleft",sss.c)
+us(12,"layout_marginleft",sss.c)
+
+us(13,"layout_marginleft",sss.c)
+us(14,"layout_marginleft",sss.c)
+
+us(15,"layout_marginleft",sss.c)
+us(16,"layout_marginleft",sss.c)
+
+us(17,"layout_margin",sss.c)
+us(19,"layout_marginleft",sss.c)
+us(20,"layout_marginleft",sss.c)
+
+us(21,"layout_marginleft",sss.c)
+us(22,"layout_marginleft",sss.c)
+us(23,"layout_marginleft",sss.c)
+us(24,"layout_marginleft",sss.c)
+
+us(25,"layout_margin",sss.c)
+us(27,"layout_marginleft",sss.c)
+us(67,"layout_marginright",sss.c)
+us(67,"layout_marginleft",sss.c)</eventItme></UIEventset>

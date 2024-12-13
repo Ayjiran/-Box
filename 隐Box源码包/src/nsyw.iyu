@@ -1,0 +1,123 @@
+<View id="2" did="0" type="SwipeRefreshLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="onrefresh">
+ula(sss.a, null)
+
+t()
+{
+  hs(sss.ay,yy)
+json(yy, jo)
+json(jo, "list", "data", list)
+json(list, "size", size)
+w(size &gt; 0)
+{
+s-(1, size)
+json(list, "data", size, item)
+
+//获取id
+json(item, "get", "conts", a)
+//获取name
+ula(sss.a, 1="abc", 2="bac", 3=a)
+s c = "list.iyu"
+s d = -1
+s e = -2
+ufnsui()
+{
+uls(nsyw.1, sss.a, c, d, e)
+us(nsyw.2,"refreshing",false)
+}
+}
+}
+</eventItme></event>
+</View>
+<View id="1" did="2" type="GridView">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="onscroll">f(st_vT==0)
+{
+endcode
+}
+
+
+s(st_bT-st_vT,kj)
+f(st_fM==kj)
+{
+//以滚动到底部执行的事件
+f(ss.bottom==null)
+{
+
+s+(sss.get,1,sss.get)
+ss("http://personality.nineton.cn/Home/Index/getSignNetData?type_id="+sss.id+"&key=7f497edca9b81dcfef4d7f3a40cc17d4&page="+sss.get,tj)
+t()
+{
+   hs(tj,yy)
+json(yy, jo)
+json(jo, "list", "data", list)
+json(list, "size", size)
+w(size &gt; 0)
+{
+s-(1, size)
+json(list, "data", size, item)
+
+//获取id
+json(item, "get", "conts", ah)
+sr(ah,"\\n","\n",a)
+ula(sss.a, 1="abc", 2="bac", 3=a)
+s c = "list.iyu"
+s d = -1
+s e = -2
+ufnsui()
+{
+uls(sss.a)
+ula(sss.a)
+}
+}
+}
+
+
+ss bottom="true"
+ss xfshow=null
+ss xfgone=null
+}
+}
+else
+{
+  ss bottom=null
+  f(st_fM&gt;4)
+{
+  f(ss.xfshow==null)
+{
+
+ss xfshow="true"
+ss xfgone=null
+ss bottom=null
+}
+}
+else
+{
+f(ss.xfgone==null)
+{
+
+ss xfshow=null
+ss xfgone="true"
+
+ss bottom=null
+}
+}
+  
+
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

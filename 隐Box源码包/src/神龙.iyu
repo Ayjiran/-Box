@@ -1,0 +1,351 @@
+<View id="52" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=召唤神龙
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="44" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>height=-2
+width=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-1
+height=-2
+text=价值金额
+gravity=center
+textSize=15sp
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="TextView">
+<ppt>width=-1
+height=-2
+text=¥1.8
+gravity=center
+textSize=20sp
+textColor=#ff191919
+</ppt>
+<event></event>
+</View>
+<View id="30" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="TextView">
+<ppt>width=-2
+height=-2
+text=奖品
+textColor=#ff393939
+textSize=14sp</ppt>
+<event></event>
+</View>
+<View id="32" did="30" type="TextView">
+<ppt>width=-1
+height=-2
+text=自选会员到期时间
+gravity=right
+textColor=#ff484848</ppt>
+<event></event>
+</View>
+<View id="33" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+text=所选时间
+textColor=#ff393939
+textSize=14sp</ppt>
+<event></event>
+</View>
+<View id="35" did="33" type="TextView">
+<ppt>width=-1
+height=-2
+text=1天
+gravity=right
+textColor=#ff484848</ppt>
+<event></event>
+</View>
+<View id="8" did="5" type="TextView">
+<ppt>width=-1
+height=1
+text=
+background=#ffcdcdcd
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=10dp
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="14" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="16" did="14" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal
+gravity=center_vertical
+paddingLeft=5dp
+paddingRight=5dp
+BackgroundColor=#ffffffff
+BackgroundRipple=#ffcdcdcd</ppt>
+<event><eventItme type="clicki">ss type="wxpay"
+us(21,"checked",true)
+us(15,"checked",false)
+us(27,"checked",false)</eventItme></event>
+</View>
+<View id="43" did="16" type="RoundImageView">
+<ppt>width=35dp
+height=35dp
+src=@icon.png</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+paddingLeft=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="42" did="18" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=请输入您想要的会员天数！推荐一天
+textsize=12dp
+background=
+singleline=true
+textCursorDrawable=#ff009bff
+digits=1234567890</ppt>
+<event><eventItme type="ontextchanged">ug(42,"text",j)
+f(j=="")
+{
+us(35,"text","1天")
+us(7,"text","¥5.88")
+}
+else
+{
+ss(j+"天",o)
+us(35,"text",o)
+s*(5.88, j, true, b)
+ss("¥"+b,b)
+us(7,"text",b)
+}
+</eventItme></event>
+</View>
+<View id="28" did="1" type="Button">
+<ppt>width=-1
+height=-2
+text=获取
+BackgroundColor=#ff00b8ff
+layout_marginLeft=10dp
+layout_marginRight=10dp
+textColor=#ffffffff
+layout_gravity=center</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/.v/xjf.yx",yy)
+f(yy&gt;"0")
+{
+s stop = 2000
+s text="您已拥有会员，无需兑换~~"
+fn color.ColorToast(text,stop)
+end()
+}
+else
+{
+ug(42,"text",b)
+f(b=="1")
+{
+uigo("龙珠兑换.iyu")
+}
+else
+{
+us(45,"visibility","visible")
+uycl(true)
+us(52,"background","#c4000000")
+uzd(震动器, 1000)
+}
+}</eventItme></event>
+</View>
+<View id="39" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=做人别太贪-好事翻一翻
+gravity=center
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="40" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=满足你一个愿望
+gravity=center
+textColor=#ffff0000</ppt>
+<event></event>
+</View>
+<View id="36" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom|center_horizontal
+paddingBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="38" did="36" type="TextView">
+<ppt>width=-1
+height=-2
+text=温馨提示：不要太贪
+textSize=13sp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#c4000000
+gravity=center
+visibility=gone</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="47" did="45" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="46" did="47" type="GifView">
+<ppt>width=-1
+height=-2
+src=@sl.gif</ppt>
+<event></event>
+</View>
+<View id="48" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=贪婪的人类啊
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ffff001a</ppt>
+<event></event>
+</View>
+<View id="49" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=你不配得到朕的眷顾
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ffff0022</ppt>
+<event></event>
+</View>
+<View id="51" did="45" type="CardView">
+<ppt>width=140dp
+height=-2
+layout_marginLeft=30dp
+layout_marginRight=30dp
+layout_marginTop=40dp
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="50" did="51" type="Button">
+<ppt>width=-1
+height=-2
+text=知道错了
+BackgroundColor=#ffff001b
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">uzd(sss.zdq, "sp")
+end()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+us(28,"background",yg)
+s id=52
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(52,颜色)
+fn 着色.控件着色(28,颜色)
+us(40,"textcolor",颜色)
+/.
+
+</eventItme><eventItme type="downkey">ug(45,"visibility",k)
+f(k=="visible")
+{
+s stop = 2000
+s text="贪婪的人类，知道错了？"
+fn color.ColorToast(text,stop)
+}
+else
+{
+end()
+}</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

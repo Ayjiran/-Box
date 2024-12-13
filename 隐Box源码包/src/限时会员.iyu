@@ -1,0 +1,1548 @@
+<View id="276" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=专属功能
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="262" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="262" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+background=white</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_marginLeft=20dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐Box-会员功能
+textColor=#000000
+textSize=17sp</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=Function
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="8" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="9" type="CardView">
+<ppt>width=35dp
+height=35dp
+app_CardElevation=0dp
+app_CardcornerRadius=10dp
+layout_gravity=center_vertical
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#fafafa</ppt>
+<event></event>
+</View>
+<View id="255" did="13" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@Bibi/bm2.v</ppt>
+<event></event>
+</View>
+<View id="261" did="262" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="57" did="261" type="ScrollView">
+<ppt>width=-1
+height=-1
+overScrollMode=never
+ut_below=2</ppt>
+<event></event>
+</View>
+<View id="39" did="57" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through</ppt>
+<event></event>
+</View>
+<View id="72" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="267" did="73" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="75" did="267" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event><eventItme type="clicki">uigo("彩色头像.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="76" did="75" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="79" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=彩色头像
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="80" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=像是一层滤镜
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="78" did="75" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="268" did="267" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@sq_list_biaoqian_tj.png
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="74" did="72" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="81" did="74" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event><eventItme type="clicki">uigo("lh.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="82" did="81" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="83" did="81" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="TextView">
+<ppt>width=-2
+height=-2
+text=靓号在手
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="85" did="83" type="TextView">
+<ppt>width=-2
+height=-2
+text=谁还没有个好QQ了
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="86" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through</ppt>
+<event></event>
+</View>
+<View id="125" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through</ppt>
+<event></event>
+</View>
+<View id="126" did="125" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp
+</ppt>
+<event></event>
+</View>
+<View id="127" did="126" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event></event>
+</View>
+<View id="128" did="127" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="129" did="127" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">uigo("代码加密.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="130" did="129" type="TextView">
+<ppt>width=-2
+height=-2
+text=代码加密
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="131" did="129" type="TextView">
+<ppt>width=-2
+height=-2
+text=不再那么简单明了
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="132" did="125" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp
+</ppt>
+<event></event>
+</View>
+<View id="133" did="132" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event></event>
+</View>
+<View id="134" did="133" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="135" did="133" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">uigo("在线仿站.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="136" did="135" type="TextView">
+<ppt>width=-2
+height=-2
+text=网站扒站
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="137" did="135" type="TextView">
+<ppt>width=-2
+height=-2
+text=阁下的网站我收下了
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="138" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through</ppt>
+<event></event>
+</View>
+<View id="139" did="138" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="140" did="139" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event><eventItme type="clicki">uigo("json.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="141" did="140" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="142" did="141" type="TextView">
+<ppt>width=-2
+height=-2
+text=json转换
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="143" did="141" type="TextView">
+<ppt>width=-2
+height=-2
+text=专业的Json转换
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="144" did="140" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="145" did="138" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="146" did="145" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event></event>
+</View>
+<View id="147" did="146" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="148" did="146" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">call(c, "mlua", "az.get","com.hz.gq")
+syso(c)
+f(c==true)
+{
+  uapp("com.hz.gq",r)
+  }
+else f(c==false)
+{
+fc("@qm.apk","%qm.apk",a)
+fo("%qm.apk")
+}</eventItme></event>
+</View>
+<View id="149" did="148" type="TextView">
+<ppt>width=-2
+height=-2
+text=app签名
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="150" did="148" type="TextView">
+<ppt>width=-2
+height=-2
+text=软件签名(未签名.apk)
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="164" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through</ppt>
+<event></event>
+</View>
+<View id="171" did="164" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="172" did="171" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event></event>
+</View>
+<View id="173" did="172" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="174" did="172" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">sran(10000,9999999999,qq)
+ss("mqqwpa://im/chat?chat_type=wpa&uin="+qq+"&version=1",urlqq)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",urlqq)
+uit(a, "chooser", "QQ聊天窗口")
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="175" did="174" type="TextView">
+<ppt>width=-2
+height=-2
+text=随机好友
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="176" did="174" type="TextView">
+<ppt>width=-2
+height=-2
+text=缺好友？看我看我
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="165" did="164" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="166" did="165" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event></event>
+</View>
+<View id="167" did="166" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">sss ztys="#ff0081ff"
+uigo("提取.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="168" did="167" type="TextView">
+<ppt>width=-2
+height=-2
+text=资源提取
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="169" did="167" type="TextView">
+<ppt>width=-2
+height=-2
+text=提取App中的资源
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="170" did="166" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="263" did="165" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="264" did="263" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@sq_list_biaoqian_tj.png
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="190" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through</ppt>
+<event></event>
+</View>
+<View id="191" did="190" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="192" did="191" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event></event>
+</View>
+<View id="193" did="192" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">uigo("归属地.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="194" did="193" type="TextView">
+<ppt>width=-2
+height=-2
+text=归属查询
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="195" did="193" type="TextView">
+<ppt>width=-2
+height=-2
+text=查询手机号的地址
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="196" did="192" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="197" did="190" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="198" did="197" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event></event>
+</View>
+<View id="199" did="198" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="200" did="198" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">uigo("爬虫.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="201" did="200" type="TextView">
+<ppt>width=-2
+height=-2
+text=爬虫提取
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="202" did="200" type="TextView">
+<ppt>width=-2
+height=-2
+text=提取网页内的资源
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="229" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through</ppt>
+<event></event>
+</View>
+<View id="230" did="229" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp
+</ppt>
+<event></event>
+</View>
+<View id="231" did="230" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event></event>
+</View>
+<View id="232" did="231" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="233" did="231" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">uigo("抖音解析.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="234" did="233" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频解析
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="235" did="233" type="TextView">
+<ppt>width=-2
+height=-2
+text=短视频解析提取
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="236" did="229" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp
+</ppt>
+<event></event>
+</View>
+<View id="237" did="236" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event></event>
+</View>
+<View id="238" did="237" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="239" did="237" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">uigo("快手提取.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="240" did="239" type="TextView">
+<ppt>width=-2
+height=-2
+text=配图提取
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="241" did="239" type="TextView">
+<ppt>width=-2
+height=-2
+text=配图解析提取
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="242" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through
+</ppt>
+<event></event>
+</View>
+<View id="243" did="242" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="244" did="243" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event><eventItme type="clicki">uigo("封面获取.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="245" did="244" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="246" did="245" type="TextView">
+<ppt>width=-2
+height=-2
+text=封面获取
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="247" did="245" type="TextView">
+<ppt>width=-2
+height=-2
+text=哔哩哔哩封面提取
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="248" did="244" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="249" did="242" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="250" did="249" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event></event>
+</View>
+<View id="251" did="250" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="252" did="250" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">uigo("批量改.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="253" did="252" type="TextView">
+<ppt>width=-2
+height=-2
+text=量改文件
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="254" did="252" type="TextView">
+<ppt>width=-2
+height=-2
+text=批量修改文件夹内容
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="177" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through
+</ppt>
+<event></event>
+</View>
+<View id="178" did="177" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp
+</ppt>
+<event></event>
+</View>
+<View id="179" did="178" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event></event>
+</View>
+<View id="180" did="179" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="181" did="179" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">uigo("gndm.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="182" did="181" type="TextView">
+<ppt>width=-2
+height=-2
+text=HTML运行
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="183" did="181" type="TextView">
+<ppt>width=-2
+height=-2
+text=直接运行你的html
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="87" did="177" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="89" did="87" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event><eventItme type="clicki">uigo("悬浮播放.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="90" did="89" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="92" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=悬浮播放
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="93" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=游戏视频两不误
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="91" did="89" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="278" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through
+</ppt>
+<event></event>
+</View>
+<View id="279" did="278" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="280" did="279" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="281" did="280" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event><eventItme type="clicki">sj(sss.当前用户数据,"会员(",")会员",会员)
+f(会员?"999999")
+{
+  uigo("短信群发.iyu")
+}
+else
+{
+  
+ s text="使用本功能需要充值永久会员~"
+  s stop = 2000
+  fn color.ColorToast(text,stop) 
+}
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="282" did="281" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="283" did="282" type="TextView">
+<ppt>width=-2
+height=-2
+text=短信群发
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="284" did="282" type="TextView">
+<ppt>width=-2
+height=-2
+text=sms群发稳定
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="285" did="281" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="286" did="280" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@sq_list_biaoqian_tj.png
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="287" did="278" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="288" did="287" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event><eventItme type="clicki">uigo("复制粘贴.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="289" did="288" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="290" did="288" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="291" did="290" type="TextView">
+<ppt>width=-2
+height=-2
+text=复制粘贴
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="292" did="290" type="TextView">
+<ppt>width=-2
+height=-2
+text=不懂勿要乱用
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="293" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="294" did="293" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=10dp
+layout_marginBottom=2dp
+</ppt>
+<event></event>
+</View>
+<View id="295" did="294" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#c6dff7</ppt>
+<event></event>
+</View>
+<View id="296" did="295" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="297" did="295" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">uigo("接口循环.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="298" did="297" type="TextView">
+<ppt>width=-2
+height=-2
+text=接口循环
+textColor=#0079ff
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="299" did="297" type="TextView">
+<ppt>width=-2
+height=-2
+text=循环递交你的请求
+textColor=#0079ff
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="300" did="293" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+layout_weight=1
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=20dp
+layout_marginBottom=2dp
+visibility=</ppt>
+<event></event>
+</View>
+<View id="301" did="300" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#bde7d6</ppt>
+<event><eventItme type="clicki">uigo("接口循环动态.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="302" did="301" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="303" did="302" type="TextView">
+<ppt>width=-2
+height=-2
+text=动态循环
+textColor=#10aa73
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="304" did="302" type="TextView">
+<ppt>width=-2
+height=-2
+text=动态递交请求
+textColor=#10aa73
+textSize=12.5sp
+layout_marginLeft=5dp
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="305" did="301" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+fr("$幻隐网络/配置/yx.txt",yg)
+us(257,"background",yg)
+
+s id=276
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(261,a)
+gvs(57,b)
+javanew(mBs,mB,"Context",activity)
+urvw(57)
+nvw(mBs,261)
+nvw(b,mBs)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

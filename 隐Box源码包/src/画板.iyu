@@ -1,0 +1,186 @@
+<View id="16" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=极简画板
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=2
+ut_above=4
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+ut_alignParentBottom=true
+background=white</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="ImageView">
+<ppt>width=-2
+height=150
+src=@Pic/ic_mode_edit.png
+layout_weight=5
+padding=40
+background=#ffcccccc</ppt>
+<event><eventItme type="clicki">javax(c,ss.画板,ss.View,"setPenRawSize","int",ss.Dh)
+javax(c,ss.画板,ss.View,"setPenAlpha","int",255)
+us(7,"background","#ffcccccc")
+us(8,"background","")</eventItme></event>
+</View>
+<View id="9" did="4" type="ImageView">
+<ppt>width=-2
+height=150
+src=@Pic/clear.png
+layout_weight=5
+padding=40</ppt>
+<event><eventItme type="clicki">javax(c,ss.画板,ss.View,"clear")
+us(3,"backgroundcolor",-1)</eventItme></event>
+</View>
+<View id="8" did="4" type="ImageView">
+<ppt>width=-2
+height=150
+src=@Pic/xpc.png
+layout_weight=5
+padding=40</ppt>
+<event><eventItme type="clicki">javax(c,ss.画板,ss.View,"setPenRawSize","int",ss.Dx)
+javax(c,ss.画板,ss.View,"setPenAlpha","int",0)
+
+//javax(c,ss.画板,ss.View,"setMode", ss.Mo,"DRAW")
+us(7,"background","")
+us(8,"background","#ffcccccc")</eventItme></event>
+</View>
+<View id="5" did="4" type="ImageView">
+<ppt>width=-2
+height=150
+src=@Pic/ic_undo.png
+layout_weight=5
+padding=40</ppt>
+<event><eventItme type="clicki">javax(c,ss.画板,ss.View,"undo")</eventItme></event>
+</View>
+<View id="6" did="4" type="ImageView">
+<ppt>width=-2
+height=150
+src=@Pic/ic_redo.png
+layout_weight=5
+padding=40</ppt>
+<event><eventItme type="clicki">javax(c,ss.画板,ss.View,"redo")</eventItme></event>
+</View>
+<View id="15" did="4" type="ImageView">
+<ppt>width=-2
+height=150
+src=@xgt/k1.v
+layout_weight=5
+padding=40</ppt>
+<event><eventItme type="clicki">
+  gvs(3,控件)
+
+java(宽,控件,"android.view.View.getWidth")
+java(高,控件,"android.view.View.getHeight")
+//这里我动态获取控件高度，你们可以自己填进去
+/.
+这里有几个问题
+1.在载入事件不能获取，返回0
+2.如果是滚动控件，列表控件等等可以滚动的控件，
+获取的高度/不是真实高度宽度，最大只能获取到手机屏的宽高
+造成转出来的图片只是已经显示出来的部分
+可以用自己手动填入宽高来解决
+./
+
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+//可选值ARGB_8888，ARGB_4444，RGB_565，ALPHA_8
+//ARGB_8888画质最好，这里用ARGB_4444是为了节约内存
+
+java(sss.图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+f(sss.图片 == null){
+  tw("似乎出现问题了")
+  endcode
+  }
+javanew(画板,"android.graphics.Canvas","android.graphics.Bitmap",sss.图片)
+
+java(null,控件,"android.view.View.draw","android.graphics.Canvas",画板)
+
+
+sran(1,99999,g)
+ss("幻隐网luo/画板"+g+".png",gg)
+bfs(sss.图片,1,gg)
+s text="已保存本地~"
+s stop = 2000
+fn color.ColorToast(text,stop)
+fn DM.tw1()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+loadjar("Picture",包)
+cls(包,"com.beyondsw.palette.PaletteView",ss.View)
+
+javanew(ss.画板,ss.View,"Context",activity)
+nvw(ss.画板,3)
+utb(2)
+
+ss Dh = 10
+ss Dx = 20
+javax(c,ss.画板,ss.View,"setPenRawSize","int",ss.Dh)
+s id=16
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+ fn 着色.控件着色(10,颜色)
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">loadjar("Picture",包)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog",ss.类)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog$OnColorChangedListener",ss.事件类)
+
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

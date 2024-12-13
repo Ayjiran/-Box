@@ -1,0 +1,13 @@
+import android.widget.TextView;
+import android.graphics.Color;
+
+public void 显示(Object 弹窗)
+{
+  弹窗.show();
+  }
+
+public int 取字体颜色(TextView 文本)
+{
+  return 文本.getTextColors().getDefaultColor();
+  }
+

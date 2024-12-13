@@ -1,0 +1,528 @@
+
+
+
+//数组文件排序
+fn sort(sz)
+java(null, null, "java.util.Arrays.sort", "Object[]", sz)
+ss nsz=sz
+end fn
+
+
+
+
+
+//打开系统文件
+fn opendoc(type)
+javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+java(c,it,"android.content.Intent.setType","String",type)
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+end fn
+
+
+
+
+//回调返回路径
+fn backdir(st_sC,st_lC,st_iT)
+javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(ss.backdir, "mjava", "tool.getRealPath", activity, uri)    
+  }
+}
+end fn
+
+
+
+
+
+
+
+//控件转图片  ss.imgV
+fn idtoimg(id)
+gvs(id,v)
+java(w,v,"android.view.View.getWidth")
+java(h,v,"android.view.View.getHeight")
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+java(ss.imgV,null,"android.graphics.Bitmap.createBitmap","int",w,"int",h,"android.graphics.Bitmap$Config",config)
+f(ss.imgV == null){
+  tw("图片错误",0)
+  endcode
+  }
+javanew(hb,"android.graphics.Canvas","android.graphics.Bitmap",ss.imgV)
+java(null,v,"android.view.View.draw","android.graphics.Canvas",hb)
+end fn
+
+
+
+//输入法弹起(骗子没用哼)
+fn input(b)
+syso(b)
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",50)
+end fn
+
+
+
+
+
+fn 取光标位置(edit)
+  java(editX,edit,"android.view.View.getX")
+  java(editY,edit,"android.view.View.getY")
+
+  javags(mEditor,edit,"android.widget.TextView","mEditor")
+  javags(mCursorDrawables,mEditor,"android.widget.Editor","mCursorDrawable")
+  sgsz(mCursorDrawables,0,mCursorDrawable)
+  java(bounds,mCursorDrawable,"android.graphics.drawable.Drawable.getBounds")
+  
+  javags(boundsLeft,bounds,"android.graphics.Rect","left")
+  javags(boundsBottom,bounds,"android.graphics.Rect","bottom")
+  
+  java(mCompoundPaddingLeft,edit,"android.widget.TextView.getCompoundPaddingLeft")
+  s+(editX,mCompoundPaddingLeft,cursorX)
+  s+(cursorX,boundsLeft,ss.cursorX)
+  
+  java(mExtendedPaddingTop,edit,"android.widget.TextView.getExtendedPaddingTop")
+  java(mVerticalOffset,edit,"android.widget.TextView.getVerticalOffset","boolean",false)
+  s+(mExtendedPaddingTop,mVerticalOffset,cursorY)
+  s+(cursorY,boundsBottom,cursorY)
+  s+(cursorY,editY,ss.cursorY)
+  end fn
+
+
+//控件加载控件
+fn smile(id,sleep)
+loadjar("a",bag)
+cls(bag,"com.ldoublem.loadingviewlib.view.base.LVBase",管理类)
+cls(bag,"com.ldoublem.loadingviewlib.view.LVCircularSmile",笑脸类)
+javanew(笑脸,笑脸类,"Context",activity)
+nvw(笑脸,id)
+us(笑脸,"width",-1)
+us(笑脸,"height",-1)
+javax(null,笑脸,管理类,"startAnim","int",sleep)
+end fn
+
+
+
+
+//状态栏沉浸
+fn uycll(color,b)
+f(b)
+{
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+//8192改成1024为白色
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", color)
+java(null, cs, "android.view.Window.addFlags", "int", "67108864")
+endcode
+}
+uycl(color,true)
+uycl(color,true,1)
+end fn
+
+//接口调用
+fn api(bt,wz)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",wz)
+uit(a, "chooser", bt)
+end fn
+
+
+//QQ侧滑型
+fn setqd(v1,v2)
+gvs(v1,a)
+gvs(v2,a1)
+swh("pxw",w)
+s(w/5*3,w)
+java(null,a,"android.support.v4.widget.DrawerLayout.setDrawerElevation","float",0)
+java(null,a,"android.support.v4.widget.DrawerLayout.setDrawerListener", ".android.support.v4.widget.DrawerLayout$DrawerListener", null)
+{
+  sgsz(st_aS,1,a2)
+  f(a2!=null)
+  {
+    s(w*a2,a3)
+    java(a4,null,"android.graphics.Color.parseColor","String","#00cccccc")
+    java(null,a,"android.support.v4.widget.DrawerLayout.setScrimColor","int",a4)
+    java(null,a1,"android.view.View.setX","float",a3)
+  }
+}
+end fn
+
+
+//文本转图片
+fn txtsrimg(v,nr,ze,imgv)
+call(null,"mlua","tool.EditText4Bitmap",v,nr,ze,imgv)
+end fn
+
+
+
+//设置控件爆炸
+fn boom(view,visibility)
+f(sss.mid!=null)
+{
+loadjar("boom.dex",mid)
+cls(mid,"com.canyie.viewboom.爆炸",sss.class)
+javanew(sss.boomv,sss.class,"Activity",activity)
+}
+f(visibility)
+{
+javax(null,sss.boomv,sss.class,"恢复","android.view.View",view)
+endcode 
+}
+javax(null,sss.boomv,sss.class,"控件爆炸","android.view.View",view)
+end fn
+
+
+//弹出底部弹窗
+fn showbt(iyu,bln)
+javanew(ss.utwv,"com.google.android.material.bottomsheet.BottomSheetDialog","Context",activity)
+nvw(-1,null,"线性布局","width=-1\nheight=-1\norientation=vertical\nbackgroundcolor=0",ss.载体)
+addv(ss.载体,iyu)
+java(null,ss.utwv,"android.app.Dialog.setContentView","android.view.View",ss.载体)
+java(null,ss.utwv,"android.app.Dialog.setCancelable","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setCanceledOnTouchOutside","boolean",bln)
+java(null,ss.utwv,"android.app.Dialog.setOnDismissListener",".android.content.DialogInterface$OnDismissListener",null)
+java(null,ss.utwv,"android.app.Dialog.show")
+javags(id,null,"com.google.android.material.R$id","design_bottom_sheet")
+java(弹窗根控件,ss.utwv,"androidx.appcompat.app.AppCompatDialog.findViewById","int",id)
+us(弹窗根控件,"backgroundcolor",0)
+end fn
+//关闭弹窗
+fn endubt()
+java(null,ss.utwv,"android.app.Dialog.dismiss")
+end fn
+
+
+
+
+
+
+//获取图片坐标颜色
+fn getcolor(dci,x,y)
+t()
+{
+  java(px,dci,"android.graphics.Bitmap.getPixel","int",x,"int",y)
+  java(A,dci,"android.graphics.Color.alpha","int",px)
+  java(R,dci,"android.graphics.Color.red","int",px)
+  java(G,dci,"android.graphics.Color.green","int",px)
+  java(B,dci,"android.graphics.Color.blue","int",px)
+  java(c,null,"android.graphics.Color.argb","int",A,"int",R,"int",G,"int",B)
+  ufnsui()
+  {
+    sss imgclr=c
+  }
+  }
+end fn
+
+
+
+
+
+//获取ip
+fn getip()
+sss failed=false
+javags(str,null,"android.content.Context","WIFI_SERVICE")
+javax(wm,activity,"android.content.Context","getSystemService","String",str)
+javax(state,wm,"android.net.wifi.WifiManager","getWifiState")
+f(!state == 3)
+{
+  sss failed=true
+  endcode
+}
+javax(info,wm,"android.net.wifi.WifiManager","getDhcpInfo")
+javags(sIp,info,"android.net.DhcpInfo","serverAddress")
+javags(mIp,info,"android.net.DhcpInfo","ipAddress")
+call(sss.sip,"mjava","tool.intToIp",sIp)
+call(sss.mip,"mjava","tool.intToIp",mIp)
+//sss.mIp 设备ip
+//sss.sIp 服务器ip
+//sss.failed 是否获取失败By rose
+end fn
+
+
+
+//发送图片广播
+fn sendvideo(dir)
+fdir(dir,everdir)
+ss("file://"+everdir,uri)
+java(uri,null,"android.net.Uri.parse","String",uri)
+javanew(want,"android.content.Intent","String","android.intent.action.MEDIA_SCANNER_SCAN_FILE","android.net.Uri",uri)
+java(null,activity,"android.content.Context.sendBroadcast","android.content.Intent",want)
+end fn
+
+
+
+//壁纸获取
+fn getwp()
+cls("android.app.WallpaperManager", wallpaper)
+javax(wallpapergl, null, wallpaper, "getInstance", "android.content.Context", activity)
+javax(wp, wallpapergl, wallpaper, "getDrawable")
+sss wallpp=wp
+end fn
+
+
+
+
+//软件悬浮窗设置
+fn systemset()
+call(null, "mlua", "tool.systemset")
+end fn
+
+
+
+//v7列表用法
+fn listset(id,type,n)
+gvs(id,view)
+f(type)
+{
+cls("android.support.v7.widget.RecyclerView",listclass)
+cls("android.support.v7.widget.LinearLayoutManager",layoutclass)
+javanew(layout,layoutclass,"Context",activity,"int",0,"boolean",false)
+javax(null,view,listclass,"setLayoutManager","android.support.v7.widget.RecyclerView$LayoutManager",layout)
+}
+else
+{
+cls("android.support.v7.widget.RecyclerView",listclass)
+cls("android.support.v7.widget.StaggeredGridLayoutManager",layoutclass)
+javanew(layout,layoutclass,"int",n,"int",1)
+javax(null,view,listclass,"setLayoutManager","android.support.v7.widget.RecyclerView$LayoutManager",layout)
+}
+end fn
+
+
+
+
+//圆角阴影
+fn ngd(id,b,r,rc,bc,dp)
+ngde(b,r,rc,bc,xb)
+us(id,"background",xb)
+gvs(id,v)
+zdp(dp,as)
+us(id,"elevation",dp)
+end fn
+
+
+//浏览器修复
+fn url(id)
+gvs(id,wv)
+java(ws,wv,"android.webkit.WebView.getSettings")
+java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",true)
+java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)
+end fn
+
+
+
+//返回全局联网变量
+fn inte()
+t()
+{
+  w(!sss.closeall)
+  {
+    hs("http://www.10010.com",null,null,qudez)  
+    f(qudez!=null)
+    {
+      sss inte=true   
+    }
+    else
+    {
+      sss inte=false
+    }
+  }
+  stop(3000)
+}
+end fn
+
+
+
+
+
+
+
+//图片颜色修改
+fn imgcolor(id,color)
+gvs(id,v)
+java(颜色,null,"android.graphics.Color.parseColor","String",color)
+java(null,v,"android.widget.ImageView.setColorFilter","int",颜色)
+end fn
+
+//控件颜色修改
+fn colorset(控件,颜色)
+java(类,控件,"java.lang.Object.getClass")
+java(类名,类,"java.lang.Class.getName")
+f(类名 == "java.lang.Integer"){
+  gvs(控件,控件)
+  java(类,控件,"java.lang.Object.getClass")
+  java(类名,类,"java.lang.Class.getName")
+  }
+f(颜色 ? "#"){
+  java(颜色,null,"android.graphics.Color.parseColor","String",颜色)
+  }
+f(类名 == "android.widget.EditText"){
+  fn tool.编辑框着色(控件,颜色)
+  }else f(类名 == "android.widget.CheckBox" || 类名 == "android.widget.RadioButton" || ){
+  fn tool.单选多选着色(控件,颜色)
+  }else f(类名 == "android.widget.ProgressBar" || 类名 == "android.widget.RatingBar"){  
+  fn tool.进度条着色(控件,颜色)
+  }else f(类名 == "android.support.v7.widget.SwitchCompat"){
+  fn tool.开关着色(控件,颜色)
+  }else f(类名 == "android.widget.SeekBar"){
+  fn tool.拖动条着色(控件,颜色)
+  }else f(类名 == "android.widget.ImageView"){
+  fn tool.图片控件着色(控件,颜色)
+  }else f(类名 == "android.widget.ScrollView"){
+  fn tool.滚动控件边缘着色(控件,颜色)
+  }else f(类名 == "android.widget.ListView"){
+  fn tool.列表控件边缘着色(控件,颜色)
+  }else f(类名 == "android.widget.HorizontalScrollView"){
+  fn tool.水平滚动边缘着色(控件,颜色)
+  }else f(类名 == "android.support.v4.view.ViewPager"){
+  fn tool.滑动窗体边缘着色(控件,颜色)
+  }else{
+  fn tool.背景着色(控件,颜色)
+}
+end fn
+fn gogo(n)
+//------控件着色代码结束end---//
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        uapplistgo(runlist)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        for(va;runlist)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        f(va?"com.iapp.app:push.service.iapp")
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        simei(nowimei)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        s all="862608039943995|867547033381601|863709030382933"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        f(all?nowimei)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         syso("当前处于白名单")
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }else{
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        syso("黑名单，删除！")
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        fdir(dir)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        call(null,"mjava","tool.del",dir)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        sss fjfkfk="ok"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+//编辑框控件着色                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+end fn
+fn 编辑框着色(控件,颜色)
+fn tool.背景着色(控件,颜色)
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+f(SDK_INT &gt; 12){
+  javags(dres,控件,"android.widget.TextView","mCursorDrawableRes")
+  f(dres &gt; 0){
+    java(res,activity,"android.content.Context.getResources")
+    java(drawable,res,"android.content.res.Resources.getDrawable","int",dres)
+    fn tool.Drawable着色(drawable,颜色)
+    javags(editor,控件,"android.widget.TextView","mEditor")
+    javags(drawables,editor,"android.widget.Editor","mCursorDrawable")
+    sssz(drawables,0,sss.drawable)
+    sssz(drawables,1,sss.drawable)  
+    }
+  }
+end fn
+fn 单选多选着色(控件,颜色)
+javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+f(SDK_INT &gt;= 21){
+  java(csl,null,"android.content.res.ColorStateList.valueOf","int",颜色)
+  java(null,控件,"android.widget.CompoundButton.setButtonTintList","android.content.res.ColorStateList",csl)
+  }else{
+  javags(drawable,控件,"android.widget.CompoundButton","mButtonDrawable")
+  fn tool.Drawable着色(drawable,颜色)
+  }
+end fn
+fn 进度条着色(控件,颜色)
+java(是否不精确,控件,"android.widget.ProgressBar.isIndeterminate")
+f(是否不精确){
+  java(drawable,控件,"android.widget.ProgressBar.getIndeterminateDrawable")
+  fn tool.Drawable着色(drawable,颜色)
+  }else{
+  java(drawable,控件,"android.widget.ProgressBar.getProgressDrawable")
+  fn tool.Drawable着色(drawable,颜色)
+  }
+end fn
+fn 拖动条着色(控件,颜色)
+fn tool.进度条着色(控件,颜色)
+java(drawable,控件,"android.widget.AbsSeekBar.getThumb")
+fn tool.Drawable着色(drawable,颜色)
+end fn
+fn 开关着色(控件,颜色)
+java(轨迹,控件,"android.support.v7.widget.SwitchCompat.getTrackDrawable")
+fn tool.Drawable着色(轨迹,颜色)
+java(滑块,控件,"android.support.v7.widget.SwitchCompat.getThumbDrawable")
+fn tool.Drawable着色(滑块,颜色)
+end fn
+fn 图片控件着色(控件,颜色)
+java(null,控件,"android.widget.ImageView.setColorFilter","int",颜色)
+end fn
+fn 滚动控件边缘着色(控件,颜色)
+javags(顶部边缘,控件,"android.widget.ScrollView","mEdgeGlowTop")
+fn tool.EdgeEffect着色(顶部边缘,颜色)
+javags(底部边缘,控件,"android.widget.ScrollView","mEdgeGlowBottom")
+fn tool.EdgeEffect着色(底部边缘,颜色)
+end fn
+fn 列表控件边缘着色(控件,颜色)
+javags(顶部边缘,控件,"android.widget.AbsListView","mEdgeGlowTop")
+fn tool.EdgeEffect着色(顶部边缘,颜色)
+javags(底部边缘,控件,"android.widget.AbsListView","mEdgeGlowBottom")
+fn tool.EdgeEffect着色(底部边缘,颜色)
+end fn
+fn 水平滚动边缘着色(控件,颜色)
+javags(左边缘,控件,"android.widget.HorizontalScrollView","mEdgeGlowLeft")
+fn tool.EdgeEffect着色(左边缘,颜色)
+javags(右边缘,控件,"android.widget.HorizontalScrollView","mEdgeGlowRight")
+fn tool.EdgeEffect着色(右边缘,颜色)
+end fn
+fn 滑动窗体边缘着色(控件,颜色)
+javags(左边缘,控件,"android.support.v4.view.ViewPager","mLeftEdge")
+fn tool.EdgeEffectCompat着色(左边缘,颜色)
+javags(右边缘,控件,"android.support.v4.view.ViewPager","mRightEdge")
+fn tool.EdgeEffectCompat着色(右边缘,颜色)
+end fn
+fn 背景着色(控件,颜色)
+java(背景,控件,"android.view.View.getBackground")
+fn tool.Drawable着色(背景,颜色)
+end fn
+fn Drawable着色(drawable,颜色)
+f(drawable != null){
+  javags(atop,null,"android.graphics.PorterDuff$Mode","SRC_ATOP")
+  javanew(pdcf,"android.graphics.PorterDuffColorFilter","int",颜色,"android.graphics.PorterDuff$Mode",atop)
+  java(null,drawable,"android.graphics.drawable.Drawable.setColorFilter","android.graphics.ColorFilter",pdcf)
+  sss drawable = drawable
+  }
+end fn
+fn EdgeEffect着色(edge,颜色)
+f(edge != null){
+  javags(SDK_INT,null,"android.os.Build$VERSION","SDK_INT")
+  f(SDK_INT &gt;= 21){
+    java(null,edge,"android.widget.EdgeEffect.setColor","int",颜色)
+    }else{
+    javags(drawable,edge,"android.widget.EdgeEffect","mEdge")
+    fn tool.Drawable着色(drawable,颜色)
+    javags(drawable,edge,"android.widget.EdgeEffect","mGlow")
+    fn tool.Drawable着色(drawable,颜色)
+    }
+  }
+end fn
+fn EdgeEffectCompat着色(edgeCompat,颜色)
+f(edgeCompat != null){
+  javags(edge,edgeCompat,"android.support.v4.widget.EdgeEffectCompat","mEdgeEffect")
+  fn tool.EdgeEffect着色(edge,颜色)
+  }
+end fn
+
+

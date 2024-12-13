@@ -1,0 +1,300 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center
+focusable=true
+focusableintouchmode=true</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@Yxkj.v</ppt>
+<event>
+<eventItme type="clicki">gvs(sss.uxf,"uxf.2",ks2)
+gvs(sss.uxf,"uxf.3",ks3)
+us(ks2,"visibility","gone")
+us(ks3,"visibility","visible")
+fe("$qq.txt",qwq)
+gvs(sss.uxf,"uxf.6",wqw)
+f(qwq==true)
+  {
+    fr("$qq.txt",www)
+    us(wqw,"text",www)
+  }
+else
+  {
+    us(wqw,"text","当前为绑定qq")
+  }
+ug(sss.uxf, "x", x)
+ug(sss.uxf, "y", y)
+s w = -2
+s h = -2
+s type = 0
+s gravity = "top|left"
+s format = 0
+s ff=1
+uxf(sss.uxf, "set", x, y, w, h, type, gravity, ff, format)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme>
+<eventItme type="touchmonitor">f(st_eA == 2)
+  {
+    s-(st_rX, sss.rX, x)
+    s-(st_rY, sss.rY, y)
+    f(sss.rXY == true || x&gt;80 || x&lt;-80 || y&gt;80 || y&lt;-80)
+      {
+        sss rXY = true
+        s-(40, st_rX)
+        s-(80, st_rY)
+        us(sss.uxf, "x", st_rX)
+        us(sss.uxf, "y", st_rY)
+        uxf(sss.uxf)
+      }
+  }
+else f(st_eA == 0)
+  {
+    sss rX = st_rX
+    sss rY = st_rY
+    sss rXY = false
+  }</eventItme>
+<eventItme type="press">uzd(zd,80)
+uxf(sss.uxf,"del")
+sss uxf=null</eventItme>
+</event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=330dp
+height=280dp
+orientation=vertical
+visibility=gone</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+backgroundcolor=#ff3f51b5</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=QQ盗音
+ut_centerinparent=true
+textsize=14dp
+textcolor=#ffffffff</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="4" type="ImageView">
+<ppt>width=40dp
+height=-1
+src=17301599
+ut_centervertical=true
+padding=10dp
+backgroundripple=#ffffffff</ppt>
+<event>
+<eventItme type="clicki">gvs(sss.uxf,"uxf.7",hf)
+dhr(dhsxss,0,2160,1,0.5,1,0.5)
+dh(dhsxss,"duration",1500)
+us(hf,"dh",dhsxss)
+dhon(dhsxss)
+  {
+    gvs(sss.uxf,"uxf.11",thf)
+    us(thf,"text","")
+    fl("%tencent/QQ_Collection/audio",false,daoyin)
+    gvs(sss.uxf,"uxf.12",daoyinlb12)
+    for(daoyins;daoyin)
+      {
+        ula(daoyinsj,1=null,2=null,3=daoyins)
+      }
+    uls(daoyinlb12,daoyinsj,"uxflb.iyu",-1,-2)
+  }
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme>
+</event>
+</View>
+<View id="8" did="4" type="ImageView">
+<ppt>width=40dp
+height=-1
+src=@a/lion_nav_back.v
+ut_centervertical=true
+ut_alignparentright=true
+backgroundripple=#ffeaeaea
+padding=8dp</ppt>
+<event>
+<eventItme type="clicki">gvs(sss.uxf,"uxf.2",ks2)
+gvs(sss.uxf,"uxf.3",ks3)
+us(ks3,"visibility","gone")
+us(ks2,"visibility","visible")
+ug(sss.uxf, "x", x)
+ug(sss.uxf, "y", y)
+s w = -2
+s h = -2
+s type = 0
+s gravity = "top|left"
+s format = 0
+s ff=0
+uxf(sss.uxf, "set", x, y, w, h, type, gravity, ff, format)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme>
+</event>
+</View>
+<View id="13" did="4" type="EditText">
+<ppt>width=-1
+height=-2
+text=文本框13
+ut_torightof=7
+layout_marginright=40dp
+textcolor=#ffffffff
+textsize=14dp
+gravity=center
+maxlines=1
+singleline=true
+imeoptions=actionsearch
+visibility=gone</ppt>
+<event>
+<eventItme type="touchmonitor">gvs(sss.uxf,"uxf.13",bjks)
+us(bjks,"focusable",true)
+us(bjks,"focusableintouchmode",true)</eventItme>
+<eventItme type="keyboard">f(st_kC==66)
+  {
+    uzd(zd,120)
+    endkeyboard()
+    gvs(sss.uxf,"uxf.6",wb66)
+    gvs(sss.uxf,"uxf.13",bjk1313)
+    dha(dh1313, true, false)
+    dh(dh1313, "duration", 2000)
+    us(bjk1313,"dh",dh1313)
+    dha(dh66, false, true)
+    dh(dh66, "duration", 2000)
+    us(wb66,"dh",dh66)
+    us(wb66,"visibility","visible")
+    dhon(dh66)
+      {
+        us(bjk1313,"visibility","gone")
+      }
+    s zmmlj="%tencent/QQ_Collection/audio"
+    ss(zmmlj+"/"+sss.y,zz)
+    ug(bjk1313,"text",zmmss)
+    strim(zmmss,zmmss)
+    f(zmmss=="")
+      {
+        uzd(zu,460)
+      }
+    else
+      {
+        ss(zmmlj+"/"+zmmss,zzz)
+        ft(zz,zzz,zzzz)
+        s sclj="%tencent/QQ_Collection/audio"
+        fl(sclj,false,jzyy)
+        for(jzyys;jzyy)
+          {
+            ula(yuyinsj,1=null,2=null,3=jzyys)
+          }
+        uls(16,yuyinsj,"lb.iyu",-1,-2)
+      }
+    fl("%tencent/QQ_Collection/audio",false,daoyin)
+    gvs(sss.uxf,"uxf.12",daoyinlb12)
+    for(daoyins;daoyin)
+      {
+        ula(daoyinsj,1=null,2=null,3=daoyins)
+      }
+    uls(daoyinlb12,daoyinsj,"uxflb.iyu",-1,-2)
+  }
+}</eventItme>
+</event>
+</View>
+<View id="9" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=2dp
+backgroundcolor=#ff3f51b5</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="EditText">
+<ppt>width=-1
+height=35dp
+text=
+hint=可搜索当前列表存在的语音文件(输入文件sss.名称，回车键确认)
+textsize=10dp
+gravity=center
+singleline=true
+maxlines=1
+imeoptions=actionsearch</ppt>
+<event>
+<eventItme type="touchmonitor">gvs(sss.uxf,"uxf.11",bjk)
+us(bjk,"focusable",true)
+us(bjk,"focusableintouchmode",true)</eventItme>
+<eventItme type="keyboard">f(st_kC==66)
+{
+gvs(sss.uxf,"uxf.11",uu)
+gvs(sss.uxf,"uxf.12",uuu)
+ug(uu,"text",p)
+s yuyinlj="%tencent/QQ_Collection/audio/"
+strim(p,p)
+f(p=="")
+  {
+    endkeyboard()
+    uzd(zd,800)
+  }
+else
+  {
+    fl(yuyinlj,false,yuyinljss)
+    for(yuyinljsss;yuyinljss)
+      {
+        f(yuyinljsss?p)
+          {
+            ula(zz,1=null,2=null,3=yuyinljsss)
+          }
+        uls(uuu,zz,"lb.iyu",-1,-2)
+      }
+  }
+}</eventItme>
+</event>
+</View>
+<View id="12" did="10" type="ListView">
+<ppt>width=-1
+height=-2
+dividerheight=0</ppt>
+<event>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+</UIEventset>

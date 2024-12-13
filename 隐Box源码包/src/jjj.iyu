@@ -1,0 +1,138 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="16" did="1" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+gravity=center_vertical|right
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@04be0c5204684f4b509f28eb1d2a9497.jpg
+scaleType=fitxy
+layout_marginRight=15dp</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=120dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="CardView">
+<ppt>width=83dp
+height=109dp
+layout_margin=10dp
+app_CardcornerRadius=6dp
+app_CardElevation=8dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="WebView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本6
+textColor=#000000
+textSize=15dp
+layout_marginBottom=5dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本7
+textSize=10dp
+lines=5
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="8" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=3dp
+layout_marginLeft=5dp
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="9" did="18" type="TextView">
+<ppt>width=-1
+height=-2
+text=  目录
+textColor=#000000
+textStyle=bold
+textSize=15dp
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="11" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="10" did="11" type="RecyclerView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="ProgressBar">
+<ppt>width=30dp
+height=30dp
+style=16842871</ppt>
+<event></event>
+</View>
+<View id="15" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=正在加载中
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,390 @@
+<View id="40" did="0" type="Toolbar">
+<ppt>width=-1
+height=-3
+background=white
+app_title=有奖激励
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="49" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="48" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#90c4f2f5</ppt>
+<event></event>
+</View>
+<View id="39" did="48" type="ScrollView">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="1" did="39" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+ut_below=25
+layout_marginTop=30dp
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="22" did="3" type="CardView">
+<ppt>width=-1
+height=200dp
+app_CardcornerRadius=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#41ba99</ppt>
+<event></event>
+</View>
+<View id="24" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="28" did="24" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+ut_centerInParent=true
+</ppt>
+<event></event>
+</View>
+<View id="31" did="28" type="RelativeLayout">
+<ppt>width=150dp
+height=40dp
+ut_below=29
+layout_marginTop=-75dp
+BackgroundColor=#ffe2e2e2</ppt>
+<event></event>
+</View>
+<View id="32" did="28" type="CardView">
+<ppt>width=150dp
+height=150dp
+app_CardcornerRadius=999dp
+app_CardElevation=0
+ut_below=31
+layout_marginTop=-75dp
+app_CardBackgroundColor=#ffe2e2e2
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="CardView">
+<ppt>width=150dp
+height=150dp
+app_CardcornerRadius=999dp
+app_CardElevation=0
+app_CardBackgroundColor=#ffffff
+</ppt>
+<event><eventItme type="touchmonitor">[true]
+
+
+f(st_eA=="0")
+{
+  
+  dhas(dh, 29, "translationY", 0, 35)
+  dh(dh, "duration", 100)
+  dhas(dh1, 31, "translationY", 0, 15)
+  dh(dh1, "duration", 100)
+  dhast(dhlist, "together", dh1, dh)
+  dh(dhlist, "start")
+}
+f(st_eA=="1")
+{
+  dhas(dh, 29, "translationY", 35, 0)
+  dh(dh, "duration", 100)
+  dhas(dh1, 31, "translationY", 15, 0)
+  dh(dh1, "duration", 100)
+  dhast(dhlist, "together", dh1, dh)
+  dh(dhlist, "start")
+  
+  
+  ufnsui()
+  {
+    utw(null,"","loading.iyu",false,v)
+    sran(1,100,a)
+    ug(50,"text",次数)
+    sr(次数,"x","",次数)
+    f(次数=="100")
+    {
+      t()
+      {
+        ss(sss.api+"Box/yhxg.php?id="+sss.我的uid+"&nl=会员&dl=99999999999999",成了功)
+  hs(成了功,ya)
+ufnsui()
+{
+  s stop = 2000
+s text="已经为您充值成功~"
+fn color.ColorToast(text,stop)
+endutw(vf)
+}
+      }
+    }
+    else
+    {
+      f(a&lt;="30")
+      {
+        //平民积分100
+      }
+     else f(a&lt;="40")
+     {
+       //平民积分1000
+     }
+     else f(a&lt;="60")
+     {
+       //现金10元
+     }
+     else f(a=="71"||a=="72"||a=="73")
+     {
+       //一个月隐Box会员
+     }
+     else
+     {
+       //谢谢参与
+     }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="35" did="29" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="TextView">
+<ppt>width=-2
+height=-2
+text=抽奖
+typeface=@d4.ttf
+textColor=#2b2b2b
+textSize=35sp
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="50" did="24" type="TextView">
+<ppt>width=-2
+height=-2
+text=x0
+ut_toRightOf=28
+ut_alignParentBottom=true
+layout_marginBottom=30dp
+textColor=#ffffffff
+textSize=25sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="47" did="22" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+background=#8d000000
+gravity=center
+visibility=gone</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="44" did="47" type="CardView">
+<ppt>width=-2
+height=45dp
+app_CardElevation=0
+layout_gravity=center
+app_CardcornerRadius=5dp
+layout_marginLeft=25dp
+layout_marginRight=25dp
+visibility=</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#5000b7ff
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">f(sss.在线支付开关=="开")
+{
+  sss 支付内容="有"
+  utw(null,"","loading.iyu",false,v)
+  sss 会员充值="在充值"
+  ss(sss.payapi+"query.php?action=pay",充值一)
+ss("&money=10&des=账号："+sss.名称,充值二)
+t()
+{
+  hs(充值一, 充值二, "utf-8", null, true, sss.外链, b)
+  sj(b,"商户订单号：","&lt;/p&gt;",ss.订单号)
+  sj(b,"wapds\"&gt;&lt;a href=\"","\"",ss.wz)
+  ufnsui()
+  {
+    endutw()
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",ss.wz)
+uit(a, "chooser", "支付宝捐款")
+  }
+}
+}
+else
+{
+ s stop = 2000
+  s text="暂未开启在线充值，有问题请联系客服！"
+  fn color.ColorToast(text,stop) 
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="46" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=立刻投币(10元)
+textColor=#ff00aeff
+textSize=17sp
+typeface=@d4.ttf
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="41" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardBackgroundColor=#ffffffff
+layout_gravity=center
+layout_margin=10dp
+app_CardcornerRadius=5dp
+ut_below=3</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+BackgroundColor=#90c4f2f5
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="43" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=为了增加隐Box的可玩性与促进与用户的感情，我们特地推出了《有奖激励》抽奖功能！\n\n本抽奖100抽保底，必出永久会员，欢迎各位用户积极参与.\n\n本抽奖奖品介绍：\n\n一.用户平民积分100\n二.用户平民积分10000\n三.立返10元现金\n四.立返一百元现金\n五.一天隐Box会员\n六.一个月隐Box会员\n七.一年隐Box会员\n八.一个季隐Box会员\n九.永久隐Box会员\n十.入选收徒名额 免费学习技术\n\n1.现金会以金币的形式进行发放，直接进入创作者中心提现。\n2.奖品24小时内到账 正常都是秒到账 请不要着急/
+textSize=15sp
+textColor=#ff085b14
+gravity=left
+textStyle=bold
+layout_margin=20dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+s id=40
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(40,颜色)
+</eventItme><eventItme type="destroy">sss 支付内容="无"
+sss 金币充值="无"</eventItme><eventItme type="restart">utw(null,"","loading.iyu",false,v)
+{
+}
+t()
+{
+  f(sss.支付内容=="有")
+  {
+        s wz="lib/data.php?action=serve"
+    ss(sss.payapi+wz,wz)
+    ss("&gid="+ss.订单号,pa)
+    hs(wz,pa,"utf-8",支付状态)
+    f(支付状态?"支付成功")
+    {
+      us(47,"visibility","gone")
+    }
+    else
+    {
+      ufnsui()
+      {
+        endutw()
+        utw(null,"温馨提示","检测到你未完成支付，是否继续进行支付？","支付","下次一定","支付未到账",true,vv)
+        {
+          sit(a,"action", "android.intent.action.VIEW")
+          sit(a,"data",ss.wz)
+          uit(a, "chooser", "支付宝充值")
+          endutw()
+        }
+        else
+        {
+          us(109,"visibility","gone")
+          us(112,"visibility","gone")
+          us(116,"visibility","gone")
+          sss 支付内容="无"
+        }
+        else
+        {
+          f(sss.客服微信==null)
+          {
+            sxb("隐Box客服微信：grnb69")
+          }
+          else
+          {
+            ss("隐Box客服微信"+sss.客服微信,微信)
+            sxb(微信)
+          }
+          s stop = 2000
+          s text="已经复制客服微信~"
+          fn color.ColorToast(text,stop)
+          sss 支付内容="无"
+        }
+      }
+    }
+  }
+  else
+  {
+    endutw()
+  }
+}</eventItme><eventItme type="loadingComplete">sss 支付内容="无"
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(48,a)
+gvs(39,b)
+javanew(mBs,mB,"Context",activity)
+urvw(39)
+nvw(mBs,48)
+nvw(b,mBs)
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

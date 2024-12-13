@@ -1,0 +1,152 @@
+<View id="6" did="0" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="13" did="6" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="12" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=头像获取
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="7" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=white
+orientation=vertical
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="8" type="RoundImageView">
+<ppt>width=100dp
+height=100dp
+src=$幻隐网络/记录/tx.png</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="8" type="EditText">
+<ppt>text=
+hint=输入QQ号
+background=through
+textcolor=#ff525252
+backgroundcolor=#00000000
+width=-1
+height=45dp
+background=#00000000
+maxlength=30
+inputtype=number
+layout_margin=3dp
+layout_marginleft=30dp
+layout_marginright=30dp
+textsize=12dp
+singleline=true
+.textcolor=#4CAF50
+textcursordrawable=#ff43a047</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="8" type="TableLayout">
+<ppt>width=-1
+height=2dp
+background=#ff8b61ff
+layout_marginleft=30dp
+layout_marginright=30dp
+layout_margintop=-10dp</ppt>
+<event></event>
+</View>
+<View id="4" did="8" type="Button">
+<ppt>width=-1
+height=-2
+text=获取
+background=#fdfdfdfd
+textcolor=#fefefefe
+layout_marginleft=20dp
+layout_marginright=20dp
+layout_margintop=20dp</ppt>
+<event>
+<eventItme type="clicki">t()
+  {
+    ug(2,"text",qq)
+    sran(1,9999,sj)
+    ss("幻隐网luo/头像获取"+sj+".png",tx)
+    s bb="&"
+    ss("http://q4.qlogo.cn/g?b=qq"+bb+"nk="+qq+bb+"s=100",wz)
+    hd(wz,tx,true,tp)
+    f(tp==0||tp==1)
+      {
+        ufnsui()
+          {
+            us(5, "src", tx)
+            us(5,"visibility","visible")
+          }
+      }
+    else
+      {
+        ufnsui()
+          {
+            tw("获取失败")
+          }
+      }
+  }
+</eventItme></event>
+</View>
+<View id="14" did="8" type="TextView">
+<ppt>width=-2
+height=300dp
+text=</ppt>
+<event></event>
+</View>
+<UIEventset>
+<eventItme type="loading">fr("$幻隐网络/配置/yx.txt",yg)
+us(6,"background",yg)
+us(4,"background",yg)
+us(11,"background",yg)
+us(15,"background",yg)
+uycl("#ff00bfff",true)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+</UIEventset>

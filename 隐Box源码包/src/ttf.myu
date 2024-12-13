@@ -1,0 +1,102 @@
+
+fn 全局字体(字体)
+f(sss.回调 != null) 
+{
+  endcode
+  //个人推荐只设置一个
+}
+java(Application,activity,"android.app.Activity.getApplication")
+cls("android.app.Application$ActivityLifecycleCallbacks",回调类)
+javacb(回调,回调类) 
+{
+  f(st_mD ? "onActivityStarted")
+   {
+    sgsz(st_aS,0,Activity)
+    //得到Activity
+    java(窗口,Activity,"android.app.Activity.getWindow")
+    java(根控件,窗口,"android.view.Window.getDecorView")
+    //获取Activity根控件
+    f(sss.字体 == null) {
+      fn ttf.生成字体(字体)
+    }
+    fn ttf.设置字体(根控件,sss.字体)
+  }
+}
+java(null,Application,"android.app.Application.registerActivityLifecycleCallbacks",回调类,回调)
+//注册回调
+sss 回调 = 回调
+end fn
+
+fn 设置字体(根控件,字体)
+f(根控件 == null)
+ {
+  endcode
+}
+java(类,根控件,"Object.getClass")
+cls("Class",class类)
+cls("android.graphics.Typeface",字体类)
+java(参数,null,"java.lang.reflect.Array.newInstance","Class",class类,"int",1)
+sssz(参数,0,字体类)
+java(方法,类,"Class.getMethod","String","setTypeface","Class[]",参数)
+f(方法 != null) {
+  //获取setTypeface("android.graphics.Typeface")方法，有就用反射调用
+  cls("Object",object类)
+  java(数据,null,"java.lang.reflect.Array.newInstance","Class",object类,"int",1)
+  sssz(数据,0,字体)
+  java(null,方法,"java.lang.reflect.Method.invoke","Object",根控件,"Object[]",数据)
+}
+java(返回,类,"Class.getMethod","String","getChildCount","Class[]",null)
+f(返回 == null) {
+  endcode
+}
+uall(根控件,true,控件集)
+for(控件;控件集) {
+  fn ttf.设置字体(控件,字体)
+}
+end fn
+
+fn 生成字体(路径)
+f(路径 ?* "@") 
+{
+  //当路径为安装包内是复制文件到sd卡中加载
+  //虽然可以直接加载，但是懒得判断是否打包运行。
+  s 缓存路径 = "%扛把子/字体缓存/a.ttf"
+  fc(路径,缓存路径,结果)
+  f(!结果) {
+    tw("复制文件出错，请检查是否授予储存权限")
+    fn ttf.停止()
+    //停止全局字体替换，避免死循环
+    endcode
+  }
+  fdir(缓存路径,路径)
+}else f(路径 ?* "%" || 路径 ?* "$") 
+{
+  fdir(路径,路径)
+}
+java(sss.字体,null,"android.graphics.Typeface.createFromFile","String",路径)
+//通过路径创建一个字体
+end fn
+
+fn 切换字体(字体)
+f(sss.字体 == null) 
+{
+  endcode
+}
+sss 字体 = 字体
+java(窗口,activity,"android.app.Activity.getWindow")
+java(根控件,窗口,"android.view.Window.getDecorView")
+fn ttf.设置字体(根控件,sss.字体)
+end fn
+
+
+
+fn 停止()
+f(sss.回调 == null) 
+{
+  endcode
+}
+java(Application,activity,"android.app.Activity.getApplication")
+cls("android.app.Application$ActivityLifecycleCallbacks",回调类)
+java(null,Application,"android.app.Application.unregisterActivityLifecycleCallbacks",回调类,sss.回调)
+sss 回调 = null
+end fn

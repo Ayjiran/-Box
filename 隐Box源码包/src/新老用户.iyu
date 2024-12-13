@@ -1,0 +1,192 @@
+<View id="1" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=调查检测
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="13" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="12" did="13" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="10" type="VideoView">
+<ppt>width=-1
+height=700dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="2" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+background=white
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="14" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=10dp
+layout_marginRight=10dp
+BackgroundColor=#fff7f7f7
+layout_marginTop=10dp
+layout_marginBottom=10dp
+visibility=gon
+</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=请告诉我您了解隐Box吗？了解的话可以直接点击"我是老用户"，可以直接进入软件并使用功能哈~\n\n如果您不了解，一定要注意，不要装老用户，否则进入软件你可能会懵，咱们软件功能非常多，每天都在不断的更新内容，所以难免眼花缭乱，您只需要点击"我是新玩家"，即可进入使用教学视频以及软件深度讲解，让您更加了解咱们的App，更能灵活的运用！\n\n点完了"我是新用户"如果没有反应，多等一会儿，如果还是没有视频显示，点击右上角三个点反馈，或者点击"我是老玩家"直接进入！
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#a5000000
+textIsSelectable=true
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="19" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=200dp</ppt>
+<event></event>
+</View>
+<View id="17" did="19" type="Button">
+<ppt>width=150dp
+height=-2
+text=我是老用户
+layout_margin=10dp
+textColor=#ffffffff
+textSize=17sp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">uigo("mian.iyu")
+end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="18" did="19" type="Button">
+<ppt>width=150dp
+height=-2
+text=我是新用户
+layout_margin=10dp
+textColor=#ffffffff
+textSize=17sp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">utw(null,"","获取教程中……","",true,vf)
+{
+}
+t()
+{
+  ss(sss.api+"Box/jiaocheng.txt",教程)
+  hs(教程,内容)
+  ufnsui()
+  {
+    sss 测试新人="是"
+    sss wz=内容
+    uigo("广告.iyu")
+    endutw(vf)
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(13,a)
+gvs(12,b)
+javanew(mBs,mB,"Context",activity)
+urvw(12)
+nvw(mBs,13)
+nvw(b,mBs)
+s id=1
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  uigo("mian.iyu")
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+s a = 1
+s b = 15
+s c = "#ae0759fd"
+s d = "#ae005dff"
+ngde(a, b, c, d, e)
+us(17,"background",e)
+us(18,"background",e)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+  f(sss.exit==null)
+  {
+    sss exit=0
+    s text="再按一次退出啦~"
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+    t()
+    {
+      stop(1500)
+      sss exit=null
+    }
+  }
+  else
+  {
+    end()
+  }
+}</eventItme><eventItme type="restart">f(sss.测试新人=="是")
+{
+  uigo("mian.iyu")
+  end()
+}
+else
+{
+}</eventItme></UIEventset>

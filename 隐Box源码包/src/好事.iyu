@@ -1,0 +1,67 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=300dp
+orientation=vertical
+background=@mlive_daily_task_guide_top_bg.webp</ppt>
+<event></event>
+</View>
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=幻隐网络科技
+gravity=left
+layout_margin=30dp
+textColor=#ff000000
+textSize=16sp
+textStyle=bold
+layout_marginBottom=0dp
+</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=50dp
+layout_marginRight=50dp
+layout_marginTop=50dp</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="CardView">
+<ppt>width=-1
+height=50dp
+app_CardElevation=0
+app_CardcornerRadius=30dp
+app_CardBackgroundColor=#12780000
+layout_weight=1
+layout_margin=10dp
+layout_marginBottom=50dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event><eventItme type="clicki">sj(sss.好事,"网址：",null,网址)
+hws(网址)
+fn tool.endubt()</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=了解详情
+textColor=#ffa50000
+textSize=16sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

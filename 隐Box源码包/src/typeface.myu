@@ -1,0 +1,24 @@
+fn zt(id,lj)
+t()
+{
+ss("$幻隐网络/zt/"+lj,lj2)
+fc(lj, lj2, false, a)
+fe(lj2,pd)
+f(pd==true){
+fdir(lj2,path)
+sl(id,"|",id)
+for(id; id)
+{
+gvs(id,tv3)
+javax(ttf,null,"android.graphics.Typeface","createFromFile","String",path)
+javax(t,tv3,"android.widget.TextView","setTypeface","android.graphics.Typeface",ttf)
+}
+}
+else
+{
+ufnsui()
+{
+}
+}
+}
+end fn

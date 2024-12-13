@@ -1,0 +1,155 @@
+<View id="18" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=手机归属
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="3" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical
+background=@a/.zy/vct.v
+layout_marginBottom=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginTop=30dp</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=请输入手机号码
+gravity=top
+layout_margin=10dp
+background=#ffffff
+textsize=14dp
+textcolorhint=#ffc0c0c0
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="19" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="7" did="19" type="Button">
+<ppt>width=-1
+height=40dp
+text=查 询
+background=#ff00bfff
+textcolor=#fcfcfcfc
+textsize=16sp
+gravity=center
+layout_margin=10dp</ppt>
+<event>
+<eventItme type="clicki">ug(6,"text",a)
+us(7,"text","加载中…")
+s b="http://shouji.51240.com/"
+s c="__shouji/"
+ss(b+a+c,wz)
+t()
+  {
+    hs(wz,ws)
+    syso(ws)
+    sj(ws,"&lt;title&gt;","&lt;/title&gt;",wss)
+    syso(wss)
+    ufnsui()
+      {
+        f(wss=="手机号码查询 - 手机号码查询归属地 - 手机号码归属城市查询 - 最新手机号码归属地查询")
+          {
+            tw("手机号输入有误")
+          }
+        else f(wss==null)
+          {
+            tw("请输入手机号或者检查网络")
+          }
+        else
+          {
+            us(9,"text",wss)
+          }
+      }
+  }
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme>
+</event>
+</View>
+<View id="8" did="3" type="LinearLayout">
+<ppt>width=-1
+height=150dp</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="8" type="EditText">
+<ppt>width=-1
+height=150dp
+text=
+hint=查询获取内容
+gravity=top
+layout_margin=10dp
+background=#ffffff
+textsize=14dp
+textcolorhint=#ffc0c0c0</ppt>
+<event>
+<eventItme type="ontextchanged">us(7,"text","查 询")</eventItme></event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+ s id=18
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(7,颜色)
+fn 着色.控件着色(10,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(6,"background",背景)
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

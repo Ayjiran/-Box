@@ -1,0 +1,93 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-2
+height=200dp
+orientation=vertical
+gravity=center
+layout_margin=10dp
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=120dp
+height=-2
+app_CardElevation=1dp
+app_CardBackgroundColor=#fff5f6fa
+app_CardcornerRadius=10dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+gravity=center
+background=white</ppt>
+<event></event>
+</View>
+<View id="12" did="4" type="CardView">
+<ppt>width=70dp
+height=70dp
+app_CardElevation=2dp
+app_CardcornerRadius=100dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@IMG_20210122_223154.png</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=独爱隐心
+textColor=#ff313133
+textStyle=bold
+textSize=15sp
+layout_margintop=10dp
+layout_marginleft=10dp
+lines=1
+maxLength=5</ppt>
+<event></event>
+</View>
+<View id="8" did="3" type="CardView">
+<ppt>width=-1
+height= 30dp
+app_CardBackgroundColor=#ff0099ff
+app_CardElevation=0dp
+layout_margintop=10dp
+layout_marginleft=10dp
+layout_marginBottom=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@add_follow_white.png</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=看看Ta
+textColor=#ffffffff
+textStyle=bold
+textSize=12sp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

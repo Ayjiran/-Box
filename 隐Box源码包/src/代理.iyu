@@ -1,0 +1,322 @@
+<View id="34" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=加入代理
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用过程中遇到问题了吗？
+textColor=#ff000000
+textSize=25sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=我们期望为您解决问题，带来更好的使用体验
+textColor=#ff888888
+textSize=14sp</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="11" did="5" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#62dcdcdc</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=80dp
+height=80dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="15" did="13" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@9a7c52b139f.png</ppt>
+<event></event>
+</View>
+<View id="14" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="16" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=我能赚到多少钱？
+textColor=#ff000000
+textSize=18sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="17" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=当然是可以的，并且可以赚取每单百分之七十.
+textColor=#ff888888
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="35" did="12" type="LinearLayout">
+<ppt>width=80dp
+height=80dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="CardView">
+<ppt>width=60dp
+height=35dp
+app_CardcornerRadius=25dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#ff18a2ff</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">s a = null
+s b = "能赚多少钱？"
+s c = "您好，加入后，只要是填写您邀请码注册的用户每充值一分钱都有您的一份，比例是百分之七十，比如您邀请的人充值会员，以28.88为例子，28.88的百分之七十就是20.216，到您手就是20.216元.\n\n如果充值388.88，那么到您手就是：388*0.7=271.6元！\n\n并且是可以直接提现的，总的来说，稳赚不赔还是可以的，一个人充值会员，您的加盟钱就回来了.\n\n并且加入我们，我们还有官方的企业微信群，可以一起探讨赚钱这一方面的问题，还会教您怎么赚钱，怎么推广，怎么包装自己！"
+s d = "明白"
+
+//三个按钮
+//输入图标，输入标题，输入内容，输入按钮sss.名称，输入按钮sss.名称，输入按钮sss.名称，输入是否点击弹窗以外界面是否关闭弹窗，输入赋值变量
+utw(a, b, c, d, false, v)
+{
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+}
+</eventItme></event>
+</View>
+<View id="38" did="37" type="TextView">
+<ppt>width=-2
+height=-2
+text=详情
+textColor=#ffffffff
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="23" did="5" type="CardView">
+<ppt>width=-1
+height=80dp
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=#62dcdcdc</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=80dp
+height=80dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@9a7c52b139f.png</ppt>
+<event></event>
+</View>
+<View id="27" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=为什么要交入盟费？
+textColor=#ff000000
+textSize=18sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="29" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=为了挑选出真正想干代理的人，入盟费必不可少.
+textColor=#ff888888
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="30" did="24" type="LinearLayout">
+<ppt>width=80dp
+height=80dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="CardView">
+<ppt>width=60dp
+height=35dp
+app_CardcornerRadius=25dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#ff18a2ff</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">s a = null
+s b = "加盟费的用途？"
+s c = "您好，收加盟费主要是设定一个门槛，您不支付加盟费是无法邀请好友的，就算邀请了，也不做数的.\n\n加盟后我们会有专员联系您，拉您进加盟代理群，方便结账，并且一起探讨赚钱收益等等，福利还是很多的，20元穷不了你富不了我，只是要一个门槛，因为代理名额有限，过滤掉不诚心的人，仅此而已，感谢支持！"
+s d = "明白"
+
+//三个按钮
+//输入图标，输入标题，输入内容，输入按钮sss.名称，输入按钮sss.名称，输入按钮sss.名称，输入是否点击弹窗以外界面是否关闭弹窗，输入赋值变量
+utw(a, b, c, d, false, v)
+{
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+}
+</eventItme></event>
+</View>
+<View id="33" did="32" type="TextView">
+<ppt>width=-2
+height=-2
+text=详情
+textColor=#ffffffff
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="CardView">
+<ppt>width=200dp
+height=55dp
+app_CardcornerRadius=25dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#ff18a2ff</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">hws(sss.微信客服地址)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="9" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=加入代理
+textSize=18sp
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="10" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=支付20元入盟费用
+layout_marginTop=10dp
+textColor=#ff888888
+textSize=12sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+fn 着色.控件着色(15,"#ff18a2ff")
+fn 着色.控件着色(26,"#ff18a2ff")
+fn 着色.控件着色(21,"#ff18a2ff")
+fn 着色.控件着色(32,"#ff18a2ff")
+s id=34
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+</eventItme></UIEventset>

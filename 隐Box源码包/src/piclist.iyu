@@ -1,0 +1,128 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=126dp
+orientation=horizontal
+background=white
+padding=8dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,9,id)
+ulag(st_vW,3,wwz)
+fn 加载.打开(id)
+</eventItme></event>
+</View>
+<View id="11" did="1" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/fj_cz_ic_guanz_sel.v
+layout_gravity=center
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,3,mz)
+ulag(st_vW,9,dz)
+fr("$收藏.txt",收藏)
+f(收藏?mz)
+{
+s stop = 2000
+s text="本漫画已收藏过了"
+fn color.ColorToast(text,stop)
+}
+else
+{
+ss("&lt;漫画&gt;"+mz,mz)
+ss("【漫画】{"+dz+"}("+mz+")",cz)
+ss(cz+收藏,收)
+fw("$收藏.txt",收)
+s stop = 2000
+s text="收藏成功"
+fn color.ColorToast(text,stop)
+us(31,"visibility","gone")
+}</eventItme></event>
+</View>
+<View id="10" did="1" type="CardView">
+<ppt>width=100dp
+height=110dp
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="10" type="ImageView">
+<ppt>width=100dp
+height=110dp
+src=17301567
+scaleType=fitxy</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="RelativeLayout">
+<ppt>width=-2
+height=110dp
+layout_marginLeft=2dp</ppt>
+<event></event>
+</View>
+<View id="9" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="3" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=标题
+textColor=#ffff5567
+textSize=12sp
+gravity=center_vertical
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=描述
+textSize=12sp
+textColor=#ff9d9d9d
+ut_below=3
+layout_marginTop=8dp
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=作者
+textColor=#ff9d9d9d
+textSize=10sp
+ut_above=6
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=章节数
+textColor=#ff959595
+textSize=10sp
+ut_alignParentBottom=true
+layout_marginBottom=5dp
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">ulag(st_vW,8,url)
+f(url==""||url==null)
+{
+  endcode
+}
+gvs(st_vW,piclist.2,img)
+fn 加载.图片(img,url) 
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

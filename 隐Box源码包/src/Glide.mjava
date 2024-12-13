@@ -1,0 +1,8 @@
+import android.widget.ImageView;
+
+加载(Object 加载器,ImageView a,String b){
+  Object tag=a.getTag();
+  a.setTag(null);
+  加载器.load(b).into(a);
+  a.setTag(tag);
+  }

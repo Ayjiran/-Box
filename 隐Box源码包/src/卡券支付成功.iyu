@@ -1,0 +1,240 @@
+<View id="17" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="11" did="17" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="13" did="11" type="TextView">
+<ppt>width=-2
+height=-1
+text=支付成功
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="14" did="17" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8
+ut_below=11</ppt>
+<event></event>
+</View>
+<View id="2" did="17" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+ut_below=14</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ff007aff</ppt>
+<event></event>
+</View>
+<View id="1" did="3" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+background=#ff007aff
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="18" did="1" type="ImageView">
+<ppt>width=200dp
+height=-2
+src=@c_r.webp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_horizontal
+background=#ffffff</ppt>
+<event></event>
+</View>
+<View id="15" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=正在充值 请勿退出
+textColor=#ff000000
+textStyle=bold
+layout_marginTop=60dp
+textSize=20sp</ppt>
+<event></event>
+</View>
+<View id="19" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=邀请好友充值会员可获取百分之七十的充值奖励，一人最低20元，一元即可提现！
+textColor=#ff0084ff
+textStyle=bold
+layout_margin=10dp
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="CardView">
+<ppt>width=80dp
+height=80dp
+app_CardcornerRadius=40dp
+ut_centerHorizontal=true
+layout_marginTop=160dp
+app_CardElevation=1dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="16" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fn 着色.控件着色(19,"#ff18a2ff")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(11,"background",yg)
+time("0",时间)
+sj(sss.当前用户数据,"邀请码(",")邀请码",代理)
+f(代理=="")
+{
+  s 代理="无"
+}
+else f(代理==null)
+{
+  s 代理="无"
+}
+else
+{
+}
+t()
+{ 
+  s+(sss.卡券yc,sss.选择多少卡券,卡券)
+  ss(sss.api+"Box/yhxg.php?id="+sss.我的uid+"&nl=卡券&dl="+卡券,wz)
+  ss(sss.api+"yxapi/?fo=幻隐网络科技&name="+sss.yxapi+"&pass="+sss.yxsqm+"&mail="+sss.yxapi+"&title=充值卡券"+sss.rmb+"元&content=用户【"+sss.名称+"】充值了："+sss.rmb+"元子的卡券~&lt;br&gt;代理："+代理+"&lt;br&gt;ta的id【"+sss.我的uid+"】",b)
+  hs(b,j)
+  hs(wz,到期时间)
+  ss(sss.api+"Box/yhcx.php?name="+sss.名称,获取数据第二次)
+  hs(获取数据第二次,成功啦呀)
+  sj(成功啦呀,"APP读取【","】",sss.当前用户数据)
+  sss 卡券yc=卡券
+  ufnsui()
+  {
+    fr("$幻隐网络/记录/xf.txt",a)
+    ss("【充值卡券 "+时间+"】您充值隐Box"+sss.成功成功记录+"卡券时，消费了"+sss.rmb+"元人民币，感谢老板大力支持！",c)
+    ss(c+a,d)
+    fw("$幻隐网络/记录/xf.txt",d)
+    us(15,"text","充值成功 感谢支持")
+    us(13,"text","支付结果")
+    us(16,"visibility","gone")
+    us(7,"background","@a272bf70667315c5162a8519757aa8c1.jpg")
+    uzd(sss.zd,50)
+  }
+}
+dhb(dh, true)
+s d=70
+
+dhb(dh, "@a/3/mm1.v", d)
+dhb(dh, "@a/3/mm2.v", d)
+dhb(dh, "@a/3/mm3.v", d)
+dhb(dh, "@a/3/mm4.v", d)
+dhb(dh, "@a/3/mm5.v", d)
+dhb(dh, "@a/3/mm6.v", d)
+dhb(dh, "@a/3/mm7.v", d)
+dhb(dh, "@a/3/mm8.v", d)
+dhb(dh, "@a/3/mm9.v", d)
+dhb(dh, "@a/3/mm10.v", d)
+dhb(dh, "@a/3/mm11.v", d)
+dhb(dh, "@a/3/mm12.v", d)
+dhb(dh, "@a/3/mm13.v", d)
+dhb(dh, "@a/3/mm14.v", d)
+dhb(dh, "@a/3/mm15.v", d)
+dhb(dh, "@a/3/mm16.v", d)
+dhb(dh, "@a/3/mm17.v", d)
+dhb(dh, "@a/3/mm18.v", d)
+dhb(dh, "@a/3/mm19.v", d)
+dhb(dh, "@a/3/mm20.v", d)
+dhb(dh, "@a/3/mm21.v", d)
+dhb(dh, "@a/3/mm22.v", d)
+dhb(dh, "@a/3/mm23.v", d)
+dhb(dh, "@a/3/mm24.v", d)
+dhb(dh, "@a/3/mm25.v", d)
+dhb(dh, "@a/3/mm26.v", d)
+dhb(dh, "@a/3/mm27.v", d)
+dhb(dh, "@a/3/mm28.v", d)
+dhb(dh, "@a/3/mm29.v", d)
+dhb(dh, "@a/3/mm30.v", d)
+dhb(dh, "@a/3/mm31.v", d)
+dhb(dh, "@a/3/mm30.v", d)
+dhb(dh, "@a/3/mm29.v", d)
+dhb(dh, "@a/3/mm28.v", d)
+dhb(dh, "@a/3/mm27.v", d)
+dhb(dh, "@a/3/mm26.v", d)
+dhb(dh, "@a/3/mm25.v", d)
+dhb(dh, "@a/3/mm24.v", d)
+dhb(dh, "@a/3/mm23.v", d)
+dhb(dh, "@a/3/mm22.v", d)
+dhb(dh, "@a/3/mm21.v", d)
+dhb(dh, "@a/3/mm20.v", d)
+dhb(dh, "@a/3/mm19.v", d)
+dhb(dh, "@a/3/mm18.v", d)
+dhb(dh, "@a/3/mm17.v", d)
+dhb(dh, "@a/3/mm16.v", d)
+dhb(dh, "@a/3/mm15.v", d)
+dhb(dh, "@a/3/mm14.v", d)
+dhb(dh, "@a/3/mm13.v", d)
+dhb(dh, "@a/3/mm12.v", d)
+dhb(dh, "@a/3/mm11.v", d)
+dhb(dh, "@a/3/mm10.v", d)
+dhb(dh, "@a/3/mm9.v", d)
+dhb(dh, "@a/3/mm8.v", d)
+dhb(dh, "@a/3/mm7.v", d)
+dhb(dh, "@a/3/mm6.v", d)
+dhb(dh, "@a/3/mm5.v", d)
+dhb(dh, "@a/3/mm4.v", d)
+dhb(dh, "@a/3/mm3.v", d)
+dhb(dh, "@a/3/mm2.v", d)
+dhb(dh, "@a/3/mm1.v", d)
+
+
+//设为指定控件背景
+
+us(16, "background", dh)
+
+//启动动画
+dhb(dh, "start")</eventItme></UIEventset>

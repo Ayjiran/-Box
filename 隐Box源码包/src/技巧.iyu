@@ -1,0 +1,96 @@
+<View id="220" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=网络技巧
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="4" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="219" did="4" type="WebView">
+<ppt>width=-1
+height=-1
+url=@faq/page-faq.html</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=220
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+loadjar("armeabi-v7a/classes2.dex",class)
+  cls(class,"com.Mus.ReboundScrollView",mB)
+  gvs(4,a)
+  gvs(5,b)
+  javanew(mBs,mB,"Context",activity)
+  urvw(5)
+  nvw(mBs,4)
+  nvw(b,mBs)
+  loadjar("armeabi-v7a/classes2.dex",class)
+  cls(class,"com.Mus.ReboundScrollView",mB)
+dht(dh, 0, 0, 600, 0)
+dh(dh, "duration", 600)
+us(24, "dh", dh)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(1,"background",yg)
+us(38,"background",yg)
+us(13,"background",yg)
+us(50,"background",yg)
+us(60,"background",yg)
+us(70,"background",yg)
+us(80,"background",yg)
+us(90,"background",yg)
+us(110,"background",yg)
+us(120,"background",yg)
+us(139,"background",yg)
+us(151,"background",yg)
+us(161,"background",yg)
+us(100,"background",yg)
+us(181,"background",yg)
+us(191,"background",yg)
+us(201,"background",yg)
+us(211,"background",yg)
+us(171,"background",yg)
+
+
+ 
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

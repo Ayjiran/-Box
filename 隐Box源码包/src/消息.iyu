@@ -1,0 +1,408 @@
+<View id="60" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="56" did="60" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="59" did="56" type="LinearLayout">
+<ppt>width=-1
+height=300dp
+orientation=vertical
+background=white
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="58" did="56" type="LinearLayout">
+<ppt>width=-1
+height=300dp
+orientation=vertical
+background=#ffbddbff</ppt>
+<event></event>
+</View>
+<View id="41" did="56" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="61" did="41" type="ScrollView">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="1" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="40" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="48" did="40" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="51" did="48" type="RelativeLayout">
+<ppt>width=-1
+height=150dp
+background=@79fc6bb83e8e9b3c.jpg</ppt>
+<event></event>
+</View>
+<View id="55" did="51" type="CardView">
+<ppt>width=-1
+height=20dp
+app_CardcornerRadius=10dp
+ut_alignParentBottom=true
+app_CardElevation=-10dp</ppt>
+<event></event>
+</View>
+<View id="54" did="51" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=vertical
+background=#ffffffff
+ut_alignParentBottom=true
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="39" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=100dp
+</ppt>
+<event></event>
+</View>
+<View id="26" did="39" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+layout_gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="24" did="26" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@dd/ic_bg_splash.png
+layout_gravity=center
+layout_marginTop=30dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="25" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=您暂时没有消息哦~
+layout_gravity=center
+textColor=#ff000000
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="27" did="39" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+layout_margin=15dp</ppt>
+<event></event>
+</View>
+<View id="29" did="27" type="Button">
+<ppt>width=-1
+height=-1
+text=联系作者
+layout_weight=1
+background=@abv/h8.png
+textSize=16dp
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">sj(sss.当前用户数据,"会员(",")会员",会员)
+f(sss.dqsj&gt;会员)
+{
+  f(sss.广告会员=="是")
+  {
+    sss wz=sss.微信客服地址
+    uigo("广告.iyu")
+  }
+  else
+  {
+    s stop = 2000
+    s text="客服仅为会员服务~"
+    fn color.ColorToast(text,stop)
+  }
+}
+else
+{
+  sss wz=sss.微信客服地址
+  uigo("广告.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+/.sss txurl="https://img2.baidu.com/it/u=587919348,527169898&fm=253&fmt=auto&app=138&f=JPEG?w=501&h=500"
+sss user="独爱隐心"
+sss xxid="1"
+uigo("交流.iyu")
+./</eventItme></event>
+</View>
+<View id="28" did="27" type="Button">
+<ppt>width=120dp
+height=-2
+text=反馈
+background=#61afafaf
+textSize=16dp
+textColor=#ff000000
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">gvs(消息.33,a)
+call(null,"mjava","图片跳转.uigo",a,"image","ymsc.iyu",sss.appbm)
+//uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="38" did="27" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@abv/icon_community_share_wechart.png
+layout_gravity=center
+layout_marginRight=10dp
+layout_marginLeft=20dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">hws(sss.微信客服地址)</eventItme></event>
+</View>
+<View id="32" did="39" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=white
+layout_margin=3dp
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@xgt/b33.v
+padding=5dp</ppt>
+<event><eventItme type="clicki">fn tool.showbt("查找.iyu", true) 
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+/.f(sss.名称=="独爱隐心")
+{
+ uigo("用户操作.iyu")
+}
+else
+{
+ fn tool.showbt("查找.iyu", true) 
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="34" did="32" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@shortcut_search.png
+padding=5dp
+ut_alignparentright=true</ppt>
+<event><eventItme type="clicki">ug(消息.35,"text",sss.ta)
+fr("$幻隐网络/.v/xjf.yx",cs)
+f(cs &gt; "0")
+{
+  time("Y",a)
+  time("m",m)
+  time("d",D)
+  time("H",e)
+  time("M",l)
+  time("S",v)
+  ss(a+m+D+e+l+v,dqsj)
+  f(dqsj&gt;cs)
+  {
+    s wj="$幻隐网络/.v/xjf.yx"
+    fd(wj,b)
+    us(geren.109,"visibility","gone")
+    us(geren.108,"visibility","visible")
+  }
+  else
+  {
+    f(sss.ta=="")
+    {
+      s stop = 2000
+      s text="请输入好友名称"
+      fn color.ColorToast(text,stop)
+    }
+    else
+    {
+      us(消息.35,"text","")
+      gvs(消息.34,a)
+        call(null,"mjava","图片跳转.uigo",a,"image","个人资料.iyu",sss.appbm)
+     // uigo("个人资料.iyu")
+    }
+  }
+}
+else
+{
+  s stop = 2000
+  s text="您不是隐Box会员，无法自主搜索"
+  fn color.ColorToast(text,stop)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="35" did="32" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=输入对方的名称即可
+textsize=12dp
+ut_toleftof=34
+ut_torightof=33
+ut_centerinparent=true
+background=
+singleline=true
+textCursorDrawable=#ff009bff
+focusable=true
+focusableInTouchMode=true
+background=#2eebebeb</ppt>
+<event><eventItme type="touchmonitor">us(消息.35,"focusable","true")
+  us(消息.35,"focusableInTouchMode","true")</eventItme></event>
+</View>
+<View id="36" did="39" type="GifView">
+<ppt>width=120dp
+height=120dp
+src=@gif.gif
+layout_marginTop=20dp
+layout_gravity=center
+visibility=</ppt>
+<event></event>
+</View>
+<View id="50" did="39" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="47" did="50" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+layout_marginLeft=20dp
+layout_marginRight=20dp
+BackgroundColor=#fff7f7f7
+layout_marginTop=10dp
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="46" did="47" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@searchpage_input_history_delete_one.png
+layout_gravity=center
+ut_alignParentRight=true
+layout_marginTop=10dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">gvs(118,id)
+   
+   
+   
+us(消息.47,"visibility","gone")
+fw("幻隐网络/消息/隐藏.txt","成功")</eventItme></event>
+</View>
+<View id="31" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：\n\n下拉可以刷新聊天列表哦~\n\n1.反馈是单项发信息给作者，信息都会收到的，都会看的，感谢您的支持。\n2.想和作者聊天就可以点击联系作者。
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#ff585858
+textIsSelectable=true
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="62" did="48" type="SwipeRefreshLayout">
+<ppt>width=-1
+height=-2
+ut_below=39</ppt>
+<event><eventItme type="onrefresh">fn wdxx.wdxx()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("@sx.mp3")
+}</eventItme></event>
+</View>
+<View id="3" did="62" type="RecyclerView">
+<ppt>width=-1
+height=-1
+visibility=gone
+layout_margin=10dp
+layout_marginBottom=10dp
+</ppt>
+<event></event>
+</View>
+<View id="42" did="60" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#92a7a7a7
+gravity=center
+visibility=gone</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="43" did="42" type="ImageView">
+<ppt>width=100dp
+height=100dp
+src=@ui/st.v</ppt>
+<event></event>
+</View>
+<View id="44" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=登录后才可以\n\n查看消息
+textColor=#ff00a9fd
+textStyle=bold
+textSize=16sp
+gravity=center
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="45" did="42" type="Button">
+<ppt>width=-2
+height=-2
+text=反馈
+background=#FFE5E5E5
+textSize=16dp
+textColor=#ff979090
+layout_marginTop=20dp</ppt>
+<event><eventItme type="clicki">uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<UIEventset></UIEventset>

@@ -1,0 +1,62 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+background=white
+height=-1</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="TextView">
+<ppt>width=-1
+height=0.2dp
+background=#b4b4b4b4
+text=
+ut_below=2
+layout_marginleft=20dp
+layout_marginright=20dp</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="LinearLayout">
+<ppt>width=-1
+ut_below=8
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+padding=10dp
+gravity=center_vertical
+BackgroundColor=#fff9f9f9
+layout_marginTop=3dp
+layout_marginBottom=3dp
+layout_marginLeft=5dp
+layout_marginRight=5dp</ppt>
+<event><eventItme type="clicki">uigo("music_xz.iyu")</eventItme></event>
+</View>
+<View id="24" did="10" type="ImageView">
+<ppt>width=20dp
+height=20dp
+layout_gravity=center_vertical
+src=@yytp.v</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=以下载歌曲
+textstyle=bold
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

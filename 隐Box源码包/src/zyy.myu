@@ -1,0 +1,41 @@
+fn zymusic()
+us(27,"refreshing","true")
+t()
+{
+  s wz="https://music.liuzhijin.cn"
+  ss("input="抖音"&filter=name&type=netease&page=1",vv)
+  s c="x-requested-with=XMLHttpRequest"
+  s s="Hm_lpvt_50027a9c88cdde04a70f5272a88a10fa=1587636659"
+  hs(wz,vv,"utf-8",null,true,c,hh)
+  json(hh,jo)
+  json(jo, "list", "data", list)
+  json(list, "size", size)
+  s sl=-1
+  for(sl;size)
+  {
+    s+(1,sl)
+    json(list, "data", sl, item)
+    json(item,"get","title",歌名)
+    json(item,"get","author",歌手)
+    json(item,"get","url",地址)
+    json(item,"get","pic",图片)
+    f(歌名==null)
+    {
+    }
+    else
+    {
+      ula(aa,7=歌名,8=歌手,6=地址,11=图片,10=图片)
+    }
+  }
+  ufnsui()
+  {
+    uls(28,aa,"音乐lb.iyu")
+    us(27,"refreshing","false")
+    fr("$幻隐网络/点击特效/开.txt",anyx)
+    f(anyx &gt; "0")
+    {
+      bfm("@sx.mp3")
+    }
+  }
+}
+end fn

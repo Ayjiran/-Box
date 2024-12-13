@@ -1,0 +1,117 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#FFFFFF
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=文字消息
+ut_alignparentleft=true
+layout_marginleft=10dp
+typeface=serif
+textcolor=#000000
+textsize=15sp</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="TextView">
+<ppt>width=-1
+height=1dp
+text=
+background=#10000000</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=获取失败
+layout_margin=10dp
+textsize=12.5sp
+textcolor=#000000
+typeface=sans
+ellipsize=end
+</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="TextView">
+<ppt>width=-1
+height=1dp
+text=
+background=#10000000</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="clicki">ulag(st_vW,8,wzs)
+fw("$幻隐网络/dq.txt",wzs)
+us(geren.98,"visibility","gone")</eventItme></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=我已阅读
+ut_centervertical=true
+ut_alignparentleft=true
+textsize=12sp
+layout_marginleft=10dp
+textcolor=#000000
+typeface=sans
+</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="ImageView">
+<ppt>width=15dp
+height=10dp
+src=@ic_compost_send_normal.v
+ut_alignparentright=true
+ut_centervertical=true
+layout_marginright=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,xxlist.1,aa)
+ngde("0","#FFFFFF",ac)
+us(aa,"background",ac)
+ngde(20,"#FFFFFF",j)
+us(aa,"background",j)
+java(null,aa,"android.view.View.setElevation","float",10)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,165 @@
+<View id="20" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=房税计算
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+background=white</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event><eventItme type="clicki">us(16,"currentitem",0)</eventItme></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=税费计算
+textcolor=#ff0099ec</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event><eventItme type="clicki">us(16,"currentitem",1)</eventItme></event>
+</View>
+<View id="10" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=单价计算
+textcolor=#6b6b6b</ppt>
+<event></event>
+</View>
+<View id="11" did="2" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=top
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="14" did="12" type="TextView">
+<ppt>width=60dp
+height=1dp
+text=
+backgroundcolor=#ff0099ec</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=top
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="15" did="13" type="TextView">
+<ppt>width=60dp
+height=1dp
+text=
+backgroundcolor=#ff0099ec
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="2" type="ViewPager">
+<ppt>width=-1
+height=-1
+</ppt>
+<event><eventItme type="onpageselected">fr("%颜色.txt",颜色)
+f(st_pN==0)
+{
+  us(9,"textcolor",颜色)
+  us(10,"textcolor","#6b6b6b")
+  us(14,"visibility","visible")
+  us(15,"visibility","gone")
+}
+
+
+f(st_pN==1)
+{
+  us(9,"textcolor","#6b6b6b")
+  us(10,"textcolor",颜色)
+  us(15,"visibility","visible")
+  us(14,"visibility","gone")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+addv(16,"esf.iyu|xff.iyu",a)
+
+s id=20
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(18,颜色)
+fn 着色.控件着色(esf.57,颜色)
+fn 着色.控件着色(xff.17,颜色)
+us(9,"textcolor",颜色)
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

@@ -1,0 +1,123 @@
+<View id="16" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=收藏记录
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@6.26/business_icon_loading_fail.v
+layout_gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=您暂无收藏记录
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="15" did="2" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+s id=16
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fe("$幻隐网络/收藏记录/xf.txt",wj)
+fr("$幻隐网络/收藏记录/xf.txt",原有)
+gvs(9,a)
+call(null,"mjava","图片跳转.set",a)
+f(wj==false)
+{
+}
+else
+{
+us(9,"visibility","gone")
+us(10,"visibility","gone")
+sj(原有,"【",null,原有)
+sl(原有,"【",sz)
+for(a;sz)
+{
+sj(a,null,"】",bt)
+sj(a,"】",null,nr)
+ula(sj,1=null,3=bt,4=nr)
+}
+uls(15,sj,"收藏list.iyu",-1,-2)
+}
+}
+}
+
+
+
+/.
+
+</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+call(null,"mjava","图片跳转.end")
+}</eventItme><eventItme type="menu">case 删除内容|@ui/Ljt.v|1|1:
+fd("$幻隐网络/收藏记录/xf.txt",wj)
+f(wj==true)
+{
+s stop = 2000
+s text="删除成功！"
+fn color.ColorToast(text,stop)
+us(9,"visibility","visible")
+us(10,"visibility","visible")
+us(15,"visibility","gone")
+}
+else
+{
+s stop = 2000
+s text="删除失败！"
+fn color.ColorToast(text,stop)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

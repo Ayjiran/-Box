@@ -1,0 +1,24 @@
+<View id="5" did="0" type="WebView">
+<ppt>width=-1
+height=-1
+url=$幻隐网络/游戏/hwd/index.html</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+//竖屏
+ushsp(false)
+uycl(sss.ys,true)
+us(1,"background",sss.ys)
+.us(7,"background",sss.ys)
+.fuzs("$幻隐网络/游戏/hwd.zip","$幻隐网络/2048缓存",true,if)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

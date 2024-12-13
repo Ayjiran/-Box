@@ -1,0 +1,67 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white
+padding=5dp
+layout_margin=5dp
+elevation=1dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,7,sss.tzurl)
+ulag(st_vW,4,sss.bkbt)
+uigo("详情.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=23dp
+height=23dp
+src=@54f6f4800c0.png
+padding=3dp
+layout_marginLeft=6dp</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=搜索的内容标题哦⊙∀⊙！
+layout_marginLeft=6dp
+typeface=sans
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=内容
+typeface=serif
+textColor=#ff676767
+layout_gravity=center_horizontal
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本7
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

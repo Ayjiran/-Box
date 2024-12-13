@@ -1,0 +1,187 @@
+<View id="7" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=撤回恶搞
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="4" did="7" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=请输入前段网名
+textsize=12dp
+textcolor=#6c6c6c
+singleline=true
+layout_margintop=10dp
+layout_marginleft=10dp
+layout_marginright=10dp
+background=#ffffff
+textcolorhint=#ffc0c0c0
+gravity=center</ppt>
+<event><eventItme type="focuschange">us(4,"background","#ffffff")</eventItme></event>
+</View>
+<View id="5" did="7" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=请输入后段网名
+textsize=12dp
+textcolor=#6c6c6c
+singleline=true
+layout_margintop=10dp
+layout_marginleft=10dp
+layout_marginright=10dp
+background=#ffffff
+textcolorhint=#ffc0c0c0
+gravity=center</ppt>
+<event><eventItme type="focuschange">us(5,"background","#ffffff")</eventItme></event>
+</View>
+<View id="6" did="7" type="Button">
+<ppt>width=-1
+height=45dp
+text=生成恶搞撤回
+textsize=14dp
+textcolor=#ffffff
+layout_margintop=10dp
+layout_marginleft=10dp
+layout_marginright=10dp
+background=#ff00bfff</ppt>
+<event><eventItme type="clicki">s v=""
+ug(4,"text",b)
+ug(5,"text",c)
+f(v==b)
+{
+tw("请输入内容！")
+}
+else
+{
+ug(4,"text",a)
+ug(5,"text",c)
+s b = "‮"
+s z = "‭"
+ssg(c,0,1,d)
+ssg(c,1,2,e)
+ssg(c,2,3,f)
+ssg(c,3,4,g)
+ssg(c,4,5,h)
+ssg(c,5,6,i)
+ssg(c,6,7,j)
+ssg(c,7,8,k)
+ssg(c,8,9,l)
+ssg(c,9,10,m)
+ssg(c,10,11,n)
+ssg(c,11,12,o)
+ssg(c,12,13,p)
+ssg(c,13,14,q)
+ssg(c,14,15,r)
+ssg(c,15,16,s)
+ssg(c,16,17,t)
+ssg(c,17,18,u)
+ssg(c,18,19,v)
+ssg(c,19,20,w)
+ss(a+b+w+v+u+t+s+r+q+p+o+n+m+l+k+j+i+h+g+f+e+d+z,x)
+sxb(x)
+
+utw(null,"提示","恶搞撤回网名已复制，打开QQ粘贴到群名片即可！","打开QQ","取消","",false,v)
+{
+uapp("com.tencent.mobileqq",c)
+}
+else
+{
+
+}
+else
+{
+
+}
+}
+  
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+fe("幻隐网络/数据/ch.txt",bb)
+s a="true"
+
+f(bb == a)
+{
+  
+}
+else
+{
+s a = null
+s b = "恶搞撤回提示"
+s c = "1.恶搞撤回使用方法\n\n例：\n前缀输入“隐心”\n后缀输入“而且成了你的老婆”\n\n然后将生成的文字改成你的群名片，最后撤回消息时提示为：“隐心撤回了一条消息而且成了你的老婆”"
+s d = "不再提示"
+s e = "取消"
+s f =""
+utw(a, b, c, d, e, false, v)
+{
+fw("幻隐网络/数据/ch.txt","a")
+}
+else
+{
+
+}
+}
+s id=9
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(1,颜色)
+fn 着色.控件着色(6,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(5,"background",背景)
+ngde("4","30","#00000000",颜色,背景)
+us(4,"background",背景)
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

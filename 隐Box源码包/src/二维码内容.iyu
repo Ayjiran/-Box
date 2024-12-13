@@ -1,0 +1,61 @@
+<View id="9" did="0" type="LinearLayout">
+<ppt>width=-1
+height=120dp
+orientation=vertical
+background=@putoo_follow_top_welcome.webp</ppt>
+<event></event>
+</View>
+<View id="14" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@xgt/lb.v
+</ppt>
+<event></event>
+</View>
+<View id="10" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="13" did="10" type="Button">
+<ppt>width=-1
+height=38dp
+text=复制内容
+background=#ff00b2ff
+typeface=serif
+textsize=13dp
+layout_marginleft=21dp
+layout_marginright=21dp
+textcolor=#ffffff
+layout_margintop=30dp
+layout_marginBottom=20dp</ppt>
+<event><eventItme type="clicki">sxb(sss.二维码内容)
+s stop = 2000
+s text="已复制内容~~"
+fn color.ColorToast(text,stop)
+fn tool.endubt()</eventItme></event>
+</View>
+<UIEventset></UIEventset>

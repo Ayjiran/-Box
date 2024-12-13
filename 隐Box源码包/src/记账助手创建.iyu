@@ -1,0 +1,186 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=250dp
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=180dp
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=250dp
+height=50dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+background=#ffffffff
+layout_marginRight=2dp
+hint=干嘛了呀~
+textCursorDrawable=#ffffac00
+lines=1
+layout_marginTop=2dp
+layout_marginBottom=2dp
+layout_marginLeft=2dp
+singleLine=true
+textSize=15sp
+background=#9ad1d1d1</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=250dp
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=1dp
+background=#9ad1d1d1</ppt>
+<event></event>
+</View>
+<View id="19" did="6" type="RelativeLayout">
+<ppt>width=30dp
+height=46dp
+</ppt>
+<event></event>
+</View>
+<View id="17" did="19" type="Spinner">
+<ppt>width=30dp
+height=46dp
+background=white
+layout_marginLeft=2dp</ppt>
+<event><eventItme type="onitemselected">gvs(st_vW,17,kp)
+gvs(sss.jkw,8,kut)
+ug(kp,"selecteditem",sss.f)
+f(sss.f=="-")
+{
+  us(kut,"hint","你花了多少钱")
+}else f(sss.f=="+")
+{
+  us(kut,"hint","你赚了多少钱")
+}</eventItme></event>
+</View>
+<View id="8" did="6" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+background=#ffffffff
+layout_marginRight=2dp
+hint=花了多少钱
+textCursorDrawable=#ffffac00
+lines=1
+layout_marginTop=2dp
+layout_marginBottom=2dp
+layout_marginLeft=2dp
+singleLine=true
+digits=1234567890.
+maxLength=7
+textSize=15sp
+background=#9ad1d1d1</ppt>
+<event></event>
+</View>
+<View id="11" did="2" type="LinearLayout">
+<ppt>width=250dp
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=1dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="11" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+background=#ffffffff
+layout_marginRight=2dp
+hint=记账时间
+textCursorDrawable=#ffffac00
+lines=1
+layout_marginTop=2dp
+layout_marginBottom=2dp
+layout_marginLeft=2dp
+singleLine=true
+//editable=false
+textSize=15sp
+background=#9ad1d1d1</ppt>
+<event></event>
+</View>
+<View id="15" did="1" type="LinearLayout">
+<ppt>width=300dp
+height=1dp
+orientation=vertical
+background=#ff00bfff
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="21" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">gvs(sss.jkw,5,nr)
+gvs(sss.jkw,8,je)
+gvs(sss.jkw,14,sjj)
+ug(nr,"text",nr)
+ug(je,"text",je)
+ss(je+"￥",jy)
+ug(sjj,"text",sjj)
+f(nr==""||je=="")
+{
+  tw("请填写完整")
+}else
+{
+  ss("$幻隐网络/记账助手/[内容("+nr+")金额("+sss.f+jy+")时间("+sjj+")]",hb)
+  fw(hb,"")
+  tws(null,"创建成功",0)
+  endutw()
+  }
+  t()
+  {
+    fl("$幻隐网络/记账助手/",gf)
+    for(gfd;gf)
+    {
+      sj(gfd,"内容(",")",nrr)
+      sj(gfd,"金额(",")",jee)
+      sj(gfd,"时间(",")",sjj)
+      ula(hgv,5=nrr,6=sjj,9=jee,13=gfd)
+    }
+  ufnsui()
+  {
+    uls(10,hgv,"记账助手列表.iyu",-1,-2)
+    us(10,"divider","#ffffffff")
+    ug(10,"count",总数)
+  us(16,"visibility","gone")
+  }
+}</eventItme></event>
+</View>
+<View id="20" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=保存内容
+textColor=#ff000000
+textStyle=bold
+textSize=17sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

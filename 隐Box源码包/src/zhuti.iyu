@@ -1,0 +1,343 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="38" did="2" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="39" did="2" type="TextView">
+<ppt>width=-2
+height=-1
+text=软件主题
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="41" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+background=#ffffff
+layout_margin=8dp
+background=#ffffff
+backgroundripple=#cececece
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">s ys="#ff00bfff"
+fw("$幻隐网络/配置/yx.txt",ys)
+tw("设置完成")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)</eventItme></event>
+</View>
+<View id="21" did="12" type="TextView">
+<ppt>width=45dp
+height=45dp
+text=
+layout_marginleft=20dp
+background=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="22" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=默认颜色
+layout_marginleft=20dp
+textsize=15sp
+textcolor=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="14" did="11" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+background=#ffffff
+layout_marginleft=8dp
+layout_marginright=8dp
+background=#ffffff
+backgroundripple=#cececece
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">s ys="#ff0b83ff"
+fw("$幻隐网络/配置/yx.txt",ys)
+tw("设置完成")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)</eventItme></event>
+</View>
+<View id="23" did="14" type="TextView">
+<ppt>width=45dp
+height=45dp
+text=
+layout_marginleft=20dp
+background=#ff0b83ff</ppt>
+<event></event>
+</View>
+<View id="24" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=深海迷航
+layout_marginleft=20dp
+textsize=15sp
+textcolor=#ff0b83ff</ppt>
+<event></event>
+</View>
+<View id="15" did="11" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+background=#ffffff
+layout_marginleft=8dp
+layout_marginright=8dp
+layout_margintop=8dp
+background=#ffffff
+backgroundripple=#cececece
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">s ys="#cba6c3"
+fw("$幻隐网络/配置/yx.txt",ys)
+tw("设置完成")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)</eventItme></event>
+</View>
+<View id="25" did="15" type="TextView">
+<ppt>width=45dp
+height=45dp
+text=
+layout_marginleft=20dp
+background=#cba6c3</ppt>
+<event></event>
+</View>
+<View id="26" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=甜蜜恋爱
+layout_marginleft=20dp
+textsize=15sp
+textcolor=#cba6c3</ppt>
+<event></event>
+</View>
+<View id="16" did="11" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+background=#ffffff
+layout_marginleft=8dp
+layout_marginright=8dp
+layout_margintop=8dp
+background=#ffffff
+backgroundripple=#cececece
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">s ys="#c65146"
+fw("$幻隐网络/配置/yx.txt",ys)
+tw("设置完成")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)</eventItme></event>
+</View>
+<View id="27" did="16" type="TextView">
+<ppt>width=45dp
+height=45dp
+text=
+layout_marginleft=20dp
+background=#c65146</ppt>
+<event></event>
+</View>
+<View id="28" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=平安橘子
+layout_marginleft=20dp
+textsize=15sp
+textcolor=#c65146</ppt>
+<event></event>
+</View>
+<View id="17" did="11" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+background=#ffffff
+layout_marginleft=8dp
+layout_marginright=8dp
+layout_margintop=8dp
+background=#ffffff
+backgroundripple=#cececece
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">s ys="#5cab7d"
+fw("$幻隐网络/配置/yx.txt",ys)
+tw("设置完成")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)</eventItme></event>
+</View>
+<View id="29" did="17" type="TextView">
+<ppt>width=45dp
+height=45dp
+text=
+layout_marginleft=20dp
+background=#5cab7d</ppt>
+<event></event>
+</View>
+<View id="30" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=清新绿帽
+layout_marginleft=20dp
+textsize=15sp
+textcolor=#5cab7d</ppt>
+<event></event>
+</View>
+<View id="18" did="11" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+background=#ffffff
+layout_marginleft=8dp
+layout_marginright=8dp
+layout_margintop=8dp
+background=#ffffff
+backgroundripple=#cececece
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">s ys="#ff40cec3"
+fw("$幻隐网络/配置/yx.txt",ys)
+tw("设置完成")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)</eventItme></event>
+</View>
+<View id="31" did="18" type="TextView">
+<ppt>width=45dp
+height=45dp
+text=
+layout_marginleft=20dp
+background=#ff40cec3</ppt>
+<event></event>
+</View>
+<View id="32" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=秋烟碧绿
+layout_marginleft=20dp
+textsize=15sp
+textcolor=#ff40cec3</ppt>
+<event></event>
+</View>
+<View id="19" did="11" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+background=#ffffff
+layout_marginleft=8dp
+layout_marginright=8dp
+layout_margintop=8dp
+background=#ffffff
+backgroundripple=#cececece
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">s ys="#ffff0007"
+fw("$幻隐网络/配置/yx.txt",ys)
+tw("设置完成")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)</eventItme></event>
+</View>
+<View id="33" did="19" type="TextView">
+<ppt>width=45dp
+height=45dp
+text=
+layout_marginleft=20dp
+background=#ffff0007</ppt>
+<event></event>
+</View>
+<View id="34" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=火焰将军
+layout_marginleft=20dp
+textsize=15sp
+textcolor=#ffff0007</ppt>
+<event></event>
+</View>
+<View id="20" did="11" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal
+background=#ffffff
+layout_margin=8dp
+background=#ffffff
+backgroundripple=#cececece
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">s ys="#ff806dff"
+fw("$幻隐网络/配置/yx.txt",ys)
+tw("设置完成")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)</eventItme></event>
+</View>
+<View id="35" did="20" type="TextView">
+<ppt>width=45dp
+height=45dp
+text=
+layout_marginleft=20dp
+background=#ff806dff</ppt>
+<event></event>
+</View>
+<View id="36" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=薰衣百草
+layout_marginleft=20dp
+textsize=15sp
+textcolor=#ff806dff</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

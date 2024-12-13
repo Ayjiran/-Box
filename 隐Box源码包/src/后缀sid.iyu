@@ -1,0 +1,35 @@
+<View id="1" did="0" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=后缀sid
+inputtype=number
+background=through
+textcursordrawable=#ff00a8ff</ppt>
+<event></event>
+</View>
+<View id="2" did="0" type="Button">
+<ppt>width=-1
+height=-2
+text=确定
+textColor=#ff0f0f0f
+background=white
+</ppt>
+<event><eventItme type="clicki">gvs(sss.bqb,1,id)
+ug(id,"text",sid)
+sss sid=sid
+endutw()
+tw("替换成功")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

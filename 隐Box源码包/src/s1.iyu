@@ -1,0 +1,582 @@
+<View id="21" did="0" type="LinearLayout">
+<ppt>width=-1
+height=430dp
+orientation=vertical
+background=@personal_sign_information_dialog_success.v</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="ScrollView">
+<ppt>width=-1
+height=-1
+layout_marginTop=80dp</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+gravity=center_vertical
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="27" did="25" type="LinearLayout">
+<ppt>width=250dp
+height=-1
+orientation=vertical
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="29" did="27" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center_vertical
+layout_gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=更多功能
+textStyle=bold
+textColor=#ff3ea9ff
+layout_marginLeft=15dp
+textSize=23sp</ppt>
+<event></event>
+</View>
+<View id="31" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+textStyle=bold
+layout_marginLeft=15dp
+text=本功能：2020年4月24日添加
+textColor=#ff3ea9ff</ppt>
+<event></event>
+</View>
+<View id="28" did="25" type="ImageView">
+<ppt>width=100dp
+height=100dp
+layout_gravity=bottom
+src=@icon.png</ppt>
+<event></event>
+</View>
+<View id="32" did="24" type="LinearLayout">
+<ppt>width=-1
+height=160dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=-1
+layout_weight=1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="CardView">
+<ppt>width=160dp
+height=150dp
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff3ea9ff</ppt>
+<event><eventItme type="clicki">uigo("企鹅.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="49" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#30000000</ppt>
+<event></event>
+</View>
+<View id="101" did="49" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="102" did="101" type="CardView">
+<ppt>width=50dp
+height=50dp
+app_CardElevation=0
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="106" did="102" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="107" did="106" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_navigation_draft.v</ppt>
+<event></event>
+</View>
+<View id="100" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="103" did="100" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="104" did="103" type="TextView">
+<ppt>width=-2
+height=-2
+text=有声小说
+textSize=18sp
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="105" did="103" type="TextView">
+<ppt>width=-2
+height=-2
+text=Novel 
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="35" did="32" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+layout_weight=1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="38" did="36" type="CardView">
+<ppt>width=160dp
+height=70dp
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff3ea9ff</ppt>
+<event><eventItme type="clicki">f(sss.wf=="是")
+{
+  s stop = 2000
+s text="未开启进入权限~"
+fn color.ColorToast(text,stop)
+}
+else
+{
+  uigo("在线直播.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="57" did="38" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="83" did="57" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="CardView">
+<ppt>width=50dp
+height=50dp
+app_CardElevation=0
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="88" did="84" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="108" did="88" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ui/Ksyj.v</ppt>
+<event></event>
+</View>
+<View id="85" did="57" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="86" did="85" type="TextView">
+<ppt>width=-2
+height=-2
+text=直播
+textSize=17sp
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="87" did="85" type="TextView">
+<ppt>width=-2
+height=-2
+text=Cinema 
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="37" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+layout_weight=1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="39" did="37" type="CardView">
+<ppt>width=160dp
+height=70dp
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff3ea9ff</ppt>
+<event><eventItme type="clicki">s stop = 2000
+s text="敬请期待~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="90" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="92" did="90" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="93" did="92" type="CardView">
+<ppt>width=50dp
+height=50dp
+app_CardElevation=0
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="94" did="93" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="119" did="94" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@Bibi/cgp.v</ppt>
+<event></event>
+</View>
+<View id="96" did="90" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="TextView">
+<ppt>width=-2
+height=-2
+text=漫画
+textSize=17sp
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="98" did="96" type="TextView">
+<ppt>width=-2
+height=-2
+text=Comic 
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="109" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+layout_weight=1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="110" did="109" type="CardView">
+<ppt>width=-1
+height=70dp
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff3ea9ff
+layout_marginRight=10dp
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">fe("$幻隐网络/.v/xjf.yx",jx)
+f(jx=="true")
+{
+ uigo("更多功能.iyu")
+  }
+else
+  {
+s stop = 2000
+s text="本功能仅限会员使用！"
+fn color.ColorToast(text,stop)
+  }</eventItme></event>
+</View>
+<View id="111" did="110" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="112" did="111" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="113" did="112" type="CardView">
+<ppt>width=50dp
+height=50dp
+app_CardElevation=0
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="114" did="113" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="120" did="114" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@a/.zy/wrt.v</ppt>
+<event></event>
+</View>
+<View id="115" did="111" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="116" did="115" type="TextView">
+<ppt>width=-2
+height=-2
+text=更多功能
+textSize=17sp
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="117" did="115" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员专用-更多可观好用的功能
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+/.
+
+界面s1.iyu
+异常错误
+控件ID117; 事件loading; 代码=
+
+
+模块生成分享.myu
+异常错误
+方法名 1 命名不合规
+模块生成分享.myu
+异常错误
+方法名 2 命名不合规
+模块生成分享.myu
+异常错误
+方法名 3 命名不合规
+模块生成分享.myu
+异常错误
+方法名 4 命名不合规
+
+
+----------
+1. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/58.java (at line 2)
+	public class 58{
+令牌“58”上的语法错误，预期为Identifier
+----------
+----------
+2. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/gn_ fy.java (at line 2)
+	public class gn_ fy{
+必须在自己的文件中定义公共类型gn_
+----------
+3. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/gn_ fy.java (at line 2)
+	public class gn_ fy{
+令牌“fy”上的语法错误，预期为{
+----------
+4. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/gn_ fy.java (at line 2)
+	public class gn_ fy{
+语法错误，插入“}”以完成Block
+----------
+----------
+5. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ch.java (at line 2)
+	public class lk.ch{
+令牌“class”上的语法错误，预期为@
+----------
+6. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ch.java (at line 2)
+	public class lk.ch{
+必须在自己的文件中定义公共类型lk
+----------
+7. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ch.java (at line 2)
+	public class lk.ch{
+语法错误，插入“}”以完成Block
+----------
+8. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ch.java (at line 3)
+	public void clicki3ea5d6447de5(com.iapp.app.Aid_YuCodeX _AycX)
+令牌“void”上的语法错误，预期为@
+----------
+9. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ch.java (at line 3)
+	public void clicki3ea5d6447de5(com.iapp.app.Aid_YuCodeX _AycX)
+令牌上的语法错误，错放的构造（s）
+----------
+10. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ch.java (at line 3)
+	public void clicki3ea5d6447de5(com.iapp.app.Aid_YuCodeX _AycX)
+语法错误，插入“enum Identifier”以完成EnumHeader
+----------
+11. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ch.java (at line 9)
+	}public void focuschange7a5d7cf9b58f(com.iapp.app.Aid_YuCodeX _AycX)
+令牌“}”上的语法错误，预期为;
+----------
+----------
+12. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ewm.java (at line 2)
+	public class lk.ewm{
+令牌“class”上的语法错误，预期为@
+----------
+13. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ewm.java (at line 2)
+	public class lk.ewm{
+已定义类型lk
+----------
+14. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ewm.java (at line 2)
+	public class lk.ewm{
+语法错误，插入“}”以完成Block
+----------
+15. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ewm.java (at line 3)
+	public void clicki7846ae9781f7(com.iapp.app.Aid_YuCodeX _AycX)
+令牌“void”上的语法错误，预期为@
+----------
+16. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ewm.java (at line 3)
+	public void clicki7846ae9781f7(com.iapp.app.Aid_YuCodeX _AycX)
+令牌上的语法错误，错放的构造（s）
+----------
+17. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ewm.java (at line 3)
+	public void clicki7846ae9781f7(com.iapp.app.Aid_YuCodeX _AycX)
+语法错误，插入“enum Identifier”以完成EnumHeader
+----------
+18. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.ewm.java (at line 9)
+	}public void clickieebe13ee2bd9(com.iapp.app.Aid_YuCodeX _AycX)
+令牌“}”上的语法错误，预期为;
+----------
+----------
+19. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.qkj.java (at line 2)
+	public class lk.qkj{
+令牌“class”上的语法错误，预期为@
+----------
+20. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.qkj.java (at line 2)
+	public class lk.qkj{
+已定义类型lk
+----------
+21. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.qkj.java (at line 2)
+	public class lk.qkj{
+语法错误，插入“}”以完成Block
+----------
+22. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.qkj.java (at line 3)
+	public void clickice3336ac6896(com.iapp.app.Aid_YuCodeX _AycX)
+令牌“void”上的语法错误，预期为@
+----------
+23. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.qkj.java (at line 3)
+	public void clickice3336ac6896(com.iapp.app.Aid_YuCodeX _AycX)
+令牌上的语法错误，错放的构造（s）
+----------
+24. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.qkj.java (at line 3)
+	public void clickice3336ac6896(com.iapp.app.Aid_YuCodeX _AycX)
+语法错误，插入“enum Identifier”以完成EnumHeader
+----------
+25. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.qkj.java (at line 9)
+	}public void clickia21699dfc82c(com.iapp.app.Aid_YuCodeX _AycX)
+令牌“}”上的语法错误，预期为;
+----------
+----------
+26. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.wbzyy.java (at line 2)
+	public class lk.wbzyy{
+令牌“class”上的语法错误，预期为@
+----------
+27. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.wbzyy.java (at line 2)
+	public class lk.wbzyy{
+已定义类型lk
+----------
+28. ERROR in /data/data/com.iapp.app/files/Cache/frame/26_7/bin/java/yx/yxkj/lk.wbzyy.java (at line 2)
+	public class lk.</eventItme></UIEventset>

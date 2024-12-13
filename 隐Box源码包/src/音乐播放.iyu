@@ -1,0 +1,328 @@
+<View id="28" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="29" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+gravity=center_vertical
+background=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="31" did="2" type="TextView">
+<ppt>width=-2
+height=-1
+text=音乐播放
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="32" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="35" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="34" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_margin=30dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="36" did="6" type="ImageView">
+<ppt>width=300dp
+height=300dp
+src=@20180916170000@4c836b3a84cda5ad0d4924610357eecb.v
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="39" did="6" type="GifView">
+<ppt>width=300dp
+height=300dp
+src=@gif.gif
+</ppt>
+<event></event>
+</View>
+<View id="7" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=哪里都是你
+textColor=#000000
+textSize=30sp
+textStyle=bold
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="9" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margin=10dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=队长
+textColor=#ff888888
+textSize=18sp</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="TextView">
+<ppt>width=30dp
+height=20dp
+text=标准
+textColor=#ffffff
+background=#ff888888
+textSize=13sp
+layout_marginLeft=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="27" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本27
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="12" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=30dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="38" did="34" type="SeekBar">
+<ppt>width=-1
+height=-2
+layout_marginLeft=10dp
+layout_marginRight=10dp
+visibility=gon</ppt>
+<event><eventItme type="onstoptrackingtouch">ug(38,"progress",jd)
+s-(1500,jd)
+bfms(sss.b,"seekto",jd)
+bfms(sss.b,"st")
+    us(33,"src","@lp/player_pause.v")
+    ss kz=null</eventItme><eventItme type="onstarttrackingtouch">ss kz=1
+    bfms(sss.b,"pe")
+    us(33,"src","@lp/icon.v")</eventItme></event>
+</View>
+<View id="20" did="34" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+gravity=center
+layout_marginBottom=30dp</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="ImageView">
+<ppt>width=-1
+height=30dp
+src=@save_alt_black.png
+layout_weight=1</ppt>
+<event><eventItme type="clicki">us(21,"visibility","gone")
+ss("幻隐网luo/"+sss.音乐名字+".mp3",mz)
+ss("幻隐网luo/重要/"+sss.音乐名字+".png",图片mz)
+ss(sss.音乐名字+".mp3",mzu)
+fe(mz,yy)
+f(yy=="true")
+{
+  s stop = 2000
+  s text="您已下载本音乐~~"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  fr("$幻隐网络/临时数据/1021.txt",ws)
+  s stop = 2000
+  s text="已开始下载~~"
+  fn color.ColorToast(text,stop)
+  t()
+  {
+    hd(sss.音乐地址,mz, v)
+    hd(sss.音乐图片地址,图片mz, v)
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="33" did="20" type="ImageView">
+<ppt>width=-1
+height=50dp
+src=@lp/player_pause.v
+layout_weight=1
+</ppt>
+<event><eventItme type="clicki">f(ss.kz==null)
+  {
+    ss kz=1
+    bfms(sss.b,"pe")
+    us(33,"src","@lp/icon.v")
+  }
+else
+  {
+    bfms(sss.b,"st")
+    us(33,"src","@lp/player_pause.v")
+    ss kz=null
+  }
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+ss("幻隐网luo/"+sss.音乐名字+".mp3",判断)
+fe(判断,是否)
+f(是否==true)
+{
+  us(21,"visibility","gone")
+}
+else
+{
+}
+
+f(sss.本地音乐=="是")
+{
+  us(38,"visibility","visible")
+  sj(sss.音乐地址,"幻隐网luo/",null,图片)
+  ss("重要/"+图片,图片)
+  sr(图片,"mp3","png",图片)
+  ss("幻隐网luo/"+图片,图片)
+  fe(图片,有没有)
+  f(有没有==true)
+  {
+    us(36,"src",图片)
+    us(36,"visibility","visible")
+    us(39,"visibility","gone")
+  }
+  else
+  {
+    us(36,"visibility","visible")
+    us(39,"visibility","gone")
+    us(36,"src","@20180916170000@4c836b3a84cda5ad0d4924610357eecb.v")
+  }
+  bfm(sss.音乐地址, sss.b)
+  us(8,"text",sss.wjlb)
+  us(10,"text","本地音乐播放")
+  us(21,"visibility","gone")
+  bfms(sss.b, "sl", true)
+  fw("幻隐网络/音乐播放.txt","播放")
+}
+else
+{
+  us(8,"text",sss.音乐名字)
+  us(10,"text",sss.音乐作者)
+  t()
+  {
+    call(src,"mjava","xz.getInternetPicture",sss.音乐图片地址)
+    ufnsui()
+    {
+      us(38,"visibility","gone")
+      us(36,"visibility","visible")
+      us(36,"src",src)
+      us(39,"visibility","gone")
+      bfm(sss.音乐地址, sss.b)
+      bfms(sss.b, "sl", true)
+      fw("幻隐网络/音乐播放.txt","播放")
+    }
+  }
+}</eventItme><eventItme type="loadingComplete">sbp("@a/3/publish_feed_more_music.v",w)
+tsf(w,250,250,w)
+javanew(drawable1,"android.graphics.drawable.BitmapDrawable","android.graphics.Bitmap",w)
+sbp("@Bibi/bm2.v",b)
+tsf(b,250,250,b)
+javanew(drawable2,"android.graphics.drawable.BitmapDrawable","android.graphics.Bitmap",b)
+gvs(38,拖动条)
+java(null,拖动条,"android.widget.AbsSeekBar.setThumb","android.graphics.drawable.Drawable",drawable1)
+ss drawable1=drawable1
+ss drawable2=drawable2
+bfms(sss.b,"dn",c)
+us(38,"max",c)
+  t()
+  {
+    for(1;c)
+    {
+      ufnsui()
+      {
+        bfms(sss.b,"cn",dq)
+        us(38,"progress",dq)
+      }
+      stop(1000)
+    }
+  }</eventItme><eventItme type="destroy">bfms(sss.b,"pe")</eventItme></UIEventset>

@@ -1,0 +1,115 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=#FFFF8EC4</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-1
+height=-1
+text=设置密码
+textcolor=#FFFFFF
+gravity=center
+textsize=15sp
+background=#ff00c1ff</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+background=
+textsize=13sp
+hint=请输入软件口令密码
+layout_marginright=10dp
+layout_marginleft=10dp
+layout_margintop=5dp
+maxLength=20
+textCursorDrawable=#ff00a3ff
+</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="TextView">
+<ppt>width=-1
+height=1
+text=
+background=#e0e0e0
+layout_marginright=10dp
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="Button">
+<ppt>width=-1
+height=40dp
+text=确定
+layout_marginbottom=10dp
+layout_margintop=10dp
+textcolor=#FFFFFF
+layout_marginleft=10dp
+layout_marginright=10dp
+background=#ff00c1ff</ppt>
+<event><eventItme type="clicki">gvs(325,id)
+   
+   
+   
+gvs(sss.uw,4,a)
+ug(a,"text",b)
+f(b=="")
+{
+s stop = 2000
+s text="请填写内容！"
+fn color.ColorToast(text,stop)
+}
+else
+{
+fw("$幻隐网络/软件密码/开.txt",b)
+s stop = 2000
+s text="设置完毕，请牢记密码"
+fn color.ColorToast(text,stop)
+us(255,"src","@setting_chk_blue.v")
+us(256,"visibility","visible")
+fr("$幻隐网络/软件密码/开.txt",j)
+ss("密码："+j,l)
+us(256,"text",l)
+endutw()
+}</eventItme></event>
+</View>
+<View id="7" did="1" type="TextView">
+<ppt>width=-1
+height=40dp
+text=设置后的密码，如果忘记了，那么只能卸载软件重新下载！切记
+layout_marginbottom=10dp
+layout_margintop=10dp
+textcolor=#4c000000
+layout_marginleft=10dp
+layout_marginright=10dp
+background=
+textsize=10sp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=签名：
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

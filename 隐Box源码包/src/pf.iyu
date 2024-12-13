@@ -1,0 +1,56 @@
+<View id="10" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+gravity=center
+background=@tb/box_bg.v</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=皮肤代码
+textcolor=#ff00ebff
+textsize=16sp</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_margintop=20dp
+layout_marginleft=10dp
+layout_marginright=10dp
+layout_marginbottom=20dp</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text= 〖使用方法：直接复制名字即可，如：炸弹小编，粘贴到球球大作战名字里面即可使用炸弹皮肤！〗\n『五个原住民』\n分别:\n咕噜咕噜|gulugulu|golo golo|kulukulu\n哈嗒|hada\n希哩哩|cilili|lili\n菲露露|felulu\n咯洛洛|cololo\n       先声明一下，带有“|”的意思是说明|前的或者|后的关键字都是这个皮肤。\n\n『几个星球的皮肤』\n       星球\n       火星\n       冥王星\n       地球\n       月亮\n       更新动物的\n       猫猫\n       猪\n       熊猫\n       狗\n       熊\n       老鼠\n       牛\n       虎\n       鸭子\n       青蛙\n       鸟\n\n『接下来是水果和零食』\n       西瓜\n       桔子\n       苹果\n       桃子\n       橙子\n       糖果\n       巧克力\n       饼干\n\n〖使用方法：直接复制名字即可，如：炸弹小编，粘贴到球球大作战名字里面即可使用炸弹皮肤！〗
+textisselectable=true
+textsize=14sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

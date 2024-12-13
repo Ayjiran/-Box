@@ -1,0 +1,561 @@
+<View id="21" did="0" type="LinearLayout">
+<ppt>width=-1
+height=115dp
+orientation=vertical
+layout_marginTop=5dp
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="23" did="21" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="32" did="24" type="LinearLayout">
+<ppt>width=-1
+height=110dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=-1
+layout_weight=1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardcornerRadius=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="49" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom
+</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(主页的1.118, "dh", dh)
+}
+uigo("聊天.iyu")</eventItme></event>
+</View>
+<View id="115" did="49" type="GifView">
+<ppt>width=-1
+height=-1
+src=@gif/6.gif
+layout_margin=-1dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="113" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#84919191</ppt>
+<event></event>
+</View>
+<View id="114" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="100" did="114" type="LinearLayout">
+<ppt>width=-1
+height=75dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="101" did="100" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="102" did="101" type="CardView">
+<ppt>width=50dp
+height=50dp
+app_CardElevation=0
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="106" did="102" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="118" did="106" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@icon.png</ppt>
+<event></event>
+</View>
+<View id="103" did="100" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="104" did="103" type="TextView">
+<ppt>width=-2
+height=-2
+text=在线交流
+textSize=15sp
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="105" did="103" type="TextView">
+<ppt>width=-2
+height=-2
+text=chat
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="35" did="32" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="37" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+layout_weight=1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="39" did="37" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff6351ef
+layout_weight=1
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="116" did="39" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="90" did="116" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event><eventItme type="clicki">fn 旋转.a()
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(主页的1.95, "dh", dh)
+}
+sss wz=sss.aijqr
+uigo("广告.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="92" did="90" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="93" did="92" type="CardView">
+<ppt>width=40dp
+height=40dp
+app_CardElevation=0
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="94" did="93" type="LinearLayout">
+<ppt>width=-1
+gravity=center
+height=-1
+orientation=vertical
+padding=3dp</ppt>
+<event></event>
+</View>
+<View id="95" did="94" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@O1CN01sffRIx1nb3dXCKdFC_!!6000000005107-2-tps-1024-1024.png</ppt>
+<event></event>
+</View>
+<View id="96" did="90" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="TextView">
+<ppt>width=-2
+height=-2
+text=AI问答
+textSize=17sp
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="98" did="96" type="TextView">
+<ppt>width=-2
+height=-2
+text=robot
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="117" did="116" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@sq_list_biaoqian_tj.png
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+layout_weight=1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="38" did="36" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#a201bbff
+layout_weight=1
+layout_marginTop=5dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="57" did="38" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical
+orientation=horizontal</ppt>
+<event><eventItme type="clicki">/.t()
+{
+  sj(sss.bs,"微信客服[","]",开关)
+  f(开关=="开")
+  {
+    fn 聚合.主页提示微信客服()
+  }
+  else
+  {
+    uigo("智能客服.iyu")
+  }
+}
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(主页的1.89, "dh", dh)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="83" did="57" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="CardView">
+<ppt>width=40dp
+height=40dp
+app_CardElevation=0
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="88" did="84" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical
+padding=3dp</ppt>
+<event></event>
+</View>
+<View id="89" did="88" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@a/1/icon_mine_feedback.v</ppt>
+<event></event>
+</View>
+<View id="85" did="57" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="86" did="85" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待
+textSize=17sp
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="87" did="85" type="TextView">
+<ppt>width=-2
+height=-2
+text=Help
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="119" did="36" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#a201bbff
+layout_weight=1
+layout_marginBottom=5dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="120" did="119" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical
+orientation=horizontal</ppt>
+<event><eventItme type="clicki">t()
+{
+  sj(sss.bs,"微信客服[","]",开关)
+  f(开关=="开")
+  {
+    fn 聚合.主页提示微信客服()
+  }
+  else
+  {
+    uigo("智能客服.iyu")
+  }
+}
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(主页的1.89, "dh", dh)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="121" did="120" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="122" did="121" type="CardView">
+<ppt>width=40dp
+height=40dp
+app_CardElevation=0
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="123" did="122" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical
+padding=3dp</ppt>
+<event></event>
+</View>
+<View id="124" did="123" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@a/1/icon_mine_feedback.v</ppt>
+<event></event>
+</View>
+<View id="125" did="120" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="126" did="125" type="TextView">
+<ppt>width=-2
+height=-2
+text=智能客服
+textSize=17sp
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="127" did="125" type="TextView">
+<ppt>width=-2
+height=-2
+text=Help
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="41" did="24" type="LinearLayout">
+<ppt>width=-1
+height=120dp
+orientation=horizontal
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+layout_weight=1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="46" did="42" type="CardView">
+<ppt>width=95dp
+height=95dp
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#E0E0E0</ppt>
+<event></event>
+</View>
+<View id="67" did="46" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="108" did="67" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301567</ppt>
+<event></event>
+</View>
+<View id="43" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+layout_weight=1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="47" did="43" type="CardView">
+<ppt>width=95dp
+height=95dp
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#80CBC4</ppt>
+<event></event>
+</View>
+<View id="70" did="47" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="109" did="70" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301567</ppt>
+<event></event>
+</View>
+<View id="44" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+layout_weight=1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="48" did="44" type="CardView">
+<ppt>width=95dp
+height=95dp
+app_CardElevation=0
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#9FA8DA</ppt>
+<event></event>
+</View>
+<View id="111" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="112" did="111" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301567</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">fn tos_zt.two("tos_s1.30")
+time("H",a)
+syso(a)
+</eventItme></UIEventset>

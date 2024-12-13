@@ -1,0 +1,51 @@
+fn loginqq(app_id,app_name,scope,cmp)
+//数据对象
+javanew(bundle,"android.os.Bundle")
+//参数对象
+javanew(params,"android.os.Bundle")
+//手机品牌sss.名称
+javags(data1,null,"android.os.Build","MODEL")
+//安卓SDK 版本
+javags(data2,null,"android.os.Build$VERSION","SDK")
+//系统版本
+javags(data3,null,"android.os.Build","RELEASE")
+//输入参数-&gt;系统版本
+java(null,params,"android.os.BaseBundle.putString","String","status_os","String",data3)
+//输入参数-&gt;APP_ID
+java(null,params,"android.os.BaseBundle.putString","String","client_id","String",app_id)
+//输入参数-&gt;返回数据类型
+java(null,params,"android.os.BaseBundle.putString","String","format","String","json")
+//输入参数-&gt;安卓SDK版本
+java(null,params,"android.os.BaseBundle.putString","String","status_version","String",data2)
+//输入参数-&gt;应用sss.名称
+java(null,params,"android.os.BaseBundle.putString","String","oauth_app_name","String",app_name)
+//输入参数-&gt;手机
+java(null,params,"android.os.BaseBundle.putString","String","status_machine","String",data1)
+//输入参数-&gt;分享平台
+java(null,params,"android.os.BaseBundle.putString","String","pf","String","openmobile_android")
+//输入参数-&gt;不知道
+java(null,params,"android.os.BaseBundle.putString","String","sdkp","String","a")
+//输入参数-&gt;OPEN_QQ_SDK 版本
+java(null,params,"android.os.BaseBundle.putString","String","sdkv","String","3.3.0.lite")
+//输入参数-&gt;获取权限
+java(null,params,"android.os.BaseBundle.putString","String","scope","String",scope)
+//输入参数-&gt;需求
+java(null,params,"android.os.BaseBundle.putString","String","need_pay","String","1")
+//==============================================================================
+//输入参数-&gt;系统版本
+java(null,bundle,"android.os.Bundle.putBundle","String","key_params","android.os.Bundle",params)
+//输入参数-&gt;登陆
+java(null,bundle,"android.os.BaseBundle.putString","String","key_action","String","action_login")
+//输入参数-&gt;APP_ID
+java(null,bundle,"android.os.BaseBundle.putString","String","appeid","String",app_id)
+//输入参数-&gt;请求码
+java(null,bundle,"android.os.BaseBundle.putString","String","key_request_code","String","11101")
+//设置绝对目标
+sit(intent,"classname",cmp,"com.tencent.open.agent.AgentActivity")
+//com.tencent.open.agent.AuthorityActivity+AgentActivity
+//添加参数到数据里
+java(null,intent,"android.content.Intent.putExtras","android.os.Bundle",bundle)
+//Start
+uit(intent, "result", 0)
+//SanQan开源
+end fn

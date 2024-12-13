@@ -1,0 +1,130 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=#FFFF8EC4</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-1
+height=-1
+text=设置签名
+textcolor=#FFFFFF
+gravity=center
+textsize=15sp
+background=#ff00c1ff</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+background=
+textsize=13sp
+hint=请输入您的专属签名
+layout_marginright=10dp
+layout_marginleft=10dp
+layout_margintop=5dp
+maxLength=10
+textCursorDrawable=#ff00a3ff</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="TextView">
+<ppt>width=-1
+height=1
+text=
+background=#e0e0e0
+layout_marginright=10dp
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="CardView">
+<ppt>width=-1
+height=40dp
+layout_marginbottom=10dp
+layout_margintop=10dp
+layout_marginleft=10dp
+layout_marginright=10dp
+app_CardcornerRadius=100dp</ppt>
+<event></event>
+</View>
+<View id="5" did="9" type="Button">
+<ppt>width=-1
+height=40dp
+text=确定
+layout_marginbottom=10dp
+layout_margintop=10dp
+textcolor=#FFFFFF
+layout_marginleft=10dp
+layout_marginright=10dp
+background=#ff00c1ff</ppt>
+<event><eventItme type="clicki">gvs(sss.utw,4,qm)
+ug(qm,"text",qmkj)
+f(qmkj=="")
+{
+  s stop = 2000
+s text="请输入签名！"
+fn color.ColorToast(text,stop)
+}
+else
+{
+  ss("简介："+qmkj,qmj)
+  t()
+  {
+    ss(sss.api+"Box/yhxg.php?id="+sss.我的uid+"&nl=简介&dl="+qmkj,成功)
+  hs(成功,uu)
+    ufnsui()
+    {
+             
+        s stop = 2000
+s text="修改成功！"
+fn color.ColorToast(text,stop)
+endutw(sss.utw)
+    }
+  }
+  
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="7" did="1" type="TextView">
+<ppt>width=-1
+height=40dp
+text=使用帮助：每个人都有个，个性的签名，你的签名有多么个性呢？最多10字
+layout_marginbottom=10dp
+layout_margintop=10dp
+textcolor=#4c000000
+layout_marginleft=10dp
+layout_marginright=10dp
+background=
+textsize=10sp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=签名：
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

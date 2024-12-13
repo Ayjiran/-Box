@@ -1,0 +1,95 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+background=white
+BackgroundRipple=#ff888888</ppt>
+<event><eventItme type="clicki">ulag(st_vW,8,sss.音乐作者)
+ulag(st_vW,7,sss.音乐名字)
+ulag(st_vW,6,sss.音乐地址)
+ulag(st_vW,10,sss.音乐图片地址)
+bfms(sss.b, "re")
+uxf(sss.v, "del")
+fr("$幻隐网络/浏览记录/xf.txt",vc)
+ss("【"+sss.音乐地址+"】("+sss.音乐名字+")",ff)
+ss(ff+vc,nn)
+fw("$幻隐网络/浏览记录/xf.txt",nn)
+sss 本地音乐="否"
+uigo("音乐播放.iyu")</eventItme></event>
+</View>
+<View id="13" did="1" type="TextView">
+<ppt>width=3dp
+height=20dp
+text=
+background=#ff00aeff
+layout_marginleft=5dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=80dp
+height=80dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="14" did="2" type="CardView">
+<ppt>width=50dp
+height=50dp
+app_CardcornerRadius=120dp
+app_CardElevation=5dp</ppt>
+<event></event>
+</View>
+<View id="11" did="14" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@0235c0747ed.png</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=loading…
+textColor=#000000
+textSize=18sp
+marqueerepeatlimit=marquee_forever
+focusableintouchmode=true
+singleline=true
+ellipsize=marquee
+gravity=center
+autoLink=all
+lines=1
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="8" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=音乐介绍
+textSize=13sp
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="9" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=9
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="10" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本10
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

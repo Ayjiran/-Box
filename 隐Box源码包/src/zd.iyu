@@ -1,0 +1,186 @@
+<View id="33" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=按摩震动
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+
+</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@tb/box_bg.v
+</ppt>
+<event></event>
+</View>
+<View id="31" did="4" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginBottom=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+app_CardcornerRadius=10dp
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>width=-1
+height=190dp
+orientation=vertical
+background=@5.jpg</ppt>
+<event></event>
+</View>
+<View id="13" did="4" type="CardView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="5" did="13" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+layout_margintop=5dp
+layout_marginleft=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="SeekBar">
+<ppt>width=-1
+height=-2
+max=500
+</ppt>
+<event><eventItme type="onprogresschanged2">ug(6,"progress",y)
+s*(10, y)
+us(8,"text",y)</eventItme></event>
+</View>
+<View id="8" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=请拖动调整强度
+textColor=#ff060606</ppt>
+<event><eventItme type="ontextchanged">ug(8,"text",nr)
+f(nr&lt;3000)
+{
+ ss("频率快 数值:"+nr,y)
+ us(8,"text",y)
+}
+else
+{
+  ss("频率慢 数值:"+nr,y)
+ us(8,"text",y)
+}</eventItme></event>
+</View>
+<View id="21" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐心科技
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="18" did="4" type="CardView">
+<ppt>width=-2
+height=-2
+background=white
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="25" did="18" type="LinearLayout">
+<ppt>width=420
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ug(8,"text",shh)
+ug(26,"text",hh)
+f(hh=="点击启动")
+{
+ sj(shh,"数值:",null,sz)
+ss(" 0 "+sz+" 0 "+sz+" 0 "+sz+" 0 "+sz+" 0 "+sz+" 0 "+sz+" 0 "+sz+" 0 "+sz,shz)
+uzd(sss.zdq,shz, true)
+us(26,"text","停止振动")
+}
+else
+{
+  us(26,"text","点击启动")
+  uzd(sss.zdq, "sp")
+}
+
+
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=点击启动
+textColor=#ffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="23" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐心
+visibility=invisible</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=33
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(27,颜色)
+fn 着色.控件着色(18,颜色)
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="destroy">uzd(sss.zdq, "sp")</eventItme><eventItme type="loadingComplete">us(6,"progress","80")
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

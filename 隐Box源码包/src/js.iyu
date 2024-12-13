@@ -1,0 +1,526 @@
+<View id="2" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="54" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="54" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="52" did="3" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-1
+text=计算器
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="53" did="54" type="LinearLayout">
+<ppt>Width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="5" did="54" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=vertical
+padding=10dp
+ut_below=3
+background=white
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="1" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#000000
+textSize=25sp</ppt>
+<event></event>
+</View>
+<View id="6" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+ut_below=5
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="11" did="7" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+slg(a,b)
+s(b-1,c)
+ssg(a,0,c,sc)
+f(sc==null)
+{
+us(1,"text","")
+}
+else
+{
+us(1,"text",sc)
+}</eventItme></event>
+</View>
+<View id="27" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=C
+textColor=#000000
+textSize=22dp</ppt>
+<event></event>
+</View>
+<View id="12" did="7" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">us(1,"text","")</eventItme></event>
+</View>
+<View id="28" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=AC
+textColor=#000000
+textSize=22dp</ppt>
+<event></event>
+</View>
+<View id="13" did="7" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="+"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="29" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=+
+textColor=#000000
+textSize=22dp</ppt>
+<event></event>
+</View>
+<View id="14" did="7" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="-"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="30" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=-
+textColor=#000000
+textSize=22dp</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="7"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="31" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=7</ppt>
+<event></event>
+</View>
+<View id="16" did="8" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="8"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="32" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=8</ppt>
+<event></event>
+</View>
+<View id="17" did="8" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="9"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="33" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=9</ppt>
+<event></event>
+</View>
+<View id="18" did="8" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="*"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="34" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=×
+textColor=#000000
+textSize=22dp</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="19" did="9" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="4"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="35" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=4</ppt>
+<event></event>
+</View>
+<View id="20" did="9" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="5"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="36" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=5</ppt>
+<event></event>
+</View>
+<View id="21" did="9" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="6"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="37" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=6</ppt>
+<event></event>
+</View>
+<View id="22" did="9" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="/"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="38" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=÷
+textColor=#000000
+textSize=22dp</ppt>
+<event></event>
+</View>
+<View id="10" did="6" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="23" did="10" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="1"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="39" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=1</ppt>
+<event></event>
+</View>
+<View id="24" did="10" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="2"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="40" did="24" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=2</ppt>
+<event></event>
+</View>
+<View id="25" did="10" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="3"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="41" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=3</ppt>
+<event></event>
+</View>
+<View id="26" did="10" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s2(a,s)
+us(1,"text",s)</eventItme></event>
+</View>
+<View id="42" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text==
+textColor=#000000
+textSize=22dp</ppt>
+<event></event>
+</View>
+<View id="43" did="6" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="45" did="43" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="0"
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="49" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textColor=#000000
+textSize=22dp</ppt>
+<event></event>
+</View>
+<View id="46" did="43" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">ug(1,"text",a)
+s b="."
+ss(a+b,a)
+us(1,"text",a)</eventItme></event>
+</View>
+<View id="50" did="46" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+textSize=22dp
+text=.</ppt>
+<event></event>
+</View>
+<View id="47" did="43" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#ff00a7ff</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="51" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+textColor=#000000
+text=返回</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(3,"background",yg)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,119 @@
+<View id="20" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginBottom=5dp
+</ppt>
+<event></event>
+</View>
+<View id="7" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="23" did="14" type="ImageView">
+<ppt>width=38dp
+height=38dp
+src=@a/tq/yx1/app_icon.v
+layout_marginleft=16dp
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="16" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=固定主页图
+layout_margin=10dp
+textSize=18sp
+textColor=#ff005dab
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="18" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="24" did="18" type="ScrollView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="28" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="30" did="28" type="CardView">
+<ppt>width=-1
+height=180dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginBottom=20dp
+app_CardcornerRadius=10dp
+app_CardElevation=10dp</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@none.png</ppt>
+<event></event>
+</View>
+<View id="25" did="28" type="TextView">
+<ppt>width=-2
+height=-2
+text=本功能，在2022年9月22日，凌晨23:33制作，在于隐Box5.0.7beta版本添加的一款最新功能\n本功能是让隐Box的用户可以更好的本地化，增强灵动性，让用户自主选择喜欢的图片！\n\n上方的二次元图片不知道各位有没有发现，每次打开App都会发生变化，右边的开关就是用来控制是否变化的！\n\n打开的话就是图片固定不变，可以优化软件的进入速度，也可以增强您的体验！\n\n关闭的话进入软件就会不断的变化，多变性变强！
+textStyle=bold
+textColor=#ff414141</ppt>
+<event></event>
+</View>
+<View id="12" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=right
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="12" type="Button">
+<ppt>width=80dp
+height=40dp
+text=我知道啦
+textColor=#ffffff
+textSize=14dp
+background=#FF2196F3
+textStyle=bold
+layout_marginRight=10dp
+BackgroundRipple=#ffffff
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="clicki">fn tool.endubt()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

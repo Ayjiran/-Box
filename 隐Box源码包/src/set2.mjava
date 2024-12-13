@@ -1,0 +1,20 @@
+import android.app.Activity;
+import android.app.*;
+import android.content.res.*;
+import android.graphics.*;
+import android.view.*;
+import android.support.transition.TransitionManager;
+import android.support.transition.ChangeBounds;
+
+
+public static void set(Activity activity,int id)
+{
+  try
+  {
+    TransitionManager.beginDelayedTransition(activity.findViewById(id),new ChangeBounds().setDuration(400));
+  }
+  catch (Exception e)
+  {
+    
+  }
+}

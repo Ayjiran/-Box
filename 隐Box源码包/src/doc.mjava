@@ -1,0 +1,34 @@
+
+
+
+
+//以下代码放入doc.mjava{.start
+
+public void del(String dir){
+
+boolean is=i.fe(dir); 
+
+if(is){
+
+boolean isdel=i.fd(dir);
+
+}
+
+for(Object va:i.fl(dir)){
+
+if(!i.fd(dir+"/"+va)){ 
+
+del(dir+"/"+va);
+
+} 
+
+}
+
+i.fd(dir);
+
+}
+
+//doc.mjava代码结束}.end
+
+
+

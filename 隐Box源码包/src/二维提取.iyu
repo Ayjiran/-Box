@@ -1,0 +1,187 @@
+<View id="11" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="7" did="11" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-1
+text=二维码提取
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="10" did="11" type="LinearLayout">
+<ppt>Width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="2" did="11" type="LinearLayout">
+<ppt>width=-1
+height=1000
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="1" did="2" type="ImageView">
+<ppt>width=-2
+height=-2
+src=/storage/emulated/0/DCIM/Camera/hongbao_20190921095358.png</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=这个是二维码图片\n注意:不是二维码/扫描不出来就报错
+textColor=#ff040404
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="11" type="Button">
+<ppt>width=-1
+height=-2
+text=使用"调用文件库"功能进行选择图片
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+background=#ff00c0ff
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">
+javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+java(c,it,"android.content.Intent.setType","String","image/*")
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+
+</eventItme></event>
+</View>
+<View id="6" did="11" type="Button">
+<ppt>width=-1
+height=-2
+text=扫描
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+background=#ff00c0ff
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">tot(1,图片)
+javax(结果,ss.扫描,ss.扫描类,"read","android.graphics.Bitmap",图片)
+java(结果类,结果,"Object.getClass")
+javax(结果,结果,结果类,"getText")
+us(12,"text",结果)
+us(12,"visibility","visible")</eventItme></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=结果
+layout_gravity=center
+textIsSelectable=true
+textColor=#ff090909
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(7,"background",yg)
+f(sss.loader==null)
+{
+  fn Util.loadDex("@a.dex")
+
+}
+sdeg(2)
+cls(sss.loader,"me.devilsen.czxing.BarcodeReader",扫描类)
+cls(sss.loader,"me.devilsen.czxing.BarcodeFormat",条形码格式)
+
+javags(QR_CODE,null,条形码格式,"QR_CODE")
+javags(AZTEC,null,条形码格式,"AZTEC")
+javags(CODABAR,null,条形码格式,"CODABAR")
+javags(CODE_39,null,条形码格式,"CODE_39")
+javags(CODE_93,null,条形码格式,"CODE_93")
+javags(CODE_128,null,条形码格式,"CODE_128")
+javags(DATA_MATRIX,null,条形码格式,"DATA_MATRIX")
+javags(EAN_8,null,条形码格式,"EAN_8")
+javags(EAN_13,null,条形码格式,"EAN_13")
+javags(ITF,null,条形码格式,"ITF")
+javags(MAXICODE,null,条形码格式,"MAXICODE")
+javags(PDF_417,null,条形码格式,"PDF_417")
+javags(RSS_14,null,条形码格式,"RSS_14")
+javags(RSS_EXPANDED,null,条形码格式,"RSS_EXPANDED")
+javags(UPC_A,null,条形码格式,"UPC_A")
+javags(UPC_E,null,条形码格式,"UPC_E")
+javags(UPC_EAN_EXTENSION,null,条形码格式,"UPC_EAN_EXTENSION")
+
+java(条形码格式集,null,"java.lang.reflect.Array.newInstance","Class",条形码格式,"int",17)
+java(类,条形码格式集,"Object.getClass")
+
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,0,QR_CODE)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,1,AZTEC)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,2,CODABAR)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,3,CODE_39)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,4,CODE_93)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,5,CODE_128)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,6,DATA_MATRIX)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,7,EAN_8)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,8,EAN_13)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,9,ITF)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,10,MAXICODE)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,11,PDF_417)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,12,RSS_14)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,13,RSS_EXPANDED)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,14,UPC_A)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,15,UPC_E)
+call(条形码格式集,"mjava","Util.sssz",条形码格式集,16,UPC_EAN_EXTENSION)
+javanew(ss.扫描,扫描类,类,条形码格式集)
+ss 扫描类=扫描类
+
+
+
+/.
+
+</eventItme><eventItme type="onactivityresult">
+javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+    us(1, "src", path)
+  }
+}</eventItme></UIEventset>

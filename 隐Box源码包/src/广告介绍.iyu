@@ -1,0 +1,107 @@
+<View id="20" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginBottom=5dp
+</ppt>
+<event></event>
+</View>
+<View id="7" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="23" did="14" type="ImageView">
+<ppt>width=38dp
+height=38dp
+src=@xgt/img_winners_badge.v
+layout_marginleft=16dp</ppt>
+<event></event>
+</View>
+<View id="16" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=观看须知
+layout_margin=10dp
+textSize=18sp
+textColor=#ff005dab
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="18" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="24" did="18" type="ScrollView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="28" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="ImageView">
+<ppt>width=-1
+height=-2
+src=@Bibi/b4b.v</ppt>
+<event></event>
+</View>
+<View id="25" did="28" type="TextView">
+<ppt>width=-2
+height=-2
+text=您好，尊贵的用户！\n请不要相信网址视频内的广告，我们隐Box官方不保证是否不骗人！\n\n因为有些对接的是其他平台，而且还有的是客户推荐，所以请您谨慎操作，看看就好了，不要去浏览器乱搜！\n如果乱搜出现任何经济损失以及更严重的代价，请后果自负！\n同样，感觉哪里对自己有害，请立刻退出，不要使用！\n\n感谢您的观看！
+textStyle=bold
+textColor=#ff414141
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="12" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=right
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="12" type="Button">
+<ppt>width=80dp
+height=40dp
+text=我知道啦
+textColor=#ffffff
+textSize=14dp
+background=#FF2196F3
+textStyle=bold
+layout_marginRight=10dp
+BackgroundRipple=#ffffff
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="clicki">fn tool.endubt()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

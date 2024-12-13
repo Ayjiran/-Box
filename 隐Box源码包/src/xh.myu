@@ -1,0 +1,49 @@
+
+
+fn xh()
+//得到屏幕宽度
+swh("pxw",w)
+//得到屏幕高度
+swh("pxhh",h)
+//得到动画播放时间
+s(h*5,time)
+//得到要移除控件时间
+s(h*5-100,deltime)
+//得到要停止移动的y坐标
+s(h/9*8,h)
+//图片不靠边界
+s(w-100,w)
+//初始id
+s id = 70
+//开启线程
+t(){
+//死循环
+w(true){
+//按下返回键停止
+f(sss.stop==true){
+endcode
+}
+ufnsui(){
+//随机出现
+sran(48,w,strw)
+//创建控件
+nvw(id, 48, "图像", "width=-2\nheight=-2\nsrc=@Bibi/b3g.v")
+us(id,"layout_marginleft",strw)
+//播放动画
+dhas(dh, id, "translationY",0,h)
+dh(dh, "duration",time)
+dh(dh, "start")
+dhas(dh,id,"translationX",0,15,25,30,20,10)
+dh(dh, "duration",time)
+dh(dh, "start")
+dhas(dh,id,"alpha",1,0)
+dh(dh,"delay",deltime)
+dh(dh, "duration", 100)
+dh(dh, "start")
+s(id+1,id)
+}
+//1秒刷新一次
+stop(500)
+}}
+//QQ2941866567
+end fn

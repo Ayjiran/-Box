@@ -1,0 +1,115 @@
+<View id="15" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginTop=3dp
+layout_marginLeft=3dp
+layout_marginRight=3dp
+layout_marginBottom=3dp
+app_CardcornerRadius=10dp</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="1" did="15" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+background=white</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+background=#ff00bfff</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=内容
+textColor=#ff1b1b1b</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+layout_marginTop=1dp
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=时间
+textColor=#ff1b1b1b</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=70dp
+height=70dp
+orientation=vertical
+gravity=center
+layout_gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=68dp
+height=68dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=金额
+textColor=#ff1b1b1b</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@ui/Q.v</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,记账助手列表.7,big)
+gvs(st_vW,记账助手列表.8,sam)
+ngde(150,"#ff00bfff",kmn)
+us(big,"background",kmn)
+ngde(150,"#ffffff",kjh)
+us(sam,"background",kjh)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,211 @@
+<View id="41" did="0" type="TextView">
+<ppt>width=-1
+height=0
+text=
+background=#52000000</ppt>
+<event></event>
+</View>
+<View id="40" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+clickable=false</ppt>
+<event></event>
+</View>
+<View id="19" did="40" type="CardView">
+<ppt>width=250dp
+height=-2
+app_CardBackgroundColor=#ffffff
+app_CardcornerRadius=15dp
+app_CardElevation=5dp
+</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="29" did="20" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=through
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="21" did="29" type="ImageView">
+<ppt>width=180dp
+height=110dp
+src=@c99.png
+scaleType=centercrop
+</ppt>
+<event></event>
+</View>
+<View id="46" did="20" type="ScrollView">
+<ppt>width=-1
+height=180dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="22" did="46" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margin=20dp</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=欢迎使用隐Box
+textSize=16sp
+textStyle=bold
+textColor=#212121</ppt>
+<event></event>
+</View>
+<View id="24" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=(可↑滑查看具体)在您使用本APP[隐Box]之前，请务必了解一下本应用的《隐私政策》以及《用户协议》\n\n在此特别声明：\n\n1.在未经您允许并同意前，本应用不会向任何第三方透露您的隐私信息。\n2.本应用所需要的权限均会在您需要该项服务时，向您获取授权。\n\n点击我同意即表示您已经阅读并且同意该条款，如果不同意请直接卸载本App。
+layout_marginTop=10dp
+textSize=14sp</ppt>
+<event></event>
+</View>
+<View id="42" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margin=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="43" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=《用户协议》
+textColor=#ff0084ff
+textStyle=bold
+textSize=16sp</ppt>
+<event><eventItme type="clicki">sss wz="http://box.ayjrw.cn/xy.html"
+uigo("政策.iyu")</eventItme></event>
+</View>
+<View id="45" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=《隐私政策》
+textColor=#ff0084ff
+textStyle=bold
+textSize=16sp</ppt>
+<event><eventItme type="clicki">sss wz="http://box.ayjrw.cn/zc.html"
+uigo("政策.iyu")</eventItme></event>
+</View>
+<View id="26" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="33" did="26" type="CardView">
+<ppt>width=-1
+height=40dp
+layout_weight=1
+app_CardBackgroundColor=#FFF0F0F0
+app_CardcornerRadius=20dp
+app_CardElevation=0
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="TextView">
+<ppt>width=-1
+height=-1
+text=不同意
+textColor=#FF606060
+gravity=center
+textSize=12sp
+BackgroundRipple=#ffffffff
+visibility=visible</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="35" did="26" type="LinearLayout">
+<ppt>width=15dp
+height=-2
+orientation=vertical
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="CardView">
+<ppt>width=-1
+height=40dp
+layout_weight=1
+app_CardBackgroundColor=#FF3F85FF
+app_CardcornerRadius=20dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>width=-1
+height=-1
+text=同意
+textColor=#ffffffff
+gravity=center
+textSize=12sp
+BackgroundRipple=#ffffffff</ppt>
+<event><eventItme type="clicki">uigo("第一次.iyu")
+end()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">java(cs, activity, "android.app.Activity.getWindow")
+
+java(cs2, cs, "android.view.Window.getDecorView")
+
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+uycl(false)</eventItme><eventItme type="loadingComplete">s a = null
+      s b = "温馨提示"
+      s c = "在您使用本APP[隐Box]之前，请务必了解一下本应用的《隐私政策》以及《用户协议》，在此特别声明：\n\n1.在未经您允许并同意前，本应用不会向任何第三方透露您的隐私信息。\n2.本应用所需要的权限均会在您需要该项服务时，向您获取授权。\n\n点击我同意即表示您已经阅读并且同意该条款，如果不同意请直接卸载本App。"
+      s d = "隐私政策"
+      s e = "同意"
+      s f = "用户协议"
+      
+      //三个按钮
+      //输入图标，输入标题，输入内容，输入按钮sss.名称，输入按钮sss.名称，输入按钮sss.名称，输入是否点击弹窗以外界面是否关闭弹窗，输入赋值变量
+      utw(a, b, c, d, e, f, true, v)
+      {
+        us(67,"text","重新阅读条款")
+        hws("https://www.ayjrw.cn/qtapp/yszc.html")
+      }
+      else
+      {
+        fw("$首1次.txt","有")
+        t()
+        {
+          w(num&gt;0&&sss.jump==false){
+            s-(1,num)
+            ufnsui(){
+              ss(num+"s",ss)
+              us(67,"text",ss)
+            }
+            f(num==0){
+              ufnsui(){
+                uigo("mian1.iyu")
+                end()
+              }
+            }
+            stop(1000)
+          }
+        }
+      }
+      else
+      {
+        us(67,"text","重新阅读条款")
+        hws("https://www.ayjrw.cn/qtapp/xy.html")
+      }
+    }
+  }
+}</eventItme></UIEventset>

@@ -1,0 +1,508 @@
+<View id="42" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=在线交流
+app_TitleColor=#FF2196F3
+</ppt>
+<event></event>
+</View>
+<View id="43" did="0" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+background=#ffe3edff
+orientation=horizontal
+gravity=center|left</ppt>
+<event></event>
+</View>
+<View id="45" did="43" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@user/zhuye_sx.png
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：聊天每天自动清理！
+textColor=#1E88E5
+textSize=13sp
+focusableintouchmode=true
+marqueerepeatlimit=marquee_forever
+ellipsize=marquee
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="14" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="1" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="41" did="1" type="GifView">
+<ppt>width=120dp
+height=120dp
+src=@gif.gif
+layout_marginTop=20dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+background=white</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="ListView">
+<ppt>width=-1
+height=-1
+dividerHeight=0dp</ppt>
+<event><eventItme type="onscroll">/.f(st_vT==0)
+{
+endcode
+}
+f(ss.gd=="true")
+{
+endcode
+}
+s(st_bT-st_vT,kj)
+f(st_fM==kj)
+{
+fr("$幻隐网络/临时数据/1031.txt",yy)
+f(yy=="0")
+{
+fw("$幻隐网络/临时数据/1031.txt","1")
+s stop = 2000
+s text="到底了呦~~"
+fn color.ColorToast(text,stop)
+fw("$幻隐网络/临时数据/1031.txt","1")
+}
+else
+{
+}
+}
+}</eventItme></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardBackgroundColor=#FFFFFF
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_weight=1
+layout_margin=5dp
+layout_gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+focusable=false
+focusableInTouchMode=true</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=聊点什么呢~
+textSize=13sp
+.layout_margin=2dp
+background=#fff7f7f7
+.layout_marginLeft=5dp
+maxLines=10
+textCursorDrawable=#ff00adff
+maxLength=150</ppt>
+<event></event>
+</View>
+<View id="11" did="6" type="CardView">
+<ppt>width=70dp
+height=40dp
+app_CardBackgroundColor=#FFFFFF
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_margin=5dp
+layout_gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#fff2f2f2</ppt>
+<event><eventItme type="clicki">f(sss.游客=="是")
+{
+  s stop = 2000
+  s text="未登录不能发言喔~"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  sj(sss.当前用户数据,"封号(",")封号",内容封号)
+  f(内容封号==""||内容封号==null||内容封号=="广告"||内容封号=="无")
+  {
+    utw(null,"","发送中……","",true,vf)
+    {
+    }
+    fr("$幻隐网络/点击特效/开.txt",anyx)
+    f(anyx &gt; "0")
+    {
+      bfm("$幻隐网络/配置/djyx.mp3")
+    }
+    us(5,"selection","bottom")
+    ug(10,"text",a)
+    f(a=="")
+    {
+      endutw(vf)
+      s text="请输入您的看法~"
+      s stop = 2000
+      fn color.ColorToast(text,stop)
+    }
+    else
+    {
+      t()
+      {
+        ug(10,"text",kaj)
+        sr(kaj,"傻逼","*",a)
+        sr(a,"垃圾","*",a)
+        sr(a,"微信","*",a)
+        sr(a,"iapp","*",a)
+        sr(a,"IAPP","*",a)
+        sr(a,"要钱","*",a)
+        sr(a,"操","*",a)
+        sr(a,"我有","*",a)
+        sr(a,"QQ","*",a)
+        fr("$幻隐网络/tx.v",id)
+        fr("$幻隐网络/记录/名字.txt",h)
+        time(5,s)
+        fr("$幻隐网络/.yxkj/qm.txt",js)
+        fr("$幻隐网络/.v/jf.yx",jb)
+        fr("$幻隐网络/.v/sf.yx",hy)
+        fr("$幻隐网络/记录/yhdz.txt",yhdz)
+        sj(sss.当前用户数据,"头像框：","头像框内容结束",txk)
+        ss("【"+a+"】("+h+")["+i+"]{"+s+"}〖"+js+"〗『"+hy+"』〔"+sss.个人金币+"〕＜"+sss.头像+"＞♞"+qq+"♞★"+txk+"★",u)
+        s k="①"
+        s l="②"
+        ss(k+u+l,y)
+        ss(sss.api+"Box/lt/xa/send.php?title=隐Box&content="+y,uu)
+        hs(uu,c)
+        ufnsui()
+        {
+          t()
+          {
+            ss(sss.api+"Box/lt/xa/",yu)
+            hs(yu,ee)
+            sr(ee,"①","＆＄＆ ①",a)
+            sl(a,"＆＄＆",b)
+            for(c;b)
+            {
+              sj(c,"①","②",c)
+              sj(c,"[","]",id)
+              sj(c,"【","】",nr)
+              sr(nr,"&hellip;","…",nr)
+              sj(c,"(",")",mz)
+              sj(c,"{","}",sj)
+              sj(c,"〖","〗",js)
+              sj(c,"『","』",hy)
+              sj(c,"♞","♞",qq)
+              sj(c,"〔","〕",jb)
+              ss("幻隐网luo/.缓存/"+mz+"头像.png",头像)
+              fe(头像,是否)
+              f(是否==true)
+              {
+                s tx=头像
+              }
+              else
+              {
+                sj(c,"＜","＞",tx)
+                hd(tx, 头像, 下载中)
+              }
+              f(c==null)
+              {
+              }
+              else
+              {
+                ula(hh,40="有",9=null,24=tx,12=mz,49=nr,15=nr,17=id,18=sj,19=js,20=hy,21=jb,31=tx,32=qq,35=sb)
+                
+              }
+            }
+            ufnsui()
+            {
+              t()
+              {
+                ufnsui()
+                {
+                  us(10,"text","")
+                  uls(5,hh,"lt.iyu",-1,-2)
+                  endutw(vf)
+                  us(41,"visibility","gone")
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  else
+  {
+    sj(sss.当前用户数据,"封号(",")封号",原因)
+    ss("您已被封号！原因："+原因,text)
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+  }
+}</eventItme></event>
+</View>
+<View id="13" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=发送
+textSize=15sp
+ut_centerInParent=true
+textStyle=bold
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+fn 着色.控件着色(12,yg)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=42
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+ug(11,"text",a)
+us(6,"visibility","visible")
+fw("$幻隐网络/临时数据/1031.txt","0")
+t()
+{
+  ss(sss.api+"Box/lt/xa/",yu)
+  hs(yu,ee)
+  sr(ee,"①","＆＄＆ ①",a)
+  sl(a,"＆＄＆",b)
+  for(c;b)
+  {
+    sj(c,"①","②",c)
+    sj(c,"[","]",id)
+    sj(c,"【","】",nr)
+    sr(nr,"&hellip;","…",nr)
+    sj(c,"(",")",mz)
+    sj(c,"{","}",sj)
+    sj(c,"〖","〗",js)
+    sj(c,"『","』",hy)
+    sj(c,"♞","♞",qq)
+    sj(c,"〔","〕",jb)
+    ss("幻隐网luo/.缓存/"+mz+"头像.png",头像)
+    fe(头像,是否)
+    f(是否==true)
+    {
+      s tx=头像
+    }
+    else
+    {
+      sj(c,"＜","＞",tx)
+      hd(tx, 头像, 下载中)
+    }
+    f(c==null)
+    {
+    }
+    else
+    {
+      ula(hh,40="有",9=null,24=tx,12=mz,49=nr,15=nr,17=id,18=sj,19=js,20=hy,21=jb,31=tx,32=qq,35=sb)
+    }
+  }
+  ufnsui()
+  {
+    t()
+    {
+      ufnsui()
+      {
+        uls(5,hh,"lt.iyu",-1,-2)
+        us(41,"visibility","gone")
+        sran(2000,3000,后缀)
+        ss("在线交流 ("+后缀+"人在线)",rs)
+        us(42,"app_title",rs)
+      }
+    }
+  }
+}</eventItme><eventItme type="destroy">fw("$幻隐网络/.临时数据/2.txt","0")
+fw("$幻隐网络/.临时数据/1004.txt","0")</eventItme><eventItme type="loadingComplete">addv(14,"utw_apk.iyu")
+us(utw_apk.1,"visibility","gone")</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+fr("$幻隐网络/.临时数据/2.txt",t)
+f(t=="0")
+{
+end()
+}
+else
+{
+us(wd.62,"visibility","gone")
+fw("$幻隐网络/.临时数据/2.txt","0")
+}
+}
+}</eventItme><eventItme type="menu">case 清理大厅:
+s a = null
+s b = "清理大厅"
+s c = "每个人都有权利清理聊天大厅，原因是，大厅可能有些人比较烦人，发一些不健康的文字令您感觉到不舒服，于是你可以清理大厅，避免看到这些烦人的文字，如果您觉得这个人很烦人，可以点他的头像进入主页点击右上角举报他！"
+s d = "清理"
+s e = "不清理"
+utw(a, b, c, d, e, false, v)
+{
+  utw(null,"","清理中……","",true,vf)
+  {
+  }
+  t()
+  {
+    sj(sss.bs,"清理大厅(",")清理大厅",清理大厅)
+    hs(清理大厅,清理)
+    ufnsui()
+    {
+      endutw(vf)
+      s stop = 2000
+      s text="清理成功喽~"
+      fn color.ColorToast(text,stop)
+      
+      uycl("#ffffffff",true)
+      fr("$幻隐网络/配置/yx.txt",yg)
+      fn 着色.控件着色(12,yg)
+      java(cs, activity, "android.app.Activity.getWindow")
+      java(cs2, cs, "android.view.Window.getDecorView")
+      java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+      s id=42
+      utb(id)
+      java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+      java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+      //设置左边为返回键
+      utb("left", id, "@coolbackhei.png")
+      utb("set", "leftck", id)
+      {
+        uzd(震动器, 30)
+        end()
+        fr("$幻隐网络/点击特效/开.txt",anyx)
+        f(anyx &gt; "0")
+        {
+          bfm("$幻隐网络/配置/djyx.mp3")
+        }
+      }
+      fr("%颜色.txt",颜色)
+      fn 着色.控件着色(id,颜色)
+      ug(11,"text",a)
+      us(6,"visibility","visible")
+      fw("$幻隐网络/临时数据/1031.txt","0")
+      t()
+      {
+        ss(sss.api+"Box/lt/xa/",yu)
+        hs(yu,ee)
+        sr(ee,"①","＆＄＆ ①",a)
+        sl(a,"＆＄＆",b)
+        for(c;b)
+        {
+          sj(c,"①","②",c)
+          sj(c,"[","]",id)
+          sj(c,"【","】",nr)
+          sr(nr,"&hellip;","…",nr)
+          sj(c,"(",")",mz)
+          sj(c,"{","}",sj)
+          sj(c,"〖","〗",js)
+          sj(c,"『","』",hy)
+          sj(c,"♞","♞",qq)
+          sj(c,"〔","〕",jb)
+          ss("幻隐网luo/.缓存/"+mz+"头像.png",头像)
+          fe(头像,是否)
+          f(是否==true)
+          {
+            s tx=头像
+          }
+          else
+          {
+            sj(c,"＜","＞",tx)
+            hd(tx, 头像, 下载中)
+          }
+          f(c==null)
+          {
+          }
+          else
+          {
+              ula(hh,40="有",9=null,24=tx,12=mz,49=nr,15=nr,17=id,18=sj,19=js,20=hy,21=jb,31=tx,32=qq,35=sb)
+          }
+        }
+        ufnsui()
+        {
+          t()
+          {
+            ufnsui()
+            {
+              uls(5,hh,"lt.iyu",-1,-2)
+              us(41,"visibility","gone")
+              sran(2000,3000,后缀)
+              ss("在线交流 ("+后缀+"人在线)",rs)
+              us(42,"app_title",rs)
+            }
+          }
+        }
+      }
+    }
+  }
+}
+else
+{
+  syso("点击了取消")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break
+case 充值会员:
+uigo("充值.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break
+case 刷新在线人数:
+us(42,"app_title","加载中…")
+sran(2000,3000,后缀)
+ss("在线交流 ("+后缀+"人在线)",rs)
+us(42,"app_title",rs)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

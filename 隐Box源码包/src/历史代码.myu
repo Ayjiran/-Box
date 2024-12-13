@@ -1,0 +1,118 @@
+fn 卡片颜色(控件,颜色)
+us(控件,"app_cardbackgroundcolor",颜色)
+end fn
+fn 控件颜色(控件,颜色)
+us(控件,"background",颜色)
+end fn
+fn ngde(控件,a,b,c,d,e)
+ngde(a, b, c, d, e, f)
+us(控件,"background",f)
+end fn
+fn 浏览器(控件)
+gvs(控件,ur)
+java(ws,ur,"android.webkit.WebView.getSettings")
+java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",false)
+java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)
+end fn
+fn 瀑布流列表(控件)
+gvs(控件,对象)
+cls("androidx.recyclerview.widget.RecyclerView",列表类)
+cls("android.support.v7.widget.StaggeredGridLayoutManager",布局管理类)
+javanew(布局,布局管理类,"int",2,"int",1)
+javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+end fn
+fn 网格列表(控件,行数)
+gvs(控件,对象)
+cls("androidx.recyclerview.widget.RecyclerView",列表类)
+cls("android.support.v7.widget.GridLayoutManager",布局管理类)
+javanew(布局,布局管理类,"Context",activity,"int",行数)
+javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+end fn
+fn 单按钮弹窗(标题,文字)
+javanew(ss.弹窗对象,"android.app.AlertDialog$Builder", "android.content.Context", activity)
+java(ss.弹窗对象,ss.弹窗对象,"android.app.AlertDialog$Builder.create")
+java(null,ss.弹窗对象,"android.app.Dialog.show")
+java(win,ss.弹窗对象,"android.app.Dialog.getWindow")
+java(don,win,"android.view.Window.getDecorView")
+us(don,"background","#00FFFFFF")
+nvw(600,don,"卡片","width=-1\nheight=-2\napp_cardbackgroundcolor=#E6ffffff\napp_cardcornerradius=20dp\napp_cardelevation=0\nlayout_marginleft=20dp\nlayout_marginright=20dp",ss.kp)
+nvw(601,ss.kp,"线性布局","width=-1\nheight=-1\ngravity=center\norientation=vertical",xx)
+nvw(602,xx,"线性布局","width=-1\nheight=50dp\norientation=vertical\ngravity=center",xx1)
+nvw(603,xx1,"文本","width=-2\nheight=-2\ntext="+标题+"\ntextcolor=#ff090909\ntextStyle=bold\ntextsize=18sp\nsingleline=true\nellipsize=end",wb)
+nvw(604,xx,"线性布局","width=-1\nheight=1dp\norientation=vertical\nbackground=#FFF3F3F3",xx2)
+nvw(605,xx,"线性布局","width=-1\nheight=-2\norientation=vertical\npadding=10dp",xx3)
+nvw(606,xx3,"文本","width=-2\nheight=-2\ntext="+文字+"\ntextcolor=#8a8a8a\ntextIsSelectable=true\ntextColorHighlight=#ffafafaf\ntextstyle=bold\ntextsize=16sp",wb1)
+nvw(607,xx,"线性布局","width=-1\nheight=1dp\nbackground=#FFF3F3F3",xx4)
+nvw(608,xx,"线性布局","width=-1\nheight=60dp\norientation=vertical\ngravity=center",xx5)
+nvw(609,xx5,"文本","width=-2\nheight=-2\ntext=确定\ntextcolor=#ff040404\ntextstyle=bold\ntextsize=18sp",wb2)
+dhs(dh, 0, 1, 0, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 300)
+us(ss.kp,"dh",dh)
+ssj(xx5,"clicki")
+{
+t()
+{
+dha(dh, true, false)
+dh(dh, "duration", 300)
+ufnsui()
+{
+us(ss.kp,"dh",dh)
+t()
+{
+stop(250)
+ufnsui()
+{
+java(null,ss.弹窗对象,"android.app.Dialog.dismiss")
+}
+}
+}
+}
+}
+end fn
+fn 颜色选择(控件)
+loadjar("color.dex",包)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog",类)
+cls(包,"com.dwood.paintdemo.ColorPickerDialog$OnColorChangedListener",事件类)
+gvs(控件,文本对象)
+javacb(事件,事件类)
+{
+sgsz(st_aS,0,颜色值)
+us(文本对象,"textcolor",颜色值)
+us(文本对象,"text",颜色值)
+}
+java(颜色列表,文本对象,"android.widget.TextView.getTextColors")
+java(初始颜色,颜色列表,"android.content.res.ColorStateList.getDefaultColor")
+javanew(控件,类,"Context",activity,"int",初始颜色,"String","标题",事件类,事件)
+javax(null,控件,"android.app.Dialog","show")
+end fn
+fn 功能收藏(名字,控件,界面)
+tw("正在开发中")
+end fn
+fn 收藏判断(名字,控件)
+fe("%"+sss.应用名字+"/Collection/"+名字,a)
+f(a==true)
+{
+f(控件==11)
+{
+ufnsui()
+{
+us(11,"src","@tools/favorites-fill.png")
+}
+}
+else f(控件==16)
+{
+ufnsui()
+{
+us(16,"src","@tools/favorites-fill.png")
+}
+}
+else
+{
+ufnsui()
+{
+us(7,"src","@tools/favorites-fill.png")
+}
+}
+}
+end fn
+

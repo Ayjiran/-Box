@@ -1,0 +1,245 @@
+<View id="72" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="30" did="72" type="ScrollView">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="2" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="1" did="2" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="67" did="1" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="68" did="1" type="TextView">
+<ppt>width=-2
+height=-1
+text=短链生成
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="69" did="2" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="12" did="2" type="LinearLayout">
+<ppt>width=-1
+height=3dp
+orientation=vertical
+background=@background_yy.png</ppt>
+<event></event>
+</View>
+<View id="22" did="2" type="LinearLayout">
+<ppt>width=-1
+height=180dp
+orientation=vertical
+background=white
+layout_margintop=10dp
+layout_marginright=10dp
+layout_marginleft=10dp
+layout_marginbottom=5dp
+</ppt>
+<event></event>
+</View>
+<View id="71" did="22" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+
+</ppt>
+<event></event>
+</View>
+<View id="23" did="71" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical
+background=@Lanx.png
+layout_margintop=10dp
+layout_marginleft=10dp
+layout_marginright=10dp
+layout_marginbottom=10dp</ppt>
+<event></event>
+</View>
+<View id="33" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="38" did="33" type="LinearLayout">
+<ppt>width=-1
+height=210dp
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="60" did="38" type="LinearLayout">
+<ppt>width=320dp
+height=45dp
+orientation=horizontal
+layout_gravity=center
+layout_marginTop=10dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="61" did="60" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入网址
+gravity=center_vertical
+textColor=#757575
+textSize=16sp
+paddingLeft=5dp
+singleLine=true
+layout_weight=1
+background=
+textCursorDrawable=#ff00ccff</ppt>
+<event></event>
+</View>
+<View id="66" did="38" type="Button">
+<ppt>width=320dp
+height=45dp
+text=一键生成
+textColor=#ffffffff
+layout_gravity=center
+gravity=center
+background=#ff00a3ff
+BackgroundRipple=#ffffff
+layout_marginTop=13dp</ppt>
+<event><eventItme type="clicki">ug(61,"text",sr)
+f(sr=="")
+{
+ s text="请输入内容"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+t()
+{
+ss("http://dz.ci/shortAPI.aspx?url="+sr,hh)
+hs(hh,hh)
+ufnsui()
+{
+us(70,"text",hh)
+}
+}
+}
+</eventItme></event>
+</View>
+<View id="63" did="38" type="LinearLayout">
+<ppt>width=320dp
+height=45dp
+orientation=vertical
+layout_gravity=center
+layout_marginTop=13dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="70" did="63" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+gravity=center_vertical
+textColor=#757575
+textSize=16sp
+paddingLeft=5dp
+background=#ffffff
+singleLine=true
+layout_gravity=center
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="42" did="33" type="LinearLayout">
+<ppt>width=-1
+height=250dp
+orientation=vertical
+background=white
+layout_marginleft=15dp
+layout_marginright=15dp
+layout_margintop=15dp
+layout_marginbottom=10dp
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="43" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：
+textsize=20sp
+layout_marginleft=5dp
+layout_margintop=5dp
+textcolor=#0080FF</ppt>
+<event></event>
+</View>
+<View id="44" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=本软件短链接生成\n使用方法：\n\n1. 先找到你要搞的长链接\n2. 在把长链接放到框里面然后一键生成\n3. 最后获取到短链接\n注:如果用不了的请加群等待更新!
+layout_marginleft=8dp
+layout_margintop=10dp
+textcolor=#FF000000
+textsize=13sp
+layout_marginright=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+
+fr("$幻隐网络/配置/yx.txt",yg)
+us(9,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(6,"background",yg)
+dhas(dh, 14, "translationY", -150, 30, -35, 25, -30,20,-20,15,-10,10,-8,8,-5,5,-3,3,-2,2,-1,1,0,0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

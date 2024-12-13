@@ -1,0 +1,699 @@
+<View id="221" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=创作者中心
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="114" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="114" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=191
+background=white</ppt>
+<event></event>
+</View>
+<View id="116" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="39" did="116" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="38" did="39" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="27" did="38" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=8dp</ppt>
+<event><eventItme type="clicki">f(sss.用户账号==null)
+{
+  ss 返回=1
+  dht(dh,0,0,2000,0)
+  dh(dh,"duration",500)
+  us(62,"dh",dh)
+  us(62,"visibility","visible")
+}
+else
+{
+  sss 账号=sss.用户账号
+  uigo("个人主页2.iyu")
+}
+</eventItme></event>
+</View>
+<View id="215" did="7" type="RelativeLayout">
+<ppt>width=60dp
+height=60dp
+layout_gravity=center
+layout_marginLeft=18dp
+layout_margin=15dp</ppt>
+<event></event>
+</View>
+<View id="216" did="215" type="RelativeLayout">
+<ppt>width=60dp
+height=60dp
+layout_margin=1.5dp
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="217" did="216" type="RoundImageView">
+<ppt>src=@170837.png
+width=50dp
+height=50dp
+layout_margin=1.5dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="218" did="215" type="LinearLayout">
+<ppt>width=60dp
+height=60dp
+background=
+layout_margin=1.5dp
+</ppt>
+<event></event>
+</View>
+<View id="220" did="215" type="GifView">
+<ppt>width=20dp
+height=20dp
+src=@chenghao/noble_emperor_icon.gif
+layout_marginLeft=10dp
+visibility=gone
+ut_alignParentRight=true
+ut_alignParentBottom=true
+layout_marginRight=5dp
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="13" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="125" did="13" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="15" did="125" type="TextView">
+<ppt>width=-2
+height=-2
+text=By隐心
+textColor=#000000
+textSize=18dp
+textStyle=bold
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="16" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=ID：
+textColor=#ffffff
+textSize=15sp
+textStyle=bold
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=小手一抖，收益到手~
+textSize=12sp
+singleLine=true
+ellipsize=end
+layout_marginRight=5dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="7" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@user/user_hz.png
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="29" did="38" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+ut_below=27</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+visibility=visible
+padding=12dp
+background=#8ededede</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="ImageView">
+<ppt>width=26dp
+height=26dp
+src=@user/user_viplong.png</ppt>
+<event></event>
+</View>
+<View id="32" did="30" type="TextView">
+<ppt>width=-1
+height=-2
+text=发帖子赚取收益！
+textSize=13sp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="33" did="30" type="CardView">
+<ppt>width=70dp
+height=26dp
+app_CardcornerRadius=25dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#ff0084ff</ppt>
+<event></event>
+</View>
+<View id="35" did="33" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">hws(sss.api)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="36" did="35" type="TextView">
+<ppt>width=-2
+height=-2
+text=发帖
+textColor=#ffffff
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="225" did="38" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+ut_below=29
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="226" did="225" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+visibility=visible
+padding=12dp
+background=#8ededede</ppt>
+<event></event>
+</View>
+<View id="227" did="226" type="ImageView">
+<ppt>width=26dp
+height=26dp
+src=@hjbtxzq.png</ppt>
+<event></event>
+</View>
+<View id="228" did="226" type="TextView">
+<ppt>width=-1
+height=-2
+text=发商品赚取收益！
+textSize=13sp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="229" did="226" type="CardView">
+<ppt>width=70dp
+height=26dp
+app_CardcornerRadius=25dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#ff0084ff</ppt>
+<event></event>
+</View>
+<View id="230" did="229" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("发商品.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="231" did="230" type="TextView">
+<ppt>width=-2
+height=-2
+text=发布
+textColor=#ffffff
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="40" did="39" type="CardView">
+<ppt>width=-1
+height=80dp
+app_CardcornerRadius=5dp
+app_CardElevation=1dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="44" did="42" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("我的帖子.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="128" did="44" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+orientation=vertical
+gravity=center
+padding=4dp</ppt>
+<event></event>
+</View>
+<View id="48" did="128" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@user/user_tz.png
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="49" did="44" type="TextView">
+<ppt>width=-2
+height=-2
+text=我的帖子
+textColor=#000000
+textSize=13sp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="45" did="42" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("我的评论.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="127" did="45" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+orientation=vertical
+gravity=center
+padding=3dp</ppt>
+<event></event>
+</View>
+<View id="50" did="127" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@user/user_pin.png
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="51" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=我的评论
+textSize=13sp
+textColor=#000000
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="47" did="42" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="129" did="47" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+orientation=vertical
+gravity=center
+padding=2.8dp</ppt>
+<event></event>
+</View>
+<View id="54" did="129" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@user/user_gd.png
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="55" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待
+textColor=#000000
+textSize=13sp
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="135" did="39" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=1dp
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="136" did="135" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=15dp
+background=</ppt>
+<event></event>
+</View>
+<View id="148" did="136" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="147" did="148" type="TextView">
+<ppt>width=-1
+height=-2
+text=我的钱包
+textStyle=bold
+textColor=#000000
+textSize=15sp
+layout_weight=1
+</ppt>
+<event></event>
+</View>
+<View id="150" did="148" type="ImageView">
+<ppt>width=14dp
+height=14dp
+src=@home/icon_xfh.png</ppt>
+<event></event>
+</View>
+<View id="137" did="136" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+gravity=center_vertical
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="151" did="137" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="157" did="151" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textColor=#ffd6cb00
+textStyle=bold
+textSize=30sp</ppt>
+<event></event>
+</View>
+<View id="158" did="151" type="TextView">
+<ppt>width=-2
+height=-2
+text=可用金币
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="161" did="137" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="232" did="161" type="Button">
+<ppt>width=80dp
+height=40dp
+text=提现
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">s text="提现功能开发中..."
+      s stop = 2000
+      fn color.ColorToast(text,stop)
+      
+      /.ug(157,"text",金币)
+f(金币&gt;"20")
+{
+  uigo("提现.iyu")
+}
+else
+{
+  s text="最低20金币可提现"
+      s stop = 2000
+      fn color.ColorToast(text,stop)
+}</eventItme></event>
+</View>
+<View id="222" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="223" did="222" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+app_CardcornerRadius=8dp
+layout_marginTop=10dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=10dp
+layout_marginBottom=180dp</ppt>
+<event></event>
+</View>
+<View id="224" did="223" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+gravity=center_vertical
+padding=10dp
+BackgroundColor=#ffffffff
+background=@71650eca4fe1693b6fa972a0eb8a2b84.jpg</ppt>
+<event></event>
+</View>
+<View id="213" did="114" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=191
+gravity=center_horizontal
+background=white
+visibility=gon</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="214" did="213" type="GifView">
+<ppt>width=120dp
+height=120dp
+src=@gif.gif
+layout_marginTop=50dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//设置状态栏
+uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=221
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(4,"background",yg)
+us(162,"background",yg)
+us(35,"background",yg)
+us(232,"background",yg)
+us(15,"text",sss.name)
+us(230,"background",yg)
+us(217,"src",sss.头像)
+sj(sss.当前用户数据,"头像框：","头像框内容结束",txk)
+us(218,"background",txk)
+sj(sss.当前用户数据,"会员(",")会员",会员)
+f(sss.dqsj&gt;会员)
+{
+  us(220,"visibility","gone")
+}
+else
+{
+  us(220,"visibility","visible")
+}
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(1,a)
+gvs(116,b)
+javanew(mBs,mB,"Context",activity)
+urvw(116)
+nvw(mBs,1)
+nvw(b,mBs)
+fr("$幻隐网络/.v/dao.txt",龙珠)
+  f(龙珠==null)
+  {
+    us(198,"text","0")
+  }
+  else
+  {
+    us(198,"text",龙珠)
+  }</eventItme><eventItme type="loadingComplete">fr("$幻隐网络/微端/账号.txt",sss.名称)
+t()
+{
+  ss(sss.api+"?u/"+sss.名称+".html",in)
+  hs(in,null,"utf-8",z)
+  sj(z,"&lt;span class=\"num\"&gt;","&lt;/span&gt;&lt;span class=\"text\"&gt;关注&lt;/span&gt;",sss.关注)
+  fr("@jqa.txt",jqa)
+  fr("@jqb.txt",jqb)
+  fr("@jqc.txt",jqc)
+  fr("@jqd.txt",jqd)
+  fr("@jqe.txt",jqe)
+  sj(z,jqa,"&lt;/span&gt;&lt;span class=\"text\"&gt;粉丝&lt;/span&gt;",sss.粉丝)
+  sj(z,jqc,"&lt;span&gt;我的收藏&lt;/span&gt;",收藏)
+  strim(收藏,sss.收藏)
+  sj(z,jqd,"&lt;span&gt;我的金币&lt;/span&gt;",金币)
+  strim(金币,sss.个人金币)
+  sj(z,"&lt;img src=\"","\"",sss.头像)
+  ufnsui()
+  {
+    us(213,"visibility","gone")
+    us(205,"text",sss.关注)
+us(208,"text",sss.粉丝)
+us(157,"text",sss.个人金币)
+us(211,"text",sss.个人金币)
+dha(dh, true, false)
+      dh(dh, "duration", 500)
+      us(213, "dh", dh)
+      us(213,"visibility","gone")
+  }
+}</eventItme><eventItme type="restart">fr("$幻隐网络/微端/账号.txt",sss.名称)
+t()
+{
+  ss(sss.api+"?u/"+sss.名称+".html",in)
+  hs(in,null,"utf-8",z)
+  sj(z,"&lt;span class=\"num\"&gt;","&lt;/span&gt;&lt;span class=\"text\"&gt;关注&lt;/span&gt;",sss.关注)
+  fr("@jqa.txt",jqa)
+  fr("@jqb.txt",jqb)
+  fr("@jqc.txt",jqc)
+  fr("@jqd.txt",jqd)
+  fr("@jqe.txt",jqe)
+  sj(z,jqa,"&lt;/span&gt;&lt;span class=\"text\"&gt;粉丝&lt;/span&gt;",sss.粉丝)
+  sj(z,jqc,"&lt;span&gt;我的收藏&lt;/span&gt;",收藏)
+  strim(收藏,sss.收藏)
+  sj(z,jqd,"&lt;span&gt;我的金币&lt;/span&gt;",金币)
+  strim(金币,sss.个人金币)
+  sj(z,"&lt;img src=\"","\"",sss.头像)
+  ufnsui()
+  {
+    us(213,"visibility","gone")
+    us(205,"text",sss.关注)
+us(208,"text",sss.粉丝)
+us(157,"text",sss.个人金币)
+us(211,"text",sss.个人金币)
+dha(dh, true, false)
+      dh(dh, "duration", 500)
+      us(213, "dh", dh)
+      us(213,"visibility","gone")
+  }
+}</eventItme></UIEventset>

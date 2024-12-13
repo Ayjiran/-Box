@@ -1,0 +1,318 @@
+<View id="36" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=视频检测
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="8" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="CardView">
+<ppt>width=300dp
+height=80dp
+app_CardcornerRadius=15dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#ffffffff
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="TextInputLayout">
+<ppt>width=-1
+height=-1
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=输入有视频的链接
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="25" did="10" type="TextView">
+<ppt>width=-1
+height=1dp
+text=
+visibility=gone</ppt>
+<event><eventItme type="ontextchanged">t()
+{
+  stop(60000)
+  ufnsui()
+  {
+    tw("正品官方群：892169504",1)
+    tw("正品官方群：892169504",1)
+    tw("正品官方群：892169504",1)
+  }
+}</eventItme></event>
+</View>
+<View id="15" did="8" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="CardView">
+<ppt>width=250dp
+height=40dp
+app_CardcornerRadius=15dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#ff383838
+gravity=center
+orientation=horizontal</ppt>
+<event><eventItme type="clicki">us(18,"text","嗅探进行中，请播放视频")
+ug(14,"text",a)
+us(29,"url",a)
+
+s js="javascript:function mk(){iapp.s("sss.qy",document.getElementsByTagName('video')[0].src);}"
+t(){
+w(true){
+ufnsui(){
+us(29,"url",js)
+}
+stop(200)
+ufnsui(){
+has(29,"mk()")
+
+}
+f(sss.qy!=null&&sss.qy!=""){
+break
+}
+}
+ufnsui(){
+
+us(27,"url",sss.qy)
+
+utw(null,"下载提示","检测到视频，是否下载","是","否","复制",false,v)
+{
+  
+us(30,"visibility","visible")  
+us(18,"text","正在下载…")
+ug(27,"url",a)
+f(a=="")
+{
+s stop = 2000
+s text="没有下载内容~"
+fn color.ColorToast(text,stop)
+us(30,"visibility","gone")  
+uigo("抖音解析.iyu")
+end()
+}
+else
+{
+t()
+{
+sran(1,1000000,b)
+ss("幻隐网luo/"+b+".mp4",c)
+ss("地址："+a,bd)
+us(35,"text",bd)
+hd(a,c,d)
+f(d==0)
+{
+ufnsui()
+{
+s stop = 2000
+s text="下载完成~"
+fn color.ColorToast(text,stop)
+us(30,"visibility","gone")  
+uigo("抖音解析.iyu")
+end()
+}
+}
+}
+}
+
+}
+else
+{
+  endutw()
+}
+else
+{
+  s stop = 2000
+s text="已复制~"
+fn color.ColorToast(text,stop)
+sxb(a)
+}
+
+sss qy=null
+}
+}</eventItme></event>
+</View>
+<View id="30" did="17" type="ProgressBar">
+<ppt>width=30dp
+height=30dp
+style=16842871
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始检测
+textColor=#ffffffff
+textSize=18sp</ppt>
+<event></event>
+</View>
+<View id="35" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff1c1c1c
+layout_marginRight=20dp
+layout_marginLeft=20dp
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="19" did="8" type="LinearLayout">
+<ppt>width=300dp
+height=300dp
+orientation=vertical
+gravity=center
+layout_gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="29" did="19" type="WebView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="21" did="8" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=right
+//gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="CardView">
+<ppt>width=55dp
+height=55dp
+app_CardcornerRadius=25dp
+app_CardElevation=0dp
+layout_marginRight=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#ff4e4e4e
+gravity=center
+orientation=vertical</ppt>
+<event><eventItme type="clicki">us(28,"visibility","visible")
+us(24,"visibility","gone")
+ug(27,"url",a)
+f(a=="")
+{
+tw("没有下载内容")
+us(28,"visibility","gone")
+us(24,"visibility","visible")
+}
+else
+{
+t()
+{
+sran(1,1000000,b)
+ss("幻隐网luo/"+b+".mp4",c)
+hd(a,c,d)
+f(d==0)
+{
+ufnsui()
+{
+tw("下载完成")
+us(28,"visibility","gone")
+us(24,"visibility","visible")
+}
+}
+}
+}
+
+
+</eventItme></event>
+</View>
+<View id="24" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=下载
+textColor=#ffffffff
+textSize=18sp</ppt>
+<event></event>
+</View>
+<View id="28" did="23" type="ProgressBar">
+<ppt>width=30dp
+height=30dp
+style=16842871
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="27" did="0" type="WebView">
+<ppt>ps=请勿删除本控件，否则无法下载
+width=-1
+height=-1
+visibility=gone
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">hsas(29,true)
+uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+utb(6)
+
+utb(6, 1)
+s id=36
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(31,颜色)
+fn 着色.控件着色(17,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(14,"background",背景)
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,38 @@
+require "import"; 
+import "android.text.Spannable";
+import "android.text.SpannableStringBuilder";
+import "android.text.style.ImageSpan";
+import "java.util.regex.Pattern";
+import "java.util.regex.Matcher";  
+
+
+
+
+--编辑框图文混排
+function EditText4Bitmap(v,text,rexgString,myBitmap)        
+        if text==0 then
+          text = i:ug(v,"text"); 
+        end                 
+        local builder = SpannableStringBuilder(text);           
+        local pattern = Pattern:compile(rexgString);       
+        local matcher = pattern:matcher(text);
+        while matcher:find() do
+        local imagespan = ImageSpan(myBitmap);
+        local me = i:java(matcher,"java.util.regex.Matcher.end");
+         builder:setSpan(imagespan,matcher:start(),me,Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+          end
+        v:setText(builder);
+	end
+
+
+--打开系统设置
+function systemset()
+import "android.provider.Settings"
+import "android.content.Intent"
+import "android.net.Uri"
+intent=Intent("android.settings.action.MANAGE_OVERLAY_PERMISSION")
+intent:setData(Uri:parse("package:" .. activity:getPackageName()))
+activity:startActivity(intent)
+end
+
+

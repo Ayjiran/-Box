@@ -1,0 +1,26 @@
+import android.os.Bundle;
+import android.app.ActivityOptions;
+import android.content.Intent;
+import android.widget.ImageView;
+import androidx.core.app.ActivityOptionsCompat;
+
+public void set(ImageView v)
+{
+  v.setTransitionName("image");
+  activity.getWindow().setAllowEnterTransitionOverlap(true);
+  activity.getWindow().setAllowReturnTransitionOverlap(true);
+}
+public void uigo(ImageView mIa,String viewname,String uigoname,String packageName)
+{
+   Bundle mBd=new Bundle();
+   mBd.putString("OpenFilexmlui",uigoname);
+   mBd.putString("ProjectPackageName",packageName); 
+   Intent in=new Intent(activity,com.iapp.app.run.mian.class);
+   in.putExtras(mBd);
+   ActivityOptionsCompat optionsCompat=ActivityOptionsCompat.makeSceneTransitionAnimation(activity,mIa,viewname);
+   activity.startActivity(in,optionsCompat.toBundle());
+}
+public void end()
+{
+  activity.finishAfterTransition();
+}

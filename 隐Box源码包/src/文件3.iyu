@@ -1,0 +1,109 @@
+<View id="9" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardmaxElevation=5dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="1" did="9" type="LinearLayout">
+<ppt>width=-1
+height=65dp
+orientation=horizontal
+background=white</ppt>
+<event><eventItme type="clicki">fn tool.showbt("菜单2.iyu", true)
+ulag(st_vW,7,sss.lb)
+ss("$幻隐网络/文件备份/"+sss.lb,sss.wu)</eventItme></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=78dp
+height=-2
+orientation=vertical
+layout_margin=5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="8" type="CardView">
+<ppt>width=50dp
+height=50dp
+app_CardcornerRadius=5dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="2" did="3" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@a/.zy/yqn.v</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=名字
+textSize=16dp
+textStyle=bold
+textColor=#ff070707
+singleLine=true</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,文件3.7,tplj)
+ug(tplj,"text",a)
+sj(a,".",null,a)
+f(a=="mp4")
+{
+gvs(st_vW,文件3.2,url)
+us(url,"src","@6.26/empty_video.v")
+}
+else f(a=="png"||a=="jpg")
+ {
+   gvs(st_vW,文件3.2,url)
+us(url,"src","@6.26/null_photo_uploading.v")
+ }
+else f(a=="text"||a=="txt"||a=="html"||a=="js"||a=="css"||a=="php")
+ {
+   gvs(st_vW,文件3.2,url)
+us(url,"src","@6.26/personal_icon_order.v")
+ }
+else f(a=="mp3"||a=="m4a")
+ {
+   gvs(st_vW,文件3.2,url)
+us(url,"src","@6.26/empty_audio.v")
+ }
+else f(a=="apk")
+ {
+   gvs(st_vW,文件3.2,url)
+us(url,"src","@6.26/null_photo_story.v")
+ }
+else
+{
+  gvs(st_vW,文件3.2,url)
+us(url,"src","@a/.zy/yqn.v")
+}
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

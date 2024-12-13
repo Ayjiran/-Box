@@ -1,0 +1,125 @@
+fn wdxx()
+fr("$幻隐网络/微端/账号.txt",user)
+time("Y",a)
+time("m",m)
+time("d",D)
+time("H",e)
+time("M",l)
+time("S",v)
+ss(a+m+D+e+l+v,dqsj)
+t()
+{
+  ss(sss.api+"?u/"+user+"/message/index.html",ur)
+  hs(ur,null,"utf-8",null,true,v)
+  sj(v,"       &lt;div class=\"friend-list-body\"&gt;","        &lt;div class=\"chat-container\" &gt;",jqxx)
+  sl(jqxx,"                &lt;li&gt;",xx)
+  sgszl(xx,xxzs)
+  s(xxzs-1,zs)
+  f(zs&gt;5)
+  {
+    s zs="5"
+  }
+  s s=1
+  for(1;zs)
+  {
+    sgsz(xx,s,nr)
+    //聊天链接
+    sj(nr,"href=\"","\" class",fdurl)
+    sj(nr,"uid/",".html",uid)
+    //好友图片
+    sj(nr,"&lt;img src=\"","\" class",img)
+    //信息name
+    sj(nr,"                                &lt;/div&gt;","&lt;/div&gt;",n)
+    strim(n,name)
+    //信息name提示
+    sj(nr,"                            &lt;div class=\"chat-message\"&gt;","&lt;/div&gt;",tsxx)
+    //信息数量
+    sj(nr,"friend-hide\"&gt;","&lt;/span&gt;",sl)
+    
+    ula(list_fd,8=name,9=tsxx,20=会员,12=img,11=sl,19=相框,13=uid)
+    //ula(list_fd,8=name,9=tsxx,20=会员,11=sl,19=相框,23=img,12=img,13=uid)
+    s(s+1,s)
+  }
+  ufnsui()
+  {
+    t()
+    {
+      ufnsui()
+      {
+        ss("$幻隐网luo/.缓存/"+sss.名称+"消息数据.txt",消息缓存)
+        fw(消息缓存,v)
+        uls(消息.3,list_fd,"list_fd.iyu",-1,-2)
+        ug(消息.3,"count",总共)
+        s*(总共,80,总共)
+        ss(总共+"dp",总共)
+        us(消息.3,"height",总共)
+        us(消息.3,"visibility","visible")
+        us(消息.36,"visibility","gone")
+        us(消息.62,"refreshing","false")
+      }
+    }
+  }
+}
+end fn
+
+fn xxhc()
+fr("$幻隐网络/微端/账号.txt",user)
+time("Y",a)
+time("m",m)
+time("d",D)
+time("H",e)
+time("M",l)
+time("S",v)
+ss(a+m+D+e+l+v,dqsj)
+t()
+{
+  ss("$幻隐网luo/.缓存/"+sss.名称+"消息数据.txt",消息缓存)
+  fr(消息缓存,v)
+  sj(v,"       &lt;div class=\"friend-list-body\"&gt;","        &lt;div class=\"chat-container\" &gt;",jqxx)
+  sl(jqxx,"                &lt;li&gt;",xx)
+  sgszl(xx,xxzs)
+  s(xxzs-1,zs)
+  f(zs&gt;5)
+  {
+    s zs="5"
+  }
+  s s=1
+  for(1;zs)
+  {
+    sgsz(xx,s,nr)
+    //聊天链接
+    sj(nr,"href=\"","\" class",fdurl)
+    sj(nr,"uid/",".html",uid)
+    //好友图片
+    sj(nr,"&lt;img src=\"","\" class",img)
+    //信息name
+    sj(nr,"                                &lt;/div&gt;","&lt;/div&gt;",n)
+    strim(n,name)
+    //信息name提示
+    sj(nr,"                            &lt;div class=\"chat-message\"&gt;","&lt;/div&gt;",tsxx)
+    //信息数量
+    sj(nr,"friend-hide\"&gt;","&lt;/span&gt;",sl)
+    
+    ula(list_fd,8=name,9=tsxx,20=会员,12=img,11=sl,19=相框,13=uid)
+//ula(list_fd,8=name,9=tsxx,20=会员,11=sl,19=相框,23=img,12=img,13=uid)
+        s(s+1,s)
+  }
+  ufnsui()
+  {
+    t()
+    {
+      ufnsui()
+      {
+        uls(消息.3,list_fd,"list_fd.iyu",-1,-2)
+        ug(消息.3,"count",总共)
+        s*(总共,80,总共)
+        ss(总共+"dp",总共)
+        us(消息.3,"height",总共)
+        us(消息.3,"visibility","visible")
+        us(消息.36,"visibility","gone")
+        us(消息.62,"refreshing","false")
+      }
+    }
+  }
+}
+end fn

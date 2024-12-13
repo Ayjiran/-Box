@@ -1,0 +1,429 @@
+<View id="16" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=#ffffffff
+app_title=加载失败
+app_TitleColor=#FF3794EA</ppt>
+<event></event>
+</View>
+<View id="21" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="17" did="21" type="CoordinatorLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="20" did="17" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="19" did="20" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="18" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@6.26/business_icon_loading_fail.v
+layout_gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=软件进入失败
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="22" did="2" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=2dp
+layout_marginTop=50dp
+</ppt>
+<event></event>
+</View>
+<View id="26" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="23" did="26" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+layout_marginLeft=10dp
+layout_marginRight=10dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="TextView">
+<ppt>width=-1
+height=-1
+text=为什么会无法进入软件？
+textsize=14sp
+textcolor=#ff000000
+gravity=center_vertical
+layout_weight=1
+layout_marginLeft=10dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/sex_female_check_icon.v
+padding=10dp</ppt>
+<event><eventItme type="clicki">gvs(17,id)
+ 
+ 
+ 
+f(ss.开关=="关")
+{
+  ss 开关="开"
+  us(40,"visibility","visible")
+  us(25,"src","@a/sex_female_check_icon.v")
+}
+else
+{
+  ss 开关="关"
+  us(25,"src","@a/sex_male_check_icon.v")
+  us(40,"visibility",8)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="40" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margintop=5dp
+layout_marginbottom=10dp
+visibility=
+background=white</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="TextView">
+<ppt>width=-2
+height=-2
+text=(html)第一：无法进入软件可能是因为您未给予软件&lt;font color="blue"&gt;联网权限&lt;/font&gt;导致！&lt;br&gt;&lt;br&gt;第二：可能是软件出了短暂性&lt;font color="red"&gt;Bug&lt;/font&gt;导致，可能是访问的用户太多了，这个问题就比较难了，您可以稍微等等，最晚次日访问，次日访问如果还是当前这样子，那么就是软件出问题了，联系&lt;font color="blue"&gt;人工客服&lt;/font&gt;去获取最新的版本来更新系统。
+textColor=#888888
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-1
+height=1
+text=
+backgroundcolor=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="52" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="28" did="52" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+layout_marginLeft=10dp
+layout_marginRight=10dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="TextView">
+<ppt>width=-1
+height=-1
+text=怎么下载最新版的隐Box？
+textsize=14sp
+textcolor=#ff000000
+gravity=center_vertical
+layout_weight=1
+layout_marginLeft=10dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="30" did="28" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/sex_male_check_icon.v
+padding=10dp</ppt>
+<event><eventItme type="clicki">gvs(17,id)
+ 
+ 
+ 
+f(ss.开关1=="关")
+{
+  ss 开关1="开"
+  us(30,"src","@a/sex_male_check_icon.v")
+    us(46,"visibility",8)
+  }
+else
+{
+  ss 开关1="关"
+    us(46,"visibility","visible")
+  us(30,"src","@a/sex_female_check_icon.v")
+  }
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="46" did="52" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margintop=5dp
+layout_marginbottom=10dp
+visibility=8
+background=white</ppt>
+<event></event>
+</View>
+<View id="47" did="46" type="TextView">
+<ppt>width=-2
+height=-2
+text=(html)您可以进入官网来了解我们的最新版本喔：&lt;font color="blue"&gt;www.ayjrw.cn&lt;/font&gt;&lt;br&gt;&lt;br&gt;当然您也可以联系我们的人工客服微信：&lt;font color="red"&gt;grnb69&lt;/font&gt;咨询！
+textColor=#888888
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textSize=13sp
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="31" did="52" type="TextView">
+<ppt>width=-1
+height=1
+text=
+backgroundcolor=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="32" did="52" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+layout_marginLeft=10dp
+layout_marginRight=10dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="TextView">
+<ppt>width=-1
+height=-1
+text=官方客服怎么联系？
+textsize=14sp
+textcolor=#ff000000
+gravity=center_vertical
+layout_weight=1
+layout_marginLeft=10dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="34" did="32" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/sex_male_check_icon.v
+padding=10dp</ppt>
+<event><eventItme type="clicki">gvs(17,id)
+ 
+ 
+ 
+f(ss.开关2=="关")
+{
+  ss 开关2="开"
+  us(34,"src","@a/sex_male_check_icon.v")
+  us(44,"visibility",8)
+  }
+else
+{
+  ss 开关2="关"
+  us(44,"visibility","visible")
+  us(34,"src","@a/sex_female_check_icon.v")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="44" did="52" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margintop=5dp
+layout_marginbottom=10dp
+visibility=8
+background=white</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="TextView">
+<ppt>width=-2
+height=-2
+text=(html)官方客服联系不到，无法添加为好友的话，那么这边推荐您还是进入官网查看一下。
+textColor=#888888
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="35" did="52" type="TextView">
+<ppt>width=-1
+height=1
+text=
+backgroundcolor=#e0e0e0
+</ppt>
+<event></event>
+</View>
+<View id="48" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginBottom=300dp</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="CardView">
+<ppt>width=-1
+height=45dp
+app_CardElevation=0
+layout_gravity=center
+layout_weight=1
+app_CardcornerRadius=5dp
+layout_marginLeft=25dp
+layout_marginRight=25dp
+visibility=</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#3800aaff
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ss rnink=false
+sss 无网络="对"
+uigo("崩溃.iyu")
+end()
+ss hh="0"</eventItme></event>
+</View>
+<View id="51" did="50" type="TextView">
+<ppt>width=-2
+height=-2
+text=崩溃单机模式
+textColor=#ff00aeff
+textSize=17sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(20,a)
+gvs(19,b)
+javanew(mBs,mB,"Context",activity)
+urvw(19)
+nvw(mBs,20)
+nvw(b,mBs)
+//状态栏白底黑字
+s id=16
+//toolbar的id
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+us(mTba,"layout_marginright","1dp")
+//设置左边为返回
+utb("left", id, "@coolbackhei.png")
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+}
+//以上为工具栏返回按钮
+gvs(id,mTba)
+javags(mMode,null,"android.graphics.PorterDuff$Mode","SRC_ATOP")
+java(color,null,"android.graphics.Color.parseColor","String","#ff020202")
+java(mTbaBackSrc,mTba,"androidx.appcompat.widget.Toolbar.getNavigationIcon")
+java(null,mTbaBackSrc,"android.graphics.drawable.Drawable.setColorFilter","int",color,"android.graphics.PorterDuff$Mode",mMode)
+java(mTbaMenuSrc,mTba,"androidx.appcompat.widget.Toolbar.getOverflowIcon")
+java(null,mTbaMenuSrc,"android.graphics.drawable.Drawable.setColorFilter","int",color,"android.graphics.PorterDuff$Mode",mMode)
+//工具栏设置为黑色控件
+java(tv,mTba,"android.view.ViewGroup.getChildAt","int",0)
+us(tv,"textsize","20sp")
+//设置工具栏标题字体大小
+fn 着色.控件着色(16,"#FF3794EA")
+</eventItme><eventItme type="loadingComplete">f(sss.禁止访问=="是")
+{
+  us(10,"text","产品正在维护中")
+  us(52,"visibility","gone")
+  us(48,"visibility","gone")
+  us(22,"layout_marginbottom","200dp")
+  us(24,"text","为什么无法进入")
+  us(41,"text","(html)Ay悸然-作者已经&lt;font color=\"red\"&gt;关闭进入&lt;/font&gt;通道，有什么问题请联系客服最新的微信咨询，也有可能是新出了最新版本，本版本被强制关停，都是需要联系客服来进行更迭！！！&lt;br&gt;&lt;br&gt;客服微信：&lt;font color=\"blue\"&gt;grnb69&lt;/font&gt;")
+}
+else
+{
+}</eventItme><eventItme type="menu">case 再次连接:
+uigo("mian.iyu")
+end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

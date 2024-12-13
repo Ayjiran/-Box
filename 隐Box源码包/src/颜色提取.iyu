@@ -1,0 +1,244 @@
+<View id="38" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=颜色提取
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="28" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="14" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=#ffffff
+layout_marginTop=20dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="17" did="14" type="RelativeLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="12" did="17" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+background=white</ppt>
+<event><eventItme type="clicki">//</eventItme></event>
+</View>
+<View id="37" did="12" type="ImageView">
+<ppt>width=208dp
+height=208dp
+src=@ui/0072Vf1pgy1fodqncwm01j31hc10xb29.v</ppt>
+<event><eventItme type="touchmonitor">
+f(st_eA==0)
+{
+  sss stea0=true
+}
+else f(st_eA!=2&&st_eA!=0)
+{
+  sss stea0=null
+}
+
+
+gvs(37,id)
+java(pot,id,"android.view.View.getLocationOnScreen")
+swh("pxztl",ztl)
+sgsz(pot,0,pX)
+sgsz(pot,1,pY)
+s(pY,pY)
+s(st_eX,stex)
+s(st_rY-pY,stey)
+
+f(sss.stea0!=null)
+{
+s Cv="android.graphics.Canvas"
+s Bp="android.graphics.Bitmap"
+s BC="android.graphics.Bitmap$Config"
+s View="android.view.View"
+s Color="android.graphics.Color"
+s Drawable="android.graphics.drawable.Drawable"
+gvs(37,2id)
+s asw=0
+s ash=0
+gvs(18,3id)
+javax(asw,2id,"android.view.View","getWidth")
+javax(ash,2id,"android.view.View","getHeight")
+javax(abw,3id,"android.view.View","getWidth")
+javax(abh,3id,"android.view.View","getHeight")
+f(asw&gt;stex&&stex&gt;=0)
+{
+  f(0&gt;=stey)
+  {
+   s stey=0
+  }
+f(stey&gt;=ash)
+{
+  s(ash-1,stey)
+}
+sss oldy2=stey
+javags(BCRGB565,null,BC,"RGB_565")
+javax(bitmap,activity,Bp,"createBitmap","int",asw,"int",ash,BC,BCRGB565)
+javanew(canvas,Cv,Bp,bitmap)
+javax(left,2id,View,"getLeft")
+javax(right,2id,View,"getRight")
+javax(top,2id,View,"getTop")
+javax(bottom,2id,View,"getBottom")
+javax(null,2id,View,"layout","int",left,"int",top,"int",right,"int",bottom)
+javax(drawable,2id,View,"getBackground")
+javags(colorw,null,Color,"WHITE")
+f(drawable!=null)
+{
+  javax(null,drawable,Drawable,"draw",Cv,canvas)
+}
+else
+{
+  javax(null,canvas,Cv,"drawColor","int",colorw)
+}
+javax(null,2id,View,"draw",Cv,canvas)
+//us(15,"background",drawable)
+s(stex/asw*1000,ax)
+s(stey/ash*1000,ay)
+s(asw/1000*ax,ax)
+s(ash/1000*ay,ay)
+s(ax-abw/2,aax)
+s(ay-abh/2,aay)
+us(18,"layout_margintop",aay)
+us(18,"layout_marginleft",aax)
+javax(pixel,bitmap,Bp,"getPixel","int",ax,"int",ay)
+javax(ca,activity,Color,"alpha","int",pixel)
+javax(cr,activity,Color,"red","int",pixel)
+javax(cg,activity,Color,"green","int",pixel)
+javax(cb,activity,Color,"blue","int",pixel)
+javax(ka,activity,"java.lang.Integer","toHexString","int",ca)
+javax(kr,activity,"java.lang.Integer","toHexString","int",cr)
+javax(kg,activity,"java.lang.Integer","toHexString","int",cg)
+javax(kb,activity,"java.lang.Integer","toHexString","int",cb)
+f(ca&lt;16)
+{
+  ss("0"+ka,ka)
+}
+f(cr&lt;16)
+{
+  ss("0"+kr,kr)
+}
+f(cg&lt;16)
+{
+  ss("0"+kg,kg)
+}
+f(cb&lt;16)
+{
+  ss("0"+kb,kb)
+}
+ss("#"+ka+kr+kg+kb,color)
+us(15,"background",color)
+us(15,"text",color)
+}
+}
+
+</eventItme><eventItme type="clicki">//</eventItme></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=30
+height=30
+text=
+background=@qq.v
+layout_marginTop=-15
+layout_marginLeft=-15</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-1
+height=-1
+text=请点击图片获取
+layout_margin=10dp
+gravity=center
+textColor=#ffffff
+background=#ff00b4ff</ppt>
+<event><eventItme type="clicki">ug(15,"text",b)
+sxb(b)
+tw("成功复制颜色代码")</eventItme></event>
+</View>
+<View id="36" did="28" type="Button">
+<ppt>width=-1
+height=-2
+text=提取自定义图片
+background=@tb/box_bg.v
+padding=8dp</ppt>
+<event><eventItme type="clicki">call(null, "mlua", "lua.getSrc")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=38
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+us(15,"background",颜色)
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="onactivityresult">javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+    us(37,"src", path)
+    sss paths=path
+  }
+else f(st_sC==3)
+{
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+    us(37, "src", path)
+    sss paths=path
+}
+}</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

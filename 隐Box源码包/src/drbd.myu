@@ -1,0 +1,21 @@
+fn hs()
+tw("对于空文件夹的处理请看关于！",0)
+utw("","导入本地文件","dlb.iyu",false,sss.dr)
+  {
+  }
+fdir(lb)
+us(21,"text",lb)
+fl(lb,lb)
+gvs(sss.dr,3,lb3)
+t()
+  {
+    for(lbss;lb)
+      {
+        ula(bl,1=lbss)
+      }
+    ufnsui()
+      {
+        uls(lb3,bl,"ddlb.iyu",-1,-2)
+      }
+  }
+end fn

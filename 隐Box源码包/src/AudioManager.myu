@@ -1,0 +1,79 @@
+
+//重要提示：千万不要改模块名字，否则会报错
+//认真看注释，错了别怪作者没写详细
+//使用之前一定一定一定要调用init()方法！
+
+//初始化音频管理器，第一次使用前调用它一次，否则会错误
+//默认控制媒体音量
+fn init()
+  javags(sign,null,"android.content.Context","AUDIO_SERVICE")
+  java(sss.AudioManager,activity,"android.app.Activity.getSystemService","String",sign)
+  fn AudioManager.type(0)
+end fn
+//重新设置要控制的音量的类型
+//0:媒体音量
+//1:系统音量
+//2：铃声音量
+//输入其他等于控制媒体音量
+fn type(type)
+  cls("android.media.AudioManager",class)
+  f(type==0)
+  {
+    javags(sss.type,null,class,"STREAM_MUSIC")
+  }
+  else f(type==1)
+  {
+    javags(sss.type,null,class,"STREAM_SYSTEM")
+  }
+  else f(type==2)
+  {
+    javags(sss.type,null,class,"STREAM_RING")
+  }
+  else
+  {
+    javags(sss.type,null,class,"STREAM_MUSIC")
+  }
+end fn
+//显示系统当前的xx音量（弹窗音量更改弹窗，但不会增加/减小音量）
+fn show()
+  cls("android.media.AudioManager",class)
+  javags(sign1,null,class,"ADJUST_SAME")
+  javags(sign2,null,class,"FLAG_SHOW_UI")
+  javax(null,sss.AudioManager,class,"adjustStreamVolume","int",sss.type,"int",sign1,"int",sign2)
+end fn
+//增加系统当前的xx音量（相当于按一下音量+键）
+fn up()
+  cls("android.media.AudioManager",class)
+  javags(sign1,null,class,"ADJUST_RAISE")
+  javags(sign2,null,class,"FLAG_SHOW_UI")
+  javax(null,sss.AudioManager,class,"adjustStreamVolume","int",sss.type,"int",sign1,"int",sign2)
+end fn
+//减小系统当前的xx音量（相当于按一下音量-键）
+fn down()
+  cls("android.media.AudioManager",class)
+  javags(sign1,null,class,"ADJUST_LOWER")
+  javags(sign2,null,class,"FLAG_SHOW_UI")
+  javax(null,sss.AudioManager,class,"adjustStreamVolume","int",sss.type,"int",sign1,"int",sign2)
+end fn
+//设置系统当前xx音量(传入数值)
+fn set(vol)
+  cls("android.media.AudioManager",class)
+  javags(sign1,null,class,"FLAG_SHOW_UI")
+  javax(null,sss.AudioManager,class,"setStreamVolume","int",sss.type,"int",vol,"int",sign1)
+end fn
+//获取系统当前xx音量
+//结果在变量sss.return里面
+fn get()
+  cls("android.media.AudioManager",class)
+  javax(vol,sss.AudioManager,class,"getStreamVolume","int",sss.type)
+  sss return=vol
+end fn
+//获取系统最大xx音量
+//结果在sss.return里面
+//强烈建议你们这些直接用set()的人先获取最大音量在好好算算应该传入什么值
+//我用set(25)的时候带着耳机特么都吓尿了，声音那么大
+fn getMax()
+  cls("android.media.AudioManager",class)
+  javax(vol,sss.AudioManager,class,"getStreamMaxVolume","int",sss.type)
+  sss return=vol
+end fn

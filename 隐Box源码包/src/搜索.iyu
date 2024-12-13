@@ -1,0 +1,210 @@
+<View id="48" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=搜索结果
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="10" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="7" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="41" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@Bibi/cfj.v
+layout_marginTop=50dp</ppt>
+<event></event>
+</View>
+<View id="43" did="41" type="TextView">
+<ppt>width=-2
+height=-2
+text=当前关键词下无帖子\n\n
+gravity=center
+textColor=#ff000000
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="44" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+visibility=</ppt>
+<event></event>
+</View>
+<View id="47" did="44" type="GifView">
+<ppt>width=150dp
+height=150dp
+src=@gif.gif
+layout_marginTop=50dp</ppt>
+<event></event>
+</View>
+<View id="40" did="7" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="onscrolled">s(st_bT-st_vT,kj)
+f(st_fM==kj)
+{
+  f(sss.不再加载=="OK")
+  {
+    f(ss.提示=="提示过")
+    {
+    }
+    else
+    {
+      ss 提示="提示过"
+      s stop = 2000
+      s text="已无更多结果."
+      fn color.ColorToast(text,stop)
+    }
+  }
+  else
+  {
+    s(sss.ye+1,sss.ye)
+    ss(sss.api+"?s=search&key="+sss.搜索+"&type=2&pageid="+sss.ye,url)
+    t()
+    {
+      hs(url,null,"utf-8",v)
+      f(v?"没有搜索到相关内容")
+      {
+        sss 不再加载="OK"
+      }
+      else
+      {
+        sj(v,"				&lt;section class=\"search-page\"&gt;","				&lt;/section&gt;",n)
+        sl(n,"										&lt;div&gt;",c)
+        sgszl(c,zs)
+        s(zs-1,z)
+        s s=z
+        for(1;z)
+        {
+          sgsz(c,s,nr)
+          sj(nr,"							&lt;a href=\"","\" title",lj)
+          sj(nr,"_blank\"&gt;","&lt;/a&gt;",title)
+          sj(nr,"						&lt;p class=\"content\"&gt;","&lt;/p&gt;",co)
+          ss("(html)"+co,content)
+          ss("(html)"+title,bt)
+          ula(sss.list_搜索,4=bt,6=content,7=lj)
+          s(s-1,s)
+        }
+        ufnsui()
+        {
+          ula(sss.list_搜索)
+          endutw(vf)
+        }
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="15" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=48
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+sss list_搜索=""
+sss ye="1"
+ss(sss.api+"?s=search&key="+sss.搜索+"&type=2&pageid="+sss.ye,url)
+t()
+{
+  hs(url,null,"utf-8",v)
+  sj(v,"				&lt;section class=\"search-page\"&gt;","				&lt;/section&gt;",n)
+  sl(n,"										&lt;div&gt;",c)
+  sgszl(c,zs)
+  s(zs-1,z)
+  s s=z
+  ss 搜索="0"
+  for(1;z)
+  {
+    sgsz(c,s,nr)
+    sj(nr,"							&lt;a href=\"","\" title",lj)
+    sj(nr,"_blank\"&gt;","&lt;/a&gt;",title)
+    sj(nr,"						&lt;p class=\"content\"&gt;","&lt;/p&gt;",co)
+    ss("(html)"+co,content)
+    ss("(html)"+title,bt)
+    ula(sss.list_搜索,4=bt,6=content,7=lj)
+    s(s-1,s)
+    s(ss.搜索+1,ss.搜索)
+  }
+  ufnsui()
+  {
+    uls(40,sss.list_搜索,"list_搜索.iyu",-1,-2)
+    f(ss.搜索&gt;"0")
+    {
+      us(41,"visibility","gone")
+      us(44,"visibility","gone")
+    }
+    else
+    {
+      us(41,"visibility","visible")
+      us(44,"visibility","gone")
+    }
+    ug(40,"count",结果)
+    ss("共"+结果+"条搜索结果",结果)
+    us(48,"app_title",结果)
+  }
+}</eventItme></UIEventset>

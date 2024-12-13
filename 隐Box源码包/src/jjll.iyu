@@ -1,0 +1,48 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white
+layout_margin=2dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,-1,id)
+ulag(st_vW,2,sss.mz)
+t()
+{
+  ss("https://api.imjad.cn/qqfm/v1/?type=skip_show&id="+sss.mid+"&shows="+id,aa)
+hs(aa,a)
+sj(a,"\"audioURL\":",null,a)
+sj(a,"\"url\":\"","\"",sss.wji)
+sr(sss.wji,"\\","",sss.wji)
+bfms(sss.qdyy,"pe",pe)
+uigo("音乐播放.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=文本2
+padding=8dp
+gravity=center
+textColor=#000000</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,jjll.1,id1)
+ngde(1,5,"#ffffff","#000000",f)
+us(id1,"background",f)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

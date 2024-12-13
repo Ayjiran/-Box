@@ -1,0 +1,35 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=360dp
+height=360dp
+orientation=vertical
+background=@-6812984080dc89f9.v</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loadingComplete">ujp("$幻隐网络/.头像加图/制作/1.v", 100)
+sbp("$幻隐网络/.头像加图/制作/1.v", 0, 305, 720, 720, b)
+bfs(b,"$幻隐网络/.头像加图/完成图.v")
+tw("图片制作完成")
+</eventItme><eventItme type="loading">uycl("#ff00bfff",true)
+dhas(dh, 3, "translationY", -150, 30, -35, 25, -30,20,-20,15,-10,10,-8,8,-5,5,-3,3,-2,2,-1,1,0,0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+us(3,"background",sss.ggvdt)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

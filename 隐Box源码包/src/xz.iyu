@@ -1,0 +1,905 @@
+<View id="85" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=小字生成
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="84" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="84" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center
+layout_margintop=5dp
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="EditText">
+<ppt>width=250dp
+height=150dp
+text=
+layout_weight=1
+textcolor=#ff000000
+hint=小字添加
+textsize=14sp
+gravity=center
+textcursordrawable=#c000000
+layout_gravity=center
+textcursordrawable=#fff1ff00
+textcursordrawable=#18000000</ppt>
+<event></event>
+</View>
+<View id="5" did="84" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+gravity=center
+layout_marginbottom=10dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="Button">
+<ppt>width=-1
+height=-2
+text=复制
+background=white
+textColor=#ffffff
+layout_weight=1
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">ug(4,"text",bb)
+sxb(bb)
+s stop = 2000
+s text="复制成功喽~"
+fn color.ColorToast(text,stop)
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="7" did="5" type="Button">
+<ppt>width=-1
+height=-2
+text=清空
+layout_marginLeft=10dp
+layout_marginRight=10dp
+background=#ff00ccff
+textColor=#ffffff
+layout_weight=1</ppt>
+<event><eventItme type="clicki">us(4,"text","")
+s stop = 2000
+s text="清除完毕"
+fn color.ColorToast(text,stop)
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="81" did="84" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+backgroundcolor=#4c000000
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="84" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_margintop=5dp
+layout_margintop=10dp
+layout_marginleft=10dp
+layout_marginright=10dp
+paddingtop=15dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="12" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=0dp
+layout_marginbottom=10dp
+paddingbottom=10dp</ppt>
+<event></event>
+</View>
+<View id="72" did="12" type="LinearLayout">
+<ppt>width=-1
+height=130dp
+orientation=vertical
+layout_marginleft=12dp
+layout_marginbottom=10dp
+layout_marginright=12dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="79" did="72" type="LinearLayout">
+<ppt>width=-1
+gravity=center_vertical
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="80" did="79" type="LinearLayout">
+<ppt>width=3dp
+backgroundcolor=#ff00b2ff
+height=30dp
+orientation=vertical
+layout_marginleft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="13" did="79" type="TextView">
+<ppt>width=-2
+height=40dp
+layout_margintop=0dp
+text=上方数字
+gravity=center_vertical
+textsize=15sp
+textColor=#ff000000
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="14" did="72" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+layout_margintop=5dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="Button">
+<ppt>width=-2
+height=-2
+text=0
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="º"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="16" did="14" type="Button">
+<ppt>width=-2
+height=-2
+text=1
+layout_weight=1
+background=through
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="¹"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="17" did="14" type="Button">
+<ppt>width=-2
+height=-2
+text=2
+layout_weight=1
+background=through
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="²"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="18" did="14" type="Button">
+<ppt>width=-2
+height=-2
+text=3
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="³"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="19" did="14" type="Button">
+<ppt>width=-2
+height=-2
+text=4
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="⁴"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="20" did="72" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="Button">
+<ppt>width=-2
+height=-2
+text=5
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="⁵"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="22" did="20" type="Button">
+<ppt>width=-2
+height=-2
+text=6
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="⁶"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="23" did="20" type="Button">
+<ppt>width=-2
+height=-2
+text=7
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="⁷"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="24" did="20" type="Button">
+<ppt>width=-2
+height=-2
+text=8
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="⁸"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="25" did="20" type="Button">
+<ppt>width=-2
+height=-2
+text=9
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="⁹"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="73" did="12" type="LinearLayout">
+<ppt>width=-1
+height=130dp
+orientation=vertical
+layout_marginright=12dp
+layout_marginleft=12dp
+layout_margintop=10dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="77" did="73" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="78" did="77" type="LinearLayout">
+<ppt>width=3dp
+backgroundcolor=#ff00b2ff
+height=30dp
+orientation=vertical
+layout_marginleft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="26" did="77" type="TextView">
+<ppt>width=-2
+height=40dp
+layout_margintop=0dp
+text=下方数字
+gravity=center_vertical
+textsize=15sp
+textColor=#ff000000
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="27" did="73" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="Button">
+<ppt>width=-2
+height=-2
+text=0
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₀"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="29" did="27" type="Button">
+<ppt>width=-2
+height=-2
+text=1
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₁"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="30" did="27" type="Button">
+<ppt>width=-2
+height=-2
+text=2
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₂"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="31" did="27" type="Button">
+<ppt>width=-2
+height=-2
+text=3
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₃"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="32" did="27" type="Button">
+<ppt>width=-2
+height=-2
+text=4
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₄"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="33" did="73" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="Button">
+<ppt>width=-2
+height=-2
+text=5
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₅"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="35" did="33" type="Button">
+<ppt>width=-2
+height=-2
+text=6
+layout_weight=1 
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₆"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="36" did="33" type="Button">
+<ppt>width=-2
+height=-2
+text=7
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₇"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="37" did="33" type="Button">
+<ppt>width=-2
+height=-2
+text=8
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₈"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="38" did="33" type="Button">
+<ppt>width=-2
+height=-2
+text=9
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="₉"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="74" did="12" type="LinearLayout">
+<ppt>width=-1
+height=240dp
+orientation=vertical
+layout_marginright=12dp
+layout_marginleft=12dp
+layout_margintop=20dp
+layout_marginbottom=20dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="76" did="75" type="LinearLayout">
+<ppt>width=3dp
+backgroundcolor=#ff00b2ff
+height=30dp
+orientation=vertical
+layout_marginleft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="39" did="75" type="TextView">
+<ppt>width=-2
+height=40dp
+layout_margintop=0dp
+text=上方字母
+gravity=center_vertical
+textsize=15sp
+textColor=#ff000000
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="40" did="74" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="Button">
+<ppt>width=-2
+height=-2
+text=A
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴬ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="42" did="40" type="Button">
+<ppt>width=-2
+height=-2
+text=B
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴮ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="43" did="40" type="Button">
+<ppt>width=-2
+height=-2
+text=C
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᶜ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="44" did="40" type="Button">
+<ppt>width=-2
+height=-2
+text=D
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴰ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="45" did="40" type="Button">
+<ppt>width=-2
+height=-2
+text=E
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴱ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="47" did="74" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="Button">
+<ppt>width=-2
+height=-2
+text=F
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᶠ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="49" did="47" type="Button">
+<ppt>width=-2
+height=-2
+text=G
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴳ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="50" did="47" type="Button">
+<ppt>width=-2
+height=-2
+text=H
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴴ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="51" did="47" type="Button">
+<ppt>width=-2
+height=-2
+text=I
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴵ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="52" did="47" type="Button">
+<ppt>width=-2
+height=-2
+text=J
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴶ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="53" did="74" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="Button">
+<ppt>width=-2
+height=-2
+text=K
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴷ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="55" did="53" type="Button">
+<ppt>width=-2
+height=-2
+text=L
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴸ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="56" did="53" type="Button">
+<ppt>width=-2
+height=-2
+text=M
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴹ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="57" did="53" type="Button">
+<ppt>width=-2
+height=-2
+text=N
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴺ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="58" did="53" type="Button">
+<ppt>width=-2
+height=-2
+text=O
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴼ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="59" did="74" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="Button">
+<ppt>width=-2
+height=-2
+text=P
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴾ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="61" did="59" type="Button">
+<ppt>width=-2
+height=-2
+text=Q
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᶞ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="62" did="59" type="Button">
+<ppt>width=-2
+height=-2
+text=R
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᴿ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="63" did="59" type="Button">
+<ppt>width=-2
+height=-2
+text=S
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ˢ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="64" did="59" type="Button">
+<ppt>width=-2
+height=-2
+text=T
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᵀ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="65" did="74" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="66" did="65" type="Button">
+<ppt>width=-2
+height=-2
+text=U
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᵁ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="67" did="65" type="Button">
+<ppt>width=-2
+height=-2
+text=V
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᵛ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="68" did="65" type="Button">
+<ppt>width=-2
+height=-2
+text=W
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᵂ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="69" did="65" type="Button">
+<ppt>width=-2
+height=-2
+text=X
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="˟"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="70" did="65" type="Button">
+<ppt>width=-2
+height=-2
+text=Y
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ʸ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<View id="71" did="65" type="Button">
+<ppt>width=-2
+height=-2
+text=Z
+layout_weight=1
+background=through
+textsize=12sp</ppt>
+<event><eventItme type="clicki">s aa="ᶻ"
+ug(4,"text",bb)
+ss(bb+aa,bb)
+us(4,"text",bb)</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=85
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(7,颜色)
+fn 着色.控件着色(6,颜色)
+fn 着色.控件着色(80,颜色)
+fn 着色.控件着色(76,颜色)
+fn 着色.控件着色(78,颜色)
+ngde("4","10","#00000000",颜色,背景)
+us(4,"background",背景)
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(8,a)
+gvs(9,b)
+javanew(mBs,mB,"Context",activity)
+urvw(9)
+nvw(mBs,8)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

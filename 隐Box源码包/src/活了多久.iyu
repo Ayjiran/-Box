@@ -1,0 +1,366 @@
+<View id="104" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=活了多久
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="105" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="53" did="105" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+
+</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="AppBarLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="15" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="17" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="51" did="17" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="62" did="51" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=请输出你的出生日期例：20010322
+inputType=number
+layout_marginTop=20dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="59" did="17" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=15dp
+layout_marginTop=5dp
+app_CardcornerRadius=15
+</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center
+background=#ffffffff</ppt>
+<event><eventItme type="clicki">ug(62,"text",a)
+slg(a, b)
+f(a=="")
+{
+  tw("没有检测到耶？")
+}
+else
+{
+  t()
+  {
+    ss("http://shijisuishu.51240.com/"+a+"__shijisuishu/",wz)
+    hs(wz,b)
+    sj(b,"align=\"center\"&gt;周岁&lt;/td&gt;&lt;td bgcolor=\"#FFFFFF\" align=\"center\"&gt;&lt;font color=\"#ff0000\"&gt;&lt;strong&gt;","&lt;",zs)
+    sj(b,"align=\"center\"&gt;虚岁&lt;/td&gt;&lt;td bgcolor=\"#FFFFFF\" align=\"center\"&gt;&lt;font color=\"#ff0000\"&gt;&lt;strong&gt;","&lt;",xs)
+    sj(b,"align=\"center\"&gt;&lt;font color=\"#999999\"&gt;周岁算法：","&lt;",zssf)
+    sj(b,"align=\"center\"&gt;&lt;font color=\"#999999\"&gt;虚岁算法：","&lt;",xssf)
+    sj(b,"align=\"center\"&gt;生肖&lt;/td&gt;&lt;td colspan=\"2\" align=\"center\" bgcolor=\"#FFFFFF\"&gt;","&lt;",sx)
+    sj(b,"align=\"center\"&gt;星座&lt;/td&gt;&lt;td colspan=\"2\" align=\"center\" bgcolor=\"#FFFFFF\"&gt;","&lt;",xz)
+    sj(b,"align=\"center\"&gt;公历出生日期&lt;/td&gt;&lt;td colspan=\"2\" align=\"center\" bgcolor=\"#FFFFFF\"&gt;","（",gl)
+    sj(b,"align=\"center\"&gt;农历出生日期&lt;/td&gt;&lt;td colspan=\"2\" align=\"center\" bgcolor=\"#FFFFFF\"&gt;","&lt;",nl)
+    sj(b,"align=\"center\"&gt;生活天数&lt;/td&gt;&lt;td colspan=\"2\" align=\"center\" bgcolor=\"#FFFFFF\"&gt;","&lt;",sh)
+    sj(b,"align=\"center\"&gt;下次公历生日&lt;/td&gt;&lt;td colspan=\"2\" align=\"center\" bgcolor=\"#FFFFFF\"&gt;","&lt;",xc)
+    ufnsui()
+    {
+      ss("周岁："+zs,zs)
+      ss("虚岁："+xs,xs)
+      ss("周岁算法："+zssf,zssf)
+      ss("虚岁算法："+xssf,xssf)
+      ss("生肖："+sx,sx)
+      ss("星座："+xz,xz)
+      ss("公历出生日期："+gl,gl)
+      ss("农历出生日期："+nl,nl)
+      ss("生活天数："+sh,sh)
+      ss("下次公历生日："+xc,xc)
+      us(79,"text","您的信息：")
+      us(97,"visibility","visible")
+      us(80,"text",zs)
+      us(82,"text",xs)
+      us(84,"text",zssf)
+      us(86,"text",xssf)
+      us(88,"text",sx)
+      us(90,"text",xz)
+      us(92,"text",gl)
+      us(94,"text",nl)
+      us(96,"text",sh)
+      us(98,"text",xc)
+      }
+  }
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+}
+</eventItme></event>
+</View>
+<View id="61" did="60" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始计算
+textColor=#ffffff
+textSize=16sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="79" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=您的信息：(未计算)
+layout_marginLeft=10dp
+layout_marginRight=10dp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="97" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+visibility=invisible
+layout_margin=10dp
+padding=20dp</ppt>
+<event></event>
+</View>
+<View id="80" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=信息：
+textColor=#ff000000
+textSize=13sp
+</ppt>
+<event></event>
+</View>
+<View id="81" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=看不见我
+visibility=invisible
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="82" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=信息：
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="83" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=看不见我
+visibility=invisible
+textColor=#ff000000
+textSize=13sp
+</ppt>
+<event></event>
+</View>
+<View id="88" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=信息：
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="89" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=看不见我
+visibility=invisible
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="90" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=信息：
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="91" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=看不见我
+visibility=invisible
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="92" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=信息：
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="93" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=看不见我
+visibility=invisible
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="94" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=信息：
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="95" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=看不见我
+visibility=invisible
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="96" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=信息：
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="99" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=看不见我
+visibility=invisible
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="98" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=信息：
+textColor=#ff000000
+textSize=13sp
+</ppt>
+<event></event>
+</View>
+<View id="106" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_marginLeft=10dp
+layout_marginRight=10dp
+textColor=#ff000000
+layout_marginBottom=100dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=104
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(100,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(62,"background",背景)
+fn 着色.控件着色(60,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(97,"background",背景)
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(105,a)
+gvs(53,b)
+javanew(mBs,mB,"Context",activity)
+urvw(53)
+nvw(mBs,105)
+nvw(b,mBs)</eventItme></UIEventset>

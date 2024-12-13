@@ -1,0 +1,12 @@
+fn tw(text)
+sbp("@170837.png",icon)
+s textcolor="#ffffff"
+s backgroundcolor="#ff00b2ff"
+s elevation=20
+s gravity=0
+s x=0
+s y=-300
+call(null,"mjava","Mus.toast",icon,text,textcolor,backgroundcolor,elevation,gravity,x,y)
+
+
+end fn

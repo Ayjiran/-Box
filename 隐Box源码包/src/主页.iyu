@@ -1,0 +1,2002 @@
+<View id="379" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="380" did="379" type="LinearLayout">
+<ppt>width=-1
+height=260dp
+orientation=horizontal
+gravity=center_horizontal
+background=@garbage_main_page_bg.png
+</ppt>
+<event></event>
+</View>
+<View id="408" did="380" type="TextView">
+<ppt>width=-2
+height=-2
+text="
+textColor=#ffffff
+textStyle=bold
+textSize=13sp
+layout_marginTop=20dp
+</ppt>
+<event></event>
+</View>
+<View id="381" did="380" type="TextView">
+<ppt>width=-2
+height=-2
+text=幻隐网络科技
+textColor=#ffffff
+textStyle=bold
+textSize=13sp
+layout_marginTop=20dp
+</ppt>
+<event></event>
+</View>
+<View id="407" did="380" type="TextView">
+<ppt>width=-2
+height=-2
+text="
+textColor=#ffffff
+textStyle=bold
+textSize=13sp
+layout_marginTop=20dp
+</ppt>
+<event></event>
+</View>
+<View id="378" did="379" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="377" did="378" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="352" did="377" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="221" did="352" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="1" did="221" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="351" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="353" did="351" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=white</ppt>
+<event></event>
+</View>
+<View id="409" did="353" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical
+background=@IMG_20210122_223154.png
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="410" did="409" type="VideoView">
+<ppt>width=-1
+height=-2
+background=@IMG_20210122_223154.png</ppt>
+<event></event>
+</View>
+<View id="355" did="353" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical
+background=@IMG_20210122_223154.png
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="235" did="353" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical
+.background=#82dedede
+</ppt>
+<event></event>
+</View>
+<View id="354" did="235" type="RelativeLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="230" did="354" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="233" did="230" type="TextView">
+<ppt>width=-2
+height=-2
+text=主页分类：
+textColor=#000000
+layout_weight=1
+textSize=14sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="306" did="230" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@8cdcac2132e.v
+layout_marginRight=10dp
+</ppt>
+<event><eventItme type="clicki">s stop = 2000
+s text="敬请期待新功能上线…"
+fn color.ColorToast(text,stop)
+</eventItme></event>
+</View>
+<View id="222" did="354" type="HorizontalScrollView">
+<ppt>width=-1
+height=70dp
+scrollbars=none
+overscrollmode=never
+layout_marginTop=10dp
+ut_alignParentBottom=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="223" did="222" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="251" did="223" type="LinearLayout">
+<ppt>width=160dp
+height=-1
+orientation=vertical
+layout_marginleft=10dp
+layout_margintop=5dp
+layout_marginbottom=25dp</ppt>
+<event></event>
+</View>
+<View id="252" did="251" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=6dp</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/.临时数据/20.txt",yx)
+f(yx=="3")
+{
+
+}
+else
+{
+  fw("$幻隐网络/.临时数据/20.txt","3")
+  fr("$幻隐网络/.临时数据/97.txt",pd)
+  us(主页.275,"visibility","visible")
+  us(主页.342,"visibility","gone")
+  us(主页.269,"visibility","gone")
+  us(主页.285,"visibility","gone")
+  us(主页.307,"visibility","gone")
+  us(主页.308,"visibility","gone")
+  
+  f(pd=="1")
+  {
+  }
+  else
+  {
+    fw("$幻隐网络/.临时数据/97.txt","1")
+    fn 聚合.须知()
+  }
+  
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="253" did="252" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ff008cff</ppt>
+<event></event>
+</View>
+<View id="254" did="253" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@Bibi/b3g.v
+ut_centervertical=true
+ut_alignparentleft=true
+layout_marginleft=15dp</ppt>
+<event></event>
+</View>
+<View id="255" did="253" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用需知
+ut_torightof=254
+layout_margintop=10dp
+textcolor=#FFFFFF
+layout_marginleft=10dp
+layout_marginbottom=5dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="256" did="253" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用软件必看
+textcolor=#99FFFFFF
+ut_torightof=254
+ut_below=255
+layout_marginleft=10dp
+textsize=12sp
+typeface=monospace</ppt>
+<event></event>
+</View>
+<View id="224" did="223" type="LinearLayout">
+<ppt>width=160dp
+height=-1
+orientation=vertical
+layout_marginleft=10dp
+layout_margintop=5dp
+layout_marginbottom=25dp</ppt>
+<event></event>
+</View>
+<View id="238" did="224" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=6dp</ppt>
+<event><eventItme type="clicki">  fr("$幻隐网络/.临时数据/20.txt",yx)
+f(yx=="4")
+{
+  }
+else
+{
+  fw("$幻隐网络/.临时数据/20.txt","4")
+  fr("$幻隐网络/.临时数据/98.txt",pd)
+  us(主页.342,"visibility","gone")
+  us(主页.269,"visibility","gone")
+  us(主页.285,"visibility","visibility")
+  us(主页.275,"visibility","gone")
+  us(主页.307,"visibility","gone")
+  us(主页.308,"visibility","gone")
+  
+  f(pd=="1")
+  {
+    
+  }
+  else
+  {
+    fw("$幻隐网络/.临时数据/98.txt","1")
+    t()
+    {
+      sj(sss.bs,"Box贡献者","Box贡献者",wz)
+      sj(wz,"《",null,api)
+      sl(api,"《",api)
+      for(apis;api)
+      {
+        sj(apis,null,"》",apititle)
+        syso(apis)
+        sj(apis,"①","①",tx)
+        sj(apis,"②","②",je)
+        sj(apis,"③","③",js)
+        sj(apis,"④","④",qq)
+        ss("介绍："+js,js)
+        ss("http://q1.qlogo.cn/g?b=qq&nk="+tx+"&s=100",hd)
+        strim(apilj,apilj)
+        strim(bt,bt)
+        syso(apilj)
+        sr(图片,"/","",咿呀)
+        ss("幻隐网luo/.缓存/QQ"+tx+".png",咿呀)
+        fe(咿呀,是否)
+        f(是否==true)
+        {
+          f(咿呀==null)
+          {
+          }
+          else
+          {
+            ula(list,4=apititle,8=je,11=js,16=tx,28=咿呀,26=qq)
+          }
+        }
+        else
+        {
+          f(咿呀==null)
+          {
+          }
+          else
+          {
+            ula(list,4=apititle,8=je,11=js,16=tx,28=hd,26=qq)
+          }
+          hd(hd, 咿呀, c)
+        }
+      }
+      ufnsui()
+      {
+        fw("$幻隐网络/gx.v",wz)
+        uls(主页.290,list,"贡献列表.iyu",-1,-2)
+        ug(主页.290,"count",总共)
+    s*(总共,120,总共)
+    ss(总共+"dp",总共)
+    us(主页.290,"height",总共)
+        us(主页.290,"divider","#ff00ff38")
+        us(主页.292,"visibility","gone")
+      }
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="225" did="238" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ffff0094</ppt>
+<event></event>
+</View>
+<View id="226" did="225" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@Bibi/b3h.v
+ut_centervertical=true
+ut_alignparentleft=true
+layout_marginleft=15dp</ppt>
+<event></event>
+</View>
+<View id="227" did="225" type="TextView">
+<ppt>width=-2
+height=-2
+text=贡献列表
+ut_torightof=226
+layout_margintop=10dp
+textcolor=#FFFFFF
+layout_marginleft=10dp
+layout_marginbottom=5dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="228" did="225" type="TextView">
+<ppt>width=-2
+height=-2
+text=感谢有你一直在
+textcolor=#99FFFFFF
+ut_torightof=226
+ut_below=227
+layout_marginleft=10dp
+textsize=12sp
+typeface=monospace</ppt>
+<event></event>
+</View>
+<View id="257" did="223" type="LinearLayout">
+<ppt>width=160dp
+height=-1
+orientation=vertical
+layout_marginleft=10dp
+layout_margintop=5dp
+layout_marginbottom=25dp
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="258" did="257" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=6dp</ppt>
+<event><eventItme type="clicki">  fr("$幻隐网络/.临时数据/20.txt",yx)
+f(yx=="100")
+{
+}
+else
+{
+  fw("$幻隐网络/.临时数据/20.txt","100")
+  us(主页.269,"visibility","gone")
+  us(主页.275,"visibility","gone")
+  us(主页.285,"visibility","gone")
+  us(主页.307,"visibility","gone")
+  us(主页.308,"visibility","gone")
+  us(主页.342,"visibility","visible")
+  time(2,a)
+  t()
+  {
+    ss("http://123.57.34.133:8080/alltool/oldcalendar?urlencode=false&phoneid=2359b3ac4884c932&mDate="+a+"&version=9.0&token=35c8c7bffe9c049d9b50771f3e0d2464",b)
+    ss("幻隐网luo/.缓存/黄历.txt",缓存)
+    fe(缓存,有没有)
+    f(有没有==true)
+    {
+      fr(缓存,c)
+    }
+    else
+    {
+      hs(b,c)
+      fw(缓存,c)
+    }
+    ufnsui()
+    {
+      syso(c)
+      json(c,t)
+      json(t,"get","data",f)
+      json(f,"get","yinli",yl)
+      json(f,"get","wuxing",wx)
+      json(f,"get","chongsha",cs)
+      json(f,"get","baiji",bj)
+      json(f,"get","jishen",js)
+      json(f,"get","yi",yi)
+      json(f,"get","xiongshen",xs)
+      json(f,"get","ji",ji)
+    }
+    ufnsui()
+    {
+      syso(f)
+      syso(yl)
+      syso(wx)
+      syso(cs)
+    }
+    ufnsui()
+    {
+      ss("阳历:"+a+"\n"+"阴历:"+yl+"\n"+"五行:"+wx+"\n"+"冲煞:"+cs+"\n"+"百忌:"+bj+"\n"+"吉神:"+js+"\n"+"适宜:"+yi+"\n"+"凶神:"+xs+"\n"+"忌讳:"+ji,h)
+      syso(h)
+      f(f!=null)
+      {
+        us(主页.347,"text",h)
+      }
+      else
+      {
+        us(主页.347,"text","无法加载")
+      }
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="259" did="258" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#fffd00ff</ppt>
+<event></event>
+</View>
+<View id="260" did="259" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@Bibi/b3i.v
+ut_centervertical=true
+ut_alignparentleft=true
+layout_marginleft=15dp</ppt>
+<event></event>
+</View>
+<View id="261" did="259" type="TextView">
+<ppt>width=-2
+height=-2
+text=黄历吉凶
+ut_torightof=260
+layout_margintop=10dp
+textcolor=#FFFFFF
+layout_marginleft=10dp
+layout_marginbottom=5dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="262" did="259" type="TextView">
+<ppt>width=-2
+height=-2
+text=出门看看黄历
+textcolor=#99FFFFFF
+ut_torightof=260
+ut_below=261
+layout_marginleft=10dp
+textsize=12sp
+typeface=monospace</ppt>
+<event></event>
+</View>
+<View id="263" did="223" type="LinearLayout">
+<ppt>width=160dp
+height=-1
+orientation=vertical
+layout_marginleft=10dp
+layout_margintop=5dp
+layout_marginbottom=25dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="264" did="263" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=6dp</ppt>
+<event><eventItme type="clicki">sss wz="https://www.xiaoice.com/LiveStream"
+sss 广告害怕="很害怕"
+uigo("广告.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="265" did="264" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ffaa00ff</ppt>
+<event></event>
+</View>
+<View id="266" did="265" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@Bibi/b3j.v
+ut_centervertical=true
+ut_alignparentleft=true
+layout_marginleft=15dp</ppt>
+<event></event>
+</View>
+<View id="267" did="265" type="TextView">
+<ppt>width=-2
+height=-2
+text=AI直播
+ut_torightof=266
+layout_margintop=10dp
+textcolor=#FFFFFF
+layout_marginleft=10dp
+layout_marginbottom=5dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="268" did="265" type="TextView">
+<ppt>width=-2
+height=-2
+text=永远不关的直播
+textcolor=#99FFFFFF
+ut_torightof=266
+ut_below=267
+layout_marginleft=10dp
+textsize=12sp
+typeface=monospace</ppt>
+<event></event>
+</View>
+<View id="361" did="265" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@sq_list_biaoqian_tj.png
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="304" did="354" type="LinearLayout">
+<ppt>width=-2
+height=-2
+scrollbars=none
+layout_gravity=center
+layout_marginBottom=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="305" did="304" type="TabLayout">
+<ppt>width=-1
+height=-2
+app_tabList=推荐功能|我的收藏|使用须知|贡献列表
+app_tabIndicatorColor=#64B5F6
+app_tabIndicatorWidth=10dp
+tabSelect=0</ppt>
+<event><eventItme type="ontabselected">f(st_tT=="我的收藏")
+{
+fr("$幻隐网络/.临时数据/20.txt",yx)
+f(yx=="11")
+{
+
+//设置提示内容
+s text = "当前已显示本功能"
+//设置提示字体颜色
+s textcolor = "#ff00b2ff"
+//调用函数模块
+fn nvw.tw(text,textcolor)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+}
+else
+{
+  fw("$幻隐网络/.临时数据/20.txt","11")
+us(主页.269,"visibility","visible")
+us(主页.275,"visibility","gone")
+us(主页.20,"visibility","gone")
+us(主页.285,"visibility","gone")
+us(主页.307,"visibility","gone")
+us(主页.308,"visibility","gone")
+fe("$幻隐网络/.收藏/wj.v",sc)
+f(sc=="true")
+{
+   fr("$幻隐网络/.收藏/wj.v",c)
+  f(c=="")
+  {
+  }
+else
+{
+t()
+{
+fr("$幻隐网络/.收藏/wj.v",api)
+sj(api,"【",null,api)
+sl(api,"【",api)
+for(apis;api)
+{
+sj(apis,null,"】",apititle)
+syso(apis)
+sj(apis,"@","@",apilj)
+sj(apis,"{","}",ajj)
+strim(apilj,apilj)
+syso(apilj)
+ula(lo1,6=apititle,13="@a/1/icon_mine_diamonds.v",14=apilj,4=null,19=ajj)
+}
+ufnsui()
+{
+uls(主页.212,lo1,"分类列表.iyu",-1,-2)
+}
+ufnsui()
+{
+us(4, "refreshing", false)
+}
+}
+us(主页.215,"visibility","gone")
+us(主页.212,"visibility","visible")
+}
+else
+{
+us(主页.212,"visibility","gone")
+}
+}
+}
+}
+else f(st_tT=="使用须知")
+{
+fr("$幻隐网络/.临时数据/20.txt",yx)
+f(yx=="3")
+{
+
+//设置提示内容
+s text = "当前已显示本功能"
+//设置提示字体颜色
+s textcolor = "#ff00b2ff"
+//调用函数模块
+fn nvw.tw(text,textcolor)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+}
+else
+{
+  fw("$幻隐网络/.临时数据/20.txt","3")
+  fr("$幻隐网络/.临时数据/97.txt",pd)
+us(主页.275,"visibility","visible")
+us(主页.20,"visibility","gone")
+us(主页.269,"visibility","gone")
+us(主页.285,"visibility","gone")
+us(主页.307,"visibility","gone")
+us(主页.308,"visibility","gone")
+
+f(pd=="1")
+{
+}
+else
+{
+  fw("$幻隐网络/.临时数据/97.txt","1")
+t()
+{
+hs("https://shimo.im/docs/NUDnJnkJErUALI46",api)
+sj(api,"【",null,api)
+sl(api,"【",api)
+for(apis;api)
+{
+sj(apis,null,"】",apititle)
+syso(apis)
+sj(apis,"@","@",apilj)
+sr(apilj,"&lt;p&gt;","\n",apilj)
+sr(apilj,"&lt;/p&gt;","",apilj)
+strim(apilj,apilj)
+syso(apilj)
+ula(list,37=null,4=apititle,8=apilj)
+}
+ufnsui()
+{
+uls(主页.284,list,"问题列表.iyu",-1,-2)
+us(主页.291,"visibility","gone")
+}
+}
+}
+}
+}
+else f(st_tT=="贡献列表")
+{
+fr("$幻隐网络/.临时数据/20.txt",yx)
+f(yx=="4")
+{
+
+//设置提示内容
+s text = "当前已显示本功能"
+//设置提示字体颜色
+s textcolor = "#ff00b2ff"
+//调用函数模块
+fn nvw.tw(text,textcolor)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+}
+else
+{
+  fw("$幻隐网络/.临时数据/20.txt","4")
+  fr("$幻隐网络/.临时数据/98.txt",pd)
+us(主页.20,"visibility","gone")
+us(主页.269,"visibility","gone")
+us(主页.285,"visibility","visibility")
+us(主页.275,"visibility","gone")
+us(主页.307,"visibility","gone")
+us(主页.308,"visibility","gone")
+
+f(pd=="1")
+{
+
+}
+else
+{
+  fw("$幻隐网络/.临时数据/98.txt","1")
+t()
+{
+hs("https://shimo.im/docs/eSZpX7GLAaAsg22h/",api)
+sj(api,"《",null,api)
+sl(api,"《",api)
+for(apis;api)
+{
+sj(apis,null,"》",apititle)
+syso(apis)
+sj(apis,"①","①",tx)
+sj(apis,"②","②",je)
+sj(apis,"③","③",js)
+ss("介绍："+js,js)
+ ss("http://q1.qlogo.cn/g?b=qq&nk="+tx+"&s=100",hd)
+strim(apilj,apilj)
+strim(bt,bt)
+syso(apilj)
+ula(list,4=apititle,8=je,11=js,15=hd,16=tx)
+}
+ufnsui()
+{
+uls(主页.290,list,"贡献列表.iyu",-1,-2)
+us(主页.292,"visibility","gone")
+}
+}
+}
+}
+
+
+}
+else f(st_tT=="推荐功能")
+{
+fr("$幻隐网络/.临时数据/20.txt",yx)
+f(yx=="10")
+{
+
+//设置提示内容
+s text = "当前已显示本功能"
+//设置提示字体颜色
+s textcolor = "#ff00b2ff"
+//调用函数模块
+fn nvw.tw(text,textcolor)
+}
+else
+{
+  fw("$幻隐网络/.临时数据/20.txt","10")
+us(主页.20,"visibility","visible")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+}
+</eventItme></event>
+</View>
+<View id="358" did="354" type="LinearLayout">
+<ppt>width=-1
+height=15dp
+orientation=horizontal
+gravity=center
+ut_alignParentBottom=true
+background=@item_mefragment_head_btn.v</ppt>
+<event></event>
+</View>
+<View id="373" did="354" type="CardView">
+<ppt>width=-2
+height=-2
+ut_alignParentRight=true
+layout_marginTop=5dp
+layout_marginRight=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="376" did="373" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="374" did="376" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=17301567
+layout_marginTop=5dp
+</ppt>
+<event></event>
+</View>
+<View id="375" did="376" type="TextView">
+<ppt>width=-2
+height=-2
+text=感谢使用~
+layout_margin=5dp
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="404" did="354" type="LinearLayout">
+<ppt>width=-1
+height=1dp
+orientation=vertical
+background=white
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="401" did="353" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_below=235
+</ppt>
+<event></event>
+</View>
+<View id="402" did="401" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+BackgroundColor=#220095ff
+layout_marginTop=10dp
+layout_marginBottom=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="403" did="402" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：看到这段文字，证明您没有网络喔~
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#ff006fff
+textIsSelectable=true
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="3" did="353" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+ut_below=401</ppt>
+<event></event>
+</View>
+<View id="20" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="214" did="21" type="LinearLayout">
+<ppt>width=35dp
+height=35dp
+orientation=vertical
+layout_marginleft=5dp
+layout_marginright=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="213" did="214" type="ImageView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+src=@a/1/ico_boy_big.v</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=推荐功能
+textColor=#000000
+layout_weight=1
+textSize=16sp
+</ppt>
+<event></event>
+</View>
+<View id="188" did="21" type="TextView">
+<ppt>width=-2
+height=-2
+text=本设备id：无法检测
+textColor=#000000
+textSize=10sp
+layout_margintop=8dp
+layout_marginleft=12dp
+textStyle=bold
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="388" did="20" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="390" did="388" type="LinearLayout">
+<ppt>width=35dp
+height=35dp
+orientation=vertical
+layout_marginLeft=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="391" did="390" type="ImageView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+src=@a/1/ico_boy_big.v</ppt>
+<event><eventItme type="clicki">fn tool.showbt("固定图.iyu", true)</eventItme></event>
+</View>
+<View id="389" did="388" type="TabLayout">
+<ppt>width=-2
+height=-2
+app_tabList=使用须知|贡献列表
+tabSelect=0
+app_tabIndicatorColor=#ff008cff
+app_tabIndicatorHeight=3.5dp
+app_tabTextColor=#80000000||#ff008cff
+app_tabMode=0
+layout_weight=1</ppt>
+<event><eventItme type="ontabselected">f(st_tT=="使用须知")
+{
+  fr("$幻隐网络/.临时数据/97.txt",pd)
+  us(主页.275,"visibility","visible")
+  us(主页.342,"visibility","gone")
+  us(主页.269,"visibility","gone")
+  us(主页.285,"visibility","gone")
+  us(主页.307,"visibility","gone")
+  us(主页.308,"visibility","gone")
+  
+  f(pd=="1")
+  {
+  }
+  else
+  {
+    fw("$幻隐网络/.临时数据/97.txt","1")
+    fn 聚合.须知()
+  }
+}
+else f(st_tT=="贡献列表")
+{
+  fr("$幻隐网络/.临时数据/98.txt",pd)
+  us(主页.342,"visibility","gone")
+  us(主页.269,"visibility","gone")
+  us(主页.285,"visibility","visibility")
+  us(主页.275,"visibility","gone")
+  us(主页.307,"visibility","gone")
+  us(主页.308,"visibility","gone")
+  
+  f(pd=="1")
+  {
+    
+  }
+  else
+  {
+    fw("$幻隐网络/.临时数据/98.txt","1")
+    sj(sss.bs,"Box贡献者","Box贡献者",wz)
+    sj(wz,"《",null,api)
+    sl(api,"《",api)
+    for(apis;api)
+    {
+      sj(apis,null,"》",apititle)
+      syso(apis)
+      sj(apis,"①","①",tx)
+      sj(apis,"②","②",je)
+      sj(apis,"③","③",js)
+      sj(apis,"④","④",qq)
+      ss("介绍："+js,js)
+      ss("http://q1.qlogo.cn/g?b=qq&nk="+tx+"&s=100",hd)
+      strim(apilj,apilj)
+      strim(bt,bt)
+      syso(apilj)
+      ula(list,4=apititle,8=je,11=js,16=tx,30=hd,26=qq)
+    }
+    ufnsui()
+    {
+      fw("$幻隐网络/gx.v",wz)
+      uls(主页.290,list,"贡献列表.iyu",-1,-2)
+      ug(主页.290,"count",总共)
+      s*(总共,120,总共)
+      ss(总共+"dp",总共)
+      us(主页.290,"height",总共)
+      us(主页.290,"divider","#ff00ff38")
+      us(主页.292,"visibility","gone")
+    }
+  }
+}
+/.else f(st_tT=="黄历吉凶")
+{
+  us(主页.269,"visibility","gone")
+  us(主页.275,"visibility","gone")
+  us(主页.285,"visibility","gone")
+  us(主页.307,"visibility","gone")
+  us(主页.308,"visibility","gone")
+  us(主页.342,"visibility","visible")
+  f(黄历=="有")
+  {
+  }
+  else
+  {
+    ss 黄历="有"
+    time(2,a)
+    t()
+    {
+      ss("http://123.57.34.133:8080/alltool/oldcalendar?urlencode=false&phoneid=2359b3ac4884c932&mDate="+a+"&version=9.0&token=35c8c7bffe9c049d9b50771f3e0d2464",b)
+      ss("幻隐网luo/.缓存/黄历.txt",缓存)
+      fe(缓存,有没有)
+      f(有没有==true)
+      {
+        fr(缓存,c)
+      }
+      else
+      {
+        hs(b,c)
+        fw(缓存,c)
+      }
+      ufnsui()
+      {
+        syso(c)
+        json(c,t)
+        json(t,"get","data",f)
+        json(f,"get","yinli",yl)
+        json(f,"get","wuxing",wx)
+        json(f,"get","chongsha",cs)
+        json(f,"get","baiji",bj)
+        json(f,"get","jishen",js)
+        json(f,"get","yi",yi)
+        json(f,"get","xiongshen",xs)
+        json(f,"get","ji",ji)
+      }
+      ufnsui()
+      {
+        syso(f)
+        syso(yl)
+        syso(wx)
+        syso(cs)
+      }
+      ufnsui()
+      {
+        ss("阳历:"+a+"\n"+"阴历:"+yl+"\n"+"五行:"+wx+"\n"+"冲煞:"+cs+"\n"+"百忌:"+bj+"\n"+"吉神:"+js+"\n"+"适宜:"+yi+"\n"+"凶神:"+xs+"\n"+"忌讳:"+ji,h)
+        syso(h)
+        f(f!=null)
+        {
+          us(主页.347,"text",h)
+        }
+        else
+        {
+          us(主页.347,"text","无法加载")
+        }
+      }
+    }
+  }
+}./
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="405" did="388" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginRight=10dp
+</ppt>
+<event><eventItme type="clicki">us(主页.406,"visibility","visible")
+us(主页.405,"visibility","gone")
+fe("$幻隐网络/固定.png",固定)
+f(固定=="false")
+{
+  t()
+  {
+    hd(sss.主页图, "$幻隐网络/固定.png", true, c)
+    ufnsui()
+    {
+      f(c=="false")
+      {
+        s stop = 2000
+        s text="固定主页图失败~"
+        fn color.ColorToast(text,stop)
+      }
+      else
+      {
+        endutw(vf)
+        us(主页.405,"src","@setting_chk_blue.v")
+        us(主页.405,"visibility","visible")
+        us(主页.406,"visibility","gone")
+      }
+    }
+  }
+}
+else
+{
+  fd("$幻隐网络/固定.png",OK)
+  t()
+  {
+    hs(sss.sjtp,qy)
+    json(qy,js)
+    json(js,"get",sss.sjtp截取,sss.主页图)
+    ufnsui()
+    {
+      us(主页.355,"background",sss.主页图)
+    }
+  }
+  us(主页.405,"visibility","visible")
+  us(主页.406,"visibility","gone")
+  us(主页.405,"src","@setting_chk_gray.v")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="406" did="388" type="GifView">
+<ppt>width=18dp
+height=18dp
+src=@loading-0.gif
+scaletype=fitxy
+layout_marginRight=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="411" did="388" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@lp/player_pause.v
+scaletype=fitxy
+layout_marginRight=10dp
+visibility=gone</ppt>
+<event><eventItme type="clicki">bfvss(主页.410, "ip", c)
+f(c==true)
+{
+  bfvss(主页.410, "pe")
+  sss 主页视频啊="不播放"
+  us(主页.411,"src","@lp/icon.v")
+}
+else
+{
+  bfvss(主页.410, "st")
+  sss 主页视频啊="播放中"
+  us(主页.411,"src","@lp/player_pause.v")
+  t()
+  {
+    w(sss.主页视频啊=="播放中")
+    {
+      bfvss(主页视频.410, "ip", 状态)
+      f(状态==false)
+      {
+        bfvss(主页视频.410, "st")
+      }
+      else
+      {
+      }
+      stop(100)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="23" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+background=white
+
+</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=2dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="396" did="26" type="RecyclerView">
+<ppt>width=-2
+height=-2
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="HorizontalScrollView">
+<ppt>width=-1
+height=-1
+layout_gravity=center
+overScrollMode=never
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=</ppt>
+<event></event>
+</View>
+<View id="362" did="28" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(主页.364, "dh", dh)
+}
+uigo("znz.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="363" did="362" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="364" did="363" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@a/tq/yx1/lantern_privilege.v</ppt>
+<event></event>
+</View>
+<View id="365" did="362" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="366" did="365" type="TextView">
+<ppt>width=-2
+height=-2
+text=迷路指南
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="126" did="28" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp
+visibility=gon</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(主页.127, "dh", dh)
+}
+uigo("图片解压.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="127" did="126" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="128" did="127" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/tq/yx1/mine_icon_activity.v</ppt>
+<event></event>
+</View>
+<View id="129" did="126" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="130" did="129" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片解压
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="325" did="28" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp</ppt>
+<event><eventItme type="clicki">uigo("记账助手.iyu")
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(主页.326, "dh", dh)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="326" did="325" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="327" did="326" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/tq/yx1/lantern_task.v</ppt>
+<event></event>
+</View>
+<View id="328" did="325" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="329" did="328" type="TextView">
+<ppt>width=-2
+height=-2
+text=记账助手
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="382" did="28" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp</ppt>
+<event><eventItme type="clicki">uigo("黑白图片.iyu")
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(主页.383, "dh", dh)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="383" did="382" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="384" did="383" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@fhe.png</ppt>
+<event></event>
+</View>
+<View id="385" did="382" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="386" did="385" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片变灰
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="320" did="28" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp
+visibility=</ppt>
+<event><eventItme type="clicki">f(sss.yckj?"关闭")
+{
+  s stop = 2000
+s text="已经被关闭使用了~~"
+fn color.ColorToast(text,stop)
+}
+else
+{
+t()
+{
+uigo("音乐集市.iyu")
+
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(主页.322, "dh", dh)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+}
+}</eventItme></event>
+</View>
+<View id="321" did="320" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="322" did="321" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/tq/yx1/lantern_activity.v</ppt>
+<event></event>
+</View>
+<View id="323" did="320" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="324" did="323" type="TextView">
+<ppt>width=-2
+height=-2
+text=音乐集市
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="315" did="28" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp</ppt>
+<event><eventItme type="clicki">uigo("浏览器.iyu")
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(主页.316, "dh", dh)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="316" did="315" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="317" did="316" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/tq/yx1/mine_icon_bean_store.v</ppt>
+<event></event>
+</View>
+<View id="318" did="315" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="319" did="318" type="TextView">
+<ppt>width=-2
+height=-2
+text=便捷浏览
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="298" did="28" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(主页.299, "dh", dh)
+}
+sss wz="http://pvp.qq.com/m/m201706/coming/"
+sss 广告害怕="很害怕"
+uigo("广告.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+}
+}
+}</eventItme></event>
+</View>
+<View id="299" did="298" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="300" did="299" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/tq/yx1/mine_icon_downloadgift.v</ppt>
+<event></event>
+</View>
+<View id="301" did="298" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="302" did="301" type="TextView">
+<ppt>width=-2
+height=-2
+text=荣耀爆料
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="146" did="28" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp
+visibility=gon</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(主页.147, "dh", dh)
+}
+sss wz="http://zz.ayjrw.cn"
+sss 广告害怕="不害怕"
+uigo("广告.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="147" did="146" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="148" did="147" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@a/tq/yx1/app_icon.v</ppt>
+<event></event>
+</View>
+<View id="149" did="146" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="150" did="149" type="TextView">
+<ppt>width=-2
+height=-2
+text=网站制作
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="367" did="28" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp</ppt>
+<event></event>
+</View>
+<View id="368" did="367" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="369" did="368" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/tq/yx1/mine_icon_task.v</ppt>
+<event></event>
+</View>
+<View id="370" did="367" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="371" did="370" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="194" did="25" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@a/tq/yx1/label_1_hot.v</ppt>
+<event></event>
+</View>
+<View id="387" did="20" type="ViewPager">
+<ppt>width=-1
+height=140dp
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="200" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="275" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone
+background=white</ppt>
+<event></event>
+</View>
+<View id="397" did="275" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="280" did="397" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+background=white
+gravity=center_vertical
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="281" did="280" type="LinearLayout">
+<ppt>width=35dp
+height=35dp
+orientation=vertical
+layout_marginleft=5dp
+layout_marginright=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="282" did="281" type="ImageView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+src=@a/1/icon_mine_feedback.v</ppt>
+<event></event>
+</View>
+<View id="283" did="280" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用需知
+textColor=#000000
+layout_weight=1
+textSize=16sp
+</ppt>
+<event></event>
+</View>
+<View id="350" did="397" type="RecyclerView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="291" did="397" type="TextView">
+<ppt>width=-2
+height=-2
+text=拼命加载中…
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="285" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone
+background=white</ppt>
+<event></event>
+</View>
+<View id="400" did="285" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="286" did="400" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+background=white
+gravity=center_vertical
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="287" did="286" type="LinearLayout">
+<ppt>width=35dp
+height=40dp
+orientation=vertical
+layout_marginleft=5dp
+layout_marginright=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="288" did="287" type="ImageView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+src=@1b7e209f0d4.png</ppt>
+<event></event>
+</View>
+<View id="289" did="286" type="TextView">
+<ppt>width=-2
+height=-2
+text=贡献榜单
+textColor=#000000
+layout_weight=1
+textSize=16sp
+</ppt>
+<event></event>
+</View>
+<View id="292" did="400" type="TextView">
+<ppt>width=-2
+height=-2
+text=拼命加载中…
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="290" did="400" type="ListView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="342" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone
+background=white</ppt>
+<event></event>
+</View>
+<View id="343" did="342" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+background=white
+gravity=center_vertical
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="344" did="343" type="LinearLayout">
+<ppt>width=35dp
+height=40dp
+orientation=vertical
+layout_marginleft=5dp
+layout_marginright=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="345" did="344" type="ImageView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+src=@Bibi/b3i.v</ppt>
+<event></event>
+</View>
+<View id="346" did="343" type="TextView">
+<ppt>width=-2
+height=-2
+text=黄历吉凶
+textColor=#000000
+layout_weight=1
+textSize=16sp
+</ppt>
+<event></event>
+</View>
+<View id="348" did="342" type="CardView">
+<ppt>width=-1
+height=-1
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginBottom=50dp
+app_CardcornerRadius=10dp
+app_CardElevation=5dp</ppt>
+<event></event>
+</View>
+<View id="349" did="348" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="347" did="349" type="TextView">
+<ppt>width=-2
+height=-2
+text=拼命加载中…
+layout_gravity=center
+textColor=#ff0f0f0f
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="392" did="379" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+gravity=center
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="393" did="392" type="GifView">
+<ppt>width=120dp
+height=120dp
+src=@gif.gif
+layout_marginTop=20dp
+layout_gravity=center
+visibility=</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading"> 
+
+
+
+/.
+
+</eventItme></UIEventset>

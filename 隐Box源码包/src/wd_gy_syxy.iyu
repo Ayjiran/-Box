@@ -1,0 +1,123 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="10" did="2" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="11" did="2" type="TextView">
+<ppt>width=-2
+height=-1
+text=隐私政策
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="17" did="1" type="GifView">
+<ppt>width=120dp
+height=120dp
+src=@gif.gif
+layout_marginTop=20dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="12" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="12" type="ScrollView">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="15" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=15sp
+textIsSelectable=true
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginBottom=30dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+ss(sss.api+"xy.html",协议)
+ss(sss.api+"zc.html",政策)
+t()
+{
+  hs(协议,协议)
+  hs(政策,政策)
+  ss("(html)"+协议,协议)
+  ss("(html)"+政策,政策)
+  ufnsui()
+  {
+    us(17,"visibility","gone")
+    f(sss.协议=="政策")
+    {
+      us(11,"text","隐私政策")
+      us(15,"text",政策)
+    }
+    else
+    {
+      us(11,"text","用户协议")
+      us(15,"text",协议)
+    }
+  }
+}
+/.</eventItme><eventItme type="loadingComplete">/.loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(12,a)
+gvs(16,b)
+javanew(mBs,mB,"Context",activity)
+urvw(16)
+nvw(mBs,12)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)</eventItme></UIEventset>

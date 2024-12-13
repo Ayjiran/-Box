@@ -1,0 +1,241 @@
+<View id="1" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=5dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,25,sss.商品id)
+ulag(st_vW,6,sss.商品名字)
+ulag(st_vW,14,sss.商品金额)
+ulag(st_vW,29,sss.购买输入什么)
+ulag(st_vW,27,sss.商品图片)
+ulag(st_vW,28,商品介绍)
+ss("(html)"+商品介绍,sss.商品介绍)
+ulag(st_vW,17,sss.商品销量)
+gvs(st_vW,商城列表.31,a)
+call(null,"mjava","图片跳转.uigo",a,"image","购买商品.iyu",sss.appbm)
+//uigo("购买商品.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="7" did="8" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@IMG_20210122_223154.png
+scaleType=centercrop
+visibility=gon</ppt>
+<event><eventItme type="clicki">ulag(st_vW,25,sss.商品id)
+ulag(st_vW,6,sss.商品名字)
+ulag(st_vW,14,sss.商品金额)
+ulag(st_vW,29,sss.购买输入什么)
+ulag(st_vW,27,sss.商品图片)
+ulag(st_vW,28,商品介绍)
+ss("(html)"+商品介绍,sss.商品介绍)
+ulag(st_vW,17,sss.商品销量)
+gvs(st_vW,商城列表.31,a)
+call(null,"mjava","图片跳转.uigo",a,"image","购买商品.iyu",sss.appbm)
+//uigo("购买商品.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="31" did="8" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@IMG_20210122_223154.png
+scaleType=centercrop
+visibility=gon</ppt>
+<event><eventItme type="clicki">ulag(st_vW,25,sss.商品id)
+ulag(st_vW,6,sss.商品名字)
+ulag(st_vW,14,sss.商品金额)
+ulag(st_vW,29,sss.购买输入什么)
+ulag(st_vW,27,sss.商品图片)
+ulag(st_vW,28,商品介绍)
+ss("(html)"+商品介绍,sss.商品介绍)
+ulag(st_vW,17,sss.商品销量)
+gvs(st_vW,商城列表.31,a)
+call(null,"mjava","图片跳转.uigo",a,"image","购买商品.iyu",sss.appbm)
+//uigo("购买商品.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=vertical
+background=@item_mefragment_head_btn.v
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐Box会员兑换
+textColor=#ff000000
+layout_marginLeft=5dp
+textSize=15sp
+singleLine=true
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="10" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=金币直购
+layout_marginLeft=5dp
+textSize=12sp
+textColor=#94000000
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="19" did="5" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=horizontal
+layout_marginTop=5dp
+layout_marginLeft=5dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="23" did="19" type="RoundImageView">
+<ppt>width=20dp
+height=20dp
+src=@170837.png</ppt>
+<event></event>
+</View>
+<View id="24" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=幻隐网络科技
+singleLine=true
+ellipsize=end
+layout_marginLeft=5dp
+textColor=#94000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="11" did="5" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+ut_alignParentBottom=true
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="15" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=¥
+layout_marginLeft=5dp
+textColor=#c1c20000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=16.8
+textStyle=bold
+textColor=#c1c20000
+textSize=16sp
+</ppt>
+<event></event>
+</View>
+<View id="16" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=已售
+layout_marginLeft=5dp
+textSize=12sp
+textColor=#94000000
+</ppt>
+<event></event>
+</View>
+<View id="17" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=105
+textSize=12sp
+textColor=#94000000
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="18" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=+份
+textSize=12sp
+textColor=#94000000
+</ppt>
+<event></event>
+</View>
+<View id="25" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="27" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="28" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=介绍
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="29" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=介绍
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,商城列表.1,控件)
+sran(600,430,高度)
+us(控件,"height",高度)
+</eventItme></UIEventset>

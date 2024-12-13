@@ -1,0 +1,94 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+padding=10dp
+background=white</ppt>
+<event><eventItme type="clicki">ulag(st_vW, 3, name)
+ulag(st_vW, 5, name_z)
+ss("$幻隐网络/music/"+name+"["+name_z+"].mp3", music)
+bfms(sss.b, "re")
+bfm(music, sss.b)
+bfms(sss.b, "st")
+us(23,"visibility","gone")
+us(10,"visibility","gone")</eventItme><eventItme type="press">ulag(st_vW, 3, name)
+ulag(st_vW, 5, name_z)
+ss("$幻隐网络/music/"+name+"["+name_z+"].mp3", music)
+fd(music, music_d)
+f(music_d==true)
+{
+  tw("删除成功")
+  ula(sss.music_list, null)
+  fl("$幻隐网络/music/", false, music)
+  f(music!=null&&music!="")
+  {
+    for(download;music)
+    {
+      sj(download, null, "[", name)
+      sj(download, "[", "]", author)
+      f(name!=""&&name!=null)
+      {
+        ula(sss.music_list, 1=null, 2=null, 3=name, 4=null, 5=author)
+      }
+    }
+    uls(5, sss.music_list, "music_xzlb.iyu", -1, -1)
+  }
+  else
+  {
+    us(下载.7, "visibility", "visible")
+  }
+}</eventItme></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=4dp
+height=20dp
+ut_centervertical=true
+background=#ff007aff
+text=</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=歌曲名字
+ut_torightof=2
+ut_centervertical=true
+layout_marginleft=10dp
+textstyle=bold
+singleline=true
+ellipsize=end
+</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=――――
+ut_torightof=3
+ut_centervertical=true
+singleline=true
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=薛之谦
+ut_torightof=4
+ut_centervertical=true
+textstyle=bold
+singleline=true
+ellipsize=end</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

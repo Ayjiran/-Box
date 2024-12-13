@@ -1,0 +1,119 @@
+<View id="16" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="14" did="16" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=获取壁纸
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="15" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="11" did="15" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="13" type="ScrollView">
+<ppt>width=-2
+height=-2
+ut_below=4</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@icon.png
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="13" type="Button">
+<ppt>width=-1
+height=-2
+text=保存
+textColor=#ffffffff
+background=white</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+cls("android.app.WallpaperManager", 壁纸类)
+javax(壁纸管理器, null, 壁纸类, "getInstance", "android.content.Context", activity)
+javax(壁纸, 壁纸管理器, 壁纸类, "getDrawable")
+
+us(6, "src", 壁纸)
+ssj(4, "clicki"){
+  tot(6, 壁纸)
+  bfs(壁纸, 100, "当前壁纸.png")
+  s stop = 2000
+s text="保存成功~"
+fn color.ColorToast(text,stop)
+}
+
+
+
+ s id=14
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(7,颜色)
+fn 着色.控件着色(4,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(2,"background",背景)
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(15,a)
+gvs(11,b)
+javanew(mBs,mB,"Context",activity)
+urvw(11)
+nvw(mBs,15)
+nvw(b,mBs)</eventItme></UIEventset>

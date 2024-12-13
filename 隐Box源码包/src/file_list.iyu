@@ -1,0 +1,59 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=50dp
+height=50dp
+</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@ui/Wjj.v
+padding=3dp</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-1
+height=30dp
+text=文本5
+textsize=15sp
+textcolor=#b7000000
+gravity=left
+singleline=true
+ellipsize=middle
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-1
+height=20dp
+text=文本6
+gravity=left
+textsize=12sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

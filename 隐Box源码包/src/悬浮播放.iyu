@@ -1,0 +1,314 @@
+<View id="30" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=悬浮播放
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=@shxbxjxjxjdb.v
+orientation=vertical</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="9" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=287dp
+gravity=center_horizontal
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="10" type="LinearLayout">
+<ppt>width=-1
+height=35dp
+background=white
+layout_weight=1
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="26" did="12" type="HorizontalScrollView">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="15" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频展示(请先选择文件)
+textsize=17dp
+textcolor=#ff00a4ff
+singleline=true
+layout_marginleft=5dp
+layout_marginright=5dp</ppt>
+<event></event>
+</View>
+<View id="20" did="10" type="LinearLayout">
+<ppt>width=-1
+height=220dp
+background=white
+gravity=center
+layout_weight=1
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="11" did="20" type="VideoView">
+<ppt>width=-1
+height=-1
+layout_weight=1
+</ppt>
+<event></event>
+</View>
+<View id="16" did="10" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+background=white</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ui/Bf.v
+layout_marginleft=10dp
+layout_marginright=10dp</ppt>
+<event><eventItme type="clicki">//开始播放
+bfvss(11, "st")
+
+//来自圣贤教育全球学习网APP，圣贤教育全球学习网 www.sxjyxxw.org</eventItme></event>
+</View>
+<View id="21" did="16" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@ui/Bff.v
+layout_marginleft=10dp
+layout_marginright=10dp</ppt>
+<event><eventItme type="clicki">//暂停播放
+bfvss(11, "pe")
+
+//来自圣贤教育全球学习网APP，圣贤教育全球学习网 www.sxjyxxw.org</eventItme></event>
+</View>
+<View id="22" did="16" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@ui/Fdfd.v
+layout_marginleft=10dp
+layout_marginright=10dp</ppt>
+<event><eventItme type="clicki">//全屏播放
+s b = true
+bfv(sss.bfsp, b)
+</eventItme></event>
+</View>
+<View id="27" did="16" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@cs.txt
+layout_marginleft=10dp
+layout_marginright=10dp
+</ppt>
+<event><eventItme type="clicki">/.
+tw("懸浮播放發现bug，功能暫未開通。")
+./
+f(sss.dqlj == null)
+{
+tw("未检测到有视频正在播放哦！")
+}
+else
+{
+//停止播放
+bfvss(11, "sp")
+sss bfsp = "null"
+
+s url= sss.dqlj
+
+ug(15,"text",xfspbt)
+sss xfspbt = xfspbt
+ends()
+fn xfspbfq1.video(url)
+}
+
+</eventItme></event>
+</View>
+<View id="17" did="10" type="LinearLayout">
+<ppt>width=-1
+height=2dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="23" did="9" type="LinearLayout">
+<ppt>width=-1
+height=283dp
+gravity=center_horizontal
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="ListView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event><eventItme type="clickitem">t()
+{
+ulag(st_vW, st_pN,5, a)
+sss pd = "pd"
+sss wjllqa = a
+f(a=="返回上級目錄…")
+{
+
+slg(sss.file_path,l)
+slof(sss.file_path,"/",l,l1)
+f(l1==0||l1==-1)
+{
+endcode
+}
+ssg(sss.file_path,0,l1,path)
+sss file_path=path
+
+fn spbfqdm.spbfqlb()
+
+endcode
+}
+
+f( ss.a == "幻隐网络")
+{
+ss(sss.file_path+"/"+a,b)
+}
+else
+{
+ss(sss.file_path+a,b)
+ss a = "幻隐网络"
+}
+
+//記錄當前路徑
+f( ss.a == "幻隐网络")
+{
+ss(sss.file_path+"/",jldqlj)
+}
+else
+{
+ss(sss.file_path,jldqlj)
+ss a = "幻隐网络"
+}
+
+
+ufnsui()
+{
+//當前路徑
+sss dqlj = b
+us(10,"text",sss.dqlj)
+fw("幻隐网络/记录/yxkj.vv",jldqlj)
+}
+fi(b,f)
+f(f==true)
+{
+sss file_path=b
+
+fn spbfqdm.spbfqlb()
+
+endcode
+}
+f(f==false&&a*?".mp4")
+{
+ufnsui()
+{
+sss bfsp = sss.dqlj
+bfvs(11, sss.bfsp)
+bfvss(11, "media", c)
+bfvss(11, "st")
+us(15,"text",a)
+}
+}
+}</eventItme><eventItme type="touchmonitor">.</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+//设置SD卡视频文件
+f(sss.bfsp == null||sss.bfsp == "null")
+{
+  }
+else
+{
+us(15,"text",sss.bfspbt)
+bfvs(11, sss.bfsp)
+}
+
+//增加控制器，c为赋值变量
+bfvss(11, "media", c)
+//开始播放
+bfvss(11, "st")
+
+s id = "7|15"
+s lj = "@a/3/font.ttf"
+fn typeface.zt(id,lj)
+
+
+
+ s id=30
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(4,颜色)
+us(15,"textcolor",颜色)
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">
+fr("噗嗤/appsj/ppp",sclllj)
+f(ss.a == "1")
+{
+}
+else
+{
+ss a = "1"
+}
+sss tcjm = "jm"
+fdir(lj)
+ss(lj+"/",lj)
+f(sclllj== null)
+{
+sss file_path=lj
+}
+else
+{
+sss file_path=sclllj
+}
+//当前文件夹路径
+fn spbfqdm.spbfqlb()
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

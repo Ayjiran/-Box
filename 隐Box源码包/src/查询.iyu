@@ -1,0 +1,1389 @@
+<View id="99" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=会员查询
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="37" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="1" did="37" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=#FFFFFF
+</ppt>
+<event>
+</event>
+</View>
+<View id="82" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="24" did="82" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="24" type="RelativeLayout">
+<ppt>
+width=-1
+height=200dp
+background=#FFFFFF
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+ps=背景
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="7" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="7" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="6" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=@c26ff91c6cb.png</ppt>
+<event>
+</event>
+</View>
+<View id="12" did="11" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="12" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+ut_toRightOf=93
+ut_centerVertical=true
+layout_marginLeft=15dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=昵称
+textsize=15sp
+textcolor=#FFFFFF
+textStyle=bold</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=-普通用户-
+textsize=12sp
+textcolor=#FFFFFF
+ut_below=15
+textStyle=bold
+layout_marginTop=5dp</ppt>
+<event>
+</event>
+</View>
+<View id="93" did="12" type="RelativeLayout">
+<ppt>width=60dp
+height=60dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="97" did="93" type="RelativeLayout">
+<ppt>width=60dp
+height=60dp
+layout_margin=1.5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="95" did="97" type="RoundImageView">
+<ppt>src=@170837.png
+width=50dp
+height=50dp
+layout_margin=1.5dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="96" did="93" type="LinearLayout">
+<ppt>width=60dp
+height=60dp
+background=$幻隐网络/txk/txa.png
+layout_margin=1.5dp</ppt>
+<event></event>
+</View>
+<View id="98" did="93" type="GifView">
+<ppt>width=20dp
+height=20dp
+src=@chenghao/noble_emperor_icon.gif
+layout_marginLeft=10dp
+visibility=gone
+ut_alignParentRight=true
+ut_alignParentBottom=true
+layout_marginRight=5dp
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="17" did="11" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+ut_alignParentBottom=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员到期时间
+textColor=#FFFFFF
+textsize=16sp
+layout_marginleft=20dp
+ut_centerVertical=true
+ut_toLeftOf=19
+layout_marginRight=10dp
+ut_alignParentLeft=true
+textIsSelectable=true</ppt>
+<event>
+</event>
+</View>
+<View id="100" did="17" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ui/sx.v
+ut_alignParentBottom=true
+ut_alignParentRight=true
+layout_marginRight=5dp
+layout_marginBottom=5dp</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("@5c8940778039d34149.mp3")
+}
+dhr(dh, 0, 720, 1, 0.5, 1, 0.5)
+
+dh(dh, "duration", 2000)
+
+us(100, "dh", dh)
+us(18,"text","加载中……")
+t()
+{
+  ss(sss.api+"Box/yhcx.php?name="+sss.名称,网址)
+  hs(网址,当前用户数据)
+  sj(当前用户数据,"APP读取【","】",sss.当前用户数据)
+  ufnsui()
+  {
+    sj(sss.当前用户数据,"头像框：","头像框内容结束",txk)
+    us(96,"background",txk)
+    time("Y",a)
+    time("m",m)
+    time("d",D)
+    time("H",e)
+    time("M",l)
+    time("S",v)
+    ss(a+m+D+e+l+v,dqsj)
+    sj(sss.当前用户数据,"会员(",")会员",会员)
+    f(dqsj&gt;会员)
+    {
+      us(98,"visibility","gone")
+      us(18,"text","抱歉，您无会员")
+      ss kz=null
+      us(16,"text","-平民百姓-")
+    }
+    else
+    {
+      dha(dh, true, false)
+      dh(dh, "duration", 500)
+      us(100, "dh", dh)
+      us(100,"visibility","gone")
+      us(101,"visibility","visible")
+      t()
+      {
+        
+        s kj=2
+        
+        s h="@cyun/"
+        for(1;74)
+        {
+          f(kj&lt;10)
+          {
+            ss("0"+kj,kj)
+          }
+          ss(h+"arrow720_0"+kj+".png",oop)
+          ufnsui()
+          {
+            
+            us(101,"background",oop)
+          }
+          s+(1,kj)
+          stop(50)
+        }
+      }
+        sss 刷新一下="刷新"
+        fw("$幻隐网络/.v/xjf.yx",会员)
+        sss topon广告="关闭"
+        sss 我的会员=会员
+      dha(dh, true, true)
+      dh(dh, "duration", 500)
+      us(98, "dh", dh)
+      us(98,"visibility","visible")
+      us(16,"text","-凌云贵族-")
+      ssg(会员, 0, 4, jxb)
+      ssg(会员,4,6,jxc)
+      ssg(会员,6,8,jxd)
+      ssg(会员,8,10,jxe)
+      ssg(会员,10,12,jxf)
+      ssg(会员,12,14,jxg)
+      ss("到期时间："+jxb+"年"+jxc+"月"+jxd+"日",kk)
+      us(18,"text",kk)
+    }
+    us(74,"background",yg)
+  }
+}</eventItme></event>
+</View>
+<View id="22" did="11" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+ut_below=12
+ut_above=17
+gravity=bottom</ppt>
+<event>
+</event>
+</View>
+<View id="78" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=上次充值：暂无记录
+textColor=#FFFFFF
+textsize=16sp
+layout_marginLeft=20dp
+ut_centerVertical=true
+ut_toLeftOf=19
+layout_marginRight=10dp
+ut_alignParentLeft=true
+layout_gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="90" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginTop=30dp</ppt>
+<event></event>
+</View>
+<View id="91" did="90" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@dd/ic_circle_attention_right.png</ppt>
+<event></event>
+</View>
+<View id="89" did="90" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@dd/icon_guide_unlock.png</ppt>
+<event><eventItme type="clicki">ug(18,"text",sss.到期的时候)
+f(sss.游客=="是")
+{
+  s stop = 2000
+  s text="登陆后可解锁"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  uigo("充值.iyu")
+  end()
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="92" did="90" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@dd/ic_circle_attention_left.png</ppt>
+<event></event>
+</View>
+<View id="79" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_marginTop=25dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="27" did="25" type="RelativeLayout">
+<ppt>
+width=-1
+height=45dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="26" did="27" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@a/.zy/nav_select_selected.v
+padding=7dp
+layout_marginLeft=10dp
+ut_centerVertical=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=会员特权
+ut_toRightOf=26
+ut_centerVertical=true
+textColor=#000000
+textSize=16sp
+layout_marginLeft=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="29" did="25" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+ut_below=27
+</ppt>
+<event>
+</event>
+</View>
+<View id="30" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=开通会员可享受本软件内所有功能，激活剩余百+种功能！\n小充娱乐即可拥有本软件VIP服务，经常使用本软件必选\n后续将会推出更多会员服务！
+ut_alignLeft=28
+ut_below=28
+layout_marginLeft=60dp
+textSize=13sp
+layout_marginRight=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="31" did="24" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_marginTop=25dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="32" did="31" type="RelativeLayout">
+<ppt>
+width=-1
+height=45dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="33" did="32" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@a/.zy/nav_manage_selected.v
+padding=7dp
+layout_marginLeft=10dp
+ut_centerVertical=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="34" did="32" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=功能特权
+ut_toRightOf=33
+ut_centerVertical=true
+textColor=#000000
+textSize=16sp
+layout_marginLeft=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="35" did="31" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+ut_below=32
+</ppt>
+<event>
+</event>
+</View>
+<View id="36" did="35" type="TextView">
+<ppt>width=-2
+height=-2
+text=普通用户仅能使用本软件内免费提供的一些资源服务，更多服务功能可能将无法使用，会员可免费享受更多超级功能。
+ut_alignLeft=28
+ut_below=28
+layout_marginLeft=60dp
+textSize=13sp
+layout_marginRight=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="83" did="24" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+layout_marginTop=25dp
+layout_marginBottom=80dp</ppt>
+<event>
+</event>
+</View>
+<View id="84" did="83" type="RelativeLayout">
+<ppt>
+width=-1
+height=45dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="85" did="84" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@6.26/membership_rights_webview_title_consult.png.v
+layout_marginLeft=10dp
+ut_centerVertical=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="86" did="84" type="TextView">
+<ppt>width=-2
+height=-2
+text=注意事项
+ut_toRightOf=85
+ut_centerVertical=true
+textColor=#000000
+textSize=16sp
+layout_marginLeft=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="87" did="83" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+ut_below=84</ppt>
+<event>
+</event>
+</View>
+<View id="88" did="87" type="TextView">
+<ppt>width=-2
+height=-2
+text=软件激活会员后，不可以删除App，如果删除了App后，会员将消失，无法找回，请切记！\n换句话说，只要不删除软件，会员不到期，会员就永远不会消失！\n隐Box官方为您保证，您的账号永远不会被盗！我们在这方面做的特别到位，所以无需担心！
+ut_alignLeft=28
+ut_below=28
+layout_marginLeft=60dp
+textSize=13sp
+layout_marginRight=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="38" did="37" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+background=#60000000
+visibility=gone
+</ppt>
+<event>
+<eventItme type="press">
+us(38,"visibility","gone")
+</eventItme>
+</event>
+</View>
+<View id="39" did="38" type="CardView">
+<ppt>
+width=-1
+height=-2
+app_CardBackgroundColor=#FFFFFF
+app_CardcornerRadius=0dp
+app_CardElevation=0dp
+ut_alignParentBottom=true
+</ppt>
+<event>
+<eventItme type="clicki">
+syso("误触")
+</eventItme>
+</event>
+</View>
+<View id="40" did="39" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="41" did="40" type="RelativeLayout">
+<ppt>
+width=-1
+height=55dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>
+width=-1
+height=1
+ps=分割线
+background=#E1E2E4
+orientation=horizontal
+ut_alignParentBottom=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="41" type="RelativeLayout">
+<ppt>
+width=-2
+height=-2
+ut_centerInParent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="43" did="45" type="ImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@vip (2).png
+ut_centerVertical=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="44" did="45" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=VIP会员
+textColor=#000000
+textSize=16sp
+textStyle=bold
+ut_toRightOf=43
+ut_centerVertical=true
+layout_marginLeft=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="40" type="RelativeLayout">
+<ppt>
+width=-1
+height=50dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="47" did="46" type="ImageView">
+<ppt>
+width=20dp
+height=20dp
+src=@wo.png
+layout_marginLeft=20dp
+ut_centerVertical=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="49" did="46" type="EditText">
+<ppt>
+width=100dp
+height=45dp
+text=
+hint=用户名账号
+ut_toRightOf=47
+layout_marginLeft=15dp
+ut_centerVertical=true
+textSize=13sp
+background=#FFFFFF
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+</eventItme>
+</event>
+</View>
+<View id="50" did="46" type="RelativeLayout">
+<ppt>
+width=100dp
+height=45dp
+ut_alignParentRight=true
+ut_centerVertical=true
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="51" did="50" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=自己购买
+textSize=13sp
+textColor=#F44997
+ut_centerInParent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="52" did="40" type="RelativeLayout">
+<ppt>
+width=-1
+height=50dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="53" did="52" type="ImageView">
+<ppt>
+width=20dp
+height=20dp
+src=@shijian.png
+layout_marginLeft=20dp
+ut_centerVertical=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="54" did="52" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=horizontal
+ut_toRightOf=53
+ut_centerVertical=true
+layout_marginLeft=15dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="55" did="54" type="CardView">
+<ppt>
+width=70dp
+height=30dp
+app_CardBackgroundColor=#F44997
+app_CardcornerRadius=2dp
+app_CardElevation=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="56" did="55" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+<eventItme type="clicki">
+s a = 3
+s b = 5
+s c = "#FFFFFF"
+s d = "#F44997"
+ngde(a, b, c, d, e)
+us(56,"background",e)
+s a = 3
+s b = 5
+s c = "#FFFFFF"
+s d = "#ffc5c5c5"
+ngde(a, b, c, d, e)
+us(59,"background",e)
+s a = 3
+s b = 5
+s c = "#FFFFFF"
+s d = "#ffc5c5c5"
+ngde(a, b, c, d, e)
+us(62,"background",e)
+us(66,"text","688")
+ss rq="1"
+s a = 5
+time(a, b)
+sj(b,null,"年",n)
+sj(b,"年","月",y)
+sj(b,"月","日",r)
+s a=0
+s b=0
+s c=0
+t()
+{
+for(1;1)
+{
+s(y+1,y)
+f(y==13)
+{
+s y=01
+s(n+1,n)
+}
+ss(n+"年"+y+"月"+r+"日",ss.sc)
+}
+ufnsui()
+{
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="57" did="56" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=1个月
+textSize=12sp
+textColor=#000000
+ut_centerInParent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="58" did="54" type="CardView">
+<ppt>
+width=70dp
+height=30dp
+app_CardBackgroundColor=#F44997
+app_CardcornerRadius=2dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="59" did="58" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+<eventItme type="clicki">
+s a = 3
+s b = 5
+s c = "#FFFFFF"
+s d = "#ffc5c5c5"
+ngde(a, b, c, d, e)
+us(56,"background",e)
+s a = 3
+s b = 5
+s c = "#FFFFFF"
+s d = "#F44997"
+ngde(a, b, c, d, e)
+us(59,"background",e)
+s a = 3
+s b = 5
+s c = "#FFFFFF"
+s d = "#ffc5c5c5"
+ngde(a, b, c, d, e)
+us(62,"background",e)
+us(66,"text","2064")
+ss rq="3"
+s a = 5
+time(a, b)
+sj(b,null,"年",n)
+sj(b,"年","月",y)
+sj(b,"月","日",r)
+s a=0
+s b=0
+s c=0
+t()
+{
+for(1;3)
+{
+s(y+1,y)
+f(y==13)
+{
+s y=01
+s(n+1,n)
+}
+ss(n+"年"+y+"月"+r+"日",ss.sc)
+}
+ufnsui()
+{
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="60" did="59" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=3个月
+textSize=12sp
+textColor=#000000
+ut_centerInParent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="61" did="54" type="CardView">
+<ppt>
+width=70dp
+height=30dp
+app_CardBackgroundColor=#F44997
+app_CardcornerRadius=2dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="62" did="61" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+<eventItme type="clicki">
+s a = 3
+s b = 5
+s c = "#FFFFFF"
+s d = "#ffc5c5c5"
+ngde(a, b, c, d, e)
+us(56,"background",e)
+s a = 3
+s b = 5
+s c = "#FFFFFF"
+s d = "#ffc5c5c5"
+ngde(a, b, c, d, e)
+us(59,"background",e)
+s a = 3
+s b = 5
+s c = "#FFFFFF"
+s d = "#F44997"
+ngde(a, b, c, d, e)
+us(62,"background",e)
+us(66,"text","3440")
+ss rq="5"
+s a = 5
+time(a, b)
+sj(b,null,"年",n)
+sj(b,"年","月",y)
+sj(b,"月","日",r)
+s a=0
+s b=0
+s c=0
+t()
+{
+for(1;5)
+{
+s(y+1,y)
+f(y==13)
+{
+s y=01
+s(n+1,n)
+}
+ss(n+"年"+y+"月"+r+"日",ss.sc)
+}
+ufnsui()
+{
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="63" did="62" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=5个月
+textSize=12sp
+textColor=#000000
+ut_centerInParent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="64" did="40" type="RelativeLayout">
+<ppt>
+width=-1
+height=50dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="65" did="64" type="ImageView">
+<ppt>
+width=20dp
+height=20dp
+src=@qian.png
+layout_marginLeft=20dp
+ut_centerVertical=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="66" did="64" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=00
+ut_toRightOf=65
+ut_centerVertical=true
+layout_marginLeft=15dp
+textColor=#F44997
+textSize=16sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="67" did="64" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=金币
+ut_toRightOf=66
+ut_centerVertical=true
+layout_marginLeft=2dp
+textColor=#F44997
+textSize=13sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="68" did="40" type="CardView">
+<ppt>
+width=-1
+height=45dp
+app_CardBackgroundColor=#F44997
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="69" did="68" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+background=through
+</ppt>
+<event>
+<eventItme type="clicki">
+loadjar("vpn.zip",do)
+cls(do,"com.vpnsss.tebu.Vpnios",ai)
+javanew(a,ai)
+javax(ws,a,ai,"isVpnUsed")
+f(ws=="true")
+{
+us(1,"visibility","gone")
+utw(null,"","抓包弹窗警告.iyu",true,v)
+{
+}
+endcode
+}
+else
+{
+}
+t()
+{
+ss("http://sh.mxci.top/hmht/dqp.php?content="+sss.zj+"&Submit=读取",jwz)
+hs(jwz,jkk)
+sj(jkk,"【","〗",sh)
+sj(sh,"《","》",sjb)
+ug(66,"text",sxj)
+f(sjb&gt;sxj||sjb==sxj)
+{
+ufnsui()
+{
+us(71,"visibility","visible")
+us(39,"visibility","gone")
+}
+s-(sjb,sxj,jah)
+sj(jkk,"【","《",qm)
+sj(jkk,"》","〗",hm)
+ss("【"+qm+"《"+jah+"》"+hm+"〗",chsj)
+ss("http://sh.mxci.top/hmht/yhpz.php?content="+chsj+"&na="+sss.zj+"&Submit=修改",ksxj)
+hs(ksxj,xjfh)
+f(xjfh?chsj)
+{
+ufnsui()
+{
+tw("金币扣除成功",0)
+}
+ss("http://sh.mxci.top/hmht/dqp.php?content="+sss.zj+"&Submit=读取",jwz)
+hs(jwz,jkk)
+sj(jkk,"】","〗",shu)
+sj(jkk,"【","】",pp)
+f(pp?"普通用户")
+{
+s a = 5
+time(a, b)
+sj(b,null,"年",n)
+sj(b,"年","月",y)
+sj(b,"月","日",r)
+s a=0
+s b=0
+s c=0
+t()
+{
+for(1;ss.rq)
+{
+s(y+1,y)
+f(y==13)
+{
+s y=01
+s(n+1,n)
+}
+ss(n+"年"+y+"月"+r+"日",ss.sc)
+}
+ss("【"+ss.sc+"】"+shu+"〗",xgs)
+syso(xgs)
+ss("http://sh.mxci.top/hmht/yhpz.php?content="+xgs+"&na="+sss.zj+"&Submit=修改",kxgs)
+hs(kxgs,fhg)
+f(fhg?xgs)
+{
+ufnsui()
+{
+tw("会员开通成功",0)
+us(21,"text","续费")
+us(38,"visibility","gone")
+}
+}
+else
+{
+ufnsui()
+{
+tw("会员开通失败",0)
+us(38,"visibility","gone")
+}
+}
+}
+}
+else
+{
+ss("http://sh.mxci.top/hmht/dqp.php?content="+sss.zj+"&Submit=读取",jwz)
+hs(jwz,jkk)
+sj(jkk,"】","〗",shu)
+sj(jkk,"【","】",pp)
+sj(pp,null,"年",n)
+sj(pp,"年","月",y)
+sj(pp,"月","日",r)
+s a=0
+s b=0
+s c=0
+t()
+{
+for(1;ss.rq)
+{
+s(y+1,y)
+f(y==13)
+{
+s y=01
+s(n+1,n)
+}
+ss(n+"年"+y+"月"+r+"日",ss.sc)
+}
+ss("【"+ss.sc+"】"+shu+"〗",xgs)
+syso(xgs)
+ss("http://sh.mxci.top/hmht/yhpz.php?content="+xgs+"&na="+sss.zj+"&Submit=修改",kxgs)
+hs(kxgs,fhg)
+f(fhg?xgs)
+{
+ufnsui()
+{
+tw("会员开通成功",0)
+us(21,"text","续费")
+us(38,"visibility","gone")
+}
+}
+else
+{
+ufnsui()
+{
+tw("会员开通失败",0)
+us(38,"visibility","gone")
+}
+}
+}
+}
+}
+else
+{
+ufnsui()
+{
+tw("金币扣除失败",0)
+us(38,"visibility","gone")
+}
+}
+}
+else
+{
+ufnsui()
+{
+tw("您的金币不足",0)
+us(38,"visibility","gone")
+}
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="70" did="69" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=立即开通
+textColor=#FFFFFF
+textSize=15sp
+ut_centerInParent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="71" did="38" type="RelativeLayout">
+<ppt>
+width=-2
+height=80dp
+ut_centerInParent=true
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="72" did="71" type="ImageView">
+<ppt>
+width=20dp
+height=20dp
+src=@jiazai.png
+ut_centerInParent=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="73" did="71" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=请稍后..
+textColor=#FFFFFF
+textSize=13sp
+ut_below=72
+layout_marginTop=5dp
+ut_centerHorizontal=true
+</ppt>
+<event>
+</event>
+</View>
+<View id="101" did="37" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=99
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+gvs(89,view)
+javax(null,null,sss.跳动,"start","android.view.View",view,"int","1500","int","1","float","1.1","int","1")
+sj(sss.当前用户数据,"头像框：","头像框内容结束",txk)
+us(96,"background",txk)
+time("Y",a)
+time("m",m)
+time("d",D)
+time("H",e)
+time("M",l)
+time("S",v)
+ss(a+m+D+e+l+v,dqsj)
+sj(sss.当前用户数据,"会员(",")会员",会员)
+f(dqsj&gt;会员)
+{
+  us(98,"visibility","gone")
+}
+else
+{
+  us(98,"visibility","visible")
+}
+us(74,"background",yg)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(1,a)
+gvs(82,b)
+javanew(mBs,mB,"Context",activity)
+urvw(82)
+nvw(mBs,1)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+dht(dh,0,0,-500,0)
+dh(dh,"duration",500)
+dh(dh,"after",true)
+us(10,"dh",dh)</eventItme>
+<eventItme type="loadingComplete">f(sss.游客=="是")
+{
+  us(15,"text","游客")
+  us(78,"text","您无充值记录！")
+  us(18,"text","未登录，您无会员")
+  us(13,"src","@170837.png")
+  us(100,"visibility","gone")
+}
+else
+{
+  s a = 4
+  time(a, sj)
+  us(95,"src",sss.头像)
+  fe("$幻隐网络/记录/时间.txt",有没有)
+  f(有没有=="true")
+  {
+    fr("$幻隐网络/记录/时间.txt",ss)
+    ss("上次充值："+ss,ye)
+    us(78,"text",ye)
+  }
+  else
+  {
+    us(78,"text","您无充值记录！")
+  }
+  dhr(dh,3,360,1,0.5,1,0.5)
+  dh(dh,"duration",800)
+  dh(dh, "repeat", -1)
+  us(72,"dh",dh)
+  ss("昵称："+sss.名称,mz)
+  us(15,"text",mz)
+  time("Y",a)
+  time("m",m)
+  time("d",D)
+  time("H",e)
+  time("M",l)
+  time("S",v)
+  sj(sss.当前用户数据,"头像框：","头像框内容结束",相框)
+  sj(sss.当前用户数据,"会员(",")会员",会员)
+  ss(a+m+D+e+l+v,dqsj)
+  f(dqsj&gt;会员)
+  {
+    f(sss.会员卡券=="开")
+    {
+      us(18,"text","卡券会员您好")
+      ss kz=null
+      us(16,"text","-临时会员-")
+    }
+    else
+    {
+      f(sss.广告会员=="是")
+      {
+        us(18,"text","抱歉，您无会员")
+        ss kz=null
+        us(16,"text","-纯净会员-")
+      }
+      else
+      {
+        us(18,"text","抱歉，您无会员")
+        ss kz=null
+        us(16,"text","-平民百姓-")
+      }
+      
+    }
+  }
+  else
+  {
+    us(100,"visibility","gone")
+    us(16,"text","-凌云贵族-")
+    ssg(会员, 0, 4, jxb)
+    ssg(会员,4,6,jxc)
+    ssg(会员,6,8,jxd)
+    ssg(会员,8,10,jxe)
+    ssg(会员,10,12,jxf)
+    ssg(会员,12,14,jxg)
+    ss("到期时间："+jxb+"年"+jxc+"月"+jxd+"日",kk)
+    us(18,"text",kk)
+  }
+}</eventItme>
+
+<eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

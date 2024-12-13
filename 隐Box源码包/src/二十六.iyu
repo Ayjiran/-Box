@@ -1,0 +1,388 @@
+<View id="14" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=二十六字母
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="79" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="80" did="79" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="80" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="30" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(31)</eventItme></event>
+</View>
+<View id="32" did="30" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(32)</eventItme></event>
+</View>
+<View id="33" did="30" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(33)</eventItme></event>
+</View>
+<View id="48" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(49)</eventItme></event>
+</View>
+<View id="50" did="48" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(50)</eventItme></event>
+</View>
+<View id="51" did="48" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(51)</eventItme></event>
+</View>
+<View id="52" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="53" did="52" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(53)</eventItme></event>
+</View>
+<View id="54" did="52" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(54)</eventItme></event>
+</View>
+<View id="55" did="52" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(55)</eventItme></event>
+</View>
+<View id="56" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(57)</eventItme></event>
+</View>
+<View id="58" did="56" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(58)</eventItme></event>
+</View>
+<View id="59" did="56" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(59)</eventItme></event>
+</View>
+<View id="60" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="61" did="60" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(61)</eventItme></event>
+</View>
+<View id="62" did="60" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(62)</eventItme></event>
+</View>
+<View id="63" did="60" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(63)</eventItme></event>
+</View>
+<View id="64" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="65" did="64" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(65)</eventItme></event>
+</View>
+<View id="66" did="64" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(66)</eventItme></event>
+</View>
+<View id="67" did="64" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(67)</eventItme></event>
+</View>
+<View id="68" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(69)</eventItme></event>
+</View>
+<View id="70" did="68" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(70)</eventItme></event>
+</View>
+<View id="71" did="68" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(71)</eventItme></event>
+</View>
+<View id="72" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(73)</eventItme></event>
+</View>
+<View id="74" did="72" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(74)</eventItme></event>
+</View>
+<View id="75" did="72" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(75)</eventItme></event>
+</View>
+<View id="76" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(77)</eventItme></event>
+</View>
+<View id="78" did="76" type="ImageView">
+<ppt>width=-2
+height=-2
+src=
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn Lottie.startLottie(78)</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=14
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(79,a)
+gvs(80,b)
+javanew(mBs,mB,"Context",activity)
+urvw(80)
+nvw(mBs,79)
+nvw(b,mBs)
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn Lottie.loaddex()</eventItme><eventItme type="loadingComplete">fr("@Box/A.json",data)
+fr("@Box/B.json",ata)
+fr("@Box/C.json",ta)
+fn Lottie.setImageLottie(31,data,0,true)
+fn Lottie.setImageLottie(32,ata,0,true)
+fn Lottie.setImageLottie(33,ta,0,true)
+
+fr("@Box/D.json",1data)
+fr("@Box/E.json",2ata)
+fr("@Box/F.json",3ta)
+fn Lottie.setImageLottie(49,1data,0,true)
+fn Lottie.setImageLottie(50,2ata,0,true)
+fn Lottie.setImageLottie(51,3ta,0,true)
+
+fr("@Box/G.json",11data)
+fr("@Box/H.json",22ata)
+fr("@Box/I.json",33ta)
+fn Lottie.setImageLottie(53,11data,0,true)
+fn Lottie.setImageLottie(54,22ata,0,true)
+fn Lottie.setImageLottie(55,33ta,0,true)
+
+fr("@Box/J.json",1dbata)
+fr("@Box/K.json",2atba)
+fr("@Box/L.json",3tba)
+fn Lottie.setImageLottie(57,1dbata,0,true)
+fn Lottie.setImageLottie(58,2atba,0,true)
+fn Lottie.setImageLottie(59,3tba,0,true)
+
+fr("@Box/M.json",a)
+fr("@Box/N.json",b)
+fr("@Box/O.json",c)
+fn Lottie.setImageLottie(61,a,0,true)
+fn Lottie.setImageLottie(62,b,0,true)
+fn Lottie.setImageLottie(63,c,0,true)
+
+fr("@Box/P.json",d)
+fr("@Box/Q.json",e)
+fr("@Box/R.json",f)
+fn Lottie.setImageLottie(65,d,0,true)
+fn Lottie.setImageLottie(66,e,0,true)
+fn Lottie.setImageLottie(67,f,0,true)
+
+fr("@Box/S.json",i)
+fr("@Box/T.json",o)
+fr("@Box/U.json",p)
+fn Lottie.setImageLottie(69,i,0,true)
+fn Lottie.setImageLottie(70,o,0,true)
+fn Lottie.setImageLottie(71,p,0,true)
+
+fr("@Box/V.json",z)
+fr("@Box/W.json",x)
+fr("@Box/X.json",m)
+fn Lottie.setImageLottie(73,z,0,true)
+fn Lottie.setImageLottie(74,x,0,true)
+fn Lottie.setImageLottie(75,m,0,true)
+
+fr("@Box/Y.json",kk)
+fr("@Box/Z.json",pp)
+fn Lottie.setImageLottie(77,kk,0,true)
+fn Lottie.setImageLottie(78,pp,0,true)
+</eventItme><eventItme type="menu">case 跳动|@ba226578db7.png|1|1:
+fn Lottie.startLottie(31)
+fn Lottie.startLottie(32)
+fn Lottie.startLottie(33)
+fn Lottie.startLottie(49)
+fn Lottie.startLottie(50)
+fn Lottie.startLottie(51)
+fn Lottie.startLottie(53)
+fn Lottie.startLottie(54)
+fn Lottie.startLottie(55)
+fn Lottie.startLottie(57)
+fn Lottie.startLottie(58)
+fn Lottie.startLottie(59)
+fn Lottie.startLottie(61)
+fn Lottie.startLottie(62)
+fn Lottie.startLottie(63)
+fn Lottie.startLottie(65)
+fn Lottie.startLottie(66)
+fn Lottie.startLottie(67)
+fn Lottie.startLottie(69)
+fn Lottie.startLottie(70)
+fn Lottie.startLottie(71)
+fn Lottie.startLottie(73)
+fn Lottie.startLottie(74)
+fn Lottie.startLottie(75)
+fn Lottie.startLottie(77)
+fn Lottie.startLottie(78)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+break</eventItme></UIEventset>

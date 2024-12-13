@@ -1,0 +1,126 @@
+fn sstt(Bsrvvs)
+t()
+{
+  ss("http://api.guaqb.cn/music/music/?input="+Bsrvvs+"&filter=name&type=kugou",text)
+  hs(text,texta)
+  json(texta, jo)
+  syso(jo)
+  //打印json数据
+  json(jo, "list", "data", list)
+  json(list, "size", size)
+  s-(1,size)
+  sran(0,size,size1)
+  json(list, "data", size1, item)
+  
+  //获取歌曲地址
+  json(item, "get", "music", 地址)
+  //获取歌曲名字
+  json(item, "get", "name", 歌名)
+  //获取歌曲歌手名字
+  json(item, "get", "author", 歌手)
+  //获取歌曲封面
+  json(item, "get", "pic", 图片1)
+  ss(歌名+"\n"+歌手,歌名)
+  ss 图片=图片1
+  ss 地址=地址
+  ss sss.名称=歌名
+  ula(ss.lt,8=ss.sss.名称,23=ss.地址,24=ss.图片,15="")
+    ufnsui()
+    {
+      ula(ss.lt)
+      us(12,"text","")
+      us(20,"selection","bottom")
+    }
+}
+end fn
+
+fn cqtp(nr)
+f(nr?"动漫")
+{
+  t()
+  {
+    hs("http://api.btstu.cn/sjbz/?lx=m_dongman&format=json",to)
+    f(to==null)
+    {
+      ula(ss.lt,24="",15="",8="图片加载失败，请检查网络!")
+      ula(ss.lt)
+      ufnsui()
+      {
+        us(12,"text","")
+        us(20,"selection","bottom")
+      }
+    }
+    else
+    {
+      json(to, jo)
+      json(jo, "get", "imgurl",图片)
+      ula(ss.lt,24="",31=图片,8="动漫图片点击可下载",23="",15="")
+      ufnsui()
+      {
+        ula(ss.lt)
+        us(12,"text","")
+        us(20,"selection","bottom")
+      }
+    }
+  }
+}
+else f(nr?"美女")
+{
+  t()
+  {
+    hs("http://api.btstu.cn/sjbz/?lx=m_meizi&format=json",to)
+    f(to==null)
+    {
+      ula(ss.lt,24="",15="",8="图片加载失败，请检查网络!")
+      ula(ss.lt)
+      ufnsui()
+      {
+        us(12,"text","")
+        us(20,"selection","bottom")
+      }
+    }
+    else
+    {
+      json(to, jo)
+      json(jo, "get", "imgurl",图片)
+      ula(ss.lt,24="",31=图片,8="美女图片点击可下载",23="",15="")
+      ufnsui()
+      {
+        ula(ss.lt)
+        us(12,"text","")
+        us(20,"selection","bottom")
+      }
+    }
+  }
+}
+else
+{
+  t()
+  {
+    //随机壁纸
+    hs("http://api.btstu.cn/sjbz/?lx=m_suiji&format=json",to)
+    f(to==null)
+    {
+      ula(ss.lt,24="",15="",8="图片加载失败，请检查网络!")
+      ula(ss.lt)
+      ufnsui()
+      {
+        us(12,"text","")
+        us(20,"selection","bottom")
+      }
+    }
+    else
+    {
+      json(to, jo)
+      json(jo, "get", "imgurl",图片)
+      ula(ss.lt,24="",31=图片,8="随机图片点击可下载",23="",15="")
+      ufnsui()
+      {
+        ula(ss.lt)
+        us(12,"text","")
+        us(20,"selection","bottom")
+      }
+    }
+  }
+}
+end fn

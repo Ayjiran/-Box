@@ -1,0 +1,107 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=80dp
+height=45dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp
+layout_marginBottom=8dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundColor=#F5F5F5
+gravity=center
+BackgroundRipple=#E8EAF6</ppt>
+<event><eventItme type="clicki">
+ulag(st_vW,5,a)
+ulag(st_vW,4,J)
+ss(sss.sqb+J+".mp4",sss.mz)
+syso(a)
+ ulag(st_vW,5,sss.url)
+f(sss.url=="")
+{
+s stop = 2000
+s text="地址为空，无法播放"
+fn color.ColorToast(text,stop)
+}
+else
+{
+sss dz=sss.url
+uigo("视频播.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme><eventItme type="press">
+
+
+/.javanew(ss.弹窗,"android.support.design.widget.BottomSheetDialog","Context",activity)
+nvw(-1,null,"线性布局","width=-1\nheight=-1\norientation=vertical\nbackgroundcolor=0",载体)
+addv(载体,"辅助.iyu")
+gvs(载体,辅助.2,p)
+//gvs(载体,辅助.1,g)
+//us(g,"url",sss.tx)
+java(null,ss.弹窗,"android.app.Dialog.setContentView","android.view.View",载体)
+java(null,ss.弹窗,"android.app.Dialog.setCancelable","boolean",true)
+java(null,ss.弹窗,"android.app.Dialog.setCanceledOnTouchOutside","boolean",true)
+java(delegate,ss.弹窗,"com.google.android.material.bottomsheet.BottomSheetDialog")
+javags(id,null,"android.support.design.R$id","design_bottom_sheet")
+java(弹窗根控件,delegate,"android.support.v7.app.AppCompatDelegate.findViewById","int",id)
+us(弹窗根控件,"backgroundcolor",0)
+java(null,ss.弹窗,"android.app.Dialog.show")
+javags(behavior,ss.弹窗,"android.support.design.widget.BottomSheetDialog","mBehavior")
+java(null,behavior,"android.support.design.widget.BottomSheetBehavior.setState","int",3)
+
+
+
+/.tw("读取视频中，请耐心等待…",0)
+ulag(st_vW,5,sss.url)
+f(sss.url==""){
+tw("地址空")
+}else{
+sss 视频地址=sss.url
+
+uigo("play.iyu")
+}</eventItme></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中
+textColor=#2c2c2c
+textSize=14sp</ppt>
+<event></event>
+</View>
+<View id="5" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本5
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

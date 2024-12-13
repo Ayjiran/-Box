@@ -1,0 +1,168 @@
+<View id="4" did="0" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=图片查看
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="9" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=
+layout_weight=1
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/personal_icon_download.v
+layout_gravity=center
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">sran(1,99999,i)
+  ss("幻隐网luo/论坛图片"+i+".png",path)
+  ss("已经保存到隐Box-本地文件-论坛图片"+i+"中",text)
+  t()
+  {
+    hd(sss.wj,path,c)
+    ufnsui()
+    {
+      s stop = 2000
+      fn color.ColorToast(text,stop)
+      us(8,"visibility","gone")
+    }
+  }</eventItme></event>
+</View>
+<View id="7" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="3" type="ImageView">
+<ppt>width=-1
+height=-2
+src=@dd/xmly_auth_sdk_empty_failed.png
+layout_margin=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+gvs(3,a)
+call(null,"mjava","图片跳转.set",a)
+us(4,"background",yg)
+f(sss.页来=="是")
+{
+  s wj=sss.tx
+  us(6,"text",sss.tx)
+}
+else
+{
+ss("/storage/emulated/0/"+sss.wj,wj)
+us(6,"text",sss.wj)
+}
+// us(12,"src",wj)
+ loadjar("fd.dex",a)
+.导入包
+cls(a,"com.bm.library.PhotoView",cls)
+.获取类
+javanew(kj,cls,"Context",activity)
+.初始化类
+gvs(3,aaa)
+javax(null,aaa,"android.view.ViewGroup","addView","android.view.View",kj)
+s tp=wj
+us(kj,"src",tp)
+us(kj,"width",-1)
+us(kj,"height",-1)
+javax(null,kj, cls, "enable")
+.启用缩放功能
+/.
+javax(null,kj, cls, "disenable")
+.禁用缩放功能
+./
+javax(null,kj, cls, "enableRotate")
+.启用图片旋转
+/.
+javax(null,kj, cls, "disenableRotate")
+.禁用图片旋转
+./
+
+javax(null,kj, cls, "setMaxScale","float","4")
+.设置最大可以缩放的倍数
+javax(bs,kj, cls, "getMaxScale")
+.获取最大可以缩放的倍数
+ss("最大可以缩放的的倍数为"+bs+"倍",bs)
+syso(bs)
+
+javax(bs,kj, cls, "getDefaultAnimaDuring")
+.获取默认动画的持续时间
+ss("动画的默认持续时间为"+bs+"毫秒",bs)
+syso(bs)
+
+javax(null,kj, cls, "setAnimaDuring","int","1000")
+.设置动画的持续时间 单位:毫秒
+javax(bs,kj, cls, "getAnimaDuring")
+.获取动画的持续时间
+ss("动画的持续时间为"+bs+"毫秒",bs)
+syso(bs)
+/.
+
+</eventItme><eventItme type="loadingComplete">f(sss.网络图片=="是")
+{
+  us(8,"visibility","visible")
+}
+else
+{
+  us(8,"visibility","gone")
+}</eventItme><eventItme type="destroy">sss 页来=""
+sss 网络图片=""</eventItme></UIEventset>

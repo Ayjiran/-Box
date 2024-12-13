@@ -1,0 +1,103 @@
+fn zh(so)
+t()
+{
+  sj(sss.全部功能,"《",null,api)
+  sl(api,"《",api)
+  for(apis;api)
+  {
+    f(apis?so)
+    {
+      ss("&lt;font color=\"red\"&gt;"+so+"&lt;/font&gt;",变色)
+      sj(apis,null,"》",apititle)
+      syso(apis)
+      sj(apis,"[","]",apilj)
+      sj(apis,"【","】",bt)
+      sj(apis,"〖","〗",jm)
+      sj(apis,"{","}",ycgn)
+      sj(apis,"灰产","灰产",灰有)
+      ss("(html)"+apititle,apititle)
+      sr(apititle,so,变色,apititle)
+      ss("(html)"+apilj,apilj)
+      sr(apilj,so,变色,apilj)
+      strim(apilj,apilj)
+      strim(bt,bt)
+      syso(apilj)
+      sj(sss.bs,"灰产(",")灰产",灰产)
+      f(灰产?"开")
+      {
+        f(灰有?"是")
+        {
+        }
+        else
+        {
+          ula(list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+        }
+      }
+      else
+      {
+        ula(list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+      }
+    }
+    ufnsui()
+    {
+      t()
+      {
+        ufnsui()
+        {
+          uls(广场.4,list,"功能list.iyu",-1,-2)
+        }
+      }
+    }
+  }
+}
+end fn
+
+fn 标签(so)
+t()
+{
+  sj(sss.全部功能,"《",null,api)
+  sl(api,"《",api)
+  for(apis;api)
+  {
+    f(apis?so)
+    {
+      ss("&lt;font color=\"red\"&gt;"+so+"&lt;/font&gt;",变色)
+      sj(apis,null,"》",apititle)
+      syso(apis)
+      sj(apis,"[","]",apilj)
+      sj(apis,"【","】",bt)
+      sj(apis,"〖","〗",jm)
+      sj(apis,"{","}",ycgn)
+      sj(apis,"灰产","灰产",灰有)
+      strim(apilj,apilj)
+      strim(bt,bt)
+      syso(apilj)
+      sj(sss.bs,"灰产(",")灰产",灰产)
+      f(灰产?"开")
+      {
+        f(灰有?"是")
+        {
+        }
+        else
+        {
+          ula(list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+        }
+      }
+      else
+      {
+        ula(list,1=null,2=apititle,3=apilj,11=ycgn,5=null,6=jm,4=bt)
+      }
+    }
+    ufnsui()
+    {
+      t()
+      {
+        ufnsui()
+        {
+          uls(广场.4,list,"功能list.iyu",-1,-2)
+        }
+      }
+    }
+  }
+}
+end fn

@@ -1,0 +1,13 @@
+<View id="1" did="0" type="EditText">
+<ppt>width=-2
+height=-2
+text=文本框1</ppt>
+<event></event>
+</View>
+<View id="2" did="0" type="Button">
+<ppt>width=-2
+height=-2
+text=按钮2</ppt>
+<event><eventItme type="clicki">end(zhu.iyu)</eventItme></event>
+</View>
+<UIEventset></UIEventset>

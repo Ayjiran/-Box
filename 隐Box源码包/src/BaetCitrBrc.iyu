@@ -1,0 +1,289 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+BackgroundColor=#ffffff</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=top</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="28" did="11" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="13" did="28" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=6dp
+layout_marginLeft=15dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginRight=0dp
+app_CardBackgroundColor=#ff04da73
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=right
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-1
+height=-1
+text=你好，Box~
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="18" did="14" type="ImageView">
+<ppt>width=120dp
+height=200dp
+src=%QQBrowser/图片收藏/c1d85f3609d0593fb76c7d16cbf55d6f.jpg
+visibility=gone
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="32" did="13" type="ImageView">
+<ppt>width=20dp
+height=15dp
+src=@ggvchhB.png</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="ImageView">
+<ppt>width=10dp
+height=8dp
+src=@cccc11.html
+layout_marginTop=10dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="37" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="38" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=top</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="CardView">
+<ppt>width=45dp
+height=45dp
+app_CardcornerRadius=6dp
+layout_margin=3dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@icon.png
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="26" did="5" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="ImageView">
+<ppt>width=10dp
+height=8dp
+src=@cccc22.html
+layout_marginTop=15dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="6" did="26" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=6dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginRight=10dp
+app_CardBackgroundColor=#ff00aeff
+layout_weight=1</ppt>
+<event><eventItme type="clicki">ulag(st_vW,23,ss.kk)
+f(ss.kk?"null"||ss.kk=="")
+{
+//
+}
+else
+{
+t()
+{
+hs("https://baidu.com/",jc)
+f(jc=="null")
+{
+ufnsui()
+{
+  tw("网络错误!播放失败!")
+}
+}
+else
+{
+ufnsui()
+{
+tw("音乐播放中，请稍后")
+}
+bfms(sss.ip,"sp")
+gvs(st_vW,BaetCitrBrc.20,bb)
+syso(bb)
+bfm(ss.kk,sss.ip)
+bfms(sss.ip,"st")
+}
+}
+}
+
+ulag(st_vW,31,vvse)
+f(vvse?"htt")
+{
+ufnsui()
+{
+  tw("下载中",0)
+}
+sran(10000,20000,bsella)
+ss("%侠客/下载的壁纸/"+"zho_guo_xia_ke_"+bsella+".png",lj)
+t()
+{
+hd(vvse,lj,YhhcvgffKabbbR)
+f(YhhcvgffKabbbR==0)
+{
+ ufnsui()
+ {
+   tw("已下载，请到侠客文件夹查看")
+ }
+}
+else f(YhhcvgffKabbbR==-1)
+{
+  ufnsui()
+  {
+    tw("下载图片失败请稍后再试!")
+  }
+}
+else
+{
+  ufnsui()
+  {
+    tw("请检查网络是否正常!")
+  }
+}
+}
+}</eventItme></event>
+</View>
+<View id="9" did="6" type="LinearLayout">
+<ppt>width=-2
+height=-1
+gravity=right
+padding=8dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="9" type="TextView">
+<ppt>width=-1
+height=-1
+text=加载失败
+textColor=#ffffffff
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="23" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本23
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="24" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="25" did="9" type="ImageView">
+<ppt>width=80dp
+height=80dp
+src=%GCM一仙/项目管理/com.nnu/res/.7a2958aa3ed1a818c3b0c6258b938107
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="33" did="9" type="RelativeLayout">
+<ppt>width=130dp
+height=260dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="GifView">
+<ppt>width=-1
+height=-1
+src=@jiazai.gif
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="36" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="30" did="33" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="31" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本31图片地址
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

@@ -1,0 +1,117 @@
+<View id="4" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="11" did="4" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=心情解压
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="9" did="4" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(1,"background",yg)
+
+loadjar("fd.dex",a)
+.导入包
+cls(a,"com.bm.library.PhotoView",cls)
+.获取类
+javanew(kj,cls,"Context",activity)
+.初始化类
+gvs(9,aaa)
+javax(null,aaa,"android.view.ViewGroup","addView","android.view.View",kj)
+s tp="@gg.v"
+us(kj,"src",tp)
+us(kj,"width",-1)
+us(kj,"height",-1)
+javax(null,kj, cls, "enable")
+.启用缩放功能
+/.
+javax(null,kj, cls, "disenable")
+.禁用缩放功能
+./
+javax(null,kj, cls, "enableRotate")
+.启用图片旋转
+/.
+javax(null,kj, cls, "disenableRotate")
+.禁用图片旋转
+./
+
+javax(null,kj, cls, "setMaxScale","float","4")
+.设置最大可以缩放的倍数
+javax(bs,kj, cls, "getMaxScale")
+.获取最大可以缩放的倍数
+ss("最大可以缩放的的倍数为"+bs+"倍",bs)
+syso(bs)
+
+javax(bs,kj, cls, "getDefaultAnimaDuring")
+.获取默认动画的持续时间
+ss("动画的默认持续时间为"+bs+"毫秒",bs)
+syso(bs)
+
+javax(null,kj, cls, "setAnimaDuring","int","1000")
+.设置动画的持续时间 单位:毫秒
+javax(bs,kj, cls, "getAnimaDuring")
+.获取动画的持续时间
+ss("动画的持续时间为"+bs+"毫秒",bs)
+syso(bs)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">s id=11
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)</eventItme><eventItme type="menu">case 字母跳动:
+uigo("二十六.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break
+case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break
+</eventItme></UIEventset>

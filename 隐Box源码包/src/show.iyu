@@ -1,0 +1,216 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=8dp
+padding=10dp
+layout_marginTop=15dp
+app_CardBackgroundColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="5" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=文件sss.名称：
+textColor=#ff3c3c3c
+textSize=15dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=文件大小：
+textColor=#ff3c3c3c
+layout_marginTop=10dp
+textSize=15dp</ppt>
+<event></event>
+</View>
+<View id="10" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=</ppt>
+<event></event>
+</View>
+<View id="19" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=更新时间：
+textColor=#ff3c3c3c
+layout_marginTop=10dp
+textSize=15dp</ppt>
+<event></event>
+</View>
+<View id="20" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=
+textColor=#E91E63</ppt>
+<event><eventItme type="clicki">ug(15,"text",cl)
+sxb(cl)
+tw("已写入到剪切板",0)</eventItme></event>
+</View>
+<View id="14" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=磁力：
+textColor=#ff3c3c3c
+layout_marginTop=10dp
+textSize=15dp</ppt>
+<event></event>
+</View>
+<View id="15" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=
+textColor=#E91E63</ppt>
+<event><eventItme type="clicki">ug(15,"text",cl)
+sxb(cl)
+tw("已写入到剪切板",0)</eventItme></event>
+</View>
+<View id="17" did="6" type="CardView">
+<ppt>width=-2
+height=-2
+layout_gravity=center
+app_CardcornerRadius=10
+app_CardElevation=8
+Layout_marginTop=5dp
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="16" did="17" type="TextView">
+<ppt>width=150dp
+height=50dp
+gravity=center
+text=解析播放
+textColor=#ff0a0a0a
+background=through
+</ppt>
+<event><eventItme type="clicki">//检测抓包
+fn get_data.vpn()
+f(ss.isVPNOpen)
+{
+  utw("","警告","检测到数据被抓包，请立即关闭抓包！","确定",true,v)
+  {
+    end()
+  }
+  endcode
+}
+
+utw("","","utw_jiazai.iyu","",false,v)
+{
+}
+t()
+{
+  hs(sss.url, null, "utf-8",null , true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN", back)
+  f(back==null)
+  {
+    endutw()
+    tws(null,"解析失败！",-1)
+    endcode
+  }
+  //syso(back)
+  sj(back,"solid;\" href=\"","\"&gt;",url2)
+  syso(url2)
+  hs(url2, null, "utf-8",null , true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN", vb)
+  //syso(vb)
+  f(vb==null||vb?"失败")
+  {
+    endutw()
+    tws(null,"解析失败！",-1)
+    endcode
+  }
+  endutw()
+  sj(vb,"&lt;source src=\"","\"",sss.videourl)
+
+  f(sss.videourl?"http")
+  {
+    bfv(sss.videourl,true)
+    ufnsui()
+    {
+      tw("视频解析成功，")
+    }
+  }
+  else
+  {
+    tws(null,sss.videourl,-1)
+  }
+  syso(sss.videourl)
+
+  
+
+}</eventItme></event>
+</View>
+<View id="18" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐云搜搜 中搜索的资源均来自DHT网络蜘蛛，我们从未存储任何信息，我们不对搜索内容负责。
+layout_margin=15dp
+textColor=#ffc7c7c7</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+//设置状态栏透明(沉浸式)
+java(null, cs, "android.view.Window.addFlags", "int", "67108864")
+
+
+us(7,"text",sss.title)
+us(10,"text",sss.size)
+us(15,"text",sss.cl)
+us(20,"text",sss.update)
+
+
+utb(3)
+
+
+s id = 3
+utb("set", "dshe", true)
+
+//设置左图标，可以设置事件监听
+utb("left", id, "@ad_close_btn_press.v")
+
+//设置左图标的点击事件，注意此代码需在 utb(id) 后，否则事件将无效。
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  end()
+}
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

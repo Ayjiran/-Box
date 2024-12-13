@@ -1,0 +1,246 @@
+<View id="21" did="0" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="23" did="21" type="TextView">
+<ppt>width=-2
+height=-1
+text=加载中…
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+ellipsize=marquee
+//文本超长显示方式 跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数 无限∞重复
+focusableintouchmode=true
+//获取焦点
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="24" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+//visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="6" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@12505.jpg
+scaleType=fitstart
+</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+//ut_alignTop=2
+//layout_marginTop=350dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=0dp
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="9" did="5" type="ScrollView">
+<ppt>width=-1
+height=-1
+ut_below=7</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="15" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_below=11
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="18" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=   您可以在视频中切换播放器模式(上下滑动查看全部)
+textSize=10sp
+textColor=#ffff0018</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="RecyclerView">
+<ppt>width=-1
+height=-2
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margin=10dp
+ut_below=19</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=剧情介绍：
+textColor=#2c2c2c</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中…
+layout_marginTop=10dp
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="19" did="10" type="ScrollView">
+<ppt>width=-1
+height=100dp
+ut_alignParentTop=true
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="8" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中…
+layout_margin=10dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="20" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=幻隐网络-影视科技
+textColor=#ff424242
+ut_below=15
+ut_centerInParent=true
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(21,"background",yg)
+t()
+{
+  hs(sss.url,ym)
+  sj(ym,"&lt;img class=\"lazy\" src=\"","\" alt=",img)
+  sj(ym,"&lt;div class=\"vodinfobox\"&gt;","&lt;div class=\"jjText\"&gt;",js)
+  sj(ym,"&lt;h2&gt;","&lt;/h2&gt;",bt)
+  sj(ym,"&lt;!-- &lt;span class=\"more\" txt=\"","\"&gt;",o)
+  ufnsui()
+  {
+    us(23,"text",bt)
+    ss("(html)"+js,jss)
+    us(8,"text",jss)
+    us(13,"text",o)
+    
+loadjar("a.dex",包)
+cls(包,"com.bumptech.glide.Glide",类)
+gvs(17,对象)
+javax(加载器,null,类,"with","android.app.Activity",activity)
+s 链接=img
+call(null,"mjava","Glide.加载",加载器,对象,链接)
+
+  }
+}
+
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">
+f(sss.fdsx=="开启")
+{
+  //隐藏放大缩小按钮
+ gvs(1,对象)
+call(null,"mjava","测试1.显示",对象)
+}
+
+t()
+{
+hs(sss.url,x)
+sj(x,"&lt;h3&gt;播放类型：&lt;span class=\"suf\"&gt;ckm3u8&lt;/span&gt;&lt;/h3&gt;","&lt;div class=\"ibox playBox\"&gt;",x)
+sl(x,"&lt;li&gt;",x)
+for(b;x)
+{
+sj(b,"value=\"","\" checked=",m3u8)
+sj(b,"checked=\"\" /&gt;","$",ji)
+f(m3u8!=null)
+{
+ula(dianyingxqlb,1=null,4=ji,5=m3u8)
+}
+}
+ufnsui()
+{
+uls(16,dianyingxqlb,"dianyingxqlb.iyu",-1,-2)
+
+gvs(16,对象)
+cls("androidx.recyclerview.widget.RecyclerView",列表类)
+cls("android.support.v7.widget.StaggeredGridLayoutManager",布局管理类)
+javanew(布局,布局管理类,"int",4,"int",1)
+javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+
+}
+}
+./
+
+//下载
+</eventItme></UIEventset>

@@ -1,0 +1,172 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=房屋总价:</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=
+ut_torightof=3
+ut_toleftof=6
+background=white
+singleline=true
+gravity=right
+digits=0123456789.
+maxlength=10
+textsize=14dp</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+ut_alignparentright=true
+layout_marginright=20dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=万元</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#e0e0e0e0
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=房屋面积:</ppt>
+<event></event>
+</View>
+<View id="13" did="10" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+hint=
+ut_torightof=11
+ut_toleftof=14
+background=white
+singleline=true
+gravity=right
+digits=0123456789.
+maxlength=10
+textsize=14dp</ppt>
+<event></event>
+</View>
+<View id="14" did="10" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+ut_alignparentright=true
+layout_marginright=20dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=㎡</ppt>
+<event></event>
+</View>
+<View id="16" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_margintop=20dp
+layout_marginleft=15dp
+layout_marginright=15dp
+background=through</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="TextView">
+<ppt>width=-1
+height=-1
+text=计 算
+gravity=center
+textcolor=#f6f6f6f6
+textsize=16dp
+backgroundcolor=#ff0099ec</ppt>
+<event><eventItme type="clicki">ug(xff.5,"text",fwzj)
+ug(xff.13,"text",fwmj)
+
+f(fwzj==""||fwmj=="")
+{
+tw("请输入完整")
+}
+else
+{
+s2(fwzj*10000,fwzjj)
+//syso(fwzjj)
+s2(fwzjj/fwmj,fwdj)
+ss("房屋单价:"+fwdj+"元/㎡",tw)
+utw(null,"计算结果",tw,"复制","取消",false,v)
+{
+  sxb(tw)
+}
+else
+{
+}
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

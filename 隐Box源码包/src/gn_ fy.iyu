@@ -1,0 +1,311 @@
+<View id="32" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=在线翻译
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_margin=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="22" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="22" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入需要翻译的内容！
+background=null
+textSize=14sp
+padding=10dp
+textCursorDrawable=#FF2196F3
+typeface=serif</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#eeeeee</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="Spinner">
+<ppt>width=-1
+height=45dp</ppt>
+<event><eventItme type="onitemselected">ug(10,"selecteditem",nr)
+f(nr=="自动检测")
+{
+ss bs="AUTO"
+}
+f(nr=="中文→英语")
+{
+ss bs="ZH_CN2EN"
+}
+f(nr=="中文→日语")
+{
+ss bs="ZH_CN2JA"
+}
+f(nr=="中文→韩语")
+{
+ss bs="ZH_CN2KR"
+}
+f(nr=="中文→法语")
+{
+ss bs="ZH_CN2FR"
+}
+f(nr=="中文→俄语")
+{
+ss bs="ZH_CN2RU"
+}
+f(nr=="中文→西语")
+{
+ss bs="ZH_CN2SP"
+}
+f(nr=="英语→中文")
+{
+ss bs="EN2ZH_CN"
+}
+f(nr=="日语→中文")
+{
+ss bs="JA2ZH_CN"
+}
+f(nr=="韩语→中文")
+{
+ss bs="KR2ZH_CN"
+}
+f(nr=="法语→中文")
+{
+ss bs="FR2ZH_CN"
+}
+f(nr=="俄语→中文")
+{
+ss bs="RU2ZH_CN"
+}
+f(nr=="西语→中文")
+{
+ss bs="SP2ZH_CN"
+}</eventItme></event>
+</View>
+<View id="13" did="4" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginTop=5dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#eeeeee</ppt>
+<event></event>
+</View>
+<View id="11" did="13" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=vertical
+gravity=center
+background=selectableitem
+</ppt>
+<event><eventItme type="clicki">ug(7,"text",a)
+f(a=="")
+{
+tw("请输入内容")
+}
+else
+{
+t()
+{
+ss("http://fanyi.youdao.com/translate?&doctype=json&type="+ss.bs+"&i="+a,nr)
+hs(nr,nr)
+sj(nr,"tgt","}",nr)
+sr(nr,"\"","",nr)
+sr(nr,":","",nr)
+ufnsui()
+{
+us(16,"text",nr)
+}
+}
+}</eventItme></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=翻译内容
+textColor=#ffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="14" did="4" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+</ppt>
+<event></event>
+</View>
+<View id="28" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="28" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=翻译完成之后的内容！
+background=null
+textSize=14sp
+padding=10dp
+textCursorDrawable=#FF2196F3
+typeface=serif</ppt>
+<event></event>
+</View>
+<View id="17" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_content_copy.png
+ut_centerVertical=true
+layout_margin=10dp
+background=selectableitemborderless
+clickable=true
+ut_alignParentLeft=true
+padding=4dp</ppt>
+<event><eventItme type="clicki">ug(16,"text",nr)
+f(nr=="")
+{
+s text="无复制内容！"
+s bkground="#a1000000"
+s dy="4"
+s time="2000"
+s textcolor="#fffff2fe"
+s textsize="13"
+s as = 0
+s bs = 5
+s ds = "#00000000"
+s gr="top"
+s ju="30"
+fn tw.we(text,time,bkground,dy,textcolor,textsize,as,bs,ds,gr,ju)
+}
+else
+{
+sxb(nr)
+s text="复制成功！"
+s bkground="#a1000000"
+s dy="4"
+s time="2000"
+s textcolor="#fffff2fe"
+s textsize="13"
+s as = 0
+s bs = 5
+s ds = "#00000000"
+s gr="top"
+s ju="30"
+fn tw.we(text,time,bkground,dy,textcolor,textsize,as,bs,ds,gr,ju)
+}</eventItme></event>
+</View>
+<View id="20" did="18" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_volume_up.png
+ut_centerVertical=true
+layout_margin=10dp
+background=selectableitemborderless
+clickable=true
+ut_alignParentRight=true
+padding=2dp</ppt>
+<event><eventItme type="clicki">ug(16,"text",nr)
+f(nr=="")
+{
+
+}
+else
+{
+t()
+{
+tts(a)
+tts(a, "en",nr,1,1)
+}
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=32
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(29,颜色)
+us(11,"background",颜色)
+fn 着色.控件着色(20,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(7,"background",背景)</eventItme><eventItme type="loadingComplete">s xx="自动检测:中文→英语:中文→日语:中文→韩语:中文→法语:中文→俄语:中文→西语:英语→中文:日语→中文:韩语→中文:法语→中文:俄语→中文:西语→中文"
+sl(xx,":",p)
+uls(10,p)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

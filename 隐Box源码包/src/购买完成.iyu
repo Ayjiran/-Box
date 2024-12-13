@@ -1,0 +1,402 @@
+<View id="46" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=购买完成
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="53" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="89" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="91" did="90" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="88" did="91" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="48" did="88" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+background=#ff007bff</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="52" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=¥
+textColor=#ffffffff
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="51" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=...
+textColor=#ffffffff
+textStyle=bold
+textSize=30sp</ppt>
+<event></event>
+</View>
+<View id="50" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="59" did="50" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=支付账号：
+textColor=#ffffffff
+textSize=13sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="62" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ffffffff
+textSize=13sp
+layout_marginLeft=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="63" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中
+textColor=#ffffffff
+textSize=13sp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="64" did="50" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="65" did="64" type="TextView">
+<ppt>width=-2
+height=-2
+text=你的ID：
+textColor=#ffffffff
+textSize=13sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="66" did="64" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ffffffff
+textSize=13sp
+layout_marginLeft=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="67" did="64" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中
+textColor=#ffffffff
+textSize=13sp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="55" did="88" type="CardView">
+<ppt>width=-1
+height=100dp
+app_CardcornerRadius=5dp
+app_CardElevation=2dp
+layout_margin=10dp
+layout_marginTop=150dp</ppt>
+<event></event>
+</View>
+<View id="68" did="55" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="72" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=购买产品：
+textColor=#ff000000
+textSize=13sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="74" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=13sp
+layout_marginLeft=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="75" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中
+textColor=#ff000000
+textSize=13sp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+singleLine=true
+</ppt>
+<event></event>
+</View>
+<View id="76" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=发货状态：
+textColor=#ff000000
+textSize=13sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="78" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=13sp
+layout_marginLeft=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="79" did="76" type="TextView">
+<ppt>width=-2
+height=-2
+text=联系作者
+textColor=#ff000000
+textSize=13sp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+singleLine=true
+</ppt>
+<event></event>
+</View>
+<View id="80" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="81" did="80" type="TextView">
+<ppt>width=-2
+height=-2
+text=快速提货：
+textColor=#ff000000
+textSize=13sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="82" did="80" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#ff000000
+textSize=13sp
+layout_marginLeft=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="83" did="80" type="TextView">
+<ppt>width=-2
+height=-2
+text=联系作者获取
+textColor=#ff000000
+textSize=13sp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+singleLine=true
+</ppt>
+<event></event>
+</View>
+<View id="86" did="88" type="TextView">
+<ppt>width=-2
+height=-2
+text=请截图当前页面作为证明
+ut_below=55
+ut_centerHorizontal=true
+textColor=#ffff0000
+textStyle=bold
+layout_marginBottom=200dp</ppt>
+<event></event>
+</View>
+<View id="84" did="53" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+ut_alignParentBottom=true
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="85" did="84" type="Button">
+<ppt>width=-1
+height=40dp
+text=联系作者
+textColor=#ffffffff
+layout_weight=1
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">s stop = 2000
+s text="已复制官方客服微信号"
+fn color.ColorToast(text,stop)
+f(sss.客服微信==null)
+{
+  sxb("客服微信：grnb69(请备注来意)")
+}
+else
+{
+  ss("客服微信："+sss.客服微信+"(请备注来意)",微信)
+  sxb(微信)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="87" did="84" type="Button">
+<ppt>width=-1
+height=40dp
+text=我明白了
+textColor=#ffffffff
+layout_weight=1
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">end()
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(89,a)
+gvs(90,b)
+javanew(mBs,mB,"Context",activity)
+urvw(90)
+nvw(mBs,89)
+nvw(b,mBs)
+us(75,"text",sss.商品名字)
+us(51,"text",sss.叠数价格)
+us(39,"text",sss.购买输入什么)
+us(63,"text",sss.名称)
+us(67,"text",sss.我的uid)
+s a = 1
+s b = 15
+s c = "#a50f5ebd"
+s d = "#a51e0fbd"
+ngde(a, b, c, d, e)
+us(85,"background",e)
+us(87,"background",e)
+ngde(0,0,"#a500c8ff|#a50f5ebd|#a51e0fbd","17301524","leftright",a)
+us(48,"background",a)
+s id=46
+fr("$幻隐网络/记录/xf.txt",a)
+ss(a+"【商城购买】您使用《商城》时，购买产品("+sss.商品名字+"*"+sss.购买份数+")时，消费了"+sss.商品价格+"金币！",d)
+fw("$幻隐网络/记录/xf.txt",d)
+fr("%Android/xianzhi/yxfx.txt",a)
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

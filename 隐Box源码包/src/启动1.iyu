@@ -1,0 +1,46 @@
+<View id="5" did="0" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardElevation=2dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="2" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@a/icon_laucher_adult_1.v
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_gravity=bottom
+layout_marginBottom=100dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=←  滑动
+textColor=#ff1e1e1e
+textSize=16sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,10 @@
+function get(bm)
+  
+--获取某程序是否安装
+if pcall(function() activity:getPackageManager():getPackageInfo(bm,0) end) then
+  return true
+else
+  return false
+end
+
+end

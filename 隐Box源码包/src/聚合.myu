@@ -1,0 +1,272 @@
+fn 主页提示微信客服()
+gvs(118,view)
+cls("com.google.android.material.snackbar.Snackbar",类)
+javax(snk,null,类,"make","android.view.View",view,"java.lang.CharSequence","人工客服在线，是否前去联系？","int",2000)
+cls("android.view.View$OnClickListener", 事件类)
+javacb(事件, 事件类)
+{
+  hws(sss.微信客服地址)
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+javax(null,snk,类,"setAction","java.lang.CharSequence","确定",事件类,事件)
+javax(get,snk,"com.google.android.material.snackbar.BaseTransientBottomBar","getView")
+//设置背景
+ngde(0,16,"#95272727","#95272727",bj)
+us(get,"background",bj)
+//设置高度
+us(get,"height","-2")
+//设置外边距
+us(get,"layout_margin","12dp")
+//显示
+java(null, snk, "com.google.android.material.snackbar.BaseTransientBottomBar.show")
+end fn
+
+fn 主页提示登录()
+gvs(118,view)
+cls("com.google.android.material.snackbar.Snackbar",类)
+javax(snk,null,类,"make","android.view.View",view,"java.lang.CharSequence","是否前去登录？","int",2000)
+cls("android.view.View$OnClickListener", 事件类)
+javacb(事件, 事件类)
+{
+  uigo("第一次.iyu")
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+  end()
+}
+javax(null,snk,类,"setAction","java.lang.CharSequence","确定",事件类,事件)
+javax(get,snk,"com.google.android.material.snackbar.BaseTransientBottomBar","getView")
+//设置背景
+ngde(0,16,"#95272727","#95272727",bj)
+us(get,"background",bj)
+//设置高度
+us(get,"height","-2")
+//设置外边距
+us(get,"layout_margin","12dp")
+//显示
+java(null, snk, "com.google.android.material.snackbar.BaseTransientBottomBar.show")
+end fn
+
+fn 全部功能底部()
+gvs(广场.157,view)
+cls("com.google.android.material.snackbar.Snackbar",类)
+javax(snk,null,类,"make","android.view.View",view,"java.lang.CharSequence","我也是有底线哒！","int",2000)
+cls("android.view.View$OnClickListener", 事件类)
+javacb(事件, 事件类)
+{
+  
+}
+javax(null,snk,类,"setAction","java.lang.CharSequence","确定",事件类,事件)
+javax(get,snk,"com.google.android.material.snackbar.BaseTransientBottomBar","getView")
+//设置背景
+ngde(0,16,"#95272727","#95272727",bj)
+us(get,"background",bj)
+//设置高度
+us(get,"height","-2")
+//设置外边距
+us(get,"layout_margin","12dp")
+//显示
+java(null, snk, "com.google.android.material.snackbar.BaseTransientBottomBar.show")
+end fn
+
+fn 主页提示会员()
+gvs(118,view)
+cls("com.google.android.material.snackbar.Snackbar",类)
+javax(snk,null,类,"make","android.view.View",view,"java.lang.CharSequence","是否购买会员？","int",2000)
+cls("android.view.View$OnClickListener", 事件类)
+javacb(事件, 事件类)
+{
+  uigo("充值.iyu")
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+javax(null,snk,类,"setAction","java.lang.CharSequence","确定",事件类,事件)
+javax(get,snk,"com.google.android.material.snackbar.BaseTransientBottomBar","getView")
+//设置背景
+ngde(0,16,"#95272727","#95272727",bj)
+us(get,"background",bj)
+//设置高度
+us(get,"height","-2")
+//设置外边距
+us(get,"layout_margin","12dp")
+//显示
+java(null, snk, "com.google.android.material.snackbar.BaseTransientBottomBar.show")
+end fn
+
+fn news()
+t()
+{
+  btoo("utf-8", "104 116 116 112 115 58 47 47 97 112 105 46 108 105 110 104 117 110 46 118 105 112 47 97 112 105 47 74 105 110 82 105 72 111 116 115 101 97 114 99 104", newsurl)
+  fe("幻隐网luo/.缓存/头条.txt",newsback)
+  f(newsback==true)
+  {
+    fr("幻隐网luo/.缓存/头条.txt",newsback)
+  }
+  else
+  {
+    hs(newsurl,newsback)
+    fw("幻隐网luo/.缓存/头条.txt",newsback)
+  }
+  json(newsback,newsback)
+  json(newsback, "list", "data", newslist)
+  json(newslist, "size", newssize)
+  w(newssize &gt; 0)
+  {
+    s-(1, newssize)
+    json(newslist, "data", newssize, newsitem)
+    json(newsitem, "get", "title", newstitle)
+    json(newsitem, "get", "link", newsurl)
+    ula(newslists,2=newstitle,4=newsurl)
+  }
+  ufnsui()
+  {
+    uls(会员.226,newslists,"newslb.iyu",-1,-2)
+    us(会员.226,"background","#00ffffff")
+    ss("6",num)
+    s*(num,30,num)
+    ss(num+"dp",num)
+    us(会员.226,"height",num)
+    us(会员.231,"visibility","gone")
+      }
+}
+end fn
+
+fn 天气()
+/.t()
+{
+s tqhoo = "User-Agent=Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36"
+s tqa="https://m.tianqi.com/"
+fe("幻隐网luo/.缓存/天气.txt",tqwz)
+fe("幻隐网luo/.缓存/地区.txt",back)
+f(tqwz==true)
+{
+fr("幻隐网luo/.缓存/天气.txt",tqwz)
+}
+else
+{
+hs(tqa,null,"utf-8",null,true,tqhoo,tqwz)
+fw("幻隐网luo/.缓存/天气.txt",tqwz)
+}
+sj(tqwz,"&lt;text&gt;","&lt;/text&gt;",地区)
+ss("http://fuyhi.top/api/tiaoqi/api.php?msg="+地区,url)
+f(back==true)
+{
+fr("幻隐网luo/.缓存/地区.txt",back)
+}
+else
+{
+hs(url,back)
+fw("幻隐网luo/.缓存/地区.txt",back)
+}
+sj(back, "情况:","状态:", 天气)
+sj(back, "高温:","低温:", 高温)
+sj(back, "低温:","更新时间:", 低温)
+ss(地区+"-"+天气+"-"+低温+"～"+高温,天气1)
+sr(天气1,"\n","",天气)
+sj(back, "状态:±img=","±", 图标)
+ufnsui()
+{
+us(geren.285,"src",图标)
+us(geren.286,"text",天气)
+//us(geren.284,"visibility","visible")
+}
+}
+./
+end fn
+
+fn 收藏()
+fr("$幻隐网络/.收藏/wj.v",c)
+f(c=="")
+{
+}
+else
+{
+  t()
+  {
+    fr("$幻隐网络/.收藏/wj.v",api)
+    sj(api,"【",null,api)
+    sl(api,"【",api)
+    for(apis;api)
+    {
+      sj(apis,null,"】",apititle)
+      sj(apis,"@","@",apilj)
+      sj(apis,"{","}",ajj)
+      strim(apilj,apilj)
+      ula(lo1,6=apititle,13="@a/1/icon_mine_diamonds.v",14=apilj,4=null,19=ajj)
+    }
+    uls(55,lo1,"分类列表.iyu",-1,-2)
+    us(55,"visibility","visible")
+    //212
+  }
+}
+end fn
+
+//fn 信息()
+
+//end fn
+
+fn 须知()
+fw("$幻隐网络/.临时数据/20.txt","3")
+fr("$幻隐网络/.临时数据/97.txt",pd)
+us(主页.275,"visibility","visible")
+us(主页.342,"visibility","gone")
+us(主页.269,"visibility","gone")
+us(主页.285,"visibility","gone")
+us(主页.307,"visibility","gone")
+us(主页.308,"visibility","gone")
+sj(sss.bs,"日常问题{","}日常问题",wz)
+f(wz==null)
+{
+  us(主页.291,"text","加载失败-问题未知")
+}
+else
+{
+  sj(wz,"【",null,api)
+  sl(api,"【",api)
+  for(apis;api)
+  {
+    sj(apis,null,"】",apititle)
+    syso(apis)
+    sj(apis,"@","@",apilj)
+    sr(apilj,"&lt;p&gt;","\n",apilj)
+    sr(apilj,"&lt;/p&gt;","",apilj)
+    strim(apilj,apilj)
+    syso(apilj)
+    ula(list,37=null,4=apititle,15=apilj,8=apilj)
+  }
+  ufnsui()
+  {
+    uls(主页.350,list,"问题列表.iyu",-1,-2)
+    ug(主页.350,"count",总共)
+    s*(总共,100,总共)
+    ss(总共+"dp",总共)
+    us(主页.350,"height",总共)
+    us(主页.387,"visibility","visible")
+us(主页.291,"visibility","gone")
+  }
+}
+end fn
+
+fn 游客初始化()
+sss 游客="是"
+syso("进入")
+fw("$幻隐网络/微端/账号.txt","游客")
+uigo("mian.iyu")
+end()
+end fn
+
+fn 初始化()
+sss 游客="用户"
+syso("进入")
+uigo("新老用户.iyu")
+end()
+end fn

@@ -1,0 +1,688 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#ffffffff
+gravity=center_horizontal
+</ppt>
+<event></event>
+</View>
+<View id="193" did="2" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=修改资料
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="189" did="0" type="CoordinatorLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="189" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="161" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white
+ut_below=2</ppt>
+<event></event>
+</View>
+<View id="160" did="161" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="132" did="160" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=2
+</ppt>
+<event></event>
+</View>
+<View id="133" did="132" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+background=white</ppt>
+<event></event>
+</View>
+<View id="134" did="133" type="TextView">
+<ppt>width=-2
+height=-2
+text=我的头像
+textColor=#ff000000
+textStyle=bold
+textSize=16sp
+layout_marginLeft=20dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="135" did="133" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="136" did="133" type="RoundImageView">
+<ppt>width=60dp
+height=60dp
+src=@xgt/b34.v
+layout_gravity=center
+layout_marginRight=20dp
+</ppt>
+<event><eventItme type="clicki">//fn tool.showbt("网页端.iyu", true)
+s stop = 2000
+  s text="不可以更换~"
+  fn color.ColorToast(text,stop)
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="138" did="132" type="ImageView">
+<ppt>width=-1
+height=30dp
+src=@1529798172903.v
+background=white</ppt>
+<event></event>
+</View>
+<View id="185" did="132" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="145" did="185" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=2dp
+layout_margin=10dp
+background=@dd/sticker_bg_describe_blue.png
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="139" did="145" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="140" did="139" type="TextView">
+<ppt>width=-2
+height=-2
+text=sss.名称：
+textColor=#ffffff
+textStyle=bold
+textSize=15sp
+layout_marginLeft=20dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="141" did="139" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="144" did="139" type="TextView">
+<ppt>width=-2
+height=-2
+text=sss.名称
+textColor=#ffffff
+textStyle=bold
+textSize=15sp
+layout_gravity=center
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="146" did="185" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=2dp
+layout_margin=10dp
+background=@dd/sticker_bg_describe_blue.png
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="147" did="146" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="148" did="147" type="TextView">
+<ppt>width=-2
+height=-2
+text=性别：
+textColor=#ffffff
+textStyle=bold
+textSize=15sp
+layout_marginLeft=20dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="149" did="147" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="151" did="147" type="TextView">
+<ppt>width=-2
+height=-2
+text=男
+textColor=#ffffff
+textStyle=bold
+textSize=15sp
+layout_gravity=center
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="183" did="132" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=2dp
+app_CardElevation=3dp
+layout_margin=5dp
+background=@dd/sticker_bg_describe_blue.png
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="181" did="183" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="184" did="181" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@user/user_viplong.png
+layout_marginLeft=10dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="180" did="181" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员时间：
+layout_weight=1
+textSize=13sp
+textColor=#ffffff
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginLeft=10dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="182" did="181" type="TextView">
+<ppt>width=-2
+height=-2
+text=2022年5月10日
+textColor=#ffffff
+textSize=13sp
+layout_gravity=center
+layout_marginRight=10dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="188" did="132" type="GifView">
+<ppt>width=150dp
+height=150dp
+src=@gif.gif
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="177" did="132" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginBottom=10dp
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="162" did="177" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=2dp
+layout_margin=5dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="163" did="162" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=15dp</ppt>
+<event></event>
+</View>
+<View id="164" did="163" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="165" did="164" type="TextView">
+<ppt>width=-1
+height=-2
+text=钱包
+textStyle=bold
+textColor=#ff0088ff
+textSize=15sp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="179" did="164" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@dd/btd.png</ppt>
+<event></event>
+</View>
+<View id="166" did="163" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+gravity=center_vertical
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="174" did="166" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="175" did="174" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中…
+textColor=#000000
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="176" did="174" type="TextView">
+<ppt>width=-2
+height=-2
+text=金币
+textSize=10sp
+textColor=#ff616161</ppt>
+<event></event>
+</View>
+<View id="171" did="166" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="172" did="171" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textColor=#000000
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="173" did="171" type="TextView">
+<ppt>width=-2
+height=-2
+text=平民积分
+textSize=10sp
+textColor=#ff616161</ppt>
+<event></event>
+</View>
+<View id="170" did="166" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="168" did="170" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textColor=#000000
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="169" did="170" type="TextView">
+<ppt>width=-2
+height=-2
+text=收集龙珠
+textSize=10sp
+textColor=#ff616161</ppt>
+<event></event>
+</View>
+<View id="152" did="132" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=2dp
+layout_margin=10dp
+layout_marginBottom=150dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="155" did="152" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="156" did="155" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@6.26/p2p_share_recommend_empty.v
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="158" did="155" type="TextView">
+<ppt>width=-1
+height=40dp
+text=我的签名
+textsize=12dp
+ut_toleftof=159
+ut_torightof=156
+ut_centerinparent=true
+singleline=true
+gravity=center_vertical
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="159" did="155" type="ImageView">
+<ppt>width=45dp
+height=45dp
+src=@6.26/home_icon_push_post.png.v
+padding=5dp
+ut_alignParentRight=true</ppt>
+<event><eventItme type="clicki">utw(null,"","签名.iyu",false,sss.utw)
+{
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="190" did="160" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_marginTop=10dp
+layout_marginBottom=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="191" did="190" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@6.26/business_icon_loading_fail.v</ppt>
+<event><eventItme type="clicki">uigo("ymsc.iyu")
+end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="192" did="190" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载失败/点我反馈
+textColor=#ff000000
+textStyle=bold
+textSize=16sp</ppt>
+<event><eventItme type="clicki">uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+end()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=193
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+s a = 4
+gvs(136,a)
+call(null,"mjava","图片跳转.set",a)
+time(a, sj)
+t()
+{
+  ss(sss.api+"?u/"+sss.名称+".html",in)
+  hs(in,null,"utf-8",z)
+  sj(z,"&lt;span class=\"num\"&gt;","&lt;/span&gt;&lt;span class=\"text\"&gt;关注&lt;/span&gt;",sss.关注)
+  fr("@jqa.txt",jqa)
+  fr("@jqb.txt",jqb)
+  fr("@jqc.txt",jqc)
+  fr("@jqd.txt",jqd)
+  fr("@jqe.txt",jqe)
+  sj(z,jqa,"&lt;/span&gt;&lt;span class=\"text\"&gt;粉丝&lt;/span&gt;",sss.粉丝)
+  sj(z,jqc,"&lt;span&gt;我的收藏&lt;/span&gt;",收藏)
+  strim(收藏,sss.收藏)
+  sj(z,jqd,"&lt;span&gt;我的金币&lt;/span&gt;",金币)
+  strim(金币,sss.个人金币)
+  sj(z,"&lt;img src=\"","\"",sss.头像)
+  ufnsui()
+  { 
+       f(sss.个人金币=="null")
+    {
+      us(132,"visibility","gone")
+      us(190,"visibility","visible")
+    }
+    else
+    {
+     us(175,"text",sss.个人金币)
+    us(188,"visibility","gone")
+    us(162,"visibility","visible")
+    us(152,"visibility","visible")
+}
+
+}
+}
+</eventItme><eventItme type="loadingComplete">sss plnr="false"
+sss sf="false"
+sj(sss.当前用户数据,"会员(",")会员",jx)
+    ssg(jx, 0, 4, jxb)
+    ssg(jx,4,6,jxc)
+    ssg(jx,6,8,jxd)
+    ssg(jx,8,10,jxe)
+    ssg(jx,10,12,jxf)
+    ssg(jx,12,14,jxg)
+    ss("到期时间："+jxb+"年"+jxc+"月"+jxd+"日",kk)
+    us(182,"text",kk)
+fr("$幻隐网络/微端/密码.txt",ss.密码)
+fr("$幻隐网络/微端/账号.txt",ss.sss.名称)
+us(136,"src",sss.头像)
+us(144,"text",sss.名称)
+us(158,"text",sss.简介)
+f(sss.性别=="女")
+{
+  us(151,"text",sss.性别)
+  us(151,"textcolor","#ffff4e98")
+}
+else
+{
+  us(151,"text",sss.性别)
+  us(151,"textcolor","#ff0095ff")
+}
+fr("%Android/xianzhi/yxfx.txt",cs)
+us(172,"text",cs)
+fe("$幻隐网络/使用",i)
+f(i=="true")
+{
+}
+else
+{
+  end()
+}
+
+
+fr("$幻隐网络/.v/dao.txt",龙珠)
+  f(龙珠==null)
+  {
+    us(168,"text","0")
+  }
+  else
+  {
+    us(168,"text",龙珠)
+  }
+/.
+ug(19,"text",标题)
+ug(21,"text",内容)
+sr(内容,"\n","&lt;br&gt;",内容)
+f(标题==""||内容=="")
+{
+  ufnsui()
+  {
+     sss 提示="请填写完整！"
+   fn 全局提示.ts()
+  }
+}
+f(sss.ftid==null)
+{
+  ufnsui()
+  {
+     sss 提示="请选择板块！"
+   fn 全局提示.ts()
+  }
+}
+else
+{
+   t()
+   {
+   ss(sss.wdwz+"/?post.html",wz)
+   ss("title="+标题+"&content=&lt;p&gt;"+内容+"&lt;/p&gt;&forum="+sss.ftid+"&tmp_md5=8AYQ3&fileid=&filegold=&filemess=&filehide=&thide=0&tgold=",ft)
+   hs(wz,ft,"utf-8",null,true,axa)
+   sr(axa,"\"","",str)
+   fn json.unicode_utf8(str)
+   sj(sss.utf8_str,"info:","}",sss.utf8_str)
+   f(sss.utf8_str?"成功")
+   {
+     ufnsui()
+     {
+       sss 提示="发表成功！"
+       fn 全局提示.ts()
+       end()
+     }
+   }
+ else
+ {
+    ufnsui()
+    {
+       sss 提示=sss.utf8_str
+       fn 全局提示.ts()
+   }
+ }
+ }
+}</eventItme><eventItme type="onactivityresult">javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==1)
+  {
+    fr("$幻隐网络/微端/密码.txt",密码)
+fr("$幻隐网络/微端/账号.txt",sss.名称)
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    ss(sss.api+"?user/ava.html",wz)
+    t()
+    {
+ss("user="+sss.名称+"&pass="+密码,post)
+    ss(sss.api+"?user/login.html",tj)
+   // hs(tj, post, "utf-8", null, true, sss.外链, b)
+      huf(wz, null, path,"utf-8", mm)
+      sxb(mm)
+      f(mm?"成功")
+      {
+        ufnsui()
+        {
+          s stop = 2000
+          s text="更换成功，审核中！"
+          fn color.ColorToast(text,stop)
+        }
+      }
+      else
+      {
+        ufnsui()
+        {
+          s text="功能维护中，可尝试联系客服！"
+          s stop = 2000
+          fn color.ColorToast(text,stop)
+        }
+      }
+    }
+  }
+}</eventItme><eventItme type="restart">fr("%Android/xianzhi/yxfx.txt",cs)
+us(172,"text",cs)
+fe("$幻隐网络/使用",i)
+f(i=="true")
+{
+}
+else
+{
+  end()
+}
+
+
+fr("$幻隐网络/.v/dao.txt",龙珠)
+  f(龙珠==null)
+  {
+    us(168,"text","0")
+  }
+  else
+  {
+    us(168,"text",龙珠)
+  }</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+call(null,"mjava","图片跳转.end")
+}</eventItme></UIEventset>

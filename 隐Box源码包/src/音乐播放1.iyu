@@ -1,0 +1,90 @@
+<View id="29" did="0" type="RoundImageView">
+<ppt>width=50dp
+height=50dp
+src=@6.26/empty_audio.v</ppt>
+<event><eventItme type="clicki">bfms(sss.b, "ip", c)
+f(c=="false")
+{
+bfms(sss.b, "st")
+s text="已继续播放"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+bfms(sss.b, "pe")
+s text="已暂停音乐"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}</eventItme><eventItme type="touchmonitor">.在屏幕上滑动时候
+f(st_eA == 2)
+{
+.计算当前滑动的距离，如果滑动距离短就不移动了
+s-(st_rX, sss.rX, x)
+s-(st_rY, sss.rY, y)
+
+.判断是否够格移动悬浮
+f(sss.rXY == true || x&gt;80 || x&lt;-80 || y&gt;80 || y&lt;-80)
+{
+.记录本次直到结束释放触屏都可移动悬浮
+sss rXY = true
+.悬浮拖动的位置偏移
+s-(40, st_rX)
+s-(80, st_rY)
+.设置悬浮位置
+us(sss.v, "x", st_rX)
+us(sss.v, "y", st_rY)
+.刷新悬浮
+uxf(sss.v)
+}
+}
+else f(st_eA == 0)
+{
+.当按下屏幕时候记录开始的坐标
+sss rX = st_rX
+sss rY = st_rY
+.初始化
+sss rXY = false
+}</eventItme><eventItme type="press">bfms(sss.b, "re")
+uxf(sss.v,"del")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">fr("$幻隐网络/配置/yx.txt",yg)
+us(35,"background",yg)
+uycl("#ff00bfff",true)
+us(8,"text",sss.zz)
+us(37,"text",sss.mz)
+bfms(sss.b,"pe",pe)
+fw("%yinyue.txt","有")
+ss("幻隐网luo/"+sss.mz+".mp3",mz)
+fe(mz,yy)
+f(yy=="true")
+{
+bfm(mz, sss.b)
+bfms(sss.b, "sl", true)
+}
+else
+{
+t()
+{
+ss("http://antiserver.kuwo.cn/anti.s?response=url&rid=MUSIC_"+sss.id+"&format=mp3&type=convert_url",sss.ws)
+hs(sss.ws,sss.st)
+bfm(sss.st, sss.b)
+bfms(sss.b, "sl", true)
+fw("$幻隐网络/临时数据/1021.txt",sss.st)
+}
+}
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">dhr(ss.dh, 0, 360, 1, 0.5, 1, 0.5)
+dh(ss.dh, "duration", 1900)
+dh(ss.dh, "repeat", 100)
+us(40, "dh", ss.dh)
+</eventItme></UIEventset>

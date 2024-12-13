@@ -1,0 +1,131 @@
+<View id="14" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=强制聊天
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="3" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="12" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginBottom=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+app_CardcornerRadius=10dp
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=190dp
+orientation=vertical
+background=@a/tq/yx1/quick_show_pro_text_image.v</ppt>
+<event></event>
+</View>
+<View id="7" did="3" type="RelativeLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="4" did="7" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=输入QQ号
+gravity=center
+layout_marginbottom=0dp
+textsize=16sp
+layout_marginleft=20dp
+background=
+layout_marginright=20dp
+textCursorDrawable=#ff009aff</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="Button">
+<ppt>width=-1
+height=40dp
+text=聊天
+layout_marginleft=30dp
+layout_marginright=30dp
+layout_margintop=10dp
+layout_marginbottom=0dp
+background=#ff008a7d
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">ug(4,"text",a)
+t()
+{
+  f(a=="")
+  {
+    ufnsui()
+    {
+      tw("1")
+    }
+  }
+else
+{
+  s qq=a
+ss("mqqwpa://im/chat?chat_type=wpa&uin="+qq+"&version=1",urlqq)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",urlqq)
+uit(a, "chooser", "QQ聊天窗口")
+}
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+s id=14
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色) 
+fn 着色.控件着色(8,颜色)
+fn 着色.控件着色(4,颜色)
+fn 着色.控件着色(5,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(4,"background",背景)
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

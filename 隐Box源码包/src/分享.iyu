@@ -1,0 +1,296 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=210dp
+orientation=vertical
+background=#FF328ADE</ppt>
+<event></event>
+</View>
+<View id="98" did="3" type="RelativeLayout">
+<ppt>width=-1
+height=210dp</ppt>
+<event></event>
+</View>
+<View id="4" did="98" type="LinearLayout">
+<ppt>width=-1
+height=160dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="100" did="17" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }</eventItme></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=分享中心
+textColor=#ffffffff
+textSize=20sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="19" did="16" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="98" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center|right
+background=@item_mefragment_head_btn.v
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="LinearLayout">
+<ppt>width=-1
+height=5dp
+orientation=vertical
+ut_alignParentBottom=true
+background=white</ppt>
+<event></event>
+</View>
+<View id="37" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#FF79819C
+textSize=11sp</ppt>
+<event></event>
+</View>
+<View id="40" did="37" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=vertical
+gravity=left</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="43" did="42" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐Box-积分获取
+.layout_marginLeft=10dp
+textColor=#FF45527A
+textSize=18sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="44" did="40" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+background=selectableitem
+BackgroundRipple=#99cccccc</ppt>
+<event><eventItme type="clicki">
+
+syso(1)</eventItme></event>
+</View>
+<View id="49" did="45" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+.layout_weight=1
+gravity=center|left</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=--分享即可获取平民积分--\n分享一次获取一积分哦\n\n分享只是想让更多人知道我们的好软件\n\n希望您能认真配合
+textColor=#FF1E2E5E
+textSize=12sp
+textStyle=bold
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="81" did="40" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="84" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="91" did="84" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="92" did="91" type="CardView">
+<ppt>width=100dp
+height=45dp
+app_CardcornerRadius=22.5dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="93" did="92" type="Button">
+<ppt>width=-1
+height=-2
+text=加入群聊
+textColor=#ffffffff
+BackgroundColor=#99ff962b
+BackgroundRipple=#ffffffff</ppt>
+<event><eventItme type="clicki">t()
+  {
+    sj(sss.bs,"群号码@","@群号码",hao)
+    ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+hao+"&card_type=group&source=qrcode",joinqq)
+    ufnsui()
+      {
+        sit(a,"action", "android.intent.action.VIEW")
+        sit(a,"data",joinqq)
+        uit(a, "chooser", "打开QQ")
+      }
+  }
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="95" did="84" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="96" did="95" type="CardView">
+<ppt>width=100dp
+height=45dp
+app_CardcornerRadius=22.5dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="Button">
+<ppt>width=-1
+height=-2
+text=分享软件
+textColor=#ffffffff
+BackgroundColor=#99ff002c
+BackgroundRipple=#ffffffff</ppt>
+<event><eventItme type="clicki">sit(a, "action", "android.intent.action.SEND")
+sit(a, "type", "text/plain")
+//sit(a,"classname","com.tencent.mobileqq", "com.tencent.mobileqq.activity.JumpActivity")
+sit(a, "extra", "android.intent.extra.TEXT",sss.fx)
+uit(a, "chooser", "请分享到200人以上的群")
+fr("%Android/xianzhi/yxfx.txt",a)
+s(a+1,b)
+fw("%Android/xianzhi/yxfx.txt",b)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="94" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=您当前已分享0次
+gravity=center
+textColor=#ffff4965
+layout_marginTop=50dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#FF328ADE",true)
+ss savedir="$fxcs"
+fr(ss.savedir,ss.dqtimes)
+f(ss.dqtimes==null){
+ss dqtimes=0
+}
+us(94,"text","您当前已分享"+ss.dqtimes+"次")
+fr("%Android/xianzhi/yxfx.txt",a)
+ss("您当前平民积分："+a,b)
+us(94,"text",b)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="restart">fr("%Android/xianzhi/yxfx.txt",a)
+ss("您当前平民积分："+a,b)
+us(94,"text",b)
+</eventItme></UIEventset>

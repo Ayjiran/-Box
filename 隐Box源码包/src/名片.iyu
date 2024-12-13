@@ -1,0 +1,305 @@
+<View id="39" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=恶搞群名
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="38" did="0" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="11" did="38" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="36" did="11" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginBottom=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+app_CardcornerRadius=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="LinearLayout">
+<ppt>width=-1
+height=190dp
+orientation=vertical
+background=@75.webph
+</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="EditText">
+<ppt>width=300dp
+height=40dp
+text=
+hint=选择一个吧_
+textColor=#ffffffff
+background=
+layout_gravity=center
+layout_marginTop=20dp
+textColor=#ff0070ff
+textCursorDrawable=#ff00bbff
+gravity=center
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="16" did="11" type="RelativeLayout">
+<ppt>width=200dp
+height=50dp
+layout_gravity=center
+layout_marginTop=20dp
+background=through</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="Button">
+<ppt>width=90dp
+height=-2
+text=复制
+textColor=#ffffffff
+textSize=14sp
+</ppt>
+<event><eventItme type="clicki">ug(12,"text",p)
+f(p=="")
+{
+  s text="还未生成，无法设置"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+  sxb(p)
+  s text="复制成功"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="18" did="16" type="Button">
+<ppt>width=90dp
+height=-2
+text=清空
+layout_marginLeft=110dp
+textColor=#ffffffff
+textSize=14sp
+</ppt>
+<event><eventItme type="clicki">s id=12
+
+ug(id,"text",a)
+
+f(a=="")
+
+{
+
+ufnsui()
+
+{
+
+s text="数据已清除"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+
+}
+
+else
+
+{
+
+ufnsui()
+
+{
+
+us(id,"text","")
+
+}
+
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="22" did="11" type="LinearLayout">
+<ppt>width=350dp
+height=170dp
+orientation=vertical
+layout_gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=50dp</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="Button">
+<ppt>width=140dp
+height=50dp
+text=艾特竖起来
+textColor=#ffffffff
+textSize=14sp
+</ppt>
+<event><eventItme type="clicki">s b = "不\n要\n艾\n特\n我\n不\n然\n会\n竖\n起\n来"
+us(12, "text", b)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="26" did="23" type="Button">
+<ppt>width=140dp
+height=50dp
+text= 艾特显示爸爸
+layout_marginLeft=210dp
+textColor=#ffffffff
+textSize=14sp
+</ppt>
+<event><eventItme type="clicki">s b = "‭‮‭艾特我的都是我 爸 爸"
+us(12, "text", b)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="27" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="Button">
+<ppt>width=140dp
+height=50dp
+text=艾特文字变乱
+textColor=#ffffffff
+textSize=14sp
+</ppt>
+<event><eventItme type="clicki">s c= "咋艾特都是你爸爸 ‮"
+us(12,"text",c)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="29" did="27" type="Button">
+<ppt>width=140dp
+height=50dp
+text=艾特文字反向
+layout_marginLeft=210dp
+textColor=#ffffffff
+textSize=14sp
+</ppt>
+<event><eventItme type="clicki">s d= "↓↓ ‮ ‮ ‮ ‮  ↑↑ "
+us(12,"text",d)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="30" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="Button">
+<ppt>width=140dp
+height=50dp
+text=艾特显示爱心型
+textColor=#ffffffff
+textSize=14sp
+</ppt>
+<event><eventItme type="clicki">s e ="别     艾   特    不    然    是     心        形"
+us(12,"text",e)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="32" did="30" type="Button">
+<ppt>width=140dp
+height=50dp
+text=发文字加冒号
+layout_marginLeft=210dp
+textColor=#ffffffff
+textSize=14sp
+</ppt>
+<event><eventItme type="clicki">s e="隐心("‮("‭"
+us(12,"text",e)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=39
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(1,颜色)
+fn 着色.控件着色(17,颜色)
+fn 着色.控件着色(18,颜色)
+fn 着色.控件着色(24,颜色)
+fn 着色.控件着色(28,颜色)
+fn 着色.控件着色(26,颜色)
+fn 着色.控件着色(29,颜色)
+fn 着色.控件着色(31,颜色)
+fn 着色.控件着色(32,颜色)
+fn 着色.控件着色(12,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(12,"background",背景)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

@@ -1,0 +1,49 @@
+<View id="2" did="0" type="TextView">
+<ppt>width=-1
+height=-2
+text=文本2
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="3" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="3" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="onscrolled">ss qett=st_bT</eventItme></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="6" did="5" type="ProgressBar">
+<ppt>width=50dp
+height=50dp
+style=16842871</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,qelb.1,v7)
+gvs(st_vW,qelb.2,v2)
+
+gvs(st_vW,qelb.5,v5)
+
+ug(v2,"text",url)
+fn qea.qe(url,v7,v5)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

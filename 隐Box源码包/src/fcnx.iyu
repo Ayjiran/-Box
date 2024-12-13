@@ -1,0 +1,106 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+background=through</ppt>
+<event><eventItme type="clicki">us(esf.29,"text","不满2年")
+endutw()
+
+us(esf.30,"visibility","gone")
+us(esf.32,"visibility","gone")</eventItme></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=不满2年
+textcolor=#e0000000
+ut_centervertical=true
+layout_marginleft=15dp
+textsize=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#6b6b6b6b</ppt>
+<event></event>
+</View>
+<View id="4" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+background=through</ppt>
+<event><eventItme type="clicki">us(esf.29,"text","满2年不满5年")
+endutw()
+
+
+ug(esf.22,"text",a)
+f(a=="非普通住宅")
+{
+us(esf.30,"visibility","visible")
+us(esf.32,"visibility","visible")
+}
+else
+{
+us(esf.30,"visibility","gone")
+us(esf.32,"visibility","gone")
+}</eventItme></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=满2年不满5年
+textcolor=#e0000000
+ut_centervertical=true
+layout_marginleft=15dp
+textsize=15dp</ppt>
+<event></event>
+</View>
+<View id="6" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#6b6b6b6b</ppt>
+<event></event>
+</View>
+<View id="7" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+background=through</ppt>
+<event><eventItme type="clicki">us(esf.29,"text","满5年")
+endutw()
+
+
+ug(esf.22,"text",a)
+f(a=="非普通住宅")
+{
+us(esf.30,"visibility","visible")
+us(esf.32,"visibility","visible")
+}
+else
+{
+us(esf.30,"visibility","gone")
+us(esf.32,"visibility","gone")
+}</eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=满5年
+textcolor=#e0000000
+ut_centervertical=true
+layout_marginleft=15dp
+textsize=15dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

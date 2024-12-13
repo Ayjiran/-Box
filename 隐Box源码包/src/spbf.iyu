@@ -1,0 +1,31 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+background=black</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="VideoView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)
+ushsp(true)
+tw("正在加载中...")
+bfvs(2,sss.splj)
+bfvss(2,"media", c)
+bfvss(2,"st")
+syso(sss.splj)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

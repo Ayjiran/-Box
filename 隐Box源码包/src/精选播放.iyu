@@ -1,0 +1,393 @@
+<View id="10" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="7" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ff002eff</ppt>
+<event></event>
+</View>
+<View id="3" did="7" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-1
+text=介绍
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+ellipsize=marquee
+//文本超长显示方式 跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数 无限∞重复
+focusableintouchmode=true
+//获取焦点
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="32" did="7" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+background=#ffe3edff
+orientation=horizontal
+gravity=center</ppt>
+<event><eventItme type="clicki">s c = "您好，尊贵的用户！\n请不要相信视频内的广告，我们隐Box官方不保证是否不骗人！\n\n因为对接的是其他平台，而且还有的是客户推荐，所以请您谨慎操作，看看就好了，不要去浏览器乱搜！\n是平台就少不了广告，如果点一个就是一个广告房间，那可以换一个房间！\n\n小技巧：\n点击视频旁边小蓝色图标即可开启横屏模式！\n右划视频即可退出直播"
+us(updata.10,"text","好的") 
+us(updata.1,"visibility","visible") 
+dhas(dh, updata.2, "translationY", -150, 30, -35, 0)
+dh(dh, "duration", 1000)
+dh(dh, "start")                   
+us(updata.7,"text",c)                  
+us(updata.5,"text","观看通知")
+ us(updata.12,"text","未满十八-谨慎观看")
+ fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="9" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=为保护您的个人权益，看前先点我查看需知！
+textColor=#1E88E5
+textSize=16sp
+focusableintouchmode=true
+marqueerepeatlimit=marquee_forever
+ellipsize=marquee
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="25" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=@a/3/update_popup.9.v</ppt>
+<event></event>
+</View>
+<View id="27" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="24" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=1%
+textStyle=bold
+textColor=#ff030303
+layout_marginLeft=30dp
+visibility=gone
+layout_marginTop=5dp
+</ppt>
+<event></event>
+</View>
+<View id="26" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=|
+textStyle=bold
+textColor=#ff030303
+layout_marginLeft=30dp
+visibility=gone
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=大小
+textStyle=bold
+textColor=#ff030303
+layout_marginLeft=30dp
+visibility=gone
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="34" did="25" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="34" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="VideoView">
+<ppt>width=-1
+height=-2</ppt>
+<event><eventItme type="touchmonitor">
+f(st_eA == 0)
+{
+  ss x = st_rX
+  ss y = st_rY
+  //点下
+}
+else f(st_eA == 1)
+{
+  ss upx = st_eX
+  ss upy = st_eY
+  s(ss.upx - ss.x,tmp)
+  f(tmp &gt; 300)
+  {
+    end()
+  }
+}
+</eventItme></event>
+</View>
+<View id="33" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=through</ppt>
+<event></event>
+</View>
+<View id="18" did="33" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/null_photo_catalogue.v</ppt>
+<event><eventItme type="clicki">bfvss(2, "cn", sss.c)
+uigo("快手视频.iyu")
+end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="21" did="33" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/personal_more_fiction.v</ppt>
+<event><eventItme type="clicki">bfvss(2, "sp")
+sss bfsp = "null"
+
+s url= sss.wwz
+
+ug(4,"text",xfspbt)
+sss xfspbt = xfspbt
+ends()
+fn xfspbfq1.video(url)</eventItme></event>
+</View>
+<View id="30" did="33" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/personal_icon_download.v</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/5.txt",wz)
+us(30,"visibility","gone")
+s stop = 2000
+s text="已开始下载~~"
+fn color.ColorToast(text,stop)
+t()
+{
+s dir = "幻隐网luo"
+//保存的文件名（仅输入文件名,请勿不包含目录） 
+s name =sss.mz
+//下载任务的标题 
+s title = sss.mz
+//下载任务的图标 
+s icon = "@6.26/empty_bt.v" 
+//是否显示下载进度通知 
+s notsohw = true
+//输入自定义参数任意数据 
+s data = "哈哈哈" 
+//变量v为赋值变量，为下载对象 
+hdda(wz, dir, name, title, icon, notsohw, data, v)
+   hddg(v, "contentlength", zdx)
+  w(zdx!=ydx)
+  {
+   hddg(v, "contentlength", zdx)
+   hddg(v, "equivalent",ydx)
+   s2(zdx/1024/1024,总大小)
+ s2(zdx/100,zdbb)
+ s2(ydx/zdbb,bfb)
+   ss("视频占据："+总大小+"Mb",总大小M)
+
+   ufnsui()
+   {
+     us(28,"text",总大小M)
+     ss(bfb+"%",bh)
+     us(24,"text",bh)
+     
+     s(3.2*bfb,uui)
+  
+     ss(uui+"dp",bv)
+    
+     us(29,"width",bv)
+   
+
+
+}
+}
+ 
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="15" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="restart"> 
+ushsp(false)
+s stop = 2000
+s text="重新连接中~~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/临时数据/1003.txt",splj)
+bfvs(2,splj)
+bfvss(2,"media", c)
+bfvss(2,"st")
+fr("$幻隐网络/临时数据/1025.txt",nr)
+bfvss(2, "seekto",nr)</eventItme><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(3,"background",yg)
+fw("$幻隐网络/临时数据/1002.txt","0")
+addv(10,"updata.iyu")
+ushsp(false)
+us(4,"text",sss.mz)
+ss("幻隐网luo/"+sss.mz,wj)
+fe(wj,gg)
+f(gg=="true")
+{
+s stop = 2000
+s text="该视频已下载，正在免流播放"
+fn color.ColorToast(text,stop)
+us(30,"visibility","gone")
+bfvs(2,wj)
+fw("$幻隐网络/临时数据/1003.txt",wj)
+bfvss(2,"media", c)
+bfvss(2,"st")
+syso(sss.splj)
+}
+else
+{
+s stop = 2000
+s text="正在加载中~~"
+fn color.ColorToast(text,stop)
+bfvs(2,sss.wwz)
+fw("$幻隐网络/临时数据/1003.txt",sss.wwz)
+bfvss(2,"media", c)
+bfvss(2,"st")
+syso(sss.splj)
+}
+f(sss.wwz?"mp4")
+{
+
+}
+else
+{
+us(30,"visibility","gone")
+}
+fr("$收藏.txt",收藏)
+f(收藏?sss.mz)
+{
+us(31,"visibility","gone")
+}
+else
+{
+}
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">t()
+{
+w(true)
+{
+bfvss(2, "ip", c)
+f(c=="false")
+{
+  ufnsui()
+  {
+bfvss(2, "st")
+  }
+}
+else
+{
+  ufnsui()
+  {
+    bfvss(2, "cn",sss.nr)
+    fw("$幻隐网络/临时数据/1025.txt",sss.nr)
+  }
+}
+stop(100)
+}
+}
+bfvss(2, "seekto", sss.ww)
+</eventItme></UIEventset>

@@ -1,0 +1,96 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+background=selectableitem</ppt>
+<event><eventItme type="clicki">ug(5,"refreshing",re)
+f(re==true)
+{
+}
+else
+{
+ulag(st_vW,4,a)
+utw(null,"物流详情",a,"关闭",false,v)
+{
+}
+}</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=80dp
+height=80dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="CardView">
+<ppt>width=15dp
+height=15dp
+app_CardcornerRadius=7.5dp
+ut_centerInParent=true
+app_CardBackgroundColor=#f5b8cf
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="CardView">
+<ppt>width=12dp
+height=12dp
+app_CardcornerRadius=6dp
+app_CardBackgroundColor=#f0eff4
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="12" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="CardView">
+<ppt>width=8dp
+height=8dp
+app_CardcornerRadius=4dp
+app_CardBackgroundColor=#FF4081
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textSize=18sp
+singleLine=true
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+singleLine=true
+ellipsize=end</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+/.
+
+</eventItme></UIEventset>

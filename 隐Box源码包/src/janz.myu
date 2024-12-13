@@ -1,0 +1,36 @@
+fn tw(内容,选项)
+loadjar("ts.dex",dex)
+cls(dex,"com.coastbox.接口",类)
+cls("android.widget.LinearLayout",b)
+javanew(bj,"android.widget.LinearLayout$LayoutParams","int",-1,"int",-1)
+javanew(fkj,b,"Context",activity)
+java(null,fkj,"android.view.View.setLayoutParams","android.view.ViewGroup$LayoutParams",bj)
+java(null,fkj,"android.widget.LinearLayout.setOrientation","int",1)
+javax(ss.vv,null,类,"TOAST","Context",activity,"android.view.View",fkj)
+addv(fkj,"jan.iyu")
+gvs(fkj,jan.1,背景)
+f(选项==0)
+{
+  //正常
+  s 颜色="#79D6E9C9"
+  s 图片="@shtg.png"
+}
+else f(选项==1)
+{
+  //错误
+  s 颜色="#79FBC9C8"
+  s 图片="@tab_fx_hong.png"
+}
+else
+{
+  //异常
+  s 颜色="#79D2E4F8"
+  s 图片="@ic_alert_novel.png"
+}
+ngde("0","100",颜色,颜色,bj)
+us(背景,"background",bj)
+gvs(fkj,jan.4,文本)
+us(文本,"text",内容)
+gvs(fkj,jan.3,tp)
+us(tp,"src",图片)
+end fn

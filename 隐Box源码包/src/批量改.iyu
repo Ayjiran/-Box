@@ -1,0 +1,304 @@
+<View id="165" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=批量修改
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="41" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="149" did="41" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="53" did="149" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffff
+gravity=top
+layout_marginTop=30dp</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+gravity=center
+layout_marginBottom=30dp</ppt>
+<event></event>
+</View>
+<View id="156" did="54" type="ImageView">
+<ppt>width=60dp
+height=60dp
+src=@wp.v</ppt>
+<event></event>
+</View>
+<View id="90" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=批量修改
+textStyle=bold
+textSize=35
+textColor=#4499ff</ppt>
+<event></event>
+</View>
+<View id="55" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="56" did="55" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardcornerRadius=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#eeeeee
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="59" did="56" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="67" did="59" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="71" did="67" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+gravity=center
+singleLine=true
+background=#00000000
+hint=要修改的文字
+textCursorDrawable=#ff009cff
+textSize=18sp
+</ppt>
+<event></event>
+</View>
+<View id="72" did="55" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardcornerRadius=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#eeeeee
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="73" did="72" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="78" did="73" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="79" did="78" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+gravity=center
+singleLine=true
+background=#00000000
+hint=修改的文字
+textCursorDrawable=#ff009cff
+textSize=18sp
+</ppt>
+<event></event>
+</View>
+<View id="157" did="55" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardcornerRadius=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#eeeeee
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="158" did="157" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="159" did="158" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="160" did="159" type="EditText">
+<ppt>width=-1
+height=-1
+text=/storage/emulated/0/
+gravity=center
+singleLine=true
+background=#00000000
+hint=要修改的文件夹
+textCursorDrawable=#ff009cff
+textSize=18sp</ppt>
+<event></event>
+</View>
+<View id="57" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="155" did="53" type="TextView">
+<ppt>width=-1
+height=-2
+text=
+layout_marginLeft=30dp
+textColor=#ff0000
+textSize=12
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="83" did="53" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+layout_margin=5dp
+layout_marginLeft=40dp
+layout_marginRight=40dp</ppt>
+<event></event>
+</View>
+<View id="87" did="83" type="CardView">
+<ppt>width=0
+height=-1
+layout_weight=1
+app_CardBackgroundColor=#004499ff
+app_CardcornerRadius=3dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=5dp
+</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#4499ff
+BackgroundRipple=#66ffffff</ppt>
+<event></event>
+</View>
+<View id="89" did="88" type="TextView">
+<ppt>width=-1
+height=-1
+text=确定
+textColor=#ffffff
+textStyle=bold
+textSize=16sp
+gravity=center
+BackgroundRipple=#66ffffff</ppt>
+<event><eventItme type="press">ug(71,"text",xg)
+ug(79,"text",xgh)
+ug(160,"text",xh)
+fl(xh,g)
+for(nr;g)
+{
+ss(xh+nr,nr)
+fr(nr,bx)
+f(bx?xg)
+{
+sr(bx,xg,xgh,jk)
+fw(nr,jk)
+fr("%幻隐网络/临时数据/12.txt",kk)
+s+(kk,1,kyk)
+ss("修改完毕",uu)
+us(90,"text",uu)
+fw("%幻隐网络/临时数据/12.txt",kyk)
+}
+}
+ufnsui()
+{
+s stop = 2000
+s text="项目已成功替换"
+fn color.ColorToast(text,stop)
+  us(71,"text","")
+  us(79,"text","")
+}
+
+
+
+
+
+
+
+</eventItme><eventItme type="clicki">s c = "开弓没有回头箭，请确定您的路径文件是否正确再进行修改，否则出现错误修改的等问题，隐Box官方不负任何责任\n\n【为了您好，请一定要确认好路径】\n1.首先输入文字和要修改的文字以及修改的路径！例如【%文件夹/】后面一定要带/，否则可能故障，而且如果不写修改的路径，即修改手机文件夹全部的文字！\n\n【确认准确无误，长按确定即可修改】"
+us(updata.10,"text","好的") 
+us(updata.1,"visibility","visible")                    
+us(updata.7,"text",c)                  
+us(updata.5,"text","使用需知")
+ us(updata.12,"text","谨慎操作-易如反掌")
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+addv(149,"updata.iyu")
+fw("%幻隐网络/临时数据/12.txt","0")
+s id=165
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("%幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("%幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(161,颜色)
+fn 着色.控件着色(89,颜色)
+us(90,"textcolor",颜色)</eventItme><eventItme type="loadingComplete">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("%幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("%幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

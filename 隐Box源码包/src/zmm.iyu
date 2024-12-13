@@ -1,0 +1,55 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=35dp
+backgroundcolor=#ff00c3ff</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=重命名
+ut_centerinparent=true
+textsize=14dp
+textcolor=#ffffffff</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="1" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+gravity=center
+layout_marginleft=20dp
+layout_marginright=20dp
+singleline=true
+maxlines=1
+imeoptions=actiondone
+layout_margintop=10dp
+textsize=15dp
+background=
+textCursorDrawable=#ff00a5ff</ppt>
+<event>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+</UIEventset>

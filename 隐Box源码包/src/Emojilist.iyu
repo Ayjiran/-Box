@@ -1,0 +1,53 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+background=#ff00bfff
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=文件列表
+textsize=16
+textcolor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=224dp</ppt>
+<event></event>
+</View>
+<View id="4" did="5" type="ListView">
+<ppt>width=-1
+height=-1
+overscrollmode=never</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=还没有保存的文件...
+textsize=11
+ut_centerinparent=true</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

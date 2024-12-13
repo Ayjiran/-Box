@@ -1,0 +1,70 @@
+import android.view.accessibility.AccessibilityEvent;
+import android.view.accessibility.AccessibilityNodeInfo;
+import java.util.ArrayList;
+
+//事件方法 on 实时回调变化事件
+public void on(AccessibilityEvent e)
+{
+//获取事件类型
+int b = ays.gtype(e);
+//如果事件类型
+if(b == 32 || b == 2048){
+  //获取事件源的对象节点列表
+  AccessibilityNodeInfo node = ays.gall(e);
+  //判断事件来源是不是包名为com.iapp.app的应用
+  String gpn = ays.gpn(e);
+  if("com.tencent.mobileqq".equals(gpn))
+  {
+      
+     //判断类名，根据指定的类名进行不同的操作
+     String gcn = ays.gcn(e);
+   
+     if("com.tencent.mobileqq.activity.SplashActivity".equals(gcn))
+     {
+        //从对象列表搜索文本为“创建”的对象，并点击该对象
+        ays.cktext(node, 16, "帐户及设置");
+     }
+   if("com.tencent.mobileqq.activity.SplashActivity".equals(gcn))
+     {
+       ays.ckid(node,16,"com.tencent.mobileqq:id/head_layout");
+       }
+      if("com.tencent.mobileqq.activity.FriendProfileCardActivity".equals(gcn))
+     {
+       ays.cktext(node,16,"次赞");
+       ays.cktext(node,16,"赞");
+        //根据ID获取指定的节点
+  //      ArrayList b = ays.id(node, "com.iapp.app:id/ui_home_add_title");
+	//设置节点的文本框输入指定字符
+        }
+      
+      if("com.tencent.mobileqq.activity.VisitorsActivity".equals(gcn))
+     {
+       int a=10;
+       while(a>0){
+         ays.cktext(node,16,"赞");
+        //根据ID获取指定的节点
+  //      b = ays.id(node, "com.iapp.app:id/ui_home_add_remark");
+	//设置节点的文本框输入指定字符
+        
+        //从对象列表搜索指定ID的对象，并点击该节点对象
+    //    ays.ckid(node, 16, "com.iapp.app:id/ui_home_add_go");
+     }
+   }
+ }
+  //释放根源节点
+  ays.re(node);
+
+}
+
+}
+
+//初始化事件方法 onsc 启动时回调一次
+public void onsc()
+{
+String pns = "com.tencent.mobileqq";
+//设置监听指定的包名，可以设置多个包名用逗号隔开如"com.xxx.a,com.xxx.b"
+com.tencent.mobileqq.ays.pns = pns;
+//设置相应时间
+com.tencent.mobileqq.ays.nt = 1000;
+}
+

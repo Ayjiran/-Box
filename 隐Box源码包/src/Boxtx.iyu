@@ -1,0 +1,108 @@
+<View id="20" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginBottom=5dp
+</ppt>
+<event></event>
+</View>
+<View id="7" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="23" did="14" type="ImageView">
+<ppt>width=38dp
+height=38dp
+src=@xgt/img_winners_badge.v
+layout_marginleft=16dp</ppt>
+<event></event>
+</View>
+<View id="16" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=头像查看
+layout_margin=10dp
+textSize=18sp
+textColor=#ff005dab
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="18" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="24" did="18" type="ScrollView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="28" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="ImageView">
+<ppt>width=-1
+height=150dp
+src=$幻隐网络/记录/tx.png
+layout_marginBottom=20dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="25" did="28" type="TextView">
+<ppt>width=-2
+height=-2
+text=一个非常有个性的头像可以让你使用隐Box更加顺畅好用！如果您的是透明头像，那么不好意思，可能有的功能使用会出现丑陋之类的现象！如果您的是透明头像，请快去【设置-恢复出厂】！
+textStyle=bold
+textColor=#ff414141</ppt>
+<event></event>
+</View>
+<View id="12" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=right
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="12" type="Button">
+<ppt>width=80dp
+height=40dp
+text=我知道啦
+textColor=#ffffff
+textSize=14dp
+background=#FF2196F3
+textStyle=bold
+layout_marginRight=10dp
+BackgroundRipple=#ffffff
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="clicki">fn tool.endubt()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

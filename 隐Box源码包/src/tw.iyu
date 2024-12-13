@@ -1,0 +1,56 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="CardView">
+<ppt>width=-2
+height=-2
+background=@a/1/icon_mine_bj2.v
+layout_margin=20dp
+ut_centerinparent=true
+layout_marginTop=300dp
+app_CardcornerRadius=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="2" did="6" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+layout_margin=20dp
+layout_marginTop=300dp
+</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=文字
+textcolor=#ffffff
+textsize=15sp
+ut_torightof=5
+ut_centerinparent=true
+//layout_marginleft=5dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@xgt/a8e.v
+ut_centervertical=true
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

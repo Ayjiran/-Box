@@ -1,0 +1,72 @@
+<View id="1" did="0" type="CardView">
+<ppt>width=-1
+height=80dp
+app_CardcornerRadius=10dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=5dp
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=selectableitem
+clickable=true</ppt>
+<event><eventItme type="clicki">ulag(st_vW,8,sss.ar)
+ss("/storage/emulated/0/快递临时数据/"+sss.ar,sss.er)
+uigo("快递b.iyu")</eventItme></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="CardView">
+<ppt>width=50dp
+height=50dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#2196F3</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=快
+//textStyle=bold
+textSize=30sp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=快递
+layout_gravity=center_vertical
+textSize=30sp
+singleLine=true
+ellipsize=end
+textColor=#ff0a0a0a</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+/.
+
+</eventItme></UIEventset>

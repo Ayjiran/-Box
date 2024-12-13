@@ -1,0 +1,45 @@
+<View id="2" did="0" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+</ppt>
+<event></event>
+</View>
+<View id="1" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@IMG_20210122_223154.png
+</ppt>
+<event><eventItme type="clicki">f(sss.广告一地址?".iyu")
+{
+  f(sss.游客=="是")
+  {
+    s stop = 2000
+    s text="游客不可看！"
+    fn color.ColorToast(text,stop)
+  }
+  else
+  {
+    uigo(sss.广告一地址)
+  }
+}
+else
+{
+  uigo("广告.iyu")
+  sss wz=sss.广告一地址
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="3" did="1" type="ImageView">
+<ppt>width=-1
+height=-1
+src=
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

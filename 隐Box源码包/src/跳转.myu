@@ -1,0 +1,34 @@
+fn tz()
+swh("pxw",w)
+s*(0.2,w,kjkd)
+sss kjkd=kjkd
+s*(0.5,w,ww)
+sss w=ww
+.sss cjq="&lt;div class=\"menu\"&gt;"
+t()
+{
+
+ ss(sss.cc+sss.cc1+sss.cc4+sss.pg+sss.cc5+sss.ssnr+sss.cc2,sss.cc3)
+syso(sss.cc3)
+hs(sss.cc3,cdm)
+sj(cdm,"&lt;div class=\"myvod\"&gt;","&lt;div class=\"myft\"&gt;",dm)
+.syso(dm)
+sj(dm,"&lt;li&gt;",null,dm)
+sl(dm,"&lt;/li&gt;",dm)
+for(b;dm)
+{
+sj(b,"&lt;a href=\"","\" title=",jl)
+ss(sss.c+jl,lj)
+sj(b,"title=\"","\"&gt;",mz)
+sj(b,"data-original=\"","\" src=",tp)
+sj(b,"&lt;span class=\"title\"&gt;","&lt;/span&gt;",yy)
+ula(list,1=null,2=null,3=null,4=mz,5=lj,6=null,7=tp,8=null,14=yy)
+}
+ufnsui()
+{
+uls(55,list,"草列.iyu",sss.w,-2)
+us(93,"text",sss.pg)
+endutw()
+}
+}
+end fn

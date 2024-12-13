@@ -1,0 +1,271 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=350dp
+orientation=vertical
+background=through</ppt>
+<event></event>
+</View>
+<View id="47" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=15dp
+</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="79" did="49" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="51" did="49" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="52" did="51" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_alignParentBottom=true
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="53" did="51" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_above=8
+gravity=center
+layout_marginTop=23dp</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="55" did="54" type="RoundImageView">
+<ppt>width=80dp
+height=80dp
+src=@sz.png
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="56" did="54" type="CardView">
+<ppt>width=70dp
+height=70dp
+app_CardcornerRadius=90dp
+app_CardElevation=1dp
+layout_marginTop=3dp
+layout_marginBottom=3dp</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@icon.v</ppt>
+<event></event>
+</View>
+<View id="59" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=By隐心
+textColor=#ff272727
+textSize=18sp</ppt>
+<event></event>
+</View>
+<View id="61" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=" 联系我 方便快捷充值想要的 "
+textColor=#7e7e7e
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="62" did="53" type="CardView">
+<ppt>width=60dp
+height=6dp
+layout_marginTop=15dp
+app_CardElevation=0dp
+app_CardcornerRadius=1dp
+app_CardBackgroundColor=#DEDEDE</ppt>
+<event></event>
+</View>
+<View id="63" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="64" did="63" type="TextView">
+<ppt>width=-2
+height=-2
+text=赞助作者
+textColor=#757575
+textSize=18sp
+textStyle=bold
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="65" did="53" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="66" did="65" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="67" did="66" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@sheji.png</ppt>
+<event></event>
+</View>
+<View id="68" did="66" type="TextView">
+<ppt>width=-2
+height=-2
+text=UI设计
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="69" did="65" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event><eventItme type="clicki">sxb(sss.微信)
+s stop = 2000
+s text="已复制微信号"
+fn color.ColorToast(text,stop)</eventItme></event>
+</View>
+<View id="70" did="69" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@com_tencent_mm.png</ppt>
+<event></event>
+</View>
+<View id="71" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=微信联系
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="72" did="65" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event><eventItme type="clicki">t()
+  {
+    hs(sss.bs,code)
+    sj(code,"群号码@","@群号码",hao)
+    ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+hao+"&card_type=group&source=qrcode",joinqq)
+    ufnsui()
+      {
+        sit(a,"action", "android.intent.action.VIEW")
+        sit(a,"data",joinqq)
+        uit(a, "chooser", "打开QQ")
+      }
+  }
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="73" did="72" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@com_tencent_mobileqq.png</ppt>
+<event></event>
+</View>
+<View id="74" did="72" type="TextView">
+<ppt>width=-2
+height=-2
+text=联系群主
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="75" did="65" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center</ppt>
+<event><eventItme type="clicki">sxb(sss.支付宝)
+s stop = 2000
+s text="已复制支付宝号"
+fn color.ColorToast(text,stop)</eventItme></event>
+</View>
+<View id="76" did="75" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@default_notice_icon.png</ppt>
+<event></event>
+</View>
+<View id="77" did="75" type="TextView">
+<ppt>width=-2
+height=-2
+text=加支付宝
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,215 @@
+<View id="10" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="7" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="3" did="7" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-1
+text=介绍
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+ellipsize=marquee
+//文本超长显示方式 跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数 无限∞重复
+focusableintouchmode=true
+//获取焦点
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="32" did="7" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="38" did="7" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="33" did="39" type="VideoView">
+<ppt>width=-1
+height=1000dp</ppt>
+<event></event>
+</View>
+<View id="34" did="39" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+background=#ffffff
+gravity=center_vertical</ppt>
+<event><eventItme type="clicki">ss(sss.jxsp+sss.mz,sp)
+sran(1,9999,sj)
+ss("幻隐网luo/短视频解析"+sj+".mp4",jx)
+fc(sp,jx,b)
+f(b=="true")
+{
+s text="成功放入"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+s text="失败喽，问题未知"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+fn tool.endubt()</eventItme></event>
+</View>
+<View id="35" did="34" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@6.26/personal_icon_download.v
+layout_marginleft=15dp</ppt>
+<event></event>
+</View>
+<View id="36" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+text=保存本地
+textsize=14.5sp
+textcolor=#000000
+layout_weight=1
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="37" did="39" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+background=#dfdfdfdf
+layout_marginleft=15dp
+layout_marginright=15dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="15" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本11
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="restart">ushsp(false)
+s stop = 2000
+s text="重新连接中~~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/临时数据/1003.txt",splj)
+bfvs(33,splj)
+bfvss(33,"media", c)
+bfvss(33,"st")
+fr("$幻隐网络/临时数据/1025.txt",nr)
+bfvss(33, "seekto",nr)</eventItme><eventItme type="loading">usjxm(false)
+uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(3,"background",yg)
+fw("$幻隐网络/临时数据/1002.txt","0")
+addv(10,"updata.iyu")
+ushsp(false)
+us(4,"text",sss.mz)
+ss(sss.jxsp+sss.mz,wj)
+bfvs(33,wj)
+fw("$幻隐网络/临时数据/1003.txt",wj)
+bfvss(33,"st")
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">t()
+{
+w(true)
+{
+bfvss(33, "ip", c)
+f(c=="false")
+{
+  ufnsui()
+  {
+bfvss(33, "st")
+  }
+}
+else
+{
+  ufnsui()
+  {
+    bfvss(33, "cn",sss.nr)
+    fw("$幻隐网络/临时数据/1025.txt",sss.nr)
+  }
+}
+stop(100)
+}
+}
+bfvss(33, "seekto", sss.ww)
+</eventItme></UIEventset>

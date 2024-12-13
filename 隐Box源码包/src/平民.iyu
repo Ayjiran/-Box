@@ -1,0 +1,2050 @@
+<View id="399" did="0" type="CoordinatorLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="399" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="406" did="1" type="LinearLayout">
+<ppt>width=-1
+height=500dp
+orientation=vertical
+background=#ffffff</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="398" did="2" type="Toolbar">
+<ppt>width=-1
+height=-3
+background=white
+app_title=平民功能
+app_TitleColor=#FF2196F3
+</ppt>
+<event></event>
+</View>
+<View id="388" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="19" did="388" type="ScrollView">
+<ppt>width=-1
+height=-1
+</ppt>
+<event><eventItme type="touchmonitor">/.f(st_eA==0)
+{
+  ss y1=st_eY
+}
+f(st_eA==2)
+{
+  ss y2=st_eY
+}
+else f(st_eA==1)
+{
+  f(ss.y1&gt;ss.y2)
+  {
+    s(ss.y1-ss.y2,hdjl)
+    f(hdjl&gt;100)
+    {
+      //这是向下滚动执行的事件
+      us(398,"visibility","gone")
+      call(null,"mjava","set2.set",activity,1)   
+      f(ss.zt2==null)
+      {
+        //这里是设置只执行一次的事件
+        //隐藏标题栏动画
+        ss xzt="true"
+        ss zt2="true"
+        ss zt3
+      }
+    }  
+  }
+  else
+  {
+    s(ss.y2-ss.y1,hdjl)
+    f(hdjl&gt;100)
+    {
+      //这里是向上滚动执行的事件
+      us(398,"visibility","visible")
+      call(null,"mjava","set2.set",activity,1)
+      f(ss.xzt==null)
+      {
+        endcode
+      }
+      f(ss.zt3==null)
+      {
+        //这里是设置只执行一次的事件
+        //显示标题栏动画
+        ss zt3="true"
+        ss zt2
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@a/live_summary_yellow_bg.v
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="401" did="20" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="402" did="401" type="LinearLayout">
+<ppt>width=-1
+height=180dp
+orientation=vertical
+</ppt>
+<event><eventItme type="clicki">f(sss.开始初始化 == null)
+{
+  fn topon.初始化()
+}
+// 初始化值
+sss top激励_onReward_atAdInfo = null
+zj(sss.激励广告对象, "top加载激励广告并播放", "String",sss.激励广告位, "boolean", true)
+f(sss.激励广告对象 ==  null)
+{
+  sj(sss.bs,"广告招商查看【","】广告招商查看",广告招商)
+  sss wz=广告招商
+  uigo("广告.iyu")
+}else
+{
+  t()
+  {
+    s i2 = 0
+    w(sss.top激励_onReward_atAdInfo == null)
+    {
+      s+(1, i2)
+      stop(500)
+      f(i2 &gt; 200)
+      {
+        endcode
+      }
+    }
+    ufnsui()
+    {
+      sj(sss.bs,"广告招商查看【","】广告招商查看",广告招商)
+      sss wz=广告招商
+      uigo("广告.iyu")
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="403" did="402" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="416" did="403" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@IMG_20210122_223154.png
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="404" did="403" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center
+ut_alignParentBottom=true
+background=@item_mefragment_head_btn.v</ppt>
+<event></event>
+</View>
+<View id="130" did="20" type="CardView">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="122" did="130" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="124" did="122" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+padding=8dp
+gravity=center_vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="125" did="124" type="ImageView">
+<ppt>width=3dp
+height=15dp
+src=1730
+background=#ff0087ff</ppt>
+<event></event>
+</View>
+<View id="126" did="124" type="TextView">
+<ppt>width=0
+height=-2
+text=广告区域
+layout_marginleft=5dp
+layout_weight=1
+textstyle=bold
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="127" did="124" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@zy/ic_close_black_24dp.v</ppt>
+<event><eventItme type="clicki">us(122,"visibility","gone")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="247" did="124" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@ic_compost_send_pressed.v</ppt>
+<event><eventItme type="clicki">
+uzd(震动器, 30)
+gvs(399,id)
+   
+   
+   
+  f(ss.k1z==null)
+  {
+    ss k1z=1
+    us(248,"visibility","gone")
+    us(247,"src","@ic_compost_send_normal.v")
+  }
+else
+  {
+    us(248,"visibility","visible")
+    us(247,"src","@ic_compost_send_pressed.v")
+    ss k1z=null
+  }
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="248" did="122" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="128" did="248" type="ListView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="131" did="20" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=-10dp
+</ppt>
+<event></event>
+</View>
+<View id="28" did="131" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margintop=5dp</ppt>
+<event></event>
+</View>
+<View id="412" did="28" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=5dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="413" did="412" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+BackgroundColor=#1d0090ff
+visibility=</ppt>
+<event></event>
+</View>
+<View id="414" did="413" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：看到这段文字，证明您没有网络喔~\n\n联网功能会更多，请务必联网使用！
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#ff0095ff
+textIsSelectable=true
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+padding=8dp
+gravity=center_vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="411" did="29" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@Bibi/bx1.v</ppt>
+<event></event>
+</View>
+<View id="409" did="29" type="TabLayout">
+<ppt>width=-1
+height=-2
+app_tabList=普通功能|积分功能|更多功能
+app_tabIndicatorWidth=10dp
+tabSelect=0
+app_tabIndicatorColor=#ff008cff
+app_tabIndicatorWidth=14dp
+app_tabIndicatorHeight=3.5dp
+app_tabTextColor=#80000000||#ff008cff
+app_tabMode=0
+layout_gravity=center
+</ppt>
+<event><eventItme type="ontabselected">f(st_tT=="普通功能")
+{
+  gvs(399,id)
+   
+   
+   
+  us(33,"visibility","visible")
+us(410,"visibility","gone")
+us(237,"visibility","gone")
+}
+else f(st_tT=="积分功能")
+{
+  gvs(399,id)
+   
+   
+   
+  us(33,"visibility","gone")
+us(410,"visibility","visible")
+us(237,"visibility","gone")
+}
+else f(st_tT=="更多功能")
+{
+  gvs(399,id)
+   
+   
+   
+  us(33,"visibility","gone")
+us(410,"visibility","gone")
+us(237,"visibility","visible")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="33" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margintop=1
+visibility=gon
+layout_marginBottom=100dp</ppt>
+<event></event>
+</View>
+<View id="35" did="33" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("zd.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="41" did="36" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/zz.v</ppt>
+<event></event>
+</View>
+<View id="42" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=按摩震动
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+</ppt>
+<event></event>
+</View>
+<View id="37" did="35" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("xz.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="43" did="37" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/tl.v</ppt>
+<event></event>
+</View>
+<View id="44" did="37" type="TextView">
+<ppt>width=-2
+height=-2
+text=小字生成
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="39" did="35" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("wz.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="47" did="39" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/fx.v</ppt>
+<event></event>
+</View>
+<View id="48" did="39" type="TextView">
+<ppt>width=-2
+height=-2
+text=王者重名
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="38" did="35" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("计算.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="45" did="38" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/jsj.v</ppt>
+<event></event>
+</View>
+<View id="46" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=数学计算
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="140" did="33" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="141" did="140" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">f(sss.无网络=="对")
+{
+  s stop = 2000
+s text="本功能，请联网使用~"
+fn color.ColorToast(text,stop)
+}
+else
+{
+uigo("记账助手.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="142" did="141" type="ImageView">
+<ppt>width=30dp
+height=35dp
+src=@ui/Dnd.v</ppt>
+<event></event>
+</View>
+<View id="143" did="141" type="TextView">
+<ppt>width=-2
+height=-2
+text=记账助手
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="144" did="140" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("lk.zt.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="145" did="144" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/Eg.v</ppt>
+<event></event>
+</View>
+<View id="146" did="144" type="TextView">
+<ppt>width=-2
+height=-2
+text=特殊网名
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="147" did="140" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("公式头像.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="148" did="147" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/geren.v</ppt>
+<event></event>
+</View>
+<View id="149" did="147" type="TextView">
+<ppt>width=-2
+height=-2
+text=公式头像
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="150" did="140" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("lk.ewm.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="151" did="150" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/Rwm.v</ppt>
+<event></event>
+</View>
+<View id="152" did="150" type="TextView">
+<ppt>width=-2
+height=-2
+text=二维生成
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="159" did="33" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="163" did="159" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center
+</ppt>
+<event><eventItme type="clicki">uigo("lk.ch.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="164" did="163" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/fd.v</ppt>
+<event></event>
+</View>
+<View id="165" did="163" type="TextView">
+<ppt>width=-2
+height=-2
+text=撤回恶搞
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="169" did="159" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">f(sss.无网络=="对")
+{
+  s stop = 2000
+s text="本功能，请联网使用~"
+fn color.ColorToast(text,stop)
+}
+else
+{
+uigo("活了多久.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="170" did="169" type="ImageView">
+<ppt>width=40dp
+height=35dp
+src=@ui/ylsc.v</ppt>
+<event></event>
+</View>
+<View id="171" did="169" type="TextView">
+<ppt>width=-2
+height=-2
+text=活了多久
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="166" did="159" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("BIM.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="167" did="166" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/ts.v</ppt>
+<event></event>
+</View>
+<View id="168" did="166" type="TextView">
+<ppt>width=-2
+height=-2
+text=身材检测
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="160" did="159" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("扣字大师.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="161" did="160" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/Kw.v</ppt>
+<event></event>
+</View>
+<View id="162" did="160" type="TextView">
+<ppt>width=-2
+height=-2
+text=扣字大师
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="417" did="33" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="427" did="417" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="428" did="427" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@7892f95afbd.v</ppt>
+<event></event>
+</View>
+<View id="429" did="427" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ffaaaaaa
+</ppt>
+<event></event>
+</View>
+<View id="430" did="417" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="431" did="430" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@7892f95afbd.v</ppt>
+<event></event>
+</View>
+<View id="432" did="430" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ffaaaaaa
+</ppt>
+<event></event>
+</View>
+<View id="433" did="417" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="434" did="433" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@7892f95afbd.v</ppt>
+<event></event>
+</View>
+<View id="435" did="433" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ffaaaaaa
+</ppt>
+<event></event>
+</View>
+<View id="436" did="417" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="437" did="436" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@7892f95afbd.v</ppt>
+<event></event>
+</View>
+<View id="438" did="436" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ffaaaaaa
+</ppt>
+<event></event>
+</View>
+<View id="410" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="67" did="410" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="408" did="67" type="CardView">
+<ppt>width=-1
+layout_margin=10dp
+height=-2
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="68" did="408" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+padding=8dp
+background=white
+layout_gravity=top</ppt>
+<event></event>
+</View>
+<View id="70" did="68" type="TextView">
+<ppt>width=-2
+height=-2
+text=积分：
+textstyle=bold
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="175" did="68" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textSize=12sp
+textColor=#ff000000
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="407" did="68" type="TextView">
+<ppt>width=-2
+height=-2
+text=获取
+layout_marginLeft=10dp
+layout_marginRight=10dp
+textColor=#ff00a2ff
+textStyle=bold</ppt>
+<event><eventItme type="clicki">f(sss.topon广告=="开启")
+{
+  uigo("分享广告.iyu")
+}
+else
+{
+  uigo("分享.iyu")
+}
+uzd(震动器, 30)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="93" did="410" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=through</ppt>
+<event></event>
+</View>
+<View id="98" did="410" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="103" did="99" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+background=white</ppt>
+<event></event>
+</View>
+<View id="104" did="103" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+  s text="您的平民积分不足"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  s-(cs,1,js)
+  fw("%Android/xianzhi/yxfx.txt",js)
+  fr("$幻隐网络/记录/xf.txt",a)
+  s c="【透明头像】您使用透明头像时，消费了1平民积分！"
+  ss(a+c,d)
+  fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+  us(175,"text",a)
+  uigo("透明头.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="108" did="104" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/lr.v</ppt>
+<event></event>
+</View>
+<View id="109" did="104" type="TextView">
+<ppt>width=-2
+height=-2
+text=透明头像
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="105" did="103" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">f(sss.无网络=="对")
+{
+  s stop = 2000
+  s text="本功能，请联网使用~"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  fr("%Android/xianzhi/yxfx.txt",cs)
+  f(cs&lt;"1")
+  {
+    s text="您的平民积分不足"
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+    
+  }
+  else
+  {
+    s-(cs,1,js)
+    fw("%Android/xianzhi/yxfx.txt",js)
+    fr("$幻隐网络/记录/xf.txt",a)
+    s c="【强制聊天】您使用《强制聊天》时，消费了1平民积分！"
+    ss(a+c,d)
+    fw("$幻隐网络/记录/xf.txt",d)
+    fr("%Android/xianzhi/yxfx.txt",a)
+    us(175,"text",a)
+    uigo("qz.iyu")
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="110" did="105" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/db.v</ppt>
+<event></event>
+</View>
+<View id="111" did="105" type="TextView">
+<ppt>width=-2
+height=-2
+text=强制聊天
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="106" did="103" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【颜色提取】您使用《颜色提取》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+us(175,"text",a)
+uigo("颜色提取.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="112" did="106" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@a/.zy/m4399_png_emoji_pannl_bbs_group_jjxz.v</ppt>
+<event></event>
+</View>
+<View id="113" did="106" type="TextView">
+<ppt>width=-2
+height=-2
+text=空间机型
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="107" did="103" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">f(sss.无网络=="对")
+{
+  s stop = 2000
+  s text="本功能，请联网使用~"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  fr("%Android/xianzhi/yxfx.txt",cs)
+  f(cs&lt;"1")
+  {
+    s text="您的平民积分不足"
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+    
+  }
+  else
+  {
+    s-(cs,1,js)
+    fw("%Android/xianzhi/yxfx.txt",js)
+    fr("$幻隐网络/记录/xf.txt",a)
+    s c="【在线翻译】您使用《在线翻译》时，消费了1平民积分！"
+    ss(a+c,d)
+    fw("$幻隐网络/记录/xf.txt",d)
+    fr("%Android/xianzhi/yxfx.txt",a)
+    us(175,"text",a)
+    uigo("gn_ fy.iyu")
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="114" did="107" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@a/.zy/m4399_png_emoji_pannl_bbs_group_xydzjs.v</ppt>
+<event></event>
+</View>
+<View id="115" did="107" type="TextView">
+<ppt>width=-2
+height=-2
+text=在线翻译
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="177" did="410" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="235" did="177" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="200" did="235" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+background=white</ppt>
+<event></event>
+</View>
+<View id="201" did="200" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【带壳截图】您使用《带壳截图》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+us(175,"text",a)
+uigo("带壳.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="202" did="201" type="ImageView">
+<ppt>width=30dp
+height=35dp
+src=@ui/Sjk.v</ppt>
+<event></event>
+</View>
+<View id="203" did="201" type="TextView">
+<ppt>width=-2
+height=-2
+text=带壳截图
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="204" did="200" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+  s text="您的平民积分不足"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+  
+}
+else
+{
+  s-(cs,1,js)
+  fw("%Android/xianzhi/yxfx.txt",js)
+  fr("$幻隐网络/记录/xf.txt",a)
+  s c="【房税计算】您使用《房税计算》时，消费了1平民积分！"
+  ss(a+c,d)
+  fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+  us(175,"text",a)
+  uigo("房税.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="243" did="204" type="RoundImageView">
+<ppt>width=40dp
+height=35dp
+src=@ui/Mg.v</ppt>
+<event></event>
+</View>
+<View id="206" did="204" type="TextView">
+<ppt>width=-2
+height=-2
+text=房税计算
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="210" did="200" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+  s text="您的平民积分不足"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+  
+}
+else
+{
+  s-(cs,1,js)
+  fw("%Android/xianzhi/yxfx.txt",js)
+  fr("$幻隐网络/记录/xf.txt",a)
+  s c="【尖叫字体】您使用《尖叫字体》时，消费了1平民积分！"
+  ss(a+c,d)
+  fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+  us(175,"text",a)
+  uigo("尖叫字体.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="211" did="210" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/jjzt.v</ppt>
+<event></event>
+</View>
+<View id="212" did="210" type="TextView">
+<ppt>width=-2
+height=-2
+text=尖叫字体
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="192" did="200" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【背景获取】您使用《背景获取》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+ss("当前积分："+a,b)
+us(175,"text",b)
+uigo("获取壁纸.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="193" did="192" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@shoucang.v</ppt>
+<event></event>
+</View>
+<View id="194" did="192" type="TextView">
+<ppt>width=-2
+height=-2
+text=背景获取
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="195" did="410" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="196" did="195" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="213" did="410" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="214" did="213" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="262" did="214" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="303" did="262" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+background=white</ppt>
+<event></event>
+</View>
+<View id="307" did="303" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【手机信息】您使用《手机信息》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+ss("当前积分："+a,b)
+us(175,"text",b)
+uigo("手机信息.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="308" did="307" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ec_ic_grzx_tie.v</ppt>
+<event></event>
+</View>
+<View id="309" did="307" type="TextView">
+<ppt>width=-2
+height=-2
+text=手机信息
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="310" did="303" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【水平测量】您使用《水平测量》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+ss("当前积分："+a,b)
+us(175,"text",b)
+uigo("水平测量.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="311" did="310" type="ImageView">
+<ppt>width=30dp
+height=35dp
+src=@ec_ic_grzx_gywm.v</ppt>
+<event></event>
+</View>
+<View id="312" did="310" type="TextView">
+<ppt>width=-2
+height=-2
+text=水平测量
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="313" did="303" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【常用尺子】您使用《常用尺子》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+ss("当前积分："+a,b)
+us(175,"text",b)
+uigo("尺子.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="314" did="313" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ec_ic_grzx_sz.v</ppt>
+<event></event>
+</View>
+<View id="315" did="313" type="TextView">
+<ppt>width=-2
+height=-2
+text=常用尺子
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="395" did="303" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【爱心九宫格】您使用《爱九宫格》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+ss("当前积分："+a,b)
+us(175,"text",b)
+uigo("爱心九宫格.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="396" did="395" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ec_ic_grzx_wdyhk.v</ppt>
+<event></event>
+</View>
+<View id="397" did="395" type="TextView">
+<ppt>width=-2
+height=-2
+text=爱九宫格
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="249" did="262" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+background=white</ppt>
+<event></event>
+</View>
+<View id="250" did="249" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【辅助瞄准】您使用《辅助瞄准》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+ss("当前积分："+a,b)
+us(175,"text",b)
+uigo("辅助瞄准.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="251" did="250" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/kk.v</ppt>
+<event></event>
+</View>
+<View id="252" did="250" type="TextView">
+<ppt>width=-2
+height=-2
+text=辅助瞄准
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="253" did="249" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">f(sss.无网络=="对")
+{
+  s stop = 2000
+  s text="本功能，请联网使用~"
+  fn color.ColorToast(text,stop)
+}
+else
+{
+fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【认识多久】您使用《认识多久》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+ss("当前积分："+a,b)
+us(175,"text",b)
+uigo("关心查询.iyu")
+}
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="254" did="253" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@ui/gg.v</ppt>
+<event></event>
+</View>
+<View id="255" did="253" type="TextView">
+<ppt>width=-2
+height=-2
+text=认识多久
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="256" did="249" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("%Android/xianzhi/yxfx.txt",cs)
+f(cs&lt;"1")
+{
+s text="您的平民积分不足"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+}
+else
+{
+s-(cs,1,js)
+fw("%Android/xianzhi/yxfx.txt",js)
+fr("$幻隐网络/记录/xf.txt",a)
+s c="【壁纸制作】您使用《壁纸制作》时，消费了1平民积分！"
+ss(a+c,d)
+fw("$幻隐网络/记录/xf.txt",d)
+  fr("%Android/xianzhi/yxfx.txt",a)
+ss("当前积分："+a,b)
+us(175,"text",b)
+uigo("壁纸制作.iyu")
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="257" did="256" type="ImageView">
+<ppt>width=30dp
+height=35dp
+src=@ui/fy.v</ppt>
+<event></event>
+</View>
+<View id="258" did="256" type="TextView">
+<ppt>width=-2
+height=-2
+text=壁纸制作
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f
+textColor=#ff0f0f0f</ppt>
+<event></event>
+</View>
+<View id="259" did="249" type="LinearLayout">
+<ppt>width=0
+height=-1
+orientation=vertical
+layout_weight=1
+background=white
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="276" did="259" type="RoundImageView">
+<ppt>width=30dp
+height=35dp
+src=@7892f95afbd.v</ppt>
+<event></event>
+</View>
+<View id="261" did="259" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待
+layout_marginTop=5dp
+textSize=12sp
+textColor=#ffaaaaaa</ppt>
+<event></event>
+</View>
+<View id="237" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="238" did="237" type="ImageView">
+<ppt>width=-1
+height=100dp
+src=@none.png
+layout_gravity=center
+padding=10dp
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="239" did="237" type="TextView">
+<ppt>width=-2
+height=-2
+text=更多功能正在制作…
+layout_gravity=center
+layout_marginTop=10dp
+textStyle=bold
+layout_marginBottom=100dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loadingComplete">fr("%Android/xianzhi/yxfx.txt",a)
+us(175,"text",a)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(388,a)
+gvs(19,b)
+javanew(mBs,mB,"Context",activity)
+urvw(19)
+nvw(mBs,388)
+nvw(b,mBs)</eventItme><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+s id=398
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(398,颜色)
+fn 着色.控件着色(409,颜色)
+f(sss.无网络=="对")
+{
+  us(398,"app_title","无网络")
+  us(401,"visibility","gone")
+  us(130,"visibility","gone")
+  us(412,"visibility","visible")
+  t()
+  {
+    w(sss.无网络=="对")
+    {
+      stop(2000)
+      javanew(ct,"android.content.Context")
+      javags(cs,ct,"android.content.Context","CONNECTIVITY_SERVICE")
+      java(cm,activity,"android.app.Activity.getSystemService","String",cs)
+      java(nif,cm,"android.net.ConnectivityManager.getActiveNetworkInfo")
+      f(nif != null)
+      {
+        java(ss.rnink,nif,"android.net.NetworkInfo.isAvailable")
+        sss 无网络="no"
+        uigo("mian.iyu")
+        end()
+        ss hh="1"
+      }
+      else
+      {
+        ss rnink=false
+        ss hh="0"
+      }
+    }
+  }
+}
+else
+{
+  
+  addv(1,"updata.iyu")
+  t()
+  {
+    sj(sss.bs,"广告【","】广告",bbb)
+    sj(sss.bs,"广告招商【","】广告招商",广告招商)
+    sj(bbb,"●",null,bbb)
+    sl(bbb,"●",b)
+    s a = 0
+    for(bb;b)
+    {
+      s+(a,1,a)
+      ss(a+".",aaa)
+      ula(list,1=bb,2=aaa)
+    }
+    ufnsui()
+    {
+      us(416,"src",广告招商)
+      uls(128,list,"liebiao.iyu",-1,-2)
+      ug(128,"count",总共)
+      s*(总共,40,总共)
+      ss(总共+"dp",总共)
+      us(128,"height",总共)
+    }
+  }
+}</eventItme><eventItme type="restart">fr("%Android/xianzhi/yxfx.txt",a)
+us(175,"text",a)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

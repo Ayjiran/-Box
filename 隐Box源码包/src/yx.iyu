@@ -1,0 +1,324 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-1
+text=数据统计
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="LinearLayout">
+<ppt>width=-1
+height=7dp
+background=@yy.v</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=190dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="26" did="10" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@a/.zy/nav_select_selected.v</ppt>
+<event></event>
+</View>
+<View id="7" did="10" type="ImageView">
+<ppt>width=75dp
+height=75dp
+src=@icon.v
+background=17301606</ppt>
+<event><eventItme type="clicki">t()
+{
+call(img,"mjava","Http.getInternetPicture","http://ww3.sinaimg.cn/mw690/0062rrbMgw1erjcfsuqqmj30jg0sctce.jpg")
+ufnsui()
+{
+tw(img)
+}
+}</eventItme></event>
+</View>
+<View id="8" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=幻隐网络『xrr』
+textcolor=#424242
+layout_margintop=5dp
+textsize=15sp
+textstyle=bold</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-1
+height=2
+text=
+backgroundcolor=#E0E0E0
+layout_marginleft=25dp
+layout_marginright=25dp
+layout_margintop=15dp</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="14" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=截止：
+paddingleft=25dp
+textsize=13dp
+textstyle=bold</ppt>
+<event></event>
+</View>
+<View id="13" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=Time ：Year ; Day  ; Mone 
+textcolor=#424242
+textsize=14sp
+textstyle=bold</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=今日心情：统计中...
+textcolor=#424242
+layout_margintop=15dp
+textsize=15sp
+textstyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="12" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=今日想说：统计中...
+textcolor=#424242
+layout_margintop=5dp
+textsize=14sp
+textstyle=bold
+layout_margintop=9dp</ppt>
+<event></event>
+</View>
+<View id="20" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=联系方式：统计中...
+textcolor=#424242
+layout_margintop=5dp
+textsize=14sp
+textstyle=bold
+layout_margintop=9dp</ppt>
+<event></event>
+</View>
+<View id="27" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=功能：统计中...
+textcolor=#424242
+layout_margintop=5dp
+textsize=14sp
+textstyle=bold
+layout_margintop=9dp</ppt>
+<event></event>
+</View>
+<View id="29" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本29
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="28" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用人数：统计中...
+textcolor=#424242
+layout_margintop=5dp
+textsize=14sp
+textstyle=bold
+layout_margintop=9dp</ppt>
+<event></event>
+</View>
+<View id="19" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=hywlkj  by  隐心
+textsize=12sp
+gravity=center
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fw(".1","0")
+fr("$幻隐网络/配置/yx.txt",yg)
+t()
+{ 
+  ss(sss.api+"bb/index.html",url)
+  hs(url,yun)
+  syso(yun)
+  ufnsui()
+  {
+//9.12.20
+    sj(yun,"作者今日心情[","]",qd)
+    sj(yun,"作者今日想说[","]",yh)
+    sj(yun,"投稿方式[","]",ym)
+    sj(yun,"头部文字[","]",wz)
+    sj(yun,"功能[","]",gn)
+    ss("当前软件功能："+gn+"种",gn)
+    ss("幻隐网络"+wz,wz)
+    ss("作者心情："+qd,qd)
+    ss("今日想说："+yh,yh)
+    ss("投稿方式："+ym,ym)
+    us(8,"text",wz)
+    us(27,"text",gn)
+    us(9,"text",qd)
+    us(12,"text",yh)
+    us(20,"text",ym)
+  }
+}
+
+//获取当前时间
+time("Y",year)
+time("m",mone)
+time("d",day)
+time("H",h)
+ss(year+"年"+mone+"月"+day+"日"+h+"时",time)
+us(13,"text",time)
+ dha(dh,false,true)
+dh(dh, "duration", 11000)
+dh(dh,"after",true)
+us(26,"dh",dh) 
+//动画设置set
+dht(dh, 0,0,-500,0)
+dh(dh, "duration",560)
+us(7, "dh", dh)
+}
+us(8, "dh", dh)
+}
+.us(14, "dh", dh)
+}
+dhon(dh)
+{
+//当结束动画时
+dht(dh2, 0,0,0,-90)
+dh(dh2, "duration",350)
+us(7, "dh", dh2)
+us(8, "dh", dh2)
+.us(14, "dh", dh2)
+dh(dh2, "after", true)
+dhon(dh2)
+{
+dht(dh3, 0,0,-90,0)
+dh(dh3, "duration",330)
+
+us(7, "dh", dh3)
+us(8, "dh", dh3)
+.us(14, "dh", dh3)
+}
+}
+
+
+dht(dh4,-800,110,0,0)
+dh(dh4, "delay", 1000)
+dh(dh4, "duration",500)
+dh(dh4, "after", true)
+us(13, "dh", dh4)
+us(9, "dh", dh4)
+us(12, "dh", dh4)
+us(18, "dh", dh4)
+dhon(dh4)
+{
+dht(dh5,110,-80,0,0)
+dh(dh5, "duration",280)
+dh(dh5, "after", true)
+us(13, "dh", dh5)
+us(9, "dh", dh5)
+us(12, "dh", dh5)
+us(18, "dh", dh5)
+dhon(dh5)
+{
+dht(dh6,-80,0,0,0)
+dh(dh6, "duration",200)
+us(13, "dh", dh6)
+us(9, "dh", dh6)
+us(12, "dh", dh6)
+us(18, "dh", dh6)
+}
+
+}
+
+
+
+//启动量读取
+//-以下代码仅供参考请根据你的需求进行修改-//
+
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">t()
+{ 
+  hs(sss.api+"cs",url)
+  sj(url,"(",")",jb)
+  ufnsui()
+  {
+ss("总被打开次数："+jb,rs)
+us(28,"text",rs)
+}
+}</eventItme></UIEventset>

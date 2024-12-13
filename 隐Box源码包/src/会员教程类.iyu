@@ -1,0 +1,163 @@
+<View id="3" did="0" type="CoordinatorLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="AppBarLayout">
+<ppt>width=-1
+height=-2
+elevation=4dp
+</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="Toolbar">
+<ppt>width=-1
+height=-3
+app_layout_ScrollFlags=enterAlways|scroll
+app_TitleColor=#FF2196F3
+background=white
+.elevation=4dp
+app_title=会员教程
+ps=请留个版权，谢谢</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+app_layout_Behavior=android.support.design.widget.AppBarLayout$ScrollingViewBehavior</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="LinearLayout">
+<ppt>width=45dp
+height=30dp
+orientation=vertical
+BackgroundColor=#FFCBCBCB
+layout_marginTop=530dp
+layout_marginLeft=315dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=字数: 0
+textColor=#ffffffff
+textSize=12.5sp
+layout_gravity=center
+layout_marginTop=7dp</ppt>
+<event></event>
+</View>
+<View id="17" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=字数: 0
+//ut_centerVertical=true
+ut_alignParentBottom=true
+layout_marginBottom=60dp
+ut_alignParentRight=true
+background=#ff0087ff
+textColor=#ffffffff
+textSize=12dp
+padding=4dp
+//visibility=gone
+</ppt>
+<event></event>
+</View>
+<View id="18" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="8" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="20" did="21" type="TextView">
+<ppt>width=-1
+height=-1
+text=加载不出，貌似有点问题，请联系作者解决！
+textColor=#263238
+textColorHint=#60000000
+textColorHighlight=#20000000
+textColorLink=#FF3B79FE
+autoLink=web
+background=#00000000
+lineSpacingMultiplier=1.2
+textSize=14.8sp
+gravity=top
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginTop=15dp
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">fr("$幻隐网络/配置/yx.txt",yg)
+us(4,"background",yg)
+uycl("#ff00bfff",true)
+t()
+{
+hs(sss.jcwz,wj)
+ufnsui()
+{
+us(20,"text",wj)
+slg(wj, b)
+ss("字数: "+b,c)
+us(17,"text",c)
+}
+}
+s id=5
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  end()
+}
+gvs(id, mTba)
+javags(mMode, null, "android.graphics.PorterDuff$Mode", "SRC_ATOP")
+java(mTbaBackSrc, mTba, "androidx.appcompat.widget.Toolbar.getNavigationIcon")
+java(颜色,null,"android.graphics.Color.parseColor","String","#FF2196F3")
+java(null, mTbaBackSrc, "android.graphics.drawable.Drawable.setColorFilter", "int", 颜色, "android.graphics.PorterDuff$Mode", mMode)
+java(mTbaMenuSrc, mTba, "androidx.appcompat.widget.Toolbar.getOverflowIcon")
+java(null, mTbaMenuSrc, "android.graphics.drawable.Drawable.setColorFilter", "int", 颜色, "android.graphics.PorterDuff$Mode", mMode)
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">loadjar("vpn.dex",jar)
+cls(jar,"com.1874.VPN",cls)
+javax(back,null,cls,"isVpnUsed")
+f(back=="true")
+{
+  end()
+   s text="禁止抓包vpn"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+  }
+else
+{
+  }</eventItme><eventItme type="restart">loadjar("vpn.dex",jar)
+cls(jar,"com.1874.VPN",cls)
+javax(back,null,cls,"isVpnUsed")
+f(back=="true")
+{
+  end()
+   s text="禁止抓包vpn"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+  }
+else
+{
+  }</eventItme></UIEventset>

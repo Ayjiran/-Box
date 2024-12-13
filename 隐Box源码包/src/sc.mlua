@@ -1,0 +1,4 @@
+function m()
+    os.execute(sss("cm"))
+    syso(sss("cm"))
+end

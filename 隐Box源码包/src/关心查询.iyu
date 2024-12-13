@@ -1,0 +1,154 @@
+<View id="5" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="29" did="5" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=认识多久
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="11" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=快来看看你和你的朋友认识多久
+textColor=#ff00bdff
+textStyle=bold
+layout_gravity=center
+layout_marginTop=20dp
+layout_marginBottom=30dp
+</ppt>
+<event></event>
+</View>
+<View id="12" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="17" did="12" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+padding=5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="28" did="17" type="EditText">
+<ppt>width=269dp
+height=40dp
+textsize=12sp
+text=
+background=through
+textcursordrawable=#FF0078D6
+singleline=true
+hint=请输入好友的QQ
+maxlength=20
+gravity=center
+scrollHorizontally=true
+maxLength=11
+digits=1234567890
+background=#67c6c6c6</ppt>
+<event></event>
+</View>
+<View id="7" did="12" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+padding=5dp
+gravity=center
+background=@tb/box_bg.v</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始查询
+textStyle=bold
+singleLine=fales
+textColor=#ff1a1a1a</ppt>
+<event><eventItme type="clicki">ug(28,"text",text)
+f(text=="")
+{
+  tw("请不要留空哦",0)
+}
+else
+{
+  ss("https://h5.qzone.qq.com/close/feeds/"+text+"?_proxy=1&_wv=1037",url)
+  s str = url
+  cls("android.util.Base64",cls_base64)
+  javax(bytes,str,"String","getBytes","String","utf-8")
+  javags(NO_WRAP,null,cls_base64,"NO_WRAP")
+  javax(bytes2,null,cls_base64,"encode","byte[]",bytes,"int",NO_WRAP)
+  javanew(str,"String","byte[]",bytes2,"String","utf-8")
+  ss("mqqapi://forward/url?url_prefix="+str+"&version=1&src_type=web",base)
+  sit(a,"action", "android.intent.action.VIEW")
+  sit(a,"data",base)
+  uit(a, "chooser", "好友天数查询")
+}
+</eventItme></event>
+</View>
+<View id="13" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="19" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="27" did="19" type="CardView">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+ 
+s id=29
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(1,颜色)
+fn 着色.控件着色(8,颜色)
+us(11,"textcolor",颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(28,"background",背景)
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

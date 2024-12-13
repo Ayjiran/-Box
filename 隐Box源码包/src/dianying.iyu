@@ -1,0 +1,403 @@
+<View id="32" did="0" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="34" did="32" type="TextView">
+<ppt>width=-2
+height=-1
+text=在线影院
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+ellipsize=marquee
+//文本超长显示方式 跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数 无限∞重复
+focusableintouchmode=true
+//获取焦点
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="35" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="37" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="37" type="LinearLayout">
+<ppt>width=-1
+height=-2
+ut_alignParentTop=true
+background=white
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="22" did="2" type="CardView">
+<ppt>width=-1
+height=150dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginTop=5dp
+layout_marginBottom=10dp
+</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@43249.jpg
+gravity=bottom
+BackgroundRipple=#ffffff</ppt>
+<event></event>
+</View>
+<View id="27" did="23" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="29" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=By隐心-影院，最新电影/连续剧/综艺免费看
+textColor=#ffffff
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="23" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="CardView">
+<ppt>width=-1
+height=-1
+ut_toLeftOf=7
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginRight=3dp
+layout_marginLeft=10dp
+app_CardcornerRadius=10dp
+focusable=true
+focusableintouchmode=true
+app_CardElevation=0dp
+ut_alignParentLeft=true</ppt>
+<event></event>
+</View>
+<View id="36" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="8" did="36" type="EditText">
+<ppt>width=-1
+height=-2
+layout_weight=1
+text=
+textColor=#2c2c2c
+hint=搜索影片！
+textSize=14sp
+BackgroundColor=#FFFFFF
+textColorHint=#BDBDBD
+textCursorDrawable=#FFFFFF
+//background=@280f.png
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="7" did="36" type="ImageView">
+<ppt>width=50dp
+height=-1
+src=@Bibi/coa.v
+padding=14dp
+BackgroundRipple=#E8EAF6</ppt>
+<event><eventItme type="clicki">utw("@MDTV.png","","正在搜索相关影视…","","",false,v)
+{
+}
+else
+{
+}
+ug(8,"text",a)
+
+t()
+{
+ss("http://www.okzy.co/index.php?m=vod-search",u)
+ss("&wd="+a+"&submit="+value,post) 
+hs(u,post,"utf-8",x)
+sj(x,"的结果共","共",x)
+sl(x,"&lt;span class=\"xing_vb4\"&gt;",x)
+for(b;x)
+{
+sj(b,"target=\"_blank\"&gt;","&lt;/a&gt;",name)
+sj(b,"&lt;span class=\"xing_vb5\"&gt;","&lt;/span&gt;",fen)
+sj(b,"&lt;span class=\"xing_vb6\"&gt;","&lt;/span&gt;",shi)
+sj(b,"&lt;a href=\"","\" target=",url)
+f(name!=null)
+{
+ula(dianyinglb,1=null,2=name,3=fen,4=shi,5=url)
+}
+}
+ufnsui()
+{
+uls(10,dianyinglb,"dianyinglb.iyu",-1,-2)
+us(38,"visibility","gone")
+endutw()
+}
+}
+
+
+</eventItme></event>
+</View>
+<View id="38" did="37" type="ImageView">
+<ppt>width=150dp
+height=150dp
+src=@Bibi/cfo.v
+layout_gravity=center
+layout_marginTop=20dp
+layout_marginRight=20dp
+layout_marginLeft=20dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="10" did="37" type="ListView">
+<ppt>width=-1
+height=-1
+ut_below=2
+background=white
+divider=#E0E0E0
+//dividerHeight=0.8dp</ppt>
+<event></event>
+</View>
+<View id="11" did="37" type="LinearLayout">
+<ppt>width=50dp
+height=-1
+orientation=vertical
+ut_alignParentRight=true
+ut_below=9
+layout_marginRight=20dp
+gravity=bottom
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="14" did="11" type="LinearLayout">
+<ppt>width=50dp
+height=50dp
+layout_marginBottom=20dp
+BackgroundRipple=#5C6BC0</ppt>
+<event></event>
+</View>
+<View id="19" did="14" type="CardView">
+<ppt>width=-1
+height=-1
+layout_marginLeft=3dp
+layout_marginRight=3dp
+layout_marginBottom=5dp
+layout_marginTop=3dp
+app_CardcornerRadius=30dp</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#F5F5F5
+gravity=center
+BackgroundRipple=#9E9E9E</ppt>
+<event><eventItme type="clicki">fr("%MD影视/影视/分类页数.txt",urls)
+f(urls=="-pg-1.html")
+{
+  tw("已经到首页了！")
+}
+else
+{
+sj(urls,"-pg-",".html",pag)
+s-(pag,1,su)
+syso(su)
+ss("-pg-"+su+".html",a)
+fw("%MD影视/影视/分类页数.txt",a)
+sr("http://www.okzy.co/?m=vod-index.html",".html",a,urls)
+
+
+
+t()
+{
+hs(urls,x)
+sj(x,"&lt;div class=\"container\"&gt;","共",x)
+sl(x,"&lt;span class=\"xing_vb4\"&gt;",x)
+for(b;x)
+{
+sj(b,"target=\"_blank\"&gt;","&lt;/a&gt;",name)
+//sj(b,"&lt;span class=\"xing_vb5\"&gt;","&lt;/span&gt;",fen)
+sj(b,"&lt;/span&gt;","&lt;/li&gt;",shi)
+sj(b,"&lt;a href=\"","\" target=",url)
+f(name!=null)
+{
+ula(dianyinglb,1=null,2=name,3=shi,5=url)
+}
+}
+ufnsui()
+{
+uls(10,dianyinglb,"dianyinglb.iyu",-1,-2)
+ss("第"+su+"页加载完成！",ts)
+tw(ts)
+}
+}
+
+
+}</eventItme></event>
+</View>
+<View id="30" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=△
+textColor=#000000
+textSize=18sp
+</ppt>
+<event></event>
+</View>
+<View id="15" did="11" type="LinearLayout">
+<ppt>width=50dp
+height=50dp
+layout_marginBottom=50dp
+BackgroundRipple=#5C6BC0</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="CardView">
+<ppt>width=-1
+height=-1
+layout_marginLeft=3dp
+layout_marginRight=3dp
+layout_marginBottom=5dp
+layout_marginTop=3dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#F5F5F5
+gravity=center
+BackgroundRipple=#9E9E9E</ppt>
+<event><eventItme type="clicki">fr("%MD影视/影视/分类页数.txt",urls)
+sj(urls,"-pg-",".html",pag)
+s+(pag,1,su)
+ss("-pg-"+su+".html",a)
+fw("%MD影视/影视/分类页数.txt",a)
+sr("http://www.okzy.co/?m=vod-index.html",".html",a,urls)
+
+
+
+t()
+{
+hs(urls,x)
+sj(x,"&lt;div class=\"container\"&gt;","共",x)
+sl(x,"&lt;span class=\"xing_vb4\"&gt;",x)
+for(b;x)
+{
+sj(b,"target=\"_blank\"&gt;","&lt;/a&gt;",name)
+//sj(b,"&lt;span class=\"xing_vb5\"&gt;","&lt;/span&gt;",fen)
+sj(b,"&lt;/span&gt;","&lt;/li&gt;",shi)
+sj(b,"&lt;a href=\"","\" target=",url)
+f(name!=null)
+{
+ula(dianyinglb,1=null,2=name,3=shi,5=url)
+}
+}
+ufnsui()
+{
+uls(10,dianyinglb,"dianyinglb.iyu",-1,-2)
+ss("第"+su+"页加载完成！",ts)
+tw(ts)
+}
+}
+
+
+</eventItme></event>
+</View>
+<View id="31" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=▽
+textColor=#000000
+textSize=18sp
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(32,"background",yg)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">t()
+{
+hs("http://www.okzy.co/?m=vod-index-pg-1.html",x)
+sj(x,"&lt;div class=\"container\"&gt;","共",x)
+sl(x,"&lt;span class=\"xing_vb4\"&gt;",x)
+for(b;x)
+{
+sj(b,"target=\"_blank\"&gt;","&lt;/a&gt;",name)
+//sj(b,"&lt;span class=\"xing_vb5\"&gt;","&lt;/span&gt;",fen)
+sj(b,"&lt;/span&gt;","&lt;/li&gt;",shi)
+sj(b,"&lt;a href=\"","\" target=",url)
+f(name!=null)
+{
+ula(dianyinglb,1=null,2=name,3=shi,5=url)
+}
+}
+ufnsui()
+{
+uls(10,dianyinglb,"dianyinglb.iyu",-1,-2)
+us(38,"visibility","gone")
+endutw()
+}
+}
+</eventItme></UIEventset>

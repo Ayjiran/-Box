@@ -1,0 +1,15 @@
+public static void swap(java.util.List list,int index0,int index1){
+		java.util.Collections.swap(list,index0,index1);
+	}
+
+public static int li(long x){
+		return new Long(x).intValue();
+	}
+
+public static int li(String x){
+        return Integer.parseInt(x);
+  }
+
+public static String author(){
+        return "936537504";
+  }

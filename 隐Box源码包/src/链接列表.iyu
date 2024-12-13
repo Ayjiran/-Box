@@ -1,0 +1,239 @@
+<View id="15" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=时间
+layout_marginLeft=10dp
+textColor=#ff000000
+textSize=10sp
+layout_marginTop=5dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="13" did="0" type="CardView">
+<ppt>width=-1
+height=40dp
+app_CardcornerRadius=100dp
+app_CardElevation=2dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=5dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,6,sss.防红链接)
+ulag(st_vW,19,sss.防红id)
+ulag(st_vW,5,sss.防红类型)
+ulag(st_vW,15,sss.防红制作时间)
+ulag(st_vW,18,sss.防红到期时间)
+ulag(st_vW,20,sss.百度统计)
+uigo("防红查看.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="1" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=13dp
+layout_marginRight=13dp
+layout_marginTop=12dp
+layout_marginBottom=12dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-2
+height=40dp
+app_CardcornerRadius=27dp
+app_CardBackgroundColor=#ff00b7ff
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=直开
+textColor=#ffffffff
+textSize=18sp
+textStyle=bold
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="27" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="27" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+layout_gravity=center_vertical
+layout_marginLeft=4dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="6" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=防红列表
+textSize=13sp
+textColor=#ff000000
+layout_marginLeft=9dp
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="14" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=小明
+textSize=15sp
+textColor=#ff000000
+layout_marginLeft=9dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="25" did="28" type="ImageView">
+<ppt>width=42dp
+height=42dp
+src=@shanchu.png
+ut_alignRight=27</ppt>
+<event><eventItme type="clicki">ulag(st_vW,19,防红id)
+tws(v, "是否删除？不可找回！", 0, "是")
+{
+  utw(null,"","删除中……","",true,vf)
+  {
+  }
+  
+  t()
+  {
+    ss(sss.api+"Box/fhscid.php?id="+防红id,删除)
+    hs(删除,结果)
+    ufnsui()
+    {
+      f(结果?"成功")
+      {
+        s stop = 2000
+        s text="删除成功"
+        fn color.ColorToast(text,stop)
+        endutw(vf)
+        us(112,"refreshing",true)
+        t()
+        {
+          ss(sss.api+"Box/fhlb.php?user="+sss.名称,接口)
+          hs(接口,null,"utf-8",null,true,ss.n)
+          sl(ss.n,"&lt;br&gt;",t)
+          sgszl(t,zs)
+          s(zs-1,z)
+          s s=z
+          ss 数量="0"
+          for(1;z)
+          {
+            sgsz(t,s,nr)
+            sj(nr,"user","-",名字)
+            sj(nr,"id","-",id)
+            sj(nr,"time","-",时间)
+            sj(nr,"timejs","-",到期)
+            sj(nr,"url","-",链接)
+            sj(nr,"ts","-",投诉)
+            sj(nr,"lx","-",类型)
+            sj(nr,"-baidu","-",baidu)
+            sr(类型,"tz","跳",类型)
+            sr(类型,"zk","直",类型)
+            time("Y",a)
+            time("m",m)
+            time("d",D)
+            ss(a+m+D,time)
+            ula(list_评论,15=时间,6=链接,5=类型,17=名字,19=id,18=到期,20=baidu)
+            s(s-1,s)
+            s(ss.数量+1,ss.数量)
+          }
+          ufnsui()
+          {
+            f(ss.n?"&lt;br&gt;")
+            {
+              us(116,"visibility","gone")
+              us(112,"refreshing",false)
+              uls(111,list_评论,"链接列表.iyu",-1,-2)
+            }
+            else
+            {
+              us(116,"visibility","visible")
+              us(112,"refreshing",false)
+            }
+          }
+        }
+      }
+      else
+      {
+        s stop = 2000
+        s text="删除失败"
+        fn color.ColorToast(text,stop)
+        endutw(vf)
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="16" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="19" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="20" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">sran(00000000,99999999,c)
+ss("#"+c,颜色)
+gvs(st_vW,"list_动态1.2",ID2)
+us(ID2,"app_CardBackgroundColor",颜色)</eventItme></UIEventset>

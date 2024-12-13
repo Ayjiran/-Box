@@ -1,0 +1,58 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#ffffffff</ppt>
+<event><eventItme type="clicki">dha(dh,true,false)
+dh(dh,"duration",500)
+us(tc.1,"dh",dh)
+us(tc.1,"visibility","gone")</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+padding=10dp
+layout_margin=20dp
+background=#ffffff
+orientation=vertical
+</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=▲充值明细▲
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n成功充值1金币\n\n\n\n\n2018 感谢支持®
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="Button">
+<ppt>width=-1
+height=-2
+text=关闭
+background=through
+layout_margintop=5dp</ppt>
+<event><eventItme type="clicki">dht(dh, 0, 0, 600, 0)
+dh(dh, "duration", 600)
+us(tccz.1, "dh", dh)
+us(tccz.1,"visibility","gone")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

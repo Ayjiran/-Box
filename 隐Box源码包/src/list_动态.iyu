@@ -1,0 +1,86 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+app_CardcornerRadius=15dp
+app_CardElevation=3dp</ppt>
+<event><eventItme type="clicki">utw(null,"","加载中……","",true,vf)
+{
+}
+ulag(st_vW,5,sss.tzurl)
+t()
+{
+  hs(sss.tzurl,b)
+  sj(b,"									&lt;span class=\"grey1\"&gt; &gt; &lt;/span&gt; ","		&lt;div class=\"wrap-box t-info\"&gt;",bk)
+  sj(bk,"\"&gt;","&lt;/a&gt;",sbk)
+}
+ulag(st_vW,5,sss.plurl)
+sj(sss.tzurl,"t/",".html",sss.tzid)
+sj(sss.tzurl,"t/",".html",sss.sdid)
+t()
+{
+  hs(sss.tzurl,null,"utf-8",null,true,z)
+  sj(z,"&lt;h1&gt;","&lt;/h1&gt;",bkbt)
+  strim(bkbt,sss.bkbt)
+  sj(z,"发表于","前",时间)
+  ss("发表于："+时间+"前",sss.fbtime)
+  sj(z,"class=\"circle js-info\" uid=\"","\"&gt;",sss.xxid)
+  //头像
+  sj(z,"					&lt;img src=\"","\" pos",sss.tx)
+  //name
+  fr("@yhm.txt",yhm)
+  sj(z,yhm,"			&lt;/a&gt;",sss.user) 
+   //帖子html内容
+  sj(z,"		      &lt;/div&gt;","		      &lt;div class=\"actions\"&gt;",sss.tznr)
+  //帖子浏览量
+  sj(z,"&lt;div class=\"wrap-box comment-list\"&gt;","次浏览",jq)
+  sj(jq,"&lt;/span&gt;",null,jqa)
+  sj(jqa,"&lt;/span&gt;",null,ll)
+  strim(ll,sss.ll)
+  ufnsui()
+  {
+    uigo("详情.iyu")
+    endutw(vf)
+  }
+}
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+padding=9dp
+BackgroundColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=帖子sss.名称
+textSize=12sp
+textColor=#ff000000
+singleLine=true
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本5
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

@@ -1,0 +1,210 @@
+<View id="19" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=脑筋急转弯
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="1" type="LinearLayout">
+<ppt>width=-1
+height=4dp
+background=@shadow_bottom.v</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=180dp</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=不要急，难题正在赶来…\n\n长时间未加载或失败请反馈一下。
+ut_centerinparent=true
+textcolor=#ff00484d
+textisselectable=true
+textsize=14sp
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_margin=10dp
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=100dp</ppt>
+<event>
+<eventItme type="clicki">us(7,"text","")</eventItme>
+</event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+ut_centerinparent=true
+textcolor=#ffff1500
+textisselectable=true</ppt>
+<event>
+<eventItme type="clicki">us(7,"text","")</eventItme>
+</event>
+</View>
+<View id="8" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="8" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=horizontal
+gravity=center</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="Button">
+<ppt>width=160dp
+height=50dp
+text=查看答案
+textcolor=#FFFFFF
+background=#039BE5
+layout_gravity=center_horizontal
+layout_margin=10dp
+layout_weight=1</ppt>
+<event>
+<eventItme type="clicki">
+    us(7,"text",sss.da)
+ug(7,"text",b)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme>
+</event>
+</View>
+<View id="13" did="10" type="Button">
+<ppt>width=160dp
+height=50dp
+text=换一题
+textcolor=#FFFFFF
+background=#039BE5
+layout_gravity=center_horizontal
+layout_margin=10dp
+layout_weight=1</ppt>
+<event>
+<eventItme type="clicki">us(3,"text","获取中...")
+us(5,"text","")
+
+t()
+{
+  s a="http://jzw.m.supfree.net/xbox.asp?id="
+  sran(1,3630,sj)
+  syso(sj)
+  ss(a+sj,a)
+  syso(a)
+  hs(a,null,"gb2312",b)
+  sj(b,"&lt;td&gt;","&lt;/td&gt;",tm)
+  syso(tm)
+  sj(b,"daan","&gt;&lt;input",wz)
+  sj(wz,"&gt;","&lt;/div",sss.da)
+  syso(sss.da)
+  ufnsui()
+  {
+    us(7,"text","")
+    us(5,"text",tm)
+    us(3,"text","脑筋急转弯")
+  }
+}
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=19
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(2,颜色)
+fn 着色.控件着色(11,颜色)
+fn 着色.控件着色(13,颜色)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+<eventItme type="loadingComplete">us(3,"text","获取中...")
+us(5,"text","")
+
+t()
+{
+  s a="http://jzw.m.supfree.net/xbox.asp?id="
+  sran(1,3630,sj)
+  syso(sj)
+  ss(a+sj,a)
+  syso(a)
+  hs(a,null,"gb2312",b)
+  sj(b,"&lt;td&gt;","&lt;/td&gt;",tm)
+  syso(tm)
+  sj(b,"daan","&gt;&lt;input",wz)
+  sj(wz,"&gt;","&lt;/div",sss.da)
+  syso(sss.da)
+  ufnsui()
+  {
+    us(7,"text","")
+    us(5,"text",tm)
+    us(3,"text","脑筋急转弯")
+  }
+}
+
+}</eventItme>
+<eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

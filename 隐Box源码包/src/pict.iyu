@@ -1,0 +1,24 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ListView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">ufnsui()
+{
+  uls(2,sss.urllist,"pict_list.iyu",-1,-2)
+}
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

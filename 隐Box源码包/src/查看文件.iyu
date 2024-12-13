@@ -1,0 +1,573 @@
+<View id="34" did="0" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="36" did="34" type="TextView">
+<ppt>width=-2
+height=-1
+text=查看文件
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+ellipsize=marquee
+//文本超长显示方式 跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数 无限∞重复
+focusableintouchmode=true
+//获取焦点
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="37" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=4dp
+app_CardElevation=2dp
+</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="17" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center|left
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="11" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=名字
+textColor=#000000
+textSize=17sp
+layout_marginLeft=15dp
+maxLength=20
+singleline=true
+ellipsize=marquee
+marqueerepeatlimit=marquee
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="18" did="10" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=类型
+textColor=#ffff808b
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="20" did="10" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ug(21,"text",h)
+f(h=="介绍")
+{
+fn tool.showbt("卡卡.iyu", true)
+ss traname=sss.js
+
+call(id,"mjava","tool.findgvs",ss.dialog,10000)
+s(id+3,id2)
+gvs(ss.dialog,id2,v2)
+us(v2,"text",ss.traname)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+}
+else f(h=="100.00%")
+{
+us(15,"text","查看文件")
+s stop = 2000
+s text="下载完毕！"
+fn color.ColorToast(text,stop)
+}
+else
+{
+  s stop = 2000
+s text="当前正在下载中！"
+fn color.ColorToast(text,stop)
+}</eventItme></event>
+</View>
+<View id="21" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=介绍
+textColor=#ffff7600
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="12" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="38" did="12" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="16" did="9" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#ffdceeff
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">ug(15,"text",u)
+f(u=="是否下完")
+{
+fl("幻隐网luo/", b) 
+for(c; b) 
+{
+f(c?sss.mz)
+{
+us(15,"text","查看文件")
+s stop = 2000
+s text="下载已完成！"
+fn color.ColorToast(text,stop)
+}
+f(u=="保存图片")
+{
+ gvs(38,控件)
+
+java(宽,控件,"android.view.View.getWidth")
+java(高,控件,"android.view.View.getHeight")
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+java(sss.图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+f(sss.图片 == null){
+  tw("似乎出现问题了")
+  endcode
+  }
+javanew(画板,"android.graphics.Canvas","android.graphics.Bitmap",sss.图片)
+java(null,控件,"android.view.View.draw","android.graphics.Canvas",画板)
+bfs(sss.图片,1,sss.mz)
+us(15,"text","查看文件")
+s stop = 2000
+s text="保存图片成功！"
+fn color.ColorToast(text,stop)
+}
+else
+{
+s stop = 2000
+s text="未完成，请稍等！"
+fn color.ColorToast(text,stop)
+}
+}
+}
+else f(u=="查看文件")
+{
+  ug(11,"text",jk)
+ss("幻隐网luo/"+jk,sss.wj)
+f(sss.wj?"mp3"||sss.wj?"m4a")
+{
+fo(sss.wj)
+}
+else f(sss.wj?"png"||sss.wj?"jpg")
+{
+uigo("png.iyu")
+}
+else f(sss.wj?"apk")
+{
+fo(sss.wj)
+}
+else
+{
+s stop = 2000
+s text="该文件无法被打开~~"
+fn color.ColorToast(text,stop)
+}
+}
+else
+{
+  us(15,"text","是否下完")
+ug(11,"text",kk)
+fr("$幻隐网络/5.txt",wz)
+t()
+{
+s dir = "幻隐网luo"
+//保存的文件名（仅输入文件名,请勿不包含目录） 
+s name =kk
+//下载任务的标题 
+s title = "正在下载" 
+//下载任务的图标 
+s icon = "@6.26/null_transfer_download.v" 
+//是否显示下载进度通知 
+s notsohw = true
+//输入自定义参数任意数据 
+s data = "哈哈哈" 
+//变量v为赋值变量，为下载对象 
+hdda(wz, dir, name, title, icon, notsohw, data, v)
+   hddg(v, "contentlength", zdx)
+  w(zdx!=ydx)
+  {
+   hddg(v, "contentlength", zdx)
+   hddg(v, "equivalent",ydx)
+   s2(zdx/1024/1024,总大小)
+ s2(zdx/100,zdbb)
+ s2(ydx/zdbb,bfb)
+   ss("视频占据："+总大小+"Mb",总大小M)
+
+   ufnsui()
+   {
+     us(31,"text",总大小M)
+     ss(bfb+"%",bh)
+     us(21,"text",bh)
+     
+     s(3.2*bfb,uui)
+  
+     ss(uui+"dp",bv)
+    
+     us(33,"width",bv)
+   
+
+
+}
+
+ }
+}
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=下载文件
+textColor=#ff0098ff</ppt>
+<event></event>
+</View>
+<View id="22" did="6" type="CardView">
+<ppt>width=-1
+height=100dp
+app_CardcornerRadius=4dp
+app_CardElevation=2dp
+layout_marginLeft=40dp
+layout_marginRight=40dp
+layout_marginBottom=30dp
+layout_gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="30" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="29" did="30" type="TextView">
+<ppt>width=-2
+height=-2
+text=介绍
+textColor=#ff030303
+textSize=15sp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="31" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本31
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="32" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本31
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="33" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本31
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(34,"background",yg)
+loadjar("vpn.dex",jar)
+cls(jar,"com.1874.VPN",cls)
+javax(back,null,cls,"isVpnUsed")
+f(back=="true")
+{
+  end()
+   s text="禁止抓包vpn"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+  }
+else
+{
+  }
+us(11,"text",sss.mz)
+sj(sss.mz,".",null,sy)
+us(19,"text",sy)
+
+fl("幻隐网luo/", b) 
+for(c; b) 
+{
+f(c?sss.mz)
+{
+us(15,"text","查看文件")
+s stop = 2000
+s text="本地已有本文件，开启本地浏览！"
+fn color.ColorToast(text,stop)
+}
+else
+{
+}
+}
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">f(sss.mz?"png")
+{
+ t()
+{
+call(img,"mjava","Http.getInternetPicture",sss.wwz)
+syso(img)
+ufnsui()
+{
+loadjar("fd.dex",a)
+.导入包
+cls(a,"com.bm.library.PhotoView",cls)
+.获取类
+javanew(kj,cls,"Context",activity)
+.初始化类
+gvs(38,aaa)
+javax(null,aaa,"android.view.ViewGroup","addView","android.view.View",kj)
+s tp=img
+us(kj,"src",tp)
+us(kj,"width",-1)
+us(kj,"height",-1)
+javax(null,kj, cls, "enable")
+.启用缩放功能
+/.
+javax(null,kj, cls, "disenable")
+.禁用缩放功能
+./
+javax(null,kj, cls, "enableRotate")
+.启用图片旋转
+/.
+javax(null,kj, cls, "disenableRotate")
+.禁用图片旋转
+./
+
+javax(null,kj, cls, "setMaxScale","float","4")
+.设置最大可以缩放的倍数
+javax(bs,kj, cls, "getMaxScale")
+.获取最大可以缩放的倍数
+ss("最大可以缩放的的倍数为"+bs+"倍",bs)
+syso(bs)
+
+javax(bs,kj, cls, "getDefaultAnimaDuring")
+.获取默认动画的持续时间
+ss("动画的默认持续时间为"+bs+"毫秒",bs)
+syso(bs)
+
+javax(null,kj, cls, "setAnimaDuring","int","1000")
+.设置动画的持续时间 单位:毫秒
+javax(bs,kj, cls, "getAnimaDuring")
+.获取动画的持续时间
+ss("动画的持续时间为"+bs+"毫秒",bs)
+syso(bs)
+fl("幻隐网luo/", b) 
+for(c; b) 
+{
+f(c?sss.mz)
+{
+us(15,"text","查看文件")
+s stop = 2000
+s text="本地已有本文件，开启本地浏览！"
+fn color.ColorToast(text,stop)
+}
+else
+{
+us(15,"text","保存图片")
+}
+}
+}
+}
+}
+else
+{
+  loadjar("fd.dex",a)
+.导入包
+cls(a,"com.bm.library.PhotoView",cls)
+.获取类
+javanew(kj,cls,"Context",activity)
+.初始化类
+gvs(38,aaa)
+javax(null,aaa,"android.view.ViewGroup","addView","android.view.View",kj)
+s tp="@a/.zy/cfj.v"
+us(kj,"src",tp)
+us(kj,"width",-1)
+us(kj,"height",-1)
+javax(null,kj, cls, "enable")
+.启用缩放功能
+/.
+javax(null,kj, cls, "disenable")
+.禁用缩放功能
+./
+javax(null,kj, cls, "enableRotate")
+.启用图片旋转
+/.
+javax(null,kj, cls, "disenableRotate")
+.禁用图片旋转
+./
+
+javax(null,kj, cls, "setMaxScale","float","4")
+.设置最大可以缩放的倍数
+javax(bs,kj, cls, "getMaxScale")
+.获取最大可以缩放的倍数
+ss("最大可以缩放的的倍数为"+bs+"倍",bs)
+syso(bs)
+
+javax(bs,kj, cls, "getDefaultAnimaDuring")
+.获取默认动画的持续时间
+ss("动画的默认持续时间为"+bs+"毫秒",bs)
+syso(bs)
+
+javax(null,kj, cls, "setAnimaDuring","int","1000")
+.设置动画的持续时间 单位:毫秒
+javax(bs,kj, cls, "getAnimaDuring")
+.获取动画的持续时间
+ss("动画的持续时间为"+bs+"毫秒",bs)
+syso(bs)
+}</eventItme><eventItme type="restart">loadjar("vpn.dex",jar)
+cls(jar,"com.1874.VPN",cls)
+javax(back,null,cls,"isVpnUsed")
+f(back=="true")
+{
+  end()
+   s text="禁止抓包vpn"
+s stop = 2000
+fn color.ColorToast(text,stop)
+
+  }
+else
+{
+  }</eventItme></UIEventset>

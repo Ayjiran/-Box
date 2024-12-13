@@ -1,0 +1,70 @@
+<View id="1" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=2dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1
+</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=姓名
+textColor=#b4008ffc
+textStyle=bold
+textSize=16sp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=注册时间
+layout_marginLeft=10dp
+layout_marginBottom=10dp
+textColor=#bc000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="7" did="2" type="ImageView">
+<ppt>width=50dp
+height=-2
+src=@btn_message_card_chat.png
+layout_gravity=center
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+ulag(st_vW,5,sss.ta)
+uigo("个人资料.iyu")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">/.gvs(st_vW,邀请list.5,tplj)
+ug(tplj,"text",a)
+fr("$幻隐网络/临时数据/1030.txt",ii)
+f(ii?a)
+{
+}
+else
+{
+ss(a+ii,i)
+fw("$幻隐网络/临时数据/1030.txt",i)
+gvs(st_vW,邀请list.1,id)
+fn dtlist.dh("dh4",id)
+}</eventItme></UIEventset>

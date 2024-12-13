@@ -1,0 +1,148 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=90dp
+height=90dp
+gravity=center
+orientation=vertical
+layout_margintop=9dp
+layout_marginleft=7dp</ppt>
+<event><eventItme type="clicki">gvs(st_vW,主页的2.3,image)
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+  dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+  dh(dh, "duration", 100)
+  us(image, "dh", dh)
+}
+ulag(st_vW,10,会员)
+f(会员=="no")
+{
+  ulag(st_vW,8,url)
+  f(url?"http")
+  {
+    sss wz=url
+    uigo("广告.iyu")
+  }
+  else
+  {
+    uigo(url)
+  }
+}
+else
+{
+  f(sss.会员卡券=="开")
+  {
+    ulag(st_vW,8,url)
+      f(url?"http")
+      {
+        sss wz=url
+        uigo("广告.iyu")
+      }
+      else
+      {
+        uigo(url)
+      }
+  }
+  else
+  {
+    
+    f(sss.dqsj&lt;sss.我的会员)
+    {
+      ulag(st_vW,8,url)
+      f(url?"http")
+      {
+        sss wz=url
+        uigo("广告.iyu")
+      }
+      else
+      {
+        uigo(url)
+      }
+    }
+    else
+    {
+      s stop = 2000
+      s text="本功能仅限会员使用！"
+      fn color.ColorToast(text,stop)
+      fn 聚合.主页提示会员()
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=vertical
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=35dp
+height=35dp
+src=@icon.png
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=迷路指南
+textColor=#ff0f0f0f
+textSize=11sp
+textStyle=bold
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="9" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="7" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=img
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="8" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=网页
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=网页
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=网页
+visibility=gon</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">/.gvs(st_vW,主页的2.3,image)
+ulag(st_vW,7,url)
+javax(fh,null,ss.l,"with","Context",activity)
+javax(fh1,fh,ss.l,"load","String",url)
+//设置图片链接
+javax(null,fh1,ss.l1,"into","android.widget.ImageView",image)</eventItme></UIEventset>

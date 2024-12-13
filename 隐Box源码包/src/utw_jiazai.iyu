@@ -1,0 +1,35 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+background=white
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ProgressBar">
+<ppt>width=45dp
+height=45dp
+//加载进度值
+style=16842871</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=解析磁力中...
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

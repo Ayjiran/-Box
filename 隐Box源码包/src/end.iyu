@@ -1,0 +1,178 @@
+<View id="13" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="clicki">sit(a, "action", "android.intent.action.SEND")
+sit(a, "type", "text/plain")
+//sit(a,"classname","com.tencent.mobileqq", "com.tencent.mobileqq.activity.JumpActivity")
+sit(a, "extra", "android.intent.extra.TEXT",sss.fx)
+uit(a, "chooser", "请分享到200人以上的群")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="22" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#ffffff</ppt>
+<event></event>
+</View>
+<View id="18" did="22" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=horizontal
+background=@product_recomment_list_title.v
+layout_gravity=center
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="23" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="LinearLayout">
+<ppt>width=-1
+height=90dp
+orientation=vertical
+background=@chenghao/user_info_bonus.webp</ppt>
+<event></event>
+</View>
+<View id="10" did="23" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardElevation=-10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=170dp
+background=#ffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>Width=-1
+height=-2
+ut_alignParentBottom=true
+gravity=center_vertical
+layout_marginBottom=7dp</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="Button">
+<ppt>width=80dp
+height=40dp
+text=确定
+ut_alignParentRight=true
+textColor=#ffffffff
+textSize=14dp
+textStyle=bold
+layout_marginRight=10dp
+background=#ff00b3ff
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event>
+
+<eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="5" did="3" type="Button">
+<ppt>width=80dp
+height=40dp
+text=取消
+ut_toLeftOf=4
+clickable=true
+background=selectableitem
+textColor=#FF2196F3
+textSize=14sp
+textStyle=bold
+layout_marginRight=5dp
+visibility=gone</ppt>
+<event>
+<eventItme type="clicki">
+t()
+{
+ufnsui()
+{
+dha(dh,true,false)
+dh(dh, "duration",300)
+us(end.10, "dh", dh)
+}
+us(end.10,"visibility","gone")
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="11" did="2" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+gravity=center_vertical
+ut_above=8
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@6.26/null_recently_failed.v
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="7" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示
+layout_margin=5dp
+textSize=18sp
+textColor=#4a4a4a
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_above=3
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=您真的要离开小隐一阵子么•́ωก\n好桑心哦~~
+layout_marginLeft=15dp
+textSize=14sp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,484 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#ff00c2ff
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+gravity=center_vertical
+background=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="43" did="2" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=极简录屏
+textColor=#ffffffff
+textSize=17sp
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="28" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="40" did="39" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="44" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical
+layout_weight=1
+background=white</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>width=250dp
+height=250dp
+background=#ff0094ff
+gravity=center
+padding=15dp
+</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+background=#ff00c2ff
+backgroundripple=#ff00c2ff
+clickable=true
+orientation=vertical</ppt>
+<event><eventItme type="clicki">s time=1000
+dhas(dh1, 5, "scaleX", 1,0.9,0.8,0.7,0.6,0.5,0.4,0.3,0.2,0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1)
+dh(dh1, "duration", time)
+
+
+dhast(dhlist, "together", dh1)
+dh(dhlist, "start")
+s/(2,time)
+
+
+ug(22,"text",ttt)
+
+f(ttt=="1")
+{
+//打开
+ngde("1000","#ff0071ff",主1)
+us(5,"background",主1)
+
+ngde("1000","#ff00c2ff",主2)
+us(6,"background",主2)
+us(22,"text","2")
+.悬浮
+f(sss.vv==null)
+{ 
+  uxf("录屏-悬浮.iyu",-2,-2,"center",sss.vv)
+  s stop = 2000
+s text="已开启录屏"
+fn color.ColorToast(text,stop)
+}
+
+}
+f(ttt=="2")
+{
+//关闭
+ngde("1000","#ff0071ff",主1)
+us(5,"background",主1)
+
+ngde("1000","#ff00c2ff",主2)
+us(6,"background",主2)
+us(22,"text","1")
+.关悬浮
+uxf(sss.vv,"del")
+sss vv=null
+s stop = 2000
+s text="已关闭录屏"
+fn color.ColorToast(text,stop)
+.ok
+
+}
+}
+</eventItme></event>
+</View>
+<View id="21" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=开/关
+textsize=30sp
+textstyle=bold
+textcolor=#f9f9f9f9
+shadowcolor=#55555555
+shadowradius=10
+shadowdx=1.1
+shadowdy=-1.1
+</ppt>
+<event></event>
+</View>
+<View id="22" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=1
+textsize=15sp
+textstyle=bold
+textcolor=#f9f9f9f9
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-1
+height=250dp
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+background=white</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=180dp
+height=30dp
+ut_alignparenttop=true
+background=white
+ut_centerinparent=true
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+padding=2dp</ppt>
+<event></event>
+</View>
+<View id="15" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="15" type="TextView">
+<ppt>width=-1
+height=-1
+text=标清
+gravity=center
+layout_weight=1
+layout_marginright=21dp
+textcolor=#ff82dfff
+textstyle=bold
+shadowcolor=#55555555
+shadowradius=10
+shadowdx=1.1
+shadowdy=-1.1
+</ppt>
+<event><eventItme type="clicki">
+ngde("300","#ff00c2ff",选1)
+ngde("300","#ff00c2ff",选2)
+us(12,"background",选1)
+us(14,"background","#ff00c2ff")
+us(13,"background",选2)
+
+us(12,"textcolor","#ffffff")
+us(14,"textcolor","#ff00c2ff")
+us(13,"textcolor","#ff00c2ff")
+
+fw("$.画质","标清")
+us(23,"text","1")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="13" did="15" type="TextView">
+<ppt>width=-1
+height=-1
+text=超清
+gravity=center
+layout_weight=1
+layout_marginleft=21dp
+textstyle=bold
+textcolor=#ff82dfff
+shadowcolor=#55555555
+shadowradius=10
+shadowdx=1.1
+shadowdy=-1.1
+</ppt>
+<event><eventItme type="clicki">
+ngde("300","#ff00c2ff",选1)
+ngde("300","#ff00c2ff",选2)
+us(14,"background","#ff00c2ff")
+us(12,"background",选2)
+us(13,"background",选1)
+
+us(13,"textcolor","#ffffff")
+us(12,"textcolor","#ff00c2ff")
+us(14,"textcolor","#ff00c2ff")
+
+
+fw("$.画质","超清")
+us(23,"text","3")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="14" did="11" type="TextView">
+<ppt>width=63dp
+height=-1
+text=高清
+gravity=center
+ut_centerinparent=true
+textstyle=bold
+textcolor=#ff82dfff
+shadowcolor=#55555555
+shadowradius=10
+shadowdx=1.1
+shadowdy=-1.1
+</ppt>
+<event><eventItme type="clicki">
+ngde("300","#ff00c2ff",选1)
+ngde("300","#ff00c2ff",选2)
+us(14,"background","#ff00c2ff")
+us(12,"background",选2)
+us(13,"background",选2)
+
+us(14,"textcolor","#ffffff")
+us(12,"textcolor","#ff00c2ff")
+us(13,"textcolor","#ff00c2ff")
+
+
+fw("$.画质","高清")
+us(23,"text","2")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="23" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="24" did="8" type="TextView">
+<ppt>width=-1
+height=-2
+gravity=center
+textcolor=#ffffffff
+text=使用前必须开启悬浮窗权限\n仅支持系统Android 5.0以及以上才有效果！\n使用前必须先设置画质，不然录屏无效
+shadowcolor=#55555555
+shadowradius=10
+shadowdx=1.1
+shadowdy=-1.1
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+
+
+ 
+
+
+ 
+
+
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">
+fr("$.画质",画质)
+
+f(画质=="标清")
+{
+ngde("300","#ff00c2ff",选1)
+ngde("300","#ff00c2ff",选2)
+us(12,"background",选1)
+us(14,"background","#ff00c2ff")
+us(13,"background",选2)
+
+us(12,"textcolor","#ffffff")
+us(14,"textcolor","#ff00c2ff")
+us(13,"textcolor","#ff00c2ff")
+
+us(23,"text","1")
+}
+
+else f(画质=="高清")
+{
+ngde("300","#ff00c2ff",选1)
+ngde("300","#ff00c2ff",选2)
+us(14,"background","#ff00c2ff")
+us(12,"background",选2)
+us(13,"background",选2)
+
+us(14,"textcolor","#ffffff")
+us(12,"textcolor","#ff00c2ff")
+us(13,"textcolor","#ff00c2ff")
+
+us(23,"text","2")
+}
+
+else f(画质=="超清")
+{
+ngde("300","#ff00c2ff",选1)
+ngde("300","#ff00c2ff",选2)
+us(14,"background","#ff00c2ff")
+us(12,"background",选2)
+us(13,"background",选1)
+
+us(13,"textcolor","#ffffff")
+us(12,"textcolor","#ff00c2ff")
+us(14,"textcolor","#ff00c2ff")
+
+us(23,"text","3")
+
+}
+else
+{
+  ngde("300","#ff006fff",选1)
+us(10,"background",选1)
+
+ngde("300","#ff00c2ff",选1)
+ngde("300","#ff00c2ff",选2)
+us(12,"background",选1)
+us(14,"background","#ff00c2ff")
+us(13,"background",选2)
+
+us(12,"textcolor","#ffffff")
+us(14,"textcolor","#ff00c2ff")
+us(13,"textcolor","#ff00c2ff")
+
+fw("$.画质","标清")
+us(23,"text","1")
+}
+</eventItme><eventItme type="destroy">uxf(sss.vv,"del")
+sss vv=null
+</eventItme></UIEventset>

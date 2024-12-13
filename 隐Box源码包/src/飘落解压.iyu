@@ -1,0 +1,242 @@
+<View id="53" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=让你摁个够
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="48" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="43" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="42" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="42" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+padding=15dp</ppt>
+<event></event>
+</View>
+<View id="30" did="8" type="CardView">
+<ppt>width=-1
+height=300dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#f5f5f5
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="45" did="31" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="touchmonitor">
+[true]
+uzd(sss.zdq,100)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="46" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="47" did="46" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@icon.png</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F5F5F5</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=center_vertical
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=提示
+textColor=#000000
+textStyle=bold
+textSize=13sp
+layout_marginLeft=15dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.在二哈的路上迷路~一发不可收拾~\n\n2.震动对手机没有不好影响，随便玩，不伤手机，可以在设置中开启音效.
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp
+layout_marginTop=10dp
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="49" did="8" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+gravity=center_vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="ImageView">
+<ppt>width=50dp
+height=20dp
+src=@Bibi/b3g.v</ppt>
+<event></event>
+</View>
+<View id="51" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+layout_weight=1
+textsize=12dp
+textcolor=#ff414141
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="52" did="49" type="ImageView">
+<ppt>width=34dp
+height=18dp
+src=@setting_chk_gray.v
+scaletype=fitxy
+layout_marginright=20dp</ppt>
+<event><eventItme type="clicki">fe("$幻隐网络/雪花飘落/开.txt",uu)
+f(uu=="false")
+  {
+    fw("$幻隐网络/雪花飘落/开.txt",".")
+us(52,"src","@setting_chk_blue.v")
+fn xh.xh()
+  }
+else
+  {
+        s g = "$幻隐网络/雪花飘落/开.txt" 
+fd(g,j) 
+    us(52,"src","@setting_chk_gray.v")
+end()
+uigo("飘落解压.iyu")
+  }</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=53
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(34,"background",yg)
+us(39,"background",yg)
+us(2,"background",yg)
+sss anm="0"
+fe("$幻隐网络/雪花飘落/开.txt",yy)
+f(yy=="true")
+{
+  us(52,"src","@setting_chk_blue.v")
+  fn xh.xh()
+  }
+else
+  {
+    us(52,"src","@setting_chk_gray.v")
+  
+  }
+/.
+
+</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(43,a)
+gvs(44,b)
+javanew(mBs,mB,"Context",activity)
+urvw(44)
+nvw(mBs,43)
+nvw(b,mBs)
+f(sss.游客=="是")
+{
+us(47,"src","@170837.png")
+}
+else
+{
+us(47,"src",sss.头像)
+}
+/.fr("$幻隐网络/记录/qq.txt",qq)
+ss("http://qlogo2.store.qq.com/qzone/"+qq+"/"+qq+"/100",qq)
+  t()
+  {
+call(img,"mjava","Http.getInternetPicture",qq)
+ufnsui()
+{
+us(47,"src",img)
+
+}
+}</eventItme></UIEventset>

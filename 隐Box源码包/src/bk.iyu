@@ -1,0 +1,1317 @@
+<View id="61" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=48dp</ppt>
+<event></event>
+</View>
+<View id="60" did="61" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=版块内容
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="54" did="62" type="CardView">
+<ppt>width=30dp
+height=30dp
+layout_marginRight=10dp
+layout_gravity=center
+app_CardcornerRadius=20dp
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="55" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="56" did="55" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@6.26/null_transfer_uploading.v</ppt>
+<event><eventItme type="clicki">gvs(58,id)
+ 
+ 
+ 
+f(ss.隐藏=="隐藏")
+{
+  us(16,"text","版块内容")
+  //us(40,"visibility","visible")
+  us(40,"height","30dp")
+  us(56,"src","@6.26/null_transfer_uploading.v")
+  us(8,"layout_marginTop","100dp")
+  us(33,"visibility","visible")
+  ss 隐藏="no"
+}
+else
+{
+ // us(40,"visibility","gone")
+  us(40,"height","0dp")
+  us(8,"layout_marginTop","0dp")
+  us(16,"text",sss.bktitle)
+  us(56,"src","@6.26/null_transfer_download.v")
+  ss 隐藏="隐藏"
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="53" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="53" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="34" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="33" did="34" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical
+background=@tb/664bcda0620.png
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="2" did="33" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=5dp
+layout_marginTop=20dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="35" did="2" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=200dp
+app_CardElevation=2dp
+layout_marginLeft=16dp</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="36" type="RoundImageView">
+<ppt>width=50dp
+height=50dp
+src=@1
+layout_margin=5dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=5dp
+layout_marginLeft=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐Box
+textStyle=bold
+textColor=#ffffff
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中…
+layout_marginTop=5dp
+typeface=serif
+textColor=#ffffff
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="27" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+visibility=
+ut_below=33</ppt>
+<event></event>
+</View>
+<View id="31" did="27" type="GifView">
+<ppt>width=120dp
+height=120dp
+src=@gif.gif
+layout_marginTop=20dp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="30" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="28" did="30" type="ImageView">
+<ppt>width=120dp
+height=120dp
+src=@tb/a21.v
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="29" did="30" type="TextView">
+<ppt>width=-2
+height=-2
+text=当前板块无帖子\n快来发布第一章帖子吧
+gravity=center
+textColor=#ff000000
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="8" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginTop=100dp
+visibility=gone
+layout_marginBottom=30dp
+</ppt>
+<event></event>
+</View>
+<View id="40" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=30dp</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=vertical
+ut_alignParentBottom=true
+background=@941ff0a9363.webp
+</ppt>
+<event></event>
+</View>
+<View id="42" did="40" type="CardView">
+<ppt>width=-1
+height=20dp
+app_CardcornerRadius=10dp
+app_CardElevation=-10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="43" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+background=white</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="TabLayout">
+<ppt>width=-2
+height=-2
+app_tabList=全部|回复|最新|介绍
+app_tabIndicatorWidth=10dp
+tabSelect=0
+app_tabIndicatorColor=#ff008cff
+app_tabIndicatorWidth=14dp
+app_tabIndicatorHeight=3.5dp
+app_tabTextColor=#80000000||#ff008cff
+app_tabMode=0</ppt>
+<event><eventItme type="ontabselected">f(st_tT=="全部")
+{
+  us(9,"visibility","visible")
+  us(45,"visibility","gone")
+  us(46,"visibility","gone")
+  us(47,"visibility","gone")
+}
+else f(st_tT=="最新")
+{
+  us(9,"visibility","gone")
+  us(45,"visibility","visible")
+  us(46,"visibility","gone")
+  us(47,"visibility","gone")
+  f(sss.加载过吗=="是")
+  {
+  }
+  else
+  {
+    t()
+    {
+      time("Y",a)
+      time("m",m)
+      time("d",D)
+      time("H",e)
+      time("M",l)
+      time("S",v)
+      ss(a+m+D+e+l+v,dqsj)
+      ss(sss.api+"?f/"+sss.bkid+"/new.html",最新)
+      hs(最新, null, "utf-8", null, true, sss.外链, z)
+      sss 加载过吗="是"
+      sj(z,"&lt;table cellspacing=\"0\" cellpadding=\"0\" id=\"listtableid\" class=\" threadlist mt10\"&gt;","script type=\"text/javascript\"  id=\"script_slider\" reload=\"1\"&gt;",tz)
+      sl(tz,"level_svip{background-color:#FFD700;}",t)
+      sgszl(t,zs)
+      s(zs-1,s)
+      s ts=1
+      ss 总数="0"
+      for(1;s)
+      {
+        sgsz(t,ts,nr)
+        sj(nr,"&lt;a data-pjax href=\"","\"",zy)
+        sj(nr,"class=\" size_16\" tab='space'&gt;","&lt;/a&gt;",名字)
+        sj(nr,"&lt;img src=\"","\"",tx)
+        sj(nr,"class=\"level level_2 cf size_12\" tab=\"usergroup\"&gt;","&lt;/a&gt;",身份)
+        sj(nr,"tab=\"usergroup\"&gt;","&lt;/a&gt;",uiid)
+        sj(nr,"tab=\"usergroup\"&gt;ID:","&lt;/a&gt;",uid)
+        sj(nr,"&lt;p class=\"cw\"&gt;","&lt;/p&gt;",fbtime)
+        ss("[#"+sss.bktitle+"]",bkbt)
+        sj(nr,"class=\"dialog\" tab='viewthread'&gt;","&lt;/a&gt;",title)
+        ss("(html)"+title,title)
+        s 有吗="class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""
+        f(nr?有吗)
+        {
+          s 显示不="是"
+          sj(nr,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图)
+          ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图+"\"",内容不要图)
+          sr(nr,内容不要图,"",nrok)
+          sj(nrok,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图二)
+          ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图二+"\"",内容不要图二)
+          sr(nrok,内容不要图二,"",nrolk)
+          sj(nrolk,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图三)
+          ss("幻隐网luo/.缓存/"+title+"内容图.png",有没有内容图)
+          fe(有没有内容图,有没有)
+          f(有没有==true)
+          {
+            ss("幻隐网luo/.缓存/"+title+"内容图.png",内容图)
+            ss("幻隐网luo/.缓存/"+title+"内容图二.png",内容图二)
+            ss("幻隐网luo/.缓存/"+title+"内容图三.png",内容图三)
+          }
+          else
+          {
+            ss("幻隐网luo/.缓存/"+title+"内容图.png",下载一)
+            ss("幻隐网luo/.缓存/"+title+"内容图二.png",下载二)
+            ss("幻隐网luo/.缓存/"+title+"内容图三.png",下载三)
+            //hd(内容图, 下载一, 下载中)
+            //hd(内容图二, 下载二, 下载中)
+            //hd(内容图三, 下载三, 下载中)
+          }
+        }
+        else
+        {
+          s 显示不="咿呀"
+        }
+        sj(nr,"overflow: hidden;\"&gt;","&lt;/a&gt;",截取)
+        sj(截取,"class=\"dialog\" tab='viewthread'&gt;",null,详情)
+        slg(详情,数量)
+        f(数量&gt;"100")
+        {
+          ssg(详情, 0, 50, 详情)
+          ss(详情+".....",详情)
+        }
+        else
+        {
+        }
+        sj(nr,"overflow: hidden;\"&gt; &lt;a href=\"","\"",tzurl)
+        sj(fbtime,"于","前",发)
+        ss("发表于"+发+"前",发表时间)
+        s 发表时间=fbtime
+        sj(nr,"class=\"dialog\"&gt;&lt;em&gt;&lt;/em&gt;&lt;span&gt;","&lt;/span&gt;评论&lt;/a&gt;&lt;/li&gt;",pl)
+        f(title?"置顶")
+        {
+          s zd="置顶"
+        }
+        else
+        {
+          s zd="无"
+        }
+        sr(title,"全站置顶","",title)
+        sr(title,"本板置顶","",title)
+        f(pl==null)
+        {
+          s pl="0"
+        }
+        f(title?"精")
+        {
+          s j="精"
+        }
+        else
+        {
+          s j="无"
+        }
+        f(title?"&lt;i class=\"iconfont icon-lock\" style=\"margin-left: 5px;color: grey\"&gt;&lt;/i&gt;")
+        {
+          s suo="锁"
+        }
+        else
+        {
+          s suo="无"
+        }
+        ss(名字+"的个人信息[",jq名字)
+sj(sss.全部用户资料,jq名字,"]",sss.当前用户数据)
+sj(sss.当前用户数据,"头像框：","头像框内容结束",相框)
+sj(sss.当前用户数据,"会员(",")会员",会员)
+        ss(a+m+D+e+l+v,dqsj)
+        f(dqsj&gt;会员)
+        {
+          s 会员="无"
+        }
+        else
+        {
+          s 会员="有"
+        }
+        s(ts+1,ts)
+        ula(list_tz,250=会员,177=名字,242=身份,240=uiid,249=相框,219=zd,220=j,237=显示不,236=内容图三,234=内容图,221=suo,235=内容图二,232=详情,230=发表时间,178=fbtime,226=tpsj,182=title,195=pl,190=bkbt,248=tx,208=tx,206=tzurl,207=bk,212=uid,31=j,213=fbtime)
+      }
+      ufnsui()
+      {
+        uls(45,list_tz,"bklist.iyu",-1,-2)
+      }
+    }
+  }
+}
+else f(st_tT=="回复")
+{
+  us(9,"visibility","gone")
+  us(45,"visibility","gone")
+  us(46,"visibility","visible")
+  us(47,"visibility","gone")
+  f(sss.加载过吗一=="是")
+  {
+  }
+  else
+  {
+    t()
+    {
+      time("Y",a)
+      time("m",m)
+      time("d",D)
+      time("H",e)
+      time("M",l)
+      time("S",v)
+      ss(a+m+D+e+l+v,dqsj)
+      ss(sss.api+"?f/"+sss.bkid+"/btime.html",最新)
+      hs(最新, null, "utf-8", null, true, sss.外链, z)
+      sss 加载过吗一="是"
+      sj(z,"&lt;table cellspacing=\"0\" cellpadding=\"0\" id=\"listtableid\" class=\" threadlist mt10\"&gt;","script type=\"text/javascript\"  id=\"script_slider\" reload=\"1\"&gt;",tz)
+      sl(tz,"level_svip{background-color:#FFD700;}",t)
+      sgszl(t,zs)
+      s(zs-1,s)
+      s ts=1
+      ss 总数="0"
+      for(1;s)
+      {
+        sgsz(t,ts,nr)
+        sj(nr,"&lt;a data-pjax href=\"","\"",zy)
+        sj(nr,"class=\" size_16\" tab='space'&gt;","&lt;/a&gt;",名字)
+        sj(nr,"&lt;img src=\"","\"",tx)
+        sj(nr,"class=\"level level_2 cf size_12\" tab=\"usergroup\"&gt;","&lt;/a&gt;",身份)
+        sj(nr,"tab=\"usergroup\"&gt;","&lt;/a&gt;",uiid)
+        sj(nr,"tab=\"usergroup\"&gt;ID:","&lt;/a&gt;",uid)
+        sj(nr,"&lt;p class=\"cw\"&gt;","&lt;/p&gt;",fbtime)
+        ss("[#"+sss.bktitle+"]",bkbt)
+        sj(nr,"class=\"dialog\" tab='viewthread'&gt;","&lt;/a&gt;",title)
+        ss("(html)"+title,title)
+        s 有吗="class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""
+        f(nr?有吗)
+        {
+          s 显示不="是"
+          sj(nr,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图)
+          ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图+"\"",内容不要图)
+          sr(nr,内容不要图,"",nrok)
+          sj(nrok,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图二)
+          ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图二+"\"",内容不要图二)
+          sr(nrok,内容不要图二,"",nrolk)
+          sj(nrolk,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图三)
+          ss("幻隐网luo/.缓存/"+title+"内容图.png",有没有内容图)
+          fe(有没有内容图,有没有)
+          f(有没有==true)
+          {
+            ss("幻隐网luo/.缓存/"+title+"内容图.png",内容图)
+            ss("幻隐网luo/.缓存/"+title+"内容图二.png",内容图二)
+            ss("幻隐网luo/.缓存/"+title+"内容图三.png",内容图三)
+          }
+          else
+          {
+            ss("幻隐网luo/.缓存/"+title+"内容图.png",下载一)
+            ss("幻隐网luo/.缓存/"+title+"内容图二.png",下载二)
+            ss("幻隐网luo/.缓存/"+title+"内容图三.png",下载三)
+            //hd(内容图, 下载一, 下载中)
+            //hd(内容图二, 下载二, 下载中)
+            //hd(内容图三, 下载三, 下载中)
+          }
+        }
+        else
+        {
+          s 显示不="咿呀"
+        }
+        sj(nr,"overflow: hidden;\"&gt;","&lt;/a&gt;",截取)
+        sj(截取,"class=\"dialog\" tab='viewthread'&gt;",null,详情)
+        slg(详情,数量)
+        f(数量&gt;"100")
+        {
+          ssg(详情, 0, 50, 详情)
+          ss(详情+".....",详情)
+        }
+        else
+        {
+        }
+        sj(nr,"overflow: hidden;\"&gt; &lt;a href=\"","\"",tzurl)
+        sj(fbtime,"于","前",发)
+        ss("发表于"+发+"前",发表时间)
+        s 发表时间=fbtime
+        sj(nr,"class=\"dialog\"&gt;&lt;em&gt;&lt;/em&gt;&lt;span&gt;","&lt;/span&gt;评论&lt;/a&gt;&lt;/li&gt;",pl)
+        f(title?"置顶")
+        {
+          s zd="置顶"
+        }
+        else
+        {
+          s zd="无"
+        }
+        sr(title,"全站置顶","",title)
+        sr(title,"本板置顶","",title)
+        f(pl==null)
+        {
+          s pl="0"
+        }
+        f(title?"精")
+        {
+          s j="精"
+        }
+        else
+        {
+          s j="无"
+        }
+        f(title?"&lt;i class=\"iconfont icon-lock\" style=\"margin-left: 5px;color: grey\"&gt;&lt;/i&gt;")
+        {
+          s suo="锁"
+        }
+        else
+        {
+          s suo="无"
+        }
+        s(ts+1,ts)
+        ss(名字+"的个人信息[",jq名字)
+sj(sss.全部用户资料,jq名字,"]",sss.当前用户数据)
+sj(sss.当前用户数据,"头像框：","头像框内容结束",相框)
+sj(sss.当前用户数据,"会员(",")会员",会员)
+        ss(a+m+D+e+l+v,dqsj)
+        f(dqsj&gt;会员)
+        {
+          s 会员="无"
+        }
+        else
+        {
+          s 会员="有"
+        }
+        ula(list_tz,250=会员,177=名字,242=身份,240=uiid,249=相框,219=zd,220=j,237=显示不,236=内容图三,234=内容图,221=suo,235=内容图二,232=详情,230=发表时间,178=fbtime,226=tpsj,182=title,195=pl,190=bkbt,248=tx,208=tx,206=tzurl,207=bk,212=uid,31=j,213=fbtime)
+      }
+      ufnsui()
+      {
+        uls(46,list_tz,"bklist.iyu",-1,-2)
+      }
+    }
+  }
+}
+else f(st_tT=="介绍")
+{
+  us(9,"visibility","gone")
+  us(45,"visibility","gone")
+  us(46,"visibility","gone")
+  us(47,"visibility","visible")
+}</eventItme><eventItme type="ontabreselected">f(st_tT=="全部")
+{
+  us(9, "selection", 0)
+}
+else f(st_tT=="最新")
+{
+  us(45, "selection", 0)
+}
+else f(st_tT=="回复")
+{
+  us(46, "selection", 0)
+}
+else f(st_tT=="介绍")
+{
+}</eventItme></event>
+</View>
+<View id="59" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="9" did="59" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="onscrolled">s(st_bT-st_vT,kj)
+f(st_fM==kj)
+{
+  f(sss.不再加载=="OK")
+  {
+    f(ss.提示=="提示过")
+    {
+    }
+    else
+    {
+      ss 提示="提示过"
+      gvs(58,view)
+cls("com.google.android.material.snackbar.Snackbar",类)
+javax(snk,null,类,"make","android.view.View",view,"java.lang.CharSequence","已无更多帖子！","int",2000)
+cls("android.view.View$OnClickListener", 事件类)
+javacb(事件, 事件类)
+{
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+javax(null,snk,类,"setAction","java.lang.CharSequence","确定",事件类,事件)
+javax(get,snk,"com.google.android.material.snackbar.BaseTransientBottomBar","getView")
+//设置背景
+ngde(0,16,"#95272727","#95272727",bj)
+us(get,"background",bj)
+//设置高度
+us(get,"height","-2")
+//设置外边距
+us(get,"layout_margin","12dp")
+//显示
+java(null, snk, "com.google.android.material.snackbar.BaseTransientBottomBar.show")
+
+    }
+  }
+  else
+  {
+    s(sss.ye+1,sss.ye)
+    ss(sss.api+"?f/"+sss.bkid+"/new/"+sss.ye+".html",bkurl)
+    t()
+    {
+      time("Y",a)
+      time("m",m)
+      time("d",D)
+      time("H",e)
+      time("M",l)
+      time("S",v)
+      ss(a+m+D+e+l+v,dqsj)
+      hs(bkurl, null, "utf-8", null, true, sss.外链, z)
+      f(z?"啊哦，本版块暂时没有任何内容哦！")
+      {
+        us(43,"text","我也是有底线的！")
+        sss 不再加载="OK"
+      }
+      else
+      {
+        sj(z,"&lt;table cellspacing=\"0\" cellpadding=\"0\" id=\"listtableid\" class=\" threadlist mt10\"&gt;","script type=\"text/javascript\"  id=\"script_slider\" reload=\"1\"&gt;",tz)
+        sl(tz,"level_svip{background-color:#FFD700;}",t)
+        sgszl(t,zs)
+        s(zs-1,s)
+        s ts=1
+        for(1;s)
+        {
+          sgsz(t,ts,nr)
+          sj(nr,"&lt;a data-pjax href=\"","\"",zy)
+          sj(nr,"class=\" size_16\" tab='space'&gt;","&lt;/a&gt;",名字)
+          ss("幻隐网luo/.缓存/"+名字+"头像.png",头像)
+          fe(头像,是否)
+          f(是否==true)
+          {
+            s tx=头像
+          }
+          else
+          {
+            sj(nr,"&lt;img src=\"","\"",tx)
+            hd(tx,头像,下载中)
+          }
+          sj(nr,"class=\"level level_2 cf size_12\" tab=\"usergroup\"&gt;","&lt;/a&gt;",身份)
+          sj(nr,"tab=\"usergroup\"&gt;","&lt;/a&gt;",uiid)
+          sj(nr,"tab=\"usergroup\"&gt;ID:","&lt;/a&gt;",uid)
+          sj(nr,"&lt;p class=\"cw\"&gt;","&lt;/p&gt;",fbtime)
+          ss("[#"+sss.bktitle+"]",bkbt)
+          sj(nr,"class=\"dialog\" tab='viewthread'&gt;","&lt;/a&gt;",title)
+          ss("(html)"+title,title)
+          s 有吗="class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""
+          f(nr?有吗)
+          {
+            s 显示不="是"
+            sj(nr,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图)
+            ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图+"\"",内容不要图)
+            sr(nr,内容不要图,"",nrok)
+            sj(nrok,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图二)
+            ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图二+"\"",内容不要图二)
+            sr(nrok,内容不要图二,"",nrolk)
+            sj(nrolk,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图三)
+            ss("幻隐网luo/.缓存/"+title+"内容图.png",有没有内容图)
+            fe(有没有内容图,有没有)
+            f(有没有==true)
+            {
+              ss("幻隐网luo/.缓存/"+title+"内容图.png",内容图)
+              ss("幻隐网luo/.缓存/"+title+"内容图二.png",内容图二)
+              ss("幻隐网luo/.缓存/"+title+"内容图三.png",内容图三)
+            }
+            else
+            {
+              ss("幻隐网luo/.缓存/"+title+"内容图.png",下载一)
+              ss("幻隐网luo/.缓存/"+title+"内容图二.png",下载二)
+              ss("幻隐网luo/.缓存/"+title+"内容图三.png",下载三)
+              //hd(内容图, 下载一, 下载中)
+              //hd(内容图二, 下载二, 下载中)
+              //hd(内容图三, 下载三, 下载中)
+            }
+          }
+          else
+          {
+            s 显示不="咿呀"
+          }
+          sj(nr,"overflow: hidden;\"&gt;","&lt;/a&gt;",截取)
+          sj(截取,"class=\"dialog\" tab='viewthread'&gt;",null,详情)
+          slg(详情,数量)
+          f(数量&gt;"100")
+          {
+            ssg(详情, 0, 50, 详情)
+            ss(详情+".....",详情)
+          }
+          else
+          {
+          }
+          sj(nr,"overflow: hidden;\"&gt; &lt;a href=\"","\"",tzurl)
+          sj(fbtime,"于","前",发)
+          ss("发表于"+发+"前",发表时间)
+          s 发表时间=fbtime
+          sj(nr,"class=\"dialog\"&gt;&lt;em&gt;&lt;/em&gt;&lt;span&gt;","&lt;/span&gt;评论&lt;/a&gt;&lt;/li&gt;",pl)
+          f(title?"置顶")
+          {
+            s zd="置顶"
+          }
+          else
+          {
+            s zd="无"
+          }
+          sr(title,"全站置顶","",title)
+          sr(title,"本板置顶","",title)
+          f(pl==null)
+          {
+            s pl="0"
+          }
+          f(title?"精")
+          {
+            s j="精"
+          }
+          else
+          {
+            s j="无"
+          }
+          f(title?"&lt;i class=\"iconfont icon-lock\" style=\"margin-left: 5px;color: grey\"&gt;&lt;/i&gt;")
+          {
+            s suo="锁"
+          }
+          else
+          {
+            s suo="无"
+          }
+          s(ts+1,ts)
+          ula(ss.list_tz,250=会员,177=名字,242=身份,240=uiid,219=zd,220=j,249=相框,237=显示不,236=内容图三,234=内容图,221=suo,235=内容图二,232=详情,230=发表时间,178=fbtime,226=tpsj,182=title,195=pl,190=bkbt,248=tx,208=tx,206=tzurl,207=bk,212=uid,31=j,213=fbtime)
+        }
+      }
+      ufnsui()
+      {
+        //这里用的是ula刷新不是ulas
+        //ulas(9,ss.list_tz,"bklist.iyu",-1,-2)
+        ula(ss.list_tz)
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="45" did="59" type="RecyclerView">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event><eventItme type="onscrolled">/.s(st_bT-st_vT,kj)
+f(st_fM==kj)
+{
+  f(sss.不再加载=="OK")
+  {
+    f(ss.提示=="提示过")
+    {
+    }
+    else
+    {
+      ss 提示="提示过"
+      s stop = 2000
+      s text="已无更多帖子."
+      fn color.ColorToast(text,stop)
+    }
+  }
+  else
+  {
+    s(sss.ye+1,sss.ye)
+    ss(sss.api+"?f/"+sss.bkid+"/new/"+sss.ye+".html",bkurl)
+    t()
+    {
+      ss("幻隐网luo/.缓存/"+sss.bkid+"板块"+sss.ye+"页内容.txt",缓存)
+      fe(缓存,有没有)
+      f(有没有==true)
+      {
+        fr(缓存,z)
+      }
+      else
+      {
+        hs(bkurl, null, "utf-8", null, true, "User-Agent=Mozilla/5.0 (Linux; U; Android 11; zh-cn; M2007J3SC Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/16.6.6 swan-mibrowser||Accept=application/json, text/javascript, */*; q=0.01||accept-language=zh-CN", z)
+        fw(缓存,z)
+      }
+      f(z?"啊哦，本版块暂时没有任何内容哦！")
+      {
+        us(43,"text","我也是有底线的！")
+        sss 不再加载="OK"
+      }
+      else
+      {
+        sj(z,"&lt;table cellspacing=\"0\" cellpadding=\"0\" id=\"listtableid\" class=\" threadlist mt10\"&gt;","script type=\"text/javascript\"  id=\"script_slider\" reload=\"1\"&gt;",tz)
+        sl(tz,"level_svip{background-color:#FFD700;}",t)
+        sgszl(t,zs)
+        s(zs-1,s)
+        s ts=1
+        for(1;s)
+        {
+          sgsz(t,ts,nr)
+          sj(nr,"&lt;a data-pjax href=\"","\"",zy)
+          sj(nr,"&lt;img src=\"","\"",tx)
+          sj(nr,"class=\" size_16\" tab='space'&gt;","&lt;/a&gt;",名字)
+          sj(nr,"class=\"level level_2 cf size_12\" tab=\"usergroup\"&gt;","&lt;/a&gt;",身份)
+          sj(nr,"tab=\"usergroup\"&gt;","&lt;/a&gt;",uiid)
+    sj(nr,"tab=\"usergroup\"&gt;ID:","&lt;/a&gt;",uid)
+          sj(nr,"&lt;p class=\"cw\"&gt;","&lt;/p&gt;",fbtime)
+          ss("[#"+sss.bktitle+"]",bkbt)
+          sj(nr,"class=\"dialog\" tab='viewthread'&gt;","&lt;/a&gt;",title)
+          ss("(html)"+title,title)
+          f(nr?"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"")
+          {
+            s 显示不="是"
+            sj(nr,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图)
+            ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图+"\"",内容不要图)
+            sr(nr,内容不要图,"",nrok)
+            sj(nrok,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图二)
+            ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图二+"\"",内容不要图二)
+            sr(nrok,内容不要图二,"",nrolk)
+            sj(nrolk,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图三)
+          }
+          else
+          {
+            s 显示不="咿呀"
+          }
+          sj(nr,"overflow: hidden;\"&gt;","&lt;/a&gt;",截取)
+          sj(截取,"class=\"dialog\" tab='viewthread'&gt;",null,详情)
+          slg(详情,数量)
+          f(数量&gt;"100")
+          {
+            ssg(详情, 0, 100, 详情)
+            ss(详情+".....",详情)
+          }
+          else
+          {
+          }
+          sj(nr,"overflow: hidden;\"&gt; &lt;a href=\"","\"",tzurl)
+          sj(fbtime,"于","前",发)
+          ss("发表于"+发+"前",发表时间)
+          sj(nr,"class=\"dialog\"&gt;&lt;em&gt;&lt;/em&gt;&lt;span&gt;","&lt;/span&gt;评论&lt;/a&gt;&lt;/li&gt;",pl)
+          f(title?"置顶")
+          {
+            s zd="置顶"
+          }
+          else
+          {
+            s zd="无"
+          }
+          sr(title,"全站置顶","",title)
+          sr(title,"本板置顶","",title)
+          f(pl==null)
+          {
+            s pl="0"
+          }
+          f(title?"精")
+          {
+            s j="精"
+          }
+          else
+          {
+            s j="无"
+          }
+          f(title?"&lt;i class=\"iconfont icon-lock\" style=\"margin-left: 5px;color: grey\"&gt;&lt;/i&gt;")
+          {
+            s suo="锁"
+          }
+          else
+          {
+            s suo="无"
+          }
+          s(ts+1,ts)
+          ula(ss.list_tz,177=名字,242=身份,240=uiid,219=zd,220=j,237=显示不,236=内容图三,234=内容图,221=suo,235=内容图二,232=详情,230=发表时间,178=fbtime,226=tpsj,182=title,195=pl,190=bkbt,175=tx,208=tx,206=tzurl,207=bk,212=uid,31=j,213=fbtime)
+        }
+      }
+      ufnsui()
+      {
+        //这里用的是ula刷新不是ulas
+        //ulas(9,ss.list_tz,"bklist.iyu",-1,-2)
+        ula(ss.list_tz)
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="46" did="59" type="RecyclerView">
+<ppt>width=-1
+height=-1
+visibility=gone
+</ppt>
+<event><eventItme type="onscrolled">/.s(st_bT-st_vT,kj)
+f(st_fM==kj)
+{
+  f(sss.不再加载=="OK")
+  {
+    f(ss.提示=="提示过")
+    {
+    }
+    else
+    {
+      ss 提示="提示过"
+      s stop = 2000
+      s text="已无更多帖子."
+      fn color.ColorToast(text,stop)
+    }
+  }
+  else
+  {
+    s(sss.ye+1,sss.ye)
+    ss(sss.api+"?f/"+sss.bkid+"/new/"+sss.ye+".html",bkurl)
+    t()
+    {
+      ss("幻隐网luo/.缓存/"+sss.bkid+"板块"+sss.ye+"页内容.txt",缓存)
+      fe(缓存,有没有)
+      f(有没有==true)
+      {
+        fr(缓存,z)
+      }
+      else
+      {
+        hs(bkurl, null, "utf-8", null, true, "User-Agent=Mozilla/5.0 (Linux; U; Android 11; zh-cn; M2007J3SC Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/16.6.6 swan-mibrowser||Accept=application/json, text/javascript, */*; q=0.01||accept-language=zh-CN", z)
+        fw(缓存,z)
+      }
+      f(z?"啊哦，本版块暂时没有任何内容哦！")
+      {
+        us(43,"text","我也是有底线的！")
+        sss 不再加载="OK"
+      }
+      else
+      {
+        sj(z,"&lt;table cellspacing=\"0\" cellpadding=\"0\" id=\"listtableid\" class=\" threadlist mt10\"&gt;","script type=\"text/javascript\"  id=\"script_slider\" reload=\"1\"&gt;",tz)
+        sl(tz,"level_svip{background-color:#FFD700;}",t)
+        sgszl(t,zs)
+        s(zs-1,s)
+        s ts=1
+        for(1;s)
+        {
+          sgsz(t,ts,nr)
+          sj(nr,"&lt;a data-pjax href=\"","\"",zy)
+          sj(nr,"&lt;img src=\"","\"",tx)
+          sj(nr,"class=\" size_16\" tab='space'&gt;","&lt;/a&gt;",名字)
+          sj(nr,"class=\"level level_2 cf size_12\" tab=\"usergroup\"&gt;","&lt;/a&gt;",身份)
+          sj(nr,"tab=\"usergroup\"&gt;","&lt;/a&gt;",uiid)
+    sj(nr,"tab=\"usergroup\"&gt;ID:","&lt;/a&gt;",uid)
+          sj(nr,"&lt;p class=\"cw\"&gt;","&lt;/p&gt;",fbtime)
+          ss("[#"+sss.bktitle+"]",bkbt)
+          sj(nr,"class=\"dialog\" tab='viewthread'&gt;","&lt;/a&gt;",title)
+          ss("(html)"+title,title)
+          f(nr?"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"")
+          {
+            s 显示不="是"
+            sj(nr,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图)
+            ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图+"\"",内容不要图)
+            sr(nr,内容不要图,"",nrok)
+            sj(nrok,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图二)
+            ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图二+"\"",内容不要图二)
+            sr(nrok,内容不要图二,"",nrolk)
+            sj(nrolk,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图三)
+          }
+          else
+          {
+            s 显示不="咿呀"
+          }
+          sj(nr,"overflow: hidden;\"&gt;","&lt;/a&gt;",截取)
+          sj(截取,"class=\"dialog\" tab='viewthread'&gt;",null,详情)
+          slg(详情,数量)
+          f(数量&gt;"100")
+          {
+            ssg(详情, 0, 100, 详情)
+            ss(详情+".....",详情)
+          }
+          else
+          {
+          }
+          sj(nr,"overflow: hidden;\"&gt; &lt;a href=\"","\"",tzurl)
+          sj(fbtime,"于","前",发)
+          ss("发表于"+发+"前",发表时间)
+          sj(nr,"class=\"dialog\"&gt;&lt;em&gt;&lt;/em&gt;&lt;span&gt;","&lt;/span&gt;评论&lt;/a&gt;&lt;/li&gt;",pl)
+          f(title?"置顶")
+          {
+            s zd="置顶"
+          }
+          else
+          {
+            s zd="无"
+          }
+          sr(title,"全站置顶","",title)
+          sr(title,"本板置顶","",title)
+          f(pl==null)
+          {
+            s pl="0"
+          }
+          f(title?"精")
+          {
+            s j="精"
+          }
+          else
+          {
+            s j="无"
+          }
+          f(title?"&lt;i class=\"iconfont icon-lock\" style=\"margin-left: 5px;color: grey\"&gt;&lt;/i&gt;")
+          {
+            s suo="锁"
+          }
+          else
+          {
+            s suo="无"
+          }
+          s(ts+1,ts)
+          ula(ss.list_tz,177=名字,242=身份,240=uiid,219=zd,220=j,237=显示不,236=内容图三,234=内容图,221=suo,235=内容图二,232=详情,230=发表时间,178=fbtime,226=tpsj,182=title,195=pl,190=bkbt,175=tx,208=tx,206=tzurl,207=bk,212=uid,31=j,213=fbtime)
+        }
+      }
+      ufnsui()
+      {
+        //这里用的是ula刷新不是ulas
+        //ulas(9,ss.list_tz,"bklist.iyu",-1,-2)
+        ula(ss.list_tz)
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="47" did="59" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="51" did="47" type="ScrollView">
+<ppt>width=-1
+height=-1
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="49" did="51" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+BackgroundColor=#fff7f7f7</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=板块提示：\n点击右下角按钮即可发布您想要发布的文章资源，当然发布文章是可以赚钱的，只需要设置付费查看就可以了。\n\n但是，如果发布违法乱纪等资源，官方审核后会给您立马封号的哦，谨慎操作。\n\n另外，如果您看到有人发布违法文章，举报成功可以获取相应的奖励喔~
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#b2000000
+textIsSelectable=true
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="32" did="15" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@a/tq/yx1/ic_league_list_today_left.v</ppt>
+<event></event>
+</View>
+<View id="37" did="14" type="CardView">
+<ppt>width=60dp
+height=60dp
+app_CardcornerRadius=50dp
+app_CardElevation=5dp
+app_CardBackgroundColor=#ffffff
+ut_alignParentRight=true
+layout_marginRight=15dp
+layout_marginBottom=50dp
+ut_alignParentBottom=true
+</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@PicsArt_11-05-03.02.53.png
+layout_margin=2dp</ppt>
+<event><eventItme type="clicki"> // sj(sss.bkurl,"/?f/",".",sss.发帖id)
+  uigo("创作者中心.iyu")
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }</eventItme></event>
+</View>
+<UIEventset><eventItme type="destroy">sss list_tz="null"
+</eventItme><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=60
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+us(5,"text",sss.bktitle)
+us(13,"text",sss.bktitle)
+ngde(50,"#F44336",a)
+sss 不再加载=""
+sss ye="1"
+ss 下滑=""
+sss 加载过吗="否"
+sss 加载过吗一="否"
+sss 总数="0"
+gvs(56,a)
+call(null,"mjava","图片跳转.set",a)
+us(40,"height","0dp")
+  us(8,"layout_marginTop","0dp")
+  us(16,"text",sss.bktitle)
+  us(56,"src","@6.26/null_transfer_download.v")
+  ss 隐藏="隐藏"
+f(sss.tx?"幻隐网luo")
+{
+    ss("/storage/emulated/0/"+sss.tx,tx)
+  us(3,"src",tx)
+}
+else
+{
+    us(3,"src",sss.tx)
+}
+ 
+//sss bkurl="http://yx.dravelin.cn/?f/1.html"
+//sss 外链="User-Agent=Mozilla/5.0 (Linux; U; Android 11; zh-cn; M2007J3SC Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/16.6.6 swan-mibrowser||Accept=application/json, text/javascript, */*; q=0.01||accept-language=zh-CN"
+
+/.
+ss("幻隐网luo/.缓存/"+sss.bkid+"板块.txt",缓存)
+  fe(缓存,有没有)
+  f(有没有==true)
+  {
+    fr(缓存,z)
+  }
+  else
+  {
+    ss(sss.api+"?f/"+sss.bkid+"/new/"+sss.ye+".html",bkurl)
+    hs(bkurl, null, "utf-8", null, true, sss.外链, z)
+    fw(缓存,z)
+  }</eventItme><eventItme type="loadingComplete">t()
+{
+  stop(1000)
+  time("Y",a)
+  time("m",m)
+  time("d",D)
+  time("H",e)
+  time("M",l)
+  time("S",v)
+  ss(a+m+D+e+l+v,dqsj)
+  sj(sss.bkurl,"/?f/",".",sss.bkid)
+  ss(sss.api+"?f/"+sss.bkid+"/new/"+sss.ye+".html",bkurl)
+  hs(bkurl, null, "utf-8", null, true, sss.外链, z)
+  sj(z,"&lt;p class=\"cg\"&gt;","&lt;em",主题)
+  sj(z,"主题&lt;em class=\"cw\"&gt;&lt;/em&gt;","&lt;/p&gt;",帖子)
+  ss("本板块共"+主题+"|"+帖子,总共)
+  sj(z,"&lt;table cellspacing=\"0\" cellpadding=\"0\" id=\"listtableid\" class=\" threadlist mt10\"&gt;","script type=\"text/javascript\"  id=\"script_slider\" reload=\"1\"&gt;",tz)
+  sl(tz,"listitem",t)
+  sgszl(t,zs)
+  s(zs-1,s)
+  s ts=1
+  for(1;s)
+  {
+    sgsz(t,ts,nr)
+    sj(nr,"&lt;a data-pjax href=\"","\"",zy)
+    sj(nr,"size_16\" tab='space'&gt;","&lt;/a&gt;",名字)
+    sj(nr,"&lt;img src=\"","\"",tx)
+    sj(nr,"class=\"level level_2 cf size_12\" tab=\"usergroup\"&gt;","&lt;/a&gt;",身份)
+    sj(nr,"tab=\"usergroup\"&gt;","&lt;/a&gt;",uiid)
+    sj(nr,"tab=\"usergroup\"&gt;ID:","&lt;/a&gt;",uid)
+    sj(nr,"&lt;p class=\"cw\"&gt;","&lt;/p&gt;",fbtime)
+    ss("[#"+sss.bktitle+"]",bkbt)
+    sj(nr,"class=\"dialog\" tab='viewthread'&gt;","&lt;/a&gt;",title)
+    ss("(html)"+title,title)
+    s 有吗="class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""
+    f(nr?有吗)
+    {
+      s 显示不="是"
+      sj(nr,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图)
+      ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图+"\"",内容不要图)
+      sr(nr,内容不要图,"",nrok)
+      sj(nrok,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图二)
+      ss("class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\""+内容图二+"\"",内容不要图二)
+      sr(nrok,内容不要图二,"",nrolk)
+      sj(nrolk,"class=\"dialog \" tab=\"viewthread\"&gt;&lt;img class=\"si\" data-url=\"","\"",内容图三)
+      ss("幻隐网luo/.缓存/"+title+"内容图.png",有没有内容图)
+      fe(有没有内容图,有没有)
+      f(有没有==true)
+      {
+        ss("幻隐网luo/.缓存/"+title+"内容图.png",内容图)
+        ss("幻隐网luo/.缓存/"+title+"内容图二.png",内容图二)
+        ss("幻隐网luo/.缓存/"+title+"内容图三.png",内容图三)
+      }
+      else
+      {
+        ss("幻隐网luo/.缓存/"+title+"内容图.png",下载一)
+        ss("幻隐网luo/.缓存/"+title+"内容图二.png",下载二)
+        ss("幻隐网luo/.缓存/"+title+"内容图三.png",下载三)
+        //hd(内容图, 下载一, 下载中)
+        //hd(内容图二, 下载二, 下载中)
+        //hd(内容图三, 下载三, 下载中)
+      }
+    }
+    else
+    {
+      s 显示不="咿呀"
+    }
+    sj(nr,"overflow: hidden;\"&gt;","&lt;/a&gt;",截取)
+    sj(截取,"class=\"dialog\" tab='viewthread'&gt;",null,详情)
+    slg(详情,数量)
+    f(数量&gt;"100")
+    {
+      ssg(详情, 0, 50, 详情)
+      ss(详情+".....",详情)
+    }
+    else
+    {
+    }
+    sj(nr,"overflow: hidden;\"&gt; &lt;a href=\"","\"",tzurl)
+    sj(fbtime,"于","前",发)
+    ss("发表于"+发+"前",发表时间)
+    s 发表时间=fbtime
+    sj(nr,"class=\"dialog\"&gt;&lt;em&gt;&lt;/em&gt;&lt;span&gt;","&lt;/span&gt;评论&lt;/a&gt;&lt;/li&gt;",pl)
+    f(title?"置顶")
+    {
+      s zd="置顶"
+    }
+    else
+    {
+      s zd="无"
+    }
+    sr(title,"全站置顶","",title)
+    sr(title,"本板置顶","",title)
+    f(pl==null)
+    {
+      s pl="0"
+    }
+    f(title?"精")
+    {
+      s j="精"
+    }
+    else
+    {
+      s j="无"
+    }
+    f(title?"&lt;i class=\"iconfont icon-lock\" style=\"margin-left: 5px;color: grey\"&gt;&lt;/i&gt;")
+    {
+      s suo="锁"
+    }
+    else
+    {
+      s suo="无"
+    }
+    s(ts+1,ts)
+    f(名字==null)
+    {
+    }
+    else
+    {
+      s(sss.总数+1,sss.总数)
+      ula(ss.list_tz,250=会员,177=名字,242=身份,240=uiid,219=zd,220=j,237=显示不,236=内容图三,249=相框,234=内容图,221=suo,235=内容图二,232=详情,230=发表时间,178=fbtime,226=tpsj,182=title,195=pl,190=bkbt,248=tx,208=tx,206=tzurl,207=bk,212=uid,31=j,213=fbtime)
+    }
+    ufnsui()
+    {
+      uls(9,ss.list_tz,"bklist.iyu",-1,-2)
+      gvs(58,id)
+      f(sss.总数&gt;"0")
+      {
+        us(27,"visibility","gone")
+        us(8,"visibility","visible")
+        us(6,"text",总共)
+      }
+      else
+      {
+        us(30,"visibility","visible")
+        us(31,"visibility","gone")
+        us(8,"visibility","gone")
+        us(6,"text","期待您发布好文章.")
+      }
+    }
+  }
+}</eventItme><eventItme type="restart"> </eventItme></UIEventset>

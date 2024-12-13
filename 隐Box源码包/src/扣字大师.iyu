@@ -1,0 +1,167 @@
+<View id="46" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=扣字大师
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="18" did="1" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=3dp
+height=-1
+text=
+backgroundcolor=#ff00a1ff
+layout_marginleft=15dp
+layout_margintop=3dp
+layout_marginbottom=3dp</ppt>
+<event></event>
+</View>
+<View id="20" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=操作
+textsize=15sp
+layout_marginleft=10dp
+layout_gravity=center_vertical
+textcolor=#cf000000</ppt>
+<event></event>
+</View>
+<View id="34" did="1" type="TextView">
+<ppt>text=PS：输入的内容请用#分割词汇。
+width=-1
+height=-2
+//文本控件宽高
+textsize=12sp
+//字体大小
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true
+//获取焦点
+layout_margintop=10dp
+layout_marginleft=15dp
+layout_marginright=15dp
+.visibility=gone</ppt>
+<event></event>
+</View>
+<View id="24" did="1" type="Button">
+<ppt>width=-1
+height=55dp
+text=开始输出
+background=@tb/box_bg.v
+textsize=13sp
+layout_margintop=15dp
+layout_marginleft=15dp
+layout_marginright=15dp
+textcolor=#ff00b1ff</ppt>
+<event><eventItme type="clicki">ug(39,"text",a)
+sl(a,"#",b)
+t()
+{
+  uapp("com.tencent.mobileqq",QQ)
+  for(x;b)
+  {
+    stop(1000)
+    ufnsui()
+    {
+      sxb(x)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="39" did="1" type="EditText">
+<ppt>width=-1
+height=-2
+textsize=12sp
+text=
+background=
+textcursordrawable=#FF0078D6
+hint=输入内容
+gravity=center
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+s id=46
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(40,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(39,"background",背景)
+us(19,"textcolor",颜色)
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 保存词汇:
+ug(39,"text",内容)
+fw("$扣字.txt",内容)
+s stop = 2000
+s text="已经保存啦~"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break
+case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">fr("$扣字.txt",扣字)
+f(扣字?"#")
+{
+  us(39,"text",扣字)
+}
+else
+{
+  fr("@kzshankou.db",内容)
+  us(39,"text",内容)
+  fw("$扣字.txt",内容)
+}</eventItme><eventItme type="destroy">ug(39,"text",内容)
+fw("$扣字.txt",内容)</eventItme></UIEventset>

@@ -1,0 +1,192 @@
+<View id="58" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="58" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+//background=@131202350.jpg
+background=white</ppt>
+<event></event>
+</View>
+<View id="52" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=center</ppt>
+<event></event>
+</View>
+<View id="53" did="52" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="54" did="52" type="TextView">
+<ppt>width=-2
+height=-1
+text=直播广场
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="55" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=150dp
+background=@6.18/drawable_infomation_activity_man_background.v
+//background=through</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐box：直播平台
+ut_alignparentbottom=true
+layout_marginleft=15dp
+textcolor=#ffffffff
+textsize=15sp
+layout_marginbottom=60dp
+ut_torightof=61
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="8" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=♂
+textsize=13sp
+ut_torightof=4
+ut_alignparentbottom=true
+layout_marginbottom=62dp
+layout_marginleft=5dp
+textcolor=#ff00b8ff
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="31" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=♀
+textsize=13sp
+ut_torightof=4
+ut_alignparentbottom=true
+layout_marginbottom=62dp
+layout_marginleft=5dp
+textcolor=#ffff00d5
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="56" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=公告：点我即可查看具体情况！
+ut_alignparentbottom=true
+layout_marginleft=15dp
+textcolor=#ffffffff
+textsize=13sp
+layout_marginbottom=36dp
+ut_torightof=61
+ellipsize=end
+singleline=true</ppt>
+<event><eventItme type="clicki">s c = "您好，尊贵的用户！\n请不要相信直播内的广告，直播平台均为对接，我们隐Box官方不保证是否不骗人！\n\n直播接口对接各大平台，一款App看各大平台的直播内容，甚至各大平台的付费房间都可以进！供您享用！\n是AV平台就少不了广告，如果点一个就是一个广告房间，那可以换一个直播间！\n随着时代的发展，有很多妓女不暴漏直播了，所以多找几个就可以了！"
+us(updata.10,"text","好的") 
+us(updata.1,"visibility","visible") 
+dhas(dh, updata.2, "translationY", -150, 30, -35, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")                   
+us(updata.7,"text",c)                  
+us(updata.5,"text","直播通知")
+ us(updata.12,"text","未满十八-谨慎观看")</eventItme></event>
+</View>
+<View id="33" did="1" type="LinearLayout">
+<ppt>width=-1
+height=1
+background=through
+orientation=vertical
+backgroundcolor=#bfbfbfbf</ppt>
+<event></event>
+</View>
+<View id="50" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="51" did="50" type="RecyclerView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="63" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=--暂无更多--
+layout_gravity=center
+textStyle=bold
+textColor=#ff040404
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+addv(58,"updata.iyu")
+fr("$幻隐网络/配置/yx.txt",yg)
+us(52,"background",yg)
+ss("平台："+sss.zd,zd)
+us(4,"text",zd)
+utw(null,"","加载直播间中……","",false,vf)
+{
+}
+t()
+{
+  call(img,"mjava","Http.getInternetPicture",sss.tplj)
+  syso(img)
+  ufnsui()
+  {
+    us(60,"src",img)
+  }
+}
+t()
+{
+  ss("http://api.hclyz.com:81/mf/"+sss.tz,wz)
+  hs(wz,wz)
+  json(wz,wz)
+  
+  sj(wz,"\"add",null,wz)
+  sl(wz,"\"add",wz)
+  for(a;wz)
+  {
+    sj(a,"ress\":\"","\"",跳转)
+    sr(跳转,"\\","",跳转)
+    sj(a,"\"img\":\"","\"",图标)
+    sr(图标,"\\","",图标)
+    sj(a,"\"title\":\"","\"",sss.名称)
+    sutf8to(sss.名称,sss.名称)
+    ula(list1,4=sss.名称,5=跳转)
+  }
+  ufnsui()
+  {
+    uls(51,list1,"直播列表1.iyu")
+    endutw(vf)
+  }
+}</eventItme></UIEventset>

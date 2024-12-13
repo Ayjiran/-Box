@@ -1,0 +1,40 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=60dp</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@ui/sx.v
+ut_centervertical=true
+layout_marginleft=40dp</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=正在加载，请稍候......
+ut_centervertical=true
+ut_torightof=2
+layout_marginleft=30dp
+textcolor=#ff000000
+textsize=14dp</ppt>
+<event>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+</UIEventset>

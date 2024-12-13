@@ -1,0 +1,599 @@
+<View id="80" did="0" type="Toolbar">
+<ppt>width=-1
+height=-3
+background=white
+app_title=接口循环
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="96" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="97" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=</ppt>
+<event></event>
+</View>
+<View id="101" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+visibility=</ppt>
+<event></event>
+</View>
+<View id="102" did="101" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="103" did="102" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardBackgroundColor=#ffffff
+app_CardElevation=0
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="104" did="103" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="105" did="104" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=horizontal
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="106" did="105" type="TextView">
+<ppt>width=-2
+height=-2
+text=后台地址
+textSize=13sp
+typeface=normal
+layout_marginLeft=10dp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="107" did="104" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="108" did="107" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="109" did="108" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="110" did="109" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundColor=#f7f7f7</ppt>
+<event></event>
+</View>
+<View id="111" did="110" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入您的API接口地址
+BackgroundColor=#f7f7f7
+textSize=13sp
+gravity=top</ppt>
+<event><eventItme type="aftertextchanged">ug(111,"text",内容)
+fw("$幻隐网络/接口数据.txt",内容)</eventItme></event>
+</View>
+<View id="112" did="101" type="LinearLayout">
+<ppt>width=-1
+height=85dp
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="113" did="112" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardBackgroundColor=#ffffff
+app_CardElevation=0
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="114" did="113" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="115" did="114" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=horizontal
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="116" did="115" type="TextView">
+<ppt>width=-2
+height=-2
+text=参数设置
+textSize=13sp
+typeface=normal
+textColor=#ff000000
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="117" did="114" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="118" did="117" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="119" did="118" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="120" did="119" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="135" did="120" type="TextView">
+<ppt>width=-2
+height=-2
+text=次数
+textColor=#ff000000
+textStyle=bold
+textSize=15sp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="121" did="120" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=例如：1
+BackgroundColor=#f7f7f7
+textSize=13sp
+layout_weight=1
+digits=1234567890</ppt>
+<event><eventItme type="aftertextchanged">ug(121,"text",内容)
+fw("$幻隐网络/接口截取1.txt",内容)</eventItme></event>
+</View>
+<View id="136" did="120" type="TextView">
+<ppt>width=-2
+height=-2
+text=间隔
+textColor=#ff000000
+textStyle=bold
+textSize=15sp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="134" did="120" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=例如：1000
+BackgroundColor=#f7f7f7
+textSize=13sp
+layout_weight=1
+digits=1234567890</ppt>
+<event><eventItme type="aftertextchanged">ug(134,"text",内容)
+fw("$幻隐网络/接口截取2.txt",内容)</eventItme></event>
+</View>
+<View id="176" did="101" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="177" did="176" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardBackgroundColor=#ffffff
+app_CardElevation=0
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="178" did="177" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="179" did="178" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=horizontal
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="180" did="179" type="TextView">
+<ppt>width=-2
+height=-2
+text=post数据
+textSize=13sp
+typeface=normal
+textColor=#ff000000
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="181" did="178" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="182" did="181" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="183" did="182" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="184" did="183" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundColor=#f7f7f7</ppt>
+<event></event>
+</View>
+<View id="185" did="184" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=例如：vip=666&time=777(选填)
+BackgroundColor=#f7f7f7
+textSize=13sp
+</ppt>
+<event><eventItme type="aftertextchanged">ug(185,"text",内容)
+fw("$幻隐网络/接口截取3.txt",内容)</eventItme></event>
+</View>
+<View id="137" did="101" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="138" did="137" type="CardView">
+<ppt>width=-1
+height=40dp
+app_CardcornerRadius=8dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="139" did="138" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="140" did="139" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="141" did="140" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="142" did="141" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginTop=4dp
+layout_marginBottom=4dp
+layout_marginLeft=8dp
+layout_marginRight=8dp</ppt>
+<event></event>
+</View>
+<View id="143" did="142" type="CardView">
+<ppt>width=-1
+height=30dp
+app_CardcornerRadius=7dp
+app_CardElevation= 0</ppt>
+<event></event>
+</View>
+<View id="144" did="143" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#ff00aeff
+gravity=center</ppt>
+<event><eventItme type="clicki">ug(145,"text",状态)
+f(状态=="暂停")
+{
+  ug(186,"text",结果)
+  ss("已经暂停…\n-----\n"+结果,结果)
+  us(186,"text",结果)
+  ss a="0"
+  us(145,"text","开始执行")
+}
+else
+{
+  us(186,"text","")
+  us(166,"visibility","visible")
+ug(111,"text",接口)
+ug(121,"text",ss.a)
+ug(134,"text",间隔)
+ug(185,"text",post)
+t()
+{
+  w(ss.a &gt; 1)
+  {
+    stop(间隔)
+    hs(接口,post,"utf-8",b)
+    f(b==""||b==Null)
+    {
+      s b="请检查接口代码，无任何数据…"
+    }
+    else
+    {
+    }
+    ufnsui()
+    {
+      ug(186,"text",预约)
+      ss(b+"\n-----\n"+预约,结果)
+      f(预约?"成功")
+      {
+        ss a="0"
+      }
+      else
+      {
+        us(186,"text",结果)
+      }
+      s(ss.a - 1, ss.a)
+    }  
+  }
+}
+  us(145,"text","暂停")
+}
+fr("$幻隐网络/点击特效/开.txt",ss.anyx)
+f(ss.anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="145" did="144" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始执行
+textColor=#ffffffff
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="166" did="101" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=2dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="167" did="166" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardBackgroundColor=#ffffff
+app_CardElevation=0
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="168" did="167" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="171" did="168" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="172" did="171" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="173" did="172" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="174" did="173" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+BackgroundColor=#f7f7f7</ppt>
+<event></event>
+</View>
+<View id="186" did="174" type="TextView">
+<ppt>width=-2
+height=-2
+text=结果即将展示…
+textColor=#ffff0000
+textStyle=bold
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="91" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_margin=20dp
+layout_marginBottom=50dp</ppt>
+<event></event>
+</View>
+<View id="92" did="91" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F5F5F5</ppt>
+<event></event>
+</View>
+<View id="93" did="92" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=center_vertical
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="94" did="93" type="TextView">
+<ppt>width=-2
+height=-2
+text=提示
+textColor=#000000
+textStyle=bold
+textSize=13sp
+layout_marginLeft=15dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="95" did="93" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.将你的API接口循环递交。\n\n2.如果利用本功能恶意骚扰其他人，我们官方并不提倡，会取消您的会员资格，我们开发初衷是利于企业正规测试接口之用。\n\n3.如果您利用本功能违法，一切与我们官方无关，而且如果事态严重，那么好，我们会移交司法机关处理的。
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp
+layout_marginTop=10dp
+textSize=12sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=80
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+
+fr("$幻隐网络/接口数据.txt",后台)
+f(后台==null)
+{
+}
+else
+{
+  fr("$幻隐网络/接口截取2.txt",字段2)
+  f(字段2==null)
+  {
+    
+  }
+  else
+  {
+    us(134,"text",字段2)
+  }
+  fr("$幻隐网络/接口截取3.txt",发送)
+  f(发送==null)
+  {
+    
+  }
+  else
+  {
+    us(185,"text",发送)
+  }
+  fr("$幻隐网络/接口截取1.txt",字段1)
+  f(字段1==null)
+  {
+    
+  }
+  else
+  {
+    us(121,"text",字段1)
+  }
+  us(111,"text",后台)
+}</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(96,a)
+gvs(97,b)
+javanew(mBs,mB,"Context",activity)
+urvw(97)
+nvw(mBs,96)
+nvw(b,mBs)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

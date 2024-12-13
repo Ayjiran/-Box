@@ -1,0 +1,20 @@
+<html>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+
+<head>
+
+<style type="text/css">
+img{     
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+</style>
+</head>
+<img src="β" style="width:100%;height:100%;">
+</img>
+
+</html>
+
+
+

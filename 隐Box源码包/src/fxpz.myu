@@ -1,0 +1,109 @@
+fn dj()
+us(18,"visibility","visible")
+fr(sss.lj2,a)
+f(a==null)
+  {
+    fw(sss.lj2,"0")
+    us(23,"text","(html)你已经分享：&lt;font color="#FA0000"&gt;0&lt;/font&gt;个群")
+  }
+else
+  {
+    s c="你已经分享："
+    s d=" 个群"
+    ss("(html)"+c+"&lt;font color="#FA0000"&gt;"+a+"&lt;/font&gt;"+d,cc)
+    us(23,"text",cc)
+    f(a&gt;=sss.fxcs)
+      {
+        us(27,"text","加群")
+        us(28,"text","进入软件")
+        ssj(25,"clicki")
+          {
+            
+t()
+  {
+    hs("https://sharechain.qq.com/88c0e4715f08ed496ead087acebc9f19",code)
+    sj(code,"群号码@","@群号码",hao)
+    ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+hao+"&card_type=group&source=qrcode",joinqq)
+    ufnsui()
+      {
+        sit(a,"action", "android.intent.action.VIEW")
+        sit(a,"data",joinqq)
+        uit(a, "chooser", "打开QQ")
+      }
+  }
+
+
+          }
+        ssj(26,"clicki")
+          {
+            uigo(sss.tzjm)
+            end()
+          }
+      }
+    else
+      {
+      }
+  }
+end fn
+fn fx()
+sit(a, "action", "android.intent.action.SEND")
+sit(a, "type", "text/plain")
+sit(a,"classname","com.tencent.mobileqq", "com.tencent.mobileqq.activity.JumpActivity")
+sit(a, "extra", "android.intent.extra.TEXT",sss.fxnr)
+uit(a, "chooser", "分享")
+sss dj=1
+fr(sss.lj1,c)
+syso(c)
+t()
+  {
+    f(c=="0")
+      {
+        stop(2000)
+        fw(sss.lj1,"1")
+      }
+    else
+      {
+        fd(sss.lj1,bn)
+        stop(2000)
+        fw(sss.lj1,"1")
+      }
+  }
+end fn
+fn cxzr()
+f(sss.dj==1)
+  {
+    sss dj=null
+    fr(sss.lj2,a)
+    fr(sss.lj1,f)
+    f(f=="1")
+      {
+        s(a+1,b)
+        fw(sss.lj2,b)
+        fd(sss.lj1,f)
+        s c="你已经分享："
+        s d=" 个群"
+        ss("(html)"+c+"&lt;font color="#FA0000"&gt;"+b+"&lt;/font&gt;"+d,cc)
+        us(23,"text",cc)
+        s(sss.fxcs-1,fxcs)
+        f(a&gt;=fxcs)
+          {
+            us(28,"text","进入软件")
+            ssj(26,"clicki")
+              {
+                end()
+                uigo(sss.tzjm)
+              }
+          }
+        else
+          {
+          }
+      }
+    else
+      {
+        tw("取消分享或者分享同一个群是没用的哦！")
+      }
+  }
+else
+  {
+  }
+end fn

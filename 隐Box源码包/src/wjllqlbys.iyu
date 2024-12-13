@@ -1,0 +1,49 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+backgroundcolor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@fll.png
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=名字
+textsize=18dp
+layout_gravity=left
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

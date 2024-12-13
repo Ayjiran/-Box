@@ -1,0 +1,128 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+padding=3dp</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white
+backgroundripple=#ff3f51b5</ppt>
+<event>
+<eventItme type="press">ulag(st_vW,3,djsjs)
+uzd(zd,80)
+gvs(sss.uxf,"uxf.6",wb6)
+gvs(sss.uxf,"uxf.13",bjk13)
+dha(dh6, true, false)
+dh(dh6, "duration", 2000)
+dha(dh13, false, true)
+dh(dh13, "duration", 2000)
+us(wb6,"dh",dh6)
+us(bjk13,"dh",dh13)
+us(bjk13,"text",djsjs)
+sss y=djsjs
+us(bjk13,"visibility","visible")
+dhon(dh6)
+  {
+    us(wb6,"visibility","gone")
+  }</eventItme>
+<eventItme type="clicki">ulag(st_vW,3,djsj)
+s aaa="%tencent/QQ_Collection/audio/"
+fr("$qq.txt",qqqq)
+s bbbb="%tencent/MobileQQ"
+s jjjj="%tencent/Tim"
+s cccc="ptt"
+time("Y",dddd)
+time("m",eeee)
+ss(dddd+eeee,gggg)
+time("d",ffff)
+f(ffff==10)
+  {
+    s fffff=ffff
+  }
+else f(ffff==20)
+  {
+    s fffff=ffff
+  }
+else f(ffff==30)
+  {
+    s fffff=ffff
+  }
+else
+  {
+    sr(ffff,"0","",fffff)
+  }
+s kkkk="/"
+ss(bbbb+kkkk+qqqq+kkkk+cccc+kkkk+gggg+kkkk+fffff,h)
+ss(jjjj+kkkk+qqqq+kkkk+cccc+kkkk+gggg+kkkk+fffff,jh)
+t()
+  {
+    fl(h,false,hh)
+    for(hhh;hh)
+      {
+        ss(h+"/"+hhh,y)
+      }
+    ss(aaa+djsj,zh)
+    fc(zh,y,t)
+  }
+t()
+  {
+    fl(jh,false,jhh)
+    for(jhhh;jhh)
+      {
+        ss(jh+"/"+jhhh,jy)
+      }
+    ss(aaa+djsj,jzh)
+    fc(jzh,jy,t)
+  }
+t()
+  {
+    stop(400)
+    ufnsui()
+      {
+        f(t==true)
+          {
+            uzd(zdq,180)
+          }
+        else
+          {
+            tw("发送失败，请联系作者，作者有可能上学不能及时回复请见谅！")
+          }
+      }
+  }</eventItme>
+</event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本3
+ut_centervertical=true
+layout_marginleft=20dp
+singleline=true
+maxlines=1
+ellipsize=end
+textcolor=#ff000000
+textsize=13dp</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">gvs(st_vW,"uxflb.2",dh)
+dhs(lbdh,0,1,0,1,1,0.5,1,0.5)
+dh(lbdh,"duration",500)
+us(dh,"dh",lbdh)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+</UIEventset>

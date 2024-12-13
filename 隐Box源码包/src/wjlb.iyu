@@ -1,0 +1,77 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+backgroundcolor=#ffffffff</ppt>
+<event><eventItme type="clicki">ulag(st_vW, 5, name)
+ulag(st_vW, -1, isdir)
+f(isdir == false)
+{
+  ss(sss.seledir + "/" + name, filename)
+  fdir(filename, filename)
+  
+  sss selefilename = filename
+  end()
+  endcode
+}
+f(name == "../上层文件夹")
+{
+  slof(sss.seledir, "/", i2)
+  f(i2 &gt; 0)
+  {
+    ssg(sss.seledir, 0, i2, filename)
+    sss seledir = filename
+    fn seledirfilemk.get()
+  }
+}
+else
+{
+  ss(sss.seledir + "/" + name, filename)
+  sss seledir = filename
+  fn seledirfilemk.get()
+
+}
+</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=50dp
+height=-1
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@fll.png
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-1
+height=30dp
+text=名字
+textsize=18dp
+gravity=left
+singleline=true
+ellipsize=middle
+textStyle=bold</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

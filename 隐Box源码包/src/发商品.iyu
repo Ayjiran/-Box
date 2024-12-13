@@ -1,0 +1,451 @@
+<View id="46" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=发布商品-赚收益
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="58" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="71" did="58" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="72" did="71" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="72" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="47" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=200dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+background=
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="50" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+background=white
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="63" did="50" type="TextView">
+<ppt>width=-2
+height=-2
+text=发布商品：
+layout_marginLeft=20dp
+textStyle=bold
+textSize=16sp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="52" did="47" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=vertical
+layout_marginTop=30dp
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="53" did="52" type="TextView">
+<ppt>width=-2
+height=-2
+text=保证金余额
+textStyle=bold
+textSize=16sp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="51" did="47" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_marginRight=20dp
+layout_marginLeft=20dp
+app_CardcornerRadius=10dp
+app_CardElevation=1dp
+ut_centerHorizontal=true
+layout_marginTop=10dp
+ut_below=52</ppt>
+<event></event>
+</View>
+<View id="54" did="51" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="57" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="55" did="57" type="TextView">
+<ppt>width=-2
+height=-2
+text=0.00
+textStyle=bold
+textSize=40sp</ppt>
+<event><eventItme type="aftertextchanged">ug(55,"text",保证金)
+f(保证金&gt;="1000.00")
+{
+  us(73,"visibility","gone")
+}
+else
+{
+}</eventItme></event>
+</View>
+<View id="56" did="57" type="TextView">
+<ppt>width=-2
+height=-2
+text=元
+textStyle=bold
+textSize=20sp</ppt>
+<event></event>
+</View>
+<View id="62" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+layout_marginBottom=120dp</ppt>
+<event></event>
+</View>
+<View id="66" did="62" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="67" did="66" type="EditText">
+<ppt>width=-1
+height=40dp
+textsize=12sp
+text=
+background=#1a727272
+textcursordrawable=#FF0078D6
+singleline=true
+hint=输入商品名称
+gravity=center_vertical
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="68" did="66" type="EditText">
+<ppt>width=-1
+height=40dp
+textsize=12sp
+text=
+background=#1a727272
+textcursordrawable=#FF0078D6
+singleline=true
+hint=输入商品价格
+gravity=center_vertical
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+digits=123456789.0</ppt>
+<event></event>
+</View>
+<View id="69" did="66" type="EditText">
+<ppt>width=-1
+height=40dp
+textsize=12sp
+text=
+background=#1a727272
+textcursordrawable=#FF0078D6
+singleline=true
+hint=输入商品图片/链接
+gravity=center_vertical
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+</ppt>
+<event></event>
+</View>
+<View id="70" did="66" type="EditText">
+<ppt>width=-1
+height=100dp
+textsize=12sp
+text=
+background=#1a727272
+textcursordrawable=#FF0078D6
+singleline=true
+hint=输入商品介绍
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginBottom=10dp
+gravity=top</ppt>
+<event></event>
+</View>
+<View id="73" did="62" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#6f8f8f8f
+gravity=center
+visibility=gon</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="74" did="73" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@2d55fab0096.png</ppt>
+<event></event>
+</View>
+<View id="59" did="58" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+ut_alignParentBottom=true
+background=white</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="Button">
+<ppt>width=-1
+height=40dp
+text=缴纳保证金
+textColor=#ffffffff
+layout_weight=1
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">ug(55,"text",保证金)
+f(保证金&gt;="1000")
+{
+  s stop = 2000
+  s text="保证金不需要缴纳了"
+  fn color.ColorToast(text,stop)
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+}
+else
+{
+  sss 支付内容="有"
+  utw(null,"","loading.iyu",false,v)
+  sss 会员充值="在充值"
+  ss(sss.payapi+"query.php?action=pay",充值一)
+  ss("&money=1000&des=账号："+sss.名称+"&lt;充值保证金",充值二)
+  t()
+  {
+    hs(充值一, 充值二, "utf-8", null, true, sss.外链, b)
+    sj(b,"商户订单号：","&lt;/p&gt;",ss.订单号)
+    sj(b,"wapds\"&gt;&lt;a href=\"","\"",ss.wz)
+    ufnsui()
+    {
+      endutw(v)
+      sit(a,"action", "android.intent.action.VIEW")
+      sit(a,"data",ss.wz)
+      uit(a, "chooser", "支付宝捐款")
+    }
+  }
+}
+else
+{
+  s stop = 2000
+  s text="暂未开启在线充值，有问题请联系客服！"
+  fn color.ColorToast(text,stop)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="61" did="59" type="Button">
+<ppt>width=-1
+height=40dp
+text=发布商品
+textColor=#ffffffff
+layout_weight=1
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">ug(67,"text",名称)
+ug(68,"text",价格)
+ug(69,"text",图片)
+ug(70,"text",介绍)
+ug(55,"text",保证金)
+f(保证金&gt;="1000")
+{
+  t()
+  {
+    stop(1000)
+    ss(sss.api+"yxapi/?fo=幻隐网络科技&name="+sss.yxapi+"&pass="+sss.yxsqm+"&mail="+sss.yxapi+"&title=上架商品"+名称+"&content=用户【"+sss.名称+"】&lt;br&gt;&lt;br&gt;商品名："+名称+"&lt;br&gt;价格："+价格+"&lt;br&gt;图片："+图片+"&lt;br&gt;介绍："+介绍,b)
+    hs(b,j)
+    ufnsui()
+    {
+      s stop = 2000
+      s text="已经提交审核，如太久未上架(比如一天)请重复上传"
+      fn color.ColorToast(text,stop)
+      fr("$幻隐网络/点击特效/开.txt",anyx)
+    }
+  }
+}
+else
+{
+  s stop = 2000
+  s text="请先缴纳1000元保证金进行发布商品"
+  fn color.ColorToast(text,stop)
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+ngde(0,0,"#a500c8ff|#a50f5ebd|#a51e0fbd","17301524","leftright",a)
+us(49,"background",a)
+f(sss.用户保证金==""||sss.用户保证金=="null"||sss.用户保证金==null)
+{
+}
+else
+{
+us(55,"text",sss.用户保证金)
+}
+us(55,"textcolor","#a50f5ebd")
+us(56,"textcolor","#a50f5ebd")
+us(63,"textcolor","#a50f5ebd")
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(71,a)
+gvs(72,b)
+javanew(mBs,mB,"Context",activity)
+urvw(72)
+nvw(mBs,71)
+nvw(b,mBs)
+s a = 1
+s b = 15
+s c = "#a50f5ebd"
+s d = "#a51e0fbd"
+ngde(a, b, c, d, e)
+us(60,"background",e)
+us(61,"background",e)
+s id=46
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="restart">utw(null,"","loading.iyu",false,v)
+{
+}
+t()
+{
+  f(sss.支付内容=="有")
+  {
+    s wz="lib/data.php?action=serve"
+    ss(sss.payapi+wz,wz)
+    ss("&gid="+ss.订单号,pa)
+    hs(wz,pa,"utf-8",支付状态)
+    f(支付状态?"支付成功")
+    {
+    us(55,"text","1000.00")
+    ss(sss.api+"yxapi/?fo=幻隐网络科技&name="+sss.yxapi+"&pass="+sss.yxsqm+"&mail="+sss.yxapi+"&title=缴纳保证金&content=用户【"+sss.名称+"】",b)
+    hs(b,j)
+    ss(sss.api+"Box/yhxg.php?id="+sss.我的uid+"&nl=保证金&dl=1000",wz)
+    hs(wz,ok)
+    }
+    else
+    {
+      ufnsui()
+      {
+        endutw()
+        utw(null,"温馨提示","检测到你未完成支付，是否继续进行支付？","支付","下次一定","支付未到账",true,vv)
+        {
+          sit(a,"action", "android.intent.action.VIEW")
+          sit(a,"data",ss.wz)
+          uit(a, "chooser", "支付宝充值")
+          endutw()
+        }
+        else
+        {
+          sss 支付内容="无"
+        }
+        else
+        {
+          f(sss.客服微信==null)
+          {
+            sxb("隐Box客服微信：grnb69")
+          }
+          else
+          {
+            ss("隐Box客服微信"+sss.客服微信,微信)
+            sxb(微信)
+          }
+          s stop = 2000
+          s text="已经复制客服微信~"
+          fn color.ColorToast(text,stop)
+          sss 支付内容="无"
+        }
+      }
+    }
+  }
+  else
+  {
+    endutw()
+  }
+}</eventItme><eventItme type="destroy">sss 支付内容=""</eventItme></UIEventset>

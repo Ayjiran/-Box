@@ -1,0 +1,241 @@
+<View id="1" did="0" type="CardView">
+<ppt>width=-1
+height=180dp
+app_CardBackgroundColor=#FFFFFF
+app_CardcornerRadius=10dp
+app_CardElevation=5dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+ut_above=4
+</ppt>
+<event></event>
+</View>
+<View id="17" did="3" type="WebView">
+<ppt>width=-1
+height=180dp
+background=@a/.zy/cfj.v
+</ppt>
+<event></event>
+</View>
+<View id="21" did="3" type="TextView">
+<ppt>width=-1
+height=-1
+text=
+</ppt>
+<event><eventItme type="clicki">ulag(st_vW,19,sss.wwz)
+ulag(st_vW,5,sss.mz)
+ulag(st_vW,27,sss.dz)
+ulag(st_vW,18,za)
+fe("$幻隐网络/.v/xjf.yx",cs)
+f(cs=="true")
+{
+uigo("视频播.iyu")
+fw("$幻隐网络/5.txt",sss.wwz)
+time("0",l)
+fr("$幻隐网络/浏览记录/xf.txt",vc)
+ss("【"+sss.wwz+"】{"+sss.dz+"}("+sss.mz+")",sss.cz)
+ss("【"+sss.wwz+"】("+sss.mz+"){"+sss.dz+"}["+za+"]",cz)
+s ff=cz
+ss(ff+vc,nn)
+fw("$幻隐网络/浏览记录/xf.txt",nn)
+}
+else
+{
+s stop = 2000
+s text="本功能仅限会员使用！"
+fn color.ColorToast(text,stop)
+}</eventItme></event>
+</View>
+<View id="30" did="3" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="29" did="30" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@abv/icon_next_enabled.png
+layout_gravity=right</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/.v/xjf.yx",cs)
+f(cs &gt; "0")
+{
+time("Y",a)
+time("m",m)
+time("d",D)
+time("H",e)
+time("M",l)
+time("S",v)
+ss(a+m+D+e+l+v,dqsj)
+fr("$幻隐网络/.v/xjf.yx",wjj)
+f(dqsj&gt;wjj)
+{
+s wj="$幻隐网络/.v/xjf.yx"
+fd(wj,b)
+us(geren.109,"visibility","gone")
+us(geren.108,"visibility","visible")
+}
+else
+{
+ulag(st_vW,19,wwz)
+hws(wwz)
+}
+}
+else
+{
+s stop = 2000
+s text="暂无会员，无法使用"
+fn color.ColorToast(text,stop)
+}
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+fr("$幻隐网络/点击特效/跳动开.txt",an)
+f(an &gt; "0")
+{
+dhs(dh, 0.5, 1, 0.5, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(会员.108, "dh", dh)
+}
+</eventItme></event>
+</View>
+<View id="4" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=30dp
+ut_alignParentBottom=true
+background=#FFFFFF</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=230dp
+height=-2
+text=貌似断货了，老隐正在补货！
+ut_alignParentRight=true
+ut_centerVertical=true
+textSize=14sp
+layout_marginRight=10dp
+textColor=#ff070707
+singleLine=true
+ellipsize=marquee
+marqueerepeatlimit=marquee_forever
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="16" did="4" type="ImageView">
+<ppt>width=17dp
+height=17dp
+src=@ui/xx.v
+ut_centerVertical=true
+ut_toLeftOf=5
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="26" did="2" type="RoundImageView">
+<ppt>width=40dp
+height=40dp
+src=@a/fj_cz_ic_guanz_sel.v
+ut_above=4
+layout_marginLeft=10dp
+layout_marginBottom=-20dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,19,wwz)
+ulag(st_vW,5,mz)
+ulag(st_vW,27,dz)
+fr("$收藏.txt",收藏)
+f(收藏?mz)
+{
+s stop = 2000
+s text="本视频已收藏过了"
+fn color.ColorToast(text,stop)
+}
+else
+{
+ss("【"+wwz+"】{"+dz+"}("+mz+")",cz)
+ss(cz+收藏,收)
+fw("$收藏.txt",收)
+s stop = 2000
+s text="收藏成功"
+fn color.ColorToast(text,stop)
+us(31,"visibility","gone")
+}</eventItme></event>
+</View>
+<View id="18" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片链接
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="19" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频地址
+textColor=#ffff003a
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="27" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频播放
+textColor=#ffff003a
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="28" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频播放
+textColor=#ffff003a
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+fr("$幻隐网络/临时数据/1030.txt",ii)
+gvs(st_vW,快手1.17,id2)
+gvs(st_vW,快手1.18,id5)
+ug(id5,"text",tp)
+fr("@tp.txt",tpp)
+sr(tpp,"β",tp,c)
+s d = "utf-8"
+s e = "text/html"
+us(id2, "url", c, d, e, f)
+fr("$幻隐网络/临时数据/1030.txt",ii)
+f(ii?id5)
+{
+}
+else
+{
+ss(id5+ii,i)
+fw("$幻隐网络/临时数据/1030.txt",i)
+gvs(st_vW,快手1.1,id)
+fn dtlist.dh("dh2",id)
+}
+}
+
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

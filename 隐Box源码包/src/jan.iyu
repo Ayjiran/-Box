@@ -1,0 +1,47 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center_vertical
+clickable=true
+layout_marginBottom=60dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical
+clickable=true
+layout_marginleft=15dp
+layout_marginright=15dp
+layout_margintop=10dp
+layout_marginbottom=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@shtg.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=提示内容
+layout_marginleft=8dp
+textstyle=bold
+textsize=16sp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+</eventItme></UIEventset>

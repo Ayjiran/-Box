@@ -1,0 +1,161 @@
+<View id="46" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=爬虫提取
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="44" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginRight=10dp
+layout_marginLeft=10dp
+app_CardcornerRadius=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="LinearLayout">
+<ppt>width=-1
+height=190dp
+orientation=vertical
+background=@25.v</ppt>
+<event></event>
+</View>
+<View id="18" did="1" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=3dp
+height=-1
+text=
+backgroundcolor=#ff00a1ff
+layout_marginleft=15dp
+layout_margintop=3dp
+layout_marginbottom=3dp</ppt>
+<event></event>
+</View>
+<View id="20" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=操作
+textsize=15sp
+layout_marginleft=10dp
+layout_gravity=center_vertical
+textcolor=#cf000000</ppt>
+<event></event>
+</View>
+<View id="34" did="1" type="TextView">
+<ppt>text=PS：素材提取过程中请勿退出，耐心等待。较大的文件可能需要较长时间的解压，请耐心等待。
+width=-1
+height=-2
+//文本控件宽高
+textsize=12sp
+//字体大小
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true
+//获取焦点
+layout_margintop=10dp
+layout_marginleft=15dp
+layout_marginright=15dp
+.visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="1" type="TextView">
+<ppt>width=-1
+height=1
+text=
+backgroundcolor=#BDBDBD
+layout_marginleft=15dp
+layout_marginright=15dp</ppt>
+<event></event>
+</View>
+<View id="39" did="1" type="EditText">
+<ppt>width=-1
+height=40dp
+textsize=12sp
+text=
+background=
+textcursordrawable=#FF0078D6
+singleline=true
+hint=输入网址
+gravity=center
+layout_marginTop=50dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="24" did="1" type="Button">
+<ppt>width=-1
+height=55dp
+text=开始提取
+background=@tb/box_bg.v
+textsize=13sp
+layout_margintop=15dp
+layout_marginleft=15dp
+layout_marginright=15dp
+textcolor=#ff00b1ff</ppt>
+<event><eventItme type="clicki">
+ug(39,"text",sss.url)
+uigo("pc.iyu")
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+s id=46
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(40,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(39,"background",背景)
+us(19,"textcolor",颜色)
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

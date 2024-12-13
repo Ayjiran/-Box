@@ -1,0 +1,429 @@
+<View id="46" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=便捷浏览器
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="45" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="44" did="45" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white
+ut_below=42</ppt>
+<event></event>
+</View>
+<View id="1" did="44" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+background=#ffffffff
+padding=5dp
+elevation=5dp
+layout_margin=15dp</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@Baidu.png
+layout_margin=5dp</ppt>
+<event><eventItme type="clicki">us(20,"visibility",0)</eventItme></event>
+</View>
+<View id="6" did="4" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入网址或搜索内容
+background=
+textSize=12.5sp
+singleLine=true
+layout_marginTop=-5dp
+layout_marginBottom=-5dp
+layout_weight=4
+focusable=false
+textColorHint=#ffcfcfcf
+textColor=#ff00c1ff
+</ppt>
+<event><eventItme type="touchmonitor">us(st_vId,"focusable",true)
+us(st_vId,"focusableintouchmode",true)</eventItme></event>
+</View>
+<View id="8" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=7
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="TextView">
+<ppt>width=-1
+height=-1
+text=浏览
+textColor=#ffffffff
+textSize=10sp
+layout_margin=2.5dp
+gravity=center
+background=#ff00b5ff
+elevation=5dp</ppt>
+<event><eventItme type="clicki">ug(6,"text",url)
+f(url=="")
+{
+  s stop = 2000
+s text="网址不能为空~~"
+fn color.ColorToast(text,stop)
+}
+else
+{
+  f(url?"http")
+  {
+  }
+  else
+  {
+    ss("http://"+url,url)
+  }
+  us(10,"url",url)
+  us(6,"text",url)
+}
+us(6,"focusable",false)</eventItme></event>
+</View>
+<View id="11" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=7
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-1
+height=-1
+text=搜索
+textColor=#ffffffff
+textSize=10sp
+layout_margin=2.5dp
+gravity=center
+background=#ff00bcff
+elevation=5dp</ppt>
+<event><eventItme type="clicki">ug(6,"text",a)
+f(a=="")
+{
+  s stop = 2000
+s text="网址不能为空~~"
+fn color.ColorToast(text,stop)
+}
+else
+{
+  ss(ss.p+a,url)
+  us(10,"url",url)
+}
+us(6,"focusable",false)</eventItme></event>
+</View>
+<View id="17" did="2" type="ProgressBar">
+<ppt>width=-1
+height=-2
+layout_marginLeft=20dp
+layout_marginRight=20dp
+max=100
+visibility=8</ppt>
+<event></event>
+</View>
+<View id="10" did="2" type="WebView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=15dp
+elevation=5dp
+</ppt>
+<event><eventItme type="onprogresschanged">f(st_nS&gt;=80||st_nS&lt;=10)
+{
+  us(st_vId,"visibility",0)
+  us(13,"visibility",0)
+  us(17,"progress",0)
+  us(17,"visibility",8)
+  endcode
+}
+us(17,"progress",st_nS)</eventItme><eventItme type="onpagefinished">us(st_vId,"visibility",0)
+us(13,"visibility",0)
+us(17,"visibility",8)</eventItme><eventItme type="onpagestarted">us(17,"visibility",0)</eventItme></event>
+</View>
+<View id="13" did="1" type="LinearLayout">
+<ppt>width=-2
+height=40dp
+orientation=horizontal
+ut_alignParentBottom=true
+ut_alignParentRight=true
+layout_marginRight=15dp
+layout_marginBottom=15dp
+background=through
+gravity=center_vertical|center
+visibility=8</ppt>
+<event></event>
+</View>
+<View id="15" did="13" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@shen.png
+padding=10dp
+background=#4d000000</ppt>
+<event><eventItme type="clicki">us(10,"gobackorforward",-1)
+us(17,"visibility",8)</eventItme></event>
+</View>
+<View id="16" did="13" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@suo.png
+padding=10dp
+background=#4d000000</ppt>
+<event><eventItme type="clicki">us(10,"gobackorforward",1)
+us(17,"visibility",8)</eventItme></event>
+</View>
+<View id="18" did="13" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@x.png
+padding=10dp
+background=#4d000000</ppt>
+<event><eventItme type="clicki">ug(15,"visibility",a)
+f(a==0)
+{
+  us(15,"visibility",8)
+  us(16,"visibility",8)
+  us(st_vId,"src","@s.png")
+}
+else
+{
+  us(15,"visibility",0)
+  us(16,"visibility",0)
+  us(st_vId,"src","@x.png")
+}</eventItme></event>
+</View>
+<View id="20" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5d000000
+gravity=center
+visibility=gone</ppt>
+<event><eventItme type="touchmonitor">us(st_vId,"visibility",8)</eventItme></event>
+</View>
+<View id="22" did="20" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=50dp
+layout_marginRight=50dp
+app_CardcornerRadius=20
+app_CardElevation=10dp
+app_CardBackgroundColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+layout_marginleft=10dp
+layout_marginright=10dp
+layout_marginTop=10dp
+gravity=center
+background=#ffffffff
+elevation=5dp</ppt>
+<event><eventItme type="clicki">fw("$ss.txt","http://www.baidu.com/s?wd=")
+ss p="http://www.baidu.com/s?wd="
+us(20,"visibility",8)
+us(5,"src","@Baidu.png")</eventItme></event>
+</View>
+<View id="27" did="25" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@Baidu.png
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="28" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=百度
+textColor=#ff0c0c0c
+textSize=13sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="29" did="23" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+layout_marginleft=10dp
+layout_marginright=10dp
+layout_marginTop=10dp
+gravity=center
+background=#ffffffff
+elevation=5dp</ppt>
+<event><eventItme type="clicki">fw("$ss.txt","https://www.sogou.com/web?query=")
+ss p="https://www.sogou.com/web?query="
+us(20,"visibility",8)
+us(5,"src","@Sogo.png")</eventItme></event>
+</View>
+<View id="30" did="29" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@Sogo.png
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="31" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=搜狗
+textSize=13sp
+textColor=#ff050505
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="32" did="23" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+layout_marginleft=10dp
+layout_marginright=10dp
+layout_marginTop=10dp
+gravity=center
+background=#ffffffff
+elevation=5dp</ppt>
+<event><eventItme type="clicki">fw("$ss.txt","https://www.so.com/s?q=")
+ss p="https://www.so.com/s?q="
+us(20,"visibility",8)
+us(5,"src","@360.png")</eventItme></event>
+</View>
+<View id="33" did="32" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@360.png
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="34" did="32" type="TextView">
+<ppt>width=-2
+height=-2
+text=360
+textColor=#ff202020
+textSize=13sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="35" did="23" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+layout_margin=10dp
+gravity=center
+background=#ffffffff
+elevation=5dp</ppt>
+<event><eventItme type="clicki">fw("$ss.txt","https://m.sm.cn/s?by=submit&q=")
+ss p="https://m.sm.cn/s?by=submit&q="
+us(20,"visibility",8)
+us(5,"src","@Shenma.png")</eventItme></event>
+</View>
+<View id="36" did="35" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@Shenma.png
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="37" did="35" type="TextView">
+<ppt>width=-2
+height=-2
+text=神马
+textColor=#ff050505
+textSize=13sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loadingComplete">fw("$ss.txt","http://www.baidu.com/s?wd=")
+ss p="http://www.baidu.com/s?wd="
+us(10,"url",sss.官网)</eventItme><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=46
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(38,颜色)
+fn 着色.控件着色(9,颜色)
+fn 着色.控件着色(12,颜色)
+us(6,"textcolor",颜色)
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+  ug(10,"cangoback",fh)
+  f(fh==true)
+  {
+    us(10, "gobackorforward", -1)
+  }
+  else
+  {
+    end()
+  }
+}</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

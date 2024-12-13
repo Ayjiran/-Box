@@ -1,0 +1,50 @@
+fn tw(nr,textcolor)
+sr(nr,"\n","\\n",nr)
+t()
+{
+ufnsui()
+{
+//移除已有的提示控件
+urvw(666)
+//创建提示控件
+s id = 666
+s did = 1
+nvw(id, did, "线性布局", "width=-2\nheight=-2\ngravity=center\nbackground=#FF1744\nlayout_marginleft=10dp\nlayout_marginright=10dp\npadding=10dp\nut_centerhorizontal=true")
+ss("width=-2\nheight=-2\ntext="+nr+"\ntextcolor="+textcolor+"\ngravity=center\ntextsize=17sp",text)
+nvw(555,666,"文本",text)
+//圆角提示控件
+ngde(30,"#ffffff",ok)
+us(id,"background",ok)
+//提示控件出现动画
+dht(dh, 0, 0, 0, 30)
+dh(dh, "duration", 500)
+dh(dh, "after", true)
+us(id, "dh", dh)
+}
+//设置阴影
+gvs(id,v1)
+java(null,v1,"android.view.View.setTranslationZ","float","25")
+}
+//暂停一秒
+stop(3000)
+ufnsui()
+{
+//移除已有提示控件
+urvw(666)
+}
+}
+end fn
+
+fn close()
+s id = 6
+dht(dh, 0, 1800, 0, 0)
+dh(dh, "duration", 500)
+.dh(dh, "after", true)
+us(id, "dh", dh)
+}
+gvs(id,v1)
+java(null,v1,"android.view.View.setTranslationZ","float","25")
+us(6,"visibility",8)
+end fn
+
+

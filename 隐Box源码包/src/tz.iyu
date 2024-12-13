@@ -1,0 +1,16 @@
+<View id="1" did="0" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=请输入页数或者其他内容
+textcolorhint=#6e6e6e6e
+textcursordrawable=#f2f2f2f2</ppt>
+<event>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+/.
+
+</eventItme>
+</UIEventset>

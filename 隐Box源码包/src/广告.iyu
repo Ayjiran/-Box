@@ -1,0 +1,488 @@
+<View id="37" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=游戏标题
+app_TitleColor=#FF2196F3
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="WebView">
+<ppt>width=-1
+height=-1
+ut_below=39</ppt>
+<event><eventItme type="onprogresschanged">t()
+{
+for(0;st_nS)
+{
+us(21,"progress",st_nS)
+us(39,"progress",st_nS)
+us(35,"progress",st_nS)
+}
+}</eventItme><eventItme type="onpagefinished">us(3,"visibility","gone")
+us(34,"visibility","gone")
+us(39,"visibility","visible")
+ug(2,"title",标题)
+us(20,"text",标题)
+us(38,"app_title",标题)
+f(sss.游戏=="是")
+{
+  uycl(true)
+  us(9,"visibility","gone")
+  us(23,"visibility","gone")
+  us(16,"visibility","gone")
+  us(39,"visibility","gone")
+}
+else
+{
+}
+/.slg(标题, b)
+f(b&gt;5)
+{
+  us(38,"app_title","幻隐")
+}
+else
+{
+us(38,"app_title",标题)
+}</eventItme><eventItme type="ondownloadstart">t()
+{
+s a="\n"
+ss(st_url+a+st_cN+a+st_cH,ts)
+syso(ts)
+s url = st_url
+//保存至目录
+s dir = "幻隐网luo/"
+sj(st_cN,"filename=",null,name)
+sutf8to(name,nam)
+f(nam==null||nam==""||nam==" "||nam=="null")
+{
+  sutf8to(st_url,nam)
+  slof(nam,"/",zf)
+  s+(1,zf)
+  ssg(nam,zf,nam)
+  ss("未知文件名"+nam,nam)
+}
+ss("幻隐网luo/"+nam,wjcz)
+//sran(11111,99999,sjs)
+s cf="\n如果重复文件名则覆盖"
+s2(st_cH/1024/1024,mb)
+ss("文件名:"+nam+a+"文件大小:"+mb+"MB"+cf+a+"链接:"+st_url,ts)
+ufnsui()
+{
+utw(null,"发现文件",ts,"下载","复制链接","取消",false,v)
+{
+  //下载任务的标题
+  s title = nam
+  //下载任务的图标
+  s icon = "@v/qxh.v"
+  //是否显示下载进度通知
+  s notsohw = true
+  //输入自定义参数任意数据
+//  ss(sjs+nam,data)
+  s data = nam
+  //变量v为赋值变量，为下载对象
+  syso(url)
+  hdda(url, dir, nam, title, icon, notsohw, data, v)
+  endutw()
+}
+else
+{
+  sxb(st_url)
+  s text="复制成功喽~"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+  endutw()
+}
+}
+}</eventItme><eventItme type="onpagestarted">us(34,"visibility","visible")
+us(35,"progress","10")</eventItme></event>
+</View>
+<View id="9" did="1" type="CardView">
+<ppt>width=85dp
+height=30dp
+ut_alignParentRight=true
+layout_marginTop=10dp
+layout_marginRight=10dp
+app_CardcornerRadius=15.5dp
+app_CardBackgroundColor=#ffbebebe
+app_CardElevation=1
+app_CardmaxElevation=1</ppt>
+<event></event>
+</View>
+<View id="28" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_margin=2
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=42.3dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">f(sss.广告害怕=="不怕")
+{
+s stop = 2000
+s text="该页面无风险！"
+fn color.ColorToast(text,stop)
+hws(sss.wz)
+}
+else
+{
+fn tool.showbt("广告介绍.iyu", true)
+}</eventItme></event>
+</View>
+<View id="12" did="11" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@3f992e17c8aaf639795327d609b8b1ec.jpg
+scaleType=fitxy</ppt>
+<event></event>
+</View>
+<View id="13" did="10" type="TextView">
+<ppt>width=0.4dp
+height=15dp
+text=
+background=#ff878787</ppt>
+<event></event>
+</View>
+<View id="14" did="10" type="LinearLayout">
+<ppt>width=42.3dp
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="15" did="14" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@d27b0f95fbdca9ede83f4271bd6222a9.jpg
+scaleType=fitxy</ppt>
+<event></event>
+</View>
+<View id="16" did="1" type="CardView">
+<ppt>width=-2
+height=30dp
+layout_marginTop=10dp
+layout_marginLeft=10dp
+app_CardcornerRadius=15.5dp
+app_CardBackgroundColor=#8fffffff
+app_CardElevation=1
+app_CardmaxElevation=1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="20" did="17" type="TextView">
+<ppt>width=-2
+height=-1
+text=加载中…
+textcolor=#ff000000
+layout_marginright=5dp
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+layout_gravity=center
+textstyle=bold
+textsize=16sp
+singleline=true
+ellipsize=marquee
+focusable=true
+marqueerepeatlimit=marquee_forever
+focusableintouchmode=true
+scrollhorizontally=true
+maxLength=10
+layout_weight=1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+ps=屏障
+background=white
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="RelativeLayout">
+<ppt>width=100dp
+height=100dp
+ut_centerHorizontal=true
+layout_marginTop=100dp</ppt>
+<event></event>
+</View>
+<View id="31" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="30" did="31" type="CardView">
+<ppt>width=70dp
+height=70dp
+app_CardcornerRadius=100dp
+app_CardElevation=5dp</ppt>
+<event></event>
+</View>
+<View id="36" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="36" type="RoundImageView">
+<ppt>width=70dp
+height=70dp
+src=@170837.png
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="7" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_below=4
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=等我一下
+textSize=16sp
+textStyle=bold
+textColor=#000000</ppt>
+<event></event>
+</View>
+<View id="21" did="7" type="ProgressBar">
+<ppt>width=-1
+height=-2
+layout_margin=20dp</ppt>
+<event></event>
+</View>
+<View id="35" did="7" type="SeekBar">
+<ppt>width=-2
+height=-2
+visibility=gone</ppt>
+<event><eventItme type="onprogresschanged2">javax(x,ss.cir,ss.c,"setPresseds","int",st_nS)
+</eventItme></event>
+</View>
+<View id="40" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=-取消等待-
+textColor=#ff0019ff
+visibility=gone
+textStyle=bold</ppt>
+<event><eventItme type="clicki">us(3,"visibility","gone")
+us(34,"visibility","gone")
+us(39,"visibility","visible")
+ug(2,"title",标题)
+us(20,"text",标题)
+us(38,"app_title",标题)</eventItme></event>
+</View>
+<View id="32" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="RelativeLayout">
+<ppt>width=50dp
+height=50dp
+layout_gravity=right</ppt>
+<event></event>
+</View>
+<View id="38" did="1" type="Toolbar">
+<ppt>width=-1
+height=49dp
+app_title=加载中…
+app_TitleColor=#ff0095ff
+background=white
+</ppt>
+<event></event>
+</View>
+<View id="39" did="1" type="ProgressBar">
+<ppt>width=-1
+height=2dp
+background=white
+ut_below=38
+background=white
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(38,颜色)
+fn 着色.控件着色(40,颜色)
+t()
+{
+  stop(3000)
+  ufnsui()
+  {
+  dht(scf,0,0,100,0)
+dh(scf,"duration",1000)
+us(40,"dh",scf)
+us(40,"visibility","visible")
+}
+}
+us(6,"src",sss.头像)
+dht(scf,100,0,0,0)
+dh(scf,"duration",1500)
+us(9,"dh",scf)
+f(sss.游戏=="是")
+{
+  us(39,"visibility","gone")
+  us(38,"visibility","gone")
+  f(sss.游戏横竖?"竖")
+  {
+    us(37,"visibility","visible")
+    java(cs, activity, "android.app.Activity.getWindow")
+    java(cs2, cs, "android.view.Window.getDecorView")
+    java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+    s id=37
+    utb(id)
+    java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+    java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+    //设置左边为返回键
+    utb("left", id, "@coolbackhei.png")
+    utb("set", "leftck", id)
+    {
+      uzd(震动器, 30)
+      end()
+      fr("$幻隐网络/点击特效/开.txt",anyx)
+      f(anyx &gt; "0")
+      {
+        bfm("$幻隐网络/配置/djyx.mp3")
+      }
+    }
+  }
+  else
+  {
+  }
+  us(9,"visibility","gone")
+  us(16,"visibility","gone")
+}
+else
+{
+}
+sss exit="不"
+gvs(2, 浏览器对象)
+java(浏览器属性, 浏览器对象, "android.webkit.WebView.getSettings")
+java(null, 浏览器属性, "android.webkit.WebSettings.setBuiltInZoomControls","boolean", false)
+us(38,"app_title","加载中…")
+us(2,"url",sss.wz)
+loadjar("NightSkyCircleBarView.dex", true, dex)
+cls(dex, "com.NightSky.CircleBarView", ss.c)
+
+//初始化组件
+javanew(ss.cir, ss.c, "Context", activity, "int", 500)
+
+nvw(ss.cir,34)
+
+//设置进度条环形宽宽
+javax(x,ss.cir, ss.c, "setStrokeW", "int", 10)
+
+//设置进度条颜色 (R, G , B)
+javax(x,ss.cir, ss.c, "setColor", "int", 0, "int", 0, "int", 205)
+
+//设置进度条控件大小
+javax(x,ss.cir, ss.c, "setViewSize", "int", 50)
+
+//设置进度条 进度 (0-100)
+javax(x,ss.cir,ss.c,"setPresseds","int",10)
+
+//获取进度条 进度
+javags(progress,ss.cir,ss.c,"press")
+syso(progress)
+
+//获取进度条控件大小
+javags(vsize,ss.cir,ss.c,"ViewSize")
+syso(vsize)
+
+//获取进度条环行宽
+javags(swidth,ss.cir,ss.c,"StrokeWidth")
+syso(swidth)</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+  ug(2,"cangoback",fh)
+  f(fh==true)
+  {
+    us(2, "gobackorforward", -1)
+  }
+  else
+  {
+    f(sss.exit=="不")
+    {
+      sss exit="是"
+      s stop = 2000
+      s text="再按一次退出！"
+      fn color.ColorToast(text,stop)
+    }
+    else
+    {
+      end()
+    }
+  }
+}</eventItme><eventItme type="stop">has(2,"appStop()")</eventItme><eventItme type="restart">has(2,"appShow()")</eventItme><eventItme type="loadingComplete">f(sss.广告害怕=="不怕")
+{
+}
+else
+{
+}
+fe("$幻隐网络/横条/开.txt",uu)
+f(uu=="false")
+{
+us(3,"visibility","visible")
+}
+else
+{
+us(3,"visibility","gone")
+}</eventItme><eventItme type="destroy">sss 游戏=""</eventItme></UIEventset>

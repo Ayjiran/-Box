@@ -1,0 +1,127 @@
+<View id="10" did="0" type="CardView">
+<ppt>width=-1
+height=80dp
+layout_margin=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=2dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,4,sss.主页标题)
+ulag(st_vW,15,sss.主页介绍)
+uigo("主页列表.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="13" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#FFFFFF
+</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="11" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@eb50b178bb7.png
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="4" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=标题
+layout_marginleft=10dp
+typeface=serif
+textcolor=#ff000000
+textsize=15sp
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="TextView">
+<ppt>width=-1
+height=0.3dp
+text=
+background=#10000000</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=获取失败
+layout_margin=8dp
+textsize=12.5sp
+textcolor=#ff979797
+typeface=sans
+ellipsize=end
+</ppt>
+<event></event>
+</View>
+<View id="15" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=获取失败
+layout_margin=8dp
+textsize=12.5sp
+textcolor=#000000
+typeface=sans
+ellipsize=end
+visibility=gone
+</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@a/tq/yx1/ic_league_list_today_right.v
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,xxlist.1,aa)
+ngde("0","#FFFFFF",ac)
+us(aa,"background",ac)
+ngde(20,"#FFFFFF",j)
+us(aa,"background",j)
+java(null,aa,"android.view.View.setElevation","float",10)
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

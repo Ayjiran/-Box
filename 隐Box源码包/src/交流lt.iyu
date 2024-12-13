@@ -1,0 +1,424 @@
+<View id="9" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+gravity=left</ppt>
+<event></event>
+</View>
+<View id="61" did="9" type="RelativeLayout">
+<ppt>width=45dp
+height=45dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="63" did="61" type="RelativeLayout">
+<ppt>width=45dp
+height=45dp
+layout_margin=1.5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="64" did="63" type="RoundImageView">
+<ppt>src=@170837.png
+width=35dp
+height=35dp
+layout_margin=1.5dp
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="LinearLayout">
+<ppt>width=45dp
+height=45dp
+background=
+layout_margin=1.5dp</ppt>
+<event></event>
+</View>
+<View id="67" did="62" type="ImageView">
+<ppt>width=-1
+height=-1
+src=</ppt>
+<event></event>
+</View>
+<View id="68" did="61" type="GifView">
+<ppt>width=20dp
+height=20dp
+src=@chenghao/noble_emperor_icon.gif
+layout_marginLeft=10dp
+visibility=gone
+ut_alignParentRight=true
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="CardView">
+<ppt>width=40dp
+height=40dp
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=100dp
+app_CardElevation=5dp
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginRight=8dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="55" did="10" type="WebView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="34" did="10" type="TextView">
+<ppt>width=-1
+height=-1
+text=</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="60" did="10" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@20180916170000@4c836b3a84cda5ad0d4924610357eecb.v</ppt>
+<event></event>
+</View>
+<View id="12" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=姓名
+ut_toRightOf=10
+textSize=13sp
+ut_alignTop=10
+layout_marginTop=5dp
+layout_marginLeft=2dp
+textColor=#000000
+maxLength=8
+textIsSelectable=true
+singleLine=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="13" did="9" type="CardView">
+<ppt>width=-2
+height=-2
+ut_toRightOf=61
+app_CardBackgroundColor=#ff00aeff
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginBottom=10dp
+layout_marginRight=10dp
+layout_marginTop=20dp
+app_CardElevation=5dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载失败
+ut_centerInParent=true
+textSize=14sp
+textColor=#ffffffff
+.layout_margin=8dp
+textIsSelectable=true
+textColorLink=#FF4081</ppt>
+<event></event>
+</View>
+<View id="17" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="19" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=个人介绍
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="20" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="24" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=头像地址
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="32" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=q
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="35" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="69" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="38" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+gravity=right</ppt>
+<event></event>
+</View>
+<View id="56" did="38" type="CardView">
+<ppt>width=40dp
+height=40dp
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=100dp
+app_CardElevation=5dp
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginRight=8dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="59" did="56" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@20180916170000@4c836b3a84cda5ad0d4924610357eecb.v</ppt>
+<event></event>
+</View>
+<View id="58" did="56" type="TextView">
+<ppt>width=-1
+height=-1
+text=</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="44" did="38" type="CardView">
+<ppt>width=-2
+height=-2
+ut_toLeftOf=56
+app_CardBackgroundColor=#ff04da73
+app_CardcornerRadius=5dp
+app_CardElevation=5dp
+layout_marginRight=10dp
+layout_marginTop=20dp
+layout_marginBottom=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="46" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载失败
+ut_centerInParent=true
+textSize=14sp
+textColor=#FFFFFF
+.layout_margin=8dp
+textIsSelectable=true
+textColorLink=#FF4081
+</ppt>
+<event></event>
+</View>
+<View id="47" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="49" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=个人介绍
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="50" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="51" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="52" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=头像地址
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="53" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=q
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="54" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,交流lt.69,会员)
+//ug(会员,"text",会员)
+gvs(st_vW,交流lt.68,显示)
+/.f(会员=="有")
+{
+ us(显示,"visibility","visible") 
+}
+else
+{
+}
+./
+gvs(st_vW,交流lt.55,llq)
+gvs(st_vW,交流lt.20,wb)
+ug(wb,"text",url)
+//us(llq,"url",url)
+
+gvs(st_vW,交流lt.38,a)
+gvs(st_vW,交流lt.9,b)
+
+ulag(st_vW,35,texta)
+ulag(st_vW,41,textb)
+f(texta=="空")
+{
+  us(a,"visibility","gone")
+}
+else f(textb=="空")
+{
+  us(b,"visibility","gone")
+}
+
+gvs(st_vW,交流lt.33,wv)
+java(ws,wv,"android.webkit.WebView.getSettings")
+java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",true)
+java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)</eventItme></UIEventset>

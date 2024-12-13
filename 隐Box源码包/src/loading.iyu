@@ -1,0 +1,27 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+background=#ff2d2d2d
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ProgressBar">
+<ppt>width=40dp
+height=40dp
+style=16842874
+layout_marginleft=20dp
+background=@oppo_status_sys_payment_safe.png
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=正在检测当前环境...
+textColor=#ffffff
+textSize=17sp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

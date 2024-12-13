@@ -1,0 +1,122 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=70dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=45dp
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="11" did="4" type="CardView">
+<ppt>width=-1
+height=1.5dp
+ut_toRightOf=5
+app_CardElevation=0dp
+ut_centerInParent=true
+app_CardBackgroundColor=#50FF4081
+app_CardcornerRadius=0dp</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="CardView">
+<ppt>width=12dp
+height=12dp
+app_CardcornerRadius=6dp
+ut_centerInParent=true
+app_CardElevation=0dp
+app_CardBackgroundColor=#f5b8cf</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="CardView">
+<ppt>width=9dp
+height=9dp
+app_CardcornerRadius=4.5dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#f0eff4</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-1
+height=-1
+text=0
+textSize=6sp
+gravity=center
+textStyle=bold
+singleLine=true
+BackgroundColor=#50FF4081
+textColor=#ffffff</ppt>
+<event></event>
+</View>
+<View id="17" did="1" type="CardView">
+<ppt>width=-1
+height=1.5dp
+ut_toRightOf=2
+app_CardElevation=0dp
+ut_centerInParent=true
+app_CardBackgroundColor=#50FF4081
+app_CardcornerRadius=0dp
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+ut_toRightOf=2</ppt>
+<event></event>
+</View>
+<View id="12" did="3" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardcornerRadius=30dp
+layout_marginLeft=5dp
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=selectableitem</ppt>
+<event><eventItme type="clicki">ulag(st_vW,14,sss.dh)
+uigo("快递a.iyu")</eventItme></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textSize=30sp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+singleLine=true
+ellipsize=end
+textColor=#ff040404</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,147 @@
+<View id="54" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=街机游戏
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="53" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="52" did="53" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="1" did="52" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=white
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="51" did="1" type="ImageView">
+<ppt>width=-1
+height=-2
+src=@seting.png
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="45" did="1" type="GifView">
+<ppt>width=120dp
+height=120dp
+src=@gif.gif
+layout_marginTop=20dp
+layout_gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="49" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+BackgroundColor=#fff7f7f7
+layout_marginTop=10dp
+layout_marginBottom=10dp
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：\n经典小游戏已经接入了哦~\n游戏不定时更新增加，喜欢的可以关注一下。
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#ff585858
+textIsSelectable=true
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="48" did="1" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=54
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+us(28,"textcolor","#ff0882f7")
+us(15,"textcolor","#ff9e9e9e")
+us(32,"textcolor","#ff9e9e9e")
+us(36,"textcolor","#ff9e9e9e")
+us(27,"background","#ffe7f3ff")
+us(23,"background","#ffffffff")
+us(31,"background","#ffffffff")
+us(35,"background","#ffffffff")
+loadjar("listimg.dex",dex)
+cls(dex,"com.squareup.picasso.Picasso",ss.l)
+cls(dex,"com.squareup.picasso.RequestCreator",ss.l1)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(53,a)
+gvs(52,b)
+javanew(mBs,mB,"Context",activity)
+urvw(52)
+nvw(mBs,53)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+t()
+{
+  sj(sss.bs,"街机游戏(",")街机游戏",游戏)
+  sj(游戏,"《",null,api)
+  sl(api,"《",api)
+  syso("开始")
+  for(apis;api)
+  {
+    sj(apis,null,"》",名字)
+    sj(apis,"[","]",地址)
+    sj(apis,"〖","〗",图片)
+    sj(apis,"&lt;","&gt;",是)
+    strim(名字,名字)
+    strim(地址,地址)
+    
+    ula(list,1=null,11=名字,12=地址,16=图片,15=是)
+  }
+  ufnsui()
+  {
+    uls(48,list,"经典.iyu",-1,-2)
+        ug(48,"count",总共多少)
+    s*(总共多少,100,总共)
+    ss(总共+"dp",总共)
+    us(48,"height",总共)
+    ss("街机游戏("+总共多少+"款)",已经)
+    us(39,"text",已经)
+    us(45,"visibility","gone")
+    us(49,"visibility","visible")
+    us(51,"visibility","visible")
+      }
+}</eventItme><eventItme type="destroy">sss 游戏="不"</eventItme></UIEventset>

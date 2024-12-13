@@ -1,0 +1,73 @@
+<View id="2" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=3dp
+app_CardcornerRadius=3dp
+BackgroundRipple=#FFEEEEEE
+background=through</ppt>
+<event>
+
+</event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="1" did="4" type="LinearLayout">
+<ppt>width=-1
+height=37dp
+orientation=horizontal
+background=@a/.zy/cth.v
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="1" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=公告标题
+layout_marginLeft=10dp
+textColor=#FFFFFFFF
+textStyle=bold
+typeface=serif
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=10dp
+background=white</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=公告内容
+textColor=#ff2d2d2d
+typeface=serif
+textIsSelectable=true</ppt>
+<event>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

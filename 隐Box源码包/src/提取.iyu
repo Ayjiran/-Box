@@ -1,0 +1,477 @@
+<View id="39" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=Apk提取
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=170dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="8" type="LinearLayout">
+<ppt>width=-1
+height=110dp
+background=#ffffffff
+layout_marginleft=15dp
+layout_marginright=15dp
+layout_margintop=5dp
+orientation=horizontal
+</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=2</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@dd/pic_quark_1598123571884.png</ppt>
+<event></event>
+</View>
+<View id="15" did="6" type="TextView">
+<ppt>width=1
+height=-1
+text=
+backgroundcolor=#E0E0E0
+layout_margintop=15dp
+layout_marginbottom=15dp</ppt>
+<event></event>
+</View>
+<View id="11" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-1
+height=-2
+text=文件名：未选择文件
+textsize=14sp
+textcolor=#424242
+layout_marginbottom=5dp
+singleline=true
+ellipsize=end
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=大小：未知
+textsize=13sp
+textcolor=#424242
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="14" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=格式：未知
+textsize=13sp
+textcolor=#424242
+layout_margintop=5dp
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="25" did="8" type="LinearLayout">
+<ppt>width=-1
+height=110dp
+background=17301528
+layout_marginleft=15dp
+layout_marginright=15dp
+layout_margintop=5dp
+orientation=horizontal
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="29" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=2
+</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@v/skin_ani.v</ppt>
+<event></event>
+</View>
+<View id="33" did="29" type="TextView">
+<ppt>width=-2
+height=-2
+text=解压文件中...
+textsize=12sp</ppt>
+<event></event>
+</View>
+<View id="32" did="25" type="TextView">
+<ppt>width=1
+height=-1
+text=
+backgroundcolor=#E0E0E0
+layout_margintop=15dp
+layout_marginbottom=15dp</ppt>
+<event></event>
+</View>
+<View id="31" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="26" did="31" type="TextView">
+<ppt>width=-2
+height=-2
+text=安装包name
+textsize=15sp
+textcolor=#dc000000
+layout_marginbottom=10dp</ppt>
+<event></event>
+</View>
+<View id="27" did="31" type="TextView">
+<ppt>width=-2
+height=-2
+text=音频文件：0 个
+textsize=13sp
+</ppt>
+<event></event>
+</View>
+<View id="28" did="31" type="TextView">
+<ppt>width=-2
+height=-2
+text=图标文件：0 个
+textsize=13sp
+layout_margintop=5dp</ppt>
+<event></event>
+</View>
+<View id="7" did="8" type="TextView">
+<ppt>width=-1
+height=0.2dp
+text=
+backgroundcolor=#BDBDBD
+ut_below=6
+layout_margintop=-5dp
+layout_marginleft=18dp
+layout_marginright=18dp</ppt>
+<event></event>
+</View>
+<View id="18" did="1" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=3dp
+height=-1
+text=
+backgroundcolor=#ff00a1ff
+layout_marginleft=15dp
+layout_margintop=3dp
+layout_marginbottom=3dp</ppt>
+<event></event>
+</View>
+<View id="20" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=操作
+textsize=15sp
+layout_marginleft=10dp
+layout_gravity=center_vertical
+textcolor=#cf000000</ppt>
+<event></event>
+</View>
+<View id="34" did="1" type="TextView">
+<ppt>text=PS：素材提取过程中请勿退出，耐心等待。较大的文件可能需要较长时间的解压，请耐心等待。
+width=-1
+height=-2
+//文本控件宽高
+textsize=12sp
+//字体大小
+singleline=true
+//内容显示在同一行
+ellipsize=marquee
+//文本超长显示方式  跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数   无限∞重复
+focusableintouchmode=true
+//获取焦点
+layout_margintop=10dp
+layout_marginleft=15dp
+layout_marginright=15dp
+.visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="1" type="TextView">
+<ppt>width=-1
+height=1
+text=
+backgroundcolor=#BDBDBD
+layout_marginleft=15dp
+layout_marginright=15dp</ppt>
+<event></event>
+</View>
+<View id="23" did="1" type="Button">
+<ppt>width=-1
+height=50dp
+text=选择应用
+background=@tb/box_bg.v
+textsize=13sp
+layout_margintop=15dp
+layout_marginleft=15dp
+layout_marginright=15dp
+textColor=#ff009fff</ppt>
+<event><eventItme type="clicki">utw("","选择安装包","file.iyu","取消",true,v)
+{
+}
+gvs(v,2,id)
+fdir(lj)
+
+.ss(lj+"/sdcard/tencent",lj)
+sss file_path=lj
+//当前文件夹路径
+sss file_id=id
+t()
+{
+fn 提取软件.load_file()
+}</eventItme></event>
+</View>
+<View id="24" did="1" type="Button">
+<ppt>width=-1
+height=55dp
+text=开始提取
+background=@tb/box_bg.v
+textsize=13sp
+layout_margintop=15dp
+layout_marginleft=15dp
+layout_marginright=15dp
+textcolor=#ff00b1ff</ppt>
+<event><eventItme type="clicki">f(ss.path==null)
+{
+s stop = 2000
+s text="请选择文件."
+fn color.ColorToast(text,stop)
+endcode
+}
+
+f(ss.tqzt==true)
+{
+ s stop = 2000
+s text="正在提取中."
+fn color.ColorToast(text,stop)
+ endcode
+}
+
+  us(6,"visibility","gone")
+  us(25,"visibility","visible")
+  us(34,"visibility","visible")
+  us(26,"textcolor",sss.ztys)
+  us(26,"text",ss.wjname)
+  us(7,"ut_below",25)
+  us(34,"singleline",true)
+  us(34,"ellipsize","marquee")
+  us(34,"marqueerepeatlimit","marquee_forever")
+  us(34,"focusableintouchmode",true)
+  us(34,"ut_below",7)
+  us(34,"layout_marginleft","15dp")
+  us(34,"layout_marginright","15dp")
+  us(34,"layout_margintop","15dp")
+  us(24,"text","解压文件中...")
+  us(30,"src","@v/skin_ani.v")
+
+t()
+{
+//线程1start
+  ss tqzt=true
+  ss picture=0
+  ss music=0
+  .解压文件路径，解压到文件,负值变量
+  ss("$幻隐网络/.临时数据/"+ss.wjname,jypath)
+  fuzs(ss.path,jypath,wheyhey)
+  .判断是否解压成功
+  f(whethey==false)
+  {
+    //判断1start
+    .解压失败
+    ufnsui()
+    {
+      //线程2start
+      tw("解压文件失败！",0)
+      us(25,"visibility","gone")
+      us(6,"visibility","visible")   
+      us(34,"visibility","gone")  
+    }
+      //线程2end
+
+  }
+   //判断1end
+  else
+  {
+    //判断1 else start
+    .解压成功
+    ufnsui()
+    {
+      //线程3start
+      us(33,"text","素材提取中...")
+      us(24,"text","提取中...")
+    }
+      //线程3end
+    .获取文件夹
+    fl(jypath, true, wjsz)
+    .获取一层文件
+    for(wjj1;wjsz)
+    {
+      //循环1start
+      .二层文件
+      ss(jypath+"/"+wjj1,path2)
+      fl(path2,true,wjsz2)
+      for(wjj2;wjsz2)
+      {
+        //循环2start
+        .获取3层文件
+        ss(path2+"/"+wjj2,path3)
+        .syso(path3)
+        fl(path3,wjsz3)
+        for(wjj4;wjsz3)
+        {
+          //循环3start
+         . syso(wjj4)
+          f(wjj4*?".jpg"||wjj4*?".png")
+          {
+            
+            //判断2start
+            .存在图片素材
+          .  syso(wjj4)
+            ss("$幻隐网络/素材提取/"+ss.wjname+"/图片素材/"+wjj4,zytp)
+            ss(path3+"/"+wjj4,scpath)
+            ft(scpath,zytp,pd)
+            syso(pd)            
+            ufnsui()
+            {
+              //线程4start
+             . syso(scpath)
+              syso(zytp)
+              s+(ss.picture,1,ss.picture)
+              ss("图标素材："+ss.picture+" 个",pictures)
+              us(28,"text",pictures)
+            }
+              //线程4end
+          }
+            //判断2end
+          else f(wjj4*?".mp3")
+          {
+            ss(path3+"/"+wjj4,scpath)
+            ss("$幻隐网络/素材提取/"+ss.wjname+"/音频素材/"+wjj4,zyyy)
+            ft(scpath,zyyy,pd)
+            //判断2 else start
+            .音效文件
+            ufnsui()
+            {              
+              //线程5start                     
+              s+(ss.music,1,ss.music)
+              ss("音频素材："+ss.music+" 个",musics)
+              us(27,"text",musics)
+            }
+              //线程5end            
+
+          }
+            //判断2 else end
+ 
+        }
+          //循环3end
+      }
+        //循环2end
+    }
+      //循环1end
+    ufnsui()
+    {
+      //线程6start
+      ss tqzt=null
+      s stop = 2000
+s text="提取完成."
+fn color.ColorToast(text,stop)
+      us(24,"text","开始提取")
+      us(30,"src","@v/qub.v")
+      dh(dh, "cancel")      
+      us(33,"text","素材提取完毕！")
+      s stop = 2000
+s text="保存完毕."
+fn color.ColorToast(text,stop)
+    }
+      //线程6end
+
+  }
+    //判断1 else end
+
+
+
+}
+//线程1end</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=39
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(35,颜色)
+fn 着色.控件着色(19,颜色)
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

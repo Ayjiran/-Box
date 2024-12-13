@@ -1,0 +1,69 @@
+fn qe(url,id,v5)
+t()
+{
+ ufnsui()
+ {
+ 
+us(v5,"visibility","visible")
+}
+
+stop(100)
+hs(url, null, "utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN", 20000, 20000, null, b)
+
+  json(b,jo)
+  
+  f(jo==null)
+  {
+    
+
+fn qea.qe(url,id,v5)
+endcode
+  }
+  json(jo, "get", "data", jo)
+  
+  json(jo, "get", "albumInfoList", jo)
+  
+  
+  sl(jo,"\"album\"",as)
+  for(xc;as)
+  {
+    
+  sj(xc,"\"name\":\"","\"",mz)
+  
+  
+  sj(xc,"\"albumID\":\"","\"",mid)
+  
+ 
+  sj(xc,"\"url\":\"","\"",tp) 
+  sr(tp,"\\","",tp)
+  
+  sj(xc,"\"desc\":\"","\"",jj) 
+  
+  f(mz!=null)
+  {
+    ula(qell,1=null,2=null,4=mz,5=tp,6=null,7=null,8=jj,10=null,-1=mid)
+  }
+  
+  }
+  ufnsui()
+  {
+   uls(id,qell,"qell.iyu",-1,-2)
+   
+   sss qell=qell
+  s 对象=id
+
+cls("androidx.recyclerview.widget.RecyclerView",列表类)
+
+cls("android.support.v7.widget.GridLayoutManager",布局管理类)
+
+javanew(布局,布局管理类,"Context",activity,"int",3)
+
+javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+us(v5,"visibility","gone")
+
+
+  }
+  }
+  
+
+end fn

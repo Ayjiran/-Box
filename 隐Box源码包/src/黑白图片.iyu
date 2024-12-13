@@ -1,0 +1,262 @@
+<View id="44" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=黑白头像
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff
+ps=君常笑QQ:670168898
+ps=本源码禁止泛滥</ppt>
+<event></event>
+</View>
+<View id="38" did="1" type="ScrollView">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="6" did="38" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="22" did="6" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=50dp
+layout_marginBottom=20dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="24" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#EEEEEE
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="33" did="24" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#EEEEEE</ppt>
+<event></event>
+</View>
+<View id="29" did="34" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@junhe.png
+adjustViewBounds=true
+scrollbars=horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="14" did="12" type="CardView">
+<ppt>width=-2
+height=40dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_margin=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#4A89FD
+BackgroundRipple=#FFFFFF</ppt>
+<event><eventItme type="clicki">javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+java(c,it,"android.content.Intent.setType","String","image/*")
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",1)
+</eventItme></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=选择图片
+textColor=#ffffffff
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="35" did="12" type="CardView">
+<ppt>width=-2
+height=40dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_margin=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#4A89FD
+BackgroundRipple=#FFFFFF</ppt>
+<event><eventItme type="clicki">
+tot(29, bmp)
+
+java(宽, bmp, "android.graphics.Bitmap.getWidth")
+java(高, bmp, "android.graphics.Bitmap.getHeight")
+
+javags(config,null,"android.graphics.Bitmap$Config","RGB_565")
+java(图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+javanew(画板,"android.graphics.Canvas","android.graphics.Bitmap",图片)
+javanew(paint,"android.graphics.Paint")
+javanew(cm,"android.graphics.ColorMatrix")
+java(null,cm,"android.graphics.ColorMatrix.setSaturation","float",0)
+javanew(cmcf,"android.graphics.ColorMatrixColorFilter","android.graphics.ColorMatrix",cm)
+java(null,paint,"android.graphics.Paint.setColorFilter","android.graphics.ColorFilter",cmcf)
+java(null,画板,"android.graphics.Canvas.drawBitmap","android.graphics.Bitmap",bmp,"float",0,"float",0,"android.graphics.Paint",paint)
+
+
+us(29,"src",图片)
+</eventItme></event>
+</View>
+<View id="37" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=生成图片
+textColor=#ffffffff
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="30" did="12" type="CardView">
+<ppt>width=-2
+height=40dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_margin=10dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#4A89FD
+BackgroundRipple=#FFFFFF</ppt>
+<event><eventItme type="clicki">
+gvs(29,控件)
+//获取要转换的控件对象
+
+java(宽,控件,"android.view.View.getWidth")
+java(高,控件,"android.view.View.getHeight")
+//获取控件宽高
+
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+//可选值ARGB_8888，ARGB_4444，RGB_565，ALPHA_8
+//ARGB_8888画质最好，这里用ARGB_4444是为了节约内存
+
+java(图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+f(图片 == null)
+{
+  s stop = 2000
+s text="保存失败啦~"
+fn color.ColorToast(text,stop)
+  endcode
+}
+else
+{
+  s stop = 2000
+s text="保存成功~"
+fn color.ColorToast(text,stop)
+}
+javanew(图像,"android.graphics.Canvas","android.graphics.Bitmap",图片)
+
+java(null,控件,"android.view.View.draw","android.graphics.Canvas",图像)
+
+sran(1,10000,szmc)
+ss("/storage/emulated/0/Pictures/"+szmc+".png",路径)
+bfs(图片,路径)
+
+
+</eventItme></event>
+</View>
+<View id="32" did="31" type="TextView">
+<ppt>width=-2
+height=-2
+text=保存图片
+textColor=#ffffffff
+textSize=16sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=44
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fr("$幻隐网络/配置/yx.txt",yg)
+fn 着色.控件着色(40,颜色)
+fn 着色.控件着色(15,颜色)
+fn 着色.控件着色(36,颜色)
+fn 着色.控件着色(31,颜色)
+us(29,"src",sss.头像)</eventItme><eventItme type="onactivityresult">javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==1)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+ 
+  us(29,"src",path)
+   
+  }
+}</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

@@ -1,0 +1,697 @@
+<View id="71" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=单项反馈
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ffbddbff</ppt>
+<event></event>
+</View>
+<View id="70" did="1" type="LinearLayout">
+<ppt>width=-1
+height=300dp
+orientation=vertical
+background=white
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="41" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+ut_below=5
+background=white</ppt>
+<event></event>
+</View>
+<View id="65" did="41" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="68" did="65" type="RelativeLayout">
+<ppt>width=-1
+height=150dp
+background=@79fc6bb83e8e9b3c.jpg</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=vertical
+background=#ffffffff
+ut_alignParentBottom=true
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="6" did="65" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=30dp
+layout_marginRight=30dp
+layout_marginTop=98dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=5dp
+app_CardmaxElevation=3dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="clicki">us(15,"background","#FF5722")
+us(17,"background",sss.zt)
+us(19,"background",sss.zt)
+us(20,"background",sss.zt)
+us(23,"text","选择分类：界面")
+us(45,"text","1")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="15" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=界面
+textColor=#ffffff
+typeface=normal
+textStyle=bold
+textSize=13sp
+layout_marginTop=15dp
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=5dp
+app_CardmaxElevation=3dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+</ppt>
+<event><eventItme type="clicki">us(17,"background","#FF5722")
+us(15,"background",sss.zt)
+us(19,"background",sss.zt)
+us(20,"background",sss.zt)
+us(23,"text","选择分类：功能")
+us(45,"text","2")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="17" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=功能
+textColor=#ffffff
+typeface=normal
+textStyle=bold
+textSize=13sp
+layout_marginTop=15dp
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<View id="11" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=5dp
+app_CardmaxElevation=3dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="clicki">us(19,"background","#FF5722")
+us(17,"background",sss.zt)
+us(15,"background",sss.zt)
+us(20,"background",sss.zt)
+us(23,"text","选择分类：bug")
+us(45,"text","3")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="19" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="21" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=bug
+textColor=#ffffff
+typeface=normal
+textStyle=bold
+textSize=13sp
+layout_marginTop=15dp
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<View id="13" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=5dp
+app_CardmaxElevation=3dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="clicki">us(20,"background","#FF5722")
+us(17,"background",sss.zt)
+us(19,"background",sss.zt)
+us(15,"background",sss.zt)
+us(23,"text","选择分类：合作")
+us(45,"text","4")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="20" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="22" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+text=合作
+textColor=#ffffff
+typeface=normal
+textStyle=bold
+textSize=13sp
+layout_marginTop=15dp
+layout_marginBottom=15dp</ppt>
+<event></event>
+</View>
+<View id="28" did="65" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_below=6</ppt>
+<event></event>
+</View>
+<View id="35" did="28" type="CardView">
+<ppt>width=-1
+height=45dp
+app_CardcornerRadius=10dp
+app_CardElevation=5dp
+app_CardmaxElevation=3dp
+layout_marginLeft=50dp
+layout_marginRight=50dp
+layout_marginTop=2dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="23" did="35" type="TextView">
+<ppt>width=-1
+height=-1
+text=请先在上方选择分类
+textColor=#ffffff
+layout_marginLeft=50dp
+layout_marginRight=50dp
+typeface=normal
+textStyle=bold
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="62" did="28" type="ImageView">
+<ppt>width=200dp
+height=-2
+src=@abv/fragment_order_cry.png
+layout_gravity=center
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="24" did="28" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=5dp
+app_CardmaxElevation=3dp
+layout_marginLeft=50dp
+layout_marginRight=50dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+focusable=false
+focusableInTouchMode=true</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-1
+height=-2
+text=反馈资料
+textColor=#ffffff
+typeface=normal
+textStyle=bold
+gravity=center
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="29" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="31" did="29" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=填写问题标题
+background=-1
+gravity=center
+typeface=normal
+textSize=13sp
+.visibility=gone</ppt>
+<event></event>
+</View>
+<View id="32" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="34" did="32" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=填写问题详情
+background=-1
+gravity=center
+typeface=normal
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="60" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="61" did="60" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=填写您的联系方式(选填)
+background=-1
+gravity=center
+typeface=normal
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="49" did="28" type="CardView">
+<ppt>width=-1
+height=45dp
+app_CardcornerRadius=10dp
+app_CardElevation=5dp
+app_CardmaxElevation=3dp
+layout_marginLeft=50dp
+layout_marginRight=50dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=vertical
+gravity=center
+</ppt>
+<event><eventItme type="clicki">ug(23,"text",a)
+ug(31,"text",b)
+ug(34,"text",c)
+fr("$幻隐网络/记录/qq.txt",qq)
+f(a==""||b?"请先在上方选择分类"||c=="")
+{
+  tw("未选择分类，或者未填写信息")
+}
+else
+{
+  f(sss.游客=="是")
+  {
+    s bt="标题："
+    s ne="内容："
+    ug(61,"text",j)
+    ss("联系方式："+j,j)
+    ug(12,"text",yx)
+    ug(31,"text",bug)
+    ug(13,"text",nr)
+    s g="\n"
+    ss(bt+b+"&lt;br&gt;&lt;br&gt;"+a+"&lt;br&gt;&lt;br&gt;"+ne+c+"&lt;br&gt;&lt;br&gt;"+j+"&lt;br&gt;&lt;br&gt;用户未登录：游客",xx)
+    utw(null,"","发送中……","",false,vf)
+    {
+    }
+    t()
+    {
+      ss(sss.api+"yxapi/?fo=幻隐网络科技&name="+sss.yxapi+"&pass="+sss.yxsqm+"&mail="+sss.yxapi+"&title=隐Box用户反馈&content=用户【游客】说：&lt;br&gt;&lt;hr&gt;"+xx,b)
+      hs(b,j)
+      ufnsui()
+      {
+        s text="发送成功！"
+        s stop = 2000
+        fn color.ColorToast(text,stop)
+        end()
+        endutw(vf)
+      }
+    }
+  }
+  else
+  {
+    s bt="标题："
+    s ne="内容："
+    ug(61,"text",j)
+    ss("联系方式："+j,j)
+    ug(12,"text",yx)
+    ug(31,"text",bug)
+    ug(13,"text",nr)
+    s g="\n"
+    ss(bt+b+"&lt;br&gt;&lt;br&gt;"+a+"&lt;br&gt;&lt;br&gt;"+ne+c+"&lt;br&gt;&lt;br&gt;"+j+"&lt;br&gt;&lt;br&gt;用户名字："+sss.name,xx)
+    utw(null,"","发送中……","",false,vf)
+    {
+    }
+    t()
+    {
+      ss(sss.api+"yxapi/?fo=幻隐网络科技&name="+sss.yxapi+"&pass="+sss.yxsqm+"&mail="+sss.yxapi+"&title=隐Box用户反馈&content=用户【"+sss.name+"】说：&lt;br&gt;&lt;hr&gt;"+xx+"&lt;br&gt;&lt;hr&gt;&lt;br&gt;ta的id【"+sss.我的uid+"】",b)
+      hs(b,j)
+      ufnsui()
+      {
+        s text="发送成功！"
+        s stop = 2000
+        fn color.ColorToast(text,stop)
+        end()
+        endutw(vf)
+      }
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="51" did="50" type="TextView">
+<ppt>width=-1
+height=-2
+text=立即发送问题
+textColor=#ffffff
+typeface=normal
+textStyle=bold
+gravity=center
+textSize=13sp
+</ppt>
+<event></event>
+</View>
+<View id="44" did="65" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本44
+visibility=gone
+ut_below=28</ppt>
+<event></event>
+</View>
+<View id="45" did="65" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本45
+visibility=gone
+ut_below=44</ppt>
+<event></event>
+</View>
+<View id="52" did="65" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=5dp
+app_CardmaxElevation=3dp
+layout_marginLeft=30dp
+layout_marginRight=30dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+ut_below=45</ppt>
+<event></event>
+</View>
+<View id="59" did="52" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="53" did="59" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="56" did="54" type="LinearLayout">
+<ppt>width=-1
+height=30dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="55" did="56" type="TextView">
+<ppt>width=-2
+height=-2
+text=版权声明
+textColor=#ffffff
+typeface=normal
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="57" did="59" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center_horizontal
+</ppt>
+<event></event>
+</View>
+<View id="58" did="57" type="TextView">
+<ppt>width=-2
+height=-2
+text=直接反馈就可以，我们会通过软件内第三页的聊天室来与您取得联系。\n\n当然，您也可以选择填写聊天方式，我们会用QQ或者微信的方式联系到您。\n\n选择主要问题，填写您的各种疑问，和问题介绍！如果有不好的地方隐心会改进的，或者哪里需要改，加点什么功能！\n\n1.尽量不要带言语辱骂等社会敏感的词语！\n2.反馈可以带上你的微信或者QQ，这样隐心可以主动加您好友讨论！\n3.如果有恶意行为，隐心这边会直接将您永久拉黑！\n4.界面问题：常指一些界面丑的地方，或者界面不好看等问题！反馈给隐心，隐心会尽量改良一下！\n5.功能问题：常指一些功能用不了了，或者是功能进不去！\n6.bug问题：常指一些闪退问题之类的不可抗力！\n7.合作问题：常指广告投稿，和合作之类的！反馈的时候请填写您的联系方式与投稿价格，隐心觉得OK，就会主动联系您的！！\n\n感谢您使用隐Box！
+layout_marginTop=10dp
+textColor=#000000
+typeface=normal
+textStyle=bold
+layout_margin=5dp
+textSize=13sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=71
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+us(19,"background","#FF5722")
+us(23,"text","选择分类：bug")
+us(45,"text","3")
+gvs(62,a)
+call(null,"mjava","图片跳转.set",a)
+call(null,"mjava","yuan.setBackground",activity,69,40,40,0,0,"#ffffffff")
+fr("$幻隐网络/配置/yx.txt",sss.zt)
+us(2,"background",sss.zt)
+us(15,"background",sss.zt)
+us(17,"background",sss.zt)
+us(20,"background",sss.zt)
+us(26,"background",sss.zt)
+us(31,"textColorHint",sss.zt)
+us(34,"textColorHint",sss.zt)
+us(36,"background",sss.zt)
+us(39,"background",sss.zt)
+us(23,"background",sss.zt)
+us(56,"background",sss.zt)
+us(50,"background",sss.zt)
+us(61,"textColorHint",sss.zt)
+ loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(1,a)
+gvs(41,b)
+javanew(mBs,mB,"Context",activity)
+urvw(41)
+nvw(mBs,1)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="onactivityresult">/.
+注意如果是文件管理器则报错
+返回值在ss.rnpath
+./
+
+javags(ro,activity,"android.app.Activity","RESULT_OK")
+f(st_lC == ro)
+{
+  f(st_sC == 2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    //处理值(/external路径)
+    //java(uri,uri,"android.net.Uri.getPath")
+    //绝对路径
+    call(ss.rnpath,"mlua","lua.getRealPath",uri)
+    ufnsui()
+    {
+      f(ss.rnpath==null)
+      {
+        ufnsui()
+        {
+        us(37,"text","iApp文件选择失败")
+      }
+    }
+    else
+    {
+      f(ss.rnpath*?"iapp"||ss.rnpath*?"iApp")
+      {
+        
+    us(37,"text","已选择iApp文件")
+    us(44,"text",ss.rnpath)
+    fuz(ss.rnpath,"AndroidManifest.xml","%源码精灵/源码sss.名称读取",emm)
+    
+    fr("%源码精灵/源码sss.名称读取/AndroidManifest.xml",,emms)
+    sj(emms,"&lt;title&gt;","&lt;/title&gt;",title)
+    .syso(title)
+    us(31,"text",title)
+    .syso(ss.rnpath)
+    fd("%源码精灵/源码sss.名称读取/AndroidManifest.xml",true)
+    tw("当前源码分析完成："+title)
+      }
+    else
+    {
+      us(37,"text","iApp文件选择错误")
+      tw("文件格式有误")
+    }
+    }
+    }
+  }
+}</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+call(null,"mjava","图片跳转.end")
+}</eventItme><eventItme type="menu">case 人工客服:
+hws(sss.微信客服地址)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

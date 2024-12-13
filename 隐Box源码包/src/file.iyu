@@ -1,0 +1,76 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@bj.jpg</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ListView">
+<ppt>width=-1
+height=-1
+layout_marginleft=5dp
+layout_marginright=5dp
+listselector=#e5e5e5e5</ppt>
+<event><eventItme type="clickitem">t()
+{
+ulag(st_vW, st_pN,5, a)
+f(a=="上级目录…")
+{
+slg(sss.file_path,l)
+slof(sss.file_path,"/",l,l1)
+f(l1==0||l1==-1)
+{
+endcode
+}
+ssg(sss.file_path,0,l1,path)
+sss file_path=path
+fn a.load_file()
+endcode
+}
+
+ss(sss.file_path+"/"+a,b)
+fi(b,f)
+f(f==true)
+{
+sss file_path=b
+fn a.load_file()
+endcode
+}
+f(f==false&&a*?".zip"||a*?".apk")
+{
+ss(" - 您选择的安装包：\n\n"+a,show)
+ufnsui()
+{
+  endutw()
+fs(b,daxiao)
+s2(daxiao/1024/1024,size)
+ss("大小："+size+"M",showsize)
+us(13,"text",showsize)
+ss("文件："+a,name)
+us(12,"text",name)
+sj(a,".",null,gs)
+ss("格式："+gs,showgs)
+us(14,"text",showgs)
+us(13,"textcolor",sss.ztys)
+us(12,"textcolor",sss.ztys)
+us(14,"textcolor",sss.ztys)
+ss wjname=a
+ss path=b
+
+}
+}
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="downkey">tw(1)</eventItme></UIEventset>

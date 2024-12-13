@@ -1,0 +1,106 @@
+fn video(url)
+f(sss.vv==null)
+{ 
+  uxf("xfspbfq.iyu",-1,-2,"center",sss.vv)
+}
+swh("pxh",h)
+s(h/3,h2)
+gvs(sss.vv,xfspbfq.2,id)
+us(id,"height",h2)
+gvs(sss.vv,xfspbfq.5,id5)
+us(id5,"text",sss.xfspbt)
+bfvs(id,url)
+bfvss(id,"st")
+bfvss(id,"media",a)
+fn xfspbfq.v()
+end fn
+
+fn v()
+t()
+{
+  f(ss.i==null)
+  {
+    ss i=0
+  }
+  f(ss.i==20)
+  {
+    ufnsui()
+    {
+      tw("加载播放超时！")
+    }
+    uxf(sss.vv,"del")
+    sss vv=null
+    endcode
+  }
+  gvs(sss.vv,xfspbfq.2,id)
+  bfvss(id,"ip",a)
+  f(!a)
+  {
+    stop(1000)
+    s+(1,ss.i)
+    fn xfspbfq.v()
+    endcode
+  }
+  ss i=0
+  gvs(sss.vv,xfspbfq.11,id11)
+  gvs(sss.vv,xfspbfq.10,id10)
+  gvs(sss.vv,xfspbfq.12,id12)
+  gvs(sss.vv,xfspbfq.13,id13)
+  gvs(sss.vv,xfspbfq.14,id14)
+  gvs(sss.vv,xfspbfq.15,id15)
+  bfvss(id,"dn",l1)
+  fn xfspbfq.time(l1)
+  s/(1000,l1)
+  ufnsui()
+  {
+    us(id11,"max",l1)
+    us(id12,"text",ss.time)
+  }
+  w(a)
+  {
+    bfvss(id,"ip",a)
+    f(a)
+    {
+      bfvss(id,"cn",l)
+      fn xfspbfq.time(l)
+      s(l/1000,l2)
+      ufnsui()
+      {
+        us(id14,"src",17301539)
+        us(id11,"progress",l2)
+        us(id10,"text",ss.time)
+      }
+    }
+    else
+    {
+      break
+    }
+  }
+  ufnsui()
+  {
+    us(id14,"src",17301540)
+  }
+}
+end fn
+
+fn time(a)
+s/(1000,a)
+s(a/60/60,h)
+f(h&lt;10)
+{
+  ss("0"+h,h)
+}
+s(a/60%60,m)
+f(m&lt;10)
+{
+  ss("0"+m,m)
+}
+s(a%60,s)
+f(s&lt;10)
+{
+  ss("0"+s,s)
+}
+ss(h+":"+m+":"+s,ss.time)
+end fn
+
+

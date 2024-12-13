@@ -1,0 +1,106 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+background=through</ppt>
+<event><eventItme type="clicki">us(esf.22,"text","普通住宅")
+endutw()
+
+
+us(esf.30,"visibility","gone")
+us(esf.32,"visibility","gone")
+
+us(esf.25,"visibility","visible")
+us(esf.23,"visibility","visible")</eventItme></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=普通住宅
+textcolor=#e0000000
+ut_centervertical=true
+layout_marginleft=15dp
+textsize=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#6b6b6b6b
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="4" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+background=through
+visibility=gone</ppt>
+<event><eventItme type="clicki">us(esf.22,"text","非普通住宅")
+endutw()
+
+ug(esf.29,"text",a)
+f(a=="满5年"||a=="满2年不满5年")
+{
+us(esf.30,"visibility","visible")
+us(esf.32,"visibility","visible")
+}
+
+
+
+us(esf.25,"visibility","visible")
+us(esf.23,"visibility","visible")</eventItme></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=非普通住宅
+textcolor=#e0000000
+ut_centervertical=true
+layout_marginleft=15dp
+textsize=15dp</ppt>
+<event></event>
+</View>
+<View id="6" did="0" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+backgroundcolor=#6b6b6b6b
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="7" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=50dp
+background=through
+visibility=gone</ppt>
+<event><eventItme type="clicki">us(esf.22,"text","经济适用房")
+endutw()
+
+
+us(esf.30,"visibility","gone")
+us(esf.32,"visibility","gone")
+us(esf.25,"visibility","gone")
+us(esf.23,"visibility","gone")</eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=经济适用房
+textcolor=#e0000000
+ut_centervertical=true
+layout_marginleft=15dp
+textsize=15dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

@@ -1,0 +1,183 @@
+<View id="25" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=在线仿站
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+background=#ff005a9c
+backgroundcolor=#ff0070bd</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="LinearLayout">
+<ppt>width=-1
+height=25dp
+orientation=vertical
+backgroundcolor=#38000000</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=4dp
+background=@linye.tk-toolhb.v</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="EditText">
+<ppt>width=-1
+height=40dp
+text=http://
+gravity=center
+background=through
+textsize=12
+layout_margin=10dp
+hint=输入网址http://
+textCursorDrawable=#ff009eff</ppt>
+<event></event>
+</View>
+<View id="26" did="10" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="21" did="26" type="Button">
+<ppt>width=-1
+height=-2
+text=获取源代码
+textColor=#ffffffff
+layout_margin=10dp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">ug(11,"text",a)
+f(a?"ayjrw")
+{
+s text="nonono，不行呦"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+utw(null,"","正在获取中(需要网络)……","",false,vf)
+{
+}
+t()
+  {
+    hs(a, null, "utf-8", null,true, b)
+    syso(b)
+    ufnsui()
+      {
+        us(18,"text",b)
+        endutw(vf)
+        us(24,"visibility","visible")
+      }
+  }
+}</eventItme></event>
+</View>
+<View id="24" did="26" type="Button">
+<ppt>width=-1
+height=-2
+text=保存源代码
+textColor=#ffffffff
+layout_margin=10dp
+layout_weight=1
+visibility=gone</ppt>
+<event><eventItme type="clicki">ug(18,"text",qq)
+sran(1,99999,随机)
+ss("幻隐网luo/在线仿站"+随机+"html.txt",wj)
+fw(wj,qq)
+s text="已保存~"
+s stop = 2000
+fn color.ColorToast(text,stop)</eventItme></event>
+</View>
+<View id="20" did="10" type="ScrollView">
+<ppt>width=-1
+height=-1
+layout_marginRight=10dp
+layout_marginTop=10dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="18" did="20" type="TextView">
+<ppt>width=-1
+height=-1
+text=获取结果
+textIsSelectable=true
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+s id=25
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(12,颜色)
+fn 着色.控件着色(21,颜色)
+fn 着色.控件着色(24,颜色)
+fn 着色.控件着色(2,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(11,"background",背景)
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(10,a)
+gvs(20,b)
+javanew(mBs,mB,"Context",activity)
+urvw(20)
+nvw(mBs,10)
+nvw(b,mBs)</eventItme></UIEventset>

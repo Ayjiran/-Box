@@ -1,0 +1,181 @@
+<View id="176" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=帖子评论
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="175" did="0" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="41" did="175" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="149" did="41" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="165" did="149" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="166" did="165" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+BackgroundColor=#fff7f7f7
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="167" did="166" type="TextView">
+<ppt>width=-2
+height=-2
+text=温馨提示：不正当言论后果自负，严重将会被移交司法机关~
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#ff585858
+textIsSelectable=true
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="168" did="165" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="169" did="165" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="170" did="169" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@xgt/live_guess_fail_img_normal.v</ppt>
+<event></event>
+</View>
+<View id="171" did="169" type="TextView">
+<ppt>width=-2
+height=-2
+text=该帖子暂无评论
+textColor=#ff000000
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="172" did="149" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_gravity=center_horizontal
+background=white</ppt>
+<event></event>
+</View>
+<View id="173" did="172" type="GifView">
+<ppt>width=100dp
+height=100dp
+src=@gif.gif
+layout_gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">sss list=""
+uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=176
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)</eventItme><eventItme type="loadingComplete">t()
+{
+  ss 搜索="0"
+  time("Y",a)
+  time("m",m)
+  time("d",D)
+  time("H",e)
+  time("M",l)
+  time("S",v)
+  ss(a+m+D+e+l+v,dqsj)
+  sss 不再加载=""
+  sss ye="1"
+  sj(sss.tzurl,"?t/",".",sss.tzid)
+  ss(sss.tzurl+"?order=desc",tzurl)
+  hs(tzurl,null,"utf-8",null,true,axa)
+  sr(axa,"\"","",bbb)
+  sj(bbb,"&lt;div class=item","&lt;div class=wrap-box&gt;",bbb)
+  sl(bbb,"&lt;div class=item",ccc)
+  ufnsui()
+  {
+    for(mm;ccc)
+    {
+      sj(mm,"&lt;a href="," class=avatar target=_blank&gt;",grdz)
+      sj(grdz,"u/",".",yhm)
+      sj(mm,"src=","&gt;",txdz)
+      sj(mm,"&lt;span class=time&gt;","&lt;/span&gt;",fbsj)
+      strim(fbsj,fbsj)
+      sj(mm,"class=post-content&gt;","&lt;/div&gt;",pl)
+      strim(pl,pl)
+      sr(pl,"&lt;p&gt;","&lt;/p&gt;",pl)
+      sr(pl,"&lt;/p&gt;","",pl)
+      strim(yhm,yhm)
+      
+      f(pl?"null")
+      {
+        us(168,"visibility","gone")
+        us(169,"visibility","visible")
+      }
+      else
+      {
+        s(ss.搜索+1,ss.搜索)
+        
+        ula(sss.list,31=会员,5=yhm,6=fbsj,28=txdz,29=相框,9=pl)
+      }
+    }
+    uls(168,sss.list,"评论列表.iyu",-1,-2)
+    f(ss.搜索=="0")
+    {
+      us(172,"visibility","gone")
+      us(168,"visibility","gone")
+      us(169,"visibility","visible")
+    }
+    else
+    {
+      us(172,"visibility","gone")
+      us(169,"visibility","gone")
+      us(168,"visibility","visible")
+    }
+  }
+  
+}</eventItme><eventItme type="destroy">sss list=""</eventItme></UIEventset>

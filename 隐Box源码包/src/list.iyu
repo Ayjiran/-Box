@@ -1,0 +1,67 @@
+<View id="3" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+padding=3dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,2,a)
+sss uri=a
+utw("","提示","请选择你要执行的动作","选择","分享",false,d)
+{
+  end()
+}
+else
+{
+  fdir(sss.uri,ss)
+  syso(ss)
+  sit(e,"action","android.intent.action.SEND") 
+  sit(e,"type","*/*")
+  sit(e,"extra","android.intent.extra.STREAM",ss) 
+  uit(e,"chooser","分享")
+}</eventItme></event>
+</View>
+<View id="1" did="3" type="GifView">
+<ppt>width=100dp
+height=100dp</ppt>
+<event></event>
+</View>
+<View id="2" did="3" type="TextView">
+<ppt>width=100dp
+height=100dp
+text=文本2
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="ImageView">
+<ppt>width=100dp
+height=100dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,list.2,a)
+ug(a,"text",a)
+f(a?".png")
+{  
+  gvs(st_vW,list.4,c)
+  gvs(st_vW,list.1,cc)
+  us(cc,"visibility","gone")
+  us(c,"src",a)
+}
+else 
+{
+  gvs(st_vW,list.1,b)
+  gvs(st_vW,list.4,bb)
+  us(b,"src",a)
+  us(bb,"visibility","gone")
+}
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

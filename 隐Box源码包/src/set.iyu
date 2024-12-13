@@ -1,0 +1,401 @@
+<View id="25" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="31" did="25" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+orientation=horizontal
+gravity=center_vertical
+background=#ff00bfff</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="33" did="31" type="TextView">
+<ppt>width=-2
+height=-2
+text=功能设置
+textColor=#ffffffff
+textSize=17sp
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+background=white</ppt>
+<event></event>
+</View>
+<View id="44" did="26" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="28" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+layout_margintop=10dp</ppt>
+<event></event>
+</View>
+<View id="8" did="28" type="EditText">
+<ppt>hint=输入自定义准心符号
+width=-1
+height=40dp
+text=
+textcolor=#6c6c6c
+singleline=true
+background=#ffffff
+layout_margin=5dp
+textcolorhint=#ffc0c0c0
+textsize=12dp
+inputtype=number</ppt>
+<event></event>
+</View>
+<View id="9" did="28" type="Button">
+<ppt>text=更换样式
+width=-1
+height=40dp
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">ug(8,"text",a)
+fw(".zjlxf/text", a)
+gvs(sss.v,zxxf.1, x)
+us(x,"text",a)
+ss("已设置准心为  "+a+" ，由于各种符号的初始位置大小不一致，请自行到主功能界面微调大小及位置，直到自已感觉合适即可",b)
+utw(a, "提示", b, "确定", false, v)
+{
+syso("点击了确定")
+}</eventItme></event>
+</View>
+<View id="24" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margintop=10dp</ppt>
+<event></event>
+</View>
+<View id="22" did="24" type="Button">
+<ppt>width=-2
+height=-2
+text=⊙
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">ug(22,"text",a)
+fw(".zjlxf/text", a)
+gvs(sss.v,zxxf.1, x)
+us(x,"text",a)
+ss("已设置准心为  "+a+" ，由于各种符号的初始位置大小不一致，请自行到主功能界面微调大小及位置，直到自已感觉合适即可",b)
+utw(a, "提示", b, "确定", false, v)
+{
+syso("点击了确定")
+}</eventItme></event>
+</View>
+<View id="23" did="24" type="Button">
+<ppt>width=-2
+height=-2
+text=ⓞ
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">ug(23,"text",a)
+fw(".zjlxf/text", a)
+gvs(sss.v,zxxf.1, x)
+us(x,"text",a)
+ss("已设置准心为  "+a+" ，由于各种符号的初始位置大小不一致，请自行到主功能界面微调大小及位置，直到自已感觉合适即可",b)
+utw(a, "提示", b, "确定", false, v)
+{
+syso("点击了确定")
+}</eventItme></event>
+</View>
+<View id="29" did="24" type="Button">
+<ppt>width=-2
+height=-2
+text=⊕
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">ug(29,"text",a)
+fw(".zjlxf/text", a)
+gvs(sss.v,zxxf.1, x)
+us(x,"text",a)
+ss("已设置准心为  "+a+" ，由于各种符号的初始位置大小不一致，请自行到主功能界面微调大小及位置，直到自已感觉合适即可",b)
+utw(a, "提示", b, "确定", false, v)
+{
+syso("点击了确定")
+}</eventItme></event>
+</View>
+<View id="30" did="24" type="Button">
+<ppt>width=-2
+height=-2
+text=-.-
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">ug(30,"text",a)
+fw(".zjlxf/text", a)
+gvs(sss.v,zxxf.1, x)
+us(x,"text",a)
+ss("已设置准心为  "+a+" ，由于各种符号的初始位置大小不一致，请自行到主功能界面微调大小及位置，直到自已感觉合适即可",b)
+utw(a, "提示", b, "确定", false, v)
+{
+syso("点击了确定")
+}</eventItme></event>
+</View>
+<View id="34" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margintop=10dp</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="Button">
+<ppt>width=-2
+height=-2
+text=深绿色
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">s a="#ff00ff0c"
+fw(".zjlxf/color",a)
+tw("已设置为深绿色",0)
+gvs(sss.v,zxxf.1, x)
+us(x,"textcolor",a)</eventItme></event>
+</View>
+<View id="36" did="34" type="Button">
+<ppt>width=-2
+height=-2
+text=深蓝色
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">s a="#ff0400ff"
+fw(".zjlxf/color",a)
+tw("已设置为深蓝色",0)
+gvs(sss.v,zxxf.1, x)
+us(x,"textcolor",a)</eventItme></event>
+</View>
+<View id="37" did="34" type="Button">
+<ppt>width=-2
+height=-2
+text=黄绿色
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">s a="#ffc1ff00"
+fw(".zjlxf/color",a)
+tw("已设置为黄绿色",0)
+gvs(sss.v,zxxf.1, x)
+us(x,"textcolor",a)</eventItme></event>
+</View>
+<View id="38" did="34" type="Button">
+<ppt>width=-2
+height=-2
+text=天蓝色
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">s a="#ff00daff"
+fw(".zjlxf/color",a)
+tw("已设置为天蓝色",0)
+gvs(sss.v,zxxf.1, x)
+us(x,"textcolor",a)</eventItme></event>
+</View>
+<View id="39" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margintop=10dp</ppt>
+<event></event>
+</View>
+<View id="40" did="39" type="Button">
+<ppt>width=-2
+height=-2
+text=金黄色
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">s a="#fffff900"
+fw(".zjlxf/color",a)
+tw("已设置为金黄色",0)
+gvs(sss.v,zxxf.1, x)
+us(x,"textcolor",a)</eventItme></event>
+</View>
+<View id="41" did="39" type="Button">
+<ppt>width=-2
+height=-2
+text=大红色
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">s a="#ffff0015"
+fw(".zjlxf/color",a)
+tw("已设置为大红色",0)
+gvs(sss.v,zxxf.1, x)
+us(x,"textcolor",a)</eventItme></event>
+</View>
+<View id="42" did="39" type="Button">
+<ppt>width=-2
+height=-2
+text=纯白色
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">s a="#fdfdfdfd"
+fw(".zjlxf/color",a)
+tw("已设置为纯白色",0)
+gvs(sss.v,zxxf.1, x)
+us(x,"textcolor",a)</eventItme></event>
+</View>
+<View id="43" did="39" type="Button">
+<ppt>width=-2
+height=-2
+text=纯黑色
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">s a="#fd000000"
+fw(".zjlxf/color",a)
+tw("已设置为纯黑色",0)
+gvs(sss.v,zxxf.1, x)
+us(x,"textcolor",a)</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(31,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(22,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(9,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(30,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(23,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(29,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(35,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(36,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(37,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(38,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(40,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(41,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(42,"background",yg)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(43,"background",yg)
+
+swh("pxw",w)
+syso(w)
+s(w/2,hq)
+ss ht = hq
+ufnsui()
+{
+us(9,"width",hq)
+us(8,"width",hq)
+}
+
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">t()
+{
+syso("1")
+uyoumi("init", "2f6b5e1bbbb7aa08",  "5a5ff5067c20af1c", false, true)
+uyoumi("spot", false)
+for(1;99)
+{
+  stop(5000)
+  syso("2")
+ uyoumi("spot", false)
+  stop(5000)
+  syso("3")
+  uyoumi("spot", false)
+  stop(5000)
+  syso("4")
+  uyoumi("spot", false)
+  stop(5000)
+  syso("5")
+  uyoumi("spot", false)
+  stop(5000)
+  syso("6")
+  uyoumi("spot", false)
+  stop(5000)
+  syso("7")
+  uyoumi("spot", false)
+  }
+}</eventItme></UIEventset>

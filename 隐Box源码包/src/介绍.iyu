@@ -1,0 +1,57 @@
+<View id="23" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="1" did="23" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white
+layout_margin=10dp</ppt>
+<event>
+</event>
+</View>
+<View id="21" did="1" type="ViewPager">
+<ppt>width=-1
+height=-1
+ut_above=22</ppt>
+<event></event>
+</View>
+<View id="22" did="1" type="LinearLayout">
+<ppt>width=-1
+height=300dp
+orientation=vertical
+ut_alignParentBottom=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+gvs(21,mvp)
+call(null,"mjava","轮播.setdh",mvp)
+ug(20,"text",cm)
+ss("rm -r "+cm,sss.cm)
+call(null,"mlua","sc.m","sss.cm")
+addv(21,"启动1.iyu|启动2.iyu|启动3.iyu",v)
+
+/.
+
+</eventItme>
+<eventItme type="loadingComplete">ngde(0,10,"#ff00fbff|#ff00bcff","#ffffff","leftright",ab)
+us(19,"background",ab)
+t()
+  {
+     ufnsui()
+      {
+        dht(dh,200,0,0,0)
+        dh(dh,"duration",500)
+        us(21,"dh",dh)
+      }
+  
+    }
+</eventItme></UIEventset>

@@ -1,0 +1,89 @@
+<View id="8" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="6" did="8" type="LinearLayout">
+<ppt>width=80dp
+height=20dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event><eventItme type="touchmonitor">swh("pxw",w)
+swh("pxhh",h)
+zdp(6,px)
+zdp(12,py)
+s(w/2+px,x0)
+s(h/2+py,y0)
+f(st_eA==2)
+{
+  s(st_rX-x0,sss.x)
+  s(st_rY-y0,sss.y)
+  us(sss.xf,"x",sss.x)
+  us(sss.xf,"y",sss.y)
+  uxf(sss.xf)
+  }</eventItme><eventItme type="clicki">//</eventItme></event>
+</View>
+<View id="1" did="6" type="RelativeLayout">
+<ppt>width=30dp
+height=15dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=50dp
+height=-1
+src=null
+Background=@dl_b.v</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=1dp
+background=#ffb8f4ff</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="ImageView">
+<ppt>width=50dp
+height=-1
+src=null
+Background=#99ff99</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="ImageView">
+<ppt>width=15dp
+height=15dp
+src=null
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=30dp
+height=20dp
+text=100
+textColor=#0055bb
+textSize=14dp
+textStyle=bold
+gravity=center
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

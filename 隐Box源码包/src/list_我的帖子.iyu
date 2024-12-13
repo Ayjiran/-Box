@@ -1,0 +1,53 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+app_CardcornerRadius=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=15dp
+gravity=center
+BackgroundColor=#73f9f9f9</ppt>
+<event><eventItme type="clicki">ulag(st_vW,5,bkid)
+ss(sss.api+"?t/"+bkid+".html",sss.tzurl)
+    uigo("详情.iyu")
+    fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }</eventItme></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=帖子名称
+textSize=15sp
+textColor=#333333
+</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本5
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@359f2e93557.png</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

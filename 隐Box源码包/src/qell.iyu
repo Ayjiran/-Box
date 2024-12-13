@@ -1,0 +1,90 @@
+<View id="6" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=5dp
+layout_margin=8dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,-1,id)
+ulag(st_vW,4,mz)
+ulag(st_vW,8,jj)
+ulag(st_vW,5,tp)
+
+
+fn mlun.aqe(id,mz,jj,tp)</eventItme></event>
+</View>
+<View id="1" did="6" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="2" did="7" type="WebView">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本4
+singleLine=true
+ellipsize=end
+textSize=12dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本5
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="10" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">ulag(st_vW,-1,id)
+ulag(st_vW,4,mz)
+ulag(st_vW,8,jj)
+ulag(st_vW,5,tp)
+sss ii=mz
+fn mlun.aqe(id,mz,jj,tp)</eventItme></event>
+</View>
+<View id="8" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本8
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,qell.2,id2)
+gvs(st_vW,qell.5,id5)
+ug(id5,"text",tp)
+fr("@tp.txt",tpp)
+sr(tpp,"β",tp,c)
+s d = "utf-8"
+s e = "text/html"
+us(id2, "url", c, d, e, f)
+
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

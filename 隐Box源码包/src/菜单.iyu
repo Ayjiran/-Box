@@ -1,0 +1,316 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=through
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="2" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="4" did="5" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardmaxElevation=0</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="16" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ss("幻隐网luo/"+sss.wjlb,sss.wj)
+f(sss.wj?"png"||sss.wj?"jpg")
+{
+  sss 网络图片="否"
+  uigo("png.iyu")
+}
+else f(sss.wj?"mp3"||sss.wj?"m4a")
+{
+  bfms(sss.b,"pe")
+  sss 本地音乐="是"
+  sss 音乐地址=sss.wj
+  uigo("音乐播放.iyu")
+}
+else f(sss.wj?"text"||sss.wj?"txt"||sss.wj?"html"||sss.wj?"js"||sss.wj?"css"||sss.wj?"php")
+{
+  uigo("文本编辑.iyu")
+}
+else f(sss.wj?"mp4"||sss.wj?"v")
+{
+  uigo("本地视频播.iyu")
+  sss mz=sss.wjlb
+  sss wwz=sss.wj
+}
+else f(sss.wj?"apk")
+{
+  fo(sss.wj)
+}
+else
+{
+  s stop = 2000
+  s text="该文件无法被打开~~"
+  fn color.ColorToast(text,stop)
+}
+fn tool.endubt()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="17" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=打开本文件
+textColor=#ff00b5ff
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="15" did="7" type="TextView">
+<ppt>width=-1
+height=0.3dp
+text=
+background=#332b2b2b</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ss("/sdcard/幻隐网luo/"+sss.wjlb,yxlj)
+sit(a, "action", "android.intent.action.SEND") 
+sit(a, "type", "*/*") 
+sit(a, "extra", "android.intent.extra.STREAM",yxlj) 
+uit(a, "chooser", "分享") 
+fn tool.endubt()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="11" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=分享给朋友
+textColor=#ff00b5ff
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="18" did="7" type="TextView">
+<ppt>width=-1
+height=0.3dp
+text=
+background=#332b2b2b</ppt>
+<event></event>
+</View>
+<View id="19" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">utw(null,"","转移.iyu",false,sss.ut)
+{
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+gvs(sss.ut,4,a)
+us(a,"text",sss.wjlb)
+fn tool.endubt()</eventItme></event>
+</View>
+<View id="20" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+text=修改文件名
+textColor=#ff00b5ff
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="21" did="7" type="TextView">
+<ppt>width=-1
+height=0.3dp
+text=
+background=#332b2b2b</ppt>
+<event></event>
+</View>
+<View id="22" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center
+visibility=gone</ppt>
+<event><eventItme type="clicki">sj(sss.wu,"文件备份/",null,kk)
+ss("%"+kk,路径)
+fc(sss.wu,路径,状态)
+f(状态=="true")
+{
+s text="复制成功"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+  else
+  {
+    s text="复制失败"
+s stop = 2000
+fn color.ColorToast(text,stop)
+  }
+fn tool.endubt()</eventItme></event>
+</View>
+<View id="23" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=复制到根目录
+textColor=#ff111111
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="24" did="7" type="TextView">
+<ppt>width=-1
+height=0.3dp
+text=
+background=#332b2b2b
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="26" did="7" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ss("幻隐网luo/"+sss.wjlb,wjlb)
+fd(wjlb,t)
+f(t=="true")
+{
+  s text="删除成功"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+  t()
+  {
+    fl("幻隐网luo/",false, b)
+    ss 列表数量="0"
+    for(c; b)
+    {
+      ula(list,7=c)
+      s(ss.列表数量+1,ss.列表数量)
+    }
+    ufnsui()
+    {
+      f(ss.列表数量=="0")
+      {
+        us(广场.35,"visibility","gone")
+        us(广场.43,"visibility","visible")
+        us(广场.44,"visibility","visible")
+      }
+      else
+      {
+        uls(广场.35,list,"文件2.iyu",-1,-2)
+        us(广场.35,"divider","#ff00ff38")
+        us(广场.43,"visibility","gone")
+        us(广场.44,"visibility","gone")
+        us(广场.35,"visibility","visible")
+      }
+    }
+  }
+}
+else
+{
+  s text="删除失败"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+}
+fn tool.endubt()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=删除文件
+textColor=#ffff0000
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="9" did="2" type="CardView">
+<ppt>width=-1
+height=50dp
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardmaxElevation=0
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="6" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#ffffffff
+layout_marginTop=10dp</ppt>
+<event><eventItme type="clicki">fn tool.endubt()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="10" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=取消
+textColor=#ff00b5ff
+textSize=18dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

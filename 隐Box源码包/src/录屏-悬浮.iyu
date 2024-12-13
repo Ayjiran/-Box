@@ -1,0 +1,203 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=60dp
+height=60dp
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme><eventItme type="press">uxf(sss.vv,"del")
+sss vv=null
+</eventItme></event>
+</View>
+<View id="7" did="2" type="RoundImageView">
+<ppt>width=34dp
+height=34dp
+src=@lp/player_pause.v
+visibility=gone</ppt>
+<event><eventItme type="clicki">
+gvs(sss.vv,录屏-悬浮.3,g3)
+gvs(sss.vv,录屏-悬浮.6,g4)
+gvs(sss.vv,录屏-悬浮.7,g5)
+ug(g5,"visibility",tt)
+
+.隐藏8,显示0
+
+f(tt=="8")
+{
+us(g4,"visibility","8")
+us(g5,"visibility","0")
+}
+else f(tt=="0")
+{
+us(g4,"visibility","0")
+us(g5,"visibility","8")
+}
+
+
+
+
+blp("ip",b)
+f(b==true)
+{
+//停止录制
+blp("sp", b)
+us(g3,"text", "未录制")
+ss("保存至幻隐网luo/"+sss.b,sss.bc)
+//设置显示图标
+ftz("录屏已保存", "已保存录屏文件", sss.bc,"@lp/icon.v")
+{
+//ok
+s stop = 2000
+s text=sss.bc
+fn color.ColorToast(text,stop)
+//ok
+}
+//转移文件
+ss("幻隐网luo/"+sss.b+"",bb)
+ft(sss.b, bb, cc)
+}
+}
+
+</eventItme><eventItme type="touchmonitor">swh("pxw",w)
+swh("pxhh",h)
+swh("pxh",h1)
+zdp(6,px)
+zdp(12,py)
+s(w/2+px,x0)
+s(h/2+py,y0)
+f(st_eA==2)
+{
+  s(st_rX-x0,sss.x)
+  s(st_rY-y0,sss.y)
+  us(sss.vv,"x",sss.x)
+  us(sss.vv,"y",sss.y)
+  uxf(sss.vv)
+}</eventItme></event>
+</View>
+<View id="6" did="2" type="RoundImageView">
+<ppt>width=34dp
+height=34dp
+src=@lp/icon.v</ppt>
+<event><eventItme type="touchmonitor">swh("pxw",w)
+swh("pxhh",h)
+swh("pxh",h1)
+zdp(6,px)
+zdp(12,py)
+s(w/2+px,x0)
+s(h/2+py,y0)
+f(st_eA==2)
+{
+  s(st_rX-x0,sss.x)
+  s(st_rY-y0,sss.y)
+  us(sss.vv,"x",sss.x)
+  us(sss.vv,"y",sss.y)
+  uxf(sss.vv)
+}</eventItme><eventItme type="clicki">
+gvs(sss.vv,录屏-悬浮.3,g3)
+gvs(sss.vv,录屏-悬浮.6,g4)
+gvs(sss.vv,录屏-悬浮.7,g5)
+ug(g5,"visibility",tt)
+
+//获取屏幕宽度的dp
+s a1 = "pxw"
+swh(a1, w1)
+//获取屏幕高度的dp
+s a2 = "pxh"
+swh(a2, w2)
+
+
+.隐藏8,显示0
+
+f(tt=="8")
+{
+us(g4,"visibility","8")
+us(g5,"visibility","0")
+}
+else f(tt=="0")
+{
+us(g4,"visibility","0")
+us(g5,"visibility","8")
+}
+
+
+
+fr("$.画质",画质)
+
+f(画质=="标清")
+{
+  
+time(4,a)
+ss("标清"+a+".mp4",b)
+sss b=b
+blp(b,w1, w2, 3888800, 60)
+//放在载入事件
+
+blp("ip",b)
+f(b!=true)
+{
+//开始录制
+blp("st", b)
+us(g3,"text", "录制中")
+}
+
+}
+else f(画质=="高清")
+{
+
+time(4,a)
+ss("高清"+a+".mp4",b)
+sss b=b
+blp(b,w1, w2, 5888800, 60)
+//放在载入事件
+
+blp("ip",b)
+f(b!=true)
+{
+//开始录制
+blp("st", b)
+us(g3,"text", "录制中")
+}
+
+}
+else f(画质=="超清")
+{
+
+time(4,a)
+ss("超清"+a+".mp4",b)
+sss b=b
+blp(b,w1, w2, 8888800, 60)
+//放在载入事件
+
+blp("ip",b)
+f(b!=true)
+{
+//开始录制
+blp("st", b)
+us(g3,"text", "录制中")
+}
+
+}</eventItme></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=未录制
+textcolor=#ffffffff</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

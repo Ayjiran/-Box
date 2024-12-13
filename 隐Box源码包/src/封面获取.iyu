@@ -1,0 +1,301 @@
+<View id="26" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=封面提取
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="20" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=bilibili
+textSize=30dp
+textStyle=bold
+textColor=#ff00bfff
+layout_marginBottom=20dp
+layout_marginTop=30dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=输入bv号
+textSize=11sp
+textStyle=bold
+textColor=#ff00b1ff</ppt>
+<event></event>
+</View>
+<View id="7" did="3" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+singleLine=true
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">dhs(dh, 0.9, 1, 0.9, 1, 1, 0.9, 1, 0.9)
+dh(dh, "duration", 100)
+us(4, "dh", dh)
+us(8,"visibility","gone")
+us(21,"visibility","visible")
+
+t()
+{
+  ug(7,"text",bili)
+  f(bili=="")
+  {
+    ufnsui()
+    {
+    s stop = 2000
+s text="请输入bv号"
+fn color.ColorToast(text,stop)
+    }
+  }
+  else f(bili ? "av")
+  {
+    ufnsui()
+    {
+    s stop = 2000
+s text="格式错误"
+fn color.ColorToast(text,stop)
+    }
+  }
+  else
+  {
+    ss("https://bilibili.huangyuehe.com/getbilibili.php?&bvid="+bili,url)
+    hs(url,jurl)
+    json(jurl,jo)
+    //syso(jo)
+    //视频封面
+    json(jo,"get","pic",pic)
+    //头像
+    json(jo,"get","face",face)
+    //标题
+    json(jo,"get","title",title)
+    //uid
+    json(jo,"get","mid",mia)
+    //封面sss.名称
+    json(jo,"get","picName",sss.picname)
+    //up主
+    json(jo,"get","name",name)
+    call(uface,"mjava","接口.getInternetPicture",face)
+    call(upic,"mjava","接口.getInternetPicture",pic)
+    ss("UID："+mia,umia)
+    ufnsui()
+    {
+      us(11,"src",uface)
+      us(12,"text",name)
+      us(14,"text",umia)
+      us(17,"src",upic)
+      us(19,"text",title)
+      f(upic?"android")
+      {
+        us(21,"visibility","gone")
+        us(8,"visibility","visible")
+        dhas(dh, 8, "scaleX", 0, 1)
+        dh(dh, "duration", 100)
+        dh(dh, "start")
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="5" did="4" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@Bibi/coa.v
+layout_marginLeft=5dp
+layout_marginRight=5dp
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_margin=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="CardView">
+<ppt>width=50dp
+height=50dp
+app_CardcornerRadius=25dp
+app_CardElevation=6dp
+layout_margin=15dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="ImageView">
+<ppt>width=-1
+height=-1
+src=null</ppt>
+<event></event>
+</View>
+<View id="15" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=0628的主场
+layout_marginLeft=10dp
+textStyle=bold
+textSize=18sp</ppt>
+<event></event>
+</View>
+<View id="13" did="15" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+layout_marginLeft=10dp
+BackgroundColor=#BFE5E5E5</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=uid：666
+textSize=11sp
+layout_margin=3dp</ppt>
+<event></event>
+</View>
+<View id="16" did="9" type="RelativeLayout">
+<ppt>width=-1
+height=200dp
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="ImageView">
+<ppt>width=-1
+height=-1
+src=17301567</ppt>
+<event><eventItme type="clicki">javanew(ss.弹窗,"android.support.design.widget.BottomSheetDialog","Context",activity)
+nvw(-1,null,"线性布局","width=-1\nheight=-1\norientation=vertical\nbackgroundcolor=0",载体)
+addv(载体,"图片.iyu")
+java(null,ss.弹窗,"android.app.Dialog.setContentView","android.view.View",载体)
+java(null,ss.弹窗,"android.app.Dialog.setCancelable","boolean",true)
+java(null,ss.弹窗,"android.app.Dialog.setCanceledOnTouchOutside","boolean",true)
+java(delegate,ss.弹窗,"com.google.android.material.bottomsheet.BottomSheetDialog")
+javags(id,null,"android.support.design.R$id","design_bottom_sheet")
+java(弹窗根控件,delegate,"android.support.v7.app.AppCompatDelegate.findViewById","int",id)
+us(弹窗根控件,"backgroundcolor",0)
+java(null,ss.弹窗,"android.app.Dialog.show")
+javags(behavior,ss.弹窗,"android.support.design.widget.BottomSheetDialog","mBehavior")
+java(null,behavior,"android.support.design.widget.BottomSheetBehavior.setState","int",1)
+gvs(载体,图片.6,sss.lu)
+gvs(载体,图片.9,sss.ming)
+
+tot(17,sss.图)
+gvs(载体,图片.3,sss.tu)
+us(sss.tu,"src",sss.图)
+us(sss.ming,"text",sss.picname)</eventItme></event>
+</View>
+<View id="18" did="16" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+ut_alignParentBottom=true
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=我是视频标题
+layout_marginLeft=20dp
+textStyle=bold
+textColor=#ffffff</ppt>
+<event></event>
+</View>
+<View id="21" did="1" type="ProgressBar">
+<ppt>width=40dp
+height=40dp
+style=16842874
+layout_marginTop=20dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=26
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(7,颜色)
+fn 着色.控件着色(22,颜色)
+fn 着色.控件着色(7,颜色)
+fn 着色.控件着色(21,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(7,"background",背景)</eventItme><eventItme type="loadingComplete">//颜色渐变。输入边框宽度，输入圆角半径，输入背景填充渐变色组，输入边框颜色，输入颜色渐变方向，输入赋值变量
+s a = 0
+s b = 0
+s c = "#57121212|#57868686|#00000000"
+s d = "#00000000"
+s e = "leftright"
+ngde(a, b, c, d, e, f)
+us(18,"background",f)</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

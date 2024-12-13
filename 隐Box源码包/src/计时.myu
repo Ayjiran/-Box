@@ -1,0 +1,44 @@
+fn 计时()
+
+
+ t()
+{
+
+s a=33
+//&lt;10&gt;是倒计时的秒数
+w(a!=0)
+{
+
+s(a-1,a)
+
+ufnsui()
+{
+ss("倒计时："+a+"秒",b)
+gvs(sss.v,兵ufx.28, ff)
+us(ff,"text",b)
+}
+
+f(a==0)
+{
+
+ufnsui()
+{
+tw("兵线已经刷新")
+gvs(sss.v,兵ufx.28, ff)
+us(ff,"text",b)
+}
+
+}
+ f(sss.ok==1)
+              {
+                break
+              }
+            else
+              {
+
+stop(1000)
+
+}
+}
+}
+end fn

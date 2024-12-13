@@ -1,0 +1,19 @@
+fn a()
+//一直均速旋转
+javanew(drs,"android.view.animation.RotateAnimation","float",0,"float",360,"int",1,"float",0.5,"int",1,"float",0.5)
+
+dh(drs,"duration",7000)
+
+java(null,drs,"android.view.animation.Animation.setRepeatCount","int",-1)
+
+java(null,drs,"android.view.animation.Animation.setRepeatMode","int",1)
+
+javanew(lin,"android.view.animation.LinearInterpolator")
+
+java(null,drs,"android.view.animation.Animation.setInterpolator","android.view.animation.Interpolator",lin)
+
+us(主页的1.95, "dh", drs)
+
+sss drs = drs
+
+end fn

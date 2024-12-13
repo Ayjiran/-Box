@@ -1,0 +1,15 @@
+fn 按钮着色(id,color)
+cls("android.view.View",view)
+cls("android.graphics.PorterDuff$Mode",pdm)
+cls("android.graphics.Color",gc)
+cls("android.graphics.PorterDuffColorFilter",pdf)
+cls("android.graphics.drawable.Drawable",dr)
+cls("android.graphics.ColorFilter",cf)
+
+gvs(id,ID)
+javax(bk,ID,view,"getBackground")
+javags(sa,null,pdm,"SRC_ATOP")
+javax(cl,null,gc,"parseColor","String",color)
+javanew(pd,pdf,"int",cl,pdm,sa)
+javax(null,bk,dr,"setColorFilter",cf,pd)
+end fn

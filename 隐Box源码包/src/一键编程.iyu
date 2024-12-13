@@ -1,0 +1,436 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="40" did="2" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=一键编程
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="7" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginTop=100dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp
+app_CardcornerRadius=30dp</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=30dp</ppt>
+<event></event>
+</View>
+<View id="14" did="10" type="TextInputLayout">
+<ppt>width=-1
+height=-2
+layout_marginTop=30dp</ppt>
+<event></event>
+</View>
+<View id="16" did="14" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=软件名称</ppt>
+<event></event>
+</View>
+<View id="17" did="10" type="TextInputLayout">
+<ppt>width=-1
+height=-2
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=软件包名</ppt>
+<event></event>
+</View>
+<View id="19" did="10" type="TextInputLayout">
+<ppt>width=-1
+height=-2
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=版本名</ppt>
+<event></event>
+</View>
+<View id="21" did="10" type="TextInputLayout">
+<ppt>width=-1
+height=-2
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=网页地址
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="28" did="10" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="30" did="28" type="Button">
+<ppt>width=-1
+height=38dp
+text=现在生成
+background=#ff00b2ff
+typeface=serif
+textsize=13dp
+textcolor=#ffffff</ppt>
+<event><eventItme type="clicki">ug(16, "text", appName)
+ug(18, "text", appPackageName)
+ug(20, "text", appVersionName)
+ug(22, "text", url)
+
+fr("$data/app/appConfig.xlt", config)
+json(config, jo)
+json(jo, "set", "appName", appName)
+json(jo, "set", "appPackageName", appPackageName)
+json(jo, "set", "appVersionName", appVersionName)
+json(jo, "get", "data", data)
+json(data, "set", "启动页面", url)
+json(jo, "json", text)
+sr(text, "\,", "\,\n", text)
+sr(text, "{", "{\n", text)
+sr(text, "}", "\n}", text)
+fw("$data/app/appConfig.xlt", text)
+
+
+sss projectPath = "$data/app/"    
+sss cacheHome = "%WebPackage"
+//fr("$data/app/appConfig.xlt", config)
+//json(config, jo)
+//json(jo, "get", "appName", appName)
+s fileName = appName
+
+
+    // -- apk打包 -- //
+    // 解压安装包压缩包到数据中心
+    fuzs("@data/MyApp2", "$data/apkCache/MyApp/", result)
+    f(! result)
+    { 
+      tw("打包失败，错误代码：2001")
+      endcode
+    }
+    // 压缩工程
+    fj(sss.projectPath, "$data/apkCache/"+fileName+".zip", result)
+    f(! result)
+    {
+      tw("打包失败，错误代码：2002")
+      endcode
+    }
+    // 解压工程到安装包
+    fuzs("$data/apkCache/"+fileName+".zip", "$data/apkCache/MyApp/assets/webcat/", result)
+    f(! result)
+    {
+      tw("打包失败，错误代码:2003")
+      endcode
+    }
+    // 复制图标
+    fe(sss.projectPath+"appIcon.png", result)
+    f(result)
+    {
+      fc(sss.projectPath+"appIcon.png", "$data/apkCache/MyApp/res/mipmap-xxxhdpi/icon.png", result)
+      fc(sss.projectPath+"appIcon.png", "$data/apkCache/MyApp/res/mipmap-xxhdpi/icon.png", result)
+      fc(sss.projectPath+"appIcon.png", "$data/apkCache/MyApp/res/mipmap-xhdpi/icon.png", result)
+    }
+    
+  //  fr("$data/apkCache/MyApp/assets/webcat/appConfig.xlt", config)
+//    json(config, configJson)
+//    json(configJson, "get", "appName", appName)
+//    json(configJson, "get", "appPackageName", appPackageName)
+//    json(configJson, "get", "appVersionName", appVersionName)
+//    json(configJson, "get", "appVersionCode", appVersionCode)
+   
+    s xmlPath = "$data/apkCache/MyApp/AndroidManifest.xml"
+    fdir(xmlPath, xmlPath)
+    
+    // 编译xml
+    loadjar("xmlUtil.dex", xmlUtil)
+    cls(xmlUtil,"com.Day.Studio.Function.ApkXmlEditor", xmlClass)
+    javanew(xml, xmlClass)
+    javass(null,xml,xmlClass,"appPack",appPackageName)
+    javass(null,xml,xmlClass,"appName",appName)
+    javass(null,xml,xmlClass,"appBcode",appVersionCode)
+    javass(null,xml,xmlClass,"appBname",appVersionName)
+    javass(null,xml,xmlClass,"paht",xmlPath)
+    javax(result,xml,xmlClass,"operation")
+    f(! result)
+    {
+      tw("打包失败，错误代码:2004")
+      endcode
+    }
+  
+    // 解压wc.js到APP
+    fuzs("@data/AppJs.zip", "$data/apkCache/MyApp/assets/webcat/js", appjs)
+    
+    //改 ss("$data/apkCache/"+fileName+".apk", inputApkPath)
+    ss(sss.cacheHome+"/data/"+fileName+".apk", inputApkPath)
+    // 压缩成APK
+    fj("$data/apkCache/MyApp/", inputApkPath, result)
+    f(! result)
+    {
+      tw("打包失败，错误代码:2005")
+      endcode
+    }
+    
+
+    // 签名apk
+    loadjar("apkUtil.dex",apkUtil)
+    cls(apkUtil,"陌年.生成器.签名插件",signClass)
+    //改 s keyPath = "$data/apkCache/66.jks"
+    ss(sss.cacheHome+"data/66", keyPath)
+    fc("@data/66",keyPath,true,result)
+    ss(sss.cacheHome + fileName + " v" + appVersionName + ".apk",outputApkPath)  
+    // 进行签名
+    fdir(inputApkPath, inputApkPath)
+    fdir(outputApkPath, outputApkPath)
+    fdir(keyPath, keyPath)
+    
+    javax(result,null,signClass,"签名","String",keyPath,"String","789123.","String","66","String","789123.","String",inputApkPath,"String",outputApkPath)
+    f(! result)
+    {
+      tw("打包失败，错误代码:2006")
+      sxb(inputApkPath + "!" + outputApkPath + "!" + keyPath)
+      endcode
+    }
+    tw("打包成功，文件路径：" + outputApkPath)    
+    fo(outputApkPath)
+    fn FileUtil.delDir("$data/apkCache")
+    fd(sss.cacheHome + "data/66", re)
+    fd(sss.cacheHome + "data/" + fileName + ".apk", re)
+</eventItme></event>
+</View>
+<View id="32" did="10" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="Button">
+<ppt>width=-1
+height=38dp
+text=高级配置
+background=#ff00b2ff
+typeface=serif
+textsize=13dp
+textcolor=#ffffff</ppt>
+<event><eventItme type="clicki">ug(16, "text", appName)
+ug(18, "text", appPackageName)
+ug(20, "text", appVersionName)
+ug(22, "text", url)
+
+fr("$data/app/appConfig.xlt", config)
+json(config, jo)
+json(jo, "set", "appName", appName)
+json(jo, "set", "appPackageName", appPackageName)
+json(jo, "set", "appVersionName", appVersionName)
+json(jo, "get", "data", data)
+json(data, "set", "启动页面", url)
+json(jo, "json", text)
+sr(text, "\,", "\,\n", text)
+sr(text, "{", "{\n", text)
+sr(text, "}", "\n}", text)
+fw("$data/app/appConfig.xlt", text)
+ 
+
+uigo("edit.iyu")</eventItme></event>
+</View>
+<View id="26" did="10" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+textSize=12dp
+text=幻隐网络提供技术支持
+ut_centerInParent=true
+textColor=#ffbbbbbb
+layout_margin=10dp</ppt>
+<event><eventItme type="clicki">hws("http://webcat.top")</eventItme></event>
+</View>
+<View id="11" did="1" type="CardView">
+<ppt>width=80dp
+height=80dp
+app_CardcornerRadius=50dp
+layout_marginTop=110dp
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="RoundImageView">
+<ppt>width=70dp
+height=70dp
+src=@icon.v
+ut_centerInParent=true</ppt>
+<event><eventItme type="clicki">call(null,"mlua","lua.getSrc")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">
+uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=40
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(30,颜色)
+fn 着色.控件着色(33,颜色)
+fr("$幻隐网络/配置/yx.txt",yg)
+fe("$data/app/appConfig.xlt", fee)
+f(! fee)
+{
+  fuzs("@data/app.zip", "$data/app/", fuzss)
+}</eventItme><eventItme type="loadingComplete">
+us(13, "src", "$data/app/appIcon.png")
+
+fr("$data/app/appConfig.xlt", config)
+json(config, jo)
+json(jo, "get", "appName", appName)
+json(jo, "get", "appPackageName", appPackageName)
+json(jo, "get", "appVersionName", appVersionName)
+json(jo, "get", "data", data)
+json(data, "get", "启动页面", url)
+us(16, "text", appName)
+us(18, "text", appPackageName)
+us(20, "text", appVersionName)
+us(22, "text", url)
+
+f(appName == null || appName == "null")
+{
+  fc("$data/app/appConfigBak.xlt", "$data/app/appConfig.xlt", fc)
+  fr("$data/app/appConfig.xlt", config)
+  json(config, jo)
+  json(jo, "get", "appName", appName)
+  json(jo, "get", "appPackageName", appPackageName)
+  json(jo, "get", "appVersionName", appVersionName)
+  json(jo, "get", "data", data)
+  json(data, "get", "启动页面", url)
+  us(16, "text", appName)
+  us(18, "text", appPackageName)
+  us(20, "text", appVersionName)
+  us(22, "text", url)
+}
+
+</eventItme><eventItme type="restart">fr("$data/app/appConfig.xlt", config)
+json(config, jo)
+json(jo, "get", "appName", appName)
+json(jo, "get", "appPackageName", appPackageName)
+json(jo, "get", "appVersionName", appVersionName)
+json(jo, "get", "data", data)
+json(data, "get", "启动页面", url)
+us(16, "text", appName)
+us(18, "text", appPackageName)
+us(20, "text", appVersionName)
+us(22, "text", url)
+
+f(appName == null || appName == "null")
+{
+  fc("$data/app/appConfigBak.xlt", "$data/app/appConfig.xlt", fc)
+  fr("$data/app/appConfig.xlt", config)
+  json(config, jo)
+  json(jo, "get", "appName", appName)
+  json(jo, "get", "appPackageName", appPackageName)
+  json(jo, "get", "appVersionName", appVersionName)
+  json(jo, "get", "data", data)
+  json(data, "get", "启动页面", url)
+  us(16, "text", appName)
+  us(18, "text", appPackageName)
+  us(20, "text", appVersionName)
+  us(22, "text", url)
+}
+
+</eventItme><eventItme type="onactivityresult">javags(io,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==io)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path,"mlua","lua.getPath",uri)
+    ufnsui()
+    {
+      fdir(sd)
+      ss(sd+"/",sd)
+      sr(path,sd,"%",sss.imgPath)
+      us(13, "src", sss.imgPath)
+      fc(sss.imgPath, "$data/app/appIcon.png", fc)
+    }
+  }
+}
+
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

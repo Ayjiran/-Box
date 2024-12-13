@@ -1,0 +1,124 @@
+<View id="6" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=10dp
+layout_marginRight=10dp
+BackgroundColor=#fff7f7f7
+layout_marginTop=10dp
+layout_marginBottom=10dp
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=官方温馨提示：理性购买，合理消费，虚拟产品一经出售概不退换！
+layout_margin=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+textColor=#9c000000
+textIsSelectable=true
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RecyclerView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="11" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=right|center
+visibility=</ppt>
+<event></event>
+</View>
+<View id="8" did="11" type="CardView">
+<ppt>width=-2
+height=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#13000cb6
+app_CardcornerRadius=30dp
+layout_marginRight=-20dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("发商品.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="10" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=我要卖货
+textSize=13sp
+textColor=#ffffff
+textStyle=bold
+layout_marginRight=20dp
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="CardView">
+<ppt>width=-2
+height=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#13000cb6
+app_CardcornerRadius=30dp
+layout_marginRight=-20dp
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=怎么消费
+textSize=13sp
+textColor=#ffffff
+textStyle=bold
+layout_marginRight=20dp
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="16" did="11" type="GifView">
+<ppt>width=100dp
+height=100dp
+src=@gif.gif
+layout_gravity=center</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

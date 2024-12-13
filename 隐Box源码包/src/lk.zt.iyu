@@ -1,0 +1,698 @@
+<View id="63" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="1" did="63" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+focusableintouchmode=true
+background=through</ppt>
+<event></event>
+</View>
+<View id="65" did="1" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=特殊文字
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+hint=输入需要制作的文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+layout_margin=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="TextView">
+<ppt>width=-1
+height=40dp
+text=生成
+singleline=true
+background=#ff00bfff
+layout_margin=5dp
+textsize=14dp
+gravity=center
+textcolor=#ffffff
+layout_margin=10dp</ppt>
+<event><eventItme type="clicki">ug(5,"text",iiu)
+utw(null,"","生成中...","",false,d)
+{
+
+}
+..花藤
+sr(iiu,""," ั͡ζั͡",iou)
+sr(iou," ","",iou)
+ss(iou+"✾",ik)
+us(40,"text",ik)
+..ℳℓ文
+sr(iiu,"","ℳℓ",iou)
+sr(iou," ","",ik)
+us(41,"text",ik)
+
+..带刺文字
+sr(iiu,"","ۣۖิ",iou)
+sr(iou," ","",ik)
+us(43,"text",ik)
+
+..叶子文字
+ssg(iiu,null,1,jk)
+sr(iiu,"","❧❦",iou)
+sj(iou,"❧❦",jk,iom)
+ss("❦"+iom,ik)
+us(44,"text",ik)
+
+..已认证
+ss(iiu+"✅已认证💯",ik)
+us(42,"text",ik)
+
+..菊花文
+sr(iiu,"","҉",ik)
+us(45,"text",ik)
+
+.非法网名
+sr(" ‮ ‮ ‮ ‮ ‮ ‮ ‮腾讯客服","腾讯客服",iiu,ik)
+us(46,"text",ik)
+
+..竖立
+sr(iiu,"","\n",ik)
+us(47,"text",ik)
+
+..菱形文
+sr(iiu,"","⃟",ik)
+us(48,"text",ik)
+
+..禁止文
+sr(iiu,"","⃠",ik)
+us(49,"text",ik)
+
+..列表前排网名
+ss("a'ゞ"+iiu,ik)
+us(58,"text",ik)
+
+..胶囊网名
+sr(iiu,"","⃢",ik)
+us(50,"text",ik)
+
+..圈圈网名
+sr(iiu,"","⃘⃘",ik)
+us(52,"text",ik)
+
+..小棒文
+sr(iiu,"","⃓",ik)
+us(51,"text",ik)
+
+..颠倒网名
+ss("ﮥ"+iiu,ik)
+us(55,"text",ik)
+endutw()
+</eventItme></event>
+</View>
+<View id="8" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="21" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=花藤文字
+layout_marginleft=10dp
+textcolor=#87000000</ppt>
+<event></event>
+</View>
+<View id="40" did="10" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="22" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=ℳℓ文ℳℓ字ℳℓ
+layout_marginleft=10dp
+textcolor=#87000000</ppt>
+<event></event>
+</View>
+<View id="41" did="11" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="12" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="23" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=✅已认证💯
+layout_marginleft=10dp
+textcolor=#87000000</ppt>
+<event></event>
+</View>
+<View id="42" did="12" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="13" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="24" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=带刺文字</ppt>
+<event></event>
+</View>
+<View id="43" did="13" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="14" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="25" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=叶子文字</ppt>
+<event></event>
+</View>
+<View id="44" did="14" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="15" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="26" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=菊花文</ppt>
+<event></event>
+</View>
+<View id="45" did="15" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="16" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="27" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=非法网名</ppt>
+<event></event>
+</View>
+<View id="46" did="16" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="17" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="28" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=竖立网名</ppt>
+<event></event>
+</View>
+<View id="47" did="17" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="18" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="29" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=菱形文字</ppt>
+<event></event>
+</View>
+<View id="48" did="18" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="19" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="30" did="19" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=禁止文</ppt>
+<event></event>
+</View>
+<View id="49" did="19" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="20" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="31" did="20" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=胶囊文</ppt>
+<event></event>
+</View>
+<View id="50" did="20" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="32" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="36" did="32" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=小棒文</ppt>
+<event></event>
+</View>
+<View id="51" did="32" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="33" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="37" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=圈圈文</ppt>
+<event></event>
+</View>
+<View id="52" did="33" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="53" did="33" type="CheckBox">
+<ppt>width=-2
+height=-2
+text=多选项53</ppt>
+<event></event>
+</View>
+<View id="54" did="33" type="CheckBox">
+<ppt>width=-2
+height=-2
+text=多选项54</ppt>
+<event></event>
+</View>
+<View id="34" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="38" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=颠倒文</ppt>
+<event></event>
+</View>
+<View id="55" did="34" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="56" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="TextView">
+<ppt>width=-2
+height=-2
+layout_marginleft=10dp
+textcolor=#87000000
+text=列表前排网名</ppt>
+<event></event>
+</View>
+<View id="58" did="56" type="EditText">
+<ppt>width=-1
+height=40dp
+text=
+singleline=true
+background=white
+layout_margin=5dp
+hint=文字
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<View id="35" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-2
+background=white
+gravity=center
+layout_margintop=10dp
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="59" did="35" type="EditText">
+<ppt>width=-1
+height=-2
+text=【蓝色字符】🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿\n【特殊字】符🈶🈵🈷🉐🈳🈯🈂🈚🈹🈺🉑🈴🈸🈁\n【星座图标】♈♉♏♎♍♌♋♊♐♑♒♓⛎\n【背景字母】🅰🅱🆎🅾🆚\n【图形符号】💠➿♻🔯🔯®©💱💲💹🏧™❌‼⁉❗❓🔙🔚🔝⭕❔❕🔛🔜🔃🕛🕧🕐✖➕➖➖➕➗♠♥♣♦💮💯✔☑🔘🔗➰◾◻◼🔱〽〰◽▫🔺🔲🔳⚫⬛⬜🔻🔵🔴⚪🔶🔷🔸🔹🚺🚹🏪🏧🏨🏥🏦🏠🚽🛀💈🎸🚧🚥🎰〽🀄♣💓💿🔫🎤🎥💻📠📱📷☎❕❔❌⭕⛄🌙☔☁👟👕👙👜🌂👢👠💄👒🐭🐳🐧👼🐯🐮🐔🐸👻🐛🐠🐶🐨🐤💀🐷🐙🐵👦👩👨👧🚲🚤🚗🚄⛵✈🚌🔒🚀🐎♨💉💩👣⚡💤✨💦🔥🏆🔔👑💣💍🎈🎀💊🚬🎄🎉🌴💝🍉🍓🍊🍎☕🍸🍻🍣🎂🍞🍳🍺🍺🍟🍧🍙🍜🍝🍚👂👄👌👈👉👆👇👀🙏👎✌👏☝👍👊💪😂😱😭😘😳😒😜☺😉😍😔😄😏😁😝😰😓😚😌😊\n【特殊符号】【箭头类】∶\n↑ ↓ ← →       ➻ ➼ ➽ ➸ ➳ ➺ ➻ ➴ ➵ ➶ ➷ ➹  ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➱ ➲ ➾ ➔ ➘ ➙ ➚ ➛ ➜ ➝ ➞ ➟ ➠ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ↚ ↛ ↜ ↝ ↞ ↟ ↠ ↠ ↡ ↢ ↣ ↤ ↤ ↥ ↦ ↧ ↨ ⇄ ⇅ ⇆ ⇇ ⇈ ⇉ ⇊6 ⇋ ⇌ ⇍ ⇎ ⇏ ⇐ ⇑ ⇒ ⇓ ⇔ ⇖ ⇗ ⇘ ⇙ ⇜   ↫ ↬ ↭ ↮ ↯ ↰ ↱ ↲ ↳ ↴ ↵ ↶ ↷⇚⇛☇☈↸ ↹ ↺ ↻ ↼ ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣ ⇤ ⇥⇴⇶⇸⇹⇺⇻⇼⇽⇾⇿⇷Щ ⇦ ⇧⇫⇬⇭⇮⇯⇳⇰⇱⇲ ⇨ ⇩ ⇪ ♀♂ ☍ ·.¸¸.·´¯`·.¸¸.\n【序号类】；\n①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳\n１２３４５６７８９０\n⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛\n⓿❶❷❸❹❺❻❼❽❾❿⓫⓬⓭⓮⓯⓰⓱⓲⓳⓴\n⓵⓶⓷⓸⓹⓺⓻⓼⓽⓾\n⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇\n㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩\n壹贰叁肆伍陆柒捌玖拾佰仟万\nⅰⅱⅳⅴⅵⅶⅷⅸⅹⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ\n㊣ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ\nⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ\n⒜⒝⒞⒟⒠⒡⒢⒣⒤⒥⒦⒧⒨⒩⒪⒫⒬⒭⒮⒯⒰⒱⒲⒳⒴⒵\n \n【框圈符号类】：\n㈀㈁㈂㈃㈄㈅㈆㈇㈈㈉㈊㈋㈌㈍㈎㈏㈐㈑㈒㈓㈔㈕㈖㈗㈘㈙㈚㈛㈜㈪㈫㈬㈭㈮㈯㈰㈱㊑㈲㈳㈴㈵㈶㈷㈸㈹㈺㈻㈼㈽㈾㈿㉀㉁㉂㉃㉿㊀㊁㊂㊃㊄㊅㊆㊇㊈㊉㊚㊛㊜㊝㊞㊟㊠㊡㊢㊣㊤㊥㊦㊧㊨㊩㊪㊫㊬㊭㊮㊯㊰㋐㋑㋒㋓㋔㋕㋖㋗㋘㋙㋚㋛㋜㋝㋞㋟㋠㋡㋢㋣㋤㋥㋦㋧㋨㋩㋪㋫㋬㋭㋮㋯㋰㋱㋲㋯㋰㋱㋲㋳㋴㋵㋶㋷㋸㋹㋺㋻㋼㋽㋾\n【时间符】：\n㍘㍙㍚㍛㍜㍝㍞㍟㍠㍡㍢㍣㍤㍥㍦㍧㍨㍩㍪㍫㍬㍭㍮㍯㍰㏠㏡㏢㏣㏤㏥㏦㏧㏨㏩㏪㏫㏬㏭㏮㏯㏰㏱㏲㏳㏴㏵㏶㏷㏸㏹㏺㏻㏼㏽㏾㋀㋁㋂㋃㋄㋅㋆㋈㋉㋊㋋\n【柱冠类】∶\n  ♔♕♖♗♙♚♛♜♝♞♘♟☠ ۩۩\n  【十字架类】∶\n†☨✞✚☥☿☦✙✛✜✝✞✟☩♰☧ ☬\n  \n【勾叉圈类】∶\n✓☑ ✗✘ㄨ✕☓☒ ○⊙⊕♁ ◎Θ㊣\n【心形类】∶\n⠿ ❥❣❢ ⠎ღ ⠏ 粉心：紫色：黄色：绿色：蓝色： ⓛⓞⓥⓔ\n \n【写字笔类】∶\n✍✎✐✑⠊⠷ \n 【头像类】∶\n⡨ ⣂⣄⢾⢽  ⚆⚇⚈⚉☹ ☻ (͡·̮̃·̃\n 【类】∶\n☏✆  ✁  ✃ ✄  \n \n 【方块类】∶\n▤▥▦▩▣◘ ◙◈◚◛❘❙❚〓◘◙ ❏❐❑❒☰ ☳ ☴ ☵ ☶ ☷ ☲ ☱  ⚀⚁⚂⚃⚄⚅⚊⚋⚌⚍⚎⚏\n  \n   【花星类】∶\nζั͡✾❧❦✲✱✥❈✣❉✤✽✻❃✾✢❀✿❁❆❅\n✦✧❖ ✩✰☆★⠍✪❂✡✫✬✭✺✵✹✸✷✶۞ ☪ ☣☢ \n  ҉  ⚐⚑ \n  【扑克花型类】∶\n♡♢♤♧ \n 【 音符类】：\n❛❜❝❞❡♭♪♫♬♩∮※∴∵∽♯||::||∠.⌒||\n≡〡〢〣卌〦〧〨Ξ\n【气象类 】∶\n1.  ҉    ۞ ҉   ☽❍☾ ☸☯☼☃☄☂   ➿\n【标志类】；\n♲♳♴♵♶♷♸♹♺♼♽  \n  \n【星座类】∶\n白羊【】 金牛【】 双子【】 巨蟹【】 狮子【】 处女【】 天秤【】 天蝎【】 射手【】 摩羯【】 水瓶【】 双鱼【】 \n  【特殊字体类】∶\n ஐ   ๑  ﻬ  ₪ ௵ ௫ ஆ ௰ ஒ ண ๑ ⊹ ⊱ ∂ ₰ ฅ เ ԅ 卍卐   εїз   〶\n ∀ ∇ № ₱ ₴  ₠ ₡ ₢ ₣ ₮ ₤ ₥ ₦ ℵ ℜ ₧ ₨ ₩  ₫ € ₭  ₯  Ḁ  ⊆⊇∂ ₴\n〠 〄 ㍿ ㆘㆒㆓㆔㆕㆖㆗㆘㆙㆚㆛㆜㆝㆞ 囍㊝ ℡ ☮ ✇  \n✎﹏ℳ๓₯㎕  ✐﹏♡๓₯㎕ ⡾ \n￠¢   ℑ￡ £℉ℓÕ ＄$§￥℘\nஐ♃♅♆‰  ↂ   Φ\nξ愛ζ尔    ミ灬ξζ\n  囡囚丶囨囚囨図 囟団困囤囬囦囮囧囷囶圃圂圅圊圉囙囘囜固囡囨囚 ，圉圌圐囩囲団囦圊囵图圌図囝囿囻囼 圏圜囝囻囼圀圁圎圏圑国团囡囸固囹圞圄圉园围圄困\n◆◇★☆●○■□▲△▼▽↑↓←→↔↕↗↖↘↙⇄⇅☜☞♀♂∵∴♠♤☎ ☏⊕Θ⊙◎〃§卐✿ ✲❈ ※ ➹☀ ✟♬℡®©㊣囧囍㈱\n【空白文字】\n【非法符号】 ‮ ‮ ‮ ‮ ‮ ‮ ‮腾讯客服\n\n
+background=white
+layout_margin=5dp
+textcolorhint=#adadad
+textsize=14dp
+background=#ffffffff
+focusableintouchmode=true
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+s id=65
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(2,颜色)
+fn 着色.控件着色(6,颜色)
+ngde("4","10","#00000000",颜色,背景)
+us(5,"background",背景)
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(1,a)
+gvs(8,b)
+javanew(mBs,mB,"Context",activity)
+urvw(8)
+nvw(mBs,1)
+nvw(b,mBs)</eventItme></UIEventset>

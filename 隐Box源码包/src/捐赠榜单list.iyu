@@ -1,0 +1,131 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+background=#ffffffff
+ps=君常笑QQ:670168898
+ps=本源码禁止泛滥
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="48" did="1" type="TextView">
+<ppt>width=40dp
+height=40dp
+text=1
+textStyle=bold
+textColor=#4A89FD
+gravity=center
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="38" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=1dp
+layout_weight=1
+layout_marginLeft=0dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,45,qq)
+ss("mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin="+qq,url)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",url)
+uit(a, "chooser", "跳转资料卡")</eventItme></event>
+</View>
+<View id="34" did="38" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="CardView">
+<ppt>width=40dp
+height=40dp
+app_CardcornerRadius=50dp
+app_CardElevation=0dp
+layout_margin=10dp
+</ppt>
+<event></event>
+</View>
+<View id="37" did="35" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@jcx.png
+</ppt>
+<event></event>
+</View>
+<View id="39" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="36" did="39" type="TextView">
+<ppt>width=-2
+height=-2
+text=君常笑
+textColor=#FF484848
+textSize=15sp
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="43" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=QQ：
+textSize=12sp</ppt>
+<event></event>
+</View>
+<View id="45" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=2678314676
+textSize=12sp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,45,qq)
+sxb(qq)
+tw("QQ号已复制到剪切板")</eventItme></event>
+</View>
+<View id="49" did="34" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="47" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=捐赠了
+textSize=14sp</ppt>
+<event></event>
+</View>
+<View id="50" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=88.88
+textColor=#4A89FD
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="51" did="49" type="TextView">
+<ppt>width=-2
+height=-2
+text=元
+textSize=14sp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

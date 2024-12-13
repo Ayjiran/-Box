@@ -1,0 +1,57 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=horizontal</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textstyle=bold
+singleline=true
+ellipsize=marquee
+marqueerepeatlimit=marquee_forever
+focusableintouchmode=true
+focusable=true</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">usjxm(false)
+ushsp(true)
+uycl(true)
+us(2,"text",sss.文字)
+us(2,"textcolor",sss.文字颜色)
+us(2,"textsize",sss.文字大小)
+us(1,"background",sss.背景颜色)
+us(2,"textscalex",sss.文字间距)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+<eventItme type="loadingComplete">gvs(2,文本)
+javags(跑马灯,文本,"android.widget.TextView","mMarquee")
+syso(跑马灯)
+f(跑马灯!=null)
+  {
+    java(类,跑马灯,"java.lang.Object.getClass")
+    javags(sp,跑马灯,类,"mPixelsPerSecond")
+    sn(sss.文字速度*sp,速度)
+    syso(速度)
+    javass(结果,跑马灯,类,"mPixelsPerSecond",速度)
+    syso(结果)
+    f(结果)
+      {
+      }
+  }</eventItme>
+</UIEventset>

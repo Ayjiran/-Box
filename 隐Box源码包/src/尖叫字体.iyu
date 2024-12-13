@@ -1,0 +1,339 @@
+<View id="29" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=尖叫字体
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=white
+</ppt>
+<event><eventItme type="touchmonitor">t()
+{
+hs("https://share.weiyun.com/cd6295df0d5b0dd5f50fffe3d52a0d06",a)
+sj(a,"【","】",gg)
+sj(a,"《","》",qh)
+sj(a,"〖","〗",zt)
+ufnsui()
+{
+f(zt=="a")
+{
+utw(null,"公告",gg,"加入交流群",true,fz)
+{
+ss("mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+qh+"&card_type=group&source=qrcode",joinqq)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",joinqq)
+uit(a, "chooser", "选择QQ")
+}
+}
+}
+}</eventItme></event>
+</View>
+<View id="6" did="1" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301567
+visibility=gone
+layout_gravity=center</ppt>
+<event><eventItme type="press">
+
+
+
+
+javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+
+java(c,it,"android.content.Intent.setType","String","image/*")
+
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+
+
+us(6,"visibility","gone")
+us(8,"visibility","visible")</eventItme></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=horizontal
+background=white
+padding=5dp
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="14" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=啊
+textcolor=#eb000000
+textsize=25sp
+</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=啊
+textcolor=#eb000000
+textsize=40sp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="16" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=啊
+textcolor=#eb000000
+textsize=45sp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="17" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=啊
+textcolor=#eb000000
+textsize=55sp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="18" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=啊
+textcolor=#eb000000
+textsize=65sp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="19" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=啊
+textcolor=#eb000000
+textsize=75sp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="21" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=啊
+textcolor=#eb000000
+textsize=85sp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="22" did="1" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=请输入内容
+maxlength=7
+layout_margintop=5dp
+layout_marginleft=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp
+textcursordrawable=#64B5F6
+background=
+gravity=center</ppt>
+<event><eventItme type="touchmonitor"></eventItme></event>
+</View>
+<View id="30" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="11" did="30" type="Button">
+<ppt>width=-2
+height=50dp
+text=生成
+textcolor=#f5f5f5f5
+layout_gravity=center
+textsize=15sp
+layout_margintop=5dp
+layout_marginleft=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">ug(22,"text",a)
+slg(a, hb)
+f(a=="")
+{
+  s stop = 2000
+s text="请填写内容！"
+fn color.ColorToast(text,stop)
+}
+else
+{
+  f(hb=="7")
+  {
+      ssg(a, 0, 1, b)
+syso(b)
+us(14,"text",b)
+ssg(a, 1, 2, b1)
+us(15,"text",b1)
+syso(b1)
+ssg(a, 2, 3, b2)
+us(16,"text",b2)
+syso(b2)
+ssg(a, 3, 4, b3)
+us(17,"text",b3)
+syso(b3)
+ssg(a, 4, 5, b4)
+syso(b4)
+us(18,"text",b4)
+ssg(a, 5, 6, b5)
+us(19,"text",b5)
+ssg(a, 6, 7, b6)
+us(21,"text",b6)
+syso(b5)
+  }
+else
+{
+  s stop = 2000
+s text="请输入7个字达到尖叫效果！"
+fn color.ColorToast(text,stop)
+}
+}</eventItme></event>
+</View>
+<View id="23" did="30" type="Button">
+<ppt>width=-2
+height=50dp
+text=保存图片
+textcolor=#f5f5f5f5
+layout_gravity=center
+textsize=15sp
+layout_margintop=5dp
+layout_marginleft=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">   gvs(8,控件)
+java(宽,控件,"android.view.View.getWidth")
+java(高,控件,"android.view.View.getHeight")
+//这里我动态获取控件高度，你们可以自己填进去
+/.
+这里有几个问题
+1.在载入事件不能获取，返回0
+2.如果是滚动控件，列表控件等等可以滚动的控件，
+获取的高度/不是真实高度宽度，最大只能获取到手机屏的宽高
+造成转出来的图片只是已经显示出来的部分
+可以用自己手动填入宽高来解决
+./
+
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+//可选值ARGB_8888，ARGB_4444，RGB_565，ALPHA_8
+//ARGB_8888画质最好，这里用ARGB_4444是为了节约内存
+
+java(sss.图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+f(sss.图片 == null){
+  tw("似乎出现问题了")
+  endcode
+  }
+javanew(画板,"android.graphics.Canvas","android.graphics.Bitmap",sss.图片)
+
+java(null,控件,"android.view.View.draw","android.graphics.Canvas",画板)
+
+
+
+
+
+sran(1, 99999, g)
+ss("%"+g+".png",gg)
+bfs(sss.图片, 1,gg)
+s stop = 2000
+s text="保存成功！"
+fn color.ColorToast(text,stop)
+ss("/storage/sdcard0/"+g+".png",kg)
+tot(st_vW,sss.图片)
+.call调用
+s 路径="$幻隐网络/尖叫.png"
+.保存图片
+call(null,"mjava","图库.更新",gg)
+cls("android.support.v7.app.AlertDialog$Builder", 弹窗类)
+</eventItme></event>
+</View>
+<View id="28" did="1" type="TextView">
+<ppt>width=-2
+height=300dp
+text=分割线
+visibility=invisible</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+ 
+
+s a="12345678"
+ssg(a, 0, 1, b)
+syso(b)
+ssg(a, 1, 2, b1)
+syso(b1)
+ssg(a, 2, 3, b2)
+syso(b2)
+ssg(a, 3, 4, b3)
+syso(b3)
+ssg(a, 4, 5, b4)
+syso(b4)
+ssg(a, 5, 6, b5)
+syso(b5)
+
+
+
+gvs(22,a3a)
+ngde(10,"#FFFFFF",j)
+us(a3a,"background",j)
+
+
+ s id=29
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(24,颜色)
+fn 着色.控件着色(11,颜色)
+fn 着色.控件着色(23,颜色)
+ngde("4","30","#00000000",颜色,背景)
+us(22,"background",背景)
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

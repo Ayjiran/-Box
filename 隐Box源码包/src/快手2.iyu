@@ -1,0 +1,183 @@
+<View id="23" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="CardView">
+<ppt>width=-1
+height=60dp
+app_CardBackgroundColor=#FFFFFF
+app_CardcornerRadius=10dp
+app_CardElevation=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,19,sss.wwz)
+ulag(st_vW,5,sss.mz)
+ulag(st_vW,18,sss.dz)
+fe("$幻隐网络/.v/xjf.yx",cs)
+f(cs=="true")
+{
+f(sss.mz?"&lt;漫画&gt;")
+{
+s id=sss.dz
+fn 加载.打开(id)
+}
+else
+{
+fw("$幻隐网络/5.txt",sss.wwz)
+uigo("视频播.iyu")
+}
+}
+else
+{
+s stop = 2000
+s text="快捷浏览仅限会员使用！"
+fn color.ColorToast(text,stop)
+}</eventItme></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+background=@icon_mine_wallet_bg.v</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+ut_above=4
+</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=30dp
+ut_alignParentBottom=true
+background=#FFFFFF</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=230dp
+height=-2
+text=貌似断货了，老隐正在补货！
+ut_alignParentRight=true
+ut_centerVertical=true
+textSize=14sp
+layout_marginRight=10dp
+textColor=#ff070707
+singleLine=true
+ellipsize=marquee
+marqueerepeatlimit=marquee_forever
+focusableintouchmode=true</ppt>
+<event></event>
+</View>
+<View id="16" did="4" type="ImageView">
+<ppt>width=17dp
+height=17dp
+src=@ui/xx.v
+ut_centerVertical=true
+ut_toLeftOf=5
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="26" did="2" type="RoundImageView">
+<ppt>width=40dp
+height=40dp
+src=@6.26/custom_plug_edit_delete_btn.png.v
+ut_above=4
+layout_marginLeft=10dp
+layout_marginBottom=-20dp</ppt>
+<event><eventItme type="clicki">fr("$收藏.txt",a)
+ulag(st_vW,5,btt)
+ulag(st_vW,19,hy)
+ulag(st_vW,18,tt)
+ss("【"+hy+"】",wz)
+ss("("+btt+")",g)
+ss("{"+tt+"}",t)
+ss(wz+t+g,i)
+sr(a,i,"",o)
+fw("$收藏.txt",o)
+fr("$收藏.txt",ii)
+f(ii=="")
+{
+us(8,"visibility","visible")
+us(12,"visibility","gone")
+}
+else
+{
+t()
+{
+fr("$收藏.txt",api)
+sj(api,"【",null,api)
+sl(api,"【",api)
+for(apis;api)
+{
+sj(apis,null,"】",apititle)
+syso(apis)
+sj(apis,"(",")",bt)
+sj(apis,"{","}",t)
+strim(apilj,apilj)
+strim(bt,bt)
+syso(apilj)
+ula(list,5=bt,19=apititle,18=t)
+}
+ufnsui()
+{
+uls(7,list,"快手2.iyu",-1,-2)
+}
+}
+}</eventItme></event>
+</View>
+<View id="18" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片链接
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="19" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频地址
+textColor=#ffff003a
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="27" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频地址
+textColor=#ffff003a
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="24" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,快手3.5,io)
+ug(io,"text",a)
+fr("$幻隐网络/临时数据/1030.txt",ii)
+f(ii?a)
+{
+}
+else
+{
+ss(a+ii,i)
+fw("$幻隐网络/临时数据/1030.txt",i)
+gvs(st_vW,快手2.1,id)
+fn dtlist.dh("dh2",id)
+}
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

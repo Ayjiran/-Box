@@ -1,0 +1,784 @@
+<View id="71" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=域名防红
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="74" did="0" type="HorizontalScrollView">
+<ppt>width=-1
+height=-2
+background=white</ppt>
+<event></event>
+</View>
+<View id="76" did="74" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="78" did="76" type="LinearLayout">
+<ppt>width=50dp
+height=50dp
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="79" did="78" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardElevation=5dp
+app_CardcornerRadius=100dp
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="77" did="79" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@lj.png</ppt>
+<event></event>
+</View>
+<View id="73" did="76" type="TabLayout">
+<ppt>width=-1
+height=50dp
+app_tabList=嵌套直开|提示跳转|我的链接
+tabSelect=0
+app_tabIndicatorColor=#ff008cff
+app_tabIndicatorHeight=3.5dp
+app_tabTextColor=#80000000||#ff008cff
+app_tabMode=0
+
+</ppt>
+<event><eventItme type="ontabselected">f(st_tT=="嵌套直开")
+{
+  us(88,"text",sss.防红计算价格)
+  us(84,"hint","需要直开的链接")
+  sss fhlx="zk"
+  us(41,"visibility","visible")
+  us(113,"visibility","gone")
+  sss 我的链接="无"
+}
+else f(st_tT=="提示跳转")
+{
+  us(84,"hint","需要跳转的链接")
+  sss 我的链接="无"
+  us(88,"text",sss.防红计算价格)
+  sss fhlx="tz"
+  us(41,"visibility","visible")
+  us(113,"visibility","gone")
+}
+else f(st_tT=="我的链接")
+{
+  sss 我的链接="有"
+  us(41,"visibility","gone")
+  us(113,"visibility","visible")
+  us(113,"refreshing",true)
+  t()
+  {
+   ss(sss.api+"Box/fhlb.php?user="+sss.名称,接口)
+    hs(接口,null,"utf-8",null,true,ss.n)
+    sl(ss.n,"&lt;br&gt;",t)
+    sgszl(t,zs)
+    s(zs-1,z)
+    s s=z
+    ss 数量="0"
+    for(1;z)
+    {
+      sgsz(t,s,nr)
+      sj(nr,"user","-",名字)
+      sj(nr,"id","-",id)
+      sj(nr,"time","-",时间)
+      sj(nr,"timejs","-",到期)
+      sj(nr,"url","-",链接)
+      sj(nr,"ts","-",投诉)
+      sj(nr,"lx","-",类型)
+      sj(nr,"-baidu","-",baidu)
+      sr(类型,"tz","跳",类型)
+      sr(类型,"zk","直",类型)
+      time("Y",a)
+      time("m",m)
+      time("d",D)
+      ss(a+m+D,time)
+      ula(list_评论,15=时间,6=链接,5=类型,17=名字,18=到期,19=id,20=baidu)
+      s(s-1,s)
+      s(ss.数量+1,ss.数量)
+    }
+    ufnsui()
+    {
+      uls(111,list_评论,"链接列表.iyu",-1,-2)
+      us(112,"refreshing",false)
+      f(ss.n?"&lt;br&gt;")
+      {
+        us(116,"visibility","gone")
+      }
+      else
+      {
+        us(116,"visibility","visible")
+      }
+    }
+  }
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="120" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="113" did="120" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="112" did="113" type="SwipeRefreshLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event><eventItme type="onrefresh">t()
+{
+  ss(sss.api+"Box/fhlb.php?user="+sss.名称,接口)
+  hs(接口,null,"utf-8",null,true,ss.n)
+  sl(ss.n,"&lt;br&gt;",t)
+  sgszl(t,zs)
+  s(zs-1,z)
+  s s=z
+  ss 数量="0"
+  for(1;z)
+  {
+    sgsz(t,s,nr)
+    sj(nr,"user","-",名字)
+    sj(nr,"id","-",id)
+    sj(nr,"time","-",时间)
+    sj(nr,"timejs","-",到期)
+    sj(nr,"url","-",链接)
+    sj(nr,"ts","-",投诉)
+    sj(nr,"lx","-",类型)
+    sj(nr,"-baidu","-",baidu)
+    sr(类型,"tz","跳",类型)
+    sr(类型,"zk","直",类型)
+    time("Y",a)
+    time("m",m)
+    time("d",D)
+    ss(a+m+D,time)
+    ula(list_评论,15=时间,6=链接,5=类型,17=名字,18=到期,19=id,20=baidu)
+    s(s-1,s)
+    s(ss.数量+1,ss.数量)
+  }
+  ufnsui()
+  {
+    f(ss.n?"&lt;br&gt;")
+    {
+      us(116,"visibility","gone")
+      us(112,"refreshing",false)
+      uls(111,list_评论,"链接列表.iyu",-1,-2)
+    }
+    else
+    {
+      us(112,"refreshing",false)
+    }
+  }
+}
+</eventItme></event>
+</View>
+<View id="121" did="112" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="116" did="121" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="114" did="116" type="ImageView">
+<ppt>width=80dp
+height=80dp
+src=@ic_alert_novel.png
+layout_marginTop=80dp</ppt>
+<event></event>
+</View>
+<View id="115" did="116" type="TextView">
+<ppt>width=-2
+height=-2
+text=无创造记录
+layout_marginTop=13dp
+textColor=#ff000000
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="111" did="121" type="RecyclerView">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="41" did="120" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="72" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="80" did="72" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginBottom=100dp</ppt>
+<event></event>
+</View>
+<View id="101" did="80" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_marginleft=21dp
+layout_marginright=21dp
+layout_margintop=6dp
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="102" did="101" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=
+singleLine=true
+hint=您的接口信息
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+layout_marginright=0dp
+textCursorDrawable=#ff00b5ff
+background=#12000000
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="103" did="101" type="TextView">
+<ppt>width=-1
+height=1
+text=
+ut_alignparentbottom=true
+background=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="83" did="80" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_marginleft=21dp
+layout_marginright=21dp
+layout_margintop=6dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=
+singleLine=true
+hint=需要直开的链接
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+layout_marginright=0dp
+textCursorDrawable=#ff00b5ff
+background=#12000000
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="85" did="83" type="TextView">
+<ppt>width=-1
+height=1
+text=
+ut_alignparentbottom=true
+background=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="86" did="80" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="87" did="86" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="Button">
+<ppt>width=-1
+height=38dp
+text=立即制作(300金币)
+background=#ff00b2ff
+typeface=serif
+textsize=13dp
+textcolor=#ffffff
+</ppt>
+<event><eventItme type="clicki">f(sss.个人金币&gt;="300")
+{
+  ug(88,"text",金币)
+  ug(84,"text",链接)
+  f(链接=="")
+  {
+    s stop = 2000
+    s text="请填写正确的链接"
+    fn color.ColorToast(text,stop)
+  }
+  else
+  {
+    f(链接?"http")
+    {
+      sr(链接,"https:","http:",链接)
+      us(84,"text",链接)
+      time("Y",a)
+      time("m",m)
+      time("d",D)
+      ss(a+m+D,time)
+      utw(null,"","制作中……","",true,vf)
+      {
+      }
+      t()
+      {
+        sj(金币,"(","元",减少)
+        ss(sss.fhapi+"sj.php",一个月)
+        hs(一个月,一个月)
+        ss(sss.fhapi+"id.php?user="+sss.名称+"&lx="+sss.fhlx+"&time="+time+"&timejs="+一个月+"&url="+链接,提交)
+        hs(提交,最终)
+        s-(sss.个人金币,减少,剩余)
+        ss(sss.api+"Box/yhxg.php?id="+sss.我的uid+"&nl=gold&dl="+剩余,加载)
+        hs(加载,成功)
+        hs(b,ok)
+        ufnsui()
+        {
+          f(最终?"成功")
+          {
+            sj(最终,"(",")",id)
+            ss(sss.fhapi+"fh.php?id="+id,最终)
+            sran(1000,9999,变换)
+            ss("fh"+变换,变换)
+            sr(最终,"随机",变换,最终)
+            us(105,"text",最终)
+            us(107,"visibility","visible")
+            us(104,"visibility","visible")
+            s text="制作成功"
+            s stop = 2000
+            fn color.ColorToast(text,stop)
+            fr("$幻隐网络/微端/账号.txt",sss.名称)
+            t()
+            {
+              ss(sss.api+"?u/"+sss.名称+".html",in)
+              hs(in,null,"utf-8",z)
+              sj(z,"&lt;span class=\"num\"&gt;","&lt;/span&gt;&lt;span class=\"text\"&gt;关注&lt;/span&gt;",sss.关注)
+              ufnsui()
+              {
+                fr("@jqd.txt",jqd)
+                sj(z,jqd,"&lt;span&gt;我的金币&lt;/span&gt;",金币)
+                strim(金币,sss.个人金币)
+                fr("$幻隐网络/记录/xf.txt",a)
+                ss("【网站防红】你在使用网站防红功能时，消费了"+减少+"金币!",c)
+                ss(a+c,d)
+                fw("$幻隐网络/记录/xf.txt",d)
+              }
+            }
+            endutw(vf)
+          }
+          else
+          {
+            s text="生成失败"
+            s stop = 2000
+            fn color.ColorToast(text,stop)
+            endutw(vf)
+          }
+        }
+      }
+    }
+    else
+    {
+      s stop = 2000
+      s text="没有http"
+      fn color.ColorToast(text,stop)
+      ss("http://"+链接,帮助)
+      us(84,"text",帮助)
+    }
+  }
+}
+else
+{
+  s text="余额不足"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="104" did="80" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_marginleft=21dp
+layout_marginright=21dp
+layout_margintop=6dp
+layout_marginTop=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="105" did="104" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=
+singleLine=true
+hint=最终链接
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+layout_marginright=0dp
+textCursorDrawable=#ff00b5ff
+background=#12000000
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="106" did="104" type="TextView">
+<ppt>width=-1
+height=1
+text=
+ut_alignparentbottom=true
+background=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="107" did="80" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white
+gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="108" did="107" type="CardView">
+<ppt>width=300dp
+height=-2
+app_CardcornerRadius=10dp
+layout_marginTop=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="109" did="108" type="Button">
+<ppt>width=-1
+height=38dp
+text=复制结果
+background=#ff00b2ff
+typeface=serif
+textsize=13dp
+textcolor=#ffffff
+</ppt>
+<event><eventItme type="clicki">ug(105,"text",u)
+sxb(u)
+s stop = 2000
+s text="复制成功"
+fn color.ColorToast(text,stop)</eventItme></event>
+</View>
+<View id="97" did="80" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=left|center
+layout_marginTop=10dp
+layout_marginBottom=10dp
+</ppt>
+<event></event>
+</View>
+<View id="98" did="97" type="CardView">
+<ppt>width=-2
+height=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#570084ff
+app_CardcornerRadius=30dp
+layout_marginLeft=-25dp</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("充值.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="100" did="99" type="TextView">
+<ppt>width=-2
+height=-1
+text=会员价：85折
+textSize=13sp
+textColor=#ff0080ff
+textStyle=bold
+layout_marginLeft=35dp
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="122" did="99" type="TextView">
+<ppt>width=-2
+height=-2
+text=低至255/金币
+textSize=13sp
+textColor=#ffff0000
+textStyle=bold
+layout_marginLeft=10dp
+layout_marginRight=10dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="123" did="99" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@ic_play_arrow_black_24dp.png
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="89" did="80" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=2dp
+app_CardElevation=3dp</ppt>
+<event></event>
+</View>
+<View id="94" did="89" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="90" did="94" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="91" did="90" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@c6a6e2b9959442ea825e9dc293a17d3a.png
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="92" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=功能介绍
+textColor=#ff000000
+textStyle=bold
+layout_marginLeft=10dp
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="93" did="94" type="LinearLayout">
+<ppt>width=-1
+height=0.3dp
+orientation=vertical
+layout_marginRight=20dp
+layout_marginLeft=20dp
+background=#2e000000</ppt>
+<event></event>
+</View>
+<View id="95" did="94" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="96" did="95" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.网站防红属于一种保护机制，防止网站被恶意攻击而设立此功能，但是禁止用于违规违法操作，比如黄赌毒进行生成，这样的话被官方发现肯定会及时给您封闭的，金额不退，须知！\n\n2.每个产品生成的价位是不同的，可以直接自主生成您的防红链接。\n\n3.嵌套直开：把B网站包裹在A网站中，从而达到保护的效果！\n\n4.提示跳转：打开制作好的网页后，会提示你的客户点击右上角用浏览器进行打开。\n\n5.简单缩短：就是把您的长链接变成一个短链接而已。\n\n6.链接生成格式：###.#####.##/##/##\n\n7.因为服务器的原因，所以仅支持金币购买，按月使用.\n\n8.嵌套直开防红功能不能添加https，会有打不开的情况的.
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+textSize=13sp
+textColor=#c7000000</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+sss fhlx="zk"
+s id=71
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+fn 着色.控件着色(123,"#ff0080ff")
+us(19,"background","#FF5722")
+us(23,"text","选择分类：bug")
+us(45,"text","3")
+gvs(62,a)
+call(null,"mjava","图片跳转.set",a)
+call(null,"mjava","yuan.setBackground",activity,69,40,40,0,0,"#ffffffff")
+fr("$幻隐网络/配置/yx.txt",sss.zt)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(120,a)
+gvs(41,b)
+javanew(mBs,mB,"Context",activity)
+urvw(41)
+nvw(mBs,120)
+nvw(b,mBs)
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">fr("$幻隐网络/微端/账号.txt",sss.名称)
+t()
+{
+  ss(sss.api+"?u/"+sss.名称+".html",in)
+  hs(in,null,"utf-8",z)
+  sj(z,"&lt;span class=\"num\"&gt;","&lt;/span&gt;&lt;span class=\"text\"&gt;关注&lt;/span&gt;",sss.关注)
+  fr("@jqd.txt",jqd)
+  sj(z,jqd,"&lt;span&gt;我的金币&lt;/span&gt;",金币)
+  strim(金币,sss.个人金币)
+}
+sj(sss.当前用户数据,"会员(",")会员",会员)
+f(sss.dqsj&gt;会员)
+{
+  s 防红价格=sss.防红价格
+  ss("立即制作("+防红价格+"金币)",sss.防红计算价格)
+  us(88,"text",sss.防红计算价格)
+  ss("会员价："+sss.会员优惠+"折",折扣)
+  us(100,"text",折扣)
+}
+else
+{
+  ss("0."+sss.会员优惠,会员优惠)
+  s*(sss.防红价格,会员优惠,防红价格)
+  ss("立即制作("+防红价格+"金币)",sss.防红计算价格)
+  us(88,"text",sss.防红计算价格)
+  ss("尊享会员价："+防红价格+"金币",折扣)
+  us(100,"text",折扣)
+}
+</eventItme><eventItme type="restart">sss 防红修改="失败"
+f(sss.防红修改=="成功")
+{
+  f(sss.我的链接=="无")
+  {
+  }
+  else
+  {
+    us(112,"refreshing",true)
+    t()
+    {
+      ss(sss.api+"Box/fhlb.php?user="+sss.名称,接口)
+    hs(接口,null,"utf-8",null,true,ss.n)
+          sl(ss.n,"&lt;br&gt;",t)
+      sgszl(t,zs)
+      s(zs-1,z)
+      s s=z
+      ss 数量="0"
+      for(1;z)
+      {
+        sgsz(t,s,nr)
+        sj(nr,"user","-",名字)
+        sj(nr,"id","-",id)
+        sj(nr,"time","-",时间)
+        sj(nr,"timejs","-",到期)
+        sj(nr,"url","-",链接)
+        sj(nr,"ts","-",投诉)
+        sj(nr,"lx","-",类型)
+        sj(nr,"-baidu","-",baidu)
+        sr(类型,"tz","跳",类型)
+        sr(类型,"zk","直",类型)
+        time("Y",a)
+        time("m",m)
+        time("d",D)
+        ss(a+m+D,time)
+        ula(list_评论,15=时间,6=链接,5=类型,17=名字,19=id,18=到期,20=baidu)
+        s(s-1,s)
+        s(ss.数量+1,ss.数量)
+      }
+      ufnsui()
+      {
+        f(ss.n?"&lt;br&gt;")
+        {
+          us(116,"visibility","gone")
+          us(112,"refreshing",false)
+          uls(111,list_评论,"链接列表.iyu",-1,-2)
+        }
+        else
+        {
+          us(116,"visibility","visible")
+          us(112,"refreshing",false)
+        }
+      }
+    }
+  }
+}
+else
+{
+}</eventItme></UIEventset>

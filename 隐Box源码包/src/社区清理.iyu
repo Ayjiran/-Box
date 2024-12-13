@@ -1,0 +1,108 @@
+<View id="12" did="0" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="14" did="12" type="TextView">
+<ppt>width=-2
+height=-1
+text=社区清理
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="15" did="0" type="LinearLayout">
+<ppt>Width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_below=2
+background=white</ppt>
+<event></event>
+</View>
+<View id="10" did="1" type="ListView">
+<ppt>width=-1
+height=-1
+ut_below=11</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(12,"background",yg)
+utw(null,"","探索中……","",false,vf)
+{
+}
+t()
+{
+ss(sss.api+"Box/sq/",yu)
+  hs(yu,ee)
+  sr(ee,"①","＆＄＆ ①",a)
+  sl(a,"＆＄＆",b)
+  for(c;b)
+  {
+    sj(c,"①","②",c)
+    sj(c,"[","]",id)
+    sj(c,"(",")",mz)
+    sj(c,"{","}",sj)
+    sj(c,"〖","〗",js)
+    sj(c,"〔","〕",jb)
+    sj(c,"＜","＞",tx)
+    sj(c,"♜","♜",sd)
+    ss("http://"+tx,tx)
+    f(c==null)
+    {
+    }
+    else f(sd=="拉黑不可见")
+    {
+      ula(hh,5=mz,10=tx,6=sj,11=jb,9=js,17=id,21=sd)
+    }
+  else
+  {
+    
+  }
+ufnsui()
+{
+  uls(10,hh,"社区清理列表.iyu",-1,-2)
+  endutw(vf)
+}
+}
+}
+}
+/.
+
+</eventItme><eventItme type="restart"> </eventItme></UIEventset>

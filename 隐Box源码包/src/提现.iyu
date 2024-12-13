@@ -1,0 +1,519 @@
+<View id="162" did="0" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=金币提现
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="6" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="139" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="13" did="139" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="155" did="13" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+layout_margin=21dp</ppt>
+<event></event>
+</View>
+<View id="156" did="155" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+app_CardcornerRadius=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="157" did="156" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#d0005ed9
+gravity=center</ppt>
+<event><eventItme type="clicki">us(160,"background","#7bd3d3d3")
+us(161,"textcolor","#ff00c103")
+us(157,"background","#d0005ed9")
+us(158,"textcolor","#ffffff")
+sss 提现方式="支付宝"</eventItme></event>
+</View>
+<View id="158" did="157" type="TextView">
+<ppt>width=-2
+height=-2
+text=支付宝
+textStyle=bold
+textSize=17sp
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="159" did="155" type="CardView">
+<ppt>width=-1
+height=-1
+layout_margin=5dp
+app_CardcornerRadius=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="160" did="159" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#7bd3d3d3
+gravity=center</ppt>
+<event><eventItme type="clicki">us(160,"background","#ff00c103")
+us(161,"textcolor","#ffffff")
+us(157,"background","#7bd3d3d3")
+us(158,"textcolor","#d0005ed9")
+sss 提现方式="微信"</eventItme></event>
+</View>
+<View id="161" did="160" type="TextView">
+<ppt>width=-2
+height=-2
+text=微信
+textStyle=bold
+textSize=17sp
+textColor=#ff00c103</ppt>
+<event></event>
+</View>
+<View id="147" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=15dp
+app_CardElevation=2dp</ppt>
+<event></event>
+</View>
+<View id="148" did="147" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="149" did="148" type="TextView">
+<ppt>width=-2
+height=-2
+text=(1人民币＝1金币)
+textColor=#ff000000
+layout_marginTop=10dp
+textStyle=bold
+layout_gravity=right
+layout_marginRight=25dp</ppt>
+<event></event>
+</View>
+<View id="150" did="148" type="TextView">
+<ppt>width=-1
+height=0.5dp
+text=
+background=#2ec2c2c2
+layout_marginTop=5dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="154" did="148" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="154" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="16" did="154" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="132" did="16" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_marginleft=21dp
+layout_marginright=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="133" did="132" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=#7bd3d3d3
+singleLine=true
+hint=输入账号
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+layout_marginright=0dp
+textCursorDrawable=#ff00b5ff
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="134" did="132" type="TextView">
+<ppt>width=-1
+height=1
+text=
+ut_alignparentbottom=true
+background=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="135" did="16" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_marginleft=5dp
+layout_marginright=21dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="136" did="135" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=#7bd3d3d3
+singleLine=true
+hint=提现数量
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+layout_marginright=0dp
+textCursorDrawable=#ff00b5ff
+digits=1234567890
+gravity=center</ppt>
+<event><eventItme type="aftertextchanged">ug(136,"text",sss.提现金币)
+f(sss.提现金币&gt;sss.个人金币)
+{
+s text="你有这么多金币吗？~"
+s stop = 2000
+fn color.ColorToast(text,stop)
+us(136,"text","")
+}
+else
+{
+}</eventItme></event>
+</View>
+<View id="137" did="135" type="TextView">
+<ppt>width=-1
+height=1
+text=
+ut_alignparentbottom=true
+background=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="140" did="154" type="RelativeLayout">
+<ppt>width=-1
+height=40dp
+layout_marginleft=21dp
+layout_marginright=21dp
+layout_marginTop=20dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="141" did="140" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+background=#7bd3d3d3
+singleLine=true
+hint=备注(可不写)
+textsize=15dp
+textcolor=#fe000000
+textcolorhint=#5f000000
+layout_marginright=0dp
+textCursorDrawable=#ff00b5ff
+</ppt>
+<event><eventItme type="aftertextchanged">ug(136,"text",sss.提现金币)
+f(sss.提现金币&gt;sss.个人金币)
+{
+s text="你有这么多金币吗？~"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+else
+{
+}</eventItme></event>
+</View>
+<View id="142" did="140" type="TextView">
+<ppt>width=-1
+height=1
+text=
+ut_alignparentbottom=true
+background=#e0e0e0</ppt>
+<event></event>
+</View>
+<View id="153" did="147" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@a/tq/yx1/label_5_act.v</ppt>
+<event></event>
+</View>
+<View id="113" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=right|center
+layout_marginTop=20dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="114" did="113" type="CardView">
+<ppt>width=100dp
+height=40dp
+app_CardElevation=0
+app_CardBackgroundColor=#2196F3
+app_CardcornerRadius=30dp
+layout_marginRight=-25dp</ppt>
+<event></event>
+</View>
+<View id="115" did="114" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=@home_bg_pintu.png</ppt>
+<event><eventItme type="clicki">ug(141,"text",编辑框)
+ug(136,"text",数量)
+ug(133,"text",账户)
+f(数量=="")
+{
+  s text="请输入提现金币数量~"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+}
+else f(账户=="")
+{
+  s text="请输入您的收款账户~"
+  s stop = 2000
+  fn color.ColorToast(text,stop)
+}
+else
+{
+  utw(null,"","加载中……","",true,vf)
+  {
+  }
+  fr("$幻隐网络/记录/xf.txt",a)
+  ss("【金币提现】您提现金币时，消费了"+数量+"金币！",c)
+  ss(a+c,d)
+  fw("$幻隐网络/记录/xf.txt",d)
+  ss(sss.api+"yxapi/?fo=幻隐网络科技&name="+sss.yxapi+"&pass="+sss.yxsqm+"&mail="+sss.yxapi+"&title=隐Box用户提现金币&content=用户【"+sss.名称+"】想【"+sss.提现方式+"】提现【"+数量+"金币】到账户【"+账户+"】：&lt;br&gt;&lt;hr&gt;"+编辑框,b)
+  t()
+  {
+    s-(sss.个人金币,数量,剩余)
+    ss(sss.api+"Box/yhxg.php?id="+sss.我的uid+"&nl=gold&dl="+剩余,加载)
+    hs(加载,成功)
+    hs(b,ok)
+    ufnsui()
+    {
+      s text="已经申请，待人工审核~"
+      s stop = 2000
+      fn color.ColorToast(text,stop)
+      endutw(vf)
+      end()
+    }
+  }
+}
+</eventItme></event>
+</View>
+<View id="116" did="115" type="TextView">
+<ppt>width=-2
+height=-2
+text=立即申请
+textSize=13sp
+textColor=#ffffff
+textStyle=bold
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="144" did="13" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=15dp
+app_CardElevation=2dp</ppt>
+<event></event>
+</View>
+<View id="109" did="144" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="110" did="109" type="TextView">
+<ppt>width=-2
+height=-2
+text=隐Box小贴士
+textColor=#ff000000
+layout_marginTop=10dp
+textStyle=bold
+layout_gravity=right
+layout_marginRight=25dp</ppt>
+<event></event>
+</View>
+<View id="146" did="109" type="TextView">
+<ppt>width=-1
+height=0.5dp
+text=
+background=#2ec2c2c2
+layout_marginTop=5dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="111" did="109" type="TextView">
+<ppt>width=-2
+height=-2
+text=请尊敬的您，请合理充值，理性消费，提现后会在24H之内为您办理提现服务的哈，手续费扣除是10/5。
+layout_marginLeft=25dp
+layout_marginTop=5dp
+layout_marginRight=10dp
+textColor=#ff000000
+layout_gravity=right</ppt>
+<event></event>
+</View>
+<View id="143" did="109" type="TextView">
+<ppt>width=-2
+height=-2
+text=24h内未为您办理，请及时联系客服！
+layout_marginLeft=25dp
+layout_marginRight=10dp
+textColor=#ffff0000
+textStyle=bold
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="145" did="144" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_alert_novel.png</ppt>
+<event></event>
+</View>
+<View id="117" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+ut_alignParentBottom=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="119" did="117" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="118" did="119" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=请输入需要充值的金币数量
+layout_marginLeft=20dp
+background=null
+maxLength=6
+inputType=number</ppt>
+<event><eventItme type="aftertextchanged">ug(118,"text",jb)
+us(124,"text",jb)
+//us(127,"visibility","gone")
+us(126,"visibility","visibility")</eventItme></event>
+</View>
+<View id="120" did="119" type="CardView">
+<ppt>width=70dp
+height=30dp
+app_CardElevation=0
+app_CardBackgroundColor=#FF3AB54A
+app_CardcornerRadius=30dp
+ut_alignParentRight=true
+ut_centerVertical=true
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="121" did="120" type="TextView">
+<ppt>width=-1
+height=-1
+text=确定
+textSize=16sp
+textColor=#ffffff
+textStyle=bold
+gravity=center</ppt>
+<event><eventItme type="clicki">ug(118,"text",jb)
+us(124,"text",jb)
+us(117,"visibility","gone")
+us(126,"visibility","visibility")</eventItme></event>
+</View>
+<View id="122" did="119" type="TextView">
+<ppt>width=-1
+height=1dp
+background=#eeeeee
+text= 
+layout_marginRight=100dp
+layout_marginLeft=20dp
+ut_below=118</ppt>
+<event></event>
+</View>
+<View id="127" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=300
+visibility=gone
+gravity=center</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+fr("$幻隐网络/配置/yx.txt",yg)
+ss("24h内未为您办理，请及时联系客服微信:"+sss.客服微信,微信)
+us(143,"text",微信)
+us(128,background",yg)
+us(115,background",yg)
+us(108,"textColor",yg)
+us(94,"textColor",yg)
+ss("只需要联系作者微信："+sss.微信+"，开通权限就可以了。",须知)
+us(143,"text",须知)
+sss 提现方式="支付宝"
+s id=162
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(162,颜色)</eventItme></UIEventset>

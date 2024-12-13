@@ -1,0 +1,425 @@
+<View id="9" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="CardView">
+<ppt>width=35dp
+height=35dp
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=10dp
+layout_marginTop=10dp
+layout_marginRight=8dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="61" did="10" type="RoundImageView">
+<ppt>width=35dp
+height=35dp
+src=@20180916170000@4c836b3a84cda5ad0d4924610357eecb.v
+padding=1dp
+visibility=gon
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="31" did="10" type="RoundImageView">
+<ppt>width=35dp
+height=35dp
+src=@a/tq/yx1/apktool.v
+padding=1dp
+visibility=gon
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="33" did="10" type="WebView">
+<ppt>width=-1
+height=-1
+padding=1dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="34" did="10" type="TextView">
+<ppt>width=-1
+height=-1
+text=</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+ulag(st_vW,12,sss.ta)
+uigo("个人资料.iyu")
+/.fr("$幻隐网络/.临时数据/2.txt",t)
+fr("$幻隐网络/.v/sf.yx",官方)
+f(官方?"官方")
+{
+us(wd.93,"visibility","visible")
+us(wd.68,"visibility","visible")
+}
+else
+{
+f(t=="0")
+{
+fw("$幻隐网络/.临时数据/2.txt","1")
+ulag(st_vW,17,t7e)
+ulag(st_vW,12,mz)
+ulag(st_vW,19,js)
+ulag(st_vW,20,hy)
+ulag(st_vW,21,jb)
+ulag(st_vW,32,q)
+ss("我的QQ："+q,qq)
+ulag(st_vW,35,v)
+ss("APPID："+v,ids)
+us(wd.86,"text",ids)
+ulag(st_vW,17,id)
+ulag(st_vW,24,u)
+us(wd.10,"text",mz)
+us(wd.74,"text",qq)
+us(wd.11,"text",js)
+ss("使用的版本："+id,ids)
+us(wd.78,"text",ids)
+us(wd.50,"text",t7e)
+us(wd.19,"text",hy)
+ulag(st_vW,35,txk)
+us(wd.88,"background",txk)
+us(wd.21,"text",jb)
+t()
+{
+call(img,"mjava","Http.getInternetPicture",u)
+syso(img)
+ufnsui()
+{
+us(wd.60,"src",img)
+}
+}
+dhas(dh1, wd.62, "translationY",500,0)
+dh(dh1, "duration", 300)
+dhas(dh2, wd.62, "alpha",0,1)
+dh(dh2, "duration", 300)
+dhast(dhlist, "together", dh1, dh2)
+dh(dhlist, "start")
+t()
+{
+ufnsui()
+{
+ dha(dh, true, true)
+dh(dh, "duration", 1000)
+us(wd.62, "dh", dh)
+us(wd.62,"visibility","visible")
+}
+}
+
+}
+else
+{
+s text = "请先关闭当前窗口"
+//设置提示字体颜色
+s textcolor = "#ff00b6ff"
+//调用函数模块
+fn nvw.tw(text,textcolor)
+}
+}
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="12" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=姓名
+ut_toRightOf=10
+textSize=13sp
+ut_alignTop=10
+layout_marginTop=5dp
+layout_marginLeft=2dp
+textColor=#000000
+maxLength=8
+textIsSelectable=true
+singleLine=true
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="13" did="9" type="CardView">
+<ppt>width=-2
+height=-2
+ut_toRightOf=10
+ut_below=12
+app_CardBackgroundColor=#ff00aeff
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginBottom=10dp
+layout_marginRight=10dp
+app_CardElevation=5dp
+layout_marginTop=5dp
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载失败
+ut_centerInParent=true
+textSize=14sp
+textColor=#FFFFFF
+.layout_margin=8dp
+textIsSelectable=true
+autoLink=web
+textColorLink=#FF4081
+
+</ppt>
+<event></event>
+</View>
+<View id="17" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=时间
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=5dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+</ppt>
+<event></event>
+</View>
+<View id="19" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=个人介绍
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="20" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="24" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=头像地址
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="32" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=q
+ut_toRightOf=12
+ut_alignTop=12
+layout_marginTop=3dp
+textSize=10sp
+layout_marginLeft=80dp
+inputType=time
+singleLine=true
+textIsSelectable=true
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="35" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="37" did="9" type="LinearLayout">
+<ppt>width=45dp
+height=45dp
+background=@txkd/1.png
+orientation=vertical
+layout_marginLeft=5dp
+layout_marginTop=5dp
+layout_marginRight=8dp
+gravity=bottom
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="39" did="37" type="GifView">
+<ppt>width=20dp
+height=20dp
+src=@chenghao/noble_emperor_icon.gif
+layout_marginLeft=10dp
+visibility=gone
+layout_gravity=right</ppt>
+<event></event>
+</View>
+<View id="40" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本40
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="41" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2
+</ppt>
+<event></event>
+</View>
+<View id="47" did="41" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardBackgroundColor=#ff04da73
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginBottom=10dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+app_CardElevation=5dp
+ut_alignParentRight=true
+layout_marginLeft=10dp
+</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+padding=8dp</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载失败
+ut_centerInParent=true
+textSize=14sp
+textColor=#FFFFFF
+.layout_margin=8dp
+textIsSelectable=true
+autoLink=web
+textColorLink=#FF4081
+
+</ppt>
+<event></event>
+</View>
+<View id="57" did="41" type="TextView">
+<ppt>width=-2
+height=-2
+text=id
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="60" did="41" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本40
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,lt.37,txk)
+gvs(st_vW,lt.35,tk)
+ug(tk,"text",tk)
+gvs(st_vW,lt.40,会员)
+ug(会员,"text",会员)
+gvs(st_vW,lt.39,显示)
+f(会员=="有")
+{
+ us(显示,"visibility","visible") 
+}
+else
+{
+}
+us(txk,"background",tk)
+
+
+gvs(st_vW,lt.9,a)
+gvs(st_vW,lt.41,b)
+ulag(st_vW,12,texta)
+f(texta==sss.名称)
+{
+  us(a,"visibility","gone")
+}
+else
+{
+  us(b,"visibility","gone")
+}
+/.gvs(st_vW,lt.33,id2)
+gvs(st_vW,lt.24,id5)
+ug(id5,"text",tp)
+fr("@tp.txt",tpp)
+sr(tpp,"β",tp,c)
+s d = "utf-8"
+s e = "text/html"
+us(id2, "url", c, d, e, f)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

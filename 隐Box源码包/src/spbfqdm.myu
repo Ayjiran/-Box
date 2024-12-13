@@ -1,0 +1,57 @@
+fn spbfqlb()
+t()
+{
+sbp("@fll.png",tp)
+slg(sss.file_path,l)
+slof(sss.file_path,"/",l,l1)
+f(l1!=-1&&l1!=0)
+{
+ula(c,1=null,3=tp,5="返回上級目錄…",6="")
+}
+fl(sss.file_path,true,sz)
+for(a;sz)
+{
+ula(c,1=null,3=tp,5=a,6="文件夾")
+}
+sbp("@wj.v",tp)
+fl(sss.file_path,false,sz)
+for(a;sz)
+{
+ss(sss.file_path+"/"+a,b)
+//文件格式3gp、MP4、avi
+f(a*?".mp4"||a*?".avi"||a*?".3gp")
+//要显示的文件的格式
+{
+fs(b,f)
+s2(f/1024,f)
+f(f &gt; 1024)
+{
+s2(f/1024,fa)
+ss("視頻大小："+fa+" M",f)
+ula(c,1=null,3="@fll.png",5=a,6=f)
+}
+else
+{
+ss("視頻大小："+f+" KB",f)
+ula(c,1=null,3="@fll.png",5=a,6=f)
+}
+}
+
+
+}
+
+
+ufnsui()
+{
+f(sss.tcjm == "tc")
+{
+uls(sss.file_id,c,"wjllqlbys.iyu",-1,-2)
+}
+else
+{
+uls(24,c,"wjllqlbys.iyu",-1,-2)
+}
+}
+}
+end fn
+

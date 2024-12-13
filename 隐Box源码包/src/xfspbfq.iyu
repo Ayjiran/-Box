@@ -1,0 +1,330 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=300dp
+height=600dp
+gravity=center
+background=black</ppt>
+<event><eventItme type="clicki">gvs(sss.vv,xfspbfq.4,id)
+gvs(sss.vv,xfspbfq.3,id1)
+ug(id,"visibility",a)
+s(8-a,a)
+us(id,"visibility",a)
+us(id1,"visibility",a)
+t()
+{
+stop(10000)
+ufnsui()
+{
+gvs(sss.vv,xfspbfq.4,id)
+gvs(sss.vv,xfspbfq.3,id1)
+us(id,"visibility","gone")
+us(id1,"visibility","gone")
+}
+}</eventItme><eventItme type="touchmonitor">swh("pxw",w)
+swh("pxhh",h)
+swh("pxh",h1)
+zdp(6,px)
+zdp(12,py)
+s(w/2+px,x0)
+s(h/2+py,y0)
+f(st_eA==2)
+{
+  s(st_rX-x0,sss.x)
+  s(st_rY-y0,sss.y)
+  us(sss.vv,"x",sss.x)
+  us(sss.vv,"y",sss.y)
+  uxf(sss.vv)
+}</eventItme></event>
+</View>
+<View id="2" did="1" type="VideoView">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="touchmonitor">swh("pxw",w)
+swh("pxhh",h)
+swh("pxh",h1)
+zdp(6,px)
+zdp(12,py)
+s(w/2+px,x0)
+s(h/2+py,y0)
+f(st_eA==2)
+{
+  s(st_rX-x0,sss.x)
+  s(st_rY-y0,sss.y)
+  us(sss.vv,"x",sss.x)
+  us(sss.vv,"y",sss.y)
+  uxf(sss.vv)
+}</eventItme></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+background=white
+ut_alignparenttop=2
+background=through
+gravity=center_vertical
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="19" did="3" type="ImageView">
+<ppt>width=28dp
+height=28dp
+src=@ef9574a5b7a.v
+background=through
+layout_marginleft=5dp
+layout_margintop=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp</ppt>
+<event><eventItme type="clicki">f(ss.s == "s")
+{
+
+f(ss.ss == "ss")
+{
+
+f(ss.sss == "sss")
+{
+s a = "w"
+//获取屏幕宽度的dp
+swh(a, w)
+s w1 = w
+ss(w1+"dp",w1)
+
+gvs(sss.vv,xfspbfq.1,szw)
+us(szw,"width",w1)
+uxf(sss.vv)
+ss sss = "ssss"
+ss ss = "sss"
+ss s = "ss"
+}
+else
+{
+s a = "w"
+//获取屏幕宽度的dp
+swh(a, w)
+s w1 = w
+s-(150,w1)
+ss(w1+"dp",w1)
+
+gvs(sss.vv,xfspbfq.1,szw)
+us(szw,"width",w1)
+uxf(sss.vv)
+
+ss sss = "sss"
+}
+
+}
+else
+{
+s a = "w"
+//获取屏幕宽度的dp
+swh(a, w)
+s w1 = w
+s-(100,w1)
+ss(w1+"dp",w1)
+
+gvs(sss.vv,xfspbfq.1,szw)
+us(szw,"width",w1)
+uxf(sss.vv)
+
+ss ss = "ss"
+}
+
+}
+else
+{
+s a = "w"
+//获取屏幕宽度的dp
+swh(a, w)
+s w1 = w
+s-(50,w1)
+ss(w1+"dp",w1)
+
+gvs(sss.vv,xfspbfq.1,szw)
+us(szw,"width",w1)
+uxf(sss.vv)
+
+ss s = "s"
+}
+</eventItme></event>
+</View>
+<View id="16" did="3" type="HorizontalScrollView">
+<ppt>width=0
+height=-2
+layout_marginleft=5dp
+layout_marginright=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="5" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=悬浮播放
+textsize=18dp
+textcolor=#ffffffff
+singleline=true
+layout_marginleft=5dp
+layout_marginright=5dp</ppt>
+<event></event>
+</View>
+<View id="7" did="3" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@1f51bd3942d.v
+background=through
+layout_marginleft=5dp
+layout_margintop=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp</ppt>
+<event><eventItme type="clicki">gvs(sss.vv,xfspbfq.2,gbxfsp)
+bfvss(gbxfsp,"ip",a)
+f(a)
+{
+  bfvss(gbxfsp,"sp")
+}
+uxf(sss.vv,"del")
+sss vv=null
+
+
+//来自圣贤教育全球学习网APP，圣贤教育全球学习网 www.sxjyxxw.org</eventItme></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+background=17301523
+ut_alignbottom=2
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="13" did="8" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301542
+background=through
+layout_marginleft=10dp
+layout_marginright=10dp</ppt>
+<event><eventItme type="clicki">gvs(sss.vv,xfspbfq.2,id)
+gvs(sss.vv,xfspbfq.11,id11)
+ug(id11,"progress",l)
+s-(10,l)
+f(l&lt;0)
+{
+  s l=0
+}
+s*(1000,l)
+bfvss(id,"ip",a)
+f(a)
+{
+  bfvss(id,"seekto",l)
+}
+
+
+</eventItme></event>
+</View>
+<View id="14" did="8" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301540
+background=through
+layout_marginleft=10dp
+layout_marginright=10dp</ppt>
+<event><eventItme type="clicki">gvs(sss.vv,xfspbfq.2,id)
+bfvss(id,"ip",f)
+f(f)
+{
+  bfvss(id,"pe")
+}
+else
+{
+  bfvss(id,"st")
+  bfvss(id,"media",sss.vo)
+  fn xfspbfq1.v()
+}
+</eventItme></event>
+</View>
+<View id="15" did="8" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301537
+background=through
+layout_marginleft=10dp
+layout_marginright=10dp</ppt>
+<event><eventItme type="clicki">gvs(sss.vv,xfspbfq.2,id)
+gvs(sss.vv,xfspbfq.11,id11)
+ug(id11,"progress",l)
+ug(id11,"max",n)
+s+(10,l)
+f(l&gt;n)
+{
+  s l=n
+}
+s*(1000,l)
+bfvss(id,"ip",a)
+f(a)
+{
+  bfvss(id,"seekto",l)
+}
+
+
+</eventItme></event>
+</View>
+<View id="9" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginleft=5dp
+layout_marginright=5dp</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=00:00:00
+textcolor=#f9f9f9f9</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="SeekBar">
+<ppt>width=0
+height=-2
+layout_weight=1
+progress=0</ppt>
+<event><eventItme type="onstoptrackingtouch">gvs(sss.vv,xfspbfq.2,id)
+gvs(sss.vv,xfspbfq.11,id11)
+gvs(sss.vv,xfspbfq.10,id10)
+ug(id11,"progress",l)
+s*(1000,l)
+bfvss(id,"ip",a)
+f(a)
+{
+  bfvss(id,"seekto",l)
+}
+
+
+//来自圣贤教育全球学习网APP，圣贤教育全球学习网 www.sxjyxxw.org</eventItme></event>
+</View>
+<View id="12" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=00:00:00
+textcolor=#f9f9f9f9</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

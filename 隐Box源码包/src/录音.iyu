@@ -1,0 +1,178 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="37" did="2" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+.gravity=center</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="39" did="37" type="TextView">
+<ppt>width=-2
+height=-1
+text=本地录音
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="40" did="2" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="58" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="45" did="58" type="ListView">
+<ppt>width=-1
+height=-1
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="48" did="58" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="52" did="48" type="RelativeLayout">
+<ppt>width=-1
+height=200dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="57" did="52" type="ImageView">
+<ppt>width=80dp
+height=80dp
+src=@a/fj_cz_ic_jinmai_sel.v</ppt>
+<event><eventItme type="clicki">time("4",u)
+ss("幻隐网luo/录音"+u+".mp3",uu)
+bly(sss.ly, uu)
+us(59,"visibility","visible")
+us(57,"visibility","gone")
+s stop = 2000
+s text="开始录制"
+fn color.ColorToast(text,stop)
+</eventItme></event>
+</View>
+<View id="59" did="52" type="ImageView">
+<ppt>width=80dp
+height=80dp
+src=@a/fj_cz_ic_xiamai.v
+visibility=gone</ppt>
+<event><eventItme type="clicki">bly(sss.ly, "sp")
+us(59,"visibility","gone")
+us(57,"visibility","visible")
+s stop = 2000
+s text="录制完成"
+fn color.ColorToast(text,stop)
+t()
+{ 
+fl("幻隐网luo/",false, b) 
+for(c; b) 
+{
+f(c?"录音")
+{
+ula(list,7=c)
+}
+}
+ufnsui()
+{
+uls(45,list,"文件2.iyu",-1,-2)
+}
+}</eventItme></event>
+</View>
+<View id="53" did="2" type="LinearLayout">
+<ppt>width=-1
+height=200dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="55" did="53" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+background=@6.26/alimp_shopping_guide.v</ppt>
+<event></event>
+</View>
+<View id="56" did="53" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ff00ffba
+layout_gravity=start
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=侧滑内容</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(37,"background",yg)
+dht(dh, 0, 0, 600, 0)
+dh(dh, "duration", 600)
+us(57, "dh", dh)
+us(45,"divider","#ff00ff38")
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="loadingComplete">t()
+{ 
+fl("幻隐网luo/",false, b) 
+for(c; b) 
+{
+f(c?"录音")
+{
+ula(list,7=c)
+}
+}
+ufnsui()
+{
+uls(45,list,"文件4.iyu",-1,-2)
+}
+}</eventItme></UIEventset>

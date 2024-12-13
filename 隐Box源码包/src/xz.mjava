@@ -1,0 +1,42 @@
+
+
+//以下代码放Http.mjava
+
+
+
+import android.app.*;
+import android.content.*;
+import android.graphics.*;
+import android.net.*;
+import java.io.*;
+import java.net.*;
+import android.graphics.drawable.*;
+
+//获取网络图片
+	public static BitmapDrawable getInternetPicture(String UrlPath) {  
+        Bitmap bm = null;  
+        String urlpath = UrlPath;  
+        try {  
+            URL uri = new URL(urlpath);  
+            HttpURLConnection connection = (HttpURLConnection) uri.openConnection();
+            connection.setRequestMethod("GET");  
+            connection.setReadTimeout(5000);  
+            connection.setConnectTimeout(5000);  
+            connection.connect();  
+			if (connection.getResponseCode() == 200) {  
+                InputStream is = connection.getInputStream();  
+                bm = BitmapFactory.decodeStream(is);  
+            } else {
+                bm = null;  
+            }  
+        } catch (MalformedURLException e) {  
+            e.printStackTrace();  
+        } catch (IOException e) {  
+            e.printStackTrace();  
+        }  
+        return new BitmapDrawable(bm);  
+
+    }
+    
+    
+    

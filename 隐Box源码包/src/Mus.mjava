@@ -1,0 +1,50 @@
+import android.graphics.Bitmap;
+import android.graphics.drawable.GradientDrawable;
+import android.widget.ImageView;
+import android.util.TypedValue;
+import android.graphics.drawable.Drawable;
+import android.graphics.Color;
+import android.widget.TextView;
+import android.widget.LinearLayout$LayoutParams;
+import android.widget.LinearLayout;
+import android.view.Gravity;
+import android.widget.Toast;
+public static void toast(Bitmap icon,String i,String textcolor,String backgroundcolor,int elevation,int gravity,int x,int y)
+{
+	Toast toast= Toast.makeText(activity,"",0);
+	toast.setGravity(gravity,x,y);
+	LinearLayout ne=new LinearLayout(activity);
+	LinearLayout ne2=new LinearLayout(activity);
+    ne2.setGravity(Gravity.LEFT|Gravity.CENTER);
+    ImageView img=new ImageView(activity);
+    ne2.addView(img);
+    LinearLayout.LayoutParams imgg=(LinearLayout.LayoutParams) img.getLayoutParams();  
+    imgg.height=((int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,24,activity.getResources().getDisplayMetrics()));
+	imgg.width=((int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,18,activity.getResources().getDisplayMetrics()));
+    imgg.leftMargin=25;
+    img.setLayoutParams(imgg);
+    img.setColorFilter(Color.parseColor("#ffffff"));
+    img.setImageBitmap(icon);
+    ne2.addView(ne);
+	LinearLayout.LayoutParams params=(LinearLayout.LayoutParams) ne.getLayoutParams();  
+    params.leftMargin=18;
+	params.rightMargin=30;
+    params.height=((int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,40,activity.getResources().getDisplayMetrics()));
+	ne.setLayoutParams(params);
+    GradientDrawable drawable=new GradientDrawable();
+    drawable.setShape(GradientDrawable.RECTANGLE);
+    drawable.setGradientType(GradientDrawable.RECTANGLE);
+    drawable.setCornerRadius(360);
+    drawable.setColor(Color.parseColor(backgroundcolor));
+    ne2.setBackground(drawable);
+    ne2.setElevation(elevation);
+	ne.setGravity(Gravity.CENTER);
+	TextView te=new TextView(activity);
+	ne.addView(te);
+	te.setText(i);
+	te.setTextColor(Color.parseColor(textcolor));
+	toast.setView(ne2);
+	toast.show();
+}
+
+

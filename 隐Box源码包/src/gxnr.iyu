@@ -1,0 +1,152 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+padding=30dp
+visibility=
+BackgroundColor=#52000000</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=280dp
+background=@personal_sign_information_dialog_success.v
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=标题
+textColor=#000000
+textSize=19sp</ppt>
+<event></event>
+</View>
+<View id="8" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=vertical
+gravity=center
+padding=13dp</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="NestedScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="9" did="16" type="TextView">
+<ppt>width=-1
+height=-1
+text=文字，与各种的介绍
+textColor=#ff525252
+textSize=15.5sp
+lineSpacingMultiplier=1.2
+</ppt>
+<event></event>
+</View>
+<View id="17" did="5" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="LinearLayout">
+<ppt>width=-1
+height=0.4dp
+background=#10000000
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="17" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#10000000
+visibility=gone</ppt>
+<event><eventItme type="clicki">us(gxnr.1,"visibility","gone")</eventItme></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=关闭
+textColor=#ffff5c71
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="13" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+background=#ffffffff
+BackgroundRipple=#10000000</ppt>
+<event><eventItme type="clicki">dha(dh, true, false)
+dh(dh, "duration", 2000)
+us(gxnr.2, "dh", dh)
+us(gxnr.1,"visibility","gone")</eventItme></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=确定
+textColor=#FF0888F5
+textSize=16sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

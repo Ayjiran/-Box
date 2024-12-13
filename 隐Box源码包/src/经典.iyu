@@ -1,0 +1,114 @@
+<View id="14" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=2dp</ppt>
+<event></event>
+</View>
+<View id="4" did="14" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="7" type="CardView">
+<ppt>width=45dp
+height=45dp
+layout_marginLeft=10dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="13" did="6" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@fi.1.png
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="11" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=超级马里奥
+textStyle=bold
+textSize=15sp
+textColor=#ff000000
+layout_marginLeft=5dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="9" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+visibility=gon</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png
+layout_gravity=right
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">ulag(st_vW,12,sss.wz)
+ulag(st_vW,15,sss.游戏)
+ulag(st_vW,11,sss.游戏标题)
+sj(sss.游戏标题,"-",null,sss.游戏横竖)
+uigo("广告.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="12" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本12
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="15" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本12
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本12
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,经典.13,image)
+ulag(st_vW,16,url)
+javax(fh,null,ss.l,"with","Context",activity)
+javax(fh1,fh,ss.l,"load","String",url)
+//设置图片链接
+javax(null,fh1,ss.l1,"into","android.widget.ImageView",image)
+/.
+
+</eventItme></UIEventset>

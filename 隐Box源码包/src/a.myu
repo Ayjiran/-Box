@@ -1,0 +1,19 @@
+fn time(a)
+sss song_state=a
+s/(1000,a)
+s(a/60,m)
+f(m&lt;10)
+{
+ss("0"+m,m)
+}
+s(a%60,s)
+f(s&lt;10)
+{
+ss("0"+s,s)
+}
+ss(m+":"+s,sss.time)
+end fn
+
+fn j()
+  
+end fn

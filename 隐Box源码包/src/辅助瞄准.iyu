@@ -1,0 +1,326 @@
+<View id="112" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="118" did="112" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=white
+app_title=辅助瞄准
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="34" did="112" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margintop=30dp
+</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="Button">
+<ppt>width=-2
+height=-2
+text=启动准心
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">f(sss.v == null)
+{
+fr(".zjlxf/xfx", x)
+fr(".zjlxf/xfy", y)
+s w=-2
+s h = -2
+s type = 0
+s gravity = "center"
+s flags = 0
+s format = 0
+uxf("zxxf.iyu", x, y, w, h, type, gravity, flags, format, sss.v)
+gvs(sss.v,zxxf.1, x)
+fr(".zjlxf/size", dx)
+fr(".zjlxf/text", a)
+fr(".zjlxf/color",b)
+us(x,"textcolor",b)
+us(x,"text",a)
+us(x,"textsize",dx)
+}
+</eventItme></event>
+</View>
+<View id="37" did="34" type="Button">
+<ppt>width=-2
+height=-2
+text=恢复默认
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">fw(".zjlxf/xfx", 0)
+fw(".zjlxf/xfy", -33)
+fw(".zjlxf/size", 50)
+fw(".zjlxf/text", "⊙")
+fw(".zjlxf/color","#ff00daff")
+us(sss.v, "x", 0)
+us(sss.v, "y", 30)
+uxf(sss.v)</eventItme></event>
+</View>
+<View id="38" did="34" type="Button">
+<ppt>width=-2
+height=-2
+text=关闭准心
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">.如果当前开启状态 则关闭
+f(sss.v != null)
+{
+uxf(sss.v, "del")
+sss v = null
+}</eventItme></event>
+</View>
+<View id="29" did="112" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margintop=10dp</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="Button">
+<ppt>width=-2
+height=-2
+text=上调
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">f(sss.v == null)
+{
+tw("悬浮窗未开启")
+}
+else
+{
+fr(".zjlxf/xfy", yy)
+s-(1,yy)
+fw(".zjlxf/xfy", yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+}</eventItme></event>
+</View>
+<View id="31" did="29" type="Button">
+<ppt>width=-2
+height=-2
+text=左调
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">f(sss.v == null)
+{
+tw("悬浮窗未开启")
+}
+else
+{
+fr(".zjlxf/xfx", xx)
+s-(1,xx)
+fw(".zjlxf/xfx", xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+}</eventItme></event>
+</View>
+<View id="32" did="29" type="Button">
+<ppt>width=-2
+height=-2
+text=右调
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">f(sss.v == null)
+{
+tw("悬浮窗未开启")
+}
+else
+{
+fr(".zjlxf/xfx", xx)
+s+(1,xx)
+fw(".zjlxf/xfx", xx)
+us(sss.v, "x", xx)
+uxf(sss.v)
+}</eventItme></event>
+</View>
+<View id="33" did="29" type="Button">
+<ppt>width=-2
+height=-2
+text=下调
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">f(sss.v == null)
+{
+tw("悬浮窗未开启")
+}
+else
+{
+fr(".zjlxf/xfy", yy)
+s+(1,yy)
+fw(".zjlxf/xfy", yy)
+us(sss.v, "y", yy)
+uxf(sss.v)
+}</eventItme></event>
+</View>
+<View id="40" did="112" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_margintop=10dp</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="Button">
+<ppt>width=-2
+height=-2
+text=准心变小
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">f(sss.v == null)
+{
+tw("悬浮窗未开启")
+}
+else
+{
+fr(".zjlxf/size", xx)
+s-(1,xx)
+fw(".zjlxf/size", xx)
+gvs(sss.v,zxxf.1, x)
+us(x,"textsize",xx)
+}</eventItme></event>
+</View>
+<View id="43" did="40" type="Button">
+<ppt>width=-2
+height=-2
+text=准心设置
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">f(sss.v == null)
+{
+tw("准心未开启")
+}
+else
+{
+uigo("set.iyu")
+}</eventItme></event>
+</View>
+<View id="42" did="40" type="Button">
+<ppt>width=-2
+height=-2
+text=准心变大
+layout_weight=1
+textsize=12dp
+textcolor=#ffffff
+layout_marginleft=5dp
+layout_marginright=5dp
+background=#FF0090FF</ppt>
+<event><eventItme type="clicki">f(sss.v == null)
+{
+tw("悬浮窗未开启")
+}
+else
+{
+fr(".zjlxf/size", xx)
+s+(1,xx)
+fw(".zjlxf/size", xx)
+gvs(sss.v,zxxf.1, x)
+us(x,"textsize",xx)
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+
+
+
+s a = ".zjlxf/color"
+fe(a, b)
+f(b=="false")
+{
+fw(".zjlxf/xfx", 0)
+fw(".zjlxf/xfy", -33)
+fw(".zjlxf/size", 50)
+fw(".zjlxf/text", "⊙")
+fw(".zjlxf/color","#ff00daff")
+}
+
+
+s id=118
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(id,颜色)
+
+ fn 着色.控件着色(35,颜色)
+fn 着色.控件着色(38,颜色)
+fn 着色.控件着色(30,颜色)
+fn 着色.控件着色(31,颜色)
+fn 着色.控件着色(32,颜色)
+fn 着色.控件着色(33,颜色)
+fn 着色.控件着色(41,颜色)
+fn 着色.控件着色(43,颜色)
+fn 着色.控件着色(42,颜色)
+fn 着色.控件着色(37,颜色)
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="menu">case 想要功能/反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

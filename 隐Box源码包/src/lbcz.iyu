@@ -1,0 +1,119 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-1
+height=59dp
+text=重命名
+gravity=center
+textcolor=#ff000000
+background=white
+backgroundripple=#ff3f51b5</ppt>
+<event>
+<eventItme type="clicki">endutw(sss.cz)
+utw("","","zmm.iyu","确定","取消",false,sss.z)
+  {
+    s zmmlj="%tencent/QQ_Collection/audio"
+    ss(zmmlj+"/"+sss.dj,zz)
+    gvs(sss.z,4,zmms)
+    ug(zmms,"text",zmmss)
+    strim(zmmss,zmmss)
+    f(zmmss=="")
+      {
+        tw("文件名不能为空！",0)
+      }
+    else
+      {
+        ss(zmmlj+"/"+zmmss,zzz)
+        ft(zz,zzz,zzzz)
+        tw("重命名成功！",0)
+        s sclj="%tencent/QQ_Collection/audio"
+        fl(sclj,false,jzyy)
+        for(jzyys;jzyy)
+          {
+            ula(yuyinsj,1=null,2=null,3=jzyys)
+          }
+        uls(16,yuyinsj,"lb.iyu",-1,-2)
+      }
+  }
+else
+  {
+  }
+gvs(sss.z,4,z)
+us(z,"text",sss.dj)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme>
+</event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-1
+height=59dp
+text=删除
+textcolor=#ff000000
+gravity=center
+background=white
+backgroundripple=#ff3f51b5</ppt>
+<event>
+<eventItme type="clicki">endutw(sss.cz)
+ss("%tencent/QQ_Collection/audio/"+sss.dj,djs)
+fd(djs,sc)
+tw("删除成功！",0)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+t()
+  {
+    fl("%tencent/QQ_Collection/audio",false,yywj)
+    sgszl(yywj,yywjs)
+    f(yywjs=="0")
+      {
+        ufnsui()
+          {
+            us(15,"visibility","gone")
+            us(16,"visibility","gone")
+            us(17,"visibility","visible")
+          }
+      }
+    else
+      {
+        for(yylb;yywj)
+          {
+            ula(lb,1=null,2=null,3=yylb)
+          }
+        ufnsui()
+          {
+            uls(16,lb,"lb.iyu",-1,-2)
+            us(15,"visibility","visible")
+            us(16,"visibility","visible")
+            us(17,"visibility","gone")
+          }
+      }
+  }
+}
+</eventItme>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+</UIEventset>

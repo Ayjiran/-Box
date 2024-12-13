@@ -1,0 +1,130 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>width=-2
+height=-1
+text=历史今天
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="12" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="8" type="RecyclerView">
+<ppt>
+width=-1
+height=-1
+layout_marginRight=15dp
+layout_marginLeft=15dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="8" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=white
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="GifView">
+<ppt>
+width=-2
+height=-2
+src=@tools/loading.gif
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(17,"background",yg)
+</eventItme>
+<eventItme type="loadingComplete">time(2,time)
+sj(time,"-",null,time)
+sr(time,"-","",time)
+ug(19,"text",历史今天)
+ss(历史今天+"-"+time,今天)
+us(19,"text",今天)
+t()
+{
+hs("http://hao.360.com/histoday/"+time+".html",网站)
+sj(网站,"class=\"date-hint\"","class=\"doc-ft\"",网站)
+sl(网站,"tih-item",网站)
+for(截取;网站)
+{
+sj(截取,"&lt;/em&gt;. ","&lt;/dt&gt;",标题)
+f(标题!=null)
+{
+sj(截取,"data-src=\"","\"",图片)
+sj(截取,"&lt;div class=\"desc\"&gt;","&lt;/div&gt;",内容)
+ula(列表,7=标题,8=图片,12=内容)
+}
+}
+ufnsui()
+{
+uls(16,列表,"历史上的今天列表.iyu",-1,-2)
+us(10,"visibility","gone")
+gvs(16,对象)
+cls("androidx.recyclerview.widget.RecyclerView",列表类)
+cls("android.support.v7.widget.StaggeredGridLayoutManager",布局管理类)
+javanew(布局,布局管理类,"int",2,"int",1)
+javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+}
+}
+
+/.</eventItme></UIEventset>

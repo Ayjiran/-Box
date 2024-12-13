@@ -1,0 +1,193 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="18" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#32000000
+gravity=center
+</ppt>
+<event><eventItme type="clicki">syso("更新")</eventItme></event>
+</View>
+<View id="19" did="18" type="CardView">
+<ppt>width=250dp
+height=-2
+app_CardBackgroundColor=#ffffff
+app_CardcornerRadius=15dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="20" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="21" did="29" type="ImageView">
+<ppt>width=-1
+height=175dp
+src=@gximg.jpg
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="31" did="29" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+ut_alignBottom=21
+ut_alignParentRight=true
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="30" did="31" type="TextView">
+<ppt>width=-2
+height=-2
+text=New v
+textColor=#FF2C49FF
+textSize=20sp
+textStyle=bold
+layout_marginRight=2dp</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="TextView">
+<ppt>width=-2
+height=-2
+text=7.8.3.1
+textColor=#FF2C49FF
+textSize=20sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="22" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_margin=20dp</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=发现新版本！
+textSize=16sp
+textStyle=bold
+textColor=#212121</ppt>
+<event></event>
+</View>
+<View id="24" did="22" type="TextView">
+<ppt>width=-2
+height=-2
+text=更新内容
+layout_marginTop=10dp
+textSize=14sp</ppt>
+<event></event>
+</View>
+<View id="26" did="20" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="CardView">
+<ppt>width=-1
+height=40dp
+layout_weight=1
+app_CardBackgroundColor=#FF3F85FF
+app_CardcornerRadius=20dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>width=-1
+height=-1
+text=立即升级
+textColor=#ffffffff
+gravity=center
+textSize=12sp
+BackgroundRipple=#ffffffff</ppt>
+<event><eventItme type="clicki">hws(sss.更新地址)</eventItme></event>
+</View>
+<View id="35" did="26" type="LinearLayout">
+<ppt>width=15dp
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="33" did="26" type="CardView">
+<ppt>width=-1
+height=40dp
+layout_weight=1
+app_CardBackgroundColor=#FFF0F0F0
+app_CardcornerRadius=20dp
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="TextView">
+<ppt>width=-1
+height=-1
+text=先不更新
+textColor=#FF606060
+gravity=center
+textSize=12sp
+BackgroundRipple=#ffffffff
+</ppt>
+<event><eventItme type="clicki">us(更新.1,"visibility","gone")</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//当前版本
+s version="1.0"
+
+
+//获取远程版本
+t()
+{
+  ss("网址",url)
+  hs(url,"utf-8",text)
+  json(text,jo)
+  f(jo?"获取成功")
+  {
+    json(jo,"get","data",data)
+    //更新内容
+    json(data,"get","content",content)
+    //更新版本
+    json(data,"get","version",version_new)
+    //下载链接
+    json(data,"get","url",ss.xzurl)  
+    ufnsui()
+    {
+      f(version_new&gt;version)
+      {
+        us(18,"visibility","visible")
+        us(24,"text",content)
+        us(32,"text",version_new)
+        ssj(28, "clicki")
+        {
+          hws(ss.xzurl)
+        }
+        ssj(34, "clicki")
+        {
+          end()
+          ends()
+        }                
+      }
+      else
+      {
+        us(18,"visibility","gone")
+      }
+    }
+  }
+}
+</eventItme></UIEventset>

@@ -1,0 +1,329 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="27" did="2" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="5" did="2" type="TextView">
+<ppt>width=-2
+height=-1
+text=卡片消息
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="28" did="1" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=5dp
+gravity=top
+
+</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=标题
+textcursordrawable=#C51162
+layout_marginleft=5dp
+layout_margintop=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp
+singleline=true
+background=
+textCursorDrawable=#ff00acff</ppt>
+<event></event>
+</View>
+<View id="8" did="6" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=内容
+textcursordrawable=#C51162
+layout_marginleft=5dp
+layout_margintop=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp
+singleline=true
+background=
+textCursorDrawable=#ff00acff</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=图片直链(长按选择)
+textcursordrawable=#C51162
+layout_marginleft=5dp
+layout_margintop=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp
+singleline=true
+background=
+textCursorDrawable=#ff00acff</ppt>
+<event><eventItme type="press">javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+
+java(c,it,"android.content.Intent.setType","String","image/*")
+
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+
+</eventItme></event>
+</View>
+<View id="10" did="6" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+hint=跳转链接
+textcursordrawable=#C51162
+layout_marginleft=5dp
+layout_margintop=5dp
+layout_marginright=5dp
+layout_marginbottom=5dp
+singleline=true
+background=
+textCursorDrawable=#ff00acff</ppt>
+<event></event>
+</View>
+<View id="11" did="6" type="Button">
+<ppt>width=-1
+height=50dp
+text=生成
+layout_margintop=15dp
+layout_gravity=center
+textcolor=#ffffffff
+</ppt>
+<event><eventItme type="clicki">syso(sss.sid)
+ug(7,"text",bt)
+ug(8,"text",nr)
+ug(9,"text",tp)
+ug(10,"text",web)
+f(bt==""||nr==""||tp==""||web=="")
+{
+  us(3,"text","123")
+ s text="请输入完整~"
+s stop = 2000
+fn color.ColorToast(text,stop)
+  }
+else
+{
+fn scfx.分享一(bt,colr)
+fn scfx.分享二(nr,colr)
+fn scfx.分享三(tp,colr)
+fn scfx.分享四(web,colr)
+ss("mqqapi://share/to_fri?file_type=news&src_type=web&version=1&share_id="+sss.sid+"&url="+sss.web+"&previewimageUrl=aHR0cDovL3d3dy54ZGFwcC50b3AvaW1nL2ljb24ucG5n"+"&image_url="+sss.tp+"&title="+sss.bt+"&description="+sss.nr+"&callback_type=scheme&thirdAppDsplayName=UVE&app_name=UVE&cflag=0&shareType=0",bb)
+syso(bb)
+
+s qqpay=bb
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",qqpay)
+uit(a, "chooser", "QQ访问")
+}
+/.
+}
+}
+
+}
+}</eventItme></event>
+</View>
+<View id="12" did="6" type="Button">
+<ppt>width=-1
+height=50dp
+text=默认文字
+layout_margintop=5dp
+layout_gravity=center
+textcolor=#ffffffff
+</ppt>
+<event><eventItme type="clicki">us(7,"text","幻隐网络")
+us(8,"text","全网最吊...")
+us(9,"text","http://img04.sogoucdn.com/app/a/100520146/f5bb189aa1a2ca81f08a848e5da4fce2")
+us(10,"text","https://jq.qq.com/?_wv=1027&k=5J6urI0")</eventItme></event>
+</View>
+<View id="15" did="6" type="Button">
+<ppt>width=-1
+height=50dp
+text=清空所有
+layout_margintop=5dp
+layout_gravity=center
+textcolor=#ffffffff
+</ppt>
+<event><eventItme type="clicki">us(7,"text","")
+us(8,"text","")
+us(9,"text","")
+us(10,"text","")</eventItme></event>
+</View>
+<View id="16" did="6" type="Button">
+<ppt>width=-1
+height=50dp
+text=自定义后缀(默认为QQ，仅限会员使用)
+layout_margintop=5dp
+layout_gravity=center
+textcolor=#ffffffff
+</ppt>
+<event><eventItme type="clicki">fr("$幻隐网络/.v/xjf.yx",cs)
+f(cs &gt; "0")
+{
+time("Y",a)
+time("m",m)
+time("d",D)
+time("H",e)
+time("M",l)
+time("S",v)
+ss(a+m+D+e+l+v,dqsj)
+fr("$幻隐网络/.v/xjf.yx",wjj)
+f(dqsj&gt;wjj)
+{
+s wj="$幻隐网络/.v/xjf.yx"
+fd(wj,b)
+}
+else
+{
+s a = ""
+s b = "后缀sid.iyu"
+s c = ""
+utw(null, a, b, c, false, v)
+{
+syso("点击了确定")
+}
+
+sss bqb=v
+
+
+}
+}
+else
+{
+ug(会员.100,"text",y)
+f(y=="有")
+{
+}
+else
+{
+tw("仅限会员使用")
+}
+}
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+</eventItme></event>
+</View>
+<View id="26" did="6" type="Button">
+<ppt>width=-1
+height=50dp
+text=后缀列表
+layout_margintop=5dp
+layout_gravity=center
+textcolor=#ffffffff
+</ppt>
+<event><eventItme type="clicki">s a = ""
+s b = "后缀列表.iyu"
+s c = ""
+utw(null, a, b, c, false, v)
+{
+syso("点击了确定")
+}
+
+sss bqb=v
+
+</eventItme></event>
+</View>
+<View id="25" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本25
+visibility=gone</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+s a = "http://pic.sogou.com/pic/upload_pic.jsp"
+s b = "name=pic_path;filename=icon.png"
+ss("%"+st_sS,c)
+s d = "utf-8"
+huf(a, b, c, d, e)
+ufnsui()
+{
+  us(9,"text",e)
+}
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(2,"background",yg)
+us(11,"background",yg)
+us(12,"background",yg)
+us(15,"background",yg)
+us(16,"background",yg)
+us(26,"background",yg)
+
+sss sid="100686848"
+
+
+
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme><eventItme type="onactivityresult">javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(path, "mjava", "uri.getRealPath", activity, uri)
+    syso(path)
+//    us(2, "src", path)
+    us(25, "text", path)
+  }
+}</eventItme></UIEventset>

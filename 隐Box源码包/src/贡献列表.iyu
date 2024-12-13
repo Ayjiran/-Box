@@ -1,0 +1,207 @@
+<View id="25" did="0" type="CardView">
+<ppt>width=-1
+height=100dp
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="1" did="25" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+background=#FFFFFF
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载失败
+ut_torightof=23
+layout_margintop=20dp
+layout_marginleft=20dp
+textcolor=#000000
+typeface=sans
+textsize=15sp
+</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=150dp
+height=15dp
+orientation=horizontal
+ut_below=4
+ut_torightof=23
+layout_marginleft=20dp
+layout_margintop=5dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=贡献
+textsize=11sp
+textcolor=#e85a71</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="TextView">
+<ppt>width=10dp
+height=10dp
+text=●
+gravity=center
+textsize=2.5sp
+textcolor=#80000000</ppt>
+<event></event>
+</View>
+<View id="8" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=0元
+textsize=11sp
+textcolor=#99000000</ppt>
+<event></event>
+</View>
+<View id="11" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=可能您的网络或者软件有问题！
+ut_torightof=23
+ut_below=5
+layout_marginleft=20dp
+layout_margintop=5dp
+textsize=12sp
+layout_marginright=10dp
+singleline=true
+ellipsize=end
+textcolor=#80000000
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="15" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=下载地址
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=qq
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=图标
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="2" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+ut_alignparentright=true
+layout_marginright=20dp
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="29" did="18" type="ImageView">
+<ppt>width=60dp
+height=-2
+src=@btn_message_card_chat.png</ppt>
+<event><eventItme type="clicki">ulag(st_vW,16,wc)
+ulag(st_vW,26,q)
+f(q=="可以")
+{
+ufnsui()
+{
+ss("mqqwpa://im/chat?chat_type=wpa&uin="+wc+"&version=1",urlqq)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",urlqq)
+uit(a, "chooser", "QQ聊天窗口")
+}
+}
+else
+{
+s text="TA设置了禁止联系！"
+s stop = 2000
+fn color.ColorToast(text,stop)
+}
+
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="23" did="2" type="CardView">
+<ppt>width=50dp
+height=50dp
+ut_alignparentleft=true
+ut_centervertical=true
+layout_marginleft=10dp
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+layout_marginTop=10dp
+layout_marginRight=8dp</ppt>
+<event></event>
+</View>
+<View id="28" did="23" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@20180916170000@4c836b3a84cda5ad0d4924610357eecb.v
+scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="27" did="23" type="TextView">
+<ppt>width=-1
+height=-1
+text=</ppt>
+<event><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="24" did="2" type="TextView">
+<ppt>width=100dp
+height=100dp
+ut_alignparentleft=true
+ut_centervertical=true
+layout_marginleft=10dp
+text=</ppt>
+<event><eventItme type="clicki">tw()</eventItme></event>
+</View>
+<View id="26" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=图标
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="30" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=图标
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,贡献列表.28,image)
+ulag(st_vW,30,url)
+javax(fh,null,ss.l,"with","Context",activity)
+javax(fh1,fh,ss.l,"load","String",url)
+//设置图片链接
+javax(null,fh1,ss.l1,"into","android.widget.ImageView",image)
+/.
+
+</eventItme></UIEventset>

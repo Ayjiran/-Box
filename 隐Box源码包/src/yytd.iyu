@@ -1,0 +1,25 @@
+<View id="5" did="0" type="WebView">
+<ppt>width=-1
+height=-1
+.url=file:///storage/sdcard0/XM%E5%B7%A5%E5%85%B7%E7%AE%B1/yytd/index.html
+url=$幻隐网络/游戏/yytd/index.html</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+//竖屏
+ushsp(false)
+uycl(sss.ys,true)
+us(1,"background",sss.ys)
+.us(7,"background",sss.ys)
+.fuzs("$幻隐网络/游戏/2048.zip","$幻隐网络/2048缓存",true,if)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

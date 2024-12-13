@@ -1,0 +1,66 @@
+<View id="7" did="0" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=5dp</ppt>
+<event><eventItme type="clicki">gvs(st_vW,直播列表.5,tz)
+ulag(st_vW,4,sss.zd)
+ug(tz,"text",sss.tz)
+uigo("直播mian1.iyu")</eventItme></event>
+</View>
+<View id="1" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#FFFFFF
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=平台
+ut_alignparentleft=true
+layout_marginleft=10dp
+typeface=serif
+textcolor=#000000
+textsize=15sp</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading"> 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

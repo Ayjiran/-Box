@@ -1,0 +1,126 @@
+<View id="5" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=280dp
+orientation=vertical
+background=#212121
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="40" did="6" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@fa52b7cdddf.png
+.scaleType=centercrop</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="CardView">
+<ppt>width=-1
+height=-1
+layout_marginTop=260dp
+app_CardcornerRadius=20dp</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+layout_marginTop=15dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=收藏功能
+textSize=28sp
+textColor=#ff000000
+layout_marginLeft=20dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical|right</ppt>
+<event></event>
+</View>
+<View id="15" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=如何收藏
+layout_marginRight=5dp
+textSize=12sp
+</ppt>
+<event><eventItme type="clicki">fn tool.showbt("gghh.iyu", true)</eventItme></event>
+</View>
+<View id="14" did="13" type="ImageView">
+<ppt>width=15dp
+height=15dp
+src=@chevron right998.png
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="55" did="9" type="GridView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="41" did="5" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="44" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="CardView">
+<ppt>width=40dp
+height=40dp
+layout_marginLeft=20dp
+app_CardcornerRadius=25dp</ppt>
+<event></event>
+</View>
+<View id="46" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="47" did="46" type="ImageView">
+<ppt>width=15dp
+height=15dp
+src=@beo.g.png</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#fffff9f9",false)
+fn 聚合.收藏()
+</eventItme></UIEventset>

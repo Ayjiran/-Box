@@ -1,0 +1,216 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+background=#FFFFFF
+layout_marginbottom=5dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=名字
+ut_torightof=23
+layout_margintop=20dp
+layout_marginleft=20dp
+textcolor=#000000
+typeface=sans
+textsize=15sp
+</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=150dp
+height=15dp
+orientation=horizontal
+ut_below=4
+ut_torightof=23
+layout_marginleft=20dp
+layout_margintop=5dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=发布者
+textsize=11sp
+textcolor=#e85a71</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="TextView">
+<ppt>width=10dp
+height=10dp
+text=●
+gravity=center
+textsize=2.5sp
+textcolor=#80000000</ppt>
+<event></event>
+</View>
+<View id="8" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=内存
+textsize=11sp
+textcolor=#99000000</ppt>
+<event></event>
+</View>
+<View id="9" did="5" type="TextView">
+<ppt>width=10dp
+height=10dp
+text=●
+gravity=center
+textsize=2.5sp
+textcolor=#80000000</ppt>
+<event></event>
+</View>
+<View id="10" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=适用于
+textsize=11sp
+textcolor=#99000000</ppt>
+<event></event>
+</View>
+<View id="11" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=介绍
+ut_torightof=23
+ut_below=5
+layout_marginleft=20dp
+layout_margintop=5dp
+textsize=12sp
+layout_marginright=10dp
+singleline=true
+ellipsize=end
+textcolor=#80000000
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="15" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=下载地址
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="16" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=图标
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="17" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=图标
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="2" type="LinearLayout">
+<ppt>width=60dp
+height=-1
+orientation=vertical
+ut_alignparentright=true
+layout_marginright=20dp
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="CardView">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="13" did="19" type="LinearLayout">
+<ppt>width=60dp
+height=30dp
+orientation=vertical
+ut_alignparentright=true
+layout_marginright=20dp
+background=#ff00a2ff
+gravity=center
+</ppt>
+<event><eventItme type="clicki">ulag(st_vW,4,mzu)
+sss mz=mzu
+ulag(st_vW,10,syy)
+sss sy=syy
+ulag(st_vW,11,js)
+sss jj=js
+ulag(st_vW,15,dz)
+sss dz=dz
+ulag(st_vW,6,zu)
+sss zz=zu
+ulag(st_vW,16,tb)
+sss tb=tb
+ulag(st_vW,16,lj)
+sss lj=lj
+
+uigo("查看文件.iyu")</eventItme></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=查看
+textcolor=#FFFFFF
+textsize=11sp
+</ppt>
+<event></event>
+</View>
+<View id="23" did="2" type="CardView">
+<ppt>width=50dp
+height=50dp
+ut_alignparentleft=true
+ut_centervertical=true
+layout_marginleft=10dp
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=15dp
+layout_marginTop=10dp
+layout_marginRight=8dp</ppt>
+<event></event>
+</View>
+<View id="20" did="23" type="WebView">
+<ppt>width=50dp
+height=50dp
+ut_alignparentleft=true
+ut_centervertical=true
+layout_marginleft=10dp</ppt>
+<event></event>
+</View>
+<View id="24" did="2" type="TextView">
+<ppt>width=100dp
+height=100dp
+ut_alignparentleft=true
+ut_centervertical=true
+layout_marginleft=10dp
+text=</ppt>
+<event><eventItme type="clicki">tw()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">gvs(st_vW,文件列表.13,aa)
+fr("$幻隐网络/配置/yx.txt",yg)
+ngde("5",yg,ac)
+us(aa,"background",ac)
+gvs(st_vW,文件列表.16,lj)
+gvs(st_vW,文件列表.20,tx)
+ug(lj,"text",lj)
+us(tx,"url",lj)
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

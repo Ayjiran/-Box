@@ -1,0 +1,137 @@
+<View id="3" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="18" did="3" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+BackgroundColor=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="20" did="18" type="TextView">
+<ppt>width=-2
+height=-1
+text=自动回赞
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp</ppt>
+<event></event>
+</View>
+<View id="21" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8</ppt>
+<event></event>
+</View>
+<View id="14" did="3" type="ImageView">
+<ppt>width=340dp
+height=180dp
+src=@a/.zy/cxz.v
+layout_gravity=center
+layout_margintop=8dp
+layout_marginTop=50dp</ppt>
+<event></event>
+</View>
+<View id="15" did="3" type="Button">
+<ppt>width=340dp
+height=-2
+text=打开无障碍
+layout_margintop=5dp
+layout_gravity=center
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">call(null, "mlua", "set.get")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="16" did="3" type="Button">
+<ppt>width=340dp
+height=-2
+text=打开QQ
+layout_margintop=5dp
+layout_gravity=center
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">uapp("com.tencent.mobileqq",c)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+</eventItme></event>
+</View>
+<View id="17" did="3" type="Button">
+<ppt>width=340dp
+height=-2
+text=使用说明
+layout_margintop=5dp
+layout_gravity=center
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">s a = null
+s b = "使用说明"
+s c = "软件说明：\n本软件需要开启无障碍功能，如果没有请绕道。\n使用步骤：\n①先点击打开无障碍功能，进入设置界面，允许软件开启无障碍。\n②点击打开QQ，他会自动进入点赞页面(不自动的话请自己手动)，然后自动开启回赞\n③一天请不要回赞很多，否则可能会出现频繁！"
+s d = "确定"
+utw(a, b, c, d, false, v)
+{
+syso("点击了确定")
+.这里可放执行代码
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ff00bfff",true)
+fw("%隐心回赞.txt","true")
+
+fr("$幻隐网络/配置/yx.txt",d)
+us(18,"background",d)
+us(15,"background",d)
+us(16,"background",d)
+us(17,"background",d)
+us(1,"background",d)
+
+//17控件id  #ffff0020为边框颜色
+dhas(dh, 14, "translationY", -150, 30, -35, 25, -30,20,-20,15,-10,10,-8,8,-5,5,-3,3,-2,2,-1,1,0,0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

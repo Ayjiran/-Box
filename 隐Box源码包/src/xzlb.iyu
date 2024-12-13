@@ -1,0 +1,51 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=60dp
+background=white
+backgroundripple=#ff3f51b5</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本2
+ut_centervertical=true
+layout_marginleft=15dp
+textsize=14dp
+textcolor=#ff000000</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本3
+ut_centervertical=true
+ut_alignparentright=true
+layout_marginright=10dp
+textsize=10dp</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本4
+visibility=invisible</ppt>
+<event>
+</event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme>
+</UIEventset>

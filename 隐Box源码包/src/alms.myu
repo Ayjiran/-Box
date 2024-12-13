@@ -1,0 +1,163 @@
+fn 初始化()
+f(!sss.alms)
+{
+  sss alms = true
+  sss alms索引 = 100000
+  sss alms背景色 = "#70126fe1"
+  sss alms遮罩色 = "#00000000"
+  sss alms中景色 = "#ff126fe1"
+  sss alms前景色 = "#FFFFFF"
+}
+end fn
+fn 初始化(a1,a2,a3,a4)
+f(!sss.alms)
+{
+  sss alms = true
+  sss alms索引 = 100000
+}
+sss alms背景色 = a1
+sss alms遮罩色 = a2
+sss alms中景色 = a3
+sss alms前景色 = a4
+end fn
+
+//动态提示函数:
+// 将在指定相对布局的右上角展开动态提示动画.
+// fn alms.动态提示(相对布局id,0,文本)
+// fn alms.动态提示(相对布局id,图片路径,文本)
+fn 动态提示(did,img,txt)
+f(!sss.alms)
+{
+  fn alms.初始化()
+}
+t()
+{
+  // 这里可以对一些默认属性进行自定义
+  s 图像高宽 = "50dp"
+  s 文本高度 = "50dp"
+  s 字体大小 = "18sp"
+  s 最大行数 = 2
+  s 圆角大小 = 5
+  s 阴影大小 = 18
+  s 内留白 = 30
+  s 边外距 = 10
+  
+  s 展开 = 800
+  s 延时1 = 300
+  s 停顿 = 2000
+  s 延时2 = 200
+  s 收回 = 300
+  
+  ss("width=-2\nheight=-2\napp_CardcornerRadius="+圆角大小+"\napp_CardBackgroundColor="+sss.alms背景色+"\napp_CardElevation="+阴影大小+"\nut_alignParentRight=true\nlayout_margin="+边外距,卡片属性)
+  ss("width=-2\nheight=-2\nbackground="+sss.alms遮罩色,相对布局属性)
+  ss("width=-2\nheight=-2\norientation=horizontal\nlayout_marginLeft="+内留白+"\nbackground="+sss.alms中景色+"\ngravity=center_vertical",线性布局属性)
+  f(img==null||img==""||img==0){
+    s 图像属性 = "width=0\nheight=0"
+  }else{
+    ss("width="+图像高宽+"\nheight="+图像高宽+"\nsrc="+img+"\nlayout_marginTop=20\nlayout_marginBottom=20\nlayout_marginLeft=16",图像属性)
+  }
+  f(txt==null||txt=="")
+  {
+    s 文本属性 = "width=0\nheight=0"
+  }else{
+    ss("width=-2\nheight=-2\ntext="+txt+"\ntextColor="+sss.alms前景色+"\nmaxLines="+最大行数+"\ntextSize="+字体大小+"\nlayout_marginRight=24\nlayout_marginLeft=24\nlayout_marginTop=10\nlayout_marginBottom=10\ngravity=center_vertical",文本属性)
+  }
+  ufnsui()
+  {
+    nvw(sss.alms索引, did, "卡片", 卡片属性, 卡片)
+    s+(sss.alms索引,1,sss.alms索引)
+    nvw(sss.alms索引, 卡片, "相对布局", 相对布局属性, 相对布局)
+    s+(sss.alms索引,1,sss.alms索引)
+    nvw(sss.alms索引, 相对布局, "线性布局", 线性布局属性, 线性布局)
+    s+(sss.alms索引,1,sss.alms索引)
+    nvw(sss.alms索引, 线性布局, "图像", 图像属性, 图像)
+    s+(sss.alms索引,1,sss.alms索引)
+    nvw(sss.alms索引, 线性布局, "文本", 文本属性, 文本)
+    s+(sss.alms索引,1,sss.alms索引)
+    
+    us(卡片,"visibility",4)
+    us(线性布局,"visibility",4)
+    us(图像,"visibility",4)
+    us(文本,"visibility",4)
+    
+    //开始定义动画
+    dhs(dh卡片展开, 0, 1, 1, 1, 1, 1, 1, 0.5)
+    dh(dh卡片展开, "duration", 展开)
+    dhs(dh卡片收回, 1, 0, 1, 1, 1, 1, 1, 0.5)
+    dh(dh卡片收回, "duration", 展开)
+    dhs(dh线布展开, 0, 1, 1, 1, 1, 1, 1, 0.5)
+    dh(dh线布展开, "duration", 展开)
+    dhs(dh线布收回, 1, 0, 1, 1, 1, 1, 1, 0.5)
+    dh(dh线布收回, "duration", 展开)
+    dha(dh渐失, true, false)
+    dh(dh渐失, "duration", 收回)
+    dha(dh渐显, false, true)
+    dh(dh渐显, "duration", 展开)
+    
+    dhas(dh1, 图像, "rotation", 0, 30)
+    dh(dh1, "duration", 100)
+    dhas(dh2, 图像, "rotation", 30, -30)
+    dh(dh2, "duration", 200)
+    dhas(dh3, 图像, "rotation", -30, 15)
+    dh(dh3, "duration", 120)
+    dhas(dh4, 图像, "rotation", 15, 0)
+    dh(dh4, "duration", 100)
+    dhast(dh图像摇晃, "sequen", dh1, dh2, dh3,dh4)
+  }
+  //开始执行动画
+  ufnsui()
+  {
+    us(卡片,"visibility",0)
+    us(卡片,"dh",dh卡片展开)
+  }
+  stop(延时1)
+  ufnsui()
+  {
+    us(线性布局,"visibility",0)
+    us(线性布局,"dh",dh线布展开)
+  }
+  stop(展开)
+  ufnsui()
+  {
+    us(图像,"visibility",0)
+    us(文本,"visibility",0)
+    us(图像,"dh",dh渐显)
+    us(文本,"dh",dh渐显)
+  }
+  stop(延时2)
+  ufnsui()
+  {
+    dh(dh图像摇晃,"start")
+  }
+  stop(停顿)
+  ufnsui()
+  {
+    us(图像,"dh",dh渐失)
+    us(文本,"dh",dh渐失)
+  }
+  stop(收回)
+  ufnsui()
+  {
+    us(图像,"visibility",4)
+    us(文本,"visibility",4)
+    us(线性布局,"dh",dh线布收回)
+  }
+  stop(收回)
+  ufnsui()
+  {
+    us(线性布局,"visibility",4)
+    us(卡片,"dh",dh卡片收回)
+  }
+  stop(收回)
+  ufnsui()
+  {
+    us(卡片,"visibility",4)
+  }
+  syso("执行完毕")
+  //销毁组件
+  ufnsui()
+  {
+    urvw(卡片)
+  }
+}
+end fn

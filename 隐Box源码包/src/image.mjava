@@ -1,0 +1,38 @@
+import java.io.FileOutputStream;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.BitmapFactory$Options;
+public static void cut(String path,String name,String target){
+  path = i.fdir(path);
+  target = i.fdir(target);
+  BitmapFactory$Options option = new BitmapFactory$Options();
+  Bitmap bitmap = BitmapFactory.decodeFile(path,option);
+  int height = option.outHeight;
+  int width = option.outWidth;
+  int height_until = height/3;
+  int width_until = width/3;
+  for(int i = 0, y=0,num=0;i<=2;y+=height_until,i++){
+    for(int j = 0, x=0;j<=2;j++,x+=width_until){
+      String realpath = target+name+"_"+num+".v";
+      saveBitmap(Bitmap.createBitmap(bitmap,x,y,width_until,height_until),realpath);
+      num += 1;
+    }
+  }
+}
+
+
+public void saveBitmap(Bitmap bitmap,String path) {
+        File file = new File(path);
+        File dir = file.getParentFile();
+        if(!dir.exists()){
+          dir.mkdirs();
+        }
+        try {
+            FileOutputStream fos = new FileOutputStream(file);
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, fos);
+            fos.flush();
+            fos.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+}

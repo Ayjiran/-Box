@@ -1,0 +1,13 @@
+import java.lang.StringBuffer;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+public static String unicodeDecode(String string) {
+      Pattern pattern = Pattern.compile("(\\\\u(\\p{XDigit}{4}))");
+      Matcher matcher = pattern.matcher(string);
+      char ch;
+      while (matcher.find()) {
+          ch = (char) Integer.parseInt(matcher.group(2), 16);
+          string = string.replace(matcher.group(1), ch + "");
+        }
+        return string;
+    }

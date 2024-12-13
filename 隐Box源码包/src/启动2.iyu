@@ -1,0 +1,27 @@
+<View id="3" did="0" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardElevation=2dp
+layout_margin=5dp</ppt>
+<event></event>
+</View>
+<View id="1" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@a/icon_laucher_adult_4.v</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+
+ 
+
+
+ 
+
+
+
+/.
+
+</eventItme></UIEventset>

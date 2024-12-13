@@ -1,0 +1,337 @@
+<View id="42" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=#fff8f8f8</ppt>
+<event>
+</event>
+</View>
+<View id="43" did="42" type="ImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@6345d3fc7a8.png
+layout_marginLeft=10dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="44" did="42" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=Q绑查询
+layout_marginLeft=15dp
+textColor=#ffffff
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="42" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="47" did="46" type="TextView">
+<ppt>width=-2
+height=-2
+text=在线工具大全
+textColor=#000000
+textStyle=bold</ppt>
+<event>
+</event>
+</View>
+<View id="48" did="45" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="49" did="48" type="ImageView">
+<ppt>width=34dp
+height=34dp
+src=@ic_arrow_back_black_24dp.png
+layout_marginLeft=10dp
+BackgroundRipple=#f5f5f5
+padding=5dp</ppt>
+<event>
+<eventItme type="clicki">
+end()
+</eventItme>
+</event>
+</View>
+<View id="79" did="48" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="80" did="79" type="ImageView">
+<ppt>width=18dp
+height=18dp
+src=0
+layout_gravity=right
+layout_marginRight=15dp
+clickable=true
+BackgroundRipple=#f5f5f5
+</ppt>
+<event>
+
+</event>
+</View>
+<View id="89" did="42" type="Toolbar">
+<ppt>width=-1
+height=48dp
+background=#ffffffff
+app_title=官方通知
+app_TitleColor=#FF2196F3</ppt>
+<event></event>
+</View>
+<View id="81" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="41" did="81" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ffffff</ppt>
+<event>
+</event>
+</View>
+<View id="107" did="41" type="LinearLayout">
+<ppt>width=-1
+height=300dp
+orientation=vertical
+background=@garbage_main_page_bg.png</ppt>
+<event></event>
+</View>
+<View id="102" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="104" did="102" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="106" did="104" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="103" did="106" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="92" did="103" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="97" did="92" type="LinearLayout">
+<ppt>width=-1
+height=100dp
+orientation=vertical
+background=through
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="98" did="97" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="CardView">
+<ppt>width=-1
+height=10dp
+app_CardcornerRadius=10dp
+app_CardElevation=-10dp
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="100" did="98" type="LinearLayout">
+<ppt>width=-1
+height=5dp
+orientation=vertical
+ut_alignParentBottom=true
+background=white</ppt>
+<event></event>
+</View>
+<View id="101" did="98" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="95" did="101" type="TextView">
+<ppt>width=-2
+height=-2
+text=标题
+textStyle=bold
+textSize=25sp
+textColor=#ffffff
+layout_marginLeft=10dp
+layout_marginRight=10dp
+typeface=normal
+textstyle=bold
+ellipsize=marquee
+//文本超长显示方式 跑马灯
+marqueerepeatlimit=marquee_forever
+//跑马灯显示次数 无限∞重复
+focusableintouchmode=true
+//获取焦点
+singleLine=true
+</ppt>
+<event></event>
+</View>
+<View id="105" did="92" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="93" did="105" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_margin=20dp</ppt>
+<event></event>
+</View>
+<View id="94" did="93" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无
+textColor=#ff000000
+textSize=15sp
+textIsSelectable=true
+layout_marginBottom=250dp</ppt>
+<event></event>
+</View>
+<View id="76" did="41" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="78" did="76" type="WebView">
+<ppt>
+width=-1
+height=-1
+url=
+</ppt>
+<event>
+</event>
+</View>
+<View id="86" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=17301523
+gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="87" did="86" type="GifView">
+<ppt>width=150dp
+height=150dp
+src=@coolboxloading.gif</ppt>
+<event></event>
+</View>
+<View id="88" did="86" type="TextView">
+<ppt>width=-2
+height=-2
+text=Loading. . .
+textColor=#ffffff
+textSize=15sp</ppt>
+<event></event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+//状态栏白底黑字
+loadjar("armeabi-v7a/classes2.dex",class)
+cls(class,"com.Mus.ReboundScrollView",mB)
+gvs(102,a)
+gvs(104,b)
+javanew(mBs,mB,"Context",activity)
+urvw(104)
+nvw(mBs,102)
+nvw(b,mBs)
+s id=89
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+//设置左边为返回键
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+  uzd(震动器, 30)
+  end()
+  fr("$幻隐网络/点击特效/开.txt",anyx)
+  f(anyx &gt; "0")
+  {
+    bfm("$幻隐网络/配置/djyx.mp3")
+  }
+}
+fr("%颜色.txt",颜色)
+fn 着色.控件着色(89,颜色)</eventItme>
+<eventItme type="menu">/.
+case 帮助|@help.png|1:
+ug(85,"url",url)
+us(85,"url",url)
+break
+./
+case 反馈:
+uigo("ymsc.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme><eventItme type="loadingComplete">us(95,"text",sss.主页标题)
+us(94,"text",sss.主页介绍)</eventItme></UIEventset>

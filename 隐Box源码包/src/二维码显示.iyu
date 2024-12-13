@@ -1,0 +1,116 @@
+<View id="29" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="29" type="AppBarLayout">
+<ppt>width=-1
+height=-2
+elevation=4dp
+</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="Toolbar">
+<ppt>width=-1
+height=-3
+app_layout_ScrollFlags=enterAlways|scroll
+app_TitleColor=#FF2196F3
+background=white
+.elevation=4dp
+app_title=二维码内容
+ps=请留个版权，谢谢</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_margin=18dp
+background=#7bdfdfdf</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂时没有内容！
+layout_margin=10dp
+textColor=#ff000000
+textSize=15sp
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">fr("$幻隐网络/配置/yx.txt",yg)
+us(4,"background",yg)
+uycl("#ffffff",true)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+java(window,activity,"android.app.Activity.getWindow")
+java(null,window,"android.view.Window.setSoftInputMode","int",32)
+java(cs,activity,"android.app.Activity.getWindow")
+java(cs2,cs,"android.view.Window.getDecorView")
+java(null,cs2,"android.view.View.setSystemUiVisibility","int","8192")
+fr(sss.wj,wj)
+ss("(html)"+sss.tzurl,tzurl)
+us(34,"text",tzurl)
+s id=5
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+utb("left", id, "@coolbackhei.png")
+utb("set", "leftck", id)
+{
+    end()
+    fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+}
+gvs(id, mTba)
+javags(mMode, null, "android.graphics.PorterDuff$Mode", "SRC_ATOP")
+java(mTbaBackSrc, mTba, "androidx.appcompat.widget.Toolbar.getNavigationIcon")
+java(颜色,null,"android.graphics.Color.parseColor","String","#FF2196F3")
+java(null, mTbaBackSrc, "android.graphics.drawable.Drawable.setColorFilter", "int", 颜色, "android.graphics.PorterDuff$Mode", mMode)
+java(mTbaMenuSrc, mTba, "androidx.appcompat.widget.Toolbar.getOverflowIcon")
+java(null, mTbaMenuSrc, "android.graphics.drawable.Drawable.setColorFilter", "int", 颜色, "android.graphics.PorterDuff$Mode", mMode)
+/.
+
+</eventItme><eventItme type="menu">case 复制内容:
+sxb(sss.tzurl)
+s stop = 2000
+s text="复制成功"
+fn color.ColorToast(text,stop)
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break
+case 我要制作:
+uigo("lk.ewm.iyu")
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}
+break</eventItme></UIEventset>

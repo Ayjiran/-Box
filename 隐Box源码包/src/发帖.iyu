@@ -1,0 +1,582 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ffffffff
+gravity=center_horizontal
+ut_above=68</ppt>
+<event></event>
+</View>
+<View id="61" did="2" type="LinearLayout">
+<ppt>width=-1
+height=48dp
+background=#ff00bfff
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="ImageView">
+<ppt>width=56dp
+height=-1
+src=@lp/base_back.v
+padding=14dp
+backgroundripple=#e3e3e3e3</ppt>
+<event><eventItme type="clicki">end()
+fr("$幻隐网络/点击特效/开.txt",anyx)
+f(anyx &gt; "0")
+{
+  bfm("$幻隐网络/配置/djyx.mp3")
+}</eventItme></event>
+</View>
+<View id="63" did="61" type="TextView">
+<ppt>width=-2
+height=-1
+text=发布帖子
+textcolor=#ffffffff
+layout_marginright=5dp
+gravity=center_vertical
+textsize=16sp
+typeface=normal
+textstyle=bold
+layout_marginleft=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="65" did="61" type="CardView">
+<ppt>width=60dp
+height=30dp
+app_CardcornerRadius=10dp
+app_CardElevation=1dp
+layout_gravity=center
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="66" did="65" type="TextView">
+<ppt>width=-1
+height=-1
+text=发布
+textColor=#ff00a6ff
+layout_marginTop=10dp
+layout_marginBottom=10dp
+layout_marginRight=10dp
+layout_marginLeft=10dp
+gravity=center</ppt>
+<event><eventItme type="clicki">ug(119,"text",money)
+ug(19,"text",标题)
+ug(21,"text",内容)
+sr(内容,"\n","&lt;br&gt;",内容)
+f(标题==""||内容=="")
+{
+  ufnsui()
+  {
+    s text="请填写完整~"
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+  }
+}
+else
+{
+  f(sss.sf=="true")
+    {
+      ss("&tgold="+money,sf)
+    }
+    else
+    {
+      ss("&tgold="+"",sf)
+    }
+    f(sss.plnr=="true")
+    {
+      s thide="&thide=1"
+    }
+  t()
+  {
+    ss(sss.api+"/?post.html",wz)
+    ss("title="+标题+"&content=&lt;p&gt;"+内容+"&lt;/p&gt;&forum="+sss.发帖id+"&tmp_md5=8AYQ3&fileid=&filegold=&filemess=&filehide=&thide=0&tgold="+thide+sf,ft)
+    hs(wz,ft,"utf-8",null,true,axa)
+    sr(axa,"\"","",str)
+    fn json.unicode_utf8(str)
+    sj(sss.utf8_str,"info:","}",sss.utf8_str)
+    f(sss.utf8_str?"成功")
+    {
+      ufnsui()
+      {
+        s text="发布成功~审核成功后显示。"
+        s stop = 2000
+        fn color.ColorToast(text,stop)
+        end()
+      }
+    }
+    else
+    {
+      ufnsui()
+      {
+        s text=sss.utf8_str
+        s stop = 2000
+        fn color.ColorToast(text,stop)
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="67" did="2" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8
+ut_below=61</ppt>
+<event></event>
+</View>
+<View id="11" did="2" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+visibility=8</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="CardView">
+<ppt>width=200dp
+height=-1
+app_CardBackgroundColor=#FFEA9518
+app_CardcornerRadius=15dp
+app_CardElevation=0
+app_CardmaxElevation=0</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardBackgroundColor=#ffffffff
+app_CardcornerRadius=14dp
+app_CardElevation=0
+app_CardmaxElevation=0
+layout_margin=1dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="17" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=请选择板块
+textColor=#ff242424
+textStyle=bold
+textSize=18dp</ppt>
+<event></event>
+</View>
+<View id="18" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ff040404
+textStyle=bold
+textSize=16dp
+hint=请输入标题
+background=-1
+textColorHint=#ff9c9c9c
+maxLines=2
+</ppt>
+<event><eventItme type="ontextchanged">ug(19,"text",内容)
+f(内容?"["||内容?"]"||内容?"("||内容?")"||)
+{
+  us(19,"text","")
+   s text="禁止添加特殊符号~"
+    s stop = 2000
+    fn color.ColorToast(text,stop)
+}</eventItme></event>
+</View>
+<View id="94" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="88" did="94" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="90" did="88" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@main_first_recharge_jifen.png
+layout_marginLeft=6dp</ppt>
+<event></event>
+</View>
+<View id="91" did="88" type="TextView">
+<ppt>width=-2
+height=-2
+text=# 主题内容收费查看
+textStyle=bold
+textColor=#b9ba0000
+textSize=11sp
+layout_marginTop=2dp
+layout_marginLeft=3dp</ppt>
+<event></event>
+</View>
+<View id="92" did="88" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="93" did="92" type="SwitchCompat">
+<ppt>width=-2
+height=-2
+layout_gravity=right
+layout_marginRight=3dp</ppt>
+<event><eventItme type="clicki">sss plnr="false"
+ug(st_vId,"checked",zt)
+f(zt==true)
+{
+  sss sf="true"
+  us(118,"visibility","visible")
+}
+else
+{
+  sss sf="false"
+  us(118,"visibility","gone")
+}</eventItme></event>
+</View>
+<View id="118" did="94" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="119" did="118" type="EditText">
+<ppt>width=180dp
+height=37dp
+text=
+textStyle=bold
+textColor=#ffa9a9a9
+padding=2dp
+hint=请输入收取费用
+textSize=12sp
+BackgroundColor=0
+gravity=center
+layout_gravity=center_horizontal
+digits=1234567890
+singleLine=true</ppt>
+<event></event>
+</View>
+<View id="120" did="118" type="TextView">
+<ppt>width=-2
+height=-2
+text=Ps : 对方支付后金币会充值至您的账户
+layout_gravity=center_horizontal
+layout_margin=5dp
+typeface=sans
+textSize=11sp
+textColor=#ffff0024</ppt>
+<event></event>
+</View>
+<View id="105" did="94" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="106" did="105" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@user/zhuye_sx.png
+layout_marginLeft=6dp</ppt>
+<event></event>
+</View>
+<View id="107" did="105" type="TextView">
+<ppt>width=-2
+height=-2
+text=# 用户回复才可以查看
+textStyle=bold
+textColor=#536DFE
+textSize=11sp
+layout_marginTop=2dp
+layout_marginLeft=3dp</ppt>
+<event></event>
+</View>
+<View id="108" did="105" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="109" did="108" type="SwitchCompat">
+<ppt>width=-2
+height=-2
+layout_gravity=right
+layout_marginRight=3dp</ppt>
+<event><eventItme type="clicki">sss sf="false"
+ug(st_vId,"checked",zt)
+f(zt==true)
+{
+  sss plnr="true"
+  us(110,"visibility","visible")
+}
+else
+{
+  sss plnr="false"
+  us(110,"visibility","gone")
+}</eventItme></event>
+</View>
+<View id="110" did="94" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="112" did="110" type="TextView">
+<ppt>width=-2
+height=-2
+text=Ps : 对方评论后才能看你的帖子
+layout_gravity=center_horizontal
+layout_margin=5dp
+typeface=sans
+textSize=11sp
+textColor=#ffff0024</ppt>
+<event></event>
+</View>
+<View id="121" did="94" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertical
+background=#ffb8b8b8
+layout_marginLeft=30dp
+layout_marginRight=30dp</ppt>
+<event></event>
+</View>
+<View id="20" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+textColor=#ff040404
+textSize=13sp
+hint=请输入内容(请注意您的言辞举止哦~)\n\n进行创作者认证，可以发布更高级的帖子喔~
+background=-1
+textColorHint=#ff9c9c9c
+gravity=top</ppt>
+<event></event>
+</View>
+<View id="68" did="1" type="LinearLayout">
+<ppt>width=-1
+height=56dp
+background=white
+orientation=horizontal
+gravity=center
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_marginRight=0dp
+layout_weight=1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="LinearLayout">
+<ppt>width=10dp
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">ug(21,"text",a)
+ss(a+"\n&lt;img _moz_resizing=\"false\" src=\"填写您的图片链接\"&gt;\n",a)
+us(21,"text",a)</eventItme></event>
+</View>
+<View id="71" did="70" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ui/yx.v</ppt>
+<event></event>
+</View>
+<View id="78" did="70" type="TextView">
+<ppt>width=-2
+height=-2
+text=图片
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="79" did="69" type="LinearLayout">
+<ppt>width=10dp
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1
+visibility=gone</ppt>
+<event><eventItme type="clicki">ug(21,"text",a)
+ss(a+"\n&lt;video src=\"请输入你的链接\" controls=\"controls\"&gt;您的浏览器不支持 video 标签。&lt;/video&gt;\n",a)
+us(21,"text",a)</eventItme></event>
+</View>
+<View id="80" did="79" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ui/ys.v</ppt>
+<event></event>
+</View>
+<View id="81" did="79" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="122" did="69" type="LinearLayout">
+<ppt>width=10dp
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">ug(21,"text",a)
+ss(a+"\n&lt;a href=\"填写您的链接\" &gt;\n",a)
+us(21,"text",a)</eventItme></event>
+</View>
+<View id="123" did="122" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ui/hy.v</ppt>
+<event></event>
+</View>
+<View id="124" did="122" type="TextView">
+<ppt>width=-2
+height=-2
+text=超链接
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="85" did="69" type="LinearLayout">
+<ppt>width=10dp
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="86" did="85" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ui/ren.v</ppt>
+<event></event>
+</View>
+<View id="87" did="85" type="TextView">
+<ppt>width=-2
+height=-2
+text=敬请期待
+textColor=#ff000000
+textSize=13sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="downkey">
+ug(45,"visibility",op)
+f(op==0)
+{
+  us(45,"visibility","8")
+}
+else
+{
+  f(st_kC==4) 
+{
+    end()
+  }
+
+
+}</eventItme><eventItme type="loading">uycl("#ff00bfff",true)
+fr("$幻隐网络/配置/yx.txt",yg)
+us(61,background",yg)
+sss plnr="false"
+sss sf="false"</eventItme><eventItme type="loadingComplete">/.
+ug(19,"text",标题)
+ug(21,"text",内容)
+sr(内容,"\n","&lt;br&gt;",内容)
+f(标题==""||内容=="")
+{
+  ufnsui()
+  {
+     sss 提示="请填写完整！"
+   fn 全局提示.ts()
+  }
+}
+f(sss.ftid==null)
+{
+  ufnsui()
+  {
+     sss 提示="请选择板块！"
+   fn 全局提示.ts()
+  }
+}
+else
+{
+   t()
+   {
+   ss(sss.wdwz+"/?post.html",wz)
+   ss("title="+标题+"&content=&lt;p&gt;"+内容+"&lt;/p&gt;&forum="+sss.ftid+"&tmp_md5=8AYQ3&fileid=&filegold=&filemess=&filehide=&thide=0&tgold=",ft)
+   hs(wz,ft,"utf-8",null,true,axa)
+   sr(axa,"\"","",str)
+   fn json.unicode_utf8(str)
+   sj(sss.utf8_str,"info:","}",sss.utf8_str)
+   f(sss.utf8_str?"成功")
+   {
+     ufnsui()
+     {
+       sss 提示="发表成功！"
+       fn 全局提示.ts()
+       end()
+     }
+   }
+ else
+ {
+    ufnsui()
+    {
+       sss 提示=sss.utf8_str
+       fn 全局提示.ts()
+   }
+ }
+ }
+}</eventItme></UIEventset>

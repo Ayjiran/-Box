@@ -1,0 +1,56 @@
+<View id="10" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="clicki">fn alms.动态提示(10,"@test02.png","Welcome to the\\nplanet Alms!")</eventItme></event>
+</View>
+<View id="5" did="10" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=0
+app_CardBackgroundColor=#FF3D00
+app_CardElevation=10
+ut_alignParentRight=true
+layout_margin=10
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="RelativeLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+layout_marginLeft=30
+background=#37474F
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="ImageView">
+<ppt>width=50dp
+height=50dp
+src=@test02.png
+layout_marginTop=20
+layout_marginBottom=20
+layout_marginLeft=20</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=This's test text.
+textColor=#ffffffff
+maxLines=2
+textSize=18sp
+layout_marginRight=24
+layout_marginLeft=24
+layout_marginTop=10
+layout_marginBottom=10
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">.fn alms.初始化()
+</eventItme></UIEventset>
