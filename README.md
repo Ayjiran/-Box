@@ -16,6 +16,7 @@
 
 <h2>软件架构</h2>
 软件架构说明，应用内的所有东西都可以在后台更新，iapp开发前端，后端对接php，版本推荐php5.6，数据库mysql5.7，对接的自己二开的hybbs论坛系统（独家）。<br>
+对接：彩虹易支付，彩虹代刷网卡盟，hybbs论坛，WordPress子比主题，以及其他系统…
 <h2>功能以及界面讲解</h2>
 由于软件功能高达300种，不能全部讲解，具体请自己下载搭建查看。<br><br>
 
@@ -93,6 +94,9 @@
 2.请留版权，我谢谢你，已经申请软件著作权，侵权必究。<br>
 3.幻隐网络科技独家开发。
 <h2>软件成品下载体验</h2>
-1.复制到浏览器打开：ayjrw.cn<br>
+1.复制到浏览器打开：http://ayjrw.cn<br>
 2.找到隐Box下载！<br>
 3.直接下载注册体验即可！<br>
+
+![image](https://github.com/user-attachments/assets/8fd17b4a-958e-4c77-9751-041453973b8b)
+![image](https://github.com/user-attachments/assets/d9e67e8a-af98-4c61-b8b5-7421a57d1f76)
