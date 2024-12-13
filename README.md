@@ -1,5 +1,6 @@
 # -隐Box聚合工具箱/幻隐网络科技
 ![image](https://github.com/user-attachments/assets/c410116f-ee8f-4d33-be11-84e68f14722c)
+![image](https://github.com/user-attachments/assets/40ec139d-b56d-4a83-8046-adf6c92d1ecb)
 
 <h2>前言</h2>
 我们专注软件开发设计，本软件由本人于2018年开始创作，一直更新至今，缝合了很多功能，也有很多原创功能，当然如果你喜欢钻牛角尖，可以叫我缝合怪，无所谓！<br>以前使用了很多人的开源系统，回馈社会嘛，我懂，感谢各位支持！<br><br>
@@ -8,6 +9,9 @@
 微信公众号：幻隐网络群<br>
 论坛：bbs.ayjrw.cn <br>
 演示视频：https://mp.weixin.qq.com/s/xRkMv5MB0bz8tvaCJdh-QQ<br><br>
+
+![image](https://github.com/user-attachments/assets/e78c44ca-0009-4fd0-92ff-f34dce2e2770)
+
 一款超级多功能的App，内置自带300多款功能，例如：迷路指南、心情解压、记账助手、荣耀爆料等等实用的功能！ 特点是内存小，实用性高，可玩性强！ 用户能够通过隐Box这款APP非常轻松的查询到自己需要的小工具并使用哦，多样的查询功能提供给大家，并且这里的工具使用也很便利，有兴趣的朋友快来下载隐Box体验吧！
 
 <h2>软件架构</h2>
