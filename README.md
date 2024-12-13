@@ -1,4 +1,6 @@
 # -隐Box聚合工具箱/幻隐网络科技
+![image](https://github.com/user-attachments/assets/c410116f-ee8f-4d33-be11-84e68f14722c)
+
 <h2>前言</h2>
 我们专注软件开发设计，本软件由本人于2018年开始创作，一直更新至今，缝合了很多功能，也有很多原创功能，当然如果你喜欢钻牛角尖，可以叫我缝合怪，无所谓！<br>以前使用了很多人的开源系统，回馈社会嘛，我懂，感谢各位支持！<br><br>
 官网：www.ayjrw.cn <br>
@@ -90,5 +92,3 @@
 1.复制到浏览器打开：ayjrw.cn<br>
 2.找到隐Box下载！<br>
 3.直接下载注册体验即可！<br>
-![image](https://github.com/user-attachments/assets/d438d898-ca40-4713-b1c1-4b5dfe411fc3)<br>
-![image](https://github.com/user-attachments/assets/caee2b26-b19c-4f39-b85a-d41227c44ec2)
